@@ -1,0 +1,14 @@
+gg.alert("Lvl 65 (instant) | version 23.1.3 | never#8768")
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h F4 0F 1E F8 F3 7B 01 A9 F3 7E 02 F0 14 5E 02 B0 68 32 79 39 94 46 43 F9 C8 00 00 37 00 5E 02 B0",gg.TYPE_BYTE)
+gg.getResults(gg.getResultCount())
+gg.editAll("h A0 F0 8F 52 C0 03 5F D6",gg.TYPE_BYTE)
+gg.clearResults()
+gg.alert("Now play a game!!") 
+gg.toast("Have fun!!")
+
+
+
+

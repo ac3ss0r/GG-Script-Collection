@@ -1,0 +1,5 @@
+gg.alert('Script is Updated by Fleary#2803')
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber('h F3 7B BF A9 F3 03 00 AA E7 FF FF 97 E0 00 00 36', gg.TYPE_BYTE)
+gg.getResults(8)
+gg.editAll('h 20 00 80 52 C0 03 5F D6', gg.TYPE_BYTE)

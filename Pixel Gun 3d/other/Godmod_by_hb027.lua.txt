@@ -1,0 +1,7 @@
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber("h002041BDC0035FD6002001BDC0035FD6", gg.TYPE_BYTE)
+gg.getResults(100000)
+gg.editAll("hDCOFOFE31EFF2FE1", gg.TYPE_BYTE)
+gg.alert("god mod On")
+gg.clearResults()

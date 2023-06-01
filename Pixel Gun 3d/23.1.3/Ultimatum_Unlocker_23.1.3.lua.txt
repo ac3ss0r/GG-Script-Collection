@@ -1,0 +1,6 @@
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("177168788", gg.TYPE_DWORD)
+gg.getResults(gg.getResultsCount() - 1)
+gg.editAll("1",gg.TYPE_DWORD)
+gg.clearResults()
+gg.alert("Refresh Your Armoury. if it doesn't appear. Restart your Game.")

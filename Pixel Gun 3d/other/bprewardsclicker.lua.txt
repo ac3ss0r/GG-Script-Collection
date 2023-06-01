@@ -1,0 +1,17 @@
+hex = "F5 53 BE A9 F3 7B 01 A9 95 5F 01 B0 A8 02 53 39 F3 03 01 2A F4 03 00 AA C8 00 00 37 80 3B 01 B0 00 E8 40 F9 6D 10 4C 97 28 00 80 52 A8 02 13 39 94 36 40 F9 E0 03 13 2A E1 03 1F AA CF A4 FD 97"
+
+gg.alert("Script made by SoSgAmEr7890#2052. Feel free to contact me on discord!")
+
+menu = gg.choice({"Start","EXIT"},nil,"Made by SoSgAmEr7890#2052")
+
+if menu == 2 then
+end
+
+if menu == 1 then
+    
+    gg.setRanges(gg.REGION_CODE_APP)
+
+gg.searchNumber("h " .. hex, gg.TYPE_BYTE)
+gg.getResults(8)
+gg.editAll("h 00008052C0035FD6", gg.TYPE_BYTE)
+end

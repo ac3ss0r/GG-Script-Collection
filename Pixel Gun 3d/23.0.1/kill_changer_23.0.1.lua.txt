@@ -1,0 +1,9 @@
+
+gg.alert("player kill stat in round changer")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber("h 01 58 01 B9 C0 03 5F D6 00 50 40 F9 C0 03 5F D6", gg.TYPE_BYTE)
+gg.getResults(100000)
+gg.editAll("h 60 0C 80 52 C0 03 5F D6", gg.TYPE_BYTE)
+gg.alert("Done")
+gg.clearResults()

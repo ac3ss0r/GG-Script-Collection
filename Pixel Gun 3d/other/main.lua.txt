@@ -1,0 +1,3 @@
+gg.searchNumber("h 68 D2 6C 39 94 3A 43 F9 C8 00 00 37 A0 62 02 B0 00 38 43 F9 B8 0B D9 97 28 00 80 52 68 D2 2C 39", gg.TYPE_BYTE)
+gg.getResults(500)
+gg.editAll("h 00 E0 AF D2 C0 03 5F D6", gg.TYPE_BYTE)

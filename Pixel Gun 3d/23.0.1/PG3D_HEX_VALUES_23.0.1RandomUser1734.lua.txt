@@ -1,0 +1,63 @@
+--[[
+health_for_bot : h E8 0F 1D FC F5 53 01 A9 F3 7B 02 A9 35 63 01 D0
+--]]
+--[[
+health_for_mob h 23 BB 6D F8 0B 00 F9 F7 5B 02 A9 F5 53 03 A9 F3 7B 04 A9 95 55 01 90
+--]]
+--[[
+mob_damage_to_player: h F5 53 BE A9 F3 7B 01 A9 94 55 01 90 88 46 4C 39
+--]]
+--[[
+radius_mob_range: h FE 0F 1F F8 5D FD FF 97 60 00 00 B4 00 28 40 BD
+--]]
+--[[
+mob_walkspeed : h FE 0F 1F F8 55 FD FF 97 60 00 00 B4 00 38 40 BD
+--]]
+--[[
+mob_durability: h F5 53 BE A9 F3 7B 01 A9 74 55 01 F0 88 56 4C 39
+--]]
+--[[
+Upgrade_Time: h F4 0F 1E F8 F3 7B 01 A9
+--]]
+--[[
+Mobs_Can_Attack_Player:  
+Search: h E0 03 1F 2A C0 03 5F D6 F4 0F 1E F8 F3 7B 01 A9
+Edit: h 00 00 80 D2 C0 03 5F D6
+--]]
+--[[
+Mobs_Are_Attacking: h F4 0F 1E F8 F3 7B 01 A9 08 AC 40 F9 88 00 00 B4
+--]]
+--[[
+Max_Ammo: h 65 7F 2C 97 E9 23 BC 6D F6 0B 00 F9 F5 53 02 A9
+--]]
+--[[
+Ammo_reload_speed: h F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 14 18 02 D0
+--]]
+--[[
+damage_to_other: h EB 2B BA 6D E9 23 01 6D F8 13 00 F9 F7 5B 03 A9 F5 53 04 A9 F3 7B 05 A9
+--]]
+--[[
+Attacking_speed : h 00 9C 40 BD C0 03 5F D6 00 9C 00 BD C0 03 5F D6 00 20 41 BD C0 03 5F D6
+--]]
+--[[
+Attack_range: h 00 98 40 BD C0 03 5F D6 00 98 00 BD C0 03 5F D6 00 08 41 BD C0 03 5F D6
+--]]
+--[[
+Fast_bullets: h 00 40 43 BD C0 03 5F D6 00 40 03 BD C0 03 5F D6 FF C3 02 D1 E8 23 00 FD
+--]]
+--[[
+Walk_speed: h 99 BE DA 97 08 28 48 39 68 00 00 34 00 9C 42 BD CF FF FF 17 00 48 41 BD
+--]]
+--[[
+damage_other2: h 00 18 43 BD C0 03 5F D6 00 18 03 BD C0 03 5F D6 00 90 41 F9 C0 03 5F D6
+--]]
+--[[
+FireRate: h ED D6 25 97 F4 0F 1E F8 F3 7B 01 A9 F4 13 01 D0 88 A2 61 39 F3 03 00 AA
+edit it to 150 with hex
+--]]
+
+
+
+
+--RandomUser#1734
+--Didnt test(Dont be mad at me)

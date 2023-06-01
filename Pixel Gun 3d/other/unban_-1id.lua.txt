@@ -1,0 +1,9 @@
+gg.alert("made by user.x#2145")
+choice = gg.choice({"-1", "Unban"}, nil, "Choose an option:")
+if choice == 1 then
+  gg.alert("-1 ID granted")
+elseif choice == 2 then
+  gg.alert("Unbanned")
+else
+  gg.alert("Invalid choice")
+end

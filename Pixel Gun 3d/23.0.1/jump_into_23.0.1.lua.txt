@@ -1,0 +1,9 @@
+gg.setRanges(gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber("h 08 18 40 B9 1F 11 00 71 E0 27 9F 1A C0 03 5F D6 F4 0F 1E F8 F3 7B 01 A9", gg.TYPE_BYTE)
+gg.getResults(100000)
+gg.editAll("h 01 00 A0 E3 1E FF 2F E1", gg.TYPE_BYTE)
+gg.alert("Jump into objects On")
+gg.clearResults()
+
+-- hb027 credits to RandomUser#1734

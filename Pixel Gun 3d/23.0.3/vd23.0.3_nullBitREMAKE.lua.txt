@@ -1,0 +1,31 @@
+function vdPatch(patch)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.setVisible(false)
+    gg.searchNumber("h 00 A0 00 91 E1 03 1F AA 1B 36 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 F5 DE 01 D0 B4 BA 01 B0", gg.TYPE_BYTE)
+    gg.getResults(8)
+    gg.editAll("h ".. patch, gg.TYPE_BYTE)
+end
+
+function menu()
+     ch = gg.choice({ "patch to 1000 default (safe)", "custom patch", 
+     	"exit"} , nil, "Select mode")
+     	if ch == 1 then 
+     	    vdPatch("007D80D2C0035FD6")
+    	        	    print("Patch applied")
+     	    os.exit()
+     	end
+     	if ch == 2 then
+     	    hex = gg.prompt( {"Put your hex patch ex. 00 7F A1 ..."}, nil, {'text'})
+          vdPatch(hex)
+          print("Patch applied")
+          os.exit()
+     	end
+     	if ch == 3 then
+     	    print("You ended the script")
+     	    os.exit()
+     	end
+end
+      
+menu()     	    
+

@@ -1,0 +1,24 @@
+
+----AntiBan // PG3D 23.0.1
+
+gg.setVisible(false)
+gg.alert("Run the script if its the same ID run it it twice or 3 times it depends it worked for me after 2 tries")
+local menu = gg.choice({"With ID"},nil,"PG3D AntiBan Script")
+function ra()
+range=gg.REGION_ANONYMOUS
+end
+function cl()
+clear=gg.clearResults()
+end
+function re()
+results=gg.getResults(1000)
+end
+if menu == 1 then
+    ra()
+    cl()
+    local q = gg.prompt({"Input ID"},nil,{'number'})
+    gg.searchNumber(";"..q[1], gg.TYPE_WORD)
+    re()
+    gg.editAll("0", gg.TYPE_WORD)
+    cl()
+    gg.alert("Look at your ID. If your ID is Invisible you did everything right)") end

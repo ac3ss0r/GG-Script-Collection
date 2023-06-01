@@ -1,0 +1,14 @@
+menu = gg.choice({"UNLOCK WEAR"}, nil, "Wear Script Made By BoredKarma#0001")
+
+if menu==1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP) -- offset 0x2554AA0 edited to 300
+	gg.searchNumber("h F5 53 BE A9 F3 7B 01 A9 74 2F 02 D0 15 0C 02 B0 88 B2 71 39 B5 CE 42 F9 F3 03 00 AA 28 01 00 37", gg.TYPE_BYTE)
+	gg.getResults(8)
+	gg.editAll("h 80 25 80 52 C0 03 5F D6 74 2F 02 D0 15 0C 02 B0 88 B2 71 39 B5 CE 42 F9 F3 03 00 AA 28 01 00 37", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP) -- offset 0x2F82A40 edited to 1079
+	gg.searchNumber("h FF 43 01 D1 F6 13 00 F9 F5 53 03 A9 F3 7B 04 A9 35 DE 01 B0 F6 BA 01 B0 A8 C2 68 39 D6 06 40 F9", gg.TYPE_BYTE)
+	gg.getResults(8)
+	gg.editAll("h E0 86 80 52 C0 03 5F D6 F5 53 03 A9 F3 7B 04 A9 35 DE 01 B0 F6 BA 01 B0 A8 C2 68 39 D6 06 40 F9", gg.TYPE_BYTE)
+end

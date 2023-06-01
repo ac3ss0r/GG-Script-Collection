@@ -1,0 +1,4 @@
+id = gg.prompt({"Type in the your id"}, {[1] = ''}, {[1] = 'text'})
+
+gg.searchNumber(id, gg.TYPE_DWORD)
+gg.editAll('-1', gg.TYPE_DWORD)

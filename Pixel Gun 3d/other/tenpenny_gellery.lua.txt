@@ -1,0 +1,6 @@
+gg.toast("made by tenpenny")
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h 00 50 01 91 E1 03 1F AA 33 21 57 14 F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 F5 03 01 2A E1 03 1F AA F3 03 03 2A", gg.TYPE_BYTE)
+gg.getResults(100)
+gg.editAll("h 00 7D 80 D2 C0 03 5F D6 00 50 01 91 E1 03 1F AA 33 21 57 14 F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 F5 03 01 2A", gg.TYPE_BYTE)
+print("discord : tenpenny .#2551")

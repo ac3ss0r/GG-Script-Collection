@@ -1,0 +1,12 @@
+gg.alert(ultimatum unlocker by user.x#2145, "Cancel", "Unlock Ultimatum")
+local choice = gg.choice({ "Cancel", "Unlock Ultimatum" }, nil, "Do you want to unlock Ultimatum?")
+if choice == 2 then
+  gg.alert("Please make sure Xa region and Anonymous are enabled.")
+  gg.searchNumber("177168788", gg.TYPE_DWORD)
+  gg.getResults(1)
+  gg.editAll("1", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.alert("Ultimatum has been unlocked!")
+else
+  gg.alert("idk why i put cancel")
+end

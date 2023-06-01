@@ -1,0 +1,2 @@
+gg.searchNumber("280", gg.TYPE_FLOAT)
+gg.editAll("1", gg.TYPE_FLOAT)

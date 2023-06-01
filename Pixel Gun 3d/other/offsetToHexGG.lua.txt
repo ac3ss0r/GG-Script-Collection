@@ -1,0 +1,88 @@
+local cho = gg.choice
+local mcho = gg.multiChoice
+local pr = gg.prompt
+local grc = gg.pairResultCount
+local ali = gg.addListItems
+local rr = gg.removeResults
+local sn = gg.searchNumber
+local ed = gg.editAll
+local gr = gg.pairResults
+local al = gg.alert
+local to = gg.toast
+local gr = gg.getResults
+local iv = gg.isVisible
+local sv = gg.setVisible
+
+--[[
+
+PULSED DOCUMENTATIONS AND TIPS
+
+General:
+this is a small only-purpose tool used to turn offsets to any amounts of hex desired via libxxxxxx.so
+
+Concept:
+it opens the libxxxxxx.so in bytes (rb), and uses the inputted offset to seek its position in the lib and turn it into hex via type conversion(s)
+
+How to use (H2U):
+- put desired lib in the dir of this script
+- run script
+- select the only option there is 💀
+- enter the name of the lib alongside its extension. ex: libil2cpp.so
+- enter offset with the "0x" at the beginning. ex: 0x2F87D98 (outdated offset)
+- enter a reasonable hex amount. ex: 32
+- it will print the hex, just click copy and trim out the excess text
+
+
+
+Tips:
+Do NOT try to be "smart", by that i mean:
+ - dont put invalid offsets that arent found in the lib or it'll throw a bunch of unnecessary errors
+ - dont put a incredibly huge number in the "bytes of hex" query in the prompt or it'll lag or throw a bunch of unnecessary errors
+
+{---------------------------------------}
+
+TRY to be "smart", and by that i mean:
+ - place the lib in the directory of this current script and enter its exact name in the "lib name" query in the prompt alongside its extension (.so)
+ - enter a valid offset that is actually contained in the lib
+ - enter a reasonable amount in the "bytes of hex" query in the prompt (32 or 64 bytes are reccomended for speed efficiency and general purpose hex patches)
+
+Notes:
+always enter offsets with the "0x" at the beginning so it is automatically converted into a number
+always enter the lib name along with the ".so" extension at the end
+always choose a reasonable hex amount (32 or 64 is acceptable)
+--]]
+
+
+
+function success(hexam, offset, hex)
+    print("[SUCCESS] - The " .. hexam .. "-byte hex for " .. offset .. " is: " .. hex)
+    os.exit()
+end
+
+function hexifyBytes(bytes)
+    return string.gsub(bytes, ".", function(byte)
+        return string.format("%02x", string.byte(byte))
+    end
+    )
+end
+
+local m = cho({
+	"Offset to hex via libil2cpp.so"
+}, nil, "Made by Pulsed")
+
+if m then
+    readbytes = "rb"
+    seek = "set"
+    data = pr({
+    	"libil2cpp.so file name (in current dir)",
+        "Offset",
+        "Bytes of hex"
+       },
+       {[1] = "libil2cpp.so", [2] = 0x, [3] = 32},
+       {[1] = "text", [2] = "number", [3] = "number"}
+       )
+   lib = io.open(data[1], readbytes)
+   lib:seek(seek, data[2])
+   bytes = hexifyBytes(lib:read(tonumber(data[3])))
+   success(data[3], data[2], string.upper(bytes))
+end -- m end

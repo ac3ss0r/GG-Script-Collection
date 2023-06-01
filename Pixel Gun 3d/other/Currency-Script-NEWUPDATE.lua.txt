@@ -1,0 +1,9 @@
+gg.alert ('script made by fikfap#7881 (pls don’t leak or show to anybody else)')
+menu=gg.choice ({'inf silver (0.00000000001% chance of getting banned)'},nil,'restart game after used')
+if menu==1 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber ('280',gg.TYPE_FLOAT)
+gg.getResults(100)
+gg.editAll('1',gg.TYPE_FLOAT)
+gg.clearResults(100)
+end

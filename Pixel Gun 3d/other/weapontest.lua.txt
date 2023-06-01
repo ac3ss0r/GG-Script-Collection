@@ -1,0 +1,19 @@
+gg.alert("Weapon unlocker by 2lJuggerl2#0737")
+
+menu = gg.choice({"Unlock something","exit"},nil,"???")
+
+if menu == 2 then
+end
+
+if menu == 1 then
+
+choice1 = gg.choice({"weaponhackz","exit"},nil,"???") end
+if choice1 == 2 then
+end
+
+if choice1 == 1 then
+prompt1 = gg.prompt ({"type weapon id"},nil,{[1]='number'})
+gg.searchNumber (prompt1[1],gg.TYPE_DWORD)
+gg.getResults(3)
+gg.editAll("1",gg.TYPE_DWORD)
+end

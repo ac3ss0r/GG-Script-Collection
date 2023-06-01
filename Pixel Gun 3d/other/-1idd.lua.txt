@@ -1,0 +1,8 @@
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber (1*20*10+45+30+5, 16)
+count = gg.getResultCount()
+results = gg.getResults(count)
+for i = 1, count, 1 do
+    results[i].value = 1202-106-97+6-1004
+end
+gg.setValues(results)

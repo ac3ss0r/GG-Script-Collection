@@ -1,0 +1,2 @@
+local b = gg.getTargetInfo()
+print(b.x64)

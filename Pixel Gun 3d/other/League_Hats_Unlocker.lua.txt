@@ -1,0 +1,49 @@
+-- very shit
+-- by kyh
+-- fuck yeah
+function wait_for_action()
+    gg.setVisible(false)
+    while true do
+        if gg.isVisible() then
+            break
+        end
+		
+        gg.sleep(300)
+    end
+    gg.setVisible(false)
+	gg.toast("Values Reversed, its now safe to buy.")
+end
+
+function unlock_hat(word)
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.clearList()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(";" .. word, gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	count = gg.getResultCount()
+	gg.addListItems(gg.getResults(count))
+	revert = gg.getListItems(count)
+    gg.getListItems(count)
+    gg.editAll(0, gg.TYPE_WORD)
+    gg.alert("Select your hat, then click the gameguardian icon.")
+    wait_for_action()
+    gg.setValues(revert)
+    gg.clearResults()
+	gg.clearList()
+end
+
+function main_menu()
+	hats = {"tiara", "brain", "mushroom", "afro", "cowboy"}
+	menu = gg.choice({"Burning Tiara", "Evil Brain", "Mushroom Hat", "Afro", "Cowboy Hat"})
+	
+	i = 0
+	while not (i == #hats) do
+		i = i + 1
+		
+		if menu == i then
+			unlock_hat(hats[i])
+		end
+	end
+end
+
+main_menu()

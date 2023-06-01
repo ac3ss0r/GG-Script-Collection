@@ -1,0 +1,10000 @@
+Item Record ID: 687026
+
+
+Name: Champion_Solar_Cannon
+Item Record ID: 688001
+
+
+Name: avatar_security_circle
+Item Record ID: 688005
+
+
+Name: Champion_Solar_Cannon
+Item Record ID: 688025
+
+
+Name: Champion_Solar_Cannon
+Item Record ID: 688026
+
+
+Name: Adamant_Bomber
+Item Record ID: 689001
+
+
+Name: avatar_security_square
+Item Record ID: 689005
+
+
+Name: Adamant_Bomber
+Item Record ID: 689025
+
+
+Name: Adamant_Bomber
+Item Record ID: 689026
+
+
+Name: sharp_snowflake
+Item Record ID: 690001
+
+
+Name: avatar_security_triangle
+Item Record ID: 690005
+
+
+Name: sharp_snowflake
+Item Record ID: 690025
+
+
+Name: sharp_snowflake
+Item Record ID: 690026
+
+
+Name: little_cthulhu
+Item Record ID: 691001
+
+
+Name: glider_tamed_zombolisk
+Item Record ID: 691005
+
+
+Name: little_cthulhu
+Item Record ID: 691025
+
+
+Name: little_cthulhu
+Item Record ID: 691026
+
+
+Name: magicbook_curse_spell
+Item Record ID: 692001
+
+
+Name: helicopter_military
+Item Record ID: 692005
+
+
+Name: magicbook_curse_spell
+Item Record ID: 692025
+
+
+Name: magicbook_curse_spell
+Item Record ID: 692026
+
+
+Name: airblade_spell
+Item Record ID: 693001
+
+
+Name: avatar_ice_lich_king
+Item Record ID: 693005
+
+
+Name: airblade_spell
+Item Record ID: 693025
+
+
+Name: airblade_spell
+Item Record ID: 693026
+
+
+Name: magicbook_poison_spell
+Item Record ID: 694001
+
+
+Name: magicbook_poison_spell
+Item Record ID: 694025
+
+
+Name: magicbook_poison_spell
+Item Record ID: 694026
+
+
+Name: magicbook_earth_spikes_spell
+Item Record ID: 695001
+
+
+Name: magicbook_earth_spikes_spell
+Item Record ID: 695025
+
+
+Name: magicbook_earth_spikes_spell
+Item Record ID: 695026
+
+
+Name: magicbook_shadow_spell
+Item Record ID: 696001
+
+
+Name: mirrored_night_trail
+Item Record ID: 696005
+
+
+Name: magicbook_shadow_spell
+Item Record ID: 696025
+
+
+Name: magicbook_shadow_spell
+Item Record ID: 696026
+
+
+Name: Dragon_King
+Item Record ID: 697001
+
+
+Name: avatar_divided_santa
+Item Record ID: 697005
+
+
+Name: Dragon_King
+Item Record ID: 697025
+
+
+Name: Dragon_King
+Item Record ID: 697026
+
+
+Name: angry_pumpkin
+Item Record ID: 698001
+
+
+Name: avatar_wildwood_creature
+Item Record ID: 698005
+
+
+Name: angry_pumpkin
+Item Record ID: 698025
+
+
+Name: angry_pumpkin
+Item Record ID: 698026
+
+
+Name: Steam_Knuckes
+Item Record ID: 699001
+
+
+Name: hare_firefly_trail
+Item Record ID: 699005
+
+
+Name: Steam_Knuckes
+Item Record ID: 699025
+
+
+Name: Steam_Knuckes
+Item Record ID: 699026
+
+
+Name: electro_blast_pistol
+Item Record ID: 700001
+
+
+Name: avatar_mystical_fairy
+Item Record ID: 700005
+
+
+Name: electro_blast_pistol
+Item Record ID: 700025
+
+
+Name: electro_blast_pistol
+Item Record ID: 700026
+
+
+Name: wyvern_sniper
+Item Record ID: 701001
+
+
+Name: avatar_the_mirror
+Item Record ID: 701005
+
+
+Name: wyvern_sniper
+Item Record ID: 701025
+
+
+Name: wyvern_sniper
+Item Record ID: 701026
+
+
+Name: hero
+Item Record ID: 702001
+
+
+Name: avatar_forest_guardian
+Item Record ID: 702005
+
+
+Name: hero
+Item Record ID: 702025
+
+
+Name: hero
+Item Record ID: 702026
+
+
+Name: sly_avenger
+Item Record ID: 703001
+
+
+Name: avatar_summoned_snowman
+Item Record ID: 703005
+
+
+Name: sly_avenger
+Item Record ID: 703025
+
+
+Name: sly_avenger
+Item Record ID: 703026
+
+
+Name: bright_reflector
+Item Record ID: 704001
+
+
+Name: avarar_krampus_elf
+Item Record ID: 704005
+
+
+Name: bright_reflector
+Item Record ID: 704025
+
+
+Name: bright_reflector
+Item Record ID: 704026
+
+
+Name: sakura
+Item Record ID: 705001
+
+
+Name: avatar_dazzling_moth
+Item Record ID: 705005
+
+
+Name: sakura
+Item Record ID: 705025
+
+
+Name: sakura
+Item Record ID: 705026
+
+
+Name: deadly_beat
+Item Record ID: 706001
+
+
+Name: avatar_dazzling_sage
+Item Record ID: 706005
+
+
+Name: deadly_beat
+Item Record ID: 706025
+
+
+Name: deadly_beat
+Item Record ID: 706026
+
+
+Name: killer_whale
+Item Record ID: 707001
+
+
+Name: royale_car_santas_autonomic_sleigh
+Item Record ID: 707005
+
+
+Name: killer_whale
+Item Record ID: 707025
+
+
+Name: killer_whale
+Item Record ID: 707026
+
+
+Name: renegade
+Item Record ID: 708001
+
+
+Name: avatar_krampus_elf
+Item Record ID: 708005
+
+
+Name: renegade
+Item Record ID: 708025
+
+
+Name: renegade
+Item Record ID: 708026
+
+
+Name: demon_sword
+Item Record ID: 709001
+
+
+Name: glider_cristmas_keeper
+Item Record ID: 709005
+
+
+Name: demon_sword
+Item Record ID: 709025
+
+
+Name: demon_sword
+Item Record ID: 709026
+
+
+Name: bolters2
+Item Record ID: 710001
+
+
+Name: royale_snowmobile_freeplay
+Item Record ID: 710005
+
+
+Name: bolters2
+Item Record ID: 710025
+
+
+Name: bolters2
+Item Record ID: 710026
+
+
+Name: Stormtrooper_Exoskeleton
+Item Record ID: 711001
+
+
+Name: glider_butterfly_of_light
+Item Record ID: 711005
+
+
+Name: Stormtrooper_Exoskeleton
+Item Record ID: 711025
+
+
+Name: Stormtrooper_Exoskeleton
+Item Record ID: 711026
+
+
+Name: Sniper_Exoskeleton
+Item Record ID: 712001
+
+
+Name: royale_car_mysterious_carriage
+Item Record ID: 712005
+
+
+Name: Sniper_Exoskeleton
+Item Record ID: 712025
+
+
+Name: Sniper_Exoskeleton
+Item Record ID: 712026
+
+
+Name: demolition_exosceleton
+Item Record ID: 713001
+
+
+Name: glider_reality_border
+Item Record ID: 713005
+
+
+Name: demolition_exosceleton
+Item Record ID: 713025
+
+
+Name: demolition_exosceleton
+Item Record ID: 713026
+
+
+Name: hitman_exoskeleton
+Item Record ID: 714001
+
+
+Name: fps_all_terrain_vehicle
+Item Record ID: 714005
+
+
+Name: hitman_exoskeleton
+Item Record ID: 714025
+
+
+Name: hitman_exoskeleton
+Item Record ID: 714026
+
+
+Name: berserk_exoskeleton
+Item Record ID: 715001
+
+
+Name: avatar_deft_shinobi
+Item Record ID: 715005
+
+
+Name: berserk_exoskeleton
+Item Record ID: 715025
+
+
+Name: berserk_exoskeleton
+Item Record ID: 715026
+
+
+Name: engineer_exoskeleton
+Item Record ID: 716001
+
+
+Name: avatar_red_pan_dah
+Item Record ID: 716005
+
+
+Name: engineer_exoskeleton
+Item Record ID: 716025
+
+
+Name: engineer_exoskeleton
+Item Record ID: 716026
+
+
+Name: death_claws
+Item Record ID: 717001
+
+
+Name: avatar_wise_shogun
+Item Record ID: 717005
+
+
+Name: death_claws
+Item Record ID: 717025
+
+
+Name: death_claws
+Item Record ID: 717026
+
+
+Name: Eva
+Item Record ID: 718001
+
+
+Name: avatar_elementals_challenger
+Item Record ID: 718005
+
+
+Name: Eva
+Item Record ID: 718025
+
+
+Name: Eva
+Item Record ID: 718026
+
+
+Name: space_desinsector
+Item Record ID: 719001
+
+
+Name: avatar_mighty_shaman
+Item Record ID: 719005
+
+
+Name: space_desinsector
+Item Record ID: 719025
+
+
+Name: space_desinsector
+Item Record ID: 719026
+
+
+Name: mega_gun
+Item Record ID: 720001
+
+
+Name: shamanic_symbols_trail
+Item Record ID: 720005
+
+
+Name: mega_gun
+Item Record ID: 720025
+
+
+Name: mega_gun
+Item Record ID: 720026
+
+
+Name: laser_revolver
+Item Record ID: 721001
+
+
+Name: laser_revolver
+Item Record ID: 721025
+
+
+Name: laser_revolver
+Item Record ID: 721026
+
+
+Name: Sword_and_Shield
+Item Record ID: 722001
+
+
+Name: sakura_flowers_trail
+Item Record ID: 722005
+
+
+Name: Sword_and_Shield
+Item Record ID: 722025
+
+
+Name: Sword_and_Shield
+Item Record ID: 722026
+
+
+Name: last_samurai
+Item Record ID: 723001
+
+
+Name: glider_handmade
+Item Record ID: 723005
+
+
+Name: last_samurai
+Item Record ID: 723025
+
+
+Name: last_samurai
+Item Record ID: 723026
+
+
+Name: manga_gun
+Item Record ID: 724001
+
+
+Name: glider_tranquility_stone
+Item Record ID: 724005
+
+
+Name: manga_gun
+Item Record ID: 724025
+
+
+Name: manga_gun
+Item Record ID: 724026
+
+
+Name: anime_schtye
+Item Record ID: 725001
+
+
+Name: avatar_inquisitive_scientists
+Item Record ID: 725005
+
+
+Name: anime_schtye
+Item Record ID: 725025
+
+
+Name: anime_schtye
+Item Record ID: 725026
+
+
+Name: nitrogen_spreader
+Item Record ID: 726001
+
+
+Name: royale_car_village_keeper
+Item Record ID: 726005
+
+
+Name: nitrogen_spreader
+Item Record ID: 726025
+
+
+Name: nitrogen_spreader
+Item Record ID: 726026
+
+
+Name: future_police_rifle
+Item Record ID: 727001
+
+
+Name: avatar_armed_assistant
+Item Record ID: 727005
+
+
+Name: future_police_rifle
+Item Record ID: 727025
+
+
+Name: future_police_rifle
+Item Record ID: 727026
+
+
+Name: stakegun
+Item Record ID: 728001
+
+
+Name: glider_ancient_dragon_spirit
+Item Record ID: 728005
+
+
+Name: stakegun
+Item Record ID: 728025
+
+
+Name: stakegun
+Item Record ID: 728026
+
+
+Name: alive_blaster
+Item Record ID: 729001
+
+
+Name: royale_car_floating_water_lily
+Item Record ID: 729005
+
+
+Name: alive_blaster
+Item Record ID: 729025
+
+
+Name: alive_blaster
+Item Record ID: 729026
+
+
+Name: plasma_cutter
+Item Record ID: 730001
+
+
+Name: avatar_storms_overlord
+Item Record ID: 730005
+
+
+Name: plasma_cutter
+Item Record ID: 730025
+
+
+Name: plasma_cutter
+Item Record ID: 730026
+
+
+Name: good_doctor
+Item Record ID: 731001
+
+
+Name: glider_loaded_koi
+Item Record ID: 731005
+
+
+Name: good_doctor
+Item Record ID: 731025
+
+
+Name: good_doctor
+Item Record ID: 731026
+
+
+Name: devastator
+Item Record ID: 732001
+
+
+Name: super_bowl_player
+Item Record ID: 732005
+
+
+Name: devastator
+Item Record ID: 732025
+
+
+Name: devastator
+Item Record ID: 732026
+
+
+Name: supercharged_rifle
+Item Record ID: 733001
+
+
+Name: avatar_super_bowl_player
+Item Record ID: 733005
+
+
+Name: supercharged_rifle
+Item Record ID: 733025
+
+
+Name: supercharged_rifle
+Item Record ID: 733026
+
+
+Name: archangel
+Item Record ID: 734001
+
+
+Name: archangel
+Item Record ID: 734025
+
+
+Name: archangel
+Item Record ID: 734026
+
+
+Name: manticore
+Item Record ID: 735001
+
+
+Name: manticore
+Item Record ID: 735025
+
+
+Name: manticore
+Item Record ID: 735026
+
+
+Name: soul_thief
+Item Record ID: 736001
+
+
+Name: royale_amphibian
+Item Record ID: 736005
+
+
+Name: soul_thief
+Item Record ID: 736025
+
+
+Name: soul_thief
+Item Record ID: 736026
+
+
+Name: multitaskers
+Item Record ID: 737001
+
+
+Name: multitaskers
+Item Record ID: 737025
+
+
+Name: multitaskers
+Item Record ID: 737026
+
+
+Name: yin_yang
+Item Record ID: 738001
+
+
+Name: avatar_aliens_executioner
+Item Record ID: 738005
+
+
+Name: yin_yang
+Item Record ID: 738025
+
+
+Name: yin_yang
+Item Record ID: 738026
+
+
+Name: last_hope
+Item Record ID: 739001
+
+
+Name: executed_aliens_storage_trail
+Item Record ID: 739005
+
+
+Name: last_hope
+Item Record ID: 739025
+
+
+Name: last_hope
+Item Record ID: 739026
+
+
+Name: pg_is_love_trail
+Item Record ID: 740005
+
+
+Name: Jet_hammer
+Item Record ID: 741001
+
+
+Name: avatar_good_ol_bomber
+Item Record ID: 741005
+
+
+Name: Jet_hammer
+Item Record ID: 741025
+
+
+Name: Jet_hammer
+Item Record ID: 741026
+
+
+Name: avatar_bubble_queen
+Item Record ID: 742005
+
+
+Name: energy_drill
+Item Record ID: 743001
+
+
+Name: avatar_royal_confidant
+Item Record ID: 743005
+
+
+Name: energy_drill
+Item Record ID: 743025
+
+
+Name: energy_drill
+Item Record ID: 743026
+
+
+Name: Spender
+Item Record ID: 744001
+
+
+Name: avatar_the_chosen_one
+Item Record ID: 744005
+
+
+Name: Spender
+Item Record ID: 744025
+
+
+Name: Spender
+Item Record ID: 744026
+
+
+Name: graviton
+Item Record ID: 745001
+
+
+Name: avatar_the_empress
+Item Record ID: 745005
+
+
+Name: graviton
+Item Record ID: 745025
+
+
+Name: graviton
+Item Record ID: 745026
+
+
+Name: acid_pistol
+Item Record ID: 746001
+
+
+Name: royale_car_all_terrain_tank
+Item Record ID: 746005
+
+
+Name: acid_pistol
+Item Record ID: 746025
+
+
+Name: acid_pistol
+Item Record ID: 746026
+
+
+Name: Rhino
+Item Record ID: 747001
+
+
+Name: glider_extraterrestrial_hoverboard
+Item Record ID: 747005
+
+
+Name: Rhino
+Item Record ID: 747025
+
+
+Name: Rhino
+Item Record ID: 747026
+
+
+Name: antique_pistol
+Item Record ID: 748001
+
+
+Name: glider_executers_high_end
+Item Record ID: 748005
+
+
+Name: antique_pistol
+Item Record ID: 748025
+
+
+Name: antique_pistol
+Item Record ID: 748026
+
+
+Name: lava_thrower
+Item Record ID: 749001
+
+
+Name: glider_good_ol_plane
+Item Record ID: 749005
+
+
+Name: lava_thrower
+Item Record ID: 749025
+
+
+Name: lava_thrower
+Item Record ID: 749026
+
+
+Name: Inventors_Rifle
+Item Record ID: 750001
+
+
+Name: Inventors_Rifle
+Item Record ID: 750025
+
+
+Name: Inventors_Rifle
+Item Record ID: 750026
+
+
+Name: vandals
+Item Record ID: 751001
+
+
+Name: vandals
+Item Record ID: 751025
+
+
+Name: vandals
+Item Record ID: 751026
+
+
+Name: revolver_sniper_rifle
+Item Record ID: 752001
+
+
+Name: revolver_sniper_rifle
+Item Record ID: 752025
+
+
+Name: revolver_sniper_rifle
+Item Record ID: 752026
+
+
+Name: captain
+Item Record ID: 753001
+
+
+Name: captain
+Item Record ID: 753025
+
+
+Name: captain
+Item Record ID: 753026
+
+
+Name: void_energy_pistol
+Item Record ID: 754001
+
+
+Name: void_energy_pistol
+Item Record ID: 754025
+
+
+Name: void_energy_pistol
+Item Record ID: 754026
+
+
+Name: destruction_system
+Item Record ID: 755001
+
+
+Name: destruction_system
+Item Record ID: 755025
+
+
+Name: destruction_system
+Item Record ID: 755026
+
+
+Name: circus_cannon
+Item Record ID: 756001
+
+
+Name: circus_cannon
+Item Record ID: 756025
+
+
+Name: circus_cannon
+Item Record ID: 756026
+
+
+Name: military_grenade_launcher
+Item Record ID: 757001
+
+
+Name: military_grenade_launcher
+Item Record ID: 757025
+
+
+Name: military_grenade_launcher
+Item Record ID: 757026
+
+
+Name: cyborg_hands
+Item Record ID: 759001
+
+
+Name: cyborg_hands
+Item Record ID: 759025
+
+
+Name: cyborg_hands
+Item Record ID: 759026
+
+
+Name: ritual_blade
+Item Record ID: 760001
+
+
+Name: ritual_blade
+Item Record ID: 760025
+
+
+Name: ritual_blade
+Item Record ID: 760026
+
+
+Name: tactical_rifle
+Item Record ID: 761001
+
+
+Name: tactical_rifle
+Item Record ID: 761025
+
+
+Name: tactical_rifle
+Item Record ID: 761026
+
+
+Name: sparkling_eel
+Item Record ID: 762001
+
+
+Name: sparkling_eel
+Item Record ID: 762025
+
+
+Name: sparkling_eel
+Item Record ID: 762026
+
+
+Name: alien_sniper_rifle
+Item Record ID: 763001
+
+
+Name: alien_sniper_rifle
+Item Record ID: 763025
+
+
+Name: alien_sniper_rifle
+Item Record ID: 763026
+
+
+Name: neutralizer
+Item Record ID: 764001
+
+
+Name: neutralizer
+Item Record ID: 764025
+
+
+Name: neutralizer
+Item Record ID: 764026
+
+
+Name: bone_sniper_rifle
+Item Record ID: 766001
+
+
+Name: bone_sniper_rifle
+Item Record ID: 766025
+
+
+Name: bone_sniper_rifle
+Item Record ID: 766026
+
+
+Name: prehistoric_shotgun
+Item Record ID: 767001
+
+
+Name: prehistoric_shotgun
+Item Record ID: 767025
+
+
+Name: prehistoric_shotgun
+Item Record ID: 767026
+
+
+Name: shamans_bow
+Item Record ID: 768001
+
+
+Name: shamans_bow
+Item Record ID: 768025
+
+
+Name: shamans_bow
+Item Record ID: 768026
+
+
+Name: poison_darts
+Item Record ID: 769001
+
+
+Name: poison_darts
+Item Record ID: 769025
+
+
+Name: poison_darts
+Item Record ID: 769026
+
+
+Name: primal_beast
+Item Record ID: 770001
+
+
+Name: primal_beast
+Item Record ID: 770025
+
+
+Name: primal_beast
+Item Record ID: 770026
+
+
+Name: eye_of_ra
+Item Record ID: 771001
+
+
+Name: eye_of_ra
+Item Record ID: 771025
+
+
+Name: eye_of_ra
+Item Record ID: 771026
+
+
+Name: gym_rifle
+Item Record ID: 773001
+
+
+Name: gym_rifle
+Item Record ID: 773025
+
+
+Name: gym_rifle
+Item Record ID: 773026
+
+
+Name: bone_crusher
+Item Record ID: 774001
+
+
+Name: bone_crusher
+Item Record ID: 774025
+
+
+Name: bone_crusher
+Item Record ID: 774026
+
+
+Name: soda_launcher
+Item Record ID: 775001
+
+
+Name: soda_launcher
+Item Record ID: 775025
+
+
+Name: soda_launcher
+Item Record ID: 775026
+
+
+Name: rocket_launcher
+Item Record ID: 776001
+
+
+Name: rocket_launcher
+Item Record ID: 776025
+
+
+Name: rocket_launcher
+Item Record ID: 776026
+
+
+Name: royale_fighter
+Item Record ID: 777001
+
+
+Name: royale_fighter
+Item Record ID: 777025
+
+
+Name: royale_fighter
+Item Record ID: 777026
+
+
+Name: royale_revolver
+Item Record ID: 778001
+
+
+Name: royale_revolver
+Item Record ID: 778025
+
+
+Name: royale_revolver
+Item Record ID: 778026
+
+
+Name: royale_sniper_rifle
+Item Record ID: 781001
+
+
+Name: royale_sniper_rifle
+Item Record ID: 781025
+
+
+Name: royale_sniper_rifle
+Item Record ID: 781026
+
+
+Name: royale_ashbringer
+Item Record ID: 782001
+
+
+Name: royale_ashbringer
+Item Record ID: 782025
+
+
+Name: royale_ashbringer
+Item Record ID: 782026
+
+
+Name: dagger_shovels
+Item Record ID: 783001
+
+
+Name: dagger_shovels
+Item Record ID: 783025
+
+
+Name: dagger_shovels
+Item Record ID: 783026
+
+
+Name: worker_shovel
+Item Record ID: 784001
+
+
+Name: worker_shovel
+Item Record ID: 784025
+
+
+Name: worker_shovel
+Item Record ID: 784026
+
+
+Name: sniper_shovel
+Item Record ID: 785001
+
+
+Name: sniper_shovel
+Item Record ID: 785025
+
+
+Name: sniper_shovel
+Item Record ID: 785026
+
+
+Name: gold_shovel
+Item Record ID: 786001
+
+
+Name: gold_shovel
+Item Record ID: 786025
+
+
+Name: gold_shovel
+Item Record ID: 786026
+
+
+Name: jet_shovel
+Item Record ID: 787001
+
+
+Name: jet_shovel
+Item Record ID: 787025
+
+
+Name: jet_shovel
+Item Record ID: 787026
+
+
+Name: shover_laser
+Item Record ID: 788001
+
+
+Name: shover_laser
+Item Record ID: 788025
+
+
+Name: shover_laser
+Item Record ID: 788026
+
+
+Name: monster_shovel
+Item Record ID: 789001
+
+
+Name: monster_shovel
+Item Record ID: 789025
+
+
+Name: monster_shovel
+Item Record ID: 789026
+
+
+Name: penilizer
+Item Record ID: 790001
+
+
+Name: penilizer
+Item Record ID: 790025
+
+
+Name: penilizer
+Item Record ID: 790026
+
+
+Name: fan_revolver
+Item Record ID: 791001
+
+
+Name: fan_revolver
+Item Record ID: 791025
+
+
+Name: fan_revolver
+Item Record ID: 791026
+
+
+Name: football_cannon
+Item Record ID: 792001
+
+
+Name: football_cannon
+Item Record ID: 792025
+
+
+Name: football_cannon
+Item Record ID: 792026
+
+
+Name: shovel_axe
+Item Record ID: 793001
+
+
+Name: shovel_axe
+Item Record ID: 793025
+
+
+Name: shovel_axe
+Item Record ID: 793026
+
+
+Name: cursed_pirate
+Item Record ID: 794001
+
+
+Name: cursed_pirate
+Item Record ID: 794025
+
+
+Name: cursed_pirate
+Item Record ID: 794026
+
+
+Name: Viking
+Item Record ID: 795001
+
+
+Name: Viking
+Item Record ID: 795025
+
+
+Name: Viking
+Item Record ID: 795026
+
+
+Name: gladiator
+Item Record ID: 796001
+
+
+Name: gladiator
+Item Record ID: 796025
+
+
+Name: gladiator
+Item Record ID: 796026
+
+
+Name: heart_of_volcano
+Item Record ID: 797001
+
+
+Name: heart_of_volcano
+Item Record ID: 797025
+
+
+Name: heart_of_volcano
+Item Record ID: 797026
+
+
+Name: shovel_not_a_shovel
+Item Record ID: 798001
+
+
+Name: shovel_not_a_shovel
+Item Record ID: 798025
+
+
+Name: shovel_not_a_shovel
+Item Record ID: 798026
+
+
+Name: chainsaw_shovel
+Item Record ID: 799001
+
+
+Name: chainsaw_shovel
+Item Record ID: 799025
+
+
+Name: chainsaw_shovel
+Item Record ID: 799026
+
+
+Name: clan_legend_shovel
+Item Record ID: 800001
+
+
+Name: clan_legend_shovel
+Item Record ID: 800025
+
+
+Name: clan_legend_shovel
+Item Record ID: 800026
+
+
+Name: shovel_road_sign
+Item Record ID: 801001
+
+
+Name: shovel_road_sign
+Item Record ID: 801025
+
+
+Name: shovel_road_sign
+Item Record ID: 801026
+
+
+Name: cactus_shovel
+Item Record ID: 802001
+
+
+Name: cactus_shovel
+Item Record ID: 802025
+
+
+Name: cactus_shovel
+Item Record ID: 802026
+
+
+Name: toy_hammer
+Item Record ID: 803001
+
+
+Name: toy_hammer
+Item Record ID: 803025
+
+
+Name: toy_hammer
+Item Record ID: 803026
+
+
+Name: igniter
+Item Record ID: 804001
+
+
+Name: igniter
+Item Record ID: 804025
+
+
+Name: igniter
+Item Record ID: 804026
+
+
+Name: infiltrator
+Item Record ID: 805001
+
+
+Name: infiltrator
+Item Record ID: 805025
+
+
+Name: infiltrator
+Item Record ID: 805026
+
+
+Name: warmaster
+Item Record ID: 806001
+
+
+Name: warmaster
+Item Record ID: 806025
+
+
+Name: warmaster
+Item Record ID: 806026
+
+
+Name: combat_slinger
+Item Record ID: 807001
+
+
+Name: combat_slinger
+Item Record ID: 807025
+
+
+Name: combat_slinger
+Item Record ID: 807026
+
+
+Name: paintball_rifle
+Item Record ID: 808001
+
+
+Name: paintball_rifle
+Item Record ID: 808025
+
+
+Name: paintball_rifle
+Item Record ID: 808026
+
+
+Name: energy_rings_exoskeleton
+Item Record ID: 809001
+
+
+Name: energy_rings_exoskeleton
+Item Record ID: 809025
+
+
+Name: energy_rings_exoskeleton
+Item Record ID: 809026
+
+
+Name: particle_accelerator
+Item Record ID: 810001
+
+
+Name: particle_accelerator
+Item Record ID: 810025
+
+
+Name: particle_accelerator
+Item Record ID: 810026
+
+
+Name: RitualRevolvers
+Item Record ID: 811001
+
+
+Name: RitualRevolvers
+Item Record ID: 811025
+
+
+Name: RitualRevolvers
+Item Record ID: 811026
+
+
+Name: magicbook_Spell_of_Bats
+Item Record ID: 812001
+
+
+Name: magicbook_Spell_of_Bats
+Item Record ID: 812025
+
+
+Name: magicbook_Spell_of_Bats
+Item Record ID: 812026
+
+
+Name: deadmans_rifle
+Item Record ID: 813001
+
+
+Name: deadmans_rifle
+Item Record ID: 813025
+
+
+Name: deadmans_rifle
+Item Record ID: 813026
+
+
+Name: Witchunter
+Item Record ID: 814001
+
+
+Name: Witchunter
+Item Record ID: 814025
+
+
+Name: Witchunter
+Item Record ID: 814026
+
+
+Name: industrial_nailer
+Item Record ID: 815001
+
+
+Name: industrial_nailer
+Item Record ID: 815025
+
+
+Name: industrial_nailer
+Item Record ID: 815026
+
+
+Name: trick_and_treat
+Item Record ID: 816001
+
+
+Name: trick_and_treat
+Item Record ID: 816025
+
+
+Name: trick_and_treat
+Item Record ID: 816026
+
+
+Name: ghost_launcher
+Item Record ID: 817001
+
+
+Name: ghost_launcher
+Item Record ID: 817025
+
+
+Name: ghost_launcher
+Item Record ID: 817026
+
+
+Name: poisonous_vine
+Item Record ID: 818001
+
+
+Name: poisonous_vine
+Item Record ID: 818025
+
+
+Name: poisonous_vine
+Item Record ID: 818026
+
+
+Name: johnny_p
+Item Record ID: 819001
+
+
+Name: johnny_p
+Item Record ID: 819025
+
+
+Name: johnny_p
+Item Record ID: 819026
+
+
+Name: witch_broom
+Item Record ID: 820001
+
+
+Name: witch_broom
+Item Record ID: 820025
+
+
+Name: witch_broom
+Item Record ID: 820026
+
+
+Name: cyber_slicer
+Item Record ID: 821001
+
+
+Name: cyber_slicer
+Item Record ID: 821025
+
+
+Name: cyber_slicer
+Item Record ID: 821026
+
+
+Name: ricochet_rifle
+Item Record ID: 822001
+
+
+Name: ricochet_rifle
+Item Record ID: 822025
+
+
+Name: ricochet_rifle
+Item Record ID: 822026
+
+
+Name: cyber_revolver
+Item Record ID: 823001
+
+
+Name: cyber_revolver
+Item Record ID: 823025
+
+
+Name: cyber_revolver
+Item Record ID: 823026
+
+
+Name: neon_lighting
+Item Record ID: 824001
+
+
+Name: neon_lighting
+Item Record ID: 824025
+
+
+Name: neon_lighting
+Item Record ID: 824026
+
+
+Name: quadruple_death
+Item Record ID: 825001
+
+
+Name: quadruple_death
+Item Record ID: 825025
+
+
+Name: quadruple_death
+Item Record ID: 825026
+
+
+Name: cops_shovel
+Item Record ID: 826001
+
+
+Name: cops_shovel
+Item Record ID: 826025
+
+
+Name: cops_shovel
+Item Record ID: 826026
+
+
+Name: cyber_shovel
+Item Record ID: 827001
+
+
+Name: cyber_shovel
+Item Record ID: 827025
+
+
+Name: cyber_shovel
+Item Record ID: 827026
+
+
+Name: rocket_hand
+Item Record ID: 828001
+
+
+Name: rocket_hand
+Item Record ID: 828025
+
+
+Name: rocket_hand
+Item Record ID: 828026
+
+
+Name: cyber_laser
+Item Record ID: 829001
+
+
+Name: cyber_laser
+Item Record ID: 829025
+
+
+Name: cyber_laser
+Item Record ID: 829026
+
+
+Name: scull_crossbow
+Item Record ID: 830001
+
+
+Name: scull_crossbow
+Item Record ID: 830025
+
+
+Name: scull_crossbow
+Item Record ID: 830026
+
+
+Name: shovel_hell
+Item Record ID: 831001
+
+
+Name: shovel_hell
+Item Record ID: 831025
+
+
+Name: shovel_hell
+Item Record ID: 831026
+
+
+Name: sniper_cyber_module
+Item Record ID: 832001
+
+
+Name: sniper_cyber_module
+Item Record ID: 832025
+
+
+Name: sniper_cyber_module
+Item Record ID: 832026
+
+
+Name: cops_club
+Item Record ID: 833001
+
+
+Name: cops_club
+Item Record ID: 833025
+
+
+Name: cops_club
+Item Record ID: 833026
+
+
+Name: ultimatum
+Item Record ID: 834001
+
+
+Name: ultimatum
+Item Record ID: 834025
+
+
+Name: ultimatum
+Item Record ID: 834026
+
+
+Name: lamp_revolver
+Item Record ID: 835001
+
+
+Name: lamp_revolver
+Item Record ID: 835025
+
+
+Name: lamp_revolver
+Item Record ID: 835026
+
+
+Name: drum_rifle
+Item Record ID: 836001
+
+
+Name: drum_rifle
+Item Record ID: 836025
+
+
+Name: drum_rifle
+Item Record ID: 836026
+
+
+Name: bp_flamethrower
+Item Record ID: 837001
+
+
+Name: bp_flamethrower
+Item Record ID: 837025
+
+
+Name: bp_flamethrower
+Item Record ID: 837026
+
+
+Name: hand_gatling
+Item Record ID: 838001
+
+
+Name: hand_gatling
+Item Record ID: 838025
+
+
+Name: hand_gatling
+Item Record ID: 838026
+
+
+Name: steamer
+Item Record ID: 839001
+
+
+Name: steamer
+Item Record ID: 839025
+
+
+Name: steamer
+Item Record ID: 839026
+
+
+Name: gold_digger
+Item Record ID: 840001
+
+
+Name: gold_digger
+Item Record ID: 840025
+
+
+Name: gold_digger
+Item Record ID: 840026
+
+
+Name: bow_of_spirit
+Item Record ID: 841001
+
+
+Name: bow_of_spirit
+Item Record ID: 841025
+
+
+Name: bow_of_spirit
+Item Record ID: 841026
+
+
+Name: tomahawk_shovel
+Item Record ID: 842001
+
+
+Name: tomahawk_shovel
+Item Record ID: 842025
+
+
+Name: tomahawk_shovel
+Item Record ID: 842026
+
+
+Name: sherif_shovel
+Item Record ID: 843001
+
+
+Name: sherif_shovel
+Item Record ID: 843025
+
+
+Name: sherif_shovel
+Item Record ID: 843026
+
+
+Name: miner_shovel
+Item Record ID: 844001
+
+
+Name: miner_shovel
+Item Record ID: 844025
+
+
+Name: miner_shovel
+Item Record ID: 844026
+
+
+Name: corn_launcher
+Item Record ID: 845001
+
+
+Name: corn_launcher
+Item Record ID: 845025
+
+
+Name: corn_launcher
+Item Record ID: 845026
+
+
+Name: pie_thrower
+Item Record ID: 846001
+
+
+Name: pie_thrower
+Item Record ID: 846025
+
+
+Name: pie_thrower
+Item Record ID: 846026
+
+
+Name: triple_musket
+Item Record ID: 847001
+
+
+Name: triple_musket
+Item Record ID: 847025
+
+
+Name: triple_musket
+Item Record ID: 847026
+
+
+Name: demolition_gun
+Item Record ID: 848001
+
+
+Name: demolition_gun
+Item Record ID: 848025
+
+
+Name: demolition_gun
+Item Record ID: 848026
+
+
+Name: ecco_hunter
+Item Record ID: 849001
+
+
+Name: ecco_hunter
+Item Record ID: 849025
+
+
+Name: ecco_hunter
+Item Record ID: 849026
+
+
+Name: like_throver
+Item Record ID: 850001
+
+
+Name: like_throver
+Item Record ID: 850025
+
+
+Name: like_throver
+Item Record ID: 850026
+
+
+Name: photo_gun
+Item Record ID: 851001
+
+
+Name: photo_gun
+Item Record ID: 851025
+
+
+Name: photo_gun
+Item Record ID: 851026
+
+
+Name: liquid_fire
+Item Record ID: 852001
+
+
+Name: liquid_fire
+Item Record ID: 852025
+
+
+Name: liquid_fire
+Item Record ID: 852026
+
+
+Name: electric_vortex
+Item Record ID: 853001
+
+
+Name: electric_vortex
+Item Record ID: 853025
+
+
+Name: electric_vortex
+Item Record ID: 853026
+
+
+Name: cursed_staff
+Item Record ID: 854001
+
+
+Name: cursed_staff
+Item Record ID: 854025
+
+
+Name: cursed_staff
+Item Record ID: 854026
+
+
+Name: blinder
+Item Record ID: 855001
+
+
+Name: blinder
+Item Record ID: 855025
+
+
+Name: blinder
+Item Record ID: 855026
+
+
+Name: peppermint_guardians
+Item Record ID: 856001
+
+
+Name: peppermint_guardians
+Item Record ID: 856025
+
+
+Name: peppermint_guardians
+Item Record ID: 856026
+
+
+Name: freon_gun
+Item Record ID: 857001
+
+
+Name: freon_gun
+Item Record ID: 857025
+
+
+Name: freon_gun
+Item Record ID: 857026
+
+
+Name: shovel_ice
+Item Record ID: 858001
+
+
+Name: shovel_ice
+Item Record ID: 858025
+
+
+Name: shovel_ice
+Item Record ID: 858026
+
+
+Name: frostomat
+Item Record ID: 859001
+
+
+Name: frostomat
+Item Record ID: 859025
+
+
+Name: frostomat
+Item Record ID: 859026
+
+
+Name: frosty_railgun
+Item Record ID: 860001
+
+
+Name: frosty_railgun
+Item Record ID: 860025
+
+
+Name: frosty_railgun
+Item Record ID: 860026
+
+
+Name: winter_staff
+Item Record ID: 861001
+
+
+Name: winter_staff
+Item Record ID: 861025
+
+
+Name: winter_staff
+Item Record ID: 861026
+
+
+Name: ice_spiker
+Item Record ID: 862001
+
+
+Name: ice_spiker
+Item Record ID: 862025
+
+
+Name: ice_spiker
+Item Record ID: 862026
+
+
+Name: shovel_peppermint
+Item Record ID: 863001
+
+
+Name: shovel_peppermint
+Item Record ID: 863025
+
+
+Name: shovel_peppermint
+Item Record ID: 863026
+
+
+Name: total_annihilator
+Item Record ID: 864001
+
+
+Name: total_annihilator
+Item Record ID: 864025
+
+
+Name: total_annihilator
+Item Record ID: 864026
+
+
+Name: torpedo_launcher
+Item Record ID: 865001
+
+
+Name: torpedo_launcher
+Item Record ID: 865025
+
+
+Name: torpedo_launcher
+Item Record ID: 865026
+
+
+Name: sawed_off_shotguns
+Item Record ID: 866001
+
+
+Name: sawed_off_shotguns
+Item Record ID: 866025
+
+
+Name: sawed_off_shotguns
+Item Record ID: 866026
+
+
+Name: gauss_machine_gun
+Item Record ID: 867001
+
+
+Name: gauss_machine_gun
+Item Record ID: 867025
+
+
+Name: gauss_machine_gun
+Item Record ID: 867026
+
+
+Name: ultra_beam
+Item Record ID: 868001
+
+
+Name: ultra_beam
+Item Record ID: 868025
+
+
+Name: ultra_beam
+Item Record ID: 868026
+
+
+Name: sock_bomber
+Item Record ID: 869001
+
+
+Name: sock_bomber
+Item Record ID: 869025
+
+
+Name: sock_bomber
+Item Record ID: 869026
+
+
+Name: energy_assault_rifle
+Item Record ID: 870001
+
+
+Name: energy_assault_rifle
+Item Record ID: 870025
+
+
+Name: energy_assault_rifle
+Item Record ID: 870026
+
+
+Name: shovel_alien_ice
+Item Record ID: 871001
+
+
+Name: shovel_alien_ice
+Item Record ID: 871025
+
+
+Name: shovel_alien_ice
+Item Record ID: 871026
+
+
+Name: shovel_ice_skate
+Item Record ID: 872001
+
+
+Name: shovel_ice_skate
+Item Record ID: 872025
+
+
+Name: shovel_ice_skate
+Item Record ID: 872026
+
+
+Name: futuristic_minigun
+Item Record ID: 873001
+
+
+Name: futuristic_minigun
+Item Record ID: 873025
+
+
+Name: futuristic_minigun
+Item Record ID: 873026
+
+
+Name: sniper_ice
+Item Record ID: 874001
+
+
+Name: sniper_ice
+Item Record ID: 874025
+
+
+Name: sniper_ice
+Item Record ID: 874026
+
+
+Name: gloves_of_power
+Item Record ID: 875001
+
+
+Name: gloves_of_power
+Item Record ID: 875025
+
+
+Name: gloves_of_power
+Item Record ID: 875026
+
+
+Name: space_redeemer
+Item Record ID: 876001
+
+
+Name: space_redeemer
+Item Record ID: 876025
+
+
+Name: space_redeemer
+Item Record ID: 876026
+
+
+Name: snow_blaster
+Item Record ID: 877001
+
+
+Name: snow_blaster
+Item Record ID: 877025
+
+
+Name: snow_blaster
+Item Record ID: 877026
+
+
+Name: alien_bounser
+Item Record ID: 878001
+
+
+Name: alien_bounser
+Item Record ID: 878025
+
+
+Name: alien_bounser
+Item Record ID: 878026
+
+
+Name: alien_shuriken
+Item Record ID: 879001
+
+
+Name: alien_shuriken
+Item Record ID: 879025
+
+
+Name: alien_shuriken
+Item Record ID: 879026
+
+
+Name: spruce_pistols
+Item Record ID: 880001
+
+
+Name: spruce_pistols
+Item Record ID: 880025
+
+
+Name: spruce_pistols
+Item Record ID: 880026
+
+
+Name: christmas_spirit
+Item Record ID: 881001
+
+
+Name: christmas_spirit
+Item Record ID: 881025
+
+
+Name: christmas_spirit
+Item Record ID: 881026
+
+
+Name: ice_lightning
+Item Record ID: 882001
+
+
+Name: ice_lightning
+Item Record ID: 882025
+
+
+Name: ice_lightning
+Item Record ID: 882026
+
+
+Name: ice_generator
+Item Record ID: 883001
+
+
+Name: ice_generator
+Item Record ID: 883025
+
+
+Name: ice_generator
+Item Record ID: 883026
+
+
+Name: icecream_pistol
+Item Record ID: 884001
+
+
+Name: icecream_pistol
+Item Record ID: 884025
+
+
+Name: icecream_pistol
+Item Record ID: 884026
+
+
+Name: whip_with_cake
+Item Record ID: 885001
+
+
+Name: whip_with_cake
+Item Record ID: 885025
+
+
+Name: whip_with_cake
+Item Record ID: 885026
+
+
+Name: festive_guitar
+Item Record ID: 886001
+
+
+Name: festive_guitar
+Item Record ID: 886025
+
+
+Name: festive_guitar
+Item Record ID: 886026
+
+
+Name: evil_snowman
+Item Record ID: 887001
+
+
+Name: evil_snowman
+Item Record ID: 887025
+
+
+Name: evil_snowman
+Item Record ID: 887026
+
+
+Name: gangerbread_homezooka
+Item Record ID: 888001
+
+
+Name: gangerbread_homezooka
+Item Record ID: 888025
+
+
+Name: gangerbread_homezooka
+Item Record ID: 888026
+
+
+Name: portable_gift_factory
+Item Record ID: 889001
+
+
+Name: portable_gift_factory
+Item Record ID: 889025
+
+
+Name: portable_gift_factory
+Item Record ID: 889026
+
+
+Name: saturn
+Item Record ID: 890001
+
+
+Name: saturn
+Item Record ID: 890025
+
+
+Name: saturn
+Item Record ID: 890026
+
+
+Name: venus_n_mercury
+Item Record ID: 891001
+
+
+Name: venus_n_mercury
+Item Record ID: 891025
+
+
+Name: venus_n_mercury
+Item Record ID: 891026
+
+
+Name: Asteroid
+Item Record ID: 892001
+
+
+Name: Asteroid
+Item Record ID: 892025
+
+
+Name: Asteroid
+Item Record ID: 892026
+
+
+Name: comet_sniper_rifle
+Item Record ID: 893001
+
+
+Name: comet_sniper_rifle
+Item Record ID: 893025
+
+
+Name: comet_sniper_rifle
+Item Record ID: 893026
+
+
+Name: meteor_shower
+Item Record ID: 894001
+
+
+Name: meteor_shower
+Item Record ID: 894025
+
+
+Name: meteor_shower
+Item Record ID: 894026
+
+
+Name: neclaces_ice_king
+Item Record ID: 895001
+
+
+Name: neclaces_ice_king
+Item Record ID: 895025
+
+
+Name: neclaces_ice_king
+Item Record ID: 895026
+
+
+Name: Ice_Paws
+Item Record ID: 896001
+
+
+Name: Ice_Paws
+Item Record ID: 896025
+
+
+Name: Ice_Paws
+Item Record ID: 896026
+
+
+Name: frozen_lich_bow
+Item Record ID: 897001
+
+
+Name: frozen_lich_bow
+Item Record ID: 897025
+
+
+Name: frozen_lich_bow
+Item Record ID: 897026
+
+
+Name: gift_stitcher
+Item Record ID: 898001
+
+
+Name: gift_stitcher
+Item Record ID: 898025
+
+
+Name: gift_stitcher
+Item Record ID: 898026
+
+
+Name: ice_king_anger
+Item Record ID: 899001
+
+
+Name: ice_king_anger
+Item Record ID: 899025
+
+
+Name: ice_king_anger
+Item Record ID: 899026
+
+
+Name: gifted_revolvers
+Item Record ID: 900001
+
+
+Name: gifted_revolvers
+Item Record ID: 900025
+
+
+Name: gifted_revolvers
+Item Record ID: 900026
+
+
+Name: yetti_spirit
+Item Record ID: 901001
+
+
+Name: yetti_spirit
+Item Record ID: 901025
+
+
+Name: yetti_spirit
+Item Record ID: 901026
+
+
+Name: bambo
+Item Record ID: 902001
+
+
+Name: bambo
+Item Record ID: 902025
+
+
+Name: bambo
+Item Record ID: 902026
+
+
+Name: new_year_defender
+Item Record ID: 903001
+
+
+Name: new_year_defender
+Item Record ID: 903025
+
+
+Name: new_year_defender
+Item Record ID: 903026
+
+
+Name: candy_axe
+Item Record ID: 904001
+
+
+Name: candy_axe
+Item Record ID: 904025
+
+
+Name: candy_axe
+Item Record ID: 904026
+
+
+Name: cold_silence
+Item Record ID: 905001
+
+
+Name: cold_silence
+Item Record ID: 905025
+
+
+Name: cold_silence
+Item Record ID: 905026
+
+
+Name: proton_freezer
+Item Record ID: 906001
+
+
+Name: proton_freezer
+Item Record ID: 906025
+
+
+Name: proton_freezer
+Item Record ID: 906026
+
+
+Name: coldstarter
+Item Record ID: 907001
+
+
+Name: coldstarter
+Item Record ID: 907025
+
+
+Name: coldstarter
+Item Record ID: 907026
+
+
+Name: cyber_machinegun
+Item Record ID: 908001
+
+
+Name: cyber_machinegun
+Item Record ID: 908025
+
+
+Name: cyber_machinegun
+Item Record ID: 908026
+
+
+Name: simple_cybergun
+Item Record ID: 909001
+
+
+Name: simple_cybergun
+Item Record ID: 909025
+
+
+Name: simple_cybergun
+Item Record ID: 909026
+
+
+Name: shock
+Item Record ID: 910001
+
+
+Name: shock
+Item Record ID: 910025
+
+
+Name: shock
+Item Record ID: 910026
+
+
+Name: cyber_sniper
+Item Record ID: 911001
+
+
+Name: cyber_sniper
+Item Record ID: 911025
+
+
+Name: cyber_sniper
+Item Record ID: 911026
+
+
+Name: simple_cyberlauncher
+Item Record ID: 912001
+
+
+Name: simple_cyberlauncher
+Item Record ID: 912025
+
+
+Name: simple_cyberlauncher
+Item Record ID: 912026
+
+
+Name: simple_acid_spray
+Item Record ID: 913001
+
+
+Name: simple_acid_spray
+Item Record ID: 913025
+
+
+Name: simple_acid_spray
+Item Record ID: 913026
+
+
+Name: spec_ops_backup
+Item Record ID: 914001
+
+
+Name: spec_ops_backup
+Item Record ID: 914025
+
+
+Name: spec_ops_backup
+Item Record ID: 914026
+
+
+Name: pixel_cola_refresher
+Item Record ID: 915001
+
+
+Name: pixel_cola_refresher
+Item Record ID: 915025
+
+
+Name: pixel_cola_refresher
+Item Record ID: 915026
+
+
+Name: warden
+Item Record ID: 916001
+
+
+Name: warden
+Item Record ID: 916025
+
+
+Name: warden
+Item Record ID: 916026
+
+
+Name: instigator
+Item Record ID: 917001
+
+
+Name: instigator
+Item Record ID: 917025
+
+
+Name: instigator
+Item Record ID: 917026
+
+
+Name: storm
+Item Record ID: 918001
+
+
+Name: storm
+Item Record ID: 918025
+
+
+Name: storm
+Item Record ID: 918026
+
+
+Name: semi_auto_shotgun
+Item Record ID: 920001
+
+
+Name: semi_auto_shotgun
+Item Record ID: 920025
+
+
+Name: semi_auto_shotgun
+Item Record ID: 920026
+
+
+Name: stinger_3000
+Item Record ID: 921001
+
+
+Name: stinger_3000
+Item Record ID: 921025
+
+
+Name: stinger_3000
+Item Record ID: 921026
+
+
+Name: airstrike_laptop
+Item Record ID: 924001
+
+
+Name: airstrike_laptop
+Item Record ID: 924025
+
+
+Name: airstrike_laptop
+Item Record ID: 924026
+
+
+Name: deadly_digital_system
+Item Record ID: 925001
+
+
+Name: deadly_digital_system
+Item Record ID: 925025
+
+
+Name: deadly_digital_system
+Item Record ID: 925026
+
+
+Name: night_hunter
+Item Record ID: 926001
+
+
+Name: night_hunter
+Item Record ID: 926025
+
+
+Name: night_hunter
+Item Record ID: 926026
+
+
+Name: spec_ops_pistol
+Item Record ID: 927001
+
+
+Name: spec_ops_pistol
+Item Record ID: 927025
+
+
+Name: spec_ops_pistol
+Item Record ID: 927026
+
+
+Name: tactical_knife
+Item Record ID: 928001
+
+
+Name: tactical_knife
+Item Record ID: 928025
+
+
+Name: tactical_knife
+Item Record ID: 928026
+
+
+Name: hand_minigun
+Item Record ID: 929001
+
+
+Name: hand_minigun
+Item Record ID: 929025
+
+
+Name: hand_minigun
+Item Record ID: 929026
+
+
+Name: heavy_sniper_rifle
+Item Record ID: 930001
+
+
+Name: heavy_sniper_rifle
+Item Record ID: 930025
+
+
+Name: heavy_sniper_rifle
+Item Record ID: 930026
+
+
+Name: armadillo
+Item Record ID: 931001
+
+
+Name: armadillo
+Item Record ID: 931025
+
+
+Name: armadillo
+Item Record ID: 931026
+
+
+Name: police_zapper
+Item Record ID: 932001
+
+
+Name: police_zapper
+Item Record ID: 932025
+
+
+Name: police_zapper
+Item Record ID: 932026
+
+
+Name: temple_guardian
+Item Record ID: 933001
+
+
+Name: temple_guardian
+Item Record ID: 933025
+
+
+Name: temple_guardian
+Item Record ID: 933026
+
+
+Name: healing_carp
+Item Record ID: 934001
+
+
+Name: healing_carp
+Item Record ID: 934025
+
+
+Name: healing_carp
+Item Record ID: 934026
+
+
+Name: moon_halberd
+Item Record ID: 935001
+
+
+Name: moon_halberd
+Item Record ID: 935025
+
+
+Name: moon_halberd
+Item Record ID: 935026
+
+
+Name: magic_primary
+Item Record ID: 936001
+
+
+Name: magic_primary
+Item Record ID: 936025
+
+
+Name: magic_primary
+Item Record ID: 936026
+
+
+Name: magic_backup
+Item Record ID: 937001
+
+
+Name: magic_backup
+Item Record ID: 937025
+
+
+Name: magic_backup
+Item Record ID: 937026
+
+
+Name: magic_melee
+Item Record ID: 938001
+
+
+Name: magic_melee
+Item Record ID: 938025
+
+
+Name: magic_melee
+Item Record ID: 938026
+
+
+Name: magic_special
+Item Record ID: 939001
+
+
+Name: magic_special
+Item Record ID: 939025
+
+
+Name: magic_special
+Item Record ID: 939026
+
+
+Name: magic_sniper
+Item Record ID: 940001
+
+
+Name: magic_sniper
+Item Record ID: 940025
+
+
+Name: magic_sniper
+Item Record ID: 940026
+
+
+Name: royale_alpenstock
+Item Record ID: 942001
+
+
+Name: royale_alpenstock
+Item Record ID: 942025
+
+
+Name: royale_alpenstock
+Item Record ID: 942026
+
+
+Name: agent_valentine
+Item Record ID: 943001
+
+
+Name: agent_valentine
+Item Record ID: 943025
+
+
+Name: agent_valentine
+Item Record ID: 943026
+
+
+Name: lovebirds
+Item Record ID: 944001
+
+
+Name: lovebirds
+Item Record ID: 944025
+
+
+Name: lovebirds
+Item Record ID: 944026
+
+
+Name: Serenade
+Item Record ID: 945001
+
+
+Name: Serenade
+Item Record ID: 945025
+
+
+Name: Serenade
+Item Record ID: 945026
+
+
+Name: heartbreakers
+Item Record ID: 946001
+
+
+Name: heartbreakers
+Item Record ID: 946025
+
+
+Name: heartbreakers
+Item Record ID: 946026
+
+
+Name: Succubus
+Item Record ID: 947001
+
+
+Name: Succubus
+Item Record ID: 947025
+
+
+Name: Succubus
+Item Record ID: 947026
+
+
+Name: postman
+Item Record ID: 948001
+
+
+Name: postman
+Item Record ID: 948025
+
+
+Name: postman
+Item Record ID: 948026
+
+
+Name: harpy
+Item Record ID: 949001
+
+
+Name: harpy
+Item Record ID: 949025
+
+
+Name: harpy
+Item Record ID: 949026
+
+
+Name: runic_hammer
+Item Record ID: 950001
+
+
+Name: runic_hammer
+Item Record ID: 950025
+
+
+Name: runic_hammer
+Item Record ID: 950026
+
+
+Name: blade_rifle
+Item Record ID: 951001
+
+
+Name: blade_rifle
+Item Record ID: 951025
+
+
+Name: blade_rifle
+Item Record ID: 951026
+
+
+Name: arahna_bite
+Item Record ID: 952001
+
+
+Name: arahna_bite
+Item Record ID: 952025
+
+
+Name: arahna_bite
+Item Record ID: 952026
+
+
+Name: medusa
+Item Record ID: 953001
+
+
+Name: medusa
+Item Record ID: 953025
+
+
+Name: medusa
+Item Record ID: 953026
+
+
+Name: bigb_oven
+Item Record ID: 954001
+
+
+Name: bigb_oven
+Item Record ID: 954025
+
+
+Name: bigb_oven
+Item Record ID: 954026
+
+
+Name: mr_mixer
+Item Record ID: 955001
+
+
+Name: mr_mixer
+Item Record ID: 955025
+
+
+Name: mr_mixer
+Item Record ID: 955026
+
+
+Name: cookie_minigun
+Item Record ID: 956001
+
+
+Name: cookie_minigun
+Item Record ID: 956025
+
+
+Name: cookie_minigun
+Item Record ID: 956026
+
+
+Name: magic_blades
+Item Record ID: 957001
+
+
+Name: magic_blades
+Item Record ID: 957025
+
+
+Name: magic_blades
+Item Record ID: 957026
+
+
+Name: alchemic_staff
+Item Record ID: 959001
+
+
+Name: alchemic_staff
+Item Record ID: 959025
+
+
+Name: alchemic_staff
+Item Record ID: 959026
+
+
+Name: rune_shovel
+Item Record ID: 960001
+
+
+Name: rune_shovel
+Item Record ID: 960025
+
+
+Name: rune_shovel
+Item Record ID: 960026
+
+
+Name: yclops_shovel
+Item Record ID: 961001
+
+
+Name: _yclops_shovel
+Item Record ID: 961025
+
+
+Name: _yclops_shovel
+Item Record ID: 961026
+
+
+Name: system_admin
+Item Record ID: 962001
+
+
+Name: system_admin
+Item Record ID: 962025
+
+
+Name: system_admin
+Item Record ID: 962026
+
+
+Name: flash_drive
+Item Record ID: 963001
+
+
+Name: flash_drive
+Item Record ID: 963025
+
+
+Name: flash_drive
+Item Record ID: 963026
+
+
+Name: disconnector
+Item Record ID: 964001
+
+
+Name: disconnector
+Item Record ID: 964025
+
+
+Name: disconnector
+Item Record ID: 964026
+
+
+Name: network_streamer
+Item Record ID: 965001
+
+
+Name: network_streamer
+Item Record ID: 965025
+
+
+Name: network_streamer
+Item Record ID: 965026
+
+
+Name: ntivirus
+Item Record ID: 966001
+
+
+Name: _ntivirus
+Item Record ID: 966025
+
+
+Name: _ntivirus
+Item Record ID: 966026
+
+
+Name: big_data
+Item Record ID: 967001
+
+
+Name: big_data
+Item Record ID: 967025
+
+
+Name: big_data
+Item Record ID: 967026
+
+
+Name: cyclops_siling
+Item Record ID: 968001
+
+
+Name: cyclops_siling
+Item Record ID: 968025
+
+
+Name: cyclops_siling
+Item Record ID: 968026
+
+
+Name: rainbow_dispenser
+Item Record ID: 969001
+
+
+Name: rainbow_dispenser
+Item Record ID: 969025
+
+
+Name: rainbow_dispenser
+Item Record ID: 969026
+
+
+Name: rainbow_destroyer
+Item Record ID: 972001
+
+
+Name: rainbow_destroyer
+Item Record ID: 972025
+
+
+Name: rainbow_destroyer
+Item Record ID: 972026
+
+
+Name: mister_l
+Item Record ID: 973001
+
+
+Name: mister_l
+Item Record ID: 973025
+
+
+Name: mister_l
+Item Record ID: 973026
+
+
+Name: adamant_claws
+Item Record ID: 974001
+
+
+Name: adamant_claws
+Item Record ID: 974025
+
+
+Name: adamant_claws
+Item Record ID: 974026
+
+
+Name: hypersound_uzi
+Item Record ID: 975001
+
+
+Name: hypersound_uzi
+Item Record ID: 975025
+
+
+Name: hypersound_uzi
+Item Record ID: 975026
+
+
+Name: double_gum
+Item Record ID: 976001
+
+
+Name: double_gum
+Item Record ID: 976025
+
+
+Name: double_gum
+Item Record ID: 976026
+
+
+Name: black_hole
+Item Record ID: 977001
+
+
+Name: black_hole
+Item Record ID: 977025
+
+
+Name: black_hole
+Item Record ID: 977026
+
+
+Name: space_shovel
+Item Record ID: 978001
+
+
+Name: space_shovel
+Item Record ID: 978025
+
+
+Name: space_shovel
+Item Record ID: 978026
+
+
+Name: heroic_shovel
+Item Record ID: 979001
+
+
+Name: heroic_shovel
+Item Record ID: 979025
+
+
+Name: heroic_shovel
+Item Record ID: 979026
+
+
+Name: protector_of_peace
+Item Record ID: 980001
+
+
+Name: protector_of_peace
+Item Record ID: 980025
+
+
+Name: protector_of_peace
+Item Record ID: 980026
+
+
+Name: portalius_wrath
+Item Record ID: 981001
+
+
+Name: portalius_wrath
+Item Record ID: 981025
+
+
+Name: portalius_wrath
+Item Record ID: 981026
+
+
+Name: chipping_whip
+Item Record ID: 982001
+
+
+Name: chipping_whip
+Item Record ID: 982025
+
+
+Name: chipping_whip
+Item Record ID: 982026
+
+
+Name: portalium_rifle
+Item Record ID: 983001
+
+
+Name: portalium_rifle
+Item Record ID: 983025
+
+
+Name: portalium_rifle
+Item Record ID: 983026
+
+
+Name: nuclear_rifle
+Item Record ID: 984001
+
+
+Name: nuclear_rifle
+Item Record ID: 984025
+
+
+Name: nuclear_rifle
+Item Record ID: 984026
+
+
+Name: deadly_umbrella
+Item Record ID: 985001
+
+
+Name: deadly_umbrella
+Item Record ID: 985025
+
+
+Name: deadly_umbrella
+Item Record ID: 985026
+
+
+Name: big_bang_revolver
+Item Record ID: 986001
+
+
+Name: big_bang_revolver
+Item Record ID: 986025
+
+
+Name: big_bang_revolver
+Item Record ID: 986026
+
+
+Name: acid_shotgun
+Item Record ID: 987001
+
+
+Name: acid_shotgun
+Item Record ID: 987025
+
+
+Name: acid_shotgun
+Item Record ID: 987026
+
+
+Name: batohawk
+Item Record ID: 988001
+
+
+Name: batohawk
+Item Record ID: 988025
+
+
+Name: batohawk
+Item Record ID: 988026
+
+
+Name: combat_gautlent
+Item Record ID: 989001
+
+
+Name: combat_gautlent
+Item Record ID: 989025
+
+
+Name: combat_gautlent
+Item Record ID: 989026
+
+
+Name: spider_sense
+Item Record ID: 990001
+
+
+Name: spider_sense
+Item Record ID: 990025
+
+
+Name: spider_sense
+Item Record ID: 990026
+
+
+Name: werewolf
+Item Record ID: 991001
+
+
+Name: werewolf
+Item Record ID: 991025
+
+
+Name: werewolf
+Item Record ID: 991026
+
+
+Name: sharp_flame
+Item Record ID: 992001
+
+
+Name: sharp_flame
+Item Record ID: 992025
+
+
+Name: sharp_flame
+Item Record ID: 992026
+
+
+Name: charged_injector
+Item Record ID: 993001
+
+
+Name: charged_injector
+Item Record ID: 993025
+
+
+Name: charged_injector
+Item Record ID: 993026
+
+
+Name: garbage_rifle
+Item Record ID: 994001
+
+
+Name: garbage_rifle
+Item Record ID: 994025
+
+
+Name: garbage_rifle
+Item Record ID: 994026
+
+
+Name: firefighter
+Item Record ID: 995001
+
+
+Name: firefighter
+Item Record ID: 995025
+
+
+Name: firefighter
+Item Record ID: 995026
+
+
+Name: huge_boy
+Item Record ID: 996001
+
+
+Name: huge_boy
+Item Record ID: 996025
+
+
+Name: huge_boy
+Item Record ID: 996026
+
+
+Name: fireman_shovel
+Item Record ID: 997001
+
+
+Name: fireman_shovel
+Item Record ID: 997025
+
+
+Name: fireman_shovel
+Item Record ID: 997026
+
+
+Name: fatal_melter
+Item Record ID: 998001
+
+
+Name: fatal_melter
+Item Record ID: 998025
+
+
+Name: fatal_melter
+Item Record ID: 998026
+
+
+Name: dual_anger
+Item Record ID: 999001
+
+
+Name: dual_anger
+Item Record ID: 999025
+
+
+Name: dual_anger
+Item Record ID: 999026
+
+
+Name: brutal_thinner
+Item Record ID: 1000001
+
+
+Name: brutal_thinner
+Item Record ID: 1000025
+
+
+Name: brutal_thinner
+Item Record ID: 1000026
+
+
+Name: liquidator_z1
+Item Record ID: 1001001
+
+
+Name: liquidator_z1
+Item Record ID: 1001025
+
+
+Name: liquidator_z1
+Item Record ID: 1001026
+
+
+Name: eliminator_z2
+Item Record ID: 1002001
+
+
+Name: eliminator_z2
+Item Record ID: 1002025
+
+
+Name: eliminator_z2
+Item Record ID: 1002026
+
+
+Name: pursuer_z3
+Item Record ID: 1003001
+
+
+Name: pursuer_z3
+Item Record ID: 1003025
+
+
+Name: pursuer_z3
+Item Record ID: 1003026
+
+
+Name: pixelgun_old
+Item Record ID: 1004001
+
+
+Name: pixelgun_old
+Item Record ID: 1004025
+
+
+Name: pixelgun_old
+Item Record ID: 1004026
+
+
+Name: plastic_shovel
+Item Record ID: 1005001
+
+
+Name: plastic_shovel
+Item Record ID: 1005025
+
+
+Name: plastic_shovel
+Item Record ID: 1005026
+
+
+Name: balloon_shovel
+Item Record ID: 1006001
+
+
+Name: balloon_shovel
+Item Record ID: 1006025
+
+
+Name: balloon_shovel
+Item Record ID: 1006026
+
+
+Name: block_rifle
+Item Record ID: 1008001
+
+
+Name: block_rifle
+Item Record ID: 1008025
+
+
+Name: block_rifle
+Item Record ID: 1008026
+
+
+Name: block_shotgun
+Item Record ID: 1009001
+
+
+Name: block_shotgun
+Item Record ID: 1009025
+
+
+Name: block_shotgun
+Item Record ID: 1009026
+
+
+Name: block_flamethrower
+Item Record ID: 1010001
+
+
+Name: block_flamethrower
+Item Record ID: 1010025
+
+
+Name: block_flamethrower
+Item Record ID: 1010026
+
+
+Name: plastic_rifle
+Item Record ID: 1012001
+
+
+Name: plastic_rifle
+Item Record ID: 1012025
+
+
+Name: plastic_rifle
+Item Record ID: 1012026
+
+
+Name: plastic_bazooka
+Item Record ID: 1013001
+
+
+Name: plastic_bazooka
+Item Record ID: 1013025
+
+
+Name: plastic_bazooka
+Item Record ID: 1013026
+
+
+Name: plastic_carabin
+Item Record ID: 1014001
+
+
+Name: plastic_carabin
+Item Record ID: 1014025
+
+
+Name: plastic_carabin
+Item Record ID: 1014026
+
+
+Name: cloud_launcher
+Item Record ID: 1017001
+
+
+Name: cloud_launcher
+Item Record ID: 1017025
+
+
+Name: cloud_launcher
+Item Record ID: 1017026
+
+
+Name: sucker_gun
+Item Record ID: 1018001
+
+
+Name: sucker_gun
+Item Record ID: 1018025
+
+
+Name: sucker_gun
+Item Record ID: 1018026
+
+
+Name: witch_doctor
+Item Record ID: 1019001
+
+
+Name: witch_doctor
+Item Record ID: 1019025
+
+
+Name: witch_doctor
+Item Record ID: 1019026
+
+
+Name: portal_cannon
+Item Record ID: 1020001
+
+
+Name: portal_cannon
+Item Record ID: 1020025
+
+
+Name: portal_cannon
+Item Record ID: 1020026
+
+
+Name: healing_staff
+Item Record ID: 1021001
+
+
+Name: healing_staff
+Item Record ID: 1021025
+
+
+Name: healing_staff
+Item Record ID: 1021026
+
+
+Name: laser_ray_rifle
+Item Record ID: 1022001
+
+
+Name: laser_ray_rifle
+Item Record ID: 1022025
+
+
+Name: laser_ray_rifle
+Item Record ID: 1022026
+
+
+Name: clockwork_cannon
+Item Record ID: 1023001
+
+
+Name: clockwork_cannon
+Item Record ID: 1023025
+
+
+Name: clockwork_cannon
+Item Record ID: 1023026
+
+
+Name: transformed_blaster
+Item Record ID: 1024001
+
+
+Name: transformed_blaster
+Item Record ID: 1024025
+
+
+Name: transformed_blaster
+Item Record ID: 1024026
+
+
+Name: transformed_machinegun
+Item Record ID: 1025001
+
+
+Name: transformed_machinegun
+Item Record ID: 1025025
+
+
+Name: transformed_machinegun
+Item Record ID: 1025026
+
+
+Name: witch_cauldron
+Item Record ID: 1026001
+
+
+Name: witch_cauldron
+Item Record ID: 1026025
+
+
+Name: witch_cauldron
+Item Record ID: 1026026
+
+
+Name: combat_darts
+Item Record ID: 1027001
+
+
+Name: combat_darts
+Item Record ID: 1027025
+
+
+Name: combat_darts
+Item Record ID: 1027026
+
+
+Name: throwing_spears
+Item Record ID: 1028001
+
+
+Name: throwing_spears
+Item Record ID: 1028025
+
+
+Name: throwing_spears
+Item Record ID: 1028026
+
+
+Name: alloha_boom
+Item Record ID: 1029001
+
+
+Name: alloha_boom
+Item Record ID: 1029025
+
+
+Name: alloha_boom
+Item Record ID: 1029026
+
+
+Name: professional_bow
+Item Record ID: 1030001
+
+
+Name: professional_bow
+Item Record ID: 1030025
+
+
+Name: professional_bow
+Item Record ID: 1030026
+
+
+Name: artifact
+Item Record ID: 1031001
+
+
+Name: artifact
+Item Record ID: 1031025
+
+
+Name: artifact
+Item Record ID: 1031026
+
+
+Name: ouroboros
+Item Record ID: 1032001
+
+
+Name: ouroboros
+Item Record ID: 1032025
+
+
+Name: ouroboros
+Item Record ID: 1032026
+
+
+Name: keen_courier
+Item Record ID: 1033001
+
+
+Name: keen_courier
+Item Record ID: 1033025
+
+
+Name: keen_courier
+Item Record ID: 1033026
+
+
+Name: uncertainty_emitter
+Item Record ID: 1034001
+
+
+Name: uncertainty_emitter
+Item Record ID: 1034025
+
+
+Name: uncertainty_emitter
+Item Record ID: 1034026
+
+
+Name: camp_leader_rifle
+Item Record ID: 1035001
+
+
+Name: camp_leader_rifle
+Item Record ID: 1035025
+
+
+Name: camp_leader_rifle
+Item Record ID: 1035026
+
+
+Name: knife_and_compass
+Item Record ID: 1036001
+
+
+Name: knife_and_compass
+Item Record ID: 1036025
+
+
+Name: knife_and_compass
+Item Record ID: 1036026
+
+
+Name: super_loudspeaker
+Item Record ID: 1037001
+
+
+Name: super_loudspeaker
+Item Record ID: 1037025
+
+
+Name: super_loudspeaker
+Item Record ID: 1037026
+
+
+Name: raccoon_with_trumpet
+Item Record ID: 1038001
+
+
+Name: raccoon_with_trumpet
+Item Record ID: 1038025
+
+
+Name: raccoon_with_trumpet
+Item Record ID: 1038026
+
+
+Name: butterfly_net_shovel
+Item Record ID: 1039001
+
+
+Name: butterfly_net_shovel
+Item Record ID: 1039025
+
+
+Name: butterfly_net_shovel
+Item Record ID: 1039026
+
+
+Name: guitar_shovel
+Item Record ID: 1040001
+
+
+Name: guitar_shovel
+Item Record ID: 1040025
+
+
+Name: guitar_shovel
+Item Record ID: 1040026
+
+
+Name: werewolf_paws
+Item Record ID: 1041001
+
+
+Name: werewolf_paws
+Item Record ID: 1041025
+
+
+Name: werewolf_paws
+Item Record ID: 1041026
+
+
+Name: ice_cream_thrower
+Item Record ID: 1042001
+
+
+Name: ice_cream_thrower
+Item Record ID: 1042025
+
+
+Name: ice_cream_thrower
+Item Record ID: 1042026
+
+
+Name: water_juice_cannon
+Item Record ID: 1043001
+
+
+Name: water_juice_cannon
+Item Record ID: 1043025
+
+
+Name: water_juice_cannon
+Item Record ID: 1043026
+
+
+Name: pop_soda
+Item Record ID: 1044001
+
+
+Name: pop_soda
+Item Record ID: 1044025
+
+
+Name: pop_soda
+Item Record ID: 1044026
+
+
+Name: pyro_1116
+Item Record ID: 1045001
+
+
+Name: pyro_1116
+Item Record ID: 1045025
+
+
+Name: pyro_1116
+Item Record ID: 1045026
+
+
+Name: sparkling_hydra
+Item Record ID: 1046001
+
+
+Name: sparkling_hydra
+Item Record ID: 1046025
+
+
+Name: sparkling_hydra
+Item Record ID: 1046026
+
+
+Name: tiny_resizer
+Item Record ID: 1047001
+
+
+Name: tiny_resizer
+Item Record ID: 1047025
+
+
+Name: tiny_resizer
+Item Record ID: 1047026
+
+
+Name: pawn_cannon
+Item Record ID: 1049001
+
+
+Name: pawn_cannon
+Item Record ID: 1049025
+
+
+Name: pawn_cannon
+Item Record ID: 1049026
+
+
+Name: horse_axe
+Item Record ID: 1050001
+
+
+Name: horse_axe
+Item Record ID: 1050025
+
+
+Name: horse_axe
+Item Record ID: 1050026
+
+
+Name: battle_rook
+Item Record ID: 1051001
+
+
+Name: battle_rook
+Item Record ID: 1051025
+
+
+Name: battle_rook
+Item Record ID: 1051026
+
+
+Name: inevitability
+Item Record ID: 1052001
+
+
+Name: inevitability
+Item Record ID: 1052025
+
+
+Name: inevitability
+Item Record ID: 1052026
+
+
+Name: chess_board_shovel
+Item Record ID: 1053001
+
+
+Name: chess_board_shovel
+Item Record ID: 1053025
+
+
+Name: chess_board_shovel
+Item Record ID: 1053026
+
+
+Name: royal_shovel
+Item Record ID: 1054001
+
+
+Name: royal_shovel
+Item Record ID: 1054025
+
+
+Name: royal_shovel
+Item Record ID: 1054026
+
+
+Name: checkmate
+Item Record ID: 1055001
+
+
+Name: checkmate
+Item Record ID: 1055025
+
+
+Name: checkmate
+Item Record ID: 1055026
+
+
+Name: proud_eagle
+Item Record ID: 1056001
+
+
+Name: proud_eagle
+Item Record ID: 1056025
+
+
+Name: proud_eagle
+Item Record ID: 1056026
+
+
+Name: sly_wolf
+Item Record ID: 1057001
+
+
+Name: sly_wolf
+Item Record ID: 1057025
+
+
+Name: sly_wolf
+Item Record ID: 1057026
+
+
+Name: brave_lion
+Item Record ID: 1058001
+
+
+Name: brave_lion
+Item Record ID: 1058025
+
+
+Name: brave_lion
+Item Record ID: 1058026
+
+
+Name: offensive_catapult
+Item Record ID: 1059001
+
+
+Name: offensive_catapult
+Item Record ID: 1059025
+
+
+Name: offensive_catapult
+Item Record ID: 1059026
+
+
+Name: battle_horn
+Item Record ID: 1060001
+
+
+Name: battle_horn
+Item Record ID: 1060025
+
+
+Name: battle_horn
+Item Record ID: 1060026
+
+
+Name: sharp_ring
+Item Record ID: 1061001
+
+
+Name: sharp_ring
+Item Record ID: 1061025
+
+
+Name: sharp_ring
+Item Record ID: 1061026
+
+
+Name: ornate_bagpipes
+Item Record ID: 1062001
+
+
+Name: ornate_bagpipes
+Item Record ID: 1062025
+
+
+Name: ornate_bagpipes
+Item Record ID: 1062026
+
+
+Name: pew_pew_rifle
+Item Record ID: 1063001
+
+
+Name: pew_pew_rifle
+Item Record ID: 1063025
+
+
+Name: pew_pew_rifle
+Item Record ID: 1063026
+
+
+Name: pixel_stream_sword
+Item Record ID: 1064001
+
+
+Name: pixel_stream_sword
+Item Record ID: 1064025
+
+
+Name: pixel_stream_sword
+Item Record ID: 1064026
+
+
+Name: tube_backpack
+Item Record ID: 1065001
+
+
+Name: tube_backpack
+Item Record ID: 1065025
+
+
+Name: tube_backpack
+Item Record ID: 1065026
+
+
+Name: supershot_rifle
+Item Record ID: 1066001
+
+
+Name: supershot_rifle
+Item Record ID: 1066025
+
+
+Name: supershot_rifle
+Item Record ID: 1066026
+
+
+Name: hyper_mega_cannon
+Item Record ID: 1067001
+
+
+Name: hyper_mega_cannon
+Item Record ID: 1067025
+
+
+Name: hyper_mega_cannon
+Item Record ID: 1067026
+
+
+Name: digital_sunrise
+Item Record ID: 1068001
+
+
+Name: digital_sunrise
+Item Record ID: 1068025
+
+
+Name: digital_sunrise
+Item Record ID: 1068026
+
+
+Name: lasercycler
+Item Record ID: 1069001
+
+
+Name: lasercycler
+Item Record ID: 1069025
+
+
+Name: lasercycler
+Item Record ID: 1069026
+
+
+Name: wave_pulser
+Item Record ID: 1070001
+
+
+Name: wave_pulser
+Item Record ID: 1070025
+
+
+Name: wave_pulser
+Item Record ID: 1070026
+
+
+Name: arcade_rifle
+Item Record ID: 1071001
+
+
+Name: arcade_rifle
+Item Record ID: 1071025
+
+
+Name: arcade_rifle
+Item Record ID: 1071026
+
+
+Name: arcade_flamethrower
+Item Record ID: 1072001
+
+
+Name: arcade_flamethrower
+Item Record ID: 1072025
+
+
+Name: arcade_flamethrower
+Item Record ID: 1072026
+
+
+Name: fatality_hook
+Item Record ID: 1073001
+
+
+Name: fatality_hook
+Item Record ID: 1073025
+
+
+Name: fatality_hook
+Item Record ID: 1073026
+
+
+Name: fireball_gauntlets
+Item Record ID: 1074001
+
+
+Name: fireball_gauntlets
+Item Record ID: 1074025
+
+
+Name: fireball_gauntlets
+Item Record ID: 1074026
+
+
+Name: anubis
+Item Record ID: 1075001
+
+
+Name: anubis
+Item Record ID: 1075025
+
+
+Name: anubis
+Item Record ID: 1075026
+
+
+Name: duck_hunter
+Item Record ID: 1076001
+
+
+Name: duck_hunter
+Item Record ID: 1076025
+
+
+Name: duck_hunter
+Item Record ID: 1076026
+
+
+Name: disc_battle_station
+Item Record ID: 1077001
+
+
+Name: disc_battle_station
+Item Record ID: 1077025
+
+
+Name: disc_battle_station
+Item Record ID: 1077026
+
+
+Name: pixel_shovel
+Item Record ID: 1078001
+
+
+Name: pixel_shovel
+Item Record ID: 1078025
+
+
+Name: pixel_shovel
+Item Record ID: 1078026
+
+
+Name: holy_shotgun
+Item Record ID: 1079001
+
+
+Name: holy_shotgun
+Item Record ID: 1079025
+
+
+Name: holy_shotgun
+Item Record ID: 1079026
+
+
+Name: aspen_spear
+Item Record ID: 1080001
+
+
+Name: aspen_spear
+Item Record ID: 1080025
+
+
+Name: aspen_spear
+Item Record ID: 1080026
+
+
+Name: dual_hunter_crossbows
+Item Record ID: 1081001
+
+
+Name: dual_hunter_crossbows
+Item Record ID: 1081025
+
+
+Name: dual_hunter_crossbows
+Item Record ID: 1081026
+
+
+Name: plague_purifier
+Item Record ID: 1082001
+
+
+Name: plague_purifier
+Item Record ID: 1082025
+
+
+Name: plague_purifier
+Item Record ID: 1082026
+
+
+Name: lives_oppressor
+Item Record ID: 1083001
+
+
+Name: lives_oppressor
+Item Record ID: 1083025
+
+
+Name: lives_oppressor
+Item Record ID: 1083026
+
+
+Name: sword_of_silence
+Item Record ID: 1084001
+
+
+Name: sword_of_silence
+Item Record ID: 1084025
+
+
+Name: sword_of_silence
+Item Record ID: 1084026
+
+
+Name: gravestone_shovel
+Item Record ID: 1085001
+
+
+Name: gravestone_shovel
+Item Record ID: 1085025
+
+
+Name: gravestone_shovel
+Item Record ID: 1085026
+
+
+Name: hot_greetings
+Item Record ID: 1086001
+
+
+Name: hot_greetings
+Item Record ID: 1086025
+
+
+Name: hot_greetings
+Item Record ID: 1086026
+
+
+Name: cooking_totem
+Item Record ID: 1087001
+
+
+Name: cooking_totem
+Item Record ID: 1087025
+
+
+Name: cooking_totem
+Item Record ID: 1087026
+
+
+Name: spiritual_rifle
+Item Record ID: 1088001
+
+
+Name: spiritual_rifle
+Item Record ID: 1088025
+
+
+Name: spiritual_rifle
+Item Record ID: 1088026
+
+
+Name: storm_all_seas
+Item Record ID: 1089001
+
+
+Name: storm_all_seas
+Item Record ID: 1089025
+
+
+Name: storm_all_seas
+Item Record ID: 1089026
+
+
+Name: huge_anchor_shovel
+Item Record ID: 1090001
+
+
+Name: huge_anchor_shovel
+Item Record ID: 1090025
+
+
+Name: huge_anchor_shovel
+Item Record ID: 1090026
+
+
+Name: hard_corn
+Item Record ID: 1091001
+
+
+Name: hard_corn
+Item Record ID: 1091025
+
+
+Name: hard_corn
+Item Record ID: 1091026
+
+
+Name: chef_fork_shovel
+Item Record ID: 1092001
+
+
+Name: chef_fork_shovel
+Item Record ID: 1092025
+
+
+Name: chef_fork_shovel
+Item Record ID: 1092026
+
+
+Name: lancelot
+Item Record ID: 1093001
+
+
+Name: lancelot
+Item Record ID: 1093025
+
+
+Name: lancelot
+Item Record ID: 1093026
+
+
+Name: galahad
+Item Record ID: 1094001
+
+
+Name: galahad
+Item Record ID: 1094025
+
+
+Name: galahad
+Item Record ID: 1094026
+
+
+Name: percival_n_lamorak
+Item Record ID: 1095001
+
+
+Name: percival_n_lamorak
+Item Record ID: 1095025
+
+
+Name: percival_n_lamorak
+Item Record ID: 1095026
+
+
+Name: mordred
+Item Record ID: 1096001
+
+
+Name: mordred
+Item Record ID: 1096025
+
+
+Name: mordred
+Item Record ID: 1096026
+
+
+Name: morgana
+Item Record ID: 1097001
+
+
+Name: morgana
+Item Record ID: 1097025
+
+
+Name: morgana
+Item Record ID: 1097026
+
+
+Name: bediver
+Item Record ID: 1098001
+
+
+Name: bediver
+Item Record ID: 1098025
+
+
+Name: bediver
+Item Record ID: 1098026
+
+
+Name: neutron_pulsator
+Item Record ID: 1105001
+
+
+Name: neutron_pulsator
+Item Record ID: 1105025
+
+
+Name: neutron_pulsator
+Item Record ID: 1105026
+
+
+Name: clapper_gun
+Item Record ID: 1107001
+
+
+Name: clapper_gun
+Item Record ID: 1107025
+
+
+Name: clapper_gun
+Item Record ID: 1107026
+
+
+Name: royal_marryer
+Item Record ID: 1108001
+
+
+Name: royal_marryer
+Item Record ID: 1108025
+
+
+Name: royal_marryer
+Item Record ID: 1108026
+
+
+Name: snowqueen_wand
+Item Record ID: 1109001
+
+
+Name: snowqueen_wand
+Item Record ID: 1109025
+
+
+Name: snowqueen_wand
+Item Record ID: 1109026
+
+
+Name: heroic_epee
+Item Record ID: 1110001
+
+
+Name: heroic_epee
+Item Record ID: 1110025
+
+
+Name: heroic_epee
+Item Record ID: 1110026
+
+
+Name: ice_club
+Item Record ID: 1111001
+
+
+Name: ice_club
+Item Record ID: 1111025
+
+
+Name: ice_club
+Item Record ID: 1111026
+
+
+Name: last_squeak
+Item Record ID: 1112001
+
+
+Name: last_squeak
+Item Record ID: 1112025
+
+
+Name: last_squeak
+Item Record ID: 1112026
+
+
+Name: fierce_pack
+Item Record ID: 1113001
+
+
+Name: fierce_pack
+Item Record ID: 1113025
+
+
+Name: fierce_pack
+Item Record ID: 1113026
+
+
+Name: mouse_scepter
+Item Record ID: 1114001
+
+
+Name: mouse_scepter
+Item Record ID: 1114025
+
+
+Name: mouse_scepter
+Item Record ID: 1114026
+
+
+Name: ice_chaser
+Item Record ID: 1115001
+
+
+Name: ice_chaser
+Item Record ID: 1115025
+
+
+Name: ice_chaser
+Item Record ID: 1115026
+
+
+Name: sneaky_revolver
+Item Record ID: 1116001
+
+
+Name: sneaky_revolver
+Item Record ID: 1116025
+
+
+Name: sneaky_revolver
+Item Record ID: 1116026
+
+
+Name: coal_frightener
+Item Record ID: 1117001
+
+
+Name: coal_frightener
+Item Record ID: 1117025
+
+
+Name: coal_frightener
+Item Record ID: 1117026
+
+
+Name: enchanted_butler_shovel
+Item Record ID: 1118001
+
+
+Name: enchanted_butler_shovel
+Item Record ID: 1118025
+
+
+Name: enchanted_butler_shovel
+Item Record ID: 1118026
+
+
+Name: golden_bros
+Item Record ID: 1119001
+
+
+Name: golden_bros
+Item Record ID: 1119025
+
+
+Name: golden_bros
+Item Record ID: 1119026
+
+
+Name: gangsta_shield
+Item Record ID: 1120001
+
+
+Name: gangsta_shield
+Item Record ID: 1120025
+
+
+Name: gangsta_shield
+Item Record ID: 1120026
+
+
+Name: double_cashback
+Item Record ID: 1121001
+
+
+Name: double_cashback
+Item Record ID: 1121025
+
+
+Name: double_cashback
+Item Record ID: 1121026
+
+
+Name: luxury_beats
+Item Record ID: 1122001
+
+
+Name: luxury_beats
+Item Record ID: 1122025
+
+
+Name: luxury_beats
+Item Record ID: 1122026
+
+
+Name: sniper_dude
+Item Record ID: 1123001
+
+
+Name: sniper_dude
+Item Record ID: 1123025
+
+
+Name: sniper_dude
+Item Record ID: 1123026
+
+
+Name: gems_power
+Item Record ID: 1124001
+
+
+Name: gems_power
+Item Record ID: 1124025
+
+
+Name: gems_power
+Item Record ID: 1124026
+
+
+Name: spirit_staff
+Item Record ID: 1125001
+
+
+Name: spirit_staff
+Item Record ID: 1125025
+
+
+Name: spirit_staff
+Item Record ID: 1125026
+
+
+Name: offensive_fireworks
+Item Record ID: 1126001
+
+
+Name: offensive_fireworks
+Item Record ID: 1126025
+
+
+Name: offensive_fireworks
+Item Record ID: 1126026
+
+
+Name: sharp_fans
+Item Record ID: 1127001
+
+
+Name: sharp_fans
+Item Record ID: 1127025
+
+
+Name: sharp_fans
+Item Record ID: 1127026
+
+
+Name: river_dragon
+Item Record ID: 1128001
+
+
+Name: river_dragon
+Item Record ID: 1128025
+
+
+Name: river_dragon
+Item Record ID: 1128026
+
+
+Name: explosive_lemonade
+Item Record ID: 1129001
+
+
+Name: explosive_lemonade
+Item Record ID: 1129025
+
+
+Name: explosive_lemonade
+Item Record ID: 1129026
+
+
+Name: stick_gong_shovel
+Item Record ID: 1130001
+
+
+Name: stick_gong_shovel
+Item Record ID: 1130025
+
+
+Name: stick_gong_shovel
+Item Record ID: 1130026
+
+
+Name: fire_spirit
+Item Record ID: 1131001
+
+
+Name: fire_spirit
+Item Record ID: 1131025
+
+
+Name: fire_spirit
+Item Record ID: 1131026
+
+
+Name: thunder_storm
+Item Record ID: 1132001
+
+
+Name: thunder_storm
+Item Record ID: 1132025
+
+
+Name: thunder_storm
+Item Record ID: 1132026
+
+
+Name: water_blades
+Item Record ID: 1133001
+
+
+Name: water_blades
+Item Record ID: 1133025
+
+
+Name: water_blades
+Item Record ID: 1133026
+
+
+Name: deadly_stings
+Item Record ID: 1134001
+
+
+Name: deadly_stings
+Item Record ID: 1134025
+
+
+Name: deadly_stings
+Item Record ID: 1134026
+
+
+Name: dragon_bite
+Item Record ID: 1135001
+
+
+Name: dragon_bite
+Item Record ID: 1135025
+
+
+Name: dragon_bite
+Item Record ID: 1135026
+
+
+Name: ancient_scroll
+Item Record ID: 1136001
+
+
+Name: ancient_scroll
+Item Record ID: 1136025
+
+
+Name: ancient_scroll
+Item Record ID: 1136026
+
+
+Name: potato_implant
+Item Record ID: 1137001
+
+
+Name: potato_implant
+Item Record ID: 1137025
+
+
+Name: potato_implant
+Item Record ID: 1137026
+
+
+Name: ai_pistol
+Item Record ID: 1138001
+
+
+Name: ai_pistol
+Item Record ID: 1138025
+
+
+Name: ai_pistol
+Item Record ID: 1138026
+
+
+Name: super_drill
+Item Record ID: 1139001
+
+
+Name: super_drill
+Item Record ID: 1139025
+
+
+Name: super_drill
+Item Record ID: 1139026
+
+
+Name: meteorite_fighter
+Item Record ID: 1140001
+
+
+Name: meteorite_fighter
+Item Record ID: 1140025
+
+
+Name: meteorite_fighter
+Item Record ID: 1140026
+
+
+Name: gravitator
+Item Record ID: 1141001
+
+
+Name: gravitator
+Item Record ID: 1141025
+
+
+Name: gravitator
+Item Record ID: 1141026
+
+
+Name: predatory_bush_shovel
+Item Record ID: 1142001
+
+
+Name: predatory_bush_shovel
+Item Record ID: 1142025
+
+
+Name: predatory_bush_shovel
+Item Record ID: 1142026
+
+
+Name: zap_blaster
+Item Record ID: 1143001
+
+
+Name: zap_blaster
+Item Record ID: 1143025
+
+
+Name: zap_blaster
+Item Record ID: 1143026
+
+
+Name: pew_blaster
+Item Record ID: 1144001
+
+
+Name: pew_blaster
+Item Record ID: 1144025
+
+
+Name: pew_blaster
+Item Record ID: 1144026
+
+
+Name: boom_blaster
+Item Record ID: 1145001
+
+
+Name: boom_blaster
+Item Record ID: 1145025
+
+
+Name: boom_blaster
+Item Record ID: 1145026
+
+
+Name: psionic_spores
+Item Record ID: 1146001
+
+
+Name: psionic_spores
+Item Record ID: 1146025
+
+
+Name: psionic_spores
+Item Record ID: 1146026
+
+
+Name: poisonous_grasshopper
+Item Record ID: 1147001
+
+
+Name: poisonous_grasshopper
+Item Record ID: 1147025
+
+
+Name: poisonous_grasshopper
+Item Record ID: 1147026
+
+
+Name: shrimposaur
+Item Record ID: 1148001
+
+
+Name: shrimposaur
+Item Record ID: 1148025
+
+
+Name: shrimposaur
+Item Record ID: 1148026
+
+
+Name: desert_fighter
+Item Record ID: 1149001
+
+
+Name: desert_fighter
+Item Record ID: 1149025
+
+
+Name: desert_fighter
+Item Record ID: 1149026
+
+
+Name: egg_colorizer
+Item Record ID: 1151001
+
+
+Name: egg_colorizer
+Item Record ID: 1151025
+
+
+Name: egg_colorizer
+Item Record ID: 1151026
+
+
+Name: hocus_pocus
+Item Record ID: 1152001
+
+
+Name: hocus_pocus
+Item Record ID: 1152025
+
+
+Name: hocus_pocus
+Item Record ID: 1152026
+
+
+Name: bunny_smasher
+Item Record ID: 1153001
+
+
+Name: bunny_smasher
+Item Record ID: 1153025
+
+
+Name: bunny_smasher
+Item Record ID: 1153026
+
+
+Name: a_killer
+Item Record ID: 1154001
+
+
+Name: a_killer
+Item Record ID: 1154025
+
+
+Name: a_killer
+Item Record ID: 1154026
+
+
+Name: carrot_crossbow
+Item Record ID: 1155001
+
+
+Name: carrot_crossbow
+Item Record ID: 1155025
+
+
+Name: carrot_crossbow
+Item Record ID: 1155026
+
+
+Name: festive_frying_pan_shovel
+Item Record ID: 1156001
+
+
+Name: festive_frying_pan_shovel
+Item Record ID: 1156025
+
+
+Name: festive_frying_pan_shovel
+Item Record ID: 1156026
+
+
+Name: carrot_on_stick_shovel
+Item Record ID: 1157001
+
+
+Name: carrot_on_stick_shovel
+Item Record ID: 1157025
+
+
+Name: carrot_on_stick_shovel
+Item Record ID: 1157026
+
+
+Name: watchy_snipy
+Item Record ID: 1158001
+
+
+Name: watchy_snipy
+Item Record ID: 1158025
+
+
+Name: watchy_snipy
+Item Record ID: 1158026
+
+
+Name: spiny_shooty
+Item Record ID: 1159001
+
+
+Name: spiny_shooty
+Item Record ID: 1159025
+
+
+Name: spiny_shooty
+Item Record ID: 1159026
+
+
+Name: pully_blasty
+Item Record ID: 1160001
+
+
+Name: pully_blasty
+Item Record ID: 1160025
+
+
+Name: pully_blasty
+Item Record ID: 1160026
+
+
+Name: chickoboom
+Item Record ID: 1161001
+
+
+Name: chickoboom
+Item Record ID: 1161025
+
+
+Name: chickoboom
+Item Record ID: 1161026
+
+
+Name: battle_grainthrowers
+Item Record ID: 1162001
+
+
+Name: battle_grainthrowers
+Item Record ID: 1162025
+
+
+Name: battle_grainthrowers
+Item Record ID: 1162026
+
+
+Name: last_cry
+Item Record ID: 1163001
+
+
+Name: last_cry
+Item Record ID: 1163025
+
+
+Name: last_cry
+Item Record ID: 1163026
+
+
+Name: iron_sword
+Item Record ID: 1164001
+
+
+Name: iron_sword
+Item Record ID: 1164025
+
+
+Name: iron_sword
+Item Record ID: 1164026
+
+
+Name: dragon_emitter
+Item Record ID: 1165001
+
+
+Name: dragon_emitter
+Item Record ID: 1165025
+
+
+Name: dragon_emitter
+Item Record ID: 1165026
+
+
+Name: fate_fist
+Item Record ID: 1166001
+
+
+Name: fate_fist
+Item Record ID: 1166025
+
+
+Name: fate_fist
+Item Record ID: 1166026
+
+
+Name: demon_catcher
+Item Record ID: 1167001
+
+
+Name: demon_catcher
+Item Record ID: 1167025
+
+
+Name: demon_catcher
+Item Record ID: 1167026
+
+
+Name: aboard_puncher
+Item Record ID: 1168001
+
+
+Name: aboard_puncher
+Item Record ID: 1168025
+
+
+Name: aboard_puncher
+Item Record ID: 1168026
+
+
+Name: deadly_tale
+Item Record ID: 1169001
+
+
+Name: deadly_tale
+Item Record ID: 1169025
+
+
+Name: deadly_tale
+Item Record ID: 1169026
+
+
+Name: ninja_shovel
+Item Record ID: 1170001
+
+
+Name: ninja_shovel
+Item Record ID: 1170025
+
+
+Name: ninja_shovel
+Item Record ID: 1170026
+
+
+Name: moon_shovel
+Item Record ID: 1171001
+
+
+Name: moon_shovel
+Item Record ID: 1171025
+
+
+Name: moon_shovel
+Item Record ID: 1171026
+
+
+Name: sword_soul_card
+Item Record ID: 1172001
+
+
+Name: sword_soul_card
+Item Record ID: 1172025
+
+
+Name: sword_soul_card
+Item Record ID: 1172026
+
+
+Name: lance_soul_card
+Item Record ID: 1173001
+
+
+Name: lance_soul_card
+Item Record ID: 1173025
+
+
+Name: lance_soul_card
+Item Record ID: 1173026
+
+
+Name: bow_soul_card
+Item Record ID: 1174001
+
+
+Name: bow_soul_card
+Item Record ID: 1174025
+
+
+Name: bow_soul_card
+Item Record ID: 1174026
+
+
+Name: vertical_grip_device
+Item Record ID: 1175001
+
+
+Name: vertical_grip_device
+Item Record ID: 1175025
+
+
+Name: vertical_grip_device
+Item Record ID: 1175026
+
+
+Name: siege_mode_glove
+Item Record ID: 1176001
+
+
+Name: siege_mode_glove
+Item Record ID: 1176025
+
+
+Name: siege_mode_glove
+Item Record ID: 1176026
+
+
+Name: one_punch_glove
+Item Record ID: 1177001
+
+
+Name: one_punch_glove
+Item Record ID: 1177025
+
+
+Name: one_punch_glove
+Item Record ID: 1177026
+
+
+Name: treasurer
+Item Record ID: 1178001
+
+
+Name: treasurer
+Item Record ID: 1178025
+
+
+Name: treasurer
+Item Record ID: 1178026
+
+
+Name: merchant_shovel
+Item Record ID: 1179001
+
+
+Name: merchant_shovel
+Item Record ID: 1179025
+
+
+Name: merchant_shovel
+Item Record ID: 1179026
+
+
+Name: shell_bubbler
+Item Record ID: 1180001
+
+
+Name: shell_bubbler
+Item Record ID: 1180025
+
+
+Name: shell_bubbler
+Item Record ID: 1180026
+
+
+Name: tide_bracers
+Item Record ID: 1181001
+
+
+Name: tide_bracers
+Item Record ID: 1181025
+
+
+Name: tide_bracers
+Item Record ID: 1181026
+
+
+Name: call_of_sirens
+Item Record ID: 1182001
+
+
+Name: call_of_sirens
+Item Record ID: 1182025
+
+
+Name: call_of_sirens
+Item Record ID: 1182026
+
+
+Name: deep_ambusher
+Item Record ID: 1183001
+
+
+Name: deep_ambusher
+Item Record ID: 1183025
+
+
+Name: deep_ambusher
+Item Record ID: 1183026
+
+
+Name: cthulhu_legacy
+Item Record ID: 1184001
+
+
+Name: cthulhu_legacy
+Item Record ID: 1184025
+
+
+Name: cthulhu_legacy
+Item Record ID: 1184026
+
+
+Name: sunken_hook_shovel
+Item Record ID: 1185001
+
+
+Name: sunken_hook_shovel
+Item Record ID: 1185025
+
+
+Name: sunken_hook_shovel
+Item Record ID: 1185026
+
+
+Name: atlantis_shovel
+Item Record ID: 1186001
+
+
+Name: atlantis_shovel
+Item Record ID: 1186025
+
+
+Name: atlantis_shovel
+Item Record ID: 1186026
+
+
+Name: mooring_anchor
+Item Record ID: 1187001
+
+
+Name: mooring_anchor
+Item Record ID: 1187025
+
+
+Name: mooring_anchor
+Item Record ID: 1187026
+
+
+Name: heavy_drill_rifle
+Item Record ID: 1188001
+
+
+Name: heavy_drill_rifle
+Item Record ID: 1188025
+
+
+Name: heavy_drill_rifle
+Item Record ID: 1188026
+
+
+Name: rivet_gun
+Item Record ID: 1189001
+
+
+Name: rivet_gun
+Item Record ID: 1189025
+
+
+Name: rivet_gun
+Item Record ID: 1189026
+
+
+Name: submarine_drone_station
+Item Record ID: 1190001
+
+
+Name: submarine_drone_station
+Item Record ID: 1190025
+
+
+Name: submarine_drone_station
+Item Record ID: 1190026
+
+
+Name: echo_scanner
+Item Record ID: 1191001
+
+
+Name: echo_scanner
+Item Record ID: 1191025
+
+
+Name: echo_scanner
+Item Record ID: 1191026
+
+
+Name: underwater_carbine
+Item Record ID: 1192001
+
+
+Name: underwater_carbine
+Item Record ID: 1192025
+
+
+Name: underwater_carbine
+Item Record ID: 1192026
+
+
+Name: project_dolphin
+Item Record ID: 1193001
+
+
+Name: project_dolphin
+Item Record ID: 1193025
+
+
+Name: project_dolphin
+Item Record ID: 1193026
+
+
+Name: project_rapid_flock
+Item Record ID: 1194001
+
+
+Name: project_rapid_flock
+Item Record ID: 1194025
+
+
+Name: project_rapid_flock
+Item Record ID: 1194026
+
+
+Name: project_marlin
+Item Record ID: 1195001
+
+
+Name: project_marlin
+Item Record ID: 1195025
+
+
+Name: project_marlin
+Item Record ID: 1195026
+
+
+Name: advanced_scout_rifle
+Item Record ID: 1196001
+
+
+Name: advanced_scout_rifle
+Item Record ID: 1196025
+
+
+Name: advanced_scout_rifle
+Item Record ID: 1196026
+
+
+Name: harsh_punisher
+Item Record ID: 1197001
+
+
+Name: harsh_punisher
+Item Record ID: 1197025
+
+
+Name: harsh_punisher
+Item Record ID: 1197026
+
+
+Name: manual_inferno
+Item Record ID: 1198001
+
+
+Name: manual_inferno
+Item Record ID: 1198025
+
+
+Name: manual_inferno
+Item Record ID: 1198026
+
+
+Name: offensive_rocket_system
+Item Record ID: 1199001
+
+
+Name: offensive_rocket_system
+Item Record ID: 1199025
+
+
+Name: offensive_rocket_system
+Item Record ID: 1199026
+
+
+Name: headhunter_pistols
+Item Record ID: 1200001
+
+
+Name: headhunter_pistols
+Item Record ID: 1200025
+
+
+Name: headhunter_pistols
+Item Record ID: 1200026
+
+
+Name: thunderbolt
+Item Record ID: 1201001
+
+
+Name: thunderbolt
+Item Record ID: 1201025
+
+
+Name: thunderbolt
+Item Record ID: 1201026
+
+
+Name: spear_of_war
+Item Record ID: 1202001
+
+
+Name: spear_of_war
+Item Record ID: 1202025
+
+
+Name: spear_of_war
+Item Record ID: 1202026
+
+
+Name: aphrodite_crossbow
+Item Record ID: 1203001
+
+
+Name: aphrodite_crossbow
+Item Record ID: 1203025
+
+
+Name: aphrodite_crossbow
+Item Record ID: 1203026
+
+
+Name: winged_revolver
+Item Record ID: 1204001
+
+
+Name: winged_revolver
+Item Record ID: 1204025
+
+
+Name: winged_revolver
+Item Record ID: 1204026
+
+
+Name: ferocious_poleaxe
+Item Record ID: 1205001
+
+
+Name: ferocious_poleaxe
+Item Record ID: 1205025
+
+
+Name: ferocious_poleaxe
+Item Record ID: 1205026
+
+
+Name: hermes_rod_shovel
+Item Record ID: 1206001
+
+
+Name: hermes_rod_shovel
+Item Record ID: 1206025
+
+
+Name: hermes_rod_shovel
+Item Record ID: 1206026
+
+
+Name: hydra_shovel
+Item Record ID: 1207001
+
+
+Name: hydra_shovel
+Item Record ID: 1207025
+
+
+Name: hydra_shovel
+Item Record ID: 1207026
+
+
+Name: cerberus
+Item Record ID: 1208001
+
+
+Name: cerberus
+Item Record ID: 1208025
+
+
+Name: cerberus
+Item Record ID: 1208026
+
+
+Name: souls_conductor
+Item Record ID: 1209001
+
+
+Name: souls_conductor
+Item Record ID: 1209025
+
+
+Name: souls_conductor
+Item Record ID: 1209026
+
+
+Name: triple_bite
+Item Record ID: 1210001
+
+
+Name: triple_bite
+Item Record ID: 1210025
+
+
+Name: triple_bite
+Item Record ID: 1210026
+
+
+Name: wraith_of_fire
+Item Record ID: 1211001
+
+
+Name: wraith_of_fire
+Item Record ID: 1211025
+
+
+Name: wraith_of_fire
+Item Record ID: 1211026
+
+
+Name: earth_trembler
+Item Record ID: 1212001
+
+
+Name: earth_trembler
+Item Record ID: 1212025
+
+
+Name: earth_trembler
+Item Record ID: 1212026
+
+
+Name: primal_cold
+Item Record ID: 1213001
+
+
+Name: primal_cold
+Item Record ID: 1213025
+
+
+Name: primal_cold
+Item Record ID: 1213026
+
+
+Name: boar_roar
+Item Record ID: 1214001
+
+
+Name: boar_roar
+Item Record ID: 1214025
+
+
+Name: boar_roar
+Item Record ID: 1214026
+
+
+Name: gorgon_head
+Item Record ID: 1215001
+
+
+Name: gorgon_head
+Item Record ID: 1215025
+
+
+Name: gorgon_head
+Item Record ID: 1215026
+
+
+Name: invincible_lion
+Item Record ID: 1216001
+
+
+Name: invincible_lion
+Item Record ID: 1216025
+
+
+Name: invincible_lion
+Item Record ID: 1216026
+
+
+Name: advanced_scout_rifle_l
+Item Record ID: 1217001
+
+
+Name: advanced_scout_rifle_l
+Item Record ID: 1217025
+
+
+Name: advanced_scout_rifle_l
+Item Record ID: 1217026
+
+
+Name: harsh_punisher_l
+Item Record ID: 1218001
+
+
+Name: harsh_punisher_l
+Item Record ID: 1218025
+
+
+Name: harsh_punisher_l
+Item Record ID: 1218026
+
+
+Name: manual_inferno_l
+Item Record ID: 1219001
+
+
+Name: manual_inferno_l
+Item Record ID: 1219025
+
+
+Name: manual_inferno_l
+Item Record ID: 1219026
+
+
+Name: offensive_rocket_system_l
+Item Record ID: 1220001
+
+
+Name: offensive_rocket_system_l
+Item Record ID: 1220025
+
+
+Name: offensive_rocket_system_l
+Item Record ID: 1220026
+
+
+Name: headhunter_pistols_l
+Item Record ID: 1221001
+
+
+Name: headhunter_pistols_l
+Item Record ID: 1221025
+
+
+Name: headhunter_pistols_l
+Item Record ID: 1221026
+
+
+Name: debugger
+Item Record ID: 1222001
+
+
+Name: debugger
+Item Record ID: 1222025
+
+
+Name: debugger
+Item Record ID: 1222026
+
+
+Name: likes_booster
+Item Record ID: 1223001
+
+
+Name: likes_booster
+Item Record ID: 1223025
+
+
+Name: likes_booster
+Item Record ID: 1223026
+
+
+Name: ban_hammer
+Item Record ID: 1224001
+
+
+Name: ban_hammer
+Item Record ID: 1224025
+
+
+Name: ban_hammer
+Item Record ID: 1224026
+
+
+Name: vr_blasters
+Item Record ID: 1225001
+
+
+Name: vr_blasters
+Item Record ID: 1225025
+
+
+Name: vr_blasters
+Item Record ID: 1225026
+
+
+Name: killer_chord
+Item Record ID: 1226001
+
+
+Name: killer_chord
+Item Record ID: 1226025
+
+
+Name: killer_chord
+Item Record ID: 1226026
+
+
+Name: invigorating_awaker
+Item Record ID: 1227001
+
+
+Name: invigorating_awaker
+Item Record ID: 1227025
+
+
+Name: invigorating_awaker
+Item Record ID: 1227026
+
+
+Name: total_planner
+Item Record ID: 1228001
+
+
+Name: total_planner
+Item Record ID: 1228025
+
+
+Name: total_planner
+Item Record ID: 1228026
+
+
+Name: money_rain
+Item Record ID: 1229001
+
+
+Name: money_rain
+Item Record ID: 1229025
+
+
+Name: money_rain
+Item Record ID: 1229026
+
+
+Name: render_station
+Item Record ID: 1230001
+
+
+Name: render_station
+Item Record ID: 1230025
+
+
+Name: render_station
+Item Record ID: 1230026
+
+
+Name: gun_force
+Item Record ID: 1231001
+
+
+Name: gun_force
+Item Record ID: 1231025
+
+
+Name: gun_force
+Item Record ID: 1231026
+
+
+Name: digital_pad
+Item Record ID: 1232001
+
+
+Name: digital_pad
+Item Record ID: 1232025
+
+
+Name: digital_pad
+Item Record ID: 1232026
+
+
+Name: graphic_shovel
+Item Record ID: 1233001
+
+
+Name: graphic_shovel
+Item Record ID: 1233025
+
+
+Name: graphic_shovel
+Item Record ID: 1233026
+
+
+Name: cheater_hunter
+Item Record ID: 1234001
+
+
+Name: cheater_hunter
+Item Record ID: 1234025
+
+
+Name: cheater_hunter
+Item Record ID: 1234026
+
+
+Name: super_fixer
+Item Record ID: 1235001
+
+
+Name: super_fixer
+Item Record ID: 1235025
+
+
+Name: super_fixer
+Item Record ID: 1235026
+
+
+Name: bugs_cleaner
+Item Record ID: 1236001
+
+
+Name: bugs_cleaner
+Item Record ID: 1236025
+
+
+Name: bugs_cleaner
+Item Record ID: 1236026
+
+
+Name: code_shovel
+Item Record ID: 1237001
+
+
+Name: code_shovel
+Item Record ID: 1237025
+
+
+Name: code_shovel
+Item Record ID: 1237026
+
+
+Name: good_code
+Item Record ID: 1238001
+
+
+Name: good_code
+Item Record ID: 1238025
+
+
+Name: good_code
+Item Record ID: 1238026
+
+
+Name: ambush_crocorifle
+Item Record ID: 1239001
+
+
+Name: ambush_crocorifle
+Item Record ID: 1239025
+
+
+Name: ambush_crocorifle
+Item Record ID: 1239026
+
+
+Name: bubble_splasher
+Item Record ID: 1240001
+
+
+Name: bubble_splasher
+Item Record ID: 1240025
+
+
+Name: bubble_splasher
+Item Record ID: 1240026
+
+
+Name: disguised_rifle
+Item Record ID: 1241001
+
+
+Name: disguised_rifle
+Item Record ID: 1241025
+
+
+Name: disguised_rifle
+Item Record ID: 1241026
+
+
+Name: surf_daggers_shovel
+Item Record ID: 1242001
+
+
+Name: surf_daggers_shovel
+Item Record ID: 1242025
+
+
+Name: surf_daggers_shovel
+Item Record ID: 1242026
+
+
+Name: sand_shovel
+Item Record ID: 1243001
+
+
+Name: sand_shovel
+Item Record ID: 1243025
+
+
+Name: sand_shovel
+Item Record ID: 1243026
+
+
+Name: enchanting_altar
+Item Record ID: 1244001
+
+
+Name: enchanting_altar
+Item Record ID: 1244025
+
+
+Name: enchanting_altar
+Item Record ID: 1244026
+
+
+Name: spirit_mask
+Item Record ID: 1245001
+
+
+Name: spirit_mask
+Item Record ID: 1245025
+
+
+Name: spirit_mask
+Item Record ID: 1245026
+
+
+Name: magical_boomerang
+Item Record ID: 1246001
+
+
+Name: magical_boomerang
+Item Record ID: 1246025
+
+
+Name: magical_boomerang
+Item Record ID: 1246026
+
+
+Name: foam_sword
+Item Record ID: 1247001
+
+
+Name: foam_sword
+Item Record ID: 1247025
+
+
+Name: foam_sword
+Item Record ID: 1247026
+
+
+Name: sand_tower_pistol
+Item Record ID: 1248001
+
+
+Name: sand_tower_pistol
+Item Record ID: 1248025
+
+
+Name: sand_tower_pistol
+Item Record ID: 1248026
+
+
+Name: watermans_rifle
+Item Record ID: 1249001
+
+
+Name: watermans_rifle
+Item Record ID: 1249025
+
+
+Name: watermans_rifle
+Item Record ID: 1249026
+
+
+Name: high_pressure_rifle
+Item Record ID: 1250001
+
+
+Name: high_pressure_rifle
+Item Record ID: 1250025
+
+
+Name: high_pressure_rifle
+Item Record ID: 1250026
+
+
+Name: sharkado
+Item Record ID: 1251001
+
+
+Name: sharkado
+Item Record ID: 1251025
+
+
+Name: sharkado
+Item Record ID: 1251026
+
+
+Name: shower_sprinkler
+Item Record ID: 1252001
+
+
+Name: shower_sprinkler
+Item Record ID: 1252025
+
+
+Name: shower_sprinkler
+Item Record ID: 1252026
+
+
+Name: star_shard
+Item Record ID: 1253001
+
+
+Name: star_shard
+Item Record ID: 1253025
+
+
+Name: star_shard
+Item Record ID: 1253026
+
+
+Name: solar_flare
+Item Record ID: 1254001
+
+
+Name: solar_flare
+Item Record ID: 1254025
+
+
+Name: solar_flare
+Item Record ID: 1254026
+
+
+Name: magnetic_storm
+Item Record ID: 1255001
+
+
+Name: magnetic_storm
+Item Record ID: 1255025
+
+
+Name: magnetic_storm
+Item Record ID: 1255026
+
+
+Name: MonsterHunterMechBody1
+Item Record ID: 1256001
+
+
+Name: MonsterHunterMechBody1
+Item Record ID: 1256025
+
+
+Name: MonsterHunterMechBody1
+Item Record ID: 1256026
+
+
+Name: ectoplasmic_grenade_launcher
+Item Record ID: 1257001
+
+
+Name: ectoplasmic_grenade_launcher
+Item Record ID: 1257025
+
+
+Name: ectoplasmic_grenade_launcher
+Item Record ID: 1257026
+
+
+Name: reversed_pistol
+Item Record ID: 1258001
+
+
+Name: reversed_pistol
+Item Record ID: 1258025
+
+
+Name: reversed_pistol
+Item Record ID: 1258026
+
+
+Name: activity_neutralizer
+Item Record ID: 1259001
+
+
+Name: activity_neutralizer
+Item Record ID: 1259025
+
+
+Name: activity_neutralizer
+Item Record ID: 1259026
+
+
+Name: pga_mirror_shovel
+Item Record ID: 1260001
+
+
+Name: pga_mirror_shovel
+Item Record ID: 1260025
+
+
+Name: pga_mirror_shovel
+Item Record ID: 1260026
+
+
+Name: dimerian_shovel
+Item Record ID: 1261001
+
+
+Name: dimerian_shovel
+Item Record ID: 1261025
+
+
+Name: dimerian_shovel
+Item Record ID: 1261026
+
+
+Name: goo_substance_rifle
+Item Record ID: 1262001
+
+
+Name: goo_substance_rifle
+Item Record ID: 1262025
+
+
+Name: goo_substance_rifle
+Item Record ID: 1262026
+
+
+Name: goo_substance_pistol
+Item Record ID: 1263001
+
+
+Name: goo_substance_pistol
+Item Record ID: 1263025
+
+
+Name: goo_substance_pistol
+Item Record ID: 1263026
+
+
+Name: goo_substance_scythe
+Item Record ID: 1264001
+
+
+Name: goo_substance_scythe
+Item Record ID: 1264025
+
+
+Name: goo_substance_scythe
+Item Record ID: 1264026
+
+
+Name: pga_tv
+Item Record ID: 1265001
+
+
+Name: pga_tv
+Item Record ID: 1265025
+
+
+Name: pga_tv
+Item Record ID: 1265026
+
+
+Name: pga_doll
+Item Record ID: 1266001
+
+
+Name: pga_doll
+Item Record ID: 1266025
+
+
+Name: pga_doll
+Item Record ID: 1266026
+
+
+Name: pga_gates
+Item Record ID: 1267001
+
+
+Name: pga_gates
+Item Record ID: 1267025
+
+
+Name: pga_gates
+Item Record ID: 1267026
+
+
+Name: pga_living_rifle
+Item Record ID: 1268001
+
+
+Name: pga_living_rifle
+Item Record ID: 1268025
+
+
+Name: pga_living_rifle
+Item Record ID: 1268026
+
+
+Name: pga_slender_touch
+Item Record ID: 1269001
+
+
+Name: pga_slender_touch
+Item Record ID: 1269025
+
+
+Name: pga_slender_touch
+Item Record ID: 1269026
+
+
+Name: pga_screaming_saw
+Item Record ID: 1270001
+
+
+Name: pga_screaming_saw
+Item Record ID: 1270025
+
+
+Name: pga_screaming_saw
+Item Record ID: 1270026
+
+
+Name: atomic_splitter
+Item Record ID: 1271001
+
+
+Name: atomic_splitter
+Item Record ID: 1271025
+
+
+Name: atomic_splitter
+Item Record ID: 1271026
+
+
+Name: detimerian_divider
+Item Record ID: 1272001
+
+
+Name: detimerian_divider
+Item Record ID: 1272025
+
+
+Name: detimerian_divider
+Item Record ID: 1272026
+
+
+Name: restructurer
+Item Record ID: 1273001
+
+
+Name: restructurer
+Item Record ID: 1273025
+
+
+Name: restructurer
+Item Record ID: 1273026
+
+
+Name: anomaly_concentrator
+Item Record ID: 1274001
+
+
+Name: anomaly_concentrator
+Item Record ID: 1274025
+
+
+Name: anomaly_concentrator
+Item Record ID: 1274026
+
+
+Name: MonsterHunterMechBody2
+Item Record ID: 1275001
+
+
+Name: MonsterHunterMechBody2
+Item Record ID: 1275025
+
+
+Name: MonsterHunterMechBody2
+Item Record ID: 1275026
+
+
+Name: MonsterHunterMechBody3
+Item Record ID: 1276001
+
+
+Name: MonsterHunterMechBody3
+Item Record ID: 1276025
+
+
+Name: MonsterHunterMechBody3
+Item Record ID: 1276026
+
+
+Name: bloq_plasma_module
+Item Record ID: 1277001
+
+
+Name: bloq_plasma_module
+Item Record ID: 1277025
+
+
+Name: bloq_plasma_module
+Item Record ID: 1277026
+
+
+Name: plasma_beast
+Item Record ID: 1278001
+
+
+Name: plasma_beast
+Item Record ID: 1278025
+
+
+Name: plasma_beast
+Item Record ID: 1278026
+
+
+Name: drone_station
+Item Record ID: 1279001
+
+
+Name: drone_station
+Item Record ID: 1279025
+
+
+Name: drone_station
+Item Record ID: 1279026
+
+
+Name: arma_shovel
+Item Record ID: 1280001
+
+
+Name: arma_shovel
+Item Record ID: 1280025
+
+
+Name: arma_shovel
+Item Record ID: 1280026
+
+
+Name: police_alarm_shovel
+Item Record ID: 1281001
+
+
+Name: police_alarm_shovel
+Item Record ID: 1281025
+
+
+Name: police_alarm_shovel
+Item Record ID: 1281026
+
+
+Name: max_cruelty
+Item Record ID: 1282001
+
+
+Name: max_cruelty
+Item Record ID: 1282025
+
+
+Name: max_cruelty
+Item Record ID: 1282026
+
+
+Name: represser
+Item Record ID: 1283001
+
+
+Name: represser
+Item Record ID: 1283025
+
+
+Name: represser
+Item Record ID: 1283026
+
+
+Name: fear_and_espair
+Item Record ID: 1284001
+
+
+Name: fear_and_espair
+Item Record ID: 1284025
+
+
+Name: fear_and_espair
+Item Record ID: 1284026
+
+
+Name: rude_bully
+Item Record ID: 1285001
+
+
+Name: rude_bully
+Item Record ID: 1285025
+
+
+Name: rude_bully
+Item Record ID: 1285026
+
+
+Name: laser_ninja
+Item Record ID: 1286001
+
+
+Name: laser_ninja
+Item Record ID: 1286025
+
+
+Name: laser_ninja
+Item Record ID: 1286026
+
+
+Name: rebel
+Item Record ID: 1287001
+
+
+Name: rebel
+Item Record ID: 1287025
+
+
+Name: rebel
+Item Record ID: 1287026
+
+
+Name: mobile_outpost
+Item Record ID: 1288001
+
+
+Name: mobile_outpost
+Item Record ID: 1288025
+
+
+Name: mobile_outpost
+Item Record ID: 1288026
+
+
+Name: outlaw_catcher
+Item Record ID: 1289001
+
+
+Name: outlaw_catcher
+Item Record ID: 1289025
+
+
+Name: outlaw_catcher
+Item Record ID: 1289026
+
+
+Name: fair_sheriff
+Item Record ID: 1290001
+
+
+Name: fair_sheriff
+Item Record ID: 1290025
+
+
+Name: fair_sheriff
+Item Record ID: 1290026
+
+
+Name: minigun_cyber_module
+Item Record ID: 1291001
+
+
+Name: minigun_cyber_module
+Item Record ID: 1291025
+
+
+Name: minigun_cyber_module
+Item Record ID: 1291026
+
+
+Name: med_surgery_module
+Item Record ID: 1292001
+
+
+Name: med_surgery_module
+Item Record ID: 1292025
+
+
+Name: med_surgery_module
+Item Record ID: 1292026
+
+
+Name: supply_airdrop
+Item Record ID: 1293001
+
+
+Name: supply_airdrop
+Item Record ID: 1293025
+
+
+Name: supply_airdrop
+Item Record ID: 1293026
+
+
+Name: battle_falcon
+Item Record ID: 1294001
+
+
+Name: battle_falcon
+Item Record ID: 1294025
+
+
+Name: battle_falcon
+Item Record ID: 1294026
+
+
+Name: super_mega_tool
+Item Record ID: 1295001
+
+
+Name: super_mega_tool
+Item Record ID: 1295025
+
+
+Name: super_mega_tool
+Item Record ID: 1295026
+
+
+Name: pneumatic_needle_rifle
+Item Record ID: 1296001
+
+
+Name: pneumatic_needle_rifle
+Item Record ID: 1296025
+
+
+Name: pneumatic_needle_rifle
+Item Record ID: 1296026
+
+
+Name: summon_dagger
+Item Record ID: 1297001
+
+
+Name: summon_dagger
+Item Record ID: 1297025
+
+
+Name: summon_dagger
+Item Record ID: 1297026
+
+
+Name: melter_shovel
+Item Record ID: 1298001
+
+
+Name: melter_shovel
+Item Record ID: 1298025
+
+
+Name: melter_shovel
+Item Record ID: 1298026
+
+
+Name: pg3d_flag_shovel
+Item Record ID: 1299001
+
+
+Name: pg3d_flag_shovel
+Item Record ID: 1299025
+
+
+Name: pg3d_flag_shovel
+Item Record ID: 1299026
+
+
+Name: frozen_heart
+Item Record ID: 1300001
+
+
+Name: frozen_heart
+Item Record ID: 1300025
+
+
+Name: frozen_heart
+Item Record ID: 1300026
+
+
+Name: eye_of_the_storm
+Item Record ID: 1301001
+
+
+Name: eye_of_the_storm
+Item Record ID: 1301025
+
+
+Name: eye_of_the_storm
+Item Record ID: 1301026
+
+
+Name: frosty_fangs
+Item Record ID: 1302001
+
+
+Name: frosty_fangs
+Item Record ID: 1302025
+
+
+Name: frosty_fangs
+Item Record ID: 1302026
+
+
+Name: combat_candy
+Item Record ID: 1303001
+
+
+Name: combat_candy
+Item Record ID: 1303025
+
+
+Name: combat_candy
+Item Record ID: 1303026
+
+
+Name: ho_ho_rocket
+Item Record ID: 1304001
+
+
+Name: ho_ho_rocket
+Item Record ID: 1304025
+
+
+Name: ho_ho_rocket
+Item Record ID: 1304026
+
+
+Name: expllosive_caramel
+Item Record ID: 1305001
+
+
+Name: expllosive_caramel
+Item Record ID: 1305025
+
+
+Name: expllosive_caramel
+Item Record ID: 1305026
+
+
+Name: candy_revolver
+Item Record ID: 1306001
+
+
+Name: candy_revolver
+Item Record ID: 1306025
+
+
+Name: candy_revolver
+Item Record ID: 1306026
+
+
+Name: elven_killer_rifle
+Item Record ID: 1307001
+
+
+Name: elven_killer_rifle
+Item Record ID: 1307025
+
+
+Name: elven_killer_rifle
+Item Record ID: 1307026
+
+
+Name: assassin_daggers
+Item Record ID: 1308001
+
+
+Name: assassin_daggers
+Item Record ID: 1308025
+
+
+Name: assassin_daggers
+Item Record ID: 1308026
+
+
+Name: farewell_volley
+Item Record ID: 1309001
+
+
+Name: farewell_volley
+Item Record ID: 1309025
+
+
+Name: farewell_volley
+Item Record ID: 1309026
+
+
+Name: mystic_potion
+Item Record ID: 1310001
+
+
+Name: mystic_potion
+Item Record ID: 1310025
+
+
+Name: mystic_potion
+Item Record ID: 1310026
+
+
+Name: siege_crossbow
+Item Record ID: 1311001
+
+
+Name: siege_crossbow
+Item Record ID: 1311025
+
+
+Name: siege_crossbow
+Item Record ID: 1311026
+
+
+Name: storm_poleaxes
+Item Record ID: 1312001
+
+
+Name: storm_poleaxes
+Item Record ID: 1312025
+
+
+Name: storm_poleaxes
+Item Record ID: 1312026
+
+
+Name: prophet_staff
+Item Record ID: 1313001
+
+
+Name: prophet_staff
+Item Record ID: 1313025
+
+
+Name: prophet_staff
+Item Record ID: 1313026
+
+
+Name: hammer_of_thor
+Item Record ID: 1314001
+
+
+Name: hammer_of_thor
+Item Record ID: 1314025
+
+
+Name: hammer_of_thor
+Item Record ID: 1314026
+
+
+Name: thor_shovel
+Item Record ID: 1315001
+
+
+Name: thor_shovel
+Item Record ID: 1315025
+
+
+Name: thor_shovel
+Item Record ID: 1315026
+
+
+Name: carved_paddle_shovel
+Item Record ID: 1316001
+
+
+Name: carved_paddle_shovel
+Item Record ID: 1316025
+
+
+Name: carved_paddle_shovel
+Item Record ID: 1316026
+
+
+Name: geri_n_freki
+Item Record ID: 1317001
+
+
+Name: geri_n_freki
+Item Record ID: 1317025
+
+
+Name: geri_n_freki
+Item Record ID: 1317026
+
+
+Name: sleipnir
+Item Record ID: 1318001
+
+
+Name: sleipnir
+Item Record ID: 1318025
+
+
+Name: sleipnir
+Item Record ID: 1318026
+
+
+Name: huginn
+Item Record ID: 1319001
+
+
+Name: huginn
+Item Record ID: 1319025
+
+
+Name: huginn
+Item Record ID: 1319026
+
+
+Name: deceitful_cheater
+Item Record ID: 1320001
+
+
+Name: deceitful_cheater
+Item Record ID: 1320025
+
+
+Name: deceitful_cheater
+Item Record ID: 1320026
+
+
+Name: cunning_flame
+Item Record ID: 1321001
+
+
+Name: cunning_flame
+Item Record ID: 1321025
+
+
+Name: cunning_flame
+Item Record ID: 1321026
+
+
+Name: harbinger_of_ragnarok
+Item Record ID: 1322001
+
+
+Name: harbinger_of_ragnarok
+Item Record ID: 1322025
+
+
+Name: harbinger_of_ragnarok
+Item Record ID: 1322026
+
+
+Name: sun_eater
+Item Record ID: 1323001
+
+
+Name: sun_eater
+Item Record ID: 1323025
+
+
+Name: sun_eater
+Item Record ID: 1323026
+
+
+Name: call_of_valhalla
+Item Record ID: 1324001
+
+
+Name: call_of_valhalla
+Item Record ID: 1324025
+
+
+Name: call_of_valhalla
+Item Record ID: 1324026
+
+
+Name: winged_bow
+Item Record ID: 1325001
+
+
+Name: winged_bow
+Item Record ID: 1325025
+
+
+Name: winged_bow
+Item Record ID: 1325026
+
+
+Name: war_horse
+Item Record ID: 1326001
+
+
+Name: war_horse
+Item Record ID: 1326025
+
+
+Name: war_horse
+Item Record ID: 1326026
+
+
+Name: glitch_machine_gun
+Item Record ID: 1327001
+
+
+Name: glitch_machine_gun
+Item Record ID: 1327025
+
+
+Name: glitch_machine_gun
+Item Record ID: 1327026
+
+
+Name: ideal_rocket_launcher
+Item Record ID: 1328001
+
+
+Name: ideal_rocket_launcher
+Item Record ID: 1328025
+
+
+Name: ideal_rocket_launcher
+Item Record ID: 1328026
+
+
+Name: noob_rifle
+Item Record ID: 1329001
+
+
+Name: noob_rifle
+Item Record ID: 1329025
+
+
+Name: noob_rifle
+Item Record ID: 1329026
+
+
+Name: evil_rubiks_cube
+Item Record ID: 1330001
+
+
+Name: evil_rubiks_cube
+Item Record ID: 1330025
+
+
+Name: evil_rubiks_cube
+Item Record ID: 1330026
+
+
+Name: super_pixel_gun
+Item Record ID: 1331001
+
+
+Name: super_pixel_gun
+Item Record ID: 1331025
+
+
+Name: super_pixel_gun
+Item Record ID: 1331026
+
+
+Name: ultimatum_shovel
+Item Record ID: 1332001
+
+
+Name: ultimatum_shovel
+Item Record ID: 1332025
+
+
+Name: ultimatum_shovel
+Item Record ID: 1332026
+
+
+Name: final_sentence
+Item Record ID: 1333001
+
+
+Name: final_sentence
+Item Record ID: 1333025
+
+
+Name: final_sentence
+Item Record ID: 1333026
+
+
+Name: piercer
+Item Record ID: 1334001
+
+
+Name: piercer
+Item Record ID: 1334025
+
+
+Name: piercer
+Item Record ID: 1334026
+
+
+Name: border_eraser
+Item Record ID: 1335001
+
+
+Name: border_eraser
+Item Record ID: 1335025
+
+
+Name: border_eraser
+Item Record ID: 1335026
+
+
+Name: deminic_crusher
+Item Record ID: 1336001
+
+
+Name: deminic_crusher
+Item Record ID: 1336025
+
+
+Name: deminic_crusher
+Item Record ID: 1336026
+
+
+Name: dual_beam
+Item Record ID: 1337001
+
+
+Name: dual_beam
+Item Record ID: 1337025
+
+
+Name: dual_beam
+Item Record ID: 1337026
+
+
+Name: ronin
+Item Record ID: 1338001
+
+
+Name: ronin
+Item Record ID: 1338025
+
+
+Name: ronin
+Item Record ID: 1338026
+
+
+Name: brutal_rainbow
+Item Record ID: 1339001
+
+
+Name: brutal_rainbow
+Item Record ID: 1339025
+
+
+Name: brutal_rainbow
+Item Record ID: 1339026
+
+
+Name: tomianom
+Item Record ID: 1340001
+
+
+Name: tomianom
+Item Record ID: 1340025
+
+
+Name: tomianom
+Item Record ID: 1340026
+
+
+Name: time_scythe
+Item Record ID: 1341001
+
+
+Name: time_scythe
+Item Record ID: 1341025
+
+
+Name: time_scythe
+Item Record ID: 1341026
+
+
+Name: cyber_cat_lantern
+Item Record ID: 1342001
+
+
+Name: cyber_cat_lantern
+Item Record ID: 1342025
+
+
+Name: cyber_cat_lantern
+Item Record ID: 1342026
+
+
+Name: laser_cat_rifle
+Item Record ID: 1343001
+
+
+Name: laser_cat_rifle
+Item Record ID: 1343025
+
+
+Name: laser_cat_rifle
+Item Record ID: 1343026
+
+
+Name: bomber_cat
+Item Record ID: 1344001
+
+
+Name: bomber_cat
+Item Record ID: 1344025
+
+
+Name: bomber_cat
+Item Record ID: 1344026
+
+
+Name: lab_laser_shovel
+Item Record ID: 1345001
+
+
+Name: lab_laser_shovel
+Item Record ID: 1345025
+
+
+Name: lab_laser_shovel
+Item Record ID: 1345026
+
+
+Name: evidence_hunter
+Item Record ID: 1346001
+
+
+Name: evidence_hunter
+Item Record ID: 1346025
+
+
+Name: evidence_hunter
+Item Record ID: 1346026
+
+
+Name: patrol_officer_747
+Item Record ID: 1347001
+
+
+Name: patrol_officer_747
+Item Record ID: 1347025
+
+
+Name: patrol_officer_747
+Item Record ID: 1347026
+
+
+Name: redneck_bazooka
+Item Record ID: 1348001
+
+
+Name: redneck_bazooka
+Item Record ID: 1348025
+
+
+Name: redneck_bazooka
+Item Record ID: 1348026
+
+
+Name: mayor_trophy_revolver
+Item Record ID: 1349001
+
+
+Name: mayor_trophy_revolver
+Item Record ID: 1349025
+
+
+Name: mayor_trophy_revolver
+Item Record ID: 1349026
+
+
+Name: pixel_cola_cans
+Item Record ID: 1350001
+
+
+Name: pixel_cola_cans
+Item Record ID: 1350025
+
+
+Name: pixel_cola_cans
+Item Record ID: 1350026
+
+
+Name: city_key_shovel
+Item Record ID: 1351001
+
+
+Name: city_key_shovel
+Item Record ID: 1351025
+
+
+Name: city_key_shovel
+Item Record ID: 1351026
+
+
+Name: police_baton_shovel
+Item Record ID: 1352001
+
+
+Name: police_baton_shovel
+Item Record ID: 1352025
+
+
+Name: police_baton_shovel
+Item Record ID: 1352026
+
+
+Name: large_machinegun
+Item Record ID: 1353001
+
+
+Name: large_machinegun
+Item Record ID: 1353025
+
+
+Name: large_machinegun
+Item Record ID: 1353026
+
+
+Name: tactical_pistol
+Item Record ID: 1354001
+
+
+Name: tactical_pistol
+Item Record ID: 1354025
+
+
+Name: tactical_pistol
+Item Record ID: 1354026
+
+
+Name: mammoth
+Item Record ID: 1355001
+
+
+Name: mammoth
+Item Record ID: 1355025
+
+
+Name: mammoth
+Item Record ID: 1355026
+
+
+Name: debts_collector
+Item Record ID: 1356001
+
+
+Name: debts_collector
+Item Record ID: 1356025
+
+
+Name: debts_collector
+Item Record ID: 1356026
+
+
+Name: godfathers_assistant
+Item Record ID: 1357001
+
+
+Name: godfathers_assistant
+Item Record ID: 1357025
+
+
+Name: godfathers_assistant
+Item Record ID: 1357026
+
+
+Name: black_label
+Item Record ID: 1358001
+
+
+Name: black_label
+Item Record ID: 1358025
+
+
+Name: black_label
+Item Record ID: 1358026
+
+
+Name: plan_b
+Item Record ID: 1359001
+
+
+Name: plan_b
+Item Record ID: 1359025
+
+
+Name: plan_b
+Item Record ID: 1359026
+
+
+Name: traitor
+Item Record ID: 1360001
+
+
+Name: traitor
+Item Record ID: 1360025
+
+
+Name: traitor
+Item Record ID: 1360026
+
+
+Name: incinerator
+Item Record ID: 1361001
+
+
+Name: incinerator
+Item Record ID: 1361025
+
+
+Name: incinerator
+Item Record ID: 1361026
+
+
+Name: saboteur
+Item Record ID: 1362001
+
+
+Name: saboteur
+Item Record ID: 1362025
+
+
+Name: saboteur
+Item Record ID: 1362026
+
+
+Name: rock_smelter
+Item Record ID: 1363001
+
+
+Name: rock_smelter
+Item Record ID: 1363025
+
+
+Name: rock_smelter
+Item Record ID: 1363026
+
+
+Name: tunnel_riveter
+Item Record ID: 1364001
+
+
+Name: tunnel_riveter
+Item Record ID: 1364025
+
+
+Name: tunnel_riveter
+Item Record ID: 1364026
+
+
+Name: complete_grinder
+Item Record ID: 1365001
+
+
+Name: complete_grinder
+Item Record ID: 1365025
+
+
+Name: complete_grinder
+Item Record ID: 1365026
+
+
+Name: drilling_railgun
+Item Record ID: 1366001
+
+
+Name: drilling_railgun
+Item Record ID: 1366025
+
+
+Name: drilling_railgun
+Item Record ID: 1366026
+
+
+Name: plasmatic_digger
+Item Record ID: 1367001
+
+
+Name: plasmatic_digger
+Item Record ID: 1367025
+
+
+Name: plasmatic_digger
+Item Record ID: 1367026
+
+
+Name: drill_shovel
+Item Record ID: 1368001
+
+
+Name: drill_shovel
+Item Record ID: 1368025
+
+
+Name: drill_shovel
+Item Record ID: 1368026
+
+
+Name: portalius_shovel
+Item Record ID: 1369001
+
+
+Name: portalius_shovel
+Item Record ID: 1369025
+
+
+Name: portalius_shovel
+Item Record ID: 1369026
+
+
+Name: giant_flytrap_shovel
+Item Record ID: 1370001
+
+
+Name: giant_flytrap_shovel
+Item Record ID: 1370025
+
+
+Name: giant_flytrap_shovel
+Item Record ID: 1370026
+
+
+Name: portal_rifle
+Item Record ID: 1371001
+
+
+Name: portal_rifle
+Item Record ID: 1371025
+
+
+Name: portal_rifle
+Item Record ID: 1371026
+
+
+Name: extracting_ray_pistol
+Item Record ID: 1372001
+
+
+Name: extracting_ray_pistol
+Item Record ID: 1372025
+
+
+Name: extracting_ray_pistol
+Item Record ID: 1372026
+
+
+Name: terramorphing_stone
+Item Record ID: 1373001
+
+
+Name: terramorphing_stone
+Item Record ID: 1373025
+
+
+Name: terramorphing_stone
+Item Record ID: 1373026
+
+
+Name: aerosaur_rifle
+Item Record ID: 1374001
+
+
+Name: aerosaur_rifle
+Item Record ID: 1374025
+
+
+Name: aerosaur_rifle
+Item Record ID: 1374026
+
+
+Name: bone_saur_sword
+Item Record ID: 1375001
+
+
+Name: bone_saur_sword
+Item Record ID: 1375025
+
+
+Name: bone_saur_sword
+Item Record ID: 1375026
+
+
+Name: heavy_spik_saur
+Item Record ID: 1376001
+
+
+Name: heavy_spik_saur
+Item Record ID: 1376025
+
+
+Name: heavy_spik_saur
+Item Record ID: 1376026
+
+
+Name: ritual_rifle
+Item Record ID: 1377001
+
+
+Name: ritual_rifle
+Item Record ID: 1377025
+
+
+Name: ritual_rifle
+Item Record ID: 1377026
+
+
+Name: tooth_of_fate
+Item Record ID: 1378001
+
+
+Name: tooth_of_fate
+Item Record ID: 1378025
+
+
+Name: tooth_of_fate
+Item Record ID: 1378026
+
+
+Name: staff_crystals_will
+Item Record ID: 1379001
+
+
+Name: staff_crystals_will
+Item Record ID: 1379025
+
+
+Name: staff_crystals_will
+Item Record ID: 1379026
+
+
+Name: spark_horn
+Item Record ID: 1380001
+
+
+Name: spark_horn
+Item Record ID: 1380025
+
+
+Name: spark_horn
+Item Record ID: 1380026
+
+
+Name: adventure_swords
+Item Record ID: 1381001
+
+
+Name: adventure_swords
+Item Record ID: 1381025
+
+
+Name: adventure_swords
+Item Record ID: 1381026
+
+
+Name: flat_rifle
+Item Record ID: 1382001
+
+
+Name: flat_rifle
+Item Record ID: 1382025
+
+
+Name: flat_rifle
+Item Record ID: 1382026
+
+
+Name: secret_burger
+Item Record ID: 1383001
+
+
+Name: secret_burger
+Item Record ID: 1383025
+
+
+Name: secret_burger
+Item Record ID: 1383026
+
+
+Name: charles
+Item Record ID: 1384001
+
+
+Name: charles
+Item Record ID: 1384025
+
+
+Name: charles
+Item Record ID: 1384026
+
+
+Name: ink_spreader
+Item Record ID: 1385001
+
+
+Name: ink_spreader
+Item Record ID: 1385025
+
+
+Name: ink_spreader
+Item Record ID: 1385026
+
+
+Name: eraser_crossbow
+Item Record ID: 1386001
+
+
+Name: eraser_crossbow
+Item Record ID: 1386025
+
+
+Name: eraser_crossbow
+Item Record ID: 1386026
+
+
+Name: pencil_spears
+Item Record ID: 1387001
+
+
+Name: pencil_spears
+Item Record ID: 1387025
+
+
+Name: pencil_spears
+Item Record ID: 1387026
+
+
+Name: bro_steamer
+Item Record ID: 1388001
+
+
+Name: bro_steamer
+Item Record ID: 1388025
+
+
+Name: bro_steamer
+Item Record ID: 1388026
+
+
+Name: sad_magnet
+Item Record ID: 1389001
+
+
+Name: sad_magnet
+Item Record ID: 1389025
+
+
+Name: sad_magnet
+Item Record ID: 1389026
+
+
+Name: anvil_pistol
+Item Record ID: 1390001
+
+
+Name: anvil_pistol
+Item Record ID: 1390025
+
+
+Name: anvil_pistol
+Item Record ID: 1390026
+
+
+Name: masterly_trumpet
+Item Record ID: 1391001
+
+
+Name: masterly_trumpet
+Item Record ID: 1391025
+
+
+Name: masterly_trumpet
+Item Record ID: 1391026
+
+
+Name: blot_axe
+Item Record ID: 1392001
+
+
+Name: blot_axe
+Item Record ID: 1392025
+
+
+Name: blot_axe
+Item Record ID: 1392026
+
+
+Name: blot_shotgun
+Item Record ID: 1393001
+
+
+Name: blot_shotgun
+Item Record ID: 1393025
+
+
+Name: blot_shotgun
+Item Record ID: 1393026
+
+
+Name: blot_cannon
+Item Record ID: 1394001
+
+
+Name: blot_cannon
+Item Record ID: 1394025
+
+
+Name: blot_cannon
+Item Record ID: 1394026
+
+
+Name: adventure_shovel
+Item Record ID: 1395001
+
+
+Name: adventure_shovel
+Item Record ID: 1395025
+
+
+Name: adventure_shovel
+Item Record ID: 1395026
+
+
+Name: flat_shovel
+Item Record ID: 1396001
+
+
+Name: flat_shovel
+Item Record ID: 1396025
+
+
+Name: flat_shovel
+Item Record ID: 1396026
+
+
+Name: mr_shovel
+Item Record ID: 1397001
+
+
+Name: mr_shovel
+Item Record ID: 1397025
+
+
+Name: mr_shovel
+Item Record ID: 1397026
+
+
+Name: veteran_rifle
+Item Record ID: 1398001
+
+
+Name: veteran_rifle
+Item Record ID: 1398025
+
+
+Name: veteran_rifle
+Item Record ID: 1398026
+
+
+Name: veteran_sniper_rifle
+Item Record ID: 1399001
+
+
+Name: veteran_sniper_rifle
+Item Record ID: 1399025
+
+
+Name: veteran_sniper_rifle
+Item Record ID: 1399026
+
+
+Name: veteran_rocket_system
+Item Record ID: 1400001
+
+
+Name: veteran_rocket_system
+Item Record ID: 1400025
+
+
+Name: veteran_rocket_system
+Item Record ID: 1400026
+
+
+Name: lives_harvester
+Item Record ID: 1401001
+
+
+Name: lives_harvester
+Item Record ID: 1401025
+
+
+Name: lives_harvester
+Item Record ID: 1401026
+
+
+Name: jet_dragon
+Item Record ID: 1402001
+
+
+Name: jet_dragon
+Item Record ID: 1402025
+
+
+Name: jet_dragon
+Item Record ID: 1402026
+
+
+Name: thermal_scythe
+Item Record ID: 1403001
+
+
+Name: thermal_scythe
+Item Record ID: 1403025
+
+
+Name: thermal_scythe
+Item Record ID: 1403026
+
+
+Name: simple_dimple
+Item Record ID: 1404001
+
+
+Name: simple_dimple
+Item Record ID: 1404025
+
+
+Name: simple_dimple
+Item Record ID: 1404026
+
+
+Name: fx_camera
+Item Record ID: 1405001
+
+
+Name: fx_camera
+Item Record ID: 1405025
+
+
+Name: fx_camera
+Item Record ID: 1405026
+
+
+Name: dance_rifle
+Item Record ID: 1406001
+
+
+Name: dance_rifle
+Item Record ID: 1406025
+
+
+Name: dance_rifle
+Item Record ID: 1406026
+
+
+Name: rifle_me_online
+Item Record ID: 1407001
+
+
+Name: rifle_me_online
+Item Record ID: 1407025
+
+
+Name: rifle_me_online
+Item Record ID: 1407026
+
+
+Name: virtual_orchestra
+Item Record ID: 1408001
+
+
+Name: virtual_orchestra
+Item Record ID: 1408025
+
+
+Name: virtual_orchestra
+Item Record ID: 1408026
+
+
+Name: sharp_chaser
+Item Record ID: 1409001
+
+
+Name: sharp_chaser
+Item Record ID: 1409025
+
+
+Name: sharp_chaser
+Item Record ID: 1409026
+
+
+Name: zap_katana
+Item Record ID: 1410001
+
+
+Name: zap_katana
+Item Record ID: 1410025
+
+
+Name: zap_katana
+Item Record ID: 1410026
+
+
+Name: cyber_lantern
+Item Record ID: 1411001
+
+
+Name: cyber_lantern
+Item Record ID: 1411025
+
+
+Name: cyber_lantern
+Item Record ID: 1411026
+
+
+Name: bro_rifle
+Item Record ID: 1412001
+
+
+Name: bro_rifle
+Item Record ID: 1412025
+
+
+Name: bro_rifle
+Item Record ID: 1412026
+
+
+Name: ninja_swordpad
+Item Record ID: 1413001
+
+
+Name: ninja_swordpad
+Item Record ID: 1413025
+
+
+Name: ninja_swordpad
+Item Record ID: 1413026
+
+
+Name: hype_yo_yo
+Item Record ID: 1414001
+
+
+Name: hype_yo_yo
+Item Record ID: 1414025
+
+
+Name: hype_yo_yo
+Item Record ID: 1414026
+
+
+Name: streaming_beast
+Item Record ID: 1415001
+
+
+Name: streaming_beast
+Item Record ID: 1415025
+
+
+Name: streaming_beast
+Item Record ID: 1415026
+
+
+Name: dislike
+Item Record ID: 1416001
+
+
+Name: dislike
+Item Record ID: 1416025
+
+
+Name: dislike
+Item Record ID: 1416026
+
+
+Name: likes_absorber
+Item Record ID: 1417001
+
+
+Name: likes_absorber
+Item Record ID: 1417025
+
+
+Name: likes_absorber
+Item Record ID: 1417026
+
+
+Name: bad_comment
+Item Record ID: 1418001
+
+
+Name: bad_comment
+Item Record ID: 1418025
+
+
+Name: bad_comment
+Item Record ID: 1418026
+
+
+Name: golden_button_shovel
+Item Record ID: 1419001
+
+
+Name: golden_button_shovel
+Item Record ID: 1419025
+
+
+Name: golden_button_shovel
+Item Record ID: 1419026
+
+
+Name: pop_it_shovel
+Item Record ID: 1420001
+
+
+Name: pop_it_shovel
+Item Record ID: 1420025
+
+
+Name: pop_it_shovel
+Item Record ID: 1420026
+
+
+Name: mysterious_obelisk
+Item Record ID: 1421001
+
+
+Name: mysterious_obelisk
+Item Record ID: 1421025
+
+
+Name: mysterious_obelisk
+Item Record ID: 1421026
+
+
+Name: ritual_embalmer
+Item Record ID: 1422001
+
+
+Name: ritual_embalmer
+Item Record ID: 1422025
+
+
+Name: ritual_embalmer
+Item Record ID: 1422026
+
+
+Name: sacred_cat_will
+Item Record ID: 1423001
+
+
+Name: sacred_cat_will
+Item Record ID: 1423025
+
+
+Name: sacred_cat_will
+Item Record ID: 1423026
+
+
+Name: sentinel
+Item Record ID: 1424001
+
+
+Name: sentinel
+Item Record ID: 1424025
+
+
+Name: sentinel
+Item Record ID: 1424026
+
+
+Name: howl_of_the_mummy
+Item Record ID: 1425001
+
+
+Name: howl_of_the_mummy
+Item Record ID: 1425025
+
+
+Name: howl_of_the_mummy
+Item Record ID: 1425026
+
+
+Name: punishing_light
+Item Record ID: 1426001
+
+
+Name: punishing_light
+Item Record ID: 1426025
+
+
+Name: punishing_light
+Item Record ID: 1426026
+
+
+Name: piercing_gaze_of_ra
+Item Record ID: 1427001
+
+
+Name: piercing_gaze_of_ra
+Item Record ID: 1427025
+
+
+Name: piercing_gaze_of_ra
+Item Record ID: 1427026
+
+
+Name: eternal_suns_wrath
+Item Record ID: 1428001
+
+
+Name: eternal_suns_wrath
+Item Record ID: 1428025
+
+
+Name: eternal_suns_wrath
+Item Record ID: 1428026
+
+
+Name: fair_judge
+Item Record ID: 1429001
+
+
+Name: fair_judge
+Item Record ID: 1429025
+
+
+Name: fair_judge
+Item Record ID: 1429026
+
+
+Name: black_obelisk
+Item Record ID: 1430001
+
+
+Name: black_obelisk
+Item Record ID: 1430025
+
+
+Name: black_obelisk
+Item Record ID: 1430026
+
+
+Name: plaguebringer
+Item Record ID: 1431001
+
+
+Name: plaguebringer
+Item Record ID: 1431025
+
+
+Name: plaguebringer
+Item Record ID: 1431026
+
+
+Name: scarab_shrine
+Item Record ID: 1432001
+
+
+Name: scarab_shrine
+Item Record ID: 1432025
+
+
+Name: scarab_shrine
+Item Record ID: 1432026
+
+
+Name: disturbed_sarcophagus
+Item Record ID: 1433001
+
+
+Name: disturbed_sarcophagus
+Item Record ID: 1433025
+
+
+Name: disturbed_sarcophagus
+Item Record ID: 1433026
+
+
+Name: royal_cobra_spirit
+Item Record ID: 1434001
+
+
+Name: royal_cobra_spirit
+Item Record ID: 1434025
+
+
+Name: royal_cobra_spirit
+Item Record ID: 1434026
+
+
+Name: pharaon_3_breath
+Item Record ID: 1435001
+
+
+Name: pharaon_3_breath
+Item Record ID: 1435025
+
+
+Name: pharaon_3_breath
+Item Record ID: 1435026
+
+
+Name: sentinel_shopeish_shovel
+Item Record ID: 1436001
+
+
+Name: sentinel_shopeish_shovel
+Item Record ID: 1436025
+
+
+Name: sentinel_shopeish_shovel
+Item Record ID: 1436026
+
+
+Name: wand_of_summoning_shovel
+Item Record ID: 1437001
+
+
+Name: wand_of_summoning_shovel
+Item Record ID: 1437025
+
+
+Name: wand_of_summoning_shovel
+Item Record ID: 1437026
+
+
+Name: hand_mummy_shovel
+Item Record ID: 1438001
+
+
+Name: hand_mummy_shovel
+Item Record ID: 1438025
+
+
+Name: hand_mummy_shovel
+Item Record ID: 1438026
+
+
+Name: block_pyramid_shovel
+Item Record ID: 1439001
+
+
+Name: block_pyramid_shovel
+Item Record ID: 1439025
+
+
+Name: block_pyramid_shovel
+Item Record ID: 1439026
+
+
+Name: ultrasonic_rifle
+Item Record ID: 1440001
+
+
+Name: ultrasonic_rifle
+Item Record ID: 1440025
+
+
+Name: ultrasonic_rifle
+Item Record ID: 1440026
+
+
+Name: electronics_burner
+Item Record ID: 1441001
+
+
+Name: electronics_burner
+Item Record ID: 1441025
+
+
+Name: electronics_burner
+Item Record ID: 1441026
+
+
+Name: hounds_rx03
+Item Record ID: 1442001
+
+
+Name: hounds_rx03
+Item Record ID: 1442025
+
+
+Name: hounds_rx03
+Item Record ID: 1442026
+
+
+Name: system_scorpion
+Item Record ID: 1443001
+
+
+Name: system_scorpion
+Item Record ID: 1443025
+
+
+Name: system_scorpion
+Item Record ID: 1443026
+
+
+Name: rumble
+Item Record ID: 1444001
+
+
+Name: rumble
+Item Record ID: 1444025
+
+
+Name: rumble
+Item Record ID: 1444026
+
+
+Name: huge_wrench_shovel
+Item Record ID: 1445001
+
+
+Name: huge_wrench_shovel
+Item Record ID: 1445025
+
+
+Name: huge_wrench_shovel
+Item Record ID: 1445026
+
+
+Name: shovel_spear_shovel
+Item Record ID: 1446001
+
+
+Name: shovel_spear_shovel
+Item Record ID: 1446025
+
+
+Name: shovel_spear_shovel
+Item Record ID: 1446026
+
+
+Name: experimental_rifle
+Item Record ID: 1447001
+
+
+Name: experimental_rifle
+Item Record ID: 1447025
+
+
+Name: experimental_rifle
+Item Record ID: 1447026
+
+
+Name: jet_spear
+Item Record ID: 1448001
+
+
+Name: jet_spear
+Item Record ID: 1448025
+
+
+Name: jet_spear
+Item Record ID: 1448026
+
+
+Name: tactical_scorcher
+Item Record ID: 1449001
+
+
+Name: tactical_scorcher
+Item Record ID: 1449025
+
+
+Name: tactical_scorcher
+Item Record ID: 1449026
+
+
+Name: siege_minigun
+Item Record ID: 1450001
+
+
+Name: siege_minigun
+Item Record ID: 1450025
+
+
+Name: siege_minigun
+Item Record ID: 1450026
+
+
+Name: thermal_mecha_knife
+Item Record ID: 1451001
+
+
+Name: thermal_mecha_knife
+Item Record ID: 1451025
+
+
+Name: thermal_mecha_knife
+Item Record ID: 1451026
+
+
+Name: disruptive_howitzer
+Item Record ID: 1452001
+
+
+Name: disruptive_howitzer
+Item Record ID: 1452025
+
+
+Name: disruptive_howitzer
+Item Record ID: 1452026
+
+
+Name: anti_aircraft_module
+Item Record ID: 1453001
+
+
+Name: anti_aircraft_module
+Item Record ID: 1453025
+
+
+Name: anti_aircraft_module
+Item Record ID: 1453026
+
+
+Name: engineering_saw_thrower
+Item Record ID: 1454001
+
+
+Name: engineering_saw_thrower
+Item Record ID: 1454025
+
+
+Name: engineering_saw_thrower
+Item Record ID: 1454026
+
+
+Name: corpuscular_revolver
+Item Record ID: 1455001
+
+
+Name: corpuscular_revolver
+Item Record ID: 1455025
+
+
+Name: corpuscular_revolver
+Item Record ID: 1455026
+
+
+Name: uranium_grenade_launcher
+Item Record ID: 1456001
+
+
+Name: uranium_grenade_launcher
+Item Record ID: 1456025
+
+
+Name: uranium_grenade_launcher
+Item Record ID: 1456026
+
+
+Name: golden_eagles
+Item Record ID: 1457001
+
+
+Name: golden_eagles
+Item Record ID: 1457025
+
+
+Name: golden_eagles
+Item Record ID: 1457026
+
+
+Name: wayfarer
+Item Record ID: 1458001
+
+
+Name: wayfarer
+Item Record ID: 1458025
+
+
+Name: wayfarer
+Item Record ID: 1458026
+
+
+Name: fate
+Item Record ID: 1459001
+
+
+Name: fate
+Item Record ID: 1459025
+
+
+Name: fate
+Item Record ID: 1459026
+
+
+Name: holographic_cards
+Item Record ID: 1460001
+
+
+Name: holographic_cards
+Item Record ID: 1460025
+
+
+Name: holographic_cards
+Item Record ID: 1460026
+
+
+Name: chronos_shovel
+Item Record ID: 1461001
+
+
+Name: chronos_shovel
+Item Record ID: 1461025
+
+
+Name: chronos_shovel
+Item Record ID: 1461026
+
+
+Name: mutation_cannon
+Item Record ID: 1462001
+
+
+Name: mutation_cannon
+Item Record ID: 1462025
+
+
+Name: mutation_cannon
+Item Record ID: 1462026
+
+
+Name: additional_hand_shovel
+Item Record ID: 1463001
+
+
+Name: additional_hand_shovel
+Item Record ID: 1463025
+
+
+Name: additional_hand_shovel
+Item Record ID: 1463026
+
+
+Name: hungry_flower_shovel
+Item Record ID: 1464001
+
+
+Name: hungry_flower_shovel
+Item Record ID: 1464025
+
+
+Name: hungry_flower_shovel
+Item Record ID: 1464026
+
+
+Name: c4_basket
+Item Record ID: 1465001
+
+
+Name: c4_basket
+Item Record ID: 1465025
+
+
+Name: c4_basket
+Item Record ID: 1465026
+
+
+Name: head_of_statue
+Item Record ID: 1466001
+
+
+Name: head_of_statue
+Item Record ID: 1466025
+
+
+Name: head_of_statue
+Item Record ID: 1466026
+
+
+Name: tank_turret
+Item Record ID: 1467001
+
+
+Name: tank_turret
+Item Record ID: 1467025
+
+
+Name: tank_turret
+Item Record ID: 1467026
+
+
+Name: space_parasite_dreadnought
+Item Record ID: 1468001
+
+
+Name: space_parasite_dreadnought
+Item Record ID: 1468025
+
+
+Name: space_parasite_dreadnought
+Item Record ID: 1468026
+
+
+Name: space_parasite_fighter
+Item Record ID: 1469001
+
+
+Name: space_parasite_fighter
+Item Record ID: 1469025
+
+
+Name: space_parasite_fighter
+Item Record ID: 1469026
+
+
+Name: alien_parasite_mothership
+Item Record ID: 1470001
+
+
+Name: alien_parasite_mothership
+Item Record ID: 1470025
+
+
+Name: alien_parasite_mothership
+Item Record ID: 1470026
+
+
+Name: bad_clown
+Item Record ID: 1472001
+
+
+Name: bad_clown
+Item Record ID: 1472025
+
+
+Name: bad_clown
+Item Record ID: 1472026
+
+
+Name: disturbing_balloons
+Item Record ID: 1473001
+
+
+Name: disturbing_balloons
+Item Record ID: 1473025
+
+
+Name: disturbing_balloons
+Item Record ID: 1473026
+
+
+Name: clown_chainsaw
+Item Record ID: 1474001
+
+
+Name: clown_chainsaw
+Item Record ID: 1474025
+
+
+Name: clown_chainsaw
+Item Record ID: 1474026
+
+
+Name: irradiated_smg
+Item Record ID: 1475001
+
+
+Name: irradiated_smg
+Item Record ID: 1475025
+
+
+Name: irradiated_smg
+Item Record ID: 1475026
+
+
+Name: mutant_fish
+Item Record ID: 1476001
+
+
+Name: mutant_fish
+Item Record ID: 1476025
+
+
+Name: mutant_fish
+Item Record ID: 1476026
+
+
+Name: spiky_limbs
+Item Record ID: 1477001
+
+
+Name: spiky_limbs
+Item Record ID: 1477025
+
+
+Name: spiky_limbs
+Item Record ID: 1477026
+
+
+Name: predatory_rifle
+Item Record ID: 1478001
+
+
+Name: predatory_rifle
+Item Record ID: 1478025
+
+
+Name: predatory_rifle
+Item Record ID: 1478026
+
+
+Name: mutant_weapon_one
+Item Record ID: 1479001
+
+
+Name: mutant_weapon_one
+Item Record ID: 1479025
+
+
+Name: mutant_weapon_one
+Item Record ID: 1479026
+
+
+Name: mutant_weapon_two
+Item Record ID: 1480001
+
+
+Name: mutant_weapon_two
+Item Record ID: 1480025
+
+
+Name: mutant_weapon_two
+Item Record ID: 1480026
+
+
+Name: splutter_weapon_one
+Item Record ID: 1481001
+
+
+Name: splutter_weapon_one
+Item Record ID: 1481025
+
+
+Name: splutter_weapon_one
+Item Record ID: 1481026
+
+
+Name: splutter_weapon_two
+Item Record ID: 1482001
+
+
+Name: splutter_weapon_two
+Item Record ID: 1482025
+
+
+Name: splutter_weapon_two
+Item Record ID: 1482026
+
+
+Name: jumper_weapon_one
+Item Record ID: 1483001
+
+
+Name: jumper_weapon_one
+Item Record ID: 1483025
+
+
+Name: jumper_weapon_one
+Item Record ID: 1483026
+
+
+Name: jumper_weapon_two
+Item Record ID: 1484001
+
+
+Name: jumper_weapon_two
+Item Record ID: 1484025
+
+
+Name: jumper_weapon_two
+Item Record ID: 1484026
+
+
+Name: hound_weapon_one
+Item Record ID: 1485001
+
+
+Name: hound_weapon_one
+Item Record ID: 1485025
+
+
+Name: hound_weapon_one
+Item Record ID: 1485026
+
+
+Name: thorn_weapon_one
+Item Record ID: 1486001
+
+
+Name: thorn_weapon_one
+Item Record ID: 1486025
+
+
+Name: thorn_weapon_one
+Item Record ID: 1486026
+
+
+Name: thorn_weapon_two
+Item Record ID: 1487001
+
+
+Name: thorn_weapon_two
+Item Record ID: 1487025
+
+
+Name: thorn_weapon_two
+Item Record ID: 1487026
+
+
+Name: supermutant_weapon_one
+Item Record ID: 1488001
+
+
+Name: supermutant_weapon_one
+Item Record ID: 1488025
+
+
+Name: supermutant_weapon_one
+Item Record ID: 1488026
+
+
+Name: automatic_injector
+Item Record ID: 1489001
+
+
+Name: automatic_injector
+Item Record ID: 1489025
+
+
+Name: automatic_injector
+Item Record ID: 1489026
+
+
+Name: antidote_missile_launcher
+Item Record ID: 1490001
+
+
+Name: antidote_missile_launcher
+Item Record ID: 1490025
+
+
+Name: antidote_missile_launcher
+Item Record ID: 1490026
+
+
+Name: purifying_shotgun
+Item Record ID: 1491001
+
+
+Name: purifying_shotgun
+Item Record ID: 1491025
+
+
+Name: purifying_shotgun
+Item Record ID: 1491026
+
+
+Name: mutant_slayer
+Item Record ID: 1492001
+
+
+Name: mutant_slayer
+Item Record ID: 1492025
+
+
+Name: mutant_slayer
+Item Record ID: 1492026
+
+
+Name: mutagen_neutralizer
+Item Record ID: 1493001
+
+
+Name: mutagen_neutralizer
+Item Record ID: 1493025
+
+
+Name: mutagen_neutralizer
+Item Record ID: 1493026
+
+
+Name: antidote_dropper
+Item Record ID: 1494001
+
+
+Name: power_gauntlet
+Item Record ID: 1495001
+
+
+Name: full_moon_rifle
+Item Record ID: 1502001
+
+
+Name: full_moon_rifle
+Item Record ID: 1502025
+
+
+Name: full_moon_rifle
+Item Record ID: 1502026
+
+
+Name: fireflies_blessing
+Item Record ID: 1503001
+
+
+Name: fireflies_blessing
+Item Record ID: 1503025
+
+
+Name: fireflies_blessing
+Item Record ID: 1503026
+
+
+Name: branch_of_wisdom
+Item Record ID: 1504001
+
+
+Name: branch_of_wisdom
+Item Record ID: 1504025
+
+
+Name: branch_of_wisdom
+Item Record ID: 1504026
+
+
+Name: eternal_light
+Item Record ID: 1505001
+
+
+Name: eternal_light
+Item Record ID: 1505025
+
+
+Name: eternal_light
+Item Record ID: 1505026
+
+
+Name: mirrorer
+Item Record ID: 1506001
+
+
+Name: mirrorer
+Item Record ID: 1506025
+
+
+Name: mirrorer
+Item Record ID: 1506026
+
+
+Name: realities_sign_shovel
+Item Record ID: 1507001
+
+
+Name: realities_sign_shovel
+Item Record ID: 1507025
+
+
+Name: realities_sign_shovel
+Item Record ID: 1507026
+
+
+Name: reflected_light_shovel
+Item Record ID: 1508001
+
+
+Name: otherworld_wanderer
+Item Record ID: 1509001
+
+
+Name: otherworld_wanderer
+Item Record ID: 1509025
+
+
+Name: otherworld_wanderer
+Item Record ID: 1509026
+
+
+Name: dark_deer_bow
+Item Record ID: 1510001
+
+
+Name: dark_deer_bow
+Item Record ID: 1510025
+
+
+Name: dark_deer_bow
+Item Record ID: 1510026
+
+
+Name: reflected_santa_sword
+Item Record ID: 1511001
+
+
+Name: reflected_santa_sword
+Item Record ID: 1511025
+
+
+Name: reflected_santa_sword
+Item Record ID: 1511026
+
+
+Name: combat_fireplace
+Item Record ID: 1512001
+
+
+Name: combat_fireplace
+Item Record ID: 1512025
+
+
+Name: combat_fireplace
+Item Record ID: 1512026
+
+
+Name: combat_candy_machine
+Item Record ID: 1513001
+
+
+Name: combat_candy_machine
+Item Record ID: 1513025
+
+
+Name: combat_candy_machine
+Item Record ID: 1513026
+
+
+Name: gift_stealer
+Item Record ID: 1514001
+
+
+Name: gift_stealer
+Item Record ID: 1514025
+
+
+Name: gift_stealer
+Item Record ID: 1514026
+
+
+Name: tricky_glance
+Item Record ID: 1515001
+
+
+Name: tricky_glance
+Item Record ID: 1515025
+
+
+Name: tricky_glance
+Item Record ID: 1515026
+
+
+Name: end_of_fairytale
+Item Record ID: 1516001
+
+
+Name: end_of_fairytale
+Item Record ID: 1516025
+
+
+Name: end_of_fairytale
+Item Record ID: 1516026
+
+
+Name: fairy_axe
+Item Record ID: 1517001
+
+
+Name: fairy_axe
+Item Record ID: 1517025
+
+
+Name: fairy_axe
+Item Record ID: 1517026
+
+
+Name: butterfly_eater
+Item Record ID: 1518001
+
+
+Name: butterfly_eater
+Item Record ID: 1518025
+
+
+Name: butterfly_eater
+Item Record ID: 1518026
+
+
+Name: handy_darts
+Item Record ID: 1530001
+
+
+Name: handy_darts
+Item Record ID: 1530025
+
+
+Name: handy_darts
+Item Record ID: 1530026
+
+
+Name: spirits_whisper
+Item Record ID: 1531001
+
+
+Name: spirits_whisper
+Item Record ID: 1531025
+
+
+Name: spirits_whisper
+Item Record ID: 1531026
+
+
+Name: makeshift_piercer
+Item Record ID: 1532001
+
+
+Name: makeshift_piercer
+Item Record ID: 1532025
+
+
+Name: makeshift_piercer
+Item Record ID: 1532026
+
+
+Name: battle_kusarigama
+Item Record ID: 1533001
+
+
+Name: battle_kusarigama
+Item Record ID: 1533025
+
+
+Name: battle_kusarigama
+Item Record ID: 1533026
+
+
+Name: temple_claws
+Item Record ID: 1534001
+
+
+Name: temple_claws
+Item Record ID: 1534025
+
+
+Name: temple_claws
+Item Record ID: 1534026
+
+
+Name: summoning_totem_shovel
+Item Record ID: 1535001
+
+
+Name: cloud_standard_shovel
+Item Record ID: 1536001
+
+
+Name: vortex_core
+Item Record ID: 1537001
+
+
+Name: vortex_core
+Item Record ID: 1537025
+
+
+Name: vortex_core
+Item Record ID: 1537026
+
+
+Name: storm_bringer
+Item Record ID: 1538001
+
+
+Name: storm_bringer
+Item Record ID: 1538025
+
+
+Name: storm_bringer
+Item Record ID: 1538026
+
+
+Name: clouds_disperser
+Item Record ID: 1539001
+
+
+Name: clouds_disperser
+Item Record ID: 1539025
+
+
+Name: clouds_disperser
+Item Record ID: 1539026
+
+
+Name: field_plasma_station
+Item Record ID: 1540001
+
+
+Name: field_plasma_station
+Item Record ID: 1540025
+
+
+Name: field_plasma_station
+Item Record ID: 1540026
+
+
+Name: still_working_windmill
+Item Record ID: 1541001
+
+
+Name: still_working_windmill
+Item Record ID: 1541025
+
+
+Name: still_working_windmill
+Item Record ID: 1541026
+
+
+Name: thunder_formula
+Item Record ID: 1543001
+
+
+Name: thunder_formula
+Item Record ID: 1543025
+
+
+Name: thunder_formula
+Item Record ID: 1543026
+
+
+Name: bubblegum_01
+Item Record ID: 1544001
+
+
+Name: bubblegum_01
+Item Record ID: 1544025
+
+
+Name: bubblegum_01
+Item Record ID: 1544026
+
+
+Name: tnt_thrower
+Item Record ID: 1545001
+
+
+Name: tnt_thrower
+Item Record ID: 1545025
+
+
+Name: tnt_thrower
+Item Record ID: 1545026
+
+
+Name: ak5_56
+Item Record ID: 1546001
+
+
+Name: ak5_56
+Item Record ID: 1546025
+
+
+Name: ak5_56
+Item Record ID: 1546026
+
+
+Name: disguised_weapon
+Item Record ID: 1547001
+
+
+Name: disguised_weapon
+Item Record ID: 1547025
+
+
+Name: disguised_weapon
+Item Record ID: 1547026
+
+
+Name: intelligence_swords
+Item Record ID: 1548001
+
+
+Name: intelligence_swords
+Item Record ID: 1548025
+
+
+Name: intelligence_swords
+Item Record ID: 1548026
+
+
+Name: controlled_drone_system
+Item Record ID: 1549001
+
+
+Name: controlled_drone_system
+Item Record ID: 1549025
+
+
+Name: controlled_drone_system
+Item Record ID: 1549026
+
+
+Name: deadly_beamer
+Item Record ID: 1550001
+
+
+Name: deadly_beamer
+Item Record ID: 1550025
+
+
+Name: deadly_beamer
+Item Record ID: 1550026
+
+
+Name: tnt_holder_shovel
+Item Record ID: 1551001
+
+
+Name: aliens_shredder_shovel
+Item Record ID: 1552001
+
+
+[>] Enter the Item Record to search for:

@@ -1,0 +1,499 @@
+local a = gg.alert
+local t = gg.toast
+local sn = gg.searchNumber
+local r = gg.refineNumber
+local cr = gg.clearResults
+local cl = gg.clearList
+local e = gg.editAll
+local rr = gg.removeResults
+local p = gg.prompt
+local iv = gg.isVisible
+local sv = gg.setVisible
+local gr = gg.getResults
+local sr = gg.setRanges
+local c = gg.choice
+local mc = gg.multiChoice
+local s = gg.sleep
+local tpa = gg.TYPE_AUTO
+local tpd = gg.TYPE_DWORD
+local tpf = gg.TYPE_FLOAT
+local tpq = gg.TYPE_QWORD
+local tpw = gg.TYPE_WORD 
+
+function step_4()
+    gg.setRanges(gg.REGION_CODE_APP)
+    gg.clearResults()
+    gg.searchNumber("-6268623683403968519Q;8261102860592567656Q;1384488962D;1923098146D::512" ,gg.TYPE_QWORD)
+    gg.getResults(4)
+    gg.alert("Unselect The Last 3 Values Quickly")
+    gg.sleep(4000)
+    gg.editAll("-2999674702930181152" ,gg.TYPE_QWORD)
+end
+
+function step_6()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.clearResults()
+    gg.searchNumber("19.98F;19.99F;2000D::4097" ,gg.TYPE_DWORD)
+    gg.getResults(3)
+    gg.alert("Unselect The First 2 Values")
+    gg.editAll("0" ,gg.TYPE_DWORD)
+end
+
+function x4_search()
+    a("Only Choose **1** Of The Following Result Edit Amounts")
+local x4s = p({"Enter Your Integer Followed By X4 (Dont Write A Number If Chosen Craftable Weps)","1-3000 Result Edit","1-5000 Result Edit (Reccomended)","1-7000 Result Edit","1-10000 Result Edit","1-15000 Result Edit","1-20000 Result Edit","Craftable Weps"},
+    {[2] = false, [3] = true, [4] = false, [5] = false, [6] = false, [7] = false, [8] = false},
+    {[1] = "number", [2] = "checkbox", [3] = "checkbox", [4] = "checkbox", [5] = "checkbox", [6] = "checkbox", [7] = "checkbox", [8] = "checkbox"}
+    )
+    if x4s then
+    if x4s[2] then
+        sn(x4s[1] ,tpd)
+        r = gr(500000)
+        print("Found Results: >" .. #r .. " (Max gg.getResults For This Script Is 500,000 To Avoid Input Lag, And Lag/Bugs In Searching/Editing")
+        local x4e = p({"What Would You Like Your Values To Be Edited To? (IntegerX4)"},nill,{"number"})
+        gr(500)
+        e(x4e[1] ,tpd)
+        gr(1000)
+        e(x4e[1] ,tpd)
+        gr(2000)
+        e(x4e[1] ,tpd)
+        gr(3000)
+        e(x4e[1] ,tpd)
+        t("Click On GG To Exit Or To Run Another Function")
+        print("Edited Results: 3000")
+    end
+    if x4s[3] then
+        sn(x4s[1] ,tpd)
+        r = gr(500000)
+        print("Found Results: " .. #r .. "")
+        local x4e = p({"What Would You Like Your Values To Be Edited To? (IntegerX4)"},nill,{"number"})
+        gr(500)
+        e(x4e[1] ,tpd)
+        t("500 Results Edited")
+        s(2000)
+        gr(1000)
+        e(x4e[1] ,tpd)
+        t("1000 Results Edited")
+        s(2000)
+        gr(2000)
+        e(x4e[1] ,tpd)
+        t("2000 Results Edited")
+        s(2000)
+        gr(3000)
+        e(x4e[1] ,tpd)
+        t("3000 Results Edited")
+        s(2000)
+        gr(4000)
+        e(x4e[1] ,tpd)
+        t("4000 Results Edited")
+        s(2000)
+        gr(5000)
+        e(x4e[1] ,tpd)
+        t("5000 Results Edited")
+        s(2000)
+        t("Click On GG To Exit Or To Run Another Function")
+        print("Edited Results: 5000")
+    end
+    if x4s[4] then
+        sn(x4s[1] ,tpd)
+        r = gr(500000)
+        print("Found Results: " .. #r .. "")
+        local x4e = p({"What Would You Like Your Values To Be Edited To? (IntegerX4)"},nill,{"number"})
+        gr(500)
+        e(x4e[1] ,tpd)
+        t("500 Results Edited")
+        s(2000)
+        gr(1000)
+        e(x4e[1] ,tpd)
+        t("1000 Results Edited")
+        s(2000)
+        gr(2000)
+        e(x4e[1] ,tpd)
+        t("2000 Results Edited")
+        s(2000)
+        gr(3000)
+        e(x4e[1] ,tpd)
+        t("3000 Results Edited")
+        s(2000)
+        gr(4000)
+        e(x4e[1] ,tpd)
+        t("4000 Results Edited")
+        s(2000)
+        gr(5000)
+        e(x4e[1] ,tpd)
+        t("5000 Results Edited")
+        s(2000)
+        gr(6000)
+        e(x4e[1] ,tpd)
+        t("6000 Results Edited")
+        s(2000)
+        gr(7000)
+        e(x4e[1] ,tpd)
+        t("7000 Results Edited")
+        s(2000)
+        t("Click On GG To Exit Or To Run Another Function")
+        print("Edited Results: 7000")
+    end
+    if x4s[5] then
+        sn(x4s[1] ,tpd)
+        r = gr(500000)
+        print("Found Results: " .. #r .. "")
+        local x4e = p({"What Would You Like Your Values To Be Edited To? (IntegerX4)"},nill,{"number"})
+        gr(500)
+        e(x4e[1] ,tpd)
+        t("500 Results Edited")
+        s(2000)
+        gr(1000)
+        e(x4e[1] ,tpd)
+        t("1000 Results Edited")
+        s(2000)
+        gr(2000)
+        e(x4e[1] ,tpd)
+        t("2000 Results Edited")
+        s(2000)
+        gr(3000)
+        e(x4e[1] ,tpd)
+        t("3000 Results Edited")
+        s(2000)
+        gr(4000)
+        e(x4e[1] ,tpd)
+        t("4000 Results Edited")
+        s(2000)
+        gr(5000)
+        e(x4e[1] ,tpd)
+        t("5000 Results Edited")
+        s(2000)
+        gr(6000)
+        e(x4e[1] ,tpd)
+        t("6000 Results Edited")
+        s(2000)
+        gr(7000)
+        e(x4e[1] ,tpd)
+        t("7000 Results Edited")
+        s(2000)
+        gr(8000)
+        e(x4e[1] ,tpd)
+        t("8000 Results Edited")
+        s(2000)
+        gr(9000)
+        e(x4e[1] ,tpd)
+        t("9000 Results Edited")
+        s(2000)
+        gr(10000)
+        e(x4e[1] ,tpd)
+        t("500 Results Edited")
+        s(10000)
+        t("Click On GG To Exit Or To Run Another Function")
+        print("Edited Results: 10000")
+    end
+        if x4s[6] then
+        sn(x4s[1] ,tpd)
+        r = gr(500000)
+        print("Found Results: " .. #r .. "")
+        local x4e = p({"What Would You Like Your Values To Be Edited To? (IntegerX4)"},nill,{"number"})
+        gr(500)
+        e(x4e[1] ,tpd)
+        t("500 Results Edited")
+        s(2000)
+        gr(1000)
+        e(x4e[1] ,tpd)
+        t("1000 Results Edited")
+        s(2000)
+        gr(2000)
+        e(x4e[1] ,tpd)
+        t("2000 Results Edited")
+        s(2000)
+        gr(3000)
+        e(x4e[1] ,tpd)
+        t("3000 Results Edited")
+        s(2000)
+        gr(4000)
+        e(x4e[1] ,tpd)
+        t("4000 Results Edited")
+        s(2000)
+        gr(5000)
+        e(x4e[1] ,tpd)
+        t("5000 Results Edited")
+        s(2000)
+        gr(6000)
+        e(x4e[1] ,tpd)
+        t("6000 Results Edited")
+        s(2000)
+        gr(7000)
+        e(x4e[1] ,tpd)
+        t("7000 Results Edited")
+        s(2000)
+        gr(8000)
+        e(x4e[1] ,tpd)
+        t("8000 Results Edited")
+        s(2000)
+        gr(9000)
+        e(x4e[1] ,tpd)
+        t("9000 Results Edited")
+        s(2000)
+        gr(10000)
+        e(x4e[1] ,tpd)
+        t("10000 Results Edited")
+        s(2000)
+        gr(11000)
+        e(x4e[1] ,tpd)
+        t("11000 Results Edited")
+        s(2000)
+        gr(12000)
+        e(x4e[1] ,tpd)
+        t("12000 Results Edited")
+        s(2000)
+        gr(13000)
+        e(x4e[1] ,tpd)
+        t("13000 Results Edited")
+        s(2000)
+        gr(14000)
+        e(x4e[1] ,tpd)
+        t("14000 Results Edited")
+        s(2000)
+        gr(15000)
+        e(x4e[1] ,tpd)
+        t("15000 Results Edited")
+        s(2000)
+        t("Click On GG To Exit Or To Run Another Function")
+        print("Edited Results: 15000")
+    end
+        if x4s[7] then
+            sn(x4s[1] ,tpd)
+        r = gr(500000)
+        print("Found Results: " .. #r .. "")
+        local x4e = p({"What Would You Like Your Values To Be Edited To? (IntegerX4)"},nill,{"number"})
+        gr(500)
+        e(x4e[1] ,tpd)
+        t("500 Results Edited")
+        s(2000)
+        gr(1000)
+        e(x4e[1] ,tpd)
+        t("1000 Results Edited")
+        s(2000)
+        gr(2000)
+        e(x4e[1] ,tpd)
+        t("2000 Results Edited")
+        s(2000)
+        gr(3000)
+        e(x4e[1] ,tpd)
+        t("3000 Results Edited")
+        s(2000)
+        gr(4000)
+        e(x4e[1] ,tpd)
+        t("4000 Results Edited")
+        s(2000)
+        gr(5000)
+        e(x4e[1] ,tpd)
+        t("5000 Results Edited")
+        s(2000)
+        gr(6000)
+        e(x4e[1] ,tpd)
+        t("6000 Results Edited")
+        s(2000)
+        gr(7000)
+        e(x4e[1] ,tpd)
+        t("7000 Results Edited")
+        s(2000)
+        gr(8000)
+        e(x4e[1] ,tpd)
+        t("8000 Results Edited")
+        s(2000)
+        gr(9000)
+        e(x4e[1] ,tpd)
+        t("9000 Results Edited")
+        s(2000)
+        gr(10000)
+        e(x4e[1] ,tpd)
+        t("10000 Results Edited")
+        s(2000)
+        gr(11000)
+        e(x4e[1] ,tpd)
+        t("11000 Results Edited")
+        s(2000)
+        gr(12000)
+        e(x4e[1] ,tpd)
+        t("12000 Results Edited")
+        s(2000)
+        gr(13000)
+        e(x4e[1] ,tpd)
+        t("13000 Results Edited")
+        s(2000)
+        gr(14000)
+        e(x4e[1] ,tpd)
+        t("14000 Results Edited")
+        s(2000)
+        gr(15000)
+        e(x4e[1] ,tpd)
+        t("15000 Results Edited")
+        s(2000)
+        gr(16000)
+        e(x4e[1] ,tpd)
+        t("16000 Results Edited")
+        s(2000)
+        gr(17000)
+        e(x4e[1] ,tpd)
+        t("17000 Results Edited")
+        s(2000)
+        gr(18000)
+        e(x4e[1] ,tpd)
+        t("18000 Results Edited")
+        s(2000)
+        gr(19000)
+        e(x4e[1] ,tpd)
+        t("19000 Results Edited")
+        s(2000)
+        gr(20000)
+        e(x4e[1] ,tpd)
+        t("20000 Results Edited")
+        s(2000)
+        t("Click On GG To Exit Or To Run Another Function")
+        print("Edited Results: 20000")
+        end
+        if x4s[8] then
+        sv(false)
+        sn("250X4" ,tpd)
+        gr(500)
+        e("0X4" ,tpd)
+        t("500 Results Edited")
+        s(2000)
+        gr(1000)
+        e("0X4" ,tpd)
+        t("1000 Results Edited")
+        s(2000)
+        gr(2000)
+        e("0X4" ,tpd)
+        t("2000 Results Edited")
+        s(2000)
+        gr(3000)
+        e("0X4" ,tpd)
+        t("3000 Results Edited")
+        s(2000)
+        cr()
+        sn(";err" ,tpw)
+        gr(6000)
+        e("0" ,tpw)
+        sv(true)
+        print("Current Results Are The Search Of ';err', Revert And Upgrade A Weapon With Gems When You Want To Save Your Crafted Weapons")
+        	end
+    	end
+	end
+
+function any_to_vet()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.clearResults()
+    gg.alert("Go Find A 50-Coupon Buyable Weapon Then Wait")
+    gg.sleep(5000)
+    local anyid = gg.prompt({"Enter Your Weapon's ID Listed In Tonic's Item Records Followed By 'X4'"},
+{[1]="0"},
+{[1]="Number"})
+gg.searchNumber(anyid[1] ,gg.TYPE_DWORD)
+gg.getResults(99999)
+gg.alert("Now Choose 1 Of The Following Veteran Weapons")
+local vetid = gg.prompt({"Combat Overlords: 1398001X4 || Lives Harvester: 1401001X4 || Thermal Scythe: 1403001X4 || Jet Dragon: 1402001X4 || Sentence: 1399001X4 || Project 'Red Button': 1400001X4"},
+{[1]="0"},
+{[1]="Number"})
+gg.editAll(vetid[1] ,gg.TYPE_DWORD)
+gg.alert("Wait..")
+gg.searchNumber(";err" ,gg.TYPE_WORD)
+gg.getResults(99999)
+gg.editAll("0" ,gg.TYPE_WORD)
+gg.alert("Buy The Weapon With Coupons")
+gg.sleep(3000)
+gg.alert("Go To The Armoury")
+gg.sleep(3000)
+gg.editAll(";err" ,gg.TYPE_WORD)
+gg.alert("Now Go Upgrade Any Weapon With Gems To Save The Veteran Weapon")
+end
+
+function any_to_any()
+    gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.clearResults()
+    gg.alert("Go Find A 50-Coupon Buyable Weapon Then Wait")
+    gg.sleep(5000)
+    local anyid = gg.prompt({"Enter Your Weapon's ID Listed In Tonic's Item Records Followed By 'X4'"},
+{[1]="0"},
+{[1]="Number"})
+gg.searchNumber(anyid[1] ,gg.TYPE_DWORD)
+gg.getResults(99999)
+local wepid = gg.prompt({"Now Enter Your Desired Weapon's ID Found In Tonic's Item Records"},
+{[1]="0"},
+{[1]="Number"})
+gg.getResults(99999)
+gg.editAll(wepid[1] ,gg.TYPE_DWORD)
+gg.alert("Wait..")
+gg.searchNumber(";err" ,gg.TYPE_WORD)
+gg.getResults(99999)
+gg.editAll("0" ,gg.TYPE_WORD)
+gg.alert("Buy The Weapon With Coupons")
+gg.sleep(3000)
+gg.alert("Go To The Armoury")
+gg.sleep(3000)
+gg.editAll(";err" ,gg.TYPE_WORD)
+gg.alert("Now Go Upgrade Weapon With Gems To Save The Desired Weapon")
+end
+
+menu=gg.choice({
+    "Encryption Disabler Menu",
+    "X4 Search And Editor",
+    "Weapon Adder (ITEM RECORDS REQUIRED)",
+    "Help & General Info"
+}, nil, "TonicBoomerKewl's VED || Script Made By ChronZ#8519")
+if menu==1 then
+    enc = gg.choice({
+        "Move Encryption To X4",
+        "Disable Encrypted Trap Values",
+        "How To Use"
+    }, nil, "Encryption Disabler Menu + Help")
+end
+if enc==1 then
+    step_4()
+end
+if enc==2 then
+    step_6()
+end
+if enc==3 then
+    print("How To Disable Encryption:")
+    print(" ")
+    print("1. Pause PG3D When Its About 300-450MB")
+    print("2. Once Done So, Move Encryption To X4 Using The Coded Function")
+    print("3. Once Done So, Wait For PG3D To Reach 2% On The Loading Bar Then Disable Trap Values Using The Coded Function")
+    print("Thats It!")
+end
+if menu==2 then
+    x4 = gg.choice({
+        "1-20,000 Result Edit Choice (And Craftable Weps)",
+        "How To Use"
+    }, nil, "X4 VED Searcher And Editor")
+end
+    if x4==1 then
+        x4_search()
+    end
+    if x4==2 then
+        print("How To Use VED X4")
+        print(" ")
+        print("When You Choose The Command, You Will Be Greeted By Various Options:")
+        print("1-3000 Result Edit (Will Edit First 3K Results Of A Desired Value")
+        print("Etc...")
+        print("Craftable Weps:")
+        print("Various Searches And Edits To Be Able To Mod Craftable Weps At 0 Parts Without Kick!")
+    end
+if menu==3 then
+    ir = gg.choice({
+        "Turn Any Weapon To Veteran Weapon",
+        "Turn Any Weapon To Desired Weapon",
+        "How To Use"
+    }, nil, "Item Records Are Required")
+end
+if ir==1 then
+    any_to_vet()
+end
+if ir==2 then
+    any_to_any()
+end
+if ir==3 then
+    print("Follow The Steps, And Make Sure Item Records Is Open.")
+end
+if menu==4 then
+    print("Help Is Found In Each Menu.")
+end

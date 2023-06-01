@@ -1,0 +1,205 @@
+function visible(trueorfalse) -- This is an alternative to the show() and hide() functions. I arbitrarily choose which one to use - I am sorry, I know it makes my code messier!
+if trueorfalse == 1 then
+gg.setVisible(true)
+else
+gg.setVisible(false)  -- I spammed this so people cannot take peaks at the script!
+end
+end
+
+function show()
+gg.setVisible(true)
+end
+
+function hide() -- I spammed this so people cannot take peaks at the script!
+gg.setVisible(false)
+end
+
+function decimalToHex(num) -- From https://stackoverflow.com/questions/37796287/convert-decimal-to-hex-in-lua-4
+    if num == 0 then
+        return '0'
+    end
+    local neg = false
+    if num < 0 then
+        neg = true
+        num = num * -1
+    end
+    local hexstr = "0123456789ABCDEF"
+    local result = ""
+    while num > 0 do
+        local n = (num % 16)
+        result = string.sub(hexstr, n + 1, n + 1) .. result
+        num = math.floor(num / 16)
+    end
+    if neg then
+        result = '-' .. result
+    end
+    return result
+end
+
+function getstartid()
+startid = "1837355830" -- gallery number 12
+end
+
+function unlock(idtounlock,alert) -- from pg3d weapon unlocker 5.0!
+mode = 3
+edit = 1
+if idtounlock == nil then
+success = 0
+edit = 0
+end
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber(idtounlock, gg.TYPE_DWORD)
+success = 1
+if alert == 1 then
+if gg.getResultsCount() == 0 then
+success = 0
+gg.alert('Invalid ID, or gun has already been unlocked!')
+edit = 0
+end
+if gg.getResultsCount() > 16 then
+success = 0
+gg.alert('Incompatible device or bad id! This is a TRAP VALUE! Editing it may cause a ban!!')
+edit = 0
+end
+if gg.getResultsCount() == 1 then
+success = 0
+gg.alert('Bad id or incompatible device. You need android 7!')
+edit = 0
+end
+end
+if gg.getResultsCount() > 16 then
+success = 0
+edit = 0
+end
+if edit == 1 then
+if mode == 1 then
+if gg.getResultsCount() > 9 then
+gg.getResults(gg.getResultsCount() - 3)
+else
+if gg.getResultsCount() == 9 then
+gg.getResults(gg.getResultsCount() - 4)
+else
+if gg.getResultsCount() > 7 then
+gg.getResults(gg.getResultsCount() - 3)
+else
+gg.getResults(gg.getResultsCount() - 4)
+end
+end
+end
+end
+if mode == 2 then
+if gg.getResultsCount() > 9 then
+gg.getResults(gg.getResultsCount() - 4)
+else
+if ((gg.getResultsCount() == 9) or (gg.getResults == 8)) then
+gg.getResults(gg.getResultsCount() - 3)
+else
+if gg.getResultsCount() == 7 then
+gg.getResults(gg.getResultsCount() - 3)
+else
+gg.getResults(gg.getResultsCount() - 4)
+end
+end
+end
+end
+if mode == 3 then
+if ((gg.getResultsCount() == 7) or (gg.getResultsCount() > 9)) then
+gg.getResults(gg.getResultsCount() - 3)
+else
+gg.getResults(gg.getResultsCount() - 4)
+end
+end
+gg.editAll('1',gg.TYPE_DWORD)
+end
+gg.clearResults()
+end
+
+function checkforinlist(value)
+isvalid = 0
+isinvalid = 0
+i2 = 0
+while i2 < #invalid and isinvalid == 0 do
+i2 = i2 + 1
+if invalid[i2] == value then 
+isinvalid = 1
+end
+end
+--{ Commenting out this - we don't use it, and it is waste of time
+isvalid = 0
+i2 = 0
+while i2 < #validlist and isvalid == 0 do
+i2 = i2 + 1
+if validlist[i2] == value then 
+isvalid = 1
+end
+end
+--}
+end
+
+function checkvalid(value,datatype)
+valid = 1 -- we say it's valid at the beginning, but if one of these conditions is met, it is overwritten to not valid
+if datatype ~= "4" then -- Not dword, which means not id
+valid = 0 -- Not valid!
+end
+if valid == 1 then
+checkforinlist(value)
+if isinvalid == 1 then -- Is the value in the blacklist?
+valid = 0
+end
+if valid == 1 then
+if value < 10000000 then -- Not hashed value, which means not id
+valid = 0 -- Not Valid!
+end
+end
+if valid == 1 then
+searchid(value) -- Search for id to see how many results come up
+if gg.getResultsCount() > 17 or gg.getResultsCount() < 5 then -- > 17 is Trap value, < 1 (no results) is something else
+valid = 0
+end
+end
+end
+end
+
+function searchid(id)
+gg.setRanges(gg.REGION_ANONYMOUS) -- IDs are in anonymous only
+gg.clearResults()
+visible(0)
+gg.searchNumber(id,gg.TYPE_DWORD) -- Search for ID, as function says!
+visible(0)
+end
+
+function unlockall()
+getstartid()
+searchid(startid)
+invalid = {} -- To prevent repeating values from slowing script down, we log values which are invalid so we don't have to check each time
+validlist = {} -- There is variable with same name so we add 'list'. Just like we have invalid list, we will have a valid one
+startplace = gg.getResults(999)[gg.getResultsCount()] -- Last result is the one we want, because in last one there are no gaps
+startaddress = startplace.address -- Search id and memory address is where we start at for reference
+distance = (1)
+valid = 0 --  The nested loop ends with valid being 1 so set back to 0 again so it doesn't immediately be true
+visible(0)
+for ids = 0, 999 do
+while valid == 0 do -- Move until a valid id is found
+distance = distance + 1 -- Move up or down one address (address, not id) in memory.
+onaddress = decimalToHex(startplace.address + distance)
+visible(0)
+gg.clearResults()
+gg.searchAddress(onaddress,0xFFFFFFFF,gg.TYPE_DWORD)
+visible(0)
+if gg.getResultsCount() > 0 then
+onplace = gg.getResults(1)
+onvalue = onplace[1].value -- There should only be one result as we searched for address
+gg.clearResults()
+checkvalid(onvalue,"4") -- See if this is valid id
+end
+visible(0)
+end -- Valid id was found
+unlock(onvalue,0)
+ids = ids + 1
+visible(0)
+end
+end
+
+unlockall()

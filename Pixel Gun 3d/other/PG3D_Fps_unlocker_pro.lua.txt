@@ -1,0 +1,93 @@
+gg.clearResults()
+gg.alert("made by ;-;#4073 / PG3D id:149279839")
+menu=gg.choice({'90 fps (recommended)','120 fps (recommended)','144 fps','240 fps (unrecommended)','360 fps (unrecommended)','test 10 fps'})
+
+if menu==1 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber('h 46 00 70 00 73 00 20 00 36 00 30 00',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 46 00 70 00 73 00 20 00 39 00 30 00',gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.setVisible(false)
+gg.searchNumber('h 3C 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 5A 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+if menu==2 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber('h 46 00 70 00 73 00 20 00 36 00 30 00',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 46 00 70 00 73 00 31 00 32 00 30 00',gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.setVisible(false)
+gg.searchNumber('h 3C 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 78 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+if menu==3 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber('h 46 00 70 00 73 00 20 00 36 00 30 00',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 46 00 70 00 73 00 31 00 34 00 34 00',gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.setVisible(false)
+gg.searchNumber('h 3C 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 90 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+if menu==4 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber('h 46 00 70 00 73 00 20 00 36 00 30 00',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 46 00 70 00 73 00 32 00 34 00 30 00',gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.setVisible(false)
+gg.searchNumber('h 3C 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h F0 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+if menu==5 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber('h 46 00 70 00 73 00 20 00 36 00 30 00',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 46 00 70 00 73 00 33 00 36 00 30 00',gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.setVisible(false)
+gg.searchNumber('h 3C 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 68 01 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.clearResults()
+end
+
+if menu==6 then
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber('h 46 00 70 00 73 00 20 00 36 00 30 00',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 46 00 70 00 73 00 20 00 31 00 30 00',gg.TYPE_BYTE)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.setVisible(false)
+gg.searchNumber('h 3C 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.getResults(10000)
+gg.editAll('h 0A 00 00 00 00 00 00 00 D0 9E 82 05',gg.TYPE_BYTE)
+gg.clearResults()
+end

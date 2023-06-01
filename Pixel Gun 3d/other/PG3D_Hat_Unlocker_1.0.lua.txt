@@ -1,0 +1,78 @@
+gg.alert("✨i will soon update the script to be best✨")
+function wait_for_action()
+gg.setVisible(false) 
+while true do
+if gg.isVisible() then
+break
+end
+gg.toast("🪐Script made by PG3DSTRIKER. Contact me on discord: PG3DSTRIKER#1141.🪐")
+gg.sleep(300)
+end
+gg.setVisible(false)
+end
+
+function init()
+success = 1
+names = {"Cowboy hat","Afro","Mashroom hat","evil Brian","burning tiara","exit"}
+words = {"cowboy","afro","mashroom","brian","tiara"}
+initmenu()
+end
+
+function searchtext(texttosearch)
+gg.clearResults()
+gg.searchNumber(";" .. texttosearch, gg.TYPE_WORD)
+saveresults()
+end
+
+function saveresults()
+tosave = gg.getResults(999999)
+gg.addListItems(tosave)
+end
+
+function edithat()
+revert = gg.getListItems(999999)
+gg.getListItems(999999)
+gg.editAll(1, gg.TYPE_WORD)
+gg.alert("Go into the armory and to the hat section, then click on the hat then click on  gameguardian icon.")
+wait_for_action()
+gg.setValues(revert)
+gg.clearResults()
+end
+
+function initmenu()
+gg.setVisible(false)
+menu = gg.multiChoice({"➡️cowboy hat","➡️Afro","➡️Mashroom hat","➡️Evil Brian","➡️Burning tiara","➡️exit⬅️"},nil,"Welcome to my script create by PG3DSTRIKER#1141!!")
+if menu == nil then
+os.exit()
+end
+if menu[7] then
+gg.clearList()
+searchtext(textinput[1])
+searchtext(textinput[1] .. "_hat")
+searchtext("hat_" .. textinput[1])
+t = gg.getListItems(999)
+if #t > 500 then
+gg.alert("Did you type in the correct name for the hat? A lot of results were found, so the game may crash or freeze or the armor may not work. If the armor does work, ignore this message.")
+end
+if #t < 20 then
+gg.alert("Nothing found! Did you type in the hat correctly? Try typing it another way (EX: Instead of advanced combat armor, it is starter pack armor).")
+success = 0
+end 
+if success == 1 then
+editarmor()
+end
+else
+i = 0
+while not menu[i] do 
+i = i + 1
+end
+searchtext(words[i])
+edithat()
+end
+if success == 1 then
+gg.alert("You should now be able to buy the hat! Enjoy!")
+end
+gg.clearList()
+gg.clearResults()
+end
+init()

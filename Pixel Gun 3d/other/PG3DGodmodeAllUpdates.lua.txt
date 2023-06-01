@@ -1,0 +1,16 @@
+gg.setVisible(false)
+gg.alert("Method by poggersbutnot (don't try to find him he stopped existing) and script by User123456789#6424.")
+hex = "FF 43 03 D1 EF 3B 03 6D ED 33 04 6D EB 2B 05 6D E9 23 06 6D"
+edit = "20 00 80 D2 C0 03 5F D6"
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber("h" .. hex,gg.TYPE_BYTE)
+if gg.getResultsCount() == 0 then
+print("Make sure you are using a 64bit device. If you are, godmode is already enabled or the hack was patched.")
+else
+gg.getResults(gg.getResultsCount())
+gg.editAll("h" .. edit,gg.TYPE_BYTE)
+gg.clearResults()
+print("Godmode Activated!")
+end
+gg.setVisible(true)

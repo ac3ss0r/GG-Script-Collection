@@ -1,0 +1,64 @@
+function armtohex(fullarm)
+	fullhex = ""
+	for arm in string.gmatch(fullarm,'[^\r\n]+') do 
+	local addr = gg.getRangesList('libc.so')
+	for i, v in ipairs(addr) do
+		if v.type:sub(2,2) == 'w' then
+			addr = {{address = v.start, flags = gg.TYPE_DWORD}}
+		end
+	end
+	if not addr[1].address then
+		print("Error occured converting arm code to hex: Failed to get address ", addr)
+		gg.setVisible(true)
+		os.exit()
+	end
+		local old = gg.getValues(addr)
+		addr[1].value = '~A8 '..arm
+		local ok, err = pcall(gg.setValues, addr)
+		local out
+		if not ok then
+			err = err:gsub("^.* '1': ", ''):gsub('\nlevel = 1.*$', '')
+			print("Error occured converting arm code to hex: " .. err)
+			gg.setVisible(true)
+			os.exit()
+		else
+			out = gg.getValues(addr)
+			out = out[1].value & 0xFFFFFFFF
+			gg.setValues(old)
+			if not hex then
+				out = string.unpack('>I4', string.pack('<I4', out))
+			end
+			out = string.format('%08X', out)
+			fullhex = fullhex .. out
+		end
+	end
+	return(fullhex)
+end
+
+function edit(value)
+	gg.setRanges(gg.REGION_CODE_APP) 
+	gg.searchNumber("h 00 A0 00 91 E1 03 1F AA 13 1D 3D 14 F4 0F 1E F8 F3 7B 01 A9 F4 03 00 AA E0 03 1F AA F3 03 01 2A", gg.TYPE_BYTE) -- offset 2F7EAD0
+	gg.getResults(8)
+	gg.editAll(value, gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("done! if you are on pc execute twice while loading the game. Idk who this was made by.")
+end
+
+function main()
+	menu = gg.choice({"Custom Value (max 65.536)", "Large Value"})
+	
+	if menu == 1 then
+		number = gg.prompt({'Select the number of values to be edited. [-65536; 65536]'},nil, {'number'})
+	
+		if number == nil then
+			os.exit()
+		end
+		
+		generated_hex = armtohex("mov w0, #" .. number[1] .. " ;ret")
+		edit("h " .. generated_hex .. " 13 1D 3D 14 F4 0F 1E F8 F3 7B 01 A9 F4 03 00 AA E0 03 1F AA F3 03 01 2A")
+	end
+	
+	if menu == 2 then edit("h C0 03 5F D6 00 50 01 91 E1 03 1F AA 33 21 57 14 F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 F5 03 01 2A") end
+end
+
+main()

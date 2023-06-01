@@ -1,0 +1,8 @@
+gg.alert ('PG3D NEW SCRIPT MADE BY LIBBY PG3D GO SUBSCRIBE')
+menu=gg.choice ({'Unlock Ultimatum'})
+if menu==1 then
+gg.searchNumber('177168788',gg.TYPE_DWORD)
+gg.getResults(100)
+gg.editAll('1',gg.TYPE_DWORD)
+gg.clearResults()
+end

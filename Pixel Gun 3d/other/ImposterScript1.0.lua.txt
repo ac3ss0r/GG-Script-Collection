@@ -1,0 +1,26 @@
+gg.setRanges(gg.REGION_CODE_APP)
+function done()
+gg.setVisible(false)
+gg.sleep(300)
+gg.clearResults()
+gg.alert("Complete ✅")
+
+end
+B = gg.TYPE_BYTE
+
+gg.setVisible(false)
+gg.clearResults()
+choice1 = gg.choice({"gem clicker","coupon clicker"},nil,"Script by Striker")
+if choice1 == 1 then
+gg.searchNumber("h ff 83 03 d1 f4 63 00 f9 f3 7b 0d a9 14 7c 02 f0 88 de 59 39 f3 03 00 aa c8 00 00 37 a0 58 02 f0 " , B)
+gg.getResults(8)
+gg.editAll("h 20 00 80 D2 C0 03 5F D6" , B)
+done()
+end
+
+if choice1 == 2 then
+gg.searchNumber("h f5 53 be a9 f3 7b 01 a9 14 7c 02 d0 55 55 02 90 88 fa 59 39 b5 3a 43 f9 f3 03 00 aa 28 01 00 37 a0 57 02 d0 " , B)
+gg.getResults(8)
+gg.editAll("h 00 00 80 D2 C0 03 5F D6" , B)
+done()
+end

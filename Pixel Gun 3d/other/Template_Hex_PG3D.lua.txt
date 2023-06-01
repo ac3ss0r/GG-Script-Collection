@@ -1,0 +1,29 @@
+
+-- Template == RandomUser#1734 PG3D 23.0.1
+gg.setVisible(false)
+--alert
+gg.alert("PG3D Script Template")
+--menu
+local menu = gg.choice({"Test"},nil,"PG3D Script Template")
+function ra()
+gg.getRanges(gg.REGION_CODE_APP)
+end
+function cl()
+gg.clearResults()
+end
+function ed()
+gg.editAll(x, gg.TYPE_BYTE)
+end
+function gr()
+gg.getResultsCount()
+end
+function nuc()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("h ", gg.TYPE_BYTE) --Hex Value to search
+gg.getResults(100000)
+x='h ' --Input your hex value here
+gg.alert("script finished")
+end
+--select correct menu
+if menu==nil then return end
+if menu==1 then nuc() end

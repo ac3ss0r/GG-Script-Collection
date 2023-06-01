@@ -1,0 +1,148 @@
+--[[
+PG3D All Updates Lottery Sets
+Made Using Il2cppExplorer (https://github.com/HTCheater/Il2CppExplorer)
+
+THIS IS A TEST! IDK IF IT WORKS!
+--]]
+
+lasttoast = 0 
+function progressalert(message,override)
+	if os.time() - lasttoast > 1 or override then
+		lasttoast = os.time()
+		gg.toast(message)
+	end
+end
+
+function init()
+	progressalert("Initializing Il2cppExplorer...", true)
+    local file = io.open(gg.EXT_FILES_DIR .. '/Il2CppExplorer.lua', 'r')
+    if file == nil then
+		progressalert("Downloading Il2cppExplorer...", true)
+		gg.alert("Please allow Internet access so Il2cppExplorer can be downloaded.\nYou can do it manually by downloading from\nhttps://github.com/HTCheater/Il2CppExplorer/releases/latest/download/Il2CppExplorer.lua\nand putting it in the\n" .. gg.EXT_FILES_DIR .. "\nfolder.")
+        progressalert("Downloading Il2cppExplorer...", true)
+		response = gg.makeRequest('https://github.com/HTCheater/Il2CppExplorer/releases/latest/download/Il2CppExplorer.lua')
+        if response.code ~= 200 then
+            print('Check internet connection')
+            os.exit()
+        end
+        file = io.open(gg.EXT_FILES_DIR .. '/Il2CppExplorer.lua', 'w')
+        file:write(response.content)
+	end
+	framework = loadfile(gg.EXT_FILES_DIR .. '/Il2CppExplorer.lua')
+    framework()
+	progressalert("Successfully initialized Il2cppExplorer", true)
+end
+
+function contains(item,list)
+	--Not type-sensitive
+	for index = 1, #list do
+		if tostring(list[index]) == tostring(item) then
+			return(true)
+		end
+	end
+	return(false)
+end	
+
+function indexof(item,list)
+	--Not type-sensitive
+	for index = 1, #list do
+		if tostring(list[index]) == tostring(item) then
+			return(index)
+		end
+	end
+	return(nil)
+end
+
+function int(number)
+	number = tostring(tonumber(number))
+	decimalpointindex = string.find(number,"%.")
+	if decimalpointindex ~= nil then
+		--If there is a decimal point, remove the decimal point and everything after it
+		number = string.sub(number,1,decimalpointindex - 1)
+	end
+	return(tonumber(number))
+end
+
+function chooseedit(choices)
+	--If choices is not specified, it defaults to {"300","1000","10000","25000","40000","45000"}
+	choices = choices or {"300","1000","10000","25000","40000","45000"}
+	table.insert(choices,1,"Custom")
+	editchoice = gg.choice(choices,nil,"What would you like to change the quantities of all lottery and set event rewards to?\n\nNotice: Changing the rewards to a number over 45k and receiving a reward will instantly ban you!")
+	if editchoice == nil then
+		--User Clicked Cancel
+		os.exit()
+	else
+		if editchoice == 1 then
+			--Custom
+			editvalueprompt = gg.prompt({"What integer value would you like to edit the quantities of all lottery and set event rewards to (the maximum value is 65536)?\n\nNotice: Changing the rewards to a number over 45k and receiving a reward will instantly ban you!"},{[1] = 45000},{[1] = 'number'})
+			if editvalueprompt == nil then
+				--User Clicked Cancel
+				os.exit()
+			else
+				choseneditvalue = editvalueprompt[1]
+			end
+		else
+			choseneditvalue = choices[editchoice]
+		end
+	end
+		choseneditvalue = int(choseneditvalue)
+		if is64bit then
+			--armv8 (64bit)
+			if choseneditvalue > 65536 then
+				gg.alert("The maximum value is 65536! Setting to 65536.")
+				choseneditvalue = 65536
+			end
+			--[[if choseneditvalue < -65536 then
+				gg.alert("The minimum value is -65536! Setting to -65536.")
+				choseneditvalue = -65536
+			end--]]
+			if choseneditvalue < 0 then
+				gg.alert("Sorry, but negative numbers are not supported. Setting to 0.")
+				choseneditvalue = 0
+			end
+		else
+			--armv7 (32bit)
+			if choseneditvalue > 65536 then
+				gg.alert("The maximum value is 65536! Setting to 65536.")
+				choseneditvalue = 65536
+			end
+			if choseneditvalue < 0 then
+				gg.alert("Sorry, but negative numbers are not supported. Setting to 0.")
+				choseneditvalue = 0
+			end
+		end
+		if choseneditvalue > 45000 then
+			confirm = gg.choice({"Uh-oh, set it to 45k","Keep it at " .. choseneditvalue .. " (Dangerous)"},nil,"WARNING:\nAre you sure you want to set the quantity to over 45k? If you do this and receive any reward from the lottery or set event, you will be instantly banned.")
+			if confirm == nil or confirm == 1 then
+				--User clicked cancel or "Uh-oh, set it to 45k"
+				choseneditvalue = 45000
+			end
+		end
+	return(choseneditvalue)
+end
+
+function main()
+	-- Init Il2cppExplorer
+	init()
+	--Get whether the script is being run on an armv7 (32bit) or armv8 (64bit) device
+	editrealnumber = tonumber(chooseedit())
+	progressalert("Attempting to set lottery and set event rewards to " .. editrealnumber,true)
+	edit32bit = {"Mov R0, #" .. editrealnumber, "BX LR"}
+	edit64bit = {"Mov W0, #" .. editrealnumber, "Ret"}
+	gg.alert("This might take a few minutes!")
+	success = explorer.editFunction("GameEventItemData", "get_Count", edit64bit, edit32bit)
+	if not success then 
+		progressalert("Nothing found",true)
+		print("Error: Nothing found. Make sure that you are fully loaded into the game, and you have not used this script or any other lottery / set event scripts in this game session.")
+		gg.setVisible(true)
+		os.exit()
+	end
+	progressalert("Successfully edited to " .. editrealnumber .. "!",true)
+	gg.alert("The quantities of all lottery and set event rewards have been changed to " .. editrealnumber .. ". Enjoy!\nIf you would like to set the rewards back to normal, restart the game.\nDISCLAIMER:\nThis script may be bannable! I advise only opening a few thousand gems worth of chests a day, or your account has a high chance of being banned.")
+	print("The quantities of all lottery and set event rewards have been changed to " .. editrealnumber .. ". Enjoy!\nIf you would like to set the rewards back to normal, restart the game.\nDISCLAIMER:\nThis script may be bannable! I advise only opening a few thousand gems worth of chests a day, or your account has a high chance of being banned.")
+end
+
+gg.setVisible(false)
+gg.alert("Experimental All Updates Custom Lotto Sets for Pixel Gun 3D by HorridModz (User123456789#6424). Works for both 32bit and 64bit devices.\n\nThis script is made using a cool framework called Il2cppExplorer: https://github.com/HTCheater/Il2CppExplorer") 
+gg.alert("DISCLAIMER:\nThis script may be bannable! I advise only opening a few thousand gems worth of chests a day, or your account has a high chance of being banned.")
+main()
