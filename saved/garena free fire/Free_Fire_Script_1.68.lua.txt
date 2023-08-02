@@ -1,0 +1,1097 @@
+local L0_1353, L1_1354, L2_1355, L3_1356, L4_1357, L5_1358, L6_1359, L7_1360, L8_1361, L9_1362, L10_1363, L11_1364, L12_1365, L13_1366, L14_1367, L15_1368, L16_1369, L17_1370, L18_1371
+function L1_1354(A0_1372, A1_1373)
+	local L3_1374, L4_1375, L5_1376
+	L3_1374 = ""
+	L4_1375 = 1
+	L5_1376 = #A0_1372
+	for i = 1, #A0_1372 do
+		L3_1374 = L3_1374 .. L0_1353(A1_1373 * A0_1372:byte(i) % 256)
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	return L3_1374
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function L1_1354(A0_1377)
+	local L1_1378, L2_1379, L3_1380
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function L3_1356(A0_1381)
+	gg.searchNumber(4, A0_1381)
+	gg.editAll(4, A0_1381)
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+local L0_1382, L1_1383, L2_1384, L3_1385, L4_1386, L5_1387, L6_1388, L7_1389, L8_1390, L9_1391, L10_1392, L11_1393, L12_1394
+if os["date"]("%Y%m%d") >= "20221129" then
+	gg["alert"](
+		"🥱 Sᴄʀɪᴘᴛ Exᴘɪʀᴇᴅ Gᴏ Tᴏ Mʏ Cʜᴀɴɴᴇʟ TᴏGᴇᴛ Nᴇᴡ(Yᴏᴜᴛᴜʙᴇ>AssassinYT)"
+	)
+	return
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function Compiler(A0_1395)
+	local L1_1396
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function name(A0_1397)
+	local L1_1398
+	L1_1398 = WutzCyrus0
+	if L1_1398 ~= A0_1397 then
+		WutzCyrus0 = A0_1397
+		L1_1398 = gg
+		L1_1398 = L1_1398["getRanges"]
+		List(WutzCyrus0)
+		if #L1_1398 == 0 then
+			_G["print"]("⚠️ SELECT FREEFIRE IN LOBBY TO RUN ALSO OPEN GG AFTER ENTERING LOBBY⚠️")
+			os["exit"]()
+		else
+			WutzCyrus3 = L1_1398[1].start
+			WutzCyrus4 = L1_1398[#L1_1398]["end"]
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function hex2tbl(A0_1399)
+	local L1_1400
+	L1_1400 = {}
+	A0_1399:gsub(
+		"%S%S",
+		function(A0_1401)
+			local L1_1402
+			L1_1402 = L1_1400
+			L1_1402 = #L1_1402
+			L1_1402 = L1_1402 + 1
+			L1_1400[L1_1402] = A0_1401
+			L1_1402 = L4_1386
+			return L1_1402("")
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	)
+	return L1_1400
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function original(A0_1403)
+	if #hex2tbl(A0_1403) == 0 then
+		return
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	if #hex2tbl(A0_1403) > WutzCyrus1 then
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	for i = 1, WutzCyrus1 do
+		if i ~= 1 then
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if hex2tbl(A0_1403)[i] == "??" or hex2tbl(A0_1403)[i] == "**" then
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	gg["searchNumber"](
+		(("" .. ";") .. "0~~0" .. "r") .. "::" .. WutzCyrus1,
+		gg["TYPE_BYTE"],
+		false,
+		gg["SIGN_EQUAL"],
+		WutzCyrus3,
+		WutzCyrus4
+	)
+	if #hex2tbl(A0_1403) > WutzCyrus1 then
+		for i = WutzCyrus1 + 1, #hex2tbl(A0_1403) do
+			if hex2tbl(A0_1403)[i] == "??" or hex2tbl(A0_1403)[i] == "**" then
+			elseif ("0x" .. 256) + 0 > 127 then
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+			hex2tbl(A0_1403)[i] = ("0x" .. 256) + 0 - 256
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	WutzCyrus5 = {}
+	repeat
+		if gg["getResultCount"]() <= 0 or #gg["getResults"](8) < 0 + WutzCyrus1 then
+			break
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		for i, i in ipairs((gg["getResults"](8))) do
+			i.address = i.address + myoffset
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		gg["loadResults"]((gg["getResults"](8)))
+		while "flags" do
+			if #hex2tbl(A0_1403) > WutzCyrus1 then
+				for i = WutzCyrus1 + 1, #hex2tbl(A0_1403) do
+				end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+				for i = WutzCyrus1 + 1, #hex2tbl(A0_1403) do
+					if
+						hex2tbl(A0_1403)[i] ~= 256
+						and gg["getValues"]({
+								[i - WutzCyrus1] = {
+									address = gg["getResults"](8)[1 + 0].address - 1 + i,
+									flags = gg["TYPE_BYTE"],
+									value = 0,
+								},
+							})[i - WutzCyrus1].value
+							~= hex2tbl(A0_1403)[i]
+					then
+						break
+					end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+				end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+			if false then
+				WutzCyrus5[0 + 1] = gg["getResults"](8)[1 + 0].address - 1
+			else
+				for i = 1, WutzCyrus1 do
+				end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+				gg["removeResults"]({
+					[i] = gg["getResults"](8)[i + 0],
+				})
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	until #gg["getResults"](8) > 0
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function replaced(A0_1404)
+	WutzCyrus0 = WutzCyrus0 + 1
+	if WutzCyrus2 ~= nil then
+		for i, i in ipairs((hex2tbl(A0_1404))) do
+			if i ~= "??" and i ~= "**" and i == hex2tbl(WutzCyrus2)[i] then
+				hex2tbl(A0_1404)[i] = "**"
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		WutzCyrus2 = nil
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	for i, i in ipairs(WutzCyrus4) do
+		for i, i in ipairs((hex2tbl(A0_1404))) do
+			if i ~= "??" and i ~= "**" then
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	if 0 + 1 ~= 0 then
+		gg["setValues"]({
+			[0 + 1] = {
+				address = i + i,
+				value = i .. "r",
+				flags = gg["TYPE_BYTE"],
+			},
+		})
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	WutzCyrus5 = true
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function jordan(A0_1405, A1_1406, A2_1407, A3_1408)
+	gg["setRanges"](32)
+	gg["searchNumber"](A0_1405, A1_1406)
+	gg["addListItems"]((gg["getResults"](100)))
+	gg["getValues"]((gg["getListItems"](100)))[1].address = gg["getValues"]((gg["getListItems"](100)))[1].address
+		- A2_1407
+	gg["getValues"]((gg["getListItems"](100)))[1].value = A3_1408
+	gg["setValues"]((gg["getValues"]((gg["getListItems"](100)))))
+	gg["removeListItems"]((gg["getValues"]((gg["getListItems"](100)))))
+	gg["removeListItems"]((gg["getListItems"](1)))
+	gg["clearResults"]()
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function JordanScript(A0_1409, A1_1410, A2_1411)
+	localpack = gg["getTargetInfo"]().nativeLibraryDir
+	List(localpack .. "/" .. A0_1409)
+	for i, i in pairs(gg["getRanges"]) do
+		if
+			gg["getValues"]({
+				{
+					address = i.start,
+					flags = gg["TYPE_DWORD"],
+				},
+				{
+					address = i.start + 18,
+					flags = gg["TYPE_WORD"],
+				},
+			})[1].value == 1179403647
+		then
+			A1_1410 = i["start"] + A1_1410
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		assert(A1_1410 ~= nil, "[rwmem]: error, provided address is nil.")
+		_rw = {}
+		if type(A2_1411) == "number" then
+			i = ""
+			for i = 1, A2_1411 do
+				_rw[i] = {
+					address = A1_1410 - 1 + i,
+					flags = gg["TYPE_BYTE"],
+				}
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+			for i, i in ipairs(gg["getValues"](_rw)) do
+				i = i .. string["format"]("%02X", i.value & 255)
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+			return i
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		Byte = {}
+		A2_1411:gsub(
+			"..",
+			function(A0_1412)
+				local L1_1413, L2_1414, L3_1415
+				L1_1413 = Byte
+				L2_1414 = Byte
+				L2_1414 = #L2_1414
+				L2_1414 = L2_1414 + 1
+				L1_1413[L2_1414] = A0_1412
+				L1_1413 = _rw
+				L2_1414 = Byte
+				L2_1414 = #L2_1414
+				L3_1415 = {}
+				L3_1415.address = A1_1410 - 1 + #Byte
+				L3_1415.flags = gg["TYPE_BYTE"]
+				L3_1415.value = A0_1412 .. "h"
+				L1_1413[L2_1414] = L3_1415
+			end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		)
+		gg["setValues"](_rw)
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+b = [[
+18790
+Var #C43F97F0|c43f97f0|10|43480000|0|0|0|0|r-xp|/data/app/com.dts.freefireth/lib/libil2cpp.so|28e27f0
+]]
+fileData = gg["EXT_STORAGE"] .. "/###.dat"
+io["output"](fileData):write(b):close()
+gg["loadList"](fileData, gg["LOAD_APPEND"])
+gg["sleep"](50)
+r = gg["getListItems"]()
+getReset = gg["getValues"](r)
+gg["clearList"]()
+os["remove"](fileData)
+gg["setVisible"](true)
+gg["clearResults"]()
+os["remove"](gg["EXT_STORAGE"] .. "/Android/data/com.dts.freefireth/files/reportnew.db", gg["LOAD_APPEND"])
+os["remove"](gg["EXT_STORAGE"] .. "/Android/data/com.dts.freefireth/files/ymrtc_log.txt", gg["LOAD_APPEND"])
+os["remove"]("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Metadata/global-metadata.dat")
+os["remove"]("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Resources/mscorlib.dll-resources.dat")
+gg["toast"]("■□□□□□□10%  ")
+gg["sleep"](100)
+gg["toast"]("■■□□□□□20%  ")
+gg["sleep"](100)
+gg["toast"]("■■■□□□□40%  ")
+gg["sleep"](100)
+gg["toast"]("■■■■□□□60%  ")
+gg["sleep"](100)
+gg["toast"]("■■■■■□□80%  ")
+gg["sleep"](100)
+gg["toast"]("■■■■■■□90%  ")
+gg["sleep"](100)
+gg["toast"]("■■■■■■■100%")
+function Menu1()
+	_ENV[7] = gg["multiChoice"](
+		{
+			ghost .. "👻Gʜᴏsᴛ Hᴀᴄᴋ👻",
+			STONE .. "🗿Sᴛᴏɴᴇ Hᴀᴄᴋ🗿",
+			"🕋Iɴsɪᴅᴇ Tʜᴇ Oʙᴊᴇᴄᴛ🕋",
+			"➪🎭Nᴏ ʀᴇᴄᴏɪʟ➪",
+			"➤MENU WEAPONS➤",
+			magic .. "➪🎪Mᴀɢɪᴄ Bᴜʟʟᴇᴛ(Safe Value))➪",
+			speed .. "➪⚡Rᴜɴ Sᴘᴇᴇᴅ➪",
+			"➪🎯Aɪᴍʙᴏᴛ(ɪɴɢᴀᴍᴇ)➪",
+			LOCK .. "➪🔒Aɪᴍʟᴏᴄᴋ(ɪɴɢᴀᴍᴇ)➪",
+			"➤MENU BRUTAL➤",
+			Mode .. "➪🌃Bʟᴀᴄᴋ Sᴋʏ➪",
+			Pro .. "➪🎮Sᴇɴsɪᴛɪᴠɪᴛʏ Vɪᴘ➪",
+			WHITE1 .. "Wʜɪᴛᴇ Bᴏᴅʏ Eɴᴇᴍʏ☃️",
+			"⚔️VIP BYPASS⚔️",
+			"☞︎︎︎Exɪᴛ☜︎︎︎",
+		},
+		nil,
+		"╭───────────────────╮\n  Sᴜʙsᴄʀɪʙᴇ  ᴘʟᴀʏᴇʀs ᴛᴇᴀᴍ Fᴏʀ Mᴏʀᴇ\n 🔴Dᴏɴᴛ Bᴜʏ Tʜɪs Sᴄʀɪᴘᴛ🔴\n  Iᴛs Fʀᴇᴇ\n 💫 Fᴏʀ Mʏ Sᴜʙsᴄʀɪʙᴇʀs💫\n╰───────────────────╯"
+	)
+	if _ENV[7] == nil then
+	else
+		if _ENV[7][1] == true then
+			go()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][2] == true then
+			A2()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][3] == true then
+			CR6()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][4] == true then
+			no()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][5] == true then
+			MENUGUNS()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][6] == true then
+			AMEN()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][7] == true then
+			sped()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][8] == true then
+			bot()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][9] == true then
+			AIMLOCK()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][10] == true then
+			v7()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][11] == true then
+			Night()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][12] == true then
+			sensi()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][13] == true then
+			WHITE()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][14] == true then
+			ant()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+		if _ENV[7][15] == true then
+			Exit()
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	USP = -1
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+ghost = "《OFF》"
+function go()
+	local L0_1416
+	L0_1416 = ghost
+	if L0_1416 == "《OFF》" then
+		L0_1416 = JordanScript
+		L0_1416("libil2cpp.so", "0x8B142C", "0100A0E3")
+		L0_1416 = os
+		L0_1416 = L0_1416["remove"]
+		L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/reportnew.db")
+		L0_1416 = os
+		L0_1416 = L0_1416["remove"]
+		L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/ymrtc_log.txt")
+		L0_1416 = os
+		L0_1416 = L0_1416["remove"]
+		L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Metadata/global-metadata.dat")
+		L0_1416 = os
+		L0_1416 = L0_1416["remove"]
+		L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Resources/mscorlib.dll-resources.dat")
+		L0_1416 = "gg"
+		L0_1416 = _ENV[L0_1416]
+		L0_1416 = L0_1416["toast"]
+		L0_1416("🔵ON🔵")
+		L0_1416 = L4_1386
+		L0_1416 = L0_1416("1d ba c4 89 88 1d ba c5")
+		ghost = L0_1416
+	else
+		L0_1416 = ghost
+		if L0_1416 == "《ON》" then
+			L0_1416 = JordanScript
+			L0_1416("libil2cpp.so", "0x8B142C", "0000A0E3")
+			L0_1416 = os
+			L0_1416 = L0_1416["remove"]
+			L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/reportnew.db")
+			L0_1416 = os
+			L0_1416 = L0_1416["remove"]
+			L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/ymrtc_log.txt")
+			L0_1416 = os
+			L0_1416 = L0_1416["remove"]
+			L0_1416("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Metadata/global-metadata.dat")
+			L0_1416 = os
+			L0_1416 = L0_1416["remove"]
+			L0_1416(
+				"/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Resources/mscorlib.dll-resources.dat"
+			)
+			L0_1416 = "gg"
+			L0_1416 = _ENV[L0_1416]
+			L0_1416 = L0_1416["toast"]
+			L0_1416("🔴OFF🔴")
+			L0_1416 = L4_1386
+			L0_1416 = L0_1416("1d ba c4 89 80 80 1d ba c5")
+			ghost = L0_1416
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+STONE = "《OFF》"
+function A2()
+	local L0_1417
+	L0_1417 = STONE
+	if L0_1417 == "《OFF》" then
+		L0_1417 = JordanScript
+		L0_1417("libunity.so", "0xAD7E68", "0000803F")
+		L0_1417 = os
+		L0_1417 = L0_1417["remove"]
+		L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/reportnew.db")
+		L0_1417 = os
+		L0_1417 = L0_1417["remove"]
+		L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/ymrtc_log.txt")
+		L0_1417 = os
+		L0_1417 = L0_1417["remove"]
+		L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Metadata/global-metadata.dat")
+		L0_1417 = os
+		L0_1417 = L0_1417["remove"]
+		L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Resources/mscorlib.dll-resources.dat")
+		L0_1417 = "gg"
+		L0_1417 = _ENV[L0_1417]
+		L0_1417 = L0_1417["toast"]
+		L0_1417("🔵ON🔵")
+		L0_1417 = L4_1386
+		L0_1417 = L0_1417("1d ba c4 89 88 1d ba c5")
+		STONE = L0_1417
+	else
+		L0_1417 = STONE
+		if L0_1417 == "《ON》" then
+			L0_1417 = JordanScript
+			L0_1417("libunity.so", "0xAD7E68", "57FEFFCA")
+			L0_1417 = os
+			L0_1417 = L0_1417["remove"]
+			L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/reportnew.db")
+			L0_1417 = os
+			L0_1417 = L0_1417["remove"]
+			L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/ymrtc_log.txt")
+			L0_1417 = os
+			L0_1417 = L0_1417["remove"]
+			L0_1417("/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Metadata/global-metadata.dat")
+			L0_1417 = os
+			L0_1417 = L0_1417["remove"]
+			L0_1417(
+				"/storage/emulated/0/Android/data/com.dts.freefireth/files/il2cpp/Resources/mscorlib.dll-resources.dat"
+			)
+			L0_1417 = "gg"
+			L0_1417 = _ENV[L0_1417]
+			L0_1417 = L0_1417["toast"]
+			L0_1417("🔴OFF🔴")
+			L0_1417 = L4_1386
+			L0_1417 = L0_1417("1d ba c4 89 80 80 1d ba c5")
+			STONE = L0_1417
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 ??𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function CR6()
+	gg["clearResults"]()
+	gg["clearResults"]()
+	io["output"](fileData)
+		:write([[
+20245
+FURIA90 #D9EB3AF4|d9eb3af4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a96af4
+FURIA90 #D9EB4660|d9eb4660|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a97660
+FURIA90 #D9EB4664|d9eb4664|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a97664
+FURIA90 #D9EB4668|d9eb4668|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a97668
+FURIA90 #D9EBE9A0|d9ebe9a0|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aa19a0
+FURIA90 #D9EBE9A4|d9ebe9a4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aa19a4
+FURIA90 #D9ECCC80|d9eccc80|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aafc80
+FURIA90 #D9ECCC84|d9eccc84|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aafc84
+FURIA90 #D9ECCC88|d9eccc88|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aafc88
+FURIA90 #D9ED8E10|d9ed8e10|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abbe10
+FURIA90 #D9ED8E14|d9ed8e14|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abbe14
+FURIA90 #D9ED97E8|d9ed97e8|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abc7e8
+FURIA90 #D9ED97EC|d9ed97ec|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abc7ec
+FURIA90 #D9EE3020|d9ee3020|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ac6020
+FURIA90 #D9EE3024|d9ee3024|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ac6024
+FURIA90 #D9EE3028|d9ee3028|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ac6028
+FURIA90 #D9EF1E00|d9ef1e00|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad4e00
+FURIA90 #D9EF1E04|d9ef1e04|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad4e04
+FURIA90 #D9EF4ED0|d9ef4ed0|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7ed0
+FURIA90 #D9EF4ED4|d9ef4ed4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7ed4
+FURIA90 #D9EF4ED8|d9ef4ed8|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7ed8
+FURIA90 #D9EF4EDC|d9ef4edc|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7edc
+FURIA90 #D9EFE424|d9efe424|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae1424
+FURIA90 #D9F00140|d9f00140|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae3140
+FURIA90 #D9F02F10|d9f02f10|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae5f10
+FURIA90 #D9F032E8|d9f032e8|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae62e8
+FURIA90 #D9F061C4|d9f061c4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae91c4
+FURIA90 #D9F070C4|d9f070c4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aea0c4
+FURIA90 #D9F07340|d9f07340|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aea340
+FURIA90 #D9F08AD4|d9f08ad4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aebad4
+FURIA90 #D9F0BE70|d9f0be70|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aeee70
+FURIA90 #D9F15EC4|d9f15ec4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|af8ec4
+FURIA90 #D9F16914|d9f16914|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|af9914
+FURIA90 #D9F1C5C8|d9f1c5c8|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aff5c8
+FURIA90 #D9F1E594|d9f1e594|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b01594
+FURIA90 #D9F251AC|d9f251ac|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b081ac
+FURIA90 #D9F27BF0|d9f27bf0|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0abf0
+FURIA90 #D9F28D40|d9f28d40|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0bd40
+FURIA90 #D9F29200|d9f29200|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0c200
+FURIA90 #D9F2AEE4|d9f2aee4|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0dee4
+FURIA90 #D9F3A9A0|d9f3a9a0|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b1d9a0
+FURIA90 #D9F7C1FC|d9f7c1fc|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b5f1fc
+FURIA90 #D9F90070|d9f90070|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b73070
+FURIA90 #D9FD7F7C|d9fd7f7c|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|bbaf7c
+FURIA90 #D9FD912C|d9fd912c|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|bbc12c
+FURIA90 #DA02C3B8|da02c3b8|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c0f3b8
+FURIA90 #DA02C3BC|da02c3bc|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c0f3bc
+FURIA90 #DA0383AC|da0383ac|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c1b3ac
+FURIA90 #DA043D2C|da043d2c|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c26d2c
+FURIA90 #DA0454FC|da0454fc|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c284fc
+FURIA90 #DA0486FC|da0486fc|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c2b6fc
+FURIA90 #DA0D2500|da0d2500|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cb5500
+FURIA90 #DA0D53C0|da0d53c0|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cb83c0
+FURIA90 #DA0D65F0|da0d65f0|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cb95f0
+FURIA90 #DA0D7188|da0d7188|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cba188
+FURIA90 #DA0DE274|da0de274|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cc1274
+]])
+		:close()
+	gg["loadList"](fileData, gg["LOAD_APPEND"] | gg["LOAD_VALUES"])
+	os["remove"](fileData)
+	gg["sleep"](50)
+	gg["clearList"]()
+	gg["clearResults"]()
+	gg["clearResults"]()
+	gg["toast"]("💡ON💡")
+	gg["clearResults"]()
+	gg["clearResults"]()
+	gg["sleep"](450)
+	gg["toast"]("⌛1 S⏲")
+	gg["sleep"](450)
+	gg["toast"]("⌛2 S⏲")
+	gg["sleep"](450)
+	gg["clearResults"]()
+	io["output"](fileData)
+		:write([[
+20245
+FURIA90 #D9EB3AF4|d9eb3af4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a96af4
+FURIA90 #D9EB4660|d9eb4660|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a97660
+FURIA90 #D9EB4664|d9eb4664|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a97664
+FURIA90 #D9EB4668|d9eb4668|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|a97668
+FURIA90 #D9EBE9A0|d9ebe9a0|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aa19a0
+FURIA90 #D9EBE9A4|d9ebe9a4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aa19a4
+FURIA90 #D9ECCC80|d9eccc80|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aafc80
+FURIA90 #D9ECCC84|d9eccc84|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aafc84
+FURIA90 #D9ECCC88|d9eccc88|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aafc88
+FURIA90 #D9ED8E10|d9ed8e10|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abbe10
+FURIA90 #D9ED8E14|d9ed8e14|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abbe14
+FURIA90 #D9ED97E8|d9ed97e8|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abc7e8
+FURIA90 #D9ED97EC|d9ed97ec|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|abc7ec
+FURIA90 #D9EE3020|d9ee3020|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ac6020
+FURIA90 #D9EE3024|d9ee3024|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ac6024
+FURIA90 #D9EE3028|d9ee3028|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ac6028
+FURIA90 #D9EF1E00|d9ef1e00|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad4e00
+FURIA90 #D9EF1E04|d9ef1e04|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad4e04
+FURIA90 #D9EF4ED0|d9ef4ed0|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7ed0
+FURIA90 #D9EF4ED4|d9ef4ed4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7ed4
+FURIA90 #D9EF4ED8|d9ef4ed8|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7ed8
+FURIA90 #D9EF4EDC|d9ef4edc|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ad7edc
+FURIA90 #D9EFE424|d9efe424|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae1424
+FURIA90 #D9F00140|d9f00140|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae3140
+FURIA90 #D9F02F10|d9f02f10|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae5f10
+FURIA90 #D9F032E8|d9f032e8|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae62e8
+FURIA90 #D9F061C4|d9f061c4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|ae91c4
+FURIA90 #D9F070C4|d9f070c4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aea0c4
+FURIA90 #D9F07340|d9f07340|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aea340
+FURIA90 #D9F08AD4|d9f08ad4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aebad4
+FURIA90 #D9F0BE70|d9f0be70|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aeee70
+FURIA90 #D9F15EC4|d9f15ec4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|af8ec4
+FURIA90 #D9F16914|d9f16914|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|af9914
+FURIA90 #D9F1C5C8|d9f1c5c8|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|aff5c8
+FURIA90 #D9F1E594|d9f1e594|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b01594
+FURIA90 #D9F251AC|d9f251ac|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b081ac
+FURIA90 #D9F27BF0|d9f27bf0|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0abf0
+FURIA90 #D9F28D40|d9f28d40|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0bd40
+FURIA90 #D9F29200|d9f29200|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0c200
+FURIA90 #D9F2AEE4|d9f2aee4|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b0dee4
+FURIA90 #D9F3A9A0|d9f3a9a0|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b1d9a0
+FURIA90 #D9F7C1FC|d9f7c1fc|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b5f1fc
+FURIA90 #D9F90070|d9f90070|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|b73070
+FURIA90 #D9FD7F7C|d9fd7f7c|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|bbaf7c
+FURIA90 #D9FD912C|d9fd912c|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|bbc12c
+FURIA90 #DA02C3B8|da02c3b8|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c0f3b8
+FURIA90 #DA02C3BC|da02c3bc|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c0f3bc
+FURIA90 #DA0383AC|da0383ac|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c1b3ac
+FURIA90 #DA043D2C|da043d2c|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c26d2c
+FURIA90 #DA0454FC|da0454fc|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c284fc
+FURIA90 #DA0486FC|da0486fc|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|c2b6fc
+FURIA90 #DA0D2500|da0d2500|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cb5500
+FURIA90 #DA0D53C0|da0d53c0|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cb83c0
+FURIA90 #DA0D65F0|da0d65f0|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cb95f0
+FURIA90 #DA0D7188|da0d7188|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cba188
+FURIA90 #DA0DE274|da0de274|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|cc1274
+]])
+		:close()
+	gg["loadList"](fileData, gg["LOAD_APPEND"] | gg["LOAD_VALUES"])
+	os["remove"](fileData)
+	gg["sleep"](50)
+	gg["clearList"]()
+	gg["clearResults"]()
+	gg["clearResults"]()
+	gg["toast"]("❌OFF❌")
+	gg["clearResults"]()
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function no()
+	gg["setRanges"](32)
+	gg["searchNumber"]("0.01748251915", 16, false, 536870912, 0, -1)
+	gg["getResults"](999)
+	gg["editAll"]("-2.2958874e-41", 16)
+	gg["clearResults"]()
+	gg["setRanges"](32)
+	gg["searchNumber"]("1016018816", 4, false, 536870912, 0, -5)
+	gg["getResults"](500)
+	gg["editAll"]("0006018816", 4)
+	gg["clearResults"]()
+	gg["toast"]("NO RECOIL GUN")
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function MENUGUNS()
+	local L0_1418, L1_1419, L2_1420, L3_1421, L4_1422, L5_1423, L6_1424, L7_1425, L8_1426, L9_1427, L10_1428, L11_1429, L12_1430, L13_1431, L14_1432, L15_1433, L16_1434, L17_1435, L18_1436, L19_1437, L20_1438, L21_1439, L22_1440, L23_1441, L24_1442, L25_1443, L26_1444, L27_1445, L28_1446, L29_1447, L30_1448, L31_1449, L32_1450, L33_1451, L34_1452, L35_1453, L36_1454, L37_1455, L38_1456, L39_1457, L40_1458, L41_1459, L42_1460, L43_1461, L44_1462, L45_1463, L46_1464, L47_1465, L48_1466, L49_1467, L50_1468, L51_1469, L52_1470, L53_1471, L54_1472, L55_1473, L56_1474, L57_1475, L58_1476, L59_1477, L60_1478
+	L1_1419 = -1
+	_ENV[L0_1418] = L1_1419
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+wr9 = "【❌】"
+function CR9()
+	if wr9 == "【❌】" then
+		gg["clearResults"]()
+		gg["clearResults"]()
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		gg["searchNumber"]("75;40::5", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["searchNumber"]("40", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](376)
+		gg["editAll"]("-1", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["clearResults"]()
+		gg["toast"]("💡Headshot Flat ON💡")
+		gg["clearResults"]()
+		wr9 = "[⚪]"
+	elseif wr9 == "[⚪]" then
+		gg["clearResults"]()
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		gg["searchNumber"]("75;-1::5", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["searchNumber"]("-1", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](376)
+		gg["editAll"]("40", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["clearResults"]()
+		gg["toast"]("❌Headshot Flat OFF❌")
+		gg["clearResults"]()
+		wr9 = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+KILL = "【❌】"
+function KILLBIG()
+	if KILL == "【❌】" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("5.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+		gg["getResults"](1000)
+		gg["editAll"]("-10", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("-10", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+		gg["getResults"](1000)
+		gg["editAll"]("5.0", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇳👹")
+		KILL = "【✔️】"
+	elseif KILL == "【✔️】" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("-10", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+		gg["getResults"](1000)
+		gg["editAll"]("5.0", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇫 🇫👹")
+		KILL = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+LIGH1 = "【❌】"
+function LIGH()
+	if LIGH1 == "【❌】" then
+		gg["setRanges"](gg["REGION_C_ALLOC"])
+		gg["searchNumber"]("0.05", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](80000)
+		gg["editAll"]("55.0", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇳💥")
+		LIGH1 = "【✔️】"
+	elseif LIGH1 == "【✔️】" then
+		gg["setRanges"](gg["REGION_C_ALLOC"])
+		gg["searchNumber"]("55.0", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](80000)
+		gg["editAll"]("0.05", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇫 🇫💥")
+		LIGH1 = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+VIEW = "【❌】"
+function CAMERA()
+	if VIEW == "【❌】" then
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		gg["searchNumber"]("3.14159274101", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("5", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇳👁️")
+		VIEW = "【✔️】"
+	elseif VIEW == "【✔️】" then
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		gg["searchNumber"]("5", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("3.14159274101", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"](" 🇴 🇫 🇫👁️")
+		VIEW = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+HIGH = "【❌】"
+function HIGHDAMAGA()
+	if HIGH == "【❌】" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("5.5;1.0;0.75::9", gg["POINTER_WRITABLE"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](5000)
+		gg["editAll"]("9999999", gg["POINTER_WRITABLE"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["clearResults"]()
+		gg["toast"](" 🇴 🇳")
+		HIGH = "【✔️】"
+	elseif HIGH == "【✔️】" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("999999::9", gg["POINTER_WRITABLE"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](5000)
+		gg["editAll"]("5.5;1.0;0.75", gg["POINTER_WRITABLE"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["clearResults"]()
+		gg["toast"]("OFF")
+		HIGH = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+DELAYS = "【❌】"
+function DELAY()
+	if DELAYS == "【❌】" then
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		gg["searchNumber"]("0.20000000298", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000)
+		gg["editAll"]("-999999999", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("NO DELAY 🇴 🇳")
+		DELAYS = "【✔️】"
+	elseif DELAYS == "【✔️】" then
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		gg["searchNumber"]("-999999999", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000)
+		gg["editAll"]("0.20000000298", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("NO DELAY 🇴 🇫 🇫")
+		DELAYS = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function HD()
+	gg["setRanges"](gg["REGION_ANONYMOUS"])
+	gg["searchNumber"]("0.84705883265;0.5;0.5", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+	gg["processResume"]()
+	gg["refineNumber"]("0.5", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+	revert = gg["getResults"](52000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg["editAll"]("10", gg["TYPE_FLOAT"])
+	gg["processResume"]()
+	gg["toast"]("✔️")
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+magic = "《OFF》"
+function AMEN()
+	local L0_1479
+	L0_1479 = magic
+	if L0_1479 == "《OFF》" then
+		L0_1479 = JordanScript
+		L0_1479("libunity.so", "0x5CB66C", "0000A03F")
+		L0_1479 = gg
+		L0_1479 = L0_1479["toast"]
+		L0_1479("Activated")
+		L0_1479 = L4_1386
+		L0_1479 = L0_1479("1d ba c4 89 88 1d ba c5")
+		magic = L0_1479
+	else
+		L0_1479 = magic
+		if L0_1479 == "《ON》" then
+			L0_1479 = JordanScript
+			L0_1479("libunity.so", "0x5CB66C", "ACC52737")
+			L0_1479 = gg
+			L0_1479 = L0_1479["toast"]
+			L0_1479("💢Dᴇᴀᴄᴛɪᴠᴀᴛᴇᴅ💢")
+			L0_1479 = L4_1386
+			L0_1479 = L0_1479("1d ba c4 89 80 80 1d ba c5")
+			magic = L0_1479
+		end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+speed = "《OFF》"
+function sped()
+	if speed == "《OFF》" then
+		gg["alert"](
+			"༒︎Wʜɪʟᴇ Yᴏᴜ Eqᴜɪᴘɪɴɢ hv Aɴʏᴛʜɪɴɢ Iɴ Yᴏᴜʀ Hᴀɴᴅ SᴘᴇᴇᴅRᴜɴ Wɪʟʟ Off 𒊹︎︎︎ Aɴᴅ Wʜɪʟᴇ Yᴏᴜ Hᴀᴠɴᴛ Eǫᴜɪᴘ Aɴᴛʏᴛʜɪɴɢ Iɴ ʏᴏᴜ Hᴀɴᴅ ᴛʜᴇɴ Iᴛ Wɪʟʟ Oɴ༒︎ "
+		)
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"](
+			"2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F",
+			gg["TYPE_FLOAT"],
+			false,
+			gg["SIGN_EQUAL"],
+			0,
+			-1
+		)
+		gg["refineNumber"]("1.20000004768", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		revert = gg["getResults"](500, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("1.780", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("Sᴘᴇᴇᴅ Hᴀᴄᴋ Oɴ")
+		speed = "《ON》"
+	elseif speed == "《ON》" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"](
+			"2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F",
+			gg["TYPE_FLOAT"],
+			false,
+			gg["SIGN_EQUAL"],
+			0,
+			-1
+		)
+		gg["refineNumber"]("1.780", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		revert = gg["getResults"](500, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("1.20000004768", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("Sᴘᴇᴇᴅ Hᴀᴄᴋ Oғғ")
+		speed = "《OFF》"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function bot()
+	gg["setRanges"](gg["REGION_ANONYMOUS"])
+	gg["searchNumber"]("1057048494", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1)
+	gg["getResults"](205)
+	gg["editAll"]("-2000000", gg["TYPE_DWORD"])
+	gg["clearResults"]()
+	gg["setRanges"](gg["REGION_ANONYMOUS"])
+	gg["searchNumber"](
+		"3DB851ECh;3F800000h;420000h;40A00000h;40133333h",
+		gg["TYPE_DWORD"],
+		false,
+		gg["SIGN_EQUAL"],
+		0,
+		-1,
+		0
+	)
+	gg["refineNumber"]("1075000115", gg["TYPE_DWORD"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+	gg["getResults"](1000)
+	gg["editAll"]("-5", gg["TYPE_DWORD"])
+	gg["clearResults"]()
+	gg["setRanges"](gg["REGION_ANONYMOUS"])
+	gg["searchNumber"]("1.35000002384", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+	gg["getResults"](1000)
+	gg["editAll"]("100", gg["TYPE_FLOAT"])
+	gg["clearResults"]()
+	gg["setRanges"](gg["REGION_CODE_APP"])
+	name("libil2cpp.so")
+	myoffset = 23090004
+	original("7F 45 4C 46 01 01 01 00")
+	replaced("01 00 A0 E3 1E FF 2F E1")
+	gg["clearResults"]()
+	gg["toast"]("AIMBOT ON")
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+LOCK = "《OFF》"
+function AIMLOCK()
+	if LOCK == "《OFF》" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("20", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000)
+		gg["editAll"]("-0", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇳🔒")
+		LOCK = "《ON》"
+	elseif LOCK == "《ON》" then
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"]("20", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000)
+		gg["editAll"]("20", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"](" 🇴 🇫 🇫🔒")
+		LOCK = "《OFF》"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function v7()
+	local L0_1480, L1_1481, L2_1482, L3_1483, L4_1484, L5_1485, L6_1486, L7_1487, L8_1488, L9_1489, L10_1490, L11_1491, L12_1492, L13_1493, L14_1494, L15_1495, L16_1496, L17_1497, L18_1498, L19_1499, L20_1500, L21_1501, L22_1502, L23_1503, L24_1504, L25_1505, L26_1506, L27_1507, L28_1508, L29_1509, L30_1510, L31_1511, L32_1512, L33_1513, L34_1514, L35_1515, L36_1516, L37_1517, L38_1518, L39_1519, L40_1520, L41_1521, L42_1522, L43_1523, L44_1524, L45_1525, L46_1526, L47_1527, L48_1528, L49_1529, L50_1530, L51_1531, L52_1532, L53_1533, L54_1534, L55_1535, L56_1536
+	_ENV[L0_1480] = L1_1481
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+Cara3 = "【❌】"
+function M3()
+	if Cara3 == "【❌】" then
+		gg["setRanges"](16384)
+		gg["searchNumber"]("100", 16)
+		gg["getResults"](10000)
+		gg["editAll"]("99999", 16)
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇳")
+		Cara3 = "【✔️】"
+	elseif Cara3 == "【✔️】" then
+		gg["setRanges"](16384)
+		gg["searchNumber"]("99999", 16)
+		gg["getResults"](10000)
+		gg["editAll"]("100", 16)
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇫 🇫")
+		Cara3 = "【❌】"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+Sup = "《🇴 🇫 🇫 》"
+function A11()
+	if Sup == "《🇴 🇫 🇫 》" then
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		name("libil2cpp.so")
+		myoffset = 9114668
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("020000001EFF2FE1")
+		gg["clearResults"]()
+		gg["setRanges"](gg["REGION_ANONYMOUS"])
+		gg["searchNumber"](
+			"2.80259693e-44F;1.20000004768F;0.18000000715F;1.40129846e-45F",
+			gg["TYPE_FLOAT"],
+			false,
+			gg["SIGN_EQUAL"],
+			0,
+			-1
+		)
+		gg["refineNumber"]("1.20000004768", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		revert = gg["getResults"](500, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("25", gg["TYPE_FLOAT"])
+		gg["toast"]("Super Speed On✓")
+		Sup = "《🇴 🇳 》"
+	elseif Sup == "《🇴 🇳 》" then
+		gg["setRanges"](gg["REGION_CODE_APP"])
+		name("libil2cpp.so")
+		myoffset = 9114668
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("0000A0E31EFF2FE1")
+		gg["clearResults"]()
+		gg["toast"]("Super Speed Off :>")
+		Sup = "《🇴 🇫 🇫 》"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function JUMP()
+	gg["alert"]("NOW KEEP JUMPING WITH USING THE JOYSTICK  KEEP MOVING🕹️")
+	gg["setRanges"](gg["REGION_ANONYMOUS"])
+	gg["searchNumber"]("1.0;0.0;0.0;1.0;1.0;0.0;0.0::57", 16)
+	gg["refineNumber"]("1.0", 16)
+	gg["getResults"](15000)
+	gg["editAll"]("2.5", 16)
+	gg["clearResults"]()
+	gg["toast"]("X5 🇴 🇳")
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+Mode = "《OFF》"
+function Night()
+	if Mode == "《OFF》" then
+		gg["clearResults"]()
+		io["output"](fileData)
+			:write([[
+22135
+Var #B7A21F80|b7a21f80|10|bf800000|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|2cff80
+]])
+			:close()
+		gg["loadList"](fileData, gg["LOAD_APPEND"] | gg["LOAD_VALUES"])
+		os["remove"](fileData)
+		gg["sleep"](50)
+		gg["clearList"]()
+		gg["toast"]("🌃NIGHT MODE✔️🌃")
+		Mode = "《ON》"
+	elseif Mode == "《ON》" then
+		gg["clearResults"]()
+		io["output"](fileData)
+			:write([[
+22135
+Var #B7A21F80|b7a21f80|10|358637bd|0|0|0|0|r-xp|/data/data/com.chaozhuo.gameassistant/virtual/data/app/com.dts.freefireth/lib/libunity.so|2cff80
+]])
+			:close()
+		gg["loadList"](fileData, gg["LOAD_APPEND"] | gg["LOAD_VALUES"])
+		os["remove"](fileData)
+		gg["sleep"](50)
+		gg["clearList"]()
+		gg["toast"]("🌃NIGHT MODE❌🌃")
+		Mode = "《OFF》"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+Pro = "《OFF》"
+function sensi()
+	if Pro == "《OFF》" then
+		gg["setRanges"](gg["REGION_C_DATA"] | gg["REGION_CODE_APP"])
+		gg["searchNumber"]("300", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		revert = gg["getResults"](52000, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("100", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🕹️✔️🕹️")
+		Pro = "《ON》"
+	elseif Pro == "《ON》" then
+		gg["setRanges"](gg["REGION_C_DATA"] | gg["REGION_CODE_APP"])
+		gg["searchNumber"]("100", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		revert = gg["getResults"](52000, nil, nil, nil, nil, nil, nil, nil, nil)
+		gg["editAll"]("300", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🕹️❌🕹️")
+		Pro = "《OFF》"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+WHITE1 = "《OFF》"
+function WHITE()
+	if WHITE1 == "《OFF》" then
+		gg["setRanges"](gg["REGION_VIDEO"] | gg["REGION_BAD"])
+		gg["searchNumber"]("0.75", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000)
+		gg["editAll"]("7", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["setRanges"](gg["REGION_VIDEO"] | gg["REGION_BAD"])
+		gg["searchNumber"]("0.23000000417", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+		gg["getResults"](1000)
+		gg["editAll"]("999", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇳⚪")
+		WHITE1 = "《ON》"
+	elseif WHITE1 == "《ON》" then
+		gg["setRanges"](gg["REGION_VIDEO"] | gg["REGION_BAD"])
+		gg["searchNumber"]("7", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1)
+		gg["getResults"](1000)
+		gg["editAll"]("0.75", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["setRanges"](gg["REGION_VIDEO"] | gg["REGION_BAD"])
+		gg["searchNumber"]("999", gg["TYPE_FLOAT"], false, gg["SIGN_EQUAL"], 0, -1, 0)
+		gg["getResults"](1000)
+		gg["editAll"]("0.23000000417", gg["TYPE_FLOAT"])
+		gg["clearResults"]()
+		gg["toast"]("🇴 🇫 🇫⚪")
+		WHITE1 = "《OFF》"
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function ant()
+	JordanScript("libanort.so", "0x21EFC", "00 00 00 00")
+	JordanScript("libanort.so", "0x77C000", "00 00 00 00")
+	JordanScript("libanort.so", "0x7E9C000", "00 00 00 00")
+	JordanScript("libanort.so", "0x837B000", "00 00 00 00")
+	JordanScript("libanort.so", "0x83AE000", "00 00 00 00")
+	JordanScript("libanort.so", "0xA3E66C4", "00 00 00 00")
+	JordanScript("libanort.so", "0xA40C000", "00 00 00 00")
+	JordanScript("libanort.so", "0xAD7E68", "00 00 00 00")
+	JordanScript("libanort.so", "0x669B4", "00 00 00 00")
+	JordanScript("libanort.so", "0x3F0000", "00 00 00 00")
+	JordanScript("libanort.so", "0x789000", "00 00 00 00")
+	JordanScript("libanort.so", "0xA0D000", "00 00 00 00")
+	JordanScript("libanort.so", "0xD76000", "00 00 00 00")
+	JordanScript("libanort.so", "0x14FA000", "00 00 00 00")
+	JordanScript("libanort.so", "0x1537000", "00 00 00 00")
+	JordanScript("libanort.so", "0x160A000", "00 00 00 00")
+	JordanScript("libanort.so", "0x17D1000", "00 00 00 00")
+	JordanScript("libanort.so", "0x17FF000", "00 00 00 00")
+	JordanScript("libanort.so", "0x1BEC000", "00 00 00 00")
+	JordanScript("libanort.so", "0x20B6000", "00 00 00 00")
+	os["remove"](gg["EXT_STORAGE"] .. "/Android/data/com.dts.freefireth/files/reportnew.db", gg["LOAD_APPEND"])
+	os["remove"](gg["EXT_STORAGE"] .. "/Android/data/com.dts.freefireth/files/ymrtc_log.txt", gg["LOAD_APPEND"])
+	gg["toast"]("ON")
+	gg["clearResults"]()
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+function Exit()
+	gg["alert"](
+		"════•   •✠•💫Tʜᴀɴᴋ Fᴏʀ Usɪɴɢ Mʏ Sᴄʀɪᴘᴛ💫•✠ •   •════"
+	)
+	os["exit"]()
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+
+while true do
+	if gg["isVisible"](true) then
+		USP = 1
+		gg["setVisible"](false)
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+	if USP == 1 then
+		Menu1()
+	end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦
+end --𝐃𝐞𝐜 𝐁𝐲 𝐏𝐥𝐚𝐲𝐞𝐫𝐬𝐓𝐞𝐚𝐦

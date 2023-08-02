@@ -1,0 +1,246 @@
+--[[
+		Script made by: Michael1541#9506 
+		Script is based on HorridModz (User123456789#6424 and User123456789#8073) script
+--]]
+
+gg.alert(
+	"PG3D Lottery / Sets modifier script by Michael1541#9506 based off of HorridModz (User123456789#6424 and User123456789#8073) script "
+)
+gg.alert("Don't go overboard or you might get banned.")
+
+function generatedecimalconversionstring(choices)
+	decimalconversionstring = "{"
+	for choiceindex = 1, #choices do
+		decimalconversionstring = decimalconversionstring
+			.. '\n\t"'
+			.. hextodecimal(armtohex(generateassemblycode(choices[choiceindex])))
+			.. '",'
+	end
+	decimalconversionstring = decimalconversionstring .. "\n\t}"
+	print(decimalconversionstring)
+	os.exit()
+end
+
+function indexof(item, list)
+	for index = 1, #list do
+		if tostring(list[index]) == tostring(item) then
+			return index
+		end
+	end
+	return nil
+end
+
+function int(number)
+	number = tostring(tonumber(number))
+	decimalpointindex = string.find(number, "%.")
+	if decimalpointindex ~= nil then
+		--If there is a decimal point, remove the decimal point and everything after it
+		number = string.sub(number, 1, decimalpointindex - 1)
+	end
+	return (tonumber(number))
+end
+
+function generateassemblycode(returnvalue)
+	code = "Mov W0, #" .. returnvalue .. "\nRet"
+	return code
+end
+
+function armtohex(fullarm)
+	fullhex = ""
+	--Thanks to Enyby for the original arm hex converter I used code from:
+	-- https://gameguardian.net/forum/files/file/2004-arm-converter/
+	for arm in string.gmatch(fullarm, "[^\r\n]+") do
+		local addr = gg.getRangesList("libc.so")
+		for i, v in ipairs(addr) do
+			if v.type:sub(2, 2) == "w" then
+				addr = { { address = v.start, flags = gg.TYPE_DWORD } }
+			end
+		end
+		if not addr[1].address then
+			print("Error occured converting arm code to hex: Failed to get address ", addr)
+			gg.setVisible(true)
+			os.exit()
+		end
+		local old = gg.getValues(addr)
+		addr[1].value = "~A8 " .. arm
+		local ok, err = pcall(gg.setValues, addr)
+		local out
+		if not ok then
+			err = err:gsub("^.* '1': ", ""):gsub("\nlevel = 1.*$", "")
+			print("Error occured converting arm code to hex: " .. err)
+			gg.setVisible(true)
+			os.exit()
+		else
+			out = gg.getValues(addr)
+			out = out[1].value & 0xFFFFFFFF
+			gg.setValues(old)
+			if not hex then
+				out = string.unpack(">I4", string.pack("<I4", out))
+			end
+			out = string.format("%08X", out)
+			fullhex = fullhex .. out
+		end
+	end
+	return fullhex
+end
+
+function hextodecimal(hex)
+	oldhex = string.gsub(tostring(hex), " ", "")
+	hex = ""
+	thisbyte = ""
+	for letterindex = 1, #oldhex do
+		thisbyte = thisbyte .. oldhex:sub(letterindex, letterindex)
+		if #thisbyte == 2 then
+			hex = thisbyte .. hex
+			thisbyte = ""
+		end
+	end
+	if not (string.sub(hex, 1, 2) == "0x") then
+		hex = "0x" .. hex
+	end
+	return (tonumber(hex))
+	--[[
+	
+        thanks to ItsSC for this function (found at https://gameguardian.net/forum/topic/31634-converting-decimal-to-hex/)
+
+	--]]
+end
+
+function findbestsearch(searches, refine)
+	searchfound = false
+	bestsearch = 0
+	bestsearchresultscount = 9999999999999999999999
+	bestsearchresults = {}
+	for i = 1, #searches do
+		thissearch = searches[i]
+		gg.clearResults()
+		gg.searchNumber(thissearch, gg.TYPE_AUTO)
+		gg.refineNumber(refine, gg.TYPE_AUTO)
+		resultscount = gg.getResultsCount()
+		if resultscount > 0 then
+			if not searchfound or resultscount < bestsearchresultscount then
+				bestsearch = thissearch
+				bestsearchresults = gg.getResults(resultscount)
+				bestsearchresultscount = resultscount
+				searchfound = true
+				if resultscount == 1 then
+					break
+				end
+			end
+		end
+	end
+	if searchfound then
+		gg.loadResults(bestsearchresults)
+		return bestsearchresults
+	end
+end
+
+function chooseedit(choices)
+	choices = {}
+	table.insert(choices, 1, "Custom")
+	editvalueprompt = gg.prompt({
+		"What number do you want to set the lottery and set event rewards to (the maximum value is 65536)?\n\nNotice: Changing the rewards to a number over 45k and receiving a reward will instantly ban you!",
+	}, { [1] = 500 }, { [1] = "number" })
+	editvalue = editvalueprompt[1]
+	editvalue = int(editvalue)
+	if editvalue > 65536 then
+		gg.alert("The maximum value is 65536! Setting to 65536.")
+		editvalue = 65536
+	end
+
+	if editvalue < 0 then
+		gg.alert("Negative numbers are not supported. Setting to 0.")
+		editvalue = 0
+	end
+	if editvalue > 45000 then
+		confirm = gg.choice(
+			{ "Uh-oh, set it to 45k", "Keep it at " .. editvalue .. " (Dangerous)" },
+			nil,
+			"WARNING:\nAre you sure you want to set the quantity to over 45k? If you do this and receive any reward from the lottery or set event, you will be instantly banned."
+		)
+		if confirm == nil or confirm == 1 then
+			editvalue = 45000
+		end
+	end
+	return editvalue
+end
+
+function Menu()
+	menu = gg.choice({
+		"300",
+		"500 Recommended",
+		"1000",
+		"5000",
+		"10000",
+		"25000",
+		"40000",
+		"Custom",
+		"Exit",
+	}, nil, "Pick What to Change Rewards to")
+	if menu == 1 then
+		gg.setVisible(false)
+		editvalue = "-2999674700105243264"
+	end
+	if menu == 2 then
+		gg.setVisible(false)
+		editvalue = "-2999674700105236864"
+	end
+	if menu == 3 then
+		gg.setVisible(false)
+		editvalue = "-2999674702252704512"
+	end
+	if menu == 4 then
+		gg.setVisible(false)
+		editvalue = "-2999674700105092864"
+	end
+	if menu == 5 then
+		gg.setVisible(false)
+		editvalue = "-2999674702252416512"
+	end
+	if menu == 6 then
+		gg.setVisible(false)
+		editvalue = "-2999674702251936512"
+	end
+	if menu == 7 then
+		gg.setVisible(false)
+		editvalue = "-2999674702251456512"
+	end
+	if menu == 8 then
+		gg.setVisible(false)
+		chooseedit()
+	end
+	if menu == 9 then
+		Exit()
+	end
+end
+Menu()
+
+gg.setRanges(gg.REGION_CODE_APP)
+
+searches = { "-558156088459983903Q;-788478977D;-1459530763D;-1459454989D::50" }
+refine = "-788478977"
+
+findbestsearch(searches, refine)
+if menu == 8 then
+	edit = hextodecimal(armtohex(generateassemblycode(editvalue)))
+else
+	edit = editvalue
+end
+
+for i = 1, #gg.getResults(gg.getResultsCount()) do
+	this = gg.getResults(gg.getResultsCount())
+end
+
+local t = {}
+
+for x = 1, #this do
+	t[x] = {}
+	t[x].address = this[x].address
+	t[x].flags = gg.TYPE_QWORD
+end
+
+gg.loadResults(gg.getValues(t))
+gg.getResults(gg.getResultsCount())
+gg.editAll(edit, gg.TYPE_QWORD)
+gg.clearResults()
+gg.alert("Script finished")

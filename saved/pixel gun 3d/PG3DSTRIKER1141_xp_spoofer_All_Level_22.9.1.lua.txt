@@ -1,0 +1,928 @@
+gg.setVisible(false)
+gg.clearResults()
+gg.sleep(300)
+gg.toast("welcome to my script")
+gg.alert("⚠️the script give u xp ,not change your Level⚠️")
+gg.alert("script by PG3DSTRIKER")
+menu = gg.choice({
+	"𝐿𝑒𝑣𝑒𝑙 2",
+	"𝐿𝑒𝑣𝑒𝑙 3",
+	"𝐿𝑒𝑣𝑒𝑙 4",
+	"𝐿𝑒𝑣𝑒𝑙 5",
+	"𝐿𝑒𝑣𝑒𝑙 6",
+	"𝐿𝑒𝑣𝑒𝑙 7",
+	"𝐿𝑒𝑣𝑒𝑙 8",
+	"𝐿𝑒𝑣𝑒𝑙 9",
+	"𝐿𝑒𝑣𝑒𝑙 10",
+	"𝐿𝑒𝑣𝑒𝑙 11",
+	"𝐿𝑒𝑣𝑒𝑙 12",
+	"𝐿𝑒𝑣𝑒𝑙 13",
+	"𝐿𝑒𝑣𝑒𝑙 14",
+	"𝐿𝑒𝑣𝑒𝑙 15",
+	"𝐿𝑒𝑣𝑒𝑙 16",
+	"𝐿𝑒𝑣𝑒𝑙 17",
+	"𝐿𝑒𝑣𝑒𝑙 18",
+	"𝐿𝑒𝑣𝑒𝑙 19",
+	"𝐿𝑒𝑣𝑒𝑙 20",
+	"𝐿𝑒𝑣𝑒𝑙 21",
+	"𝐿𝑒𝑣𝑒𝑙 22",
+	"𝐿𝑒𝑣𝑒𝑙 23",
+	"𝐿𝑒𝑣𝑒𝑙 24",
+	"𝐿𝑒𝑣𝑒𝑙 25",
+	"𝐿𝑒𝑣𝑒𝑙 26",
+	"𝐿𝑒𝑣𝑒𝑙 27",
+	"𝐿𝑒𝑣𝑒𝑙 28",
+	"𝐿𝑒𝑣𝑒𝑙 29",
+	"𝐿𝑒𝑣𝑒𝑙 30",
+	"𝐿𝑒𝑣𝑒𝑙 31",
+	"𝐿𝑒𝑣𝑒𝑙 32",
+	"𝐿𝑒𝑣𝑒𝑙 33",
+	"𝐿𝑒𝑣𝑒𝑙 34 ",
+	"𝐿𝑒𝑣𝑒𝑙 35",
+	"𝐿𝑒𝑣𝑒𝑙 36",
+	"𝐿𝑒𝑣𝑒𝑙 37",
+	"𝐿𝑒𝑣𝑒𝑙 38",
+	"𝐿𝑒𝑣𝑒𝑙 39",
+	"𝐿𝑒𝑣𝑒𝑙 40",
+	"𝐿𝑒𝑣𝑒𝑙 41",
+	"𝐿𝑒𝑣𝑒𝑙 42",
+	"𝐿𝑒𝑣𝑒𝑙 43",
+	"𝐿𝑒𝑣𝑒𝑙 44",
+	"𝐿𝑒𝑣𝑒𝑙 45",
+	"𝐿𝑒𝑣𝑒𝑙 46",
+	"𝐿𝑒𝑣𝑒𝑙 47",
+	"𝐿𝑒𝑣𝑒𝑙 48",
+	"𝐿𝑒𝑣𝑒𝑙 49",
+	"𝐿𝑒𝑣𝑒𝑙 50",
+	"𝐿𝑒𝑣𝑒𝑙 51",
+	"𝐿𝑒𝑣𝑒𝑙 52",
+	"𝐿𝑒𝑣𝑒𝑙 53",
+	"𝐿𝑒𝑣𝑒𝑙 54",
+	"𝐿𝑒𝑣𝑒𝑙 55",
+	"𝐿𝑒𝑣𝑒𝑙 56",
+	"𝐿𝑒𝑣𝑒𝑙 57",
+	"𝐿𝑒𝑣𝑒𝑙 58",
+	"𝐿𝑒𝑣𝑒𝑙 59",
+	"𝐿𝑒𝑣𝑒𝑙 60",
+	"𝐿𝑒𝑣𝑒𝑙 61",
+	"𝐿𝑒𝑣𝑒𝑙 62",
+	"𝐿𝑒𝑣𝑒𝑙 63",
+	"𝐿𝑒𝑣𝑒𝑙 64",
+	"𝐿𝑒𝑣𝑒𝑙 65",
+	"Exit",
+}, nil, "welcome to my PG3D xp hack create by PG3DSTRIKER.Contact me on discord user: PG3DSTRIKER#1141")
+if menu == nil then
+else
+end
+if menu == 1 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("E0018052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 2 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h20088052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 3 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40158052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 4 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h00238052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 5 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h60318052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 6 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h60408052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 7 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h00508052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 8 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40608052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 9 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0718052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 10 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h20088052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 11 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hE0838052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 12 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40978052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 13 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40AB8052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 14 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h280C08052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 15 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h60D68052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 16 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80ED8052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 17 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hE0058152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 18 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h801F8152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 19 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h603A8152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 20 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0578152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 21 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h00778152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 22 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0988152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 23 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h00BD8152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 24 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0E38152C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 25 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h20088052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 26 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80378252C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 27 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h20658252C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 28 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40958252C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 29 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40C78252C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 30 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0FB8252C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 31 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0328352C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 32 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h406C8352C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 33 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hA0A78352C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 34 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80E58352C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 35 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hE0258452C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 36 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0688452C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 37 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80AD8452C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 38 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0F48452C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 39 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h803E8552C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 40 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC08A8552C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 41 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hE0D88552C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 42 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80298652C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 43 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hA07C8652C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 44 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40D28652C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 45 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0298752C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 46 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0838752C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 47 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40E08752C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 48 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h403F8852C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 49 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h20A08852C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 50 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80038952C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 51 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h60698952C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 52 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0D18952C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 53 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h003C8A52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 54 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0A88A52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 55 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h00188B52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 56 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0898B52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 57 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h60FD8B52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 58 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h80738C52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 59 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h20EC8C52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 60 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40678D52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 61 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h40E48D52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 62 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0638E52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 63 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hC0E58E52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 64 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("h406A8F52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+if menu == 65 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("hA0F08F52C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("complete! ðŸ˜Š")
+end
+
+if menu == 66 then
+	gg.clearResults()
+	gg.clearList()
+end
+
+print("thank you for using the script")

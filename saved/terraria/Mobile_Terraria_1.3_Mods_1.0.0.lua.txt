@@ -1,0 +1,626 @@
+mbym = 1
+
+--insert Locals
+
+local Region = gg.REGION_ANONYMOUS
+
+--insert Locals
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+
+local check = 0
+
+function main()
+	gg.setRanges(Region)
+	if check ~= 0 then
+		Main()
+	end
+	gg.require("86.2", 15471)
+	local v = {
+		2364,
+		{},
+		{},
+		{},
+		2569292632,
+		2403729224,
+		2249208448,
+		2645643652,
+		{},
+		1184,
+		2249209664,
+		"internalName",
+		2390097656,
+		1312,
+		{},
+		2390097624,
+		2249208832,
+		120,
+		{},
+		2249207872,
+		{},
+		2489323400,
+		{},
+		392,
+		280,
+		2249208960,
+		9,
+		2404243456,
+		{},
+		{},
+		{},
+		{},
+		"versionCode",
+		{},
+		448,
+		{},
+		{},
+		2493083072,
+		2645643676,
+		20,
+		1696,
+		1504,
+		4,
+		false,
+		132,
+		2390097632,
+		2404244632,
+		"offset",
+		{},
+		{},
+		{},
+		2412,
+		{},
+		"rw-p",
+		{},
+		7,
+		2489323032,
+		{},
+		{},
+		{},
+		{},
+		2493065164,
+		{},
+		2569432632,
+		2249208384,
+		2645643672,
+		1192,
+		800,
+		{},
+		{},
+		{},
+		"arch",
+		2249208128,
+		{},
+		480,
+		{},
+		{},
+		2272,
+		{},
+		444,
+		2493083068,
+		{},
+		{},
+		"flags",
+		"address",
+		2489323120,
+		"name",
+		208,
+		{},
+		2249208576,
+		472,
+		6,
+		{},
+		220,
+		2645643660,
+		2249208192,
+		2493083076,
+		2569288960,
+		{},
+		{},
+		2493074652,
+		2264,
+		2404244648,
+		"1.3.0",
+		8,
+		{},
+		2249209280,
+		2493074648,
+		1952,
+		2249208256,
+		{},
+		{},
+		{},
+		2249209344,
+		{},
+		"",
+		{},
+		{},
+		2249208640,
+		{},
+		100,
+		"Cb",
+		2569432448,
+		"versionName",
+		{},
+		{},
+		2569432624,
+		180,
+		{},
+		{},
+		2493074528,
+		{},
+		{},
+		2403729104,
+		2645643664,
+		2493065276,
+		{},
+		2569432636,
+		2249208512,
+		2390097184,
+		212,
+		2569420016,
+		2645442560,
+		{},
+		2645643680,
+		{},
+		1760,
+		3,
+		188,
+		{},
+		{},
+		152,
+		"map",
+		2493082856,
+		"packageName",
+		2645819392,
+		"com.and.games505.TerrariaPaid",
+		1,
+		864,
+		1176,
+		192,
+		2569289152,
+		928,
+		2493065176,
+		{},
+		"value",
+		"start",
+		{},
+		5,
+		"end",
+		{},
+		{},
+		1568,
+		2645643648,
+		2524,
+		368,
+		476,
+		2249208320,
+		200237,
+		"/data/data/io.va.exposed/virtual/data/app/com.and.games505.TerrariaPaid/lib/libil2cpp.so:bss",
+		"type",
+		992,
+		{},
+		2569292240,
+		{},
+		{},
+		2569432628,
+		440,
+		2249209152,
+		2390097660,
+		2249209216,
+		2249210144,
+		2,
+		{},
+		{},
+		216,
+		{},
+		{},
+		2493083064,
+		{},
+		2489323208,
+		176,
+		1824,
+		{},
+		184,
+		{},
+		{},
+		1888,
+		2645532296,
+		"ARM",
+		2493062752,
+		{},
+		2016,
+		2493062912,
+		2569419864,
+		124,
+		2645526924,
+		2252,
+		{},
+		{},
+		"state",
+		2424,
+		2390097628,
+		"x64",
+		2645643724,
+		2493074660,
+		1632,
+		10,
+	}
+	v[2][v[84]] = v[43]
+	v[2][v[48]] = v[168]
+	v[2][v[85]] = v[64]
+	v[2][v[166]] = v[7]
+	v[3][v[84]] = v[43]
+	v[3][v[48]] = v[106]
+	v[3][v[85]] = v[174]
+	v[3][v[166]] = v[134]
+	v[4][v[25]] = v[59]
+	v[9][v[18]] = v[15]
+	v[9][v[45]] = v[207]
+	v[9][v[216]] = v[36]
+	v[15][v[84]] = v[43]
+	v[15][v[48]] = v[50]
+	v[15][v[85]] = v[108]
+	v[15][v[166]] = v[191]
+	v[19][v[182]] = v[74]
+	v[21][v[84]] = v[43]
+	v[21][v[48]] = v[220]
+	v[21][v[85]] = v[136]
+	v[21][v[166]] = v[57]
+	v[23][v[78]] = v[74]
+	v[29][v[75]] = v[74]
+	v[30][v[84]] = v[43]
+	v[30][v[48]] = v[32]
+	v[30][v[85]] = v[6]
+	v[30][v[166]] = v[17]
+	v[31][v[227]] = v[74]
+	v[32][v[14]] = v[74]
+	v[34][v[158]] = v[79]
+	v[34][v[155]] = v[157]
+	v[34][v[124]] = v[104]
+	v[34][v[224]] = v[44]
+	v[34][v[33]] = v[179]
+	v[36][v[84]] = v[43]
+	v[36][v[48]] = v[19]
+	v[36][v[85]] = v[101]
+	v[36][v[166]] = v[189]
+	v[37][v[84]] = v[43]
+	v[37][v[48]] = v[200]
+	v[37][v[85]] = v[135]
+	v[37][v[166]] = v[215]
+	v[49][v[35]] = v[77]
+	v[49][v[177]] = v[186]
+	v[49][v[91]] = v[55]
+	v[49][v[80]] = v[51]
+	v[49][v[188]] = v[144]
+	v[50][v[163]] = v[74]
+	v[51][v[84]] = v[43]
+	v[51][v[48]] = v[125]
+	v[51][v[85]] = v[223]
+	v[51][v[166]] = v[191]
+	v[53][v[161]] = v[59]
+	v[55][v[84]] = v[43]
+	v[55][v[48]] = v[63]
+	v[55][v[85]] = v[13]
+	v[55][v[166]] = v[26]
+	v[58][v[84]] = v[43]
+	v[58][v[48]] = v[146]
+	v[58][v[85]] = v[39]
+	v[58][v[166]] = v[123]
+	v[59][v[84]] = v[43]
+	v[59][v[48]] = v[126]
+	v[59][v[85]] = v[22]
+	v[59][v[166]] = v[28]
+	v[60][v[160]] = v[197]
+	v[60][v[67]] = v[165]
+	v[61][v[84]] = v[43]
+	v[61][v[48]] = v[133]
+	v[61][v[85]] = v[8]
+	v[61][v[166]] = v[184]
+	v[63][v[10]] = v[74]
+	v[69][v[68]] = v[74]
+	v[70][v[84]] = v[43]
+	v[70][v[48]] = v[198]
+	v[70][v[85]] = v[142]
+	v[70][v[166]] = v[90]
+	v[71][v[84]] = v[43]
+	v[71][v[48]] = v[183]
+	v[71][v[85]] = v[81]
+	v[71][v[166]] = v[110]
+	v[74][v[84]] = v[43]
+	v[74][v[48]] = v[60]
+	v[74][v[85]] = v[192]
+	v[74][v[166]] = v[28]
+	v[76][v[84]] = v[43]
+	v[76][v[48]] = v[31]
+	v[76][v[85]] = v[187]
+	v[76][v[166]] = v[139]
+	v[77][v[84]] = v[43]
+	v[77][v[48]] = v[118]
+	v[77][v[85]] = v[46]
+	v[77][v[166]] = v[189]
+	v[79][v[158]] = v[195]
+	v[79][v[193]] = v[172]
+	v[79][v[148]] = v[3]
+	v[79][v[43]] = v[61]
+	v[79][v[169]] = v[206]
+	v[79][v[92]] = v[37]
+	v[79][v[56]] = v[185]
+	v[79][v[105]] = v[58]
+	v[79][v[27]] = v[111]
+	v[79][v[228]] = v[137]
+	v[79][v[153]] = v[132]
+	v[82][v[147]] = v[74]
+	v[83][v[213]] = v[74]
+	v[89][v[109]] = v[74]
+	v[93][v[78]] = v[74]
+	v[99][v[203]] = v[74]
+	v[100][v[161]] = v[204]
+	v[106][v[18]] = v[30]
+	v[111][v[84]] = v[43]
+	v[111][v[48]] = v[9]
+	v[111][v[85]] = v[145]
+	v[111][v[166]] = v[131]
+	v[112][v[84]] = v[43]
+	v[112][v[48]] = v[89]
+	v[112][v[85]] = v[38]
+	v[112][v[166]] = v[96]
+	v[113][v[84]] = v[43]
+	v[113][v[48]] = v[53]
+	v[113][v[85]] = v[62]
+	v[113][v[166]] = v[201]
+	v[115][v[84]] = v[43]
+	v[115][v[48]] = v[99]
+	v[115][v[85]] = v[199]
+	v[115][v[166]] = v[178]
+	v[117][v[84]] = v[43]
+	v[117][v[48]] = v[83]
+	v[117][v[85]] = v[97]
+	v[117][v[166]] = v[73]
+	v[118][v[182]] = v[74]
+	v[120][v[84]] = v[43]
+	v[120][v[48]] = v[151]
+	v[120][v[85]] = v[127]
+	v[120][v[166]] = v[119]
+	v[125][v[163]] = v[74]
+	v[126][v[160]] = v[197]
+	v[126][v[67]] = v[165]
+	v[129][v[84]] = v[43]
+	v[129][v[48]] = v[82]
+	v[129][v[85]] = v[138]
+	v[129][v[166]] = v[65]
+	v[130][v[196]] = v[112]
+	v[130][v[88]] = v[115]
+	v[130][v[94]] = v[117]
+	v[130][v[141]] = v[71]
+	v[132][v[170]] = v[156]
+	v[132][v[87]] = v[116]
+	v[132][v[72]] = v[210]
+	v[132][v[221]] = v[122]
+	v[132][v[181]] = v[54]
+	v[132][v[12]] = v[180]
+	v[132][v[167]] = v[143]
+	v[133][v[24]] = v[212]
+	v[137][v[84]] = v[43]
+	v[137][v[48]] = v[49]
+	v[137][v[85]] = v[225]
+	v[137][v[166]] = v[140]
+	v[144][v[84]] = v[43]
+	v[144][v[48]] = v[219]
+	v[144][v[85]] = v[16]
+	v[144][v[166]] = v[107]
+	v[146][v[128]] = v[76]
+	v[146][v[205]] = v[2]
+	v[146][v[202]] = v[120]
+	v[146][v[149]] = v[129]
+	v[150][v[222]] = v[171]
+	v[150][v[52]] = v[113]
+	v[150][v[175]] = v[21]
+	v[151][v[42]] = v[74]
+	v[165][v[84]] = v[43]
+	v[165][v[85]] = v[103]
+	v[165][v[166]] = v[40]
+	v[168][v[41]] = v[74]
+	v[171][v[84]] = v[43]
+	v[171][v[48]] = v[4]
+	v[171][v[85]] = v[164]
+	v[171][v[166]] = v[86]
+	v[172][v[84]] = v[43]
+	v[172][v[48]] = v[150]
+	v[172][v[85]] = v[209]
+	v[172][v[166]] = v[211]
+	v[183][v[208]] = v[74]
+	v[185][v[84]] = v[43]
+	v[185][v[48]] = v[130]
+	v[185][v[85]] = v[66]
+	v[185][v[166]] = v[154]
+	v[186][v[84]] = v[43]
+	v[186][v[48]] = v[69]
+	v[186][v[85]] = v[190]
+	v[186][v[166]] = v[114]
+	v[194][v[1]] = v[21]
+	v[194][v[102]] = v[171]
+	v[194][v[218]] = v[113]
+	v[195][v[84]] = v[43]
+	v[195][v[48]] = v[194]
+	v[195][v[85]] = v[217]
+	v[195][v[166]] = v[214]
+	v[197][v[84]] = v[43]
+	v[197][v[85]] = v[47]
+	v[197][v[166]] = v[121]
+	v[198][v[173]] = v[74]
+	v[200][v[152]] = v[70]
+	v[204][v[84]] = v[43]
+	v[204][v[48]] = v[93]
+	v[204][v[85]] = v[162]
+	v[204][v[166]] = v[20]
+	v[206][v[84]] = v[43]
+	v[206][v[48]] = v[100]
+	v[206][v[85]] = v[95]
+	v[206][v[166]] = v[98]
+	v[207][v[84]] = v[43]
+	v[207][v[48]] = v[29]
+	v[207][v[85]] = v[226]
+	v[207][v[166]] = v[11]
+	v[212][v[84]] = v[43]
+	v[212][v[48]] = v[23]
+	v[212][v[85]] = v[5]
+	v[212][v[166]] = v[20]
+	v[219][v[159]] = v[74]
+	v[220][v[176]] = v[59]
+	v = v[34]
+
+	function getRanges()
+		local archs = { [0x3] = "x86", [0x28] = "ARM", [0x3E] = "x86-64", [0xB7] = "AArch64" }
+		local ranges = {}
+		local t = gg.getRangesList("^/data/*.so*$")
+		local arch = "unknown"
+		for i, v in ipairs(t) do
+			if v.type:sub(2, 2) == "-" then
+				local t = gg.getValues({
+					{ address = v.start, flags = gg.TYPE_DWORD },
+					{ address = v.start + 0x12, flags = gg.TYPE_WORD },
+				})
+				if t[1].value == 0x464C457F then
+					arch = archs[t[2].value]
+					if arch == nil then
+						arch = "unknown"
+					end
+				end
+			end
+			if v.type:sub(2, 2) == "w" then
+				v.arch = arch
+				table.insert(ranges, v)
+			end
+		end
+		return ranges
+	end
+	function out()
+		local ti = gg.getTargetInfo()
+		if
+			ti.packageName ~= v.packageName
+			or ti.versionCode ~= v.versionCode
+			or ti.versionName ~= v.versionName
+			or ti.x64 ~= v.x64
+		then
+			local x = { [true] = "x64", [false] = "x32" }
+			gg.alert(
+				"The script is generated for the process\n\n"
+					.. v.packageName
+					.. " "
+					.. v.versionName
+					.. " ["
+					.. v.versionCode
+					.. "] "
+					.. x[v.x64]
+					.. "\n\nYou selected the process\n\n"
+					.. ti.packageName
+					.. " "
+					.. ti.versionName
+					.. " ["
+					.. ti.versionCode
+					.. "] "
+					.. x[ti.x64]
+					.. "\n\nChains may be loaded incorrectly."
+			)
+		end
+
+		local ranges = getRanges()
+
+		local ret = {}
+
+		local d = {}
+		local go = false
+		local arch = {}
+		for j, p in ipairs(v) do
+			if p.map.new == nil then
+				local name = p.map.internalName:gsub("^.*/", "")
+				for k, r in ipairs(ranges) do
+					local rname = r.internalName:gsub("^.*/", "")
+					if name == rname and p.map.state == r.state then
+						if arch[name] == nil and p.map.arch ~= r.arch then
+							arch[name] = true
+							gg.alert(
+								"The script is generated for the "
+									.. name
+									.. " library with "
+									.. p.map.arch
+									.. " architecture, and you chose a process where the "
+									.. name
+									.. " library has an "
+									.. r.arch
+									.. " architecture.\n\nChains may be loaded incorrectly."
+							)
+						end
+						p.map.new = r
+						break
+					end
+				end
+			end
+			if p.map.new ~= nil then
+				for i, u in ipairs(p) do
+					u.address = u.address - p.map.start + p.map.new.start
+					d[u], go = u, true
+				end
+			end
+		end
+
+		while go do
+			local s = gg.getValues(d)
+			d, go = {}, false
+			for old, new in pairs(s) do
+				if old.offset == nil then
+					table.insert(ret, new)
+				else
+					if not ti.x64 then
+						new.value = new.value & 0xFFFFFFFF
+					end
+					for offset, u in pairs(old.offset) do
+						u.address = new.value + offset
+						d[u], go = u, true
+					end
+				end
+			end
+		end
+
+		gg.loadResults(ret)
+		print(tostring(ret))
+		print("Loaded " .. #ret .. " results from chains")
+	end
+	out()
+	check = 1
+end
+
+function Main()
+	menu = gg.prompt({
+		"Health",
+		"Mana",
+	}, nil, { "number", "number" })
+	if not menu then
+		os.exit()
+	end
+	if menu[1] then
+		edit()
+	end
+	mbym = -1
+end
+
+function edit()
+	gg.getResults(2)
+	gg.editAll(menu[1] .. ";" .. menu[2], gg.TYPE_DWORD)
+	gg.clearResults()
+end
+
+main()
+
+while true do
+	if gg.isVisible(true) then
+		gg.setVisible(false)
+		mbym = 1
+	end
+	gg.sleep(100)
+	if mbym == 1 then
+		main()
+	end
+end

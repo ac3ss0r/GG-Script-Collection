@@ -1,0 +1,821 @@
+gg.alert("💎RG HACK Script💎", "🔐ENTER🔐")
+gg.alert("🤴🏻JOIN RG LUA TELEGRAM🤴🏻")
+gg.toast("🔥👉HACKER👈🔥")
+gg.setVisible(false)
+gg.clearResults()
+gg.alert("👉TELEGRAM /FACEBOOK👈🏻", "🔑ENTER🔑")
+gg.toast("👏HACKER👏")
+gg.setVisible(false)
+while true do
+	if gg.isVisible(true) then
+		menuk = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	open = 1
+	function open()
+		menu = gg.choice({
+			"🚫 Antena Head em Manutenção",
+			"👉 Minimizar Menu",
+			"🚗 UnderGroudCar ON",
+			"🚗 UnderGroudCar OFF",
+			"🏢 Cross Wall ON",
+			"🏢 Cross Wall OFF",
+			"🌁 Tattoo mode",
+			"🤸 no parachute",
+			"💉 MedKit 3s",
+			"🌳 no tree",
+			"🌱 no grass",
+			"🌊 no ocean",
+			"🌚 night mode",
+			"❄ Neither is it",
+			"☮ Cross Hair",
+			"👿 +55% damage",
+			"🎯 Target Fixed",
+			"🔫 No recoil",
+			"♻ Quick Recharge",
+			"🤟🏻 Bigger Comb",
+			"🏐 White Body",
+			"⚠Exit⚠",
+		}, nil, "JOIN TELEGRAM")
+		if menu == 1 then
+			ante()
+		end
+		if menu == 2 then
+			mini()
+		end
+		if menu == 3 then
+			carro1()
+		end
+		if menu == 4 then
+			carro2()
+		end
+		if menu == 5 then
+			parede1()
+		end
+		if menu == 6 then
+			parede2()
+		end
+		if menu == 7 then
+			tatu()
+		end
+		if menu == 8 then
+			queda()
+		end
+		if menu == 9 then
+			med()
+		end
+		if menu == 10 then
+			arvore()
+		end
+		if menu == 11 then
+			grama()
+		end
+		if menu == 12 then
+			oceano()
+		end
+		if menu == 13 then
+			noite()
+		end
+		if menu == 14 then
+			nevoa()
+		end
+		if menu == 15 then
+			cross()
+		end
+		if menu == 16 then
+			dano()
+		end
+		if menu == 17 then
+			alvo()
+		end
+		if menu == 18 then
+			recoil()
+		end
+		if menu == 19 then
+			recarga()
+		end
+		if menu == 20 then
+			pente()
+		end
+		if menu == 21 then
+			branco()
+		end
+		if menu == 22 then
+			EXIT()
+		end
+		if menu == nil then
+			open()
+		end
+		menuk = -1
+	end
+	function EXIT()
+		print("                             ")
+		print("🔥👉RG HACK👈🔥")
+		print("                             ")
+		print("🤴🏻👉Script by: RIMON👈🤴🏻")
+		print("                             ")
+		print("💕👉PLEASE BUY MY SCRIPY👈💕")
+		print("                         ")
+		print("💚👉ONLY 500 TK👈💚")
+		print("                             ")
+		print("💚👉01812658248👈💚")
+		print("           HACK             ")
+		os.exit()
+	end
+	function ante() end
+	function branco()
+		gg.setRanges(gg.REGION_C_HEAP | gg.REGION_C_ALLOC)
+		gg.searchNumber("0000000ch;00000031h;000000bdh;40800000h::29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("40800000h", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1000)
+		gg.editAll("44613f36h", gg.TYPE_DWORD, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🔥 Success!🔥")
+	end
+	function queda()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("-12F;-4F;-8F::45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("-8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("-100,000", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.processResume()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🔥Sem Paraquedas Ativado com Sucesso!🔥")
+	end
+	function arvore()
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("-1.12999999523", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🔥Success!🔥")
+	end
+	function grama()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("6D;100;300::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("-1", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🔥Gramas Retiradas Com Sucesso!🔥", true)
+	end
+	function oceano()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.refineNumber("1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.refineNumber("1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.refineNumber("1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(99999)
+		gg.editAll("100", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("9.2194229e-41;7.1746481e-43;3.5::173", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast(" Success! ✔", true)
+	end
+	function noite()
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.searchNumber("0.57735025883F;1.0e-6F:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.refineNumber("1.0e-6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("-1", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🌚 Success! 🌚")
+	end
+	function nevoa()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber(
+			"-1.3092816e25F;-1.3068377e21F;-9.3857971e22F;-9.4005545e22F;-8.2433888e19F;-7.6092819e19F;-8.5045975e22F;-3.8553695e21F;2.6469836e-23F::33",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1.3092816e25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("-5.9029581e21", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("success! ✔")
+	end
+	function wall()
+		menu = gg.multiChoice({
+			"🐢 ON 🐢",
+			"🐈 OFF 🐈",
+			"🔫Exit🔫",
+		}, nil, "Créditos: [RIMON]")
+		if menu == nil then
+			wall()
+		end
+		if menu[1] == true then
+			a1()
+		end
+		if menu[2] == true then
+			a2()
+		end
+		if menu[3] == true then
+			EXIT()
+		end
+	end
+	function a1()
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.searchNumber("-1.3080069e21F;1.0e-6F:17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.refineNumber("1.0e-6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("-1", gg.TYPE_FLOAT)
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Success !✅")
+	end
+	function a2()
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.refineNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("1.0e-6", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Deactivate!🚫")
+	end
+	function med()
+		gg.alert("créditos: RIMON")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("75D;4D;5D;4::13 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("3", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🎒 Success 🎒")
+	end
+	function cross()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			" 00r;00r;00r;3Fr;00r;00r;80r;3Fr;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;3Fr::20",
+			gg.TYPE_BYTE,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.getResults(20)
+		gg.editAll(
+			"00r;00r;A0r;40r;00r;00r;80r;3Fr;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;A0r;40r",
+			gg.TYPE_BYTE,
+			false,
+			536870912,
+			0,
+			-1
+		)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🔥Success !🔥", true)
+	end
+	function carro1()
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.searchNumber("1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(149)
+		gg.editAll("2500", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🚙Ativado🚙")
+	end
+	function carro2()
+		gg.setRanges(gg.REGION_C_DATA, 16384)
+		gg.searchNumber("2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(149)
+		gg.editAll("1000", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("🏃Deactivate 🏃")
+	end
+	function mini()
+		gg.alert("🔥RG IS BACK🔥")
+	end
+	function dano()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(" 5.5;1.0;0.75::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("1.5", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(" 5.5;0.75::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.75", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("1.5", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("⚓ Success!! ⚓")
+	end
+	function alvo()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("0.5;0.5;0.84705883265::29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.5;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("5.0", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("75;40::5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("0.5;0.5;0.84705883265::29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.5;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("5.0", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("75;40::5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Success  ✔")
+	end
+	function recoil()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber(
+			"-1.3094071e25;-1.3068388e21;-3.6965546e20;-9.3858799e22;-9.4006373e22;-8.2433888e19;-7.6092819e19;-1.2278443e23;-3.8369228e21::33",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1.3094071e25;-1.3068388e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-3.5981453e21;-2.0291021e20", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Success ! ✔")
+	end
+	function recarga()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber(
+			"-1.3094071e25;-1.3068388e21;-3.3568098e27;-3.6951134e20;-9.3859232e22;-9.4043699e22;-8.2433888e19;-7.666928e19;-1.2280599e23::33",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1.3094071e25;-1.3068388e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("-5.9034006e21;-2.0291021e20", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Recarregar 1s✔")
+		gg.toast(" Success ! ✔")
+	end
+	function pente()
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("6D;0.40000000596;0.4000000059615;5;10::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("6", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("M1012 ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("30D;0.18000000715;0.18000000715;220~225;40;90::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("M4A1!! ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("30D;0.1099999994;0.1099999994;220~225;13;30::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("MP5 ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("20D;0.0700000003;0.0700000003;220~225;11;25::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("20", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("MP40 ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("30D;0.15000000596;0.15000000596;220~225;30;70::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("SCAR ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("30D;0.18000000715;0.18000000715;220~225;38;85::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("AK ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("30D;0.09000000358;0.09000000358;220~225;16;34::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("UMP ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("30D;0.11999999732;0.15000000596;220~225;38;80::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("FAMAS ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber(
+			"100D;0.15999999642;0.15999999642;220~225;45;80::65",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("M249 ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("5D;0.33000001311;0.33000001311;25;4;20::65", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("SPAS12 ACTIVE")
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("50D;0.09000000358;0.09000000358;220~225::21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("M60!! ACTIVE")
+		gg.setVisible(false)
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_BSS)
+		gg.searchNumber("50D;0.09000000358;0.09000000358;220~225::21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll("200", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("P90 ACTIVE")
+		gg.toast("Success ! ✔")
+	end
+	function parede1()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"2;0;260;0.10000000149;3;4.2038954e-45;4.2038954e-45::30",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2;0.10000000149;3;4.2038954e-45;4.2038954e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("-99;-1;-999;1.3998972e-42;1.3998972e-42", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Success !!✔️")
+	end
+	function parede2()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"2;0;260;0.10000000149;3;4.2038954e-45;4.2038954e-45::30",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2;0.10000000149;3;4.2038954e-45;4.2038954e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("-99;-1;-999;1.3998972e-42;1.3998972e-42", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("Success !!✔️")
+	end
+	function tatu()
+		gg.alert("thanks for use!!")
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("0.75", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.75", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(5000)
+		gg.editAll("1.9551", gg.TYPE_FLOAT, false, 536870912, 0, -1)
+		gg.clearResults()
+		gg.toast("■□□□□□□10%  ")
+		gg.sleep(200)
+		gg.toast("■■□□□□□20%  ")
+		gg.sleep(200)
+		gg.toast("■■■■□□□60%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■□90%  ")
+		gg.sleep(200)
+		gg.toast("■■■■■■■100%")
+		gg.sleep(200)
+		gg.toast("😎 Tatu Activate")
+	end
+	if menuk == 1 then
+		open()
+	end
+end

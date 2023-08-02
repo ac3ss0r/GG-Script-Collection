@@ -1,0 +1,107 @@
+function wait_for_action()
+	gg.setVisible(false)
+	while true do
+		if gg.isVisible() then
+			break
+		end
+		gg.toast("Script made by HorridModz. Contact me on discord: User123456789#6424.")
+		gg.sleep(300)
+	end
+	gg.setVisible(false)
+end
+
+function init()
+	success = 1
+	names = {
+		"All Armors (but you cannot buy some)",
+		"Developer Armor",
+		"Inflatable Armor",
+		"Advanced Combat Armor",
+		"Ultimate Defense Armor (cannot buy)",
+		"Black Dragon Armor (cannot buy)",
+	}
+	words = {
+		"armor",
+		"developer_armor",
+		"armor_inflatable",
+		"starter_pack_armor",
+		"ultimate_defense_armor",
+		"black_dragon_armor",
+	}
+	initmenu()
+end
+
+function searchtext(texttosearch)
+	gg.clearResults()
+	gg.searchNumber(";" .. texttosearch, gg.TYPE_WORD)
+	saveresults()
+end
+
+function saveresults()
+	tosave = gg.getResults(999999)
+	gg.addListItems(tosave)
+end
+
+function editarmor()
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.editAll(1, gg.TYPE_WORD)
+	gg.alert("Go into the armory and to the armor section, then click the gameguardian icon.")
+	wait_for_action()
+	gg.setValues(revert)
+	gg.clearResults()
+end
+
+function initmenu()
+	gg.setVisible(false)
+	menu = gg.multiChoice({
+		"All Armors (but you cannot buy some)",
+		"Developer Armor",
+		"Inflatable Armor",
+		"Advanced Combat Armor",
+		"Ultimate Defense Armor (cannot buy)",
+		"Black Dragon Armor (cannot buy)",
+		"Custom (script does not have the one I want!)",
+	}, nil, "Welcome to pixel gun 3d armor unlocker 2.0 by HorridModz (User123456789#6424)!")
+	if menu == nil then
+		os.exit()
+	end
+	if menu[7] then
+		textinput = gg.prompt({
+			[1] = "What is the name of the armor you want to hack? Make sure you type it in LOWERCASE and with UNDERSCORES instead of spaces! Don't say 'armor' after it!  NOTE: Any armor that is for parts CANNOT be hacked! There will be no buy button!",
+		}, { [1] = "ex: wooden_clan or developer" }, { [1] = "text" })
+		gg.clearList()
+		searchtext(textinput[1])
+		searchtext(textinput[1] .. "_armor")
+		searchtext("armor_" .. textinput[1])
+		t = gg.getListItems(999)
+		if #t > 500 then
+			gg.alert(
+				"Did you type in the correct name for the armor? A lot of results were found, so the game may crash or freeze or the armor may not work. If the armor does work, ignore this message."
+			)
+		end
+		if #t < 20 then
+			gg.alert(
+				"Nothing found! Did you type in the armor correctly? Try typing it another way (EX: Instead of advanced combat armor, it is starter pack armor)."
+			)
+			success = 0
+		end
+		if success == 1 then
+			editarmor()
+		end
+	else
+		i = 0
+		while not menu[i] do
+			i = i + 1
+		end
+		searchtext(words[i])
+		editarmor()
+	end
+	if success == 1 then
+		gg.alert("You should now be able to buy the armor! Enjoy!")
+	end
+	gg.clearList()
+	gg.clearResults()
+end
+
+init()

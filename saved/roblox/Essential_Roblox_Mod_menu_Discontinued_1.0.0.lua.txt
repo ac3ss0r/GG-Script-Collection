@@ -1,0 +1,118 @@
+gg.alert("SCRIPT BY UNKNOWNZ4")
+gg.toast("THANKS FOR DOWNLOADING")
+print("Roblox Hack MENU")
+if gg.isVisible(true) then -- check if the gameguardian is open
+	gg.setVisible(false) -- true for open, false for hide
+	goto START -- goto the next step
+end -- end the step
+
+::START:: -- for continous the step
+A = gg.choice({
+	"Walkspeed 100",
+	"Disable 100 walkspeed",
+	"Inf Jump/air walk",
+	"No Clip",
+	"No Clip Off",
+	"Oof exit script",
+	"Super Jump",
+}) -- display the selection dialog from the list
+if A == 1 then
+	goto A1
+end
+if A == 2 then
+	goto A2
+end -- this all for continous ur step, if u choose the label
+if A == 3 then
+	goto A3
+end
+if A == 4 then
+	goto A4
+end
+if A == 5 then
+	goto A5
+end
+if A == 6 then
+	goto A6
+end
+if A == 7 then
+	goto A7
+end
+if A == nil then
+end
+
+::A1::
+gg.alert("if it crashes Rejoin game and try again") -- this is like notif
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("100", gg.TYPE_DOUBLE)
+gg.toast(":O SANICC!")
+gg.clearResults()
+goto A6
+
+::A2::
+gg.searchNumber("100", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("16", gg.TYPE_DOUBLE)
+gg.toast("Sanic died")
+gg.clearResults()
+goto A6
+
+::A3::
+gg.alert("This is not always work") --
+gg.searchNumber("1.1", gg.TYPE_FLOAT)
+gg.getResults(1500)
+gg.editAll("100", gg.TYPE_FLOAT)
+gg.toast("Wheeee")
+gg.clearResults()
+goto A6
+
+::A4::
+gg.alert("This Noclip Doesnt Always Work In Popular Games")
+gg.searchNumber("0.010", gg.TYPE_FLOAT)
+gg.getResults(9000)
+print("Replaced: ", gg.editAll("-10.1", gg.TYPE_FLOAT))
+gg.toast(":O a ghost!")
+gg.clearResults()
+goto A6
+
+::A5::
+gg.searchNumber("-10.1", gg.TYPE_FLOAT)
+gg.getResults(9000)
+print("Replaced: ", gg.editAll("0.010", gg.TYPE_FLOAT))
+gg.toast("nub no one")
+gg.clearResults()
+goto A6
+
+::A6::
+os.exit() -- for end ur step
+
+::A7::
+gg.alert("Sometimes This Will Crash Game")
+gg.clearResults()
+
+function searchText(text)
+	local bytes = gg.bytes(text, "UTF-8")
+	local ret = ""
+	for i, b in ipairs(bytes) do
+		ret = ret .. ";" .. b
+	end
+	ret = ret:sub(2) .. "::" .. #bytes
+	return gg.searchNumber(ret, gg.TYPE_BYTE)
+end
+
+searchText("@33DC")
+
+function replaceText(text)
+	local bytes = gg.bytes(text, "UTF-8")
+	local all = gg.getResults(1000)
+	local len = #bytes
+	for i, t in ipairs(all) do
+		t.value = bytes[((i - 1) % len) + 1]
+	end
+	return gg.setValues(all)
+end
+
+replaceText("@33DA")
+gg.clearResults()
+gg.alert("Super Jump On!")
+goto A6

@@ -1,0 +1,6 @@
+gg.setVisible(false)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("185", gg.TYPE_FLOAT)
+gg.getResults(100)
+gg.editAll("5", gg.TYPE_FLOAT)
+gg.clearResults()

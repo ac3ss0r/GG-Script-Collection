@@ -1,0 +1,55 @@
+menu = gg.choice(
+	{ "XP Spoofer", "Event Sets and Lottery", "Event Sets and Lottery (Safe)", "Free Super Chest" },
+	nil,
+	"Script made by: min01 | Credit to voxelek & yeetdisdude for original script | Make sure you have XA region enabled"
+)
+
+if menu == 1 then
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F3 0F 1E F8 FD 7B 01 A9 FD 43 00 91 93 62 02 D0 68 C6 64 39 E8 00 00 37 68 38 02 D0 08 E9 44 F9",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 71 82 D2 C0 03 5F D6 FD 43 00 91 93 62 02 D0 68 C6 64 39 E8 00 00 37 68 38 02 D0 08 E9 44 F9",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 2 then
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 54 19 02 90 88 3E 64 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 F9 95 52 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 54 19 02 90 88 3E 64 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 3 then
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 54 19 02 90 88 3E 64 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 71 82 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 54 19 02 90 88 3E 64 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 4 then
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h 00 A0 00 91 E1 03 1F AA 09 60 2F 14 00 1C 40 F9 C0 03 5F D6 01 1C 00 F9 C0 03 5F D6 00 40 40 B9",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 20 00 80 52 C0 03 5F D6 09 60 2F 14 00 1C 40 F9 C0 03 5F D6 01 1C 00 F9 C0 03 5F D6 00 40 40 B9",
+		gg.TYPE_BYTE
+	)
+end
+gg.toast("Done!")

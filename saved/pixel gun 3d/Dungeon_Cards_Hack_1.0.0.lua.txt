@@ -1,0 +1,40 @@
+local gg = gg
+local exited = false
+gg.setVisible(false)
+gg.alert("Made by C_ffeeStain")
+while not menu == 3 do
+	if gg.isVisible() then
+		gg.setVisible(false)
+		local menu = gg.choice({
+			"Infinite Coins",
+			"Infinite Gems",
+			"Exit",
+		})
+	end
+end
+::start::
+local menu = gg.choice({
+	"Infinite Coins and Gems",
+	"Exit",
+})
+
+if menu == 1 then
+	local success = gg.searchNumber("5;5;10;10;3000;12000;20000::", gg.TYPE_DWORD)
+	if success then
+		gg.getResults(100)
+		gg.editAll(-999999999, gg.TYPE_DWORD)
+		gg.toast("Successfully edited values.")
+		gg.alert("Buy any or all of the characters in the store that cost -999999999.")
+		gg.clearResults()
+		goto start
+	end
+end
+if menu == 2 then
+	print("Made by C_ffeeStain in June 2020")
+	print("https://youtube.com/channel/UCqOIhFpVL03r1SWrf38qSzQ")
+	exited = true
+	gg.setVisible(true)
+end
+if menu == nil then
+	goto start
+end

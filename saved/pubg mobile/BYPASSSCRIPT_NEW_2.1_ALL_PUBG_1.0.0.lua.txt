@@ -1,0 +1,2706 @@
+function XdRishabhP(Nc, Type, Search, Write)
+	gg.clearResults()
+	gg.setRanges(Nc)
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tPUBGMH = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tPUBGMH[#tPUBGMH + 1] = {}
+				tPUBGMH[#tPUBGMH].address = v.address + offset
+				tPUBGMH[#tPUBGMH].flags = v.flags
+			end
+			tPUBGMH = gg.getValues(tPUBGMH)
+			for i, v in ipairs(tPUBGMH) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.sleep(400)
+		else
+			return false
+		end
+	else
+		return false
+	end
+end
+function split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
+function xgxc(szpy, qmxg)
+	for x = 1, #qmxg do
+		xgpy = szpy + qmxg[x]["offset"]
+		xglx = qmxg[x]["type"]
+		xgsz = qmxg[x]["value"]
+		xgdj = qmxg[x]["paidze"]
+		if xgdj == nil or xgdj == "" then
+			gg.setValues({ [1] = { address = xgpy, flags = xglx, value = xgsz } })
+		else
+			gg.addListItems({ [1] = { address = xgpy, flags = xglx, paidze = xgdj, value = xgsz } })
+		end
+		xgsl = xgsl + 1
+		xgjg = true
+	end
+end
+function xqmnb(qmnb)
+	gg.clearResults()
+	gg.setRanges(qmnb[1]["memory"])
+	gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"])
+	if gg.getResultCount() == 0 then
+	else
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		if gg.getResultCount() == 0 then
+		else
+			sl = gg.getResults(999999)
+			sz = gg.getResultCount()
+			xgsl = 0
+			if sz > 999999 then
+				sz = 999999
+			end
+			for i = 1, sz do
+				pdsz = true
+				for v = 4, #qmnb do
+					if pdsz == true then
+						pysz = {}
+						pysz[1] = {}
+						pysz[1].address = sl[i].address + qmnb[v]["offset"]
+						pysz[1].flags = qmnb[v]["type"]
+						szpy = gg.getValues(pysz)
+						pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value
+						szpd = split(pdpd, ";")
+						tzszpd = szpd[1]
+						pyszpd = szpd[2]
+						if tzszpd == pyszpd then
+							pdjg = true
+							pdsz = true
+						else
+							pdjg = false
+							pdsz = false
+						end
+					end
+				end
+				if pdjg == true then
+					szpy = sl[i].address
+					xgxc(szpy, qmxg)
+				end
+			end
+			if xgjg == true then
+			else
+			end
+		end
+	end
+end
+function SearchWrite(Search, Write, Type)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].paidze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.addListItems(t)
+		else
+			return false
+		end
+	else
+		return false
+	end
+end
+function Rishabh(Range, Type, Search, Write)
+	gg.clearResults()
+	gg.setRanges(Range)
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			gg.toast("\n🔍Searched" .. #data .. "data\n🔰Start offset")
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.sleep(400)
+			gg.toast("\n☣️" .. Name .. "Team Az" .. #t .. "data")
+		else
+			gg.toast("\n❌" .. Name .. "Failure❌")
+			return false
+		end
+	else
+		gg.toast("\n❌" .. Name .. "Failure❌")
+		return false
+	end
+end
+local time = os.clock()
+function readWrite(Search, Get, Type, Range, Name)
+	gg["clearResults"]()
+	gg["setRanges"](Range)
+	gg["setVisible"](false)
+	if Search[1][1] ~= false then
+		_G["gg"]["searchAddress"](
+			Search[1][1],
+			0xFFFFFFFF,
+			Search[1][4] or Type,
+			_G["gg"]["SIGN_EQUAL"],
+			Search[1][5] or 1,
+			Search[1][6] or -1
+		)
+	end
+	gg["searchNumber"](
+		Search[1][2],
+		Search[1][4] or Type,
+		false,
+		_G["gg"]["SIGN_EQUAL"],
+		Search[1][5] or 1,
+		Search[1][6] or -1
+	)
+	local count = gg["getResultCount"]()
+	local result = gg["getResults"](count)
+	gg["clearResults"]()
+	local data = {}
+	local base = Search[1][3]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = Search[k][3] or Type
+			end
+			tmp = gg["getValues"](tmp)
+			for i, v in ipairs(tmp) do
+				if v.flags == 16 or v.flags == 64 then
+					values = tostring(v.value):sub(1, 6)
+					num = tostring(num):sub(1, 6)
+				else
+					values = v.value
+				end
+				if tostring(values) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t, t_ = {}, {}
+			local base = Search[1][3]
+			for i = 1, #data do
+				for k, w in ipairs(Get) do
+					offset = w[2] - base
+					if w[1] == false then
+						t_[#t_ + 1] = {}
+						t_[#t_].address = data[i] + offset
+						t_[#t_].flags = Type
+						th_ = th_ and th_ + 1 or 1
+					else
+						t[#t + 1] = {}
+						t[#t].address = data[i] + offset
+						t[#t].flags = w[3] or Type
+						t[#t].value = w[1]
+						tg_ = tg_ and tg_ + 1 or 1
+						if w[4] == true then
+							local item = {}
+							item[#item + 1] = t[#t]
+							item[#item].freeze = w[4]
+							gg["addListItems"](item)
+						end
+					end
+				end
+			end
+			tg = tg_ and "\n modify" .. tg_ .. "data" or ""
+			th = th_ and "" or ""
+			gg["setValues"](t)
+			t_ = gg["getValues"](t_)
+			gg["loadResults"](t_)
+			gg["toast"]("\n" .. Name .. tg)
+			tg_, th_ = nil, nil
+		else
+			gg["toast"]("Not searchable", false)
+			return false
+		end
+	else
+		gg["toast"]("Not searchable")
+		return false
+	end
+end
+function setvalue(address, flags, value)
+	local tt = {}
+	tt[1] = {}
+	tt[1].address = address
+	tt[1].flags = flags
+	tt[1].value = value
+	gg.setValues(tt)
+end
+function split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
+function xgxc(szpy, qmxg)
+	for x = 1, #qmxg do
+		xgpy = szpy + qmxg[x]["offset"]
+		xglx = qmxg[x]["type"]
+		xgsz = qmxg[x]["value"]
+		xgdj = qmxg[x]["freeze"]
+		if xgdj == nil or xgdj == "" then
+			gg.setValues({ [1] = { address = xgpy, flags = xglx, value = xgsz } })
+		else
+			gg.addListItems({ [1] = { address = xgpy, flags = xglx, freeze = xgdj, value = xgsz } })
+		end
+		xgsl = xgsl + 1
+		xgjg = true
+	end
+end
+function xqmnb(qmnb)
+	gg.clearResults()
+	gg.setRanges(qmnb[1]["memory"])
+	gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"])
+	if gg.getResultCount() == 0 then
+		gg.toast(qmnb[2]["name"] .. "开启失败")
+	else
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		if gg.getResultCount() == 0 then
+			gg.toast(qmnb[2]["name"] .. "开启失败")
+		else
+			sl = gg.getResults(999999)
+			sz = gg.getResultCount()
+			xgsl = 0
+			if sz > 999999 then
+				sz = 999999
+			end
+			for i = 1, sz do
+				pdsz = true
+				for v = 4, #qmnb do
+					if pdsz == true then
+						pysz = {}
+						pysz[1] = {}
+						pysz[1].address = sl[i].address + qmnb[v]["offset"]
+						pysz[1].flags = qmnb[v]["type"]
+						szpy = gg.getValues(pysz)
+						pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value
+						szpd = split(pdpd, ";")
+						tzszpd = szpd[1]
+						pyszpd = szpd[2]
+						if tzszpd == pyszpd then
+							pdjg = true
+							pdsz = true
+						else
+							pdjg = false
+							pdsz = false
+						end
+					end
+				end
+				if pdjg == true then
+					szpy = sl[i].address
+					xgxc(szpy, qmxg)
+				end
+			end
+			if xgjg == true then
+				gg.toast(qmnb[2]["name"] .. "开启成功，一共修改" .. xgsl .. "条数据")
+			else
+				gg.toast(qmnb[2]["name"] .. "未搜索到数据，开启失败")
+			end
+		end
+	end
+end
+function SearchWrite(Search, Write, Type)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.toast("开启成功，一共修改" .. #t .. "条数据")
+			gg.addListItems(t)
+		else
+			gg.toast("未搜索到数据，开启失败", false)
+			return false
+		end
+	else
+		gg.toast("Not Found")
+		return false
+	end
+end --Az-HACKER
+function setvalue(address, flags, value)
+	local tt = {}
+	tt[1] = {}
+	tt[1].address = address
+	tt[1].flags = flags
+	tt[1].value = value
+	gg.setValues(tt)
+end
+function HaoGe(Nc, Type, Search, Write)
+	gg.clearResults()
+	gg.setRanges(Nc)
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			gg.toast("ʀᴜɴɴɪɴɢ" .. #data .. "ʀᴜɴɴɪɴɢ")
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.sleep(400)
+			gg.toast("ʀᴜɴɴɪɴɢ" .. Name .. "ʀᴜɴɴɪɴɢ" .. #t .. "ʀᴜɴɴɪɴɢ")
+		else
+			gg.toast("ʀᴜɴɴɪɴɢ" .. Name .. "ʀᴜɴɴɪɴɢ")
+			return false
+		end
+	else
+		gg.toast("ʀᴜɴɴɪɴɢ" .. Name .. "ʀᴜɴɴɪɴɢ")
+		return false
+	end
+end
+function libBase(offset, type, value, name)
+	a = os.clock()
+	gg.setValues({
+		[1] = {
+			address = gg.getRangesList("libUE4.so" or "libtersafe.so")[1].start + offset,
+			flags = type,
+			value = value,
+		},
+	})
+	b = os.clock() - a
+	gg.toast(name .. " Coded by : @RVREVAN " .. b)
+end
+function SearchWrite(Search, Write, Type)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.addListItems(t)
+		else
+			gg.toast("ITZX7", false)
+			return false
+		end
+	else
+		gg.toast("ʀᴜɴɴɪɴɢ")
+		return false
+	end
+end
+function split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
+function xgxc(szpy, qmxg)
+	for x = 1, #qmxg do
+		xgpy = szpy + qmxg[x]["offset"]
+		xglx = qmxg[x]["type"]
+		xgsz = qmxg[x]["value"]
+		xgdj = qmxg[x]["freeze"]
+		if xgdj == nil or xgdj == "" then
+			gg.setValues({ [1] = { address = xgpy, flags = xglx, value = xgsz } })
+		else
+			gg.addListItems({ [1] = { address = xgpy, flags = xglx, freeze = xgdj, value = xgsz } })
+		end
+		xgsl = xgsl + 1
+		xgjg = true
+	end
+end
+function xqmnb(qmnb)
+	gg.clearResults()
+	gg.setRanges(qmnb[1]["memory"])
+	gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"])
+	if gg.getResultCount() == 0 then
+		gg.toast(qmnb[2]["name"] .. "Az")
+	else
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		if gg.getResultCount() == 0 then
+			gg.toast(qmnb[2]["name"] .. "ʀᴜɴɴɪɴɢ")
+		else
+			sl = gg.getResults(999999)
+			sz = gg.getResultCount()
+			xgsl = 0
+			if sz > 999999 then
+				sz = 999999
+			end
+			for i = 1, sz do
+				pdsz = true
+				for v = 4, #qmnb do
+					if pdsz == true then
+						pysz = {}
+						pysz[1] = {}
+						pysz[1].address = sl[i].address + qmnb[v]["offset"]
+						pysz[1].flags = qmnb[v]["type"]
+						szpy = gg.getValues(pysz)
+						pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value
+						szpd = split(pdpd, ";")
+						tzszpd = szpd[1]
+						pyszpd = szpd[2]
+						if tzszpd == pyszpd then
+							pdjg = true
+							pdsz = true
+						else
+							pdjg = false
+							pdsz = false
+						end
+					end
+				end
+				if pdjg == true then
+					szpy = sl[i].address
+					xgxc(szpy, qmxg)
+				end
+			end
+			if xgjg == true then
+				gg.toast(qmnb[2]["name"] .. "ʀᴜɴɴɪɴɢ，ʀᴜɴɴɪɴɢ" .. xgsl .. "ʀᴜɴɴɪɴɢ")
+			else
+				gg.toast(qmnb[2]["name"] .. "ʀᴜɴɴɪɴɢ，ʀᴜɴɴɪɴɢ")
+			end
+		end
+	end
+end
+function SearchWrite(Search, Write, Type)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.toast("ʀᴜɴɴɪɴɢ，ʀᴜɴɴɪɴɢ" .. #t .. "ʀᴜɴɴɪɴɢ")
+			gg.addListItems(t)
+		else
+			gg.toast("ʀᴜɴɴɪɴɢ，ʀᴜɴɴɪɴɢ", false)
+			return false
+		end
+	else
+		gg.toast("ʀᴜɴɴɪɴɢ")
+		return false
+	end
+end
+function SearchWrite(Search, Write, Type)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.addListItems(t)
+		else
+			gg.toast("ITZX7", false)
+			return false
+		end
+	else
+		gg.toast("ʀᴜɴɴɪɴɢ")
+		return false
+	end
+end
+function setvalue(address, flags, value)
+	local tt = {}
+	tt[1] = {}
+	tt[1].address = address
+	tt[1].flags = flags
+	tt[1].value = value
+	gg.setValues(tt)
+end
+function HaoGe(Nc, Type, Search, Write)
+	gg.clearResults()
+	gg.setRanges(Nc)
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			gg.toast("Az" .. #data .. "Az")
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.toast("Name#t")
+		else
+			gg.toast("Name")
+			return false
+		end
+	else
+		gg.toast("Name")
+		return false
+	end
+end
+
+gg.alert([[
+═════════════════════════
+🅻🅾🅶🅾 🅱🆈🅿🅰🆂🆂 🅰🅿🅿🅻🆈 
+🅾🅽🅻🆈 🅲🆁🅰🅵🆃🅾🅽 🅻🅾🅶🅾 
+═════════════════════════
+🅻🅾🅱🅱🆈 🅱🆈🅿🅰🆂🆂 🅰🅿🅿🅻🆈 
+🅾🅽🅴 🆃🅸🅼🅴 🅸🅽 🅻🅾🅱🅱🆈 
+═════════════════════════
+🅰🅽🆈🆃🅷🅸🅽🅶 🆆🆁🅾🅽🅶 
+🆄 🅶🅾🆃 🅱🅰🅽 🆃🅽🆇
+═════════════════════════]])
+gg.alert([[
+═════════════════════════
+𝙅𝙊𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈:-@𝗗𝗔𝗥𝗦𝗛𝗔𝗡𝗖𝗛𝗘𝗔𝗧𝗦YT
+═════════════════════════
+𝙎𝙀𝙉𝘿 𝙁𝙀𝙀𝘿𝘽𝘼𝘾𝙆 @𝗗𝗔𝗥𝗦𝗛𝗔𝗡 𝗖𝗛𝗘𝗔𝗧𝗦
+═════════════════════════
+𝙉𝙊 𝙁𝙀𝙀𝘿𝘽𝘼𝘾𝙆 = 𝙉𝙊 𝙈𝙊𝙍𝙀 𝙐𝙋𝘿𝘼𝙏𝙀
+═════════════════════════
+𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝙎𝘾𝙍𝙄𝙋𝙏
+═════════════════════════]])
+on = "└⟬✔️⟭"
+off = "└⟬ ❌ ⟭"
+function Main()
+	menu = gg.choice(
+		{
+			"𝐁𝐘𝐏𝐀𝐒𝐒 𝐏𝐑𝐎𝐓𝐄𝐂𝐓𝐈𝐎𝐍",
+			"𝐋𝐎𝐁𝐁𝐘 𝐇𝐀𝐂𝐊𝐒",
+			"𝐆𝐀𝐌𝐄 𝐇𝐀𝐂𝐊𝐒",
+			"𝐁𝐑𝐔𝐓𝐀𝐋 𝐂𝐇𝐄𝐀𝐓",
+			"𝐁𝐄𝐀𝐔𝐓𝐈𝐅𝐔𝐋 𝐂𝐇𝐄𝐀𝐓",
+			"𝐒𝐊𝐈𝐍 𝐌𝐄𝐍𝐔",
+			"❌ Ɛ᙭ƖƬ ❌",
+		},
+		nil,
+		"══════════════════════════════════════\n ➭𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 @𝗗𝗔𝗥𝗦𝗛𝗔𝗡 𝗖𝗛𝗘𝗔𝗧𝗦YT🌸\n══════════════════════════════════════"
+	)
+	if menu == nil then
+	else
+		if menu == 1 then
+			Antiban()
+		end
+		if menu == 2 then
+			LobbyCheat()
+		end
+		if menu == 3 then
+			GameCheat()
+		end
+		if menu == 4 then
+			Brutalcheat()
+		end
+		if menu == 5 then
+			Beautiful()
+		end
+		if menu == 6 then
+			SkinMenu()
+		end
+		if menu == 7 then
+			Exit()
+		end
+	end
+	ABHI = -1
+end
+FixBan = off
+FixTermination = off
+function Antiban()
+	AzAntiban = gg.choice(
+		{
+			"🛡️🄻🄾🄶🄾 🄱🅈🄿🄰🅂🅂🛡️" .. FixBan,
+			"🛡️🄻🄾🄱🄱🅈 🄱🅈🄿🄰🅂🅂🛡️" .. FixTermination,
+			"🛡️🄸🅂🄻🄰🄽🄳 🄱🅈🄿🄰🅂🅂🛡️",
+			"🄰🄽🅃🄸 🅁🄴🄿🄾🅁🅃",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"═══════════════════════════════\n         ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ʙʏᴘᴀss ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴍᴇɴᴜ\n═══════════════════════════════"
+	)
+	if AzAntiban == nil then
+	else
+		if AzAntiban == 1 then
+			LoGoBypass()
+		end
+		if AzAntiban == 2 then
+			Bypass()
+		end
+		if AzAntiban == 3 then
+			fixping()
+		end
+		if AzAntiban == 4 then
+			AntiReport()
+		end
+		if AzAntiban == 5 then
+			Main()
+		end
+	end
+	AzAntiban = -1
+end
+
+function LoGoBypass()
+	if FixBan == off then
+		so = gg["getRangesList"]("libanogs.so")[1].start
+		setvalue(so + "0x34298 ", 4, "h 00 20 70 47")
+		setvalue(so + "0x35118 ", 4, "h 00 20 70 47")
+		setvalue(so + "0x352B0 ", 4, "h 00 20 70 47")
+		setvalue(so + "0x262C76 ", 4, "h 00 00 00 00")
+		setvalue(so + "0x28BCD8 ", 4, "h 00 00 00 00")
+		FixBan = on
+	else
+		gg.alert("🄰🄻🄻🅁🄴🄰🄳🅈 🄰🄲🅃🄸🅅🄰🅃🄴🄳")
+	end
+end
+
+function Bypass()
+	if FixTermination == off then
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+		gg.setVisible(false)
+		gg.searchNumber("620,137,442,967,552;564,058,054,983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+		gg.refineNumber("620,137,442,967,552", gg.TYPE_QWORD)
+		gg.getResults(50000)
+		gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+		gg.setVisible(false)
+		gg.searchNumber("635,530,605,756,416;564,058,054,983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+		gg.refineNumber("635,530,605,756,416", gg.TYPE_QWORD)
+		gg.getResults(50000)
+		gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+		gg.setVisible(false)
+		gg.searchNumber("578,351,706,144,768;564,058,054,983680", gg.TYPE_QWORD, nil, nil, nil, nil)
+		gg.refineNumber("578,351,706,144,768", gg.TYPE_QWORD)
+		gg.getResults(50000)
+		gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+		gg.setVisible(false)
+		gg.searchNumber("565,157,566,611,456;572,854,148,005,888", gg.TYPE_QWORD, nil, nil, nil, nil)
+		gg.refineNumber("565,157,566,611,456", gg.TYPE_QWORD)
+		gg.getResults(50000)
+		gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+		gg.setVisible(false)
+		gg.searchNumber("577,252,194,516,992;288,233,678,981,562,368", gg.TYPE_QWORD, nil, nil, nil, nil)
+		gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD)
+		gg.getResults(50000)
+		gg.editAll("288,233,678,981,562,368", gg.TYPE_QWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+		gg.setVisible(false)
+		gg.searchNumber("196,864;16,842,753", gg.TYPE_DWORD, nil, nil, nil, nil)
+		gg.refineNumber("196,864", gg.TYPE_DWORD)
+		gg.getResults(50000)
+		gg.editAll("84,149,249", gg.TYPE_DWORD)
+		gg.clearResults()
+		so = gg.getRangesList("libUE4.so")[1].start
+		py = 0x6B28420
+		setvalue(so + py, 2, 50)
+		so = gg.getRangesList("libUE4.so")[1].start
+		py = 0x2A8BA7C
+		setvalue(so + py, 4, 0)
+		so = gg.getRangesList("libUE4.so")[1].start
+		py = 0x6B2842C
+		setvalue(so + py, 4, 57)
+		gg.alert("𝖡𝖸𝖯𝖠𝖲𝖲 𝖠𝖢𝖳𝖨𝖵𝖠𝖳𝖤")
+		FixTermination = on
+	else
+		gg.alert("🄰🄻🄻🅁🄴🄰🄳🅈 🄰🄲🅃🄸🅅🄰🅃🄴🄳")
+	end
+end
+
+function fixping()
+	gg.setRanges(32 | 4)
+	gg.clearResults()
+	gg.searchNumber("h5c 4c 75 61 5c 63 6c 69 65 6e 74 5c 75 6d 67", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h62 70 5f 6d 61 6c 6c 5f 77 65 61 70 6f 6e 5f 6d 6f 64 65 6c 5f 68 61 6e 64 6c 65 72",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber("h54 65 61 6d 41 76 61 74 61 72 4d 61 6e 61 67 65 72", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h63 6c 69 65 6e 74 2e 6e 65 74 77 6f 72 6b 2e 50 72 6f 74 6f 63 6f 6c 2e 43 6f 6d 65 42 61 63 6b 53 70 65 63 69 61 6c 41 77 61 72 64 48 61 6e 64",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h30 61 31 0b 30 09 06 03 55 04 06 13 02 55 53 31 15 30 13 06 03 55 04 0a 13 0c 44 69 67 69 43 65 72 74",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE) -- main code
+	gg.searchNumber("h5b 47 43 6c 6f 75 64 43 6f 72 65 5d", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h61 6e 64 72 6f 69 64 2e 6f 73 2e 48 61 6e 64 6c 65 72",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.searchNumber(
+		"h4e 65 74 55 74 69 6c 2e 44 69 73 70 61 74 63 68 50 61 63 6b 65 74",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h67 65 74 5f 73 68 6f 70 5f 6a 75 6d 70 5f 69 6e 66 6f 5f",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h42 50 5f 4d 61 6c 6c 57 65 61 70 6f 6e 5f 43 75 72 5f 53 68 6f 77 5f 57 65 61 70 6f 6e 5f 4e 65 65 64 5f 52 65 73 65 74 52 6f 74 61 74 69 6f 6e",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h2f 02 00 00 32 02 00 00 32 02 00 00 32 02 00 00 33 02 00 00 33 02 00 00 36 02 00 00 36 02 00 00 36 02 00 00 36 02 00 00 36 02 00 00 36 02 00 00 37 02 00 00 37 02 00 00 37 02 00 00 37 02 00 00 37 02 00 00 38 02 00 00 00 00 00 00",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber("h30 63 31 0b 30 09 06 03 55 04 06 13 02 55 53 31 ", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber("h31 0b 30 09 06 03 55 04 06 0c 02 75 73 31 ", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber(
+		"h6c 44 00 00 91 04 80 01 d1 04 80 02 e4 42 80 04 9e 80 02 80 1e 40 02 80 57 80 40 00 58 80 c1 00 1f c0 c6 00 1e 40 01 80 57 00 40 00 92 00 07 00 ",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.searchNumber("h70 f5 1e c9 b4 00 00 00 ", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("🄸🅂🄻🄰🄽🄳 🄱🅈🄿🄰🅂🅂 🄰🄲🅃🄸🅅🄰🅃🄴🄳")
+end
+
+function AntiReport()
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("65798~327942;67109892", 4)
+	gg.refineNumber("65798~327942", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("65798", 4)
+	gg.refineNumber("65798", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("196873~327942;67109892", 4)
+	gg.refineNumber("196873~327942", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("66057;66569", 4)
+	gg.refineNumber("66057", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("66569", 4)
+	gg.refineNumber("66569", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("197129", 4)
+	gg.refineNumber("197129", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("197638", 4)
+	gg.refineNumber("197638", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("262665", 4)
+	gg.refineNumber("262665", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("131334", 4)
+	gg.refineNumber("131334", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("131593", 4)
+	gg.refineNumber("131593", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("132105", 4)
+	gg.refineNumber("132105", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("131337", 4)
+	gg.refineNumber("131337", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("2567;2311", 4)
+	gg.refineNumber("2567", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("67109892", 4)
+	gg.refineNumber("67109892", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("67109124", 4)
+	gg.refineNumber("67109124", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("67109380", 4)
+	gg.refineNumber("67109380", 4)
+	gg.getResults(100000)
+	gg.editAll("0", 4)
+	gg.clearResults()
+	gg.alert("🄰🄽🅃🄸 🅁🄴🄿🄾🅁🅃 🄰🄲🅃🄸🅅🄰🅃🄴🄳")
+end
+
+function LobbyCheat()
+	Abhi = gg.choice(
+		{
+			"OᑎƐ ᑕᒪƖᑕƘ OᑎƐ ƬƖᗰƐ",
+			"𝙻𝙴𝚂𝚂 𝚁𝙴𝙲𝙾𝙸𝙻",
+			"𝙳𝙴𝚂𝙴𝚁𝚃 𝙼𝙰𝙿",
+			"𝙸𝙿𝙰𝙸𝙳 𝚅𝙸𝙴𝚆",
+			"𝚂𝙼𝙰𝙻𝙻 𝙲𝚁𝙾𝚂𝚂𝙷𝙰𝙸𝚁",
+			"𝙽𝙾 𝙵𝙾𝙶",
+			"𝙽𝙾 𝚁𝙴𝙲𝙾𝙸𝙻",
+			"𝙳𝙰𝚁𝙺 𝙼𝙰𝙿",
+			"𝙽𝙾 𝙶𝚁𝙰𝚂𝚂",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"═══════════════════════════════\n         ᗯƐᒪᑕOᗰƐ ƬO ᒪOᗷᗷƳ ᑕHƐᗩƬ ᗰƐᑎᑌ\n═══════════════════════════════"
+	)
+	if Abhi == nil then
+	else
+		if Abhi == 1 then
+			A1()
+		end
+		if Abhi == 2 then
+			A2()
+		end
+		if Abhi == 3 then
+			A3()
+		end
+		if Abhi == 4 then
+			A4()
+		end
+		if Abhi == 5 then
+			A5()
+		end
+		if Abhi == 6 then
+			A6()
+		end
+		if Abhi == 7 then
+			A7()
+		end
+		if Abhi == 8 then
+			A8()
+		end
+		if Abhi == 9 then
+			A9()
+		end
+		if Abhi == 10 then
+			Main()
+		end
+	end
+	ABHI = -1
+end
+
+function A1()
+	gg.alert(
+		"𝐋𝐄𝐒𝐒 𝐑𝐄𝐂𝐎𝐈\n𝐃𝐄𝐒𝐄𝐑𝐓 𝐌𝐀𝐏 \n𝐈 𝐏𝐀𝐃 𝐕𝐈𝐄𝐖\n𝐍𝐎 𝐅𝐎𝐆 "
+	)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xDA74EC
+	setvalue(so + py, 16, 0) --less recoill
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2170BA4
+	setvalue(so + py, 16, 0)
+	gg.toast("DEGERT MAP ACTIVE")
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x26B30C0
+	setvalue(so + py, 16, 260)
+	gg.toast("IPAID ACTIVATED")
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CC0
+	setvalue(so + py, 4, 0) --no fog
+end
+function A2()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xDA74EC
+	setvalue(so + py, 16, 0) --less recoill
+end
+function A3()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2170BA4
+	setvalue(so + py, 16, 0)
+	gg.toast("DEGERT MAP ACTIVE")
+end
+function A4()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x26B30C0
+	setvalue(so + py, 16, 260)
+	gg.toast("IPAID ACTIVATED")
+end
+function A5()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x125DDBC
+	setvalue(so + py, 16, 90) --small
+end
+function A6()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CC0
+	setvalue(so + py, 4, 0) --no fog
+end
+function A7()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xDA74EC
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x26B1C64
+	setvalue(so + py, 16, 0)
+	gg.toast("NO RECOIL ACTIVATED")
+end
+function A8()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x208BBF0
+	setvalue(so + py, 16, 0)
+	gg.toast("DARK MAP ACTIVATED")
+end
+function A9()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1938128
+	setvalue(so + py, 16, 0) --No Grass
+end
+
+function GameCheat()
+	Rishab = gg.choice(
+		{
+			"𝙷𝙴𝙰𝙳𝚡𝚂𝙷𝙾𝚃 v¹",
+			"𝙷𝙴𝙰𝙳𝚡𝚂𝙷𝙾𝚃 v²",
+			"𝙰𝙽𝚃𝙸𝙽𝙰",
+			"𝚇 𝙴𝙵𝙵𝙴𝙲𝚃",
+			"𝙰𝙸𝙼𝙱𝙾𝚃",
+			"𝙱𝙻𝙰𝙲𝙺 𝚂𝙺𝚈",
+			"ꜰɪx ᴘɪɴɢ",
+			"𝚀𝚄𝙸𝙲𝙺𝚆𝙴𝙰𝙿𝙾𝙽",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"═══════════════════════════════\n         ᗯƐᒪᑕOᗰƐ ƬO GᗩᗰƐ ᑕHƐᗩƬ ᗰƐᑎᑌ\n═══════════════════════════════"
+	)
+	if Rishab == nil then
+	else
+		if Rishab == 1 then
+			B1()
+		end
+		if Rishab == 2 then
+			B3()
+		end
+		if Rishab == 3 then
+			B2()
+		end
+		if Rishab == 4 then
+			B4()
+		end
+		if Rishab == 5 then
+			B5()
+		end
+		if Rishab == 6 then
+			B6()
+		end
+		if Rishab == 7 then
+			B7()
+		end
+		if Rishab == 8 then
+			B8()
+		end
+		if Rishab == 9 then
+			Main()
+		end
+	end
+	Rishab = -1
+end
+
+function B1()
+	gg.setRanges(16384)
+	local dataType = 16
+	local search = { { 0.10000000149, 0 }, { 64.50088500977, 180 } }
+	local modify = { { 15, 0 } }
+	SearchWrite(search, modify, dataType, Name)
+	local dataType = 4
+	local search = { { -298284466, 0 } }
+	local modify = { { 0, 0 } }
+	SearchWrite(search, modify, dataType, Name)
+	gg.setRanges(32)
+	local dataType = 16
+	local search = { { -88.66608428955, 0 }, { 16.0, 4 }, { 26.0, 8 } }
+	local modify = { { -460, 4 }, { -460, 8 } }
+	SearchWrite(search, modify, dataType, Name)
+	local dataType = 16
+	local search = { { -88.73961639404, 0 }, { 18.0, 4 }, { 28.0, 8 } }
+	local modify = { { -560, 4 }, { -560, 8 } }
+	SearchWrite(search, modify, dataType, Name)
+	local dataType = 4
+	local search = { { 1092616192, 0 }, { 1110966272, 4 } }
+	local modify = { { 1176255488, 0 } }
+	SearchWrite(search, modify, dataType, Name)
+	local dataType = 16
+	local search = { { 25.0, 0 }, { 30.5, 4 } }
+	local modify = { { 540, 0 }, { 560, 4 } }
+	SearchWrite(search, modify, dataType, Name)
+	gg.clearList()
+	gg.toast("𝐻𝐸𝐴𝐷𝑥𝑆𝐻𝑂𝑇_ΔCTI∇ΔTΣD")
+end
+function B2()
+	Name = "Me"
+	local Range = 32
+	local Type = 4
+	local Az = { { 1041722062, 0 }, { 872415228, 4 }, { -2147483648, 8 } }
+	local Op = { { 1153957888, -4 } }
+	Rishabh(Range, Type, Az, Op)
+	Name = "enamy"
+	local Range = 32
+	local Type = 4
+	local Az = { { 1041722065, 0 }, { 872415228, 4 }, { -2147483648, 8 } }
+	local Op = { { 1153957888, -4 } }
+	Rishabh(Range, Type, Az, Op)
+	gg.toast("ANTINA ACTIVATED")
+end
+function B3()
+	Name = "@DARSHAN"
+	local RishabhX = 16384
+	local XRishabh = 16
+	local XXRishabh = { { -1.42781105e28, 0 } }
+	local XXXRishabh = { { 0, 0 } }
+	XdRishabhP(RishabhX, XRishabh, XXRishabh, XXXRishabh)
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "@DARSHAN" },
+		{ ["value"] = 4740038608910024704, ["type"] = 32 },
+		{ ["lv"] = 4752423507886342144, ["offset"] = 4, ["type"] = 32 },
+		{ ["lv"] = 1106509824, ["offset"] = 8, ["type"] = 32 },
+	}
+	qmxg = {
+		{ ["value"] = 700, ["offset"] = 4, ["type"] = 16 },
+		{ ["value"] = 700, ["offset"] = 8, ["type"] = 16 },
+	}
+	xqmnb(qmnb)
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "@DARSHAN" },
+		{ ["value"] = 4719772412750681353, ["type"] = 32 },
+		{ ["lv"] = 4742290408720039936, ["offset"] = 4, ["type"] = 32 },
+	}
+	qmxg = {
+		{ ["value"] = -460, ["offset"] = 8, ["type"] = 16 },
+	}
+	xqmnb(qmnb)
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "@DARSHAN" },
+		{ ["value"] = -4417614866316724128, ["type"] = 32 },
+		{ ["lv"] = 4724276012378061487, ["offset"] = 4, ["type"] = 32 },
+	}
+	qmxg = {
+		{ ["value"] = -560, ["offset"] = 12, ["type"] = 16 },
+	}
+	xqmnb(qmnb)
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "@DARSHAN" },
+		{ ["value"] = -4416487068034336677, ["type"] = 32 },
+		{ ["lv"] = 4724276012378324073, ["offset"] = 4, ["type"] = 32 },
+	}
+	qmxg = {
+		{ ["value"] = -660, ["offset"] = 8, ["type"] = 16 },
+		{ ["value"] = -660, ["offset"] = 12, ["type"] = 16 },
+	}
+	xqmnb(qmnb)
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "@DARSHAN" },
+		{ ["value"] = 4771563806291656704, ["type"] = 32 },
+		{ ["lv"] = 1110966272, ["offset"] = 4, ["type"] = 32 },
+		{ ["lv"] = 4692750811720056832, ["offset"] = -4, ["type"] = 32 },
+	}
+	qmxg = {
+		{ ["value"] = 999, ["offset"] = 0, ["type"] = 16 },
+	}
+	xqmnb(qmnb)
+
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300;366", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(56)
+	gg.editAll("-1339", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1.427811e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("-200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("h4E8A38EEE000DDE5", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("h4E8A38EE", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(7243)
+	gg.editAll("78;-118;56;0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("-6.077603e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(999)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
+	gg.clearResults()
+
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+	gg.searchNumber("0.9986295104", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.9986295104", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("1224995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+	gg.searchNumber("0.9986295104", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.9986295104", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("1224995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300;366", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(56)
+	gg.editAll("-1339", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("-6.077603e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("h4E8A38EEE000DDE5", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("h4E8A38EE", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(7243)
+	gg.editAll("78;-118;56;0", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1.427811e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("-200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-460", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-560", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.07", gg.TYPE_FLOAT)
+	gg.setRanges(131072)
+	gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1)
+	gg.searchNumber("26", 16, false, 536870912, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-460", 16)
+	gg.clearResults()
+	gg.searchNumber("-88.73961639404;28:512", 16, false, 536870912, 0, -1)
+	gg.searchNumber("28", 16, false, 536870912, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-560", 16)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("50000~100000;0;1;5D~100D::13", gg.TYPE_FLOAT)
+	gg.refineNumber("50000~100000", gg.TYPE_FLOAT)
+	gg.getResults(210)
+	gg.editAll("35125", gg.TYPE_FLOAT)
+	gg.clearResults()
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "@DARSHAN" },
+		{ ["value"] = 4740038608910024704, ["type"] = 32 },
+		{ ["lv"] = 4752423507886342144, ["offset"] = 4, ["type"] = 32 },
+		{ ["lv"] = 1106509824, ["offset"] = 8, ["type"] = 32 },
+	}
+	qmxg = {
+		{ ["value"] = 150, ["offset"] = 0, ["type"] = 16 },
+		{ ["value"] = 150, ["offset"] = 4, ["type"] = 16 },
+		{ ["value"] = 150, ["offset"] = 8, ["type"] = 16 },
+	}
+	xqmnb(qmnb)
+	gg.setRanges(32)
+	local dataType = 16
+	local search = { { 25.0, 0 }, { 30.5, 4 } }
+	local modify = { { 460, 0 }, { 560, 4 } }
+	SearchWrite(search, modify, dataType, Name)
+	gg.clearList()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	Name = "-Rishabh"
+	local dataType = 16
+	local search = { { 30.5, 0 }, { 23.0, -8 }, { 25.0, -4 } }
+	local modify = { { 200, 0 }, { 200, -4 }, { 60, -8 } }
+	SearchWrite(search, modify, dataType, Name)
+	gg.clearResults()
+	gg.toast("Super HeadShot Private By @DARSHAN")
+end
+function B4()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1166C18
+	setvalue(so + py, 16, 0)
+	gg.toast("X EFFECT ACTIVATED")
+end
+function B5()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3B2F578
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x19456CC
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xDA7598
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xDBED90
+	setvalue(so + py, 4, -509587454)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1945800
+	setvalue(so + py, 16, 999)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x193D5BC
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xBD3780
+	setvalue(so + py, 16, -3.69369514e20)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xBD2A3C
+	setvalue(so + py, 4, 2, 046, 820, 353)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0xBD2C1C
+	setvalue(so + py, 4, 2, 046, 820, 353)
+	gg.toast("AIMBOT ACTIVATED")
+end
+function B6()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x28F30F0
+	setvalue(so + py, 4, -1222129996) --Black Sky
+end
+function B7()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.setVisible(false)
+	gg.searchNumber("-3.8738163e21;-8.1893464e19;-7.5552396e19:25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-8.1893464e19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.setVisible(false)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.alert(" ŁФШ MS ΛϾТłVΛТΞÐ")
+end
+
+function B8()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2633F60
+	setvalue(so + py, 16, 0)
+	gg.toast(" Qᴜɪᴄᴋᴡᴇᴀᴘᴏɴ ")
+end
+
+RishabhFlash = off
+function Brutalcheat()
+	AzClan = gg.choice(
+		{
+			"sᴘᴇᴇᴅ ʀᴜɴ 400ᴍ",
+			"ᴀʟʟ ᴄᴀʀ ꜱᴘᴇᴇᴅ",
+			"ꜱɪᴛ ꜱᴄᴏᴘᴇ" .. RishabhFlash,
+			"𝙻𝙾𝙽𝙶 𝙷𝙰𝙽𝙳 𝙵𝙾𝚁𝚆𝙰𝚁𝙳",
+			"ᴍɪᴄʀᴏ ꜱᴘᴇᴇᴅ",
+			"𝙹𝚄𝙼𝙿 𝙲𝙰𝚁",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"═══════════════════════════════\n         ᗯƐᒪᑕOᗰƐ ƬO ᑕHƐᗩƬ ᗰƐᑎᑌ\n═══════════════════════════════"
+	)
+	if AzClan == nil then
+	else
+		if AzClan == 1 then
+			AzA1()
+		end
+		if AzClan == 2 then
+			AzA2()
+		end
+		if AzClan == 3 then
+			AzA3()
+		end
+		if AzClan == 4 then
+			AzA4()
+		end
+		if AzClan == 5 then
+			AzA5()
+		end
+		if AzClan == 6 then
+			AzA6()
+		end
+		if AzClan == 7 then
+			Main()
+		end
+	end
+	AzClan = -1
+end
+
+function AzA1()
+	Say = gg.alert("Select One", "🔵ᴀᴄᴛiᴠᴀᴛᴇ", " 🔴ᴅᴇᴀᴄᴛiᴠᴇ")
+	if Say == 1 then
+		X1()
+	end
+	if Say == 2 then
+		X2()
+	end
+end
+
+function X1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.07;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.07", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("1.0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1.20", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("⚡ SPΞΞÐ+ Activated")
+end
+
+function X2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.20;1.20;1.20;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("⚡ SPΞΞÐ+ Deactivated")
+end
+
+function AzA2()
+	gg.clearResults()
+	gg.clearResults()
+	gg.toast("wait..")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1000;10;4D;4D;50;5;2;0.01::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(280)
+	gg.editAll("-0.23", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("wait...")
+	gg.toast("Speed All Vehicle's")
+end
+
+function AzA3()
+	if RishabhFlash == off then
+		RishabhFlash = on
+
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"18.38787841797;0.53867292404;-3.42232513428;1.77635705e-15:13",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.refineNumber("18.38787841797", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		sitscoppps1 = gg.getResults(2805)
+		gg.editAll("130.5419921875", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Sit Scope activated!")
+	else
+		RishabhFlash = off
+
+		gg.clearResults()
+		gg.setValues(sitscoppps1)
+		gg.clearResults()
+		gg.toast("Sit Scope Deactivated")
+	end
+end
+
+function AzA4()
+	Say = gg.alert("Select One", "🔵ᴀᴄᴛiᴠᴀᴛᴇ", " 🔴ᴅᴇᴀᴄᴛiᴠᴇ")
+	if Say == 1 then
+		XX1()
+	end
+	if Say == 2 then
+		XX2()
+	end
+end
+
+function XX1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.sleep(140)
+	gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.sleep(140)
+	gg.refineNumber("4138667321167981973", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1401)
+	gg.editAll("4848124999984742400", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("🧘‍♂️𝐿𝑂𝑁𝐺_𝐻𝐴𝑁𝐷_𝐹𝑂𝑅𝑊𝑂𝑅𝐷_【ON】 ")
+end
+
+function XX2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.sleep(140)
+	gg.refineNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.sleep(140)
+	gg.refineNumber("4848124999984742400", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1401)
+	gg.editAll("4138667321167981973", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("🧘𝐿𝑂𝑁𝐺_𝐻𝐴𝑁𝐷_𝐹𝑂𝑅𝑊𝑂𝑅𝐷_[OFF] ")
+end
+
+function AzA5()
+	Say = gg.alert("Select One", "🔵ᴀᴄᴛiᴠᴀᴛᴇ", " 🔴ᴅᴇᴀᴄᴛiᴠᴇ")
+	if Say == 1 then
+		ZX1()
+	end
+	if Say == 2 then
+		ZX2()
+	end
+end
+
+function ZX1()
+	---ON
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.07;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.07", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("1.0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1.07", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("⚡ SPΞΞÐ+ Activated")
+end
+
+function ZX2()
+	---OFF
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.07;1.07;1.07;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.07", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("⚡ SPΞΞÐ+ Deactivated")
+end
+
+function AzA6()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.processResume()
+	gg.searchNumber("-980", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("26000", gg.TYPE_FLOAT)
+	gg.processResume()
+	gg.sleep(800)
+	if revert ~= nil then
+		gg.setValues(revert)
+		gg.clearResults()
+	end
+end
+
+function Beautiful()
+	Beauty = gg.choice(
+		{
+			"𝔹𝕌𝕋𝕋𝕆ℕ ℂ𝕆𝕃𝕆𝕌ℝ",
+			"𝔽𝕆𝔾 ℂ𝕆𝕃𝕆𝕌ℝ",
+			"𝔹𝕌𝕃𝕃𝔼𝕋 ℂ𝕆𝕃𝕆𝕌ℝ",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"══════════════════════════════════════\n         ➭𝚃𝙷𝙰𝙽𝙺𝚂 𝙵𝙾𝚁 𝚄𝚂𝙸𝙽𝙶 𝙼𝚈 𝚅𝙸𝙿 𝚂𝙲𝚁𝙸𝙿𝚃 𝙵𝙾𝚁 𝚂𝙴𝙰𝚂𝙾𝙽 15\n══════════════════════════════════════"
+	)
+	if Beauty == nil then
+	else
+		if Beauty == 1 then
+			C1()
+		end
+		if Beauty == 2 then
+			C2()
+		end
+		if Beauty == 3 then
+			C3()
+		end
+		if Beauty == 4 then
+			Main()
+		end
+	end
+	ABHI = -1
+end
+
+function C1()
+	Most = gg.choice(
+		{
+			"𝙶𝚁𝙴𝙴𝙽𝙱𝚄𝚃𝚃𝙾𝙽",
+			"𝙿𝙸𝙽𝙺𝙱𝚄𝚃𝚃𝙾𝙽",
+			"𝚁𝙴𝙳𝙱𝚄𝚃𝚃𝙾𝙽",
+			"𝙱𝙻𝚄𝙴𝙱𝚄𝚃𝚃𝙾𝙽",
+			"𝚈𝙴𝙻𝙻𝙾𝚆𝙱𝚄𝚃𝚃𝙾𝙽",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"════════════════════════════════\n        W͡E͡L͡C͡O͡M͡E͡ T͡O͡ B͡E͡A͡U͡T͡I͡F͡U͡L͡ B͡U͡T͡T͡O͡N͡ M͡E͡N͡U͡\n════════════════════════════════"
+	)
+	if Most == nil then
+	else
+		if Most == 1 then
+			D1()
+		end
+		if Most == 2 then
+			D2()
+		end
+		if Most == 3 then
+			D3()
+		end
+		if Most == 4 then
+			D4()
+		end
+		if Most == 5 then
+			D5()
+		end
+		if Most == 6 then
+			Beautiful()
+		end
+	end
+	Most = -1
+end
+
+function D1()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1939170
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1939180
+	setvalue(so + py, 16, 0)
+	gg.toast("GREEN ACTIVATED")
+end
+function D2()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x193917C
+	setvalue(so + py, 16, 0)
+	gg.toast("PINK ACTIVATED")
+end
+function D3()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x193917C
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1939170
+	setvalue(so + py, 16, 0)
+	gg.toast("RED ACTIVATED")
+end
+function D4()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1939180
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x193917C
+	setvalue(so + py, 16, 0)
+	gg.toast("BLUE ACTIVATED")
+end
+function D5()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1939170
+	setvalue(so + py, 16, 0)
+	gg.toast("YELLOW ACTIVATED")
+end
+
+function C2()
+	Smart = gg.choice(
+		{
+			"𝙶𝚁𝙴𝙴𝙽𝙵𝙾𝙶",
+			"𝙱a𝙶𝙽𝙸𝙵𝙾𝙶",
+			"𝚁𝙴𝙳𝙵𝙾𝙶",
+			"𝙱𝙻𝚄𝙴𝙵𝙾𝙶",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"════════════════════════════════\n        𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙱𝙴𝙰𝚄𝚃𝙸𝙵𝚄𝙻 𝙵𝙾𝙶 𝙲𝙾𝙻𝙾𝚄𝚁 𝙼𝙴𝙽𝚄\n════════════════════════════════"
+	)
+	if Smart == nil then
+	else
+		if Smart == 1 then
+			E1()
+		end
+		if Smart == 2 then
+			E2()
+		end
+		if Smart == 3 then
+			E3()
+		end
+		if Smart == 4 then
+			E4()
+		end
+		if Smart == 5 then
+			Beautiful()
+		end
+	end
+	Smart = -1
+end
+
+function E1()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0X2077CD0
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CB4
+	setvalue(so + py, 16, 0)
+	gg.toast("GREEN FOG ACTIVATED")
+end
+function E2()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CB4
+	setvalue(so + py, 16, 0)
+	gg.toast("BAGNI FOG ACTIVATED")
+end
+function E3()
+	gg.clearResults()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0X2077CD0
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CC8
+	setvalue(so + py, 16, 0)
+	gg.toast("RED FOG ACTIVATED")
+end
+function E4()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CB4
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2077CC8
+	setvalue(so + py, 16, 0)
+	gg.toast("BLUE FOG ACTIVATED")
+end
+
+function C3()
+	OVER = gg.choice(
+		{
+			"𝙶𝚁𝙴𝙴𝙽𝙱𝚄𝙻𝙻𝙴𝚃",
+			"𝙱𝙰𝙶𝙽𝙸𝙱𝚄𝙻𝙻𝙴𝚃",
+			"𝚁𝙴𝙳𝙱𝚄𝙻𝙻𝙴𝚃",
+			"𝙱𝙻𝚄𝙴𝙱𝚄𝙻𝙻𝙴𝚃",
+			"𝚈𝙴𝙻𝙻𝙾𝚆𝙱𝚄𝙻𝙻𝙴𝚃",
+			"𝙱𝙻𝙰𝙲𝙺𝙱𝚄𝙻𝙻𝙴𝚃",
+			"𝔹𝔸ℂ𝕂",
+		},
+		nil,
+		"════════════════════════════════\n        𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝙱𝙴𝙰𝚄𝚃𝙸𝙵𝚄𝙻 𝙵𝙾𝙶 𝙲𝙾𝙻𝙾𝚄𝚁 𝙼𝙴𝙽𝚄\n════════════════════════════════"
+	)
+	if OVER == nil then
+	else
+		if OVER == 1 then
+			F1()
+		end
+		if OVER == 2 then
+			F2()
+		end
+		if OVER == 3 then
+			F3()
+		end
+		if OVER == 4 then
+			F4()
+		end
+		if OVER == 5 then
+			F5()
+		end
+		if OVER == 6 then
+			F6()
+		end
+		if OVER == 7 then
+			Beautiful()
+		end
+	end
+	OVER = -1
+end
+
+function F1()
+	gg.clearResults()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F1774
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F176C
+	setvalue(so + py, 16, 0)
+	gg.toast("GREEN BULLET ACTIVATED")
+end
+function F2()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F176C
+	setvalue(so + py, 16, 0)
+	gg.toast("BAGNI BULLET ACTIVATED")
+end
+function F3()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F173C
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F1774
+	setvalue(so + py, 16, 0)
+	gg.toast("RED BULLET ACTIVATED")
+end
+function F4()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F173C
+	setvalue(so + py, 16, 0)
+	gg.toast("BLUE BULLET ACTIVATED")
+end
+
+function F5()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F1774
+	setvalue(so + py, 16, 0)
+	gg.toast("YELLOW BULLET ACTIVATED")
+end
+
+function F6()
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F176C
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F173C
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x29F1774
+	setvalue(so + py, 16, 0)
+	gg.toast("YELLOW BULLET ACTIVATED")
+end
+
+Xxxy = off
+Xnxx = off
+Xnxx5 = off
+Xnxx6 = off
+Xnxx7 = off
+Xnxx8 = off
+function SkinMenu()
+	Fuck = gg.choice({
+		"𝑨𝒍𝒍 𝑮𝒖𝒏 𝑺𝒌𝒊𝒏𝒔",
+		"𝑭𝒍𝒐𝒘𝒆𝒓 𝑭𝒂𝒊𝒓𝒚 𝑺𝒆𝒕" .. Xxxy,
+		"𝑨𝒏𝒊𝒗𝒆𝒓𝒔𝒂𝒓𝒚 𝑼𝒏𝒊 𝑺𝒆𝒕" .. Xnxx,
+		"𝑹𝒆𝒅 𝑩𝒐𝒘𝒕𝒊𝒆 𝑺𝒆𝒕" .. Xnxx5,
+		"𝑬𝒏𝒗𝒐𝒚 𝑫𝒆𝒂𝒕𝒉 𝑺𝒆𝒕" .. Xnxx6,
+		"𝑺𝒏𝒐𝒘 𝑭𝒍𝒂𝒌 𝑺𝒖𝒊𝒕" .. Xnxx7,
+		"𝑨𝒓𝒕𝒊𝒄 𝑾𝒆𝒂𝒕𝒄𝒉 𝑺𝒆𝒕" .. Xnxx8,
+		"𝒗𝒆𝒉𝒊𝒄𝒍𝒆𝒔 𝑺𝒌𝒊𝒏𝒔",
+		"𝑯𝒆𝒍𝒎𝒆𝒕 𝑩𝒂𝒈 𝑺𝒌𝒊𝒏",
+		"𝑩𝒂𝒄𝒌",
+	}, nil, "𝐉𝐨𝐢𝐧_𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 @𝐀𝟐𝐳𝐖𝐚𝐫𝐫𝐢𝐨𝐫")
+	if Fuck == nil then
+	else
+		if Fuck == 1 then
+			Xnop()
+		end
+		if Fuck == 2 then
+			Xnxx1()
+		end
+		if Fuck == 3 then
+			Xnxx2()
+		end
+		if Fuck == 4 then
+			XyzV1()
+		end
+		if Fuck == 5 then
+			XyzV2()
+		end
+		if Fuck == 6 then
+			XyzV3()
+		end
+		if Fuck == 7 then
+			XyzV4()
+		end
+		if Fuck == 8 then
+			XyzV5()
+		end
+		if Fuck == 9 then
+			XyzV6()
+		end
+		if Fuck == 10 then
+			Main()
+		end
+	end
+	ABHI = -1
+end
+
+function Xnop()
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10100400, 0 } }
+	local Sz2 = { { 1101004086, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("M416 lizard")
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10200200, 0 } }
+	local Sz2 = { { 1102002030, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("Aniversary UMP45 ")
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10100100, 0 } }
+	local Sz2 = { { 1101001095, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("Deadly spade Akm  ")
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10300100, 0 } }
+	local Sz2 = { { 1103001060, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("Kar 98  ")
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10100200, 0 }, { 8402, 120 } }
+	local Sz2 = { { 1101002046, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("༆༆M16 ༆")
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10100300, 0 } }
+	local Sz2 = { { 1101003057, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast(" Scarl ")
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10100800, 0 } }
+	local Sz2 = { { 1101008026, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast(" M762 ")
+	gg.clearResults()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10300300, 0 }, { 8503, 120 } }
+	local Sz2 = { { 1103003030, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.toast(" AWM ")
+	gg.clearResults()
+	gg.toast("ᴀʟʟ ɢᴜɴs sᴋɪɴ Activated")
+end
+
+function Xnxx1()
+	if Xxxy == off then
+		Xxxy = on
+		Name = "Flower fairy set"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 403007, 0 }, { 7, 52 } }
+		local Sz2 = { { 1405132, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("Flower fairy set Activated")
+	else
+		Xxxy = off
+		Name = "Flower fairy set"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 1405132, 0 }, { 7, 52 } }
+		local Sz2 = { { 403007, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("️Flower fairy set deativated")
+	end
+end
+
+function Xnxx2()
+	if Xnxx == off then
+		Xnxx = on
+		Name = "ᴀɴɪᴠᴇʀsᴀʀʏ ᴜɴɪ. sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 403007, 0 }, { 7, 52 } }
+		local Sz2 = { { 1405482, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("ᴀɴɪᴠᴇʀsᴀʀʏ ᴜɴɪ. sᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+	else
+		Xnxx = off
+		Name = "Flower fairy set"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 1405482, 0 }, { 7, 52 } }
+		local Sz2 = { { 403007, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("️ᴀɴɪᴠᴇʀsᴀʀʏ ᴜɴɪ. sᴇᴛ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ")
+	end
+end
+
+function XyzV1()
+	if Xnxx5 == off then
+		Xnxx5 = on
+		Name = "ʀᴇᴅ ʙᴏᴡᴛɪᴇ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 403007, 0 }, { 7, 52 } }
+		local Sz2 = { { 1405426, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("ʀᴇᴅ ʙᴏᴡᴛɪᴇ sᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+	else
+		Xnxx5 = off
+		Name = "ʀᴇᴅ ʙᴏᴡᴛɪᴇ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 1405426, 0 }, { 7, 52 } }
+		local Sz2 = { { 403007, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("️ʀᴇᴅ ʙᴏᴡᴛɪᴇ sᴇᴛ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ")
+	end
+end
+
+function XyzV2()
+	if Xnxx6 == off then
+		Xnxx6 = on
+		Name = "ᴇɴᴠᴏʏ ᴅᴇᴀᴛʜ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 403007, 0 }, { 7, 52 } }
+		local Sz2 = { { 1405318, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("ᴇɴᴠᴏʏ ᴅᴇᴀᴛʜ sᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+	else
+		Xnxx6 = off
+		Name = "ᴇɴᴠᴏʏ ᴅᴇᴀᴛʜ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 1405318, 0 }, { 7, 52 } }
+		local Sz2 = { { 403007, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("️ᴇɴᴠᴏʏ ᴅᴇᴀᴛʜ sᴇᴛ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ")
+	end
+end
+
+function XyzV3()
+	if Xnxx7 == off then
+		Xnxx7 = on
+		Name = "sɴᴏᴡ ғʟᴀᴋ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 403007, 0 }, { 7, 52 } }
+		local Sz2 = { { 1405711, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("sɴᴏᴡ ғʟᴀᴋ sᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+	else
+		Xnxx7 = off
+		Name = "sɴᴏᴡ ғʟᴀᴋ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 1405711, 0 }, { 7, 52 } }
+		local Sz2 = { { 403007, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("️sɴᴏᴡ ғʟᴀᴋ sᴇᴛ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ")
+	end
+end
+
+function XyzV4()
+	if Xnxx8 == off then
+		Xnxx8 = on
+		Name = "ᴀʀᴛɪᴄ ᴡᴇᴀᴛᴄʜ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 403007, 0 }, { 7, 52 } }
+		local Sz2 = { { 1405384, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("ᴀʀᴛɪᴄ ᴡᴇᴀᴛᴄʜ sᴇᴛ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+	else
+		Xnxx8 = off
+		Name = "ᴀʀᴛɪᴄ ᴡᴇᴀᴛᴄʜ sᴇᴛ"
+		local Nc = 32
+		local Lx = 4
+		local Sz1 = { { 1405384, 0 }, { 7, 52 } }
+		local Sz2 = { { 403007, 0 } }
+		HaoGe(Nc, Lx, Sz1, Sz2)
+		gg.toast("️ᴀʀᴛɪᴄ ᴡᴇᴀᴛᴄʜ sᴇᴛ ᴅᴇᴀᴄᴛɪᴠᴀᴛᴇ")
+	end
+end
+
+function XyzV5()
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 1903001, 0 } }
+	local Sz2 = { { 1903040, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("DACIA")
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 10800400, 0 } }
+	local Sz2 = { { 1108004109, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("PAN")
+	Name = "DARSHAN"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 1907001, 0 } }
+	local Sz2 = { { 1907026, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.toast(" Buggy ")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1908001", gg.TYPE_DWORD)
+	gg.getResults(99999)
+	gg.editAll("1909019", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("ʙʟᴀᴄᴋ ᴜᴀᴢ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+	gg.clearResults()
+end
+
+function XyzV6()
+	gg.clearResults()
+	Name = "Lv~1"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 501001, 0 }, { 501000, -44 } }
+	local Sz2 = { { 1501001045, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	Name = "Lv~2"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 501002, 0 }, { 501000, -44 } }
+	local Sz2 = { { 1501002045, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	Name = "Lv~3"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 501003, 0 }, { 501000, -44 } }
+	local Sz2 = { { 1501003045, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast("Brilliant Anniversary")
+	Name = "Lv~1"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 502001, 0 }, { 502000, -44 } }
+	local Sz2 = { { 1502001036, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	Name = "Lv~2"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 502002, 0 }, { 502000, -44 } }
+	local Sz2 = { { 1502002036, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	Name = "Lv~3"
+	local Nc = 32
+	local Lx = 4
+	local Sz1 = { { 502003, 0 }, { 502000, -44 } }
+	local Sz2 = { { 1502003036, 0 } }
+	HaoGe(Nc, Lx, Sz1, Sz2)
+	gg.clearResults()
+	gg.toast(" Cupid Helmet ")
+end
+
+function Exit()
+	gg.alert([[
+═══════════════════════
+𝙅𝙊𝙄𝙉 𝙏𝙀𝙇𝙀𝙂𝙍𝘼𝙈𝗗𝗔𝗥𝗦𝗛𝗔𝗡 𝗖𝗛𝗘𝗔𝗧𝗦
+═══════════════════════
+𝙎𝙀𝙉𝘿 𝙁𝙀𝙀𝘿𝘽𝘼𝘾𝙆 @𝗗𝗔𝗥𝗦𝗛𝗔𝗡 𝗖𝗛𝗘𝗔𝗧𝗦
+═══════════════════════
+𝙏𝙃𝘼𝙉𝙆𝙎 𝙁𝙊𝙍 𝙐𝙎𝙄𝙉𝙂 𝙈𝙔 𝙎𝘾𝙍𝙄𝙋𝙏
+═══════════════════════]])
+	os.exit()
+end
+function HOME()
+	lw = 1
+	Main()
+end
+
+while true do
+	if gg.isVisible(true) then
+		ABHI = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if ABHI == 1 then
+		Main()
+	end
+end

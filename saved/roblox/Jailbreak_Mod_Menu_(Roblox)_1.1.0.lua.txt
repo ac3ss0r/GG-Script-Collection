@@ -1,0 +1,189 @@
+gg.alert("JailBreak Hacks!")
+gg.toast("By: Zero Two army/imwood04/junkhead10 (all 1 person btw)")
+
+if gg.isVisible(true) then
+	gg.setVisible(false)
+	goto START
+end
+
+::START::
+menu = gg.choice({
+	"Speed Menu",
+	"Super Jump",
+	"Disable Super Jump",
+	"No-Clip",
+	"Disable No-Clip",
+	"Credits",
+	"Back to Roblox",
+})
+if menu == 1 then
+	goto SpeedMenu
+end
+if menu == 2 then
+	goto cak2
+end
+if menu == 3 then
+	goto cak3
+end
+if menu == 4 then
+	goto cak4
+end
+if menu == 5 then
+	goto cak5
+end
+if menu == 6 then
+	goto cak6
+end
+if menu == nil then
+	print("error")
+end
+goto JbEnd
+
+::SpeedMenu::
+gg.clearResults()
+
+Speed = gg.choice({ "Speed 50", "Speed 200", "Speed 50 Disable", "Speed 200 Disable", "Back" })
+if Speed == 1 then
+	goto speed1
+end
+if Speed == 2 then
+	goto speed2
+end
+if Speed == 3 then
+	goto speed3
+end
+if Speed == 4 then
+	goto speed4
+end
+if Speed == 5 then
+	goto Back
+end
+os.exit()
+
+::speed1::
+gg.alert("WalkSpeed 50 is loading...")
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("50", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+gg.alert("WalkSpeed is now 50")
+goto SpeedMenu
+
+::speed2::
+gg.alert("WalkSpeed 200 is loading...")
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("200", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+gg.alert("WalkSpeed is now 200")
+goto SpeedMenu
+
+::speed3::
+gg.alert("WalkSpeed Normal Is Loading...")
+gg.searchNumber("50", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("16", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+gg.alert("WalkSpeed is normal")
+goto SpeedMenu
+
+::speed4::
+gg.alert("WalkSpeed Normal is loading...")
+gg.searchNumber("200", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("16", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+gg.alert("WalkSpeed is normal")
+goto SpeedMenu
+
+::Back::
+goto START
+
+::cak2::
+gg.alert("Super Jump is loading...")
+gg.clearResults()
+
+function searchText(text)
+	local bytes = gg.bytes(text, "UTF-8")
+	local ret = ""
+	for i, b in ipairs(bytes) do
+		ret = ret .. ";" .. b
+	end
+	ret = ret:sub(2) .. "::" .. #bytes
+	return gg.searchNumber(ret, gg.TYPE_BYTE)
+end
+
+searchText("@33DC")
+
+function replaceText(text)
+	local bytes = gg.bytes(text, "UTF-8")
+	local all = gg.getResults(1000)
+	local len = #bytes
+	for i, t in ipairs(all) do
+		t.value = bytes[((i - 1) % len) + 1]
+	end
+	return gg.setValues(all)
+end
+
+replaceText("@33DA")
+gg.clearResults()
+gg.alert("Super Jump is Activated!")
+goto JbEnd
+
+::cak3::
+gg.alert("Super Jump is Deactivating...")
+gg.clearResults()
+
+function searchText(text)
+	local bytes = gg.bytes(text, "UTF-8")
+	local ret = ""
+	for i, b in ipairs(bytes) do
+		ret = ret .. ";" .. b
+	end
+	ret = ret:sub(2) .. "::" .. #bytes
+	return gg.searchNumber(ret, gg.TYPE_BYTE)
+end
+
+searchText("@33DA")
+
+function replaceText(text)
+	local bytes = gg.bytes(text, "UTF-8")
+	local all = gg.getResults(1000)
+	local len = #bytes
+	for i, t in ipairs(all) do
+		t.value = bytes[((i - 1) % len) + 1]
+	end
+	return gg.setValues(all)
+end
+
+replaceText("@33DC")
+gg.clearResults()
+gg.alert("Super Jump Deactivated!")
+goto JbEnd
+
+::cak4::
+gg.alert("No-Clip is loading...")
+gg.searchNumber("0.010", gg.TYPE_FLOAT)
+gg.getResults(9000)
+print("Replaced: ", gg.editAll("-10.2", gg.TYPE_FLOAT))
+gg.alert("No-Clip is Activated!")
+goto JbEnd
+
+::cak5::
+gg.alert("No-Clip Deactivating...")
+gg.searchNumber("-10.2", gg.TYPE_FLOAT)
+gg.getResults(9000)
+print("Replaced: ", gg.editAll("0.010", gg.TYPE_FLOAT))
+gg.alert("No-Clip Deactivated!")
+goto JbEnd
+
+::cak6::
+gg.alert("My Discord is Zero Two#0002 but I got a special space so u be able to just add me")
+goto JbEnd
+
+::JbEnd::
+gg.alert("Script Ended")

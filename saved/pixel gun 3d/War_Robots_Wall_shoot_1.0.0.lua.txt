@@ -1,0 +1,72 @@
+while true do
+	if gg.isVisible(true) then
+		menuk = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+
+	START = 1
+
+	function START()
+		menu = gg.choice({ "Wall Shoot", "EXIT" }, nil, "Select Cheat")
+
+		if menu == 1 then
+			wallshoot()
+		end
+		if menu == 2 then
+			os.exit()
+		end
+		if menu == nil then
+			noselect()
+		end
+		menuk = -1
+	end
+
+	function wallshoot()
+		wall = gg.multiChoice({ "Activate/Deactivate", "BACK" }, { [1] = true }, "ON /OFF wallshoot")
+
+		if wall == nil then
+			noselect()
+		else
+			if wall[2] == true then
+				START()
+			else
+				if wall[1] == true then
+					wallshootON()
+				else
+					wallshootOFF()
+				end
+			end
+		end
+	end
+
+	function wallshootON()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_C_BSS)
+		gg.searchNumber(9.9999997e-10, gg.TYPE_FLOAT)
+		gg.getResults(4)
+		gg.editAll(900.355145, gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Enjoy the WaLL Shoot")
+		gg.setRanges(old)
+	end
+
+	function wallshootOFF()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_C_BSS)
+		gg.searchNumber(900.355145, gg.TYPE_FLOAT)
+		gg.getResults(4)
+		gg.editAll(9.9999997e-10, gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Wall Shoot disabled")
+		gg.setRanges(old)
+	end
+
+	function noselect()
+		gg.toast("You Not Select Anything")
+	end
+
+	if menuk == 1 then
+		START()
+	end
+end

@@ -1,0 +1,3012 @@
+function BPSS()
+	gg.clearResults()
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(600)
+	gg.editAll("0", gg.TYPE_DWORD)
+	os.remove(
+		"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/xg.otherpush.xml.xml"
+	)
+	os.remove(
+		"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/tpush.shareprefs.xml"
+	)
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/HSJsonData.xml")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/gsdk_prefs.xml")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/DENGTA_META.xml")
+	os.remove(
+		"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/com.tencent.ig_preferences.xml"
+	)
+	os.remove(
+		"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/com.google.android.gms.measurement.prefs.xml"
+	)
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/beacon_cover.xml")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/admob.xml")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/cache")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/app_crashrecord/1004")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/cache/*")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/databases")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/databases/*")
+	os.remove(
+		"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/iMSDK/2_3958967099ae8f8decc2054e1e1a3ca9_1320_20190415083930.log"
+	)
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/mycpuinfo")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/AdjustIoActivityState")
+	os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/AdjustIoPackageQueue")
+	os.remove(
+		"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/AppEventsLogger.persistedevents"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud/*")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog/tbslog.txt")
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra.log"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/loginInfoFile.json"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra-backup-2019.04.15-05.04.17.log"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+	os.remove(
+		"/sdcard/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.igce/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.igce/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.igce/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.iglite/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.iglite/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.iglite/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	gg.toast("Done")
+end
+
+function bypassHelp()
+	bypassHelpAlert = gg.alert(
+		"Bypass - Function to protect against crashes. \nWithout it, your PUBG with a propability of 90% will exit after you try to activate something. \nYou need to start bypass at the correct time, it must be started at the begin of Tencent & Lighspeed logo. \nProbably, while you're reading this, the game had time to load and you need to restart it again.",
+		"Finish script \nand exit the game",
+		"Back to selection"
+	)
+	if bypassHelpAlert == 1 then
+		gg.processKill()
+		os.exit()
+	end
+	if bypassHelpAlert == 2 then
+		startBypass()
+	end
+end
+
+function startBypass()
+	gg.setVisible(false)
+	gg.toast("CREATED BY PUBGLEAK.COM")
+end
+startBypass()
+
+gg.toast(os.date([[Time : %H:%M:%S %p
+Today : %A, %d %B %Y]]))
+while true do
+	if gg.isVisible(true) then
+		menuk = 1
+		gg.setVisible(false)
+	end
+
+	START = 1
+	function START()
+		menu = gg.choice({
+			"📂 Protect Menu LOBBY [GAME]",
+			"📂 WH+COLOUR [GAME]",
+			"📂 Lobby Menu ",
+			"📂 Game Menu",
+			"📂 Speed [GAME]",
+			"📂 Exit ",
+		}, nil, " \n  www.pubgleak.com  ||  ")
+		if menu == 1 then
+			pm()
+		end
+		if menu == 2 then
+			ch1()
+		end
+		if menu == 3 then
+			ch2()
+		end
+		if menu == 4 then
+			ch3()
+		end
+		if menu == 5 then
+			ch4()
+		end
+		if menu == 5 then
+			os.exit()
+		end
+		if menu == nil then
+		else
+		end
+		menuk = -1
+	end
+
+	function ch2()
+		menuch2 = gg.multiChoice({
+			"LES RECOIL [SAFE]",
+			"AIM BOT 50M [MIDIUM]",
+			"HEADSHOT 50% [SAFE]",
+			"NO RECOIL [RISKY]",
+			"B A C K ",
+		}, nil, " LOBBY HACKS \n www.pubgleak.com ||  ")
+		if menuch2 == nil then
+		else
+			if menuch2[1] == true then
+				A1()
+			end
+			if menuch2[2] == true then
+				A2()
+			end
+			if menuch2[3] == true then
+				A3()
+			end
+			if menuch2[4] == true then
+				NORECLOBBY()
+			end
+
+			if menuch2[5] == true then
+				START()
+			end
+		end
+		PUBGMH = -1
+	end
+	function NORECLOBBY()
+		gg.clearResults()
+		gg.setRanges(8)
+		gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
+		gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
+		gg.getResults(1)
+		gg.editAll("0", 16)
+		gg.clearResults()
+		gg.setRanges(8)
+		gg.searchNumber("-2.8111605e28;-3.7444097e28;-1.1144502e28;128.0::", 16, false, 536870912, 0, -1)
+		gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+		gg.getResults(1)
+		gg.editAll("0", 16)
+		gg.clearResults()
+		gg.setRanges(8)
+		gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", 16, false, 536870912, 0, -1)
+		gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+		gg.getResults(1)
+		gg.editAll("0", 16)
+		gg.clearResults()
+		gg.setRanges(8)
+		gg.searchNumber(
+			"-1.238.624e28;-1.4239333e28;-1.1144502e28;-1.8331474e27;-    7.1608877e24::",
+			16,
+			false,
+			536870912,
+			0,
+			-1
+		)
+		gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+		gg.getResults(2)
+		gg.editAll("90", 16)
+		gg.toast("No Recoil 100%  activated")
+		gg.clearResults()
+	end
+
+	function ah()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-460", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-560", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("450", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_BSS)
+		gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("0.07", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Auto Headshot")
+	end
+	function AH1()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-88.66608428955;26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-466", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("-88.73961639404;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-568", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("280", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Auto Headshot")
+	end
+
+	function aim0()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("0;1.19193046077e-40;1;-9.6172094345093e-05;1.6815581571898e-44::384", gg.TYPE_DWORD, false)
+		gg.searchNumber("0", gg.TYPE_DWORD, false)
+		gg.getResults(10)
+		gg.editAll("131120.0", gg.TYPE_DWORD)
+		gg.toast("辅助提示:自瞄开启成功，请打开辅助瞄准")
+	end
+	function aim01()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("30;30;0.3;0.3;80;25;220::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0.03", gg.TYPE_FLOAT)
+		gg.toast("自瞄第一步开启成功")
+	end
+	function aim02()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("36;1065353216;50528513;1203982336:", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1065353216", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("1,090,519,040", gg.TYPE_DWORD)
+		gg.toast("第二步出生地开启成功")
+	end
+
+	function A1()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(800)
+		gg.editAll("0", gg.TYPE_DWORD)
+		gg.toast("Less Recoil Successful!")
+		gg.clearResults()
+		gg.setVisible(false)
+		gg.clearResults()
+		gg.toast(" Less Recoil Activated ")
+	end
+
+	function A2()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.setRanges(gg.REGION_C_DATA)
+		gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.toast(" Aimbot 50M Activated ")
+	end
+	function A3()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-460", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("-560", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("300", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" Headshoot 50% Active! ")
+	end
+
+	function ch4()
+		CHC = gg.choice({
+			" 2x Speed [ON]",
+			" 2x Speed [OFF]",
+			" 3x Speed [ON]",
+			" 3x Speed [OFF]",
+			" 4x Speed [ON]",
+			" 4x Speed [OFF]",
+			" 6x Speed [ON]",
+			" 6x Speed [OFF]",
+			" Speed V1 [Player Only Personal keys]",
+			" Speed V2 [Player Only Personal keys]",
+			" Super High Jump+",
+			" Super Multy Jump+",
+			"🔙",
+		}, nil, "www.pubgleak.com Credit LTG")
+
+		if CHC == nil then
+		else
+			if CHC == 1 then
+				MSPEED()
+			end
+			if CHC == 2 then
+				MSPEEDOFF()
+			end
+			if CHC == 3 then
+				MDSPEED()
+			end
+			if CHC == 4 then
+				MDSPEEDOFF()
+			end
+			if CHC == 5 then
+				USPEED()
+			end
+			if CHC == 6 then
+				USPEEDOFF()
+			end
+			if CHC == 7 then
+				SUSPEED()
+			end
+			if CHC == 8 then
+				SUSPEEDOFF()
+			end
+			if CHC == 9 then
+				FLASHVIPV1()
+			end
+			if CHC == 10 then
+				FLASHVIPV2()
+			end
+			if CHC == 11 then
+				SJPM()
+			end
+			if CHC == 12 then
+				SJPV2M()
+			end
+			if CHC == 13 then
+				START()
+			end
+		end
+		PUBGMH = -1
+	end
+
+	function SJPV2M()
+		MN44 = gg.choice({
+			"Super Multy Jump",
+			"Super Long Jump",
+			"🔙",
+		}, nil, " www.pubgleak.com Credit : LTG")
+
+		if MN44 == nil then
+		else
+			if MN44 == 1 then
+				SJP5()
+			end
+			if MN44 == 2 then
+				SJP6()
+			end
+			if MN44 == 3 then
+				START()
+			end
+		end
+		PUBGMH = -1
+	end
+
+	function SJP6()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(
+			"7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(
+			"7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(
+			"7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(
+			"7.0064923e-45F;0.6~1;1065353216D;100F;1065353216D;2500000000F;0.10000000149F;88F::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.getResultCount()
+		gg.searchNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.6~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(25)
+		gg.editAll("3.5241295", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("50%")
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("300;0;0.05000000075;2;25::17", gg.TYPE_FLOAT, false)
+		gg.getResultCount()
+		gg.searchNumber("0.05000000075", gg.TYPE_FLOAT, false)
+		gg.getResults(24)
+		gg.editAll("2.1241295", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Super Long Jump activated!")
+	end
+	function SJP5()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"1;-0.70710676908;0.70710670948;64;1.793662e-43;1.4012985e-45;1D;1D::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(9999)
+		gg.editAll("999", gg.TYPE_FLOAT)
+		gg.toast("Super Multy Jump activated!")
+	end
+	function MSPEED()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1.06", gg.TYPE_FLOAT)
+		gg.toast("Micro Speed activated!")
+	end
+	function MSPEEDOFF()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1.06;1.06;1.06;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.06", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1", gg.TYPE_FLOAT)
+		gg.toast("Micro Speed deactivated!")
+	end
+	function MDSPEED()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1.1,1", gg.TYPE_FLOAT)
+		gg.toast("Medium Speed activated!")
+	end
+	function MDSPEEDOFF()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1.1,2;1.1,2;1.1,2;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.1,1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1", gg.TYPE_FLOAT)
+		gg.toast("Medium Speed deactivated!")
+	end
+	function USPEED()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("1.2,5", gg.TYPE_FLOAT)
+		gg.toast("Ultra Speed activated!")
+	end
+	function USPEEDOFF()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1.2,5;1.2,5;1.2,5;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.2,5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("1", gg.TYPE_FLOAT)
+		gg.toast("Ultra Speed deactivated!")
+	end
+	function SUSPEED()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1.5", gg.TYPE_FLOAT)
+		gg.toast("Super Ultra Speed activated!")
+	end
+	function SUSPEEDOFF()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1.5;1.5;1.5;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1", gg.TYPE_FLOAT)
+		gg.toast("Super Ultra Speed deactivated!")
+	end
+
+	function ch3()
+		menuch3 = gg.multiChoice({
+			"High Jump",
+			"Magic Bullet",
+			"Speed Knock",
+			"Anti Shake",
+			"Black Sky 425",
+			"Speed All Car",
+			"No Grass Erengel",
+			"Speed No Stuck",
+			"Antena",
+			"Sit Scope",
+			" Fast Landing",
+			" HeadShot 90%",
+			"Auto HeadShot (Behind wall /Trees) ",
+			"No Recoil Holding Guns",
+			"Flying Jeep (In Jeep)",
+			"Wall Shoot",
+			"HeadShot Brutual",
+			"Antenna Super",
+			"m4 Fire Rate",
+			"AUTO Head Shot New",
+			"Super Aimbot ",
+			"Super Aimbot 1",
+			"Super Aimbot 2",
+			"B A C K ",
+		}, nil, "??= GAME MENU  YT: www.pubgleak.com ||  ")
+		if menuch3 == nil then
+		else
+			if menuch3[1] == true then
+				B1()
+			end
+			if menuch3[2] == true then
+				B2()
+			end
+			if menuch3[3] == true then
+				B3()
+			end
+			if menuch3[4] == true then
+				B4()
+			end
+			if menuch3[5] == true then
+				B5()
+			end
+			if menuch3[6] == true then
+				B6()
+			end
+			if menuch3[7] == true then
+				B7()
+			end
+			if menuch3[8] == true then
+				B8()
+			end
+			if menuch3[9] == true then
+				B9()
+			end
+			if menuch3[10] == true then
+				B10()
+			end
+			if menuch3[11] == true then
+				FastLanding()
+			end
+			if menuch3[12] == true then
+				HS100()
+			end
+			if menuch3[13] == true then
+				ah()
+			end
+			if menuch3[14] == true then
+				norecoilWG()
+			end
+			if menuch3[15] == true then
+				Fly()
+			end
+			if menuch3[16] == true then
+				wallShoot()
+			end
+			if menuch3[17] == true then
+				headshot()
+			end
+			if menuch3[18] == true then
+				AntennaSUper()
+			end
+			if menuch3[19] == true then
+				m4firerate()
+			end
+			if menuch3[20] == true then
+				AH1()
+			end
+			if menuch3[21] == true then
+				aim0()
+			end
+			if menuch3[22] == true then
+				aim01()
+			end
+
+			if menuch3[23] == true then
+				aim02()
+			end
+
+			if menuch3[24] == true then
+				START()
+			end
+		end
+		PUBGMH = -1
+	end
+
+	function m4firerate()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("0.02600000292", gg.TYPE_FLOAT)
+		gg.toast("m4 Fire Rate Increase")
+	end
+	function AntennaSUper()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"88.50576019287F;87.27782440186F;-100.91194152832F;1F::13",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(6)
+		gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Antenna Done")
+		gg.clearResults()
+	end
+
+	function wallShoot()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("1000", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("90.775703430176;8;27.25;18;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("140", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_BSS)
+		gg.searchNumber("1.0e-7;1.0e-7;2;2;1::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.alert("Now  Shot Behind the Wall")
+	end
+
+	function headshot()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(92)
+		gg.editAll("-89999960", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(92)
+		gg.editAll("-99999960", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;16.0",
+			16,
+			false,
+			536870912,
+			0,
+			-1
+		)
+		gg.searchNumber("16", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("100", 16)
+		gg.clearResults()
+		gg.setRanges(32)
+		gg.searchNumber("9.20161819458;23;25;30.5", 16, false, 536870912, 0, -1)
+		gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("245", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("999999", gg.TYPE_FLOAT)
+		gg.toast(" HEADSHOT Brutual Activated")
+	end
+
+	function Fly()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.74509805441", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(9999)
+		gg.editAll("99999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("45F;15F;20F;2500F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(999)
+		gg.editAll("500", gg.TYPE_FLOAT)
+		gg.toast("Jeep on Air Activated")
+	end
+
+	function FastLanding()
+		gg.clearResults()
+		gg.setRanges(32)
+		gg.searchNumber("0.75;150;1", 16, false, 536870912, 0, -1)
+		gg.searchNumber("1", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("30", 16)
+		gg.clearResults()
+		gg.setRanges(32)
+		gg.searchNumber("0.75;150;30", 16, false, 536870912, 0, -1)
+		gg.searchNumber("0.75", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("0", 16)
+		gg.toast(" Fast Landing DOne ")
+	end
+
+	function norecoilWG()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.setVisible(false)
+		gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+		gg.setVisible(false)
+		gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+		gg.getResults(200)
+		gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+		gg.toast("YouTube Channel www.pubgleak.com")
+	end
+
+	function B1()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(500)
+		gg.editAll("3", gg.TYPE_FLOAT)
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("3;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("443", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(500)
+		gg.editAll("2500", gg.TYPE_FLOAT)
+		gg.toast(" High Jump Activated ")
+	end
+	function B3()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" Speed Knock Activated ")
+	end
+	function B4()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.setVisible(false)
+		gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+		gg.setVisible(false)
+		gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+		gg.getResults(200)
+		gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" Anti Shake Activated ")
+	end
+	function B2()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("248", gg.TYPE_FLOAT)
+		gg.toast(" Magic Bullet Activated ")
+	end
+	function B5()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("327,684;8,197;256;458,754", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResultsCount()
+		gg.searchNumber("458,754", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(5)
+		gg.editAll("9998", gg.TYPE_DWORD)
+		gg.toast(" Black Sky  Activated ")
+	end
+	function B6()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("50;5;0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(280)
+		gg.editAll("-0.21", gg.TYPE_FLOAT)
+		gg.toast(" Speed Car Activated ")
+	end
+	function B7()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F::512",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("8.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.toast(" No Grass Erangel Activated ")
+	end
+	function B8()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(300)
+		gg.editAll("1.07", gg.TYPE_FLOAT)
+		gg.toast(" Speed No Stuck Activated ")
+	end
+	function B9()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("7.13142681122;0.53447723389;22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("9621", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.clearResults()
+		gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1995)
+		gg.editAll("19997", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1995)
+		gg.editAll("19997", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" Antena Simple Activated ")
+	end
+
+	function HS100()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(92)
+		gg.editAll("-89999960", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(92)
+		gg.editAll("-99999960", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"1;20.51941871643;2.04908943176;-86.45767974854;-92.2311706543;16.0",
+			16,
+			false,
+			536870912,
+			0,
+			-1
+		)
+		gg.searchNumber("16", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("100", 16)
+		gg.clearResults()
+		gg.setRanges(32)
+		gg.searchNumber("9.20161819458;23;25;30.5", 16, false, 536870912, 0, -1)
+		gg.searchNumber("25;30.5", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("245", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("999999", gg.TYPE_FLOAT)
+		gg.toast("AUTO HEADSHOT 90% ")
+	end
+	function B10()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(
+			"-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(500)
+		gg.editAll("333.0517578125", gg.TYPE_FLOAT)
+		gg.toast("Sit Scope Activated")
+	end
+
+	function ch1()
+		cb = gg.multiChoice({
+			" WH+Color",
+			" Other Chipset",
+			"= B A C K ",
+		}, nil, " Wall Hacks and Colour Menu  YT: www.pubgleak.com || ")
+		if cb == nil then
+		else
+			if cb[1] == true then
+				Wh()
+			end
+			if cb[2] == true then
+				OC()
+			end
+			if cb[3] == true then
+				START()
+			end
+		end
+		HM = -1
+	end
+
+	function Wh()
+		sg = gg.multiChoice({
+			" WALL HACK 400",
+			" WALL HACK 410",
+			" WALL HACK 415",
+			" WALL HACK 425",
+			" WALL HACK 430",
+			" WALL HACK 435",
+			" WALL HACK 450",
+			" WALL HACK 615",
+			" WALL HACK 616",
+			" WALL HACK 625",
+			" WALL HACK 626",
+			" WALL HACK 636",
+			" WALL HACK 650",
+			" WALL HACK 653",
+			" WALL HACK 660",
+			" WALL HACK 670",
+			" WALL HACK 710",
+			" WALL HACK 800",
+			" WALL HACK 801",
+			" WALL HACK 815",
+			" WALL HACK 820",
+			" WALL HACK 821",
+			" WALL HACK 835",
+			" WALL HACK 845",
+			" WALL HACK 855",
+			" WALL HACK Fix Blink",
+			" WALL HACK Fix Scope",
+			" WALL HACK Perfect Fix ",
+			" WALL HACK Perfect Fix v2 ",
+			"Red + Pink Car ",
+			"Red + Blue Car ",
+			"Red + Yellow  Car",
+			"Black Sky DOne",
+			"Perfect Blink FIx New",
+			"Perfect WallHack FIx New",
+			"Pink Soft",
+			"Blue Soft",
+			" B A C K ",
+		}, nil, " YT: www.pubgleak.com ||  \nTHANKS FOR SUPPORT")
+		if sg == nil then
+		else
+			if sg[1] == true then
+				W400()
+			end
+			if sg[2] == true then
+				W410()
+			end
+			if sg[3] == true then
+				W415()
+			end
+			if sg[4] == true then
+				W425()
+			end
+			if sg[5] == true then
+				W430()
+			end
+			if sg[6] == true then
+				W435()
+			end
+			if sg[7] == true then
+				W450()
+			end
+			if sg[8] == true then
+				W615()
+			end
+			if sg[9] == true then
+				W616()
+			end
+			if sg[10] == true then
+				W625()
+			end
+			if sg[11] == true then
+				W626()
+			end
+			if sg[12] == true then
+				W636()
+			end
+			if sg[13] == true then
+				W650()
+			end
+			if sg[14] == true then
+				W653()
+			end
+			if sg[15] == true then
+				W660()
+			end
+			if sg[16] == true then
+				W670()
+			end
+			if sg[17] == true then
+				W710()
+			end
+			if sg[18] == true then
+				W800()
+			end
+			if sg[19] == true then
+				W801()
+			end
+			if sg[20] == true then
+				W815()
+			end
+			if sg[21] == true then
+				W820()
+			end
+			if sg[22] == true then
+				W821()
+			end
+			if sg[23] == true then
+				W835()
+			end
+			if sg[24] == true then
+				W845()
+			end
+			if sg[25] == true then
+				W855()
+			end
+			if sg[26] == true then
+				WFB()
+			end
+			if sg[27] == true then
+				WFS()
+			end
+			if sg[28] == true then
+				WHP()
+			end
+			if sg[29] == true then
+				WHP1()
+			end
+			if sg[30] == true then
+				rpink()
+			end
+			if sg[31] == true then
+				rwitb()
+			end
+			if sg[32] == true then
+				rwithy()
+			end
+			if sg[33] == true then
+				blackskyok()
+			end
+			if sg[34] == true then
+				fix2()
+			end
+			if sg[35] == true then
+				perfectWH()
+			end
+			if sg[36] == true then
+				PINK()
+			end
+			if sg[37] == true then
+				blue()
+			end
+
+			if sg[38] == true then
+				START()
+			end
+		end
+		HM = -1
+	end
+
+	function blue()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"32768;-2134900726;32769;-2134900725;32770;-2134900724::",
+			gg.TYPE_DWORD,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("32769;32770::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("4", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast(" Smooth Blue activated!")
+	end
+
+	function PINK()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"32768;-2134900726;32769;-2134900725;32770;-2134900724::",
+			gg.TYPE_DWORD,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("32768;32770::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("4", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("Colour Smooth Pink activated!")
+	end
+
+	function perfectWH()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("3.7615819e-37;1.3912452e-19;2.0;-1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Perfect WALLHack Done")
+	end
+
+	function fix2()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;245.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;245.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.alert("Blink fix done")
+	end
+
+	function blackskyok()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.clearResults()
+		gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false)
+		gg.searchNumber("100", gg.TYPE_FLOAT, false)
+		gg.getResults(100)
+		gg.editAll("-90", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("Black Sky done √")
+	end
+
+	function WHP1()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("WH Perfect V3 Aktif Plak √")
+	end
+
+	function rwitb()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1,080,035,591D;196,617D;2.2509765625F::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1,080,035,591", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("1,00,035,591", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("32,769;-2,134,900,722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("32777", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("7", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+
+	function rwithy()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("32,769;-2,134,900,722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("32777", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("7", gg.TYPE_DWORD)
+		gg.toast("New Experiment Color activated!")
+		gg.clearResults()
+	end
+
+	function rpink()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("589826", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+		gg.getResults(20050309)
+		gg.editAll("666666", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("7", gg.TYPE_DWORD)
+		gg.toast("Merah HDR ?")
+		gg.clearResults()
+	end
+
+	function WHP()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("WH Perfect ")
+	end
+
+	function WFB()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function WFS()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(3)
+		gg.editAll("2.001", gg.TYPE_FLOAT)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(3)
+		gg.editAll("2.001", gg.TYPE_FLOAT)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W400()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber(
+			"228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29",
+			gg.TYPE_DWORD,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("1,123,024,896", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber(
+			"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W410()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_HEAP)
+		gg.searchNumber(
+			"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_HEAP)
+		gg.searchNumber("3.2229865e-43F;2.0F;-1.0F;-1.0F;2.0F:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(360)
+		gg.editAll("150", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W415()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_HEAP)
+		gg.searchNumber(
+			"228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29",
+			gg.TYPE_DWORD,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("1,123,024,896", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_HEAP)
+		gg.searchNumber(
+			"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W425()
+		gg.clearResults()
+		gg.setRanges(4)
+		gg.searchNumber(
+			"2.9427268e-44;2.0;3.0828566e-44;-1.0;3.2229865e-44;3.3631163e-44;3.643376e-44:97",
+			16,
+			false,
+			536870912,
+			0,
+			-1
+		)
+		gg.searchNumber("2", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", 16)
+		gg.clearResults()
+		gg.searchNumber("3.1529215e-43;2.0F;3.1669345e-43F;3.1809475e-43:49", 16, false, 536870912, 0, -1)
+		gg.searchNumber("2", 16, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", 16)
+		gg.clearResults()
+		gg.setRanges(4)
+		gg.searchNumber("227;1,073,741,824;1,073,741,824;-1,082,130,432;1,073,741,824:49", 4, false, 536870912, 0, -1)
+		gg.searchNumber("1,073,741,824", 4, false, 536870912, 0, -1)
+		gg.getResults(100)
+		gg.editAll("1,123,024,896", 4)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W430()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(4)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("3.2229865e-43F;2.0F;-1.0F;-1.0F;2.0F:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(360)
+		gg.editAll("150", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W435()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W450()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.1202013e-19;1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("150", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("150", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("4.7961574e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("150", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W615()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_HEAP)
+		gg.searchNumber("3.2229865e-43;2.0;-1.0;-1.0;2.0:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("122", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_HEAP)
+		gg.searchNumber(
+			"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W616()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W625()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W626()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("32769D;32770D;2.0F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(9)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.1202013e-19;1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(3)
+		gg.editAll("9999", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W636()
+		gg.clearResults()
+		gg.setRanges(131072)
+		gg.searchNumber("2;1.8947657e-40;5.8013756e-42", 16, false, 536870912, 0, -1)
+		gg.refineNumber("2", 16, false, 536870912, 0, -1)
+		gg.getResults(10)
+		gg.editAll("120", 16)
+		gg.clearResults()
+		gg.searchNumber("2.718519e-43;3.7615819e-37;2;-1;1;-127", 16, false, 536870912, 0, -1)
+		gg.refineNumber("2", 16, false, 536870912, 0, -1)
+		gg.getResults(10)
+		gg.editAll("120", 16)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W650()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W653()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.clearResults()
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W660()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(3)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"200,866D;0.24022650719;0.69314718246;0.00999999978;1;-1;2;-127:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(4)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"50,331,648D;0.01799999923;0.29907226562;0.5869140625;0.11401367188;-1;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"266,400D;0.24022650719;0.69314718246;0.00999999978;1;-1;-127;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W670()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(15)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W710()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.3680222e21;1.3312335e-43;1.3912563e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("4.8146053e21;2.8866748e-43;1.3912556e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("4.9252857e21;6.488138e-40;4.9252863e21;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.0761972e-42;4.5920551e-41;-1.7632415e-38;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.0761972e-42;4.5923353e-41;-1.7632457e-38;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.3311276e21;1.3312335e-43;1.391256e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("4.8146041e21;2.8866748e-43;1.3912537e-19;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W800()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W801()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W815()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W820()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W821()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W835()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("5.1097599e21;2.0;1.6623071e-19::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-0.01000213623;2;-1;0;0.04000854492", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W845()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.0;-1.0;0.0;1.0;-127.0;0.24022650719;0.69314718246;0.00999999978::29",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("2.4382593e-43;1.3312335e-43;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function W855()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"-0.01000213623F;2.0F;-1.0F;0.0F;0.04000854492F;0.11999511719F;-0.02749633789F;-0.57177734375F;0.02200317383F;0.04251098633F:37",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("-1000", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.3912657e-19F;2.0F;1.6623164e-19F;3.6734353e-39F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("129", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("1.3912525e-19;3.7615819e-37;2;-1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("129", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("1.3912559e-19;2;1.6623071e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("129", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("1.391256e-19;2;1.6623108e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("129", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("1.5414283e-44;1.1202057e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("129", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.clearResults()
+		gg.searchNumber(
+			"1.3912563e-19;2;1.6623075e-19;2.25000858307;1.6643298e10::",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(200)
+		gg.editAll("118", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.editAll("6", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.searchNumber("2.6102227e21F;9;45,259.12109375F;34::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("34", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("1", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function OC()
+		kk = gg.multiChoice({
+			" WALL HACK All Devices",
+			" WALL HACK All Exynos [ BETA ]",
+			" WALL HACK Exynos 9810 [BETA]",
+			" WALL HACK Exynos 7870 [BETA]",
+			" WALL HACK Huawei",
+			" WALL HACK Kirin",
+			" WALL HACK Mediatek",
+			" WALL HACK Mediatek X25",
+			" WALL HACK Mediatek P60",
+			" WALL HACK Oppo",
+			" WALL HACK Vivo",
+			" B A C K ",
+		}, nil, "[~] Extra Wall Hack Menu \n[~] L YT: www.pubgleak.com || ")
+		if kk == nil then
+		else
+			if kk[1] == true then
+				AD()
+			end
+			if kk[2] == true then
+				AE()
+			end
+			if kk[3] == true then
+				E9810()
+			end
+			if kk[4] == true then
+				E7870()
+			end
+			if kk[5] == true then
+				Hua()
+			end
+			if kk[6] == true then
+				Kir()
+			end
+			if kk[7] == true then
+				Mtk()
+			end
+			if kk[8] == true then
+				Mtk25()
+			end
+			if kk[9] == true then
+				Mtk60()
+			end
+			if kk[10] == true then
+				Opp()
+			end
+			if kk[11] == true then
+				Viv()
+			end
+			if kk[12] == true then
+				START()
+			end
+		end
+		HM = -1
+	end
+
+	function AD()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("130", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function AE()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"4,141D;4.7408155e21:-5.5693206e-40;4.814603e21;3.7615819e-37;2:512",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("200", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("200", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("200", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("573.70306396484;0.05499718338;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1200)
+		gg.editAll("-999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("0.05499718338;1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("-9999", gg.TYPE_FLOAT)
+		gg.setVisible(false)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function E9810()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("40;32;16;2::37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(9)
+		gg.editAll("38", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("1.067767e-39;0.5::257", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(9)
+		gg.getResultsCount()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("1.251438e-39;0.5::273", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(9)
+		gg.getResultsCount()
+		gg.clearResults()
+		gg.searchNumber("573.70306396484;0.05499718338;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1200)
+		gg.editAll("-999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function E78710()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber(
+			"3.6734198e-40;1.4012985e-45;2.8025969e-45;4.2038954e-45;4.2038954e-45;4.2038954e-45;3.1389086e-43;1.4012985e-45;2.8025969e-45;1.9618179e-44;0.5:381",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.getResults(22)
+		gg.addListItems({
+			[1] = { ["address"] = 3231755612, ["flags"] = 16, ["freeze"] = true, ["value"] = 0 },
+			[2] = { ["address"] = 3231846696, ["flags"] = 16, ["value"] = 0 },
+			[3] = { ["address"] = 3231846700, ["flags"] = 16, ["value"] = 0.5 },
+			[4] = { ["address"] = 3231846704, ["flags"] = 16, ["value"] = 0.5 },
+			[5] = { ["address"] = 3231846708, ["flags"] = 16, ["value"] = 0.5 },
+			[6] = { ["address"] = 3231846712, ["flags"] = 16, ["value"] = 0.5 },
+			[7] = { ["address"] = 3231846740, ["flags"] = 16, ["value"] = 0.5 },
+			[8] = { ["address"] = 3231846744, ["flags"] = 16, ["value"] = 0.5 },
+			[9] = { ["address"] = 3231846748, ["flags"] = 16, ["value"] = 0.5 },
+			[10] = { ["address"] = 3231846752, ["flags"] = 16, ["value"] = 0.5 },
+			[11] = { ["address"] = 3231846756, ["flags"] = 16, ["value"] = 0.5 },
+			[12] = { ["address"] = 3231872132, ["flags"] = 16, ["value"] = 0.5 },
+			[13] = { ["address"] = 3231872396, ["flags"] = 16, ["value"] = 0.5 },
+			[14] = { ["address"] = 3231872660, ["flags"] = 16, ["value"] = 0.5 },
+			[15] = { ["address"] = 3231872924, ["flags"] = 16, ["value"] = 0.5 },
+			[16] = { ["address"] = 3231873188, ["flags"] = 16, ["value"] = 0.5 },
+			[17] = { ["address"] = 3231873452, ["flags"] = 16, ["value"] = 0.5 },
+			[18] = { ["address"] = 3231873716, ["flags"] = 16, ["value"] = 0.5 },
+			[19] = { ["address"] = 3232003024, ["flags"] = 16, ["value"] = 0.5 },
+			[20] = { ["address"] = 3232003052, ["flags"] = 16, ["value"] = 0.5 },
+			[21] = { ["address"] = 3232003312, ["flags"] = 16, ["value"] = 0.5 },
+			[22] = { ["address"] = 3232003340, ["flags"] = 16, ["value"] = 0.5 },
+		})
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Hua()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2;1.1204989e-19;1.6815582e-44;1.5414283e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("2;4.7408166e21;5.6896623e-29;4.7961574e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2;4.8699472e21;2.718519e-43;1.3912525e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("2;3.2363458e-17;7.3900417e-40;5.3249342e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(40)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("2;4.9252829e21;2.718519e-43;1.3912552e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("1;4.8699472e21;2.718519e-43;1.3912525e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(50)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("1;4.9252829e21;2.718519e-43;1.3912552e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(50)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Kir()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2;-1;0;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(" 2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("20", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("100", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("0.05499718338;1.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("999", gg.TYPE_FLOAT)
+		gg.setVisible(false)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("252248832;201851904;5136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("629000", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.searchNumber("254018304;201851904;5136", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("629000", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.searchNumber("3874;201851904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("629000", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.searchNumber("3846;201851904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("629000", gg.TYPE_DWORD)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Mtk()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber(
+			"240;424;0.5;1.098618e-42;2.8025969e-45;1.4012985e-45;1.821688e-44;7.0064923e-45;1.4012985e-44:605 ",
+			gg.POINTER_WRITABLE,
+			false,
+			gg.SIGN_FUZZY_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("0.5", gg.POINTER_WRITABLE, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+		var = gg.getResults(20)
+		gg.editAll("1", gg.POINTER_WRITABLE)
+		var = gg.getResults(100)
+		var[1].value = 1
+		var[1].freeze = true
+		var[2].value = 1
+		var[2].freeze = true
+		gg.addListItems(var)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Mtk25()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber(
+			"640.0;360;0.5;0;640;360;0.5;12000;0.27913400531;0.56855899096::",
+			gg.POINTER_WRITABLE,
+			false,
+			gg.SIGN_FUZZY_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("0.5", gg.POINTER_WRITABLE, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+		var = gg.getResults(20)
+		gg.editAll("2", gg.POINTER_WRITABLE)
+		var = gg.getResults(100)
+		var[1].value = 2
+		var[1].freeze = true
+		var[2].value = 2
+		var[2].freeze = true
+		var[3].value = 2
+		var[3].freeze = true
+		var[4].value = 2
+		var[4].freeze = true
+		var[5].value = 2
+		var[5].freeze = true
+		var[6].value = 2
+		var[6].freeze = true
+		var[7].value = 2
+		var[7].freeze = true
+		var[8].value = 2
+		var[8].freeze = true
+		var[9].value = 2
+		var[9].freeze = true
+		var[10].value = 2
+		var[10].freeze = true
+		var[11].value = 2
+		var[11].freeze = true
+		var[12].value = 2
+		var[12].freeze = true
+		var[13].value = 2
+		var[13].freeze = true
+		var[14].value = 2
+		var[14].freeze = true
+		gg.addListItems(var)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Mtk60()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber(
+			"3.8530377e-34;1.2960464e-38;1.4012985e-45;4.2038954e-45;4.2038954e-45;7.0064923e-45;4.2038954e-45;1.4012985e-45;5.1567783e-43;1.4012985e-45;2.8025969e-45;0.5:289",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_FUZZY_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+		var = gg.getResults(20)
+		gg.editAll("2", gg.TYPE_FLOAT)
+		var = gg.getResults(100)
+		var[1].value = 2
+		var[1].freeze = true
+		var[2].value = 2
+		var[2].freeze = true
+		gg.addListItems(var)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Opp()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0; 4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber("2.0; 4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(30)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function Viv()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(3)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"200,866D;0.24022650719;0.69314718246;0.00999999978;1;-1;2;-127:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(4)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"50,331,648D;0.01799999923;0.29907226562;0.5869140625;0.11401367188;-1;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"266,400D;0.24022650719;0.69314718246;0.00999999978;1;-1;-127;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.571777343751;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(2)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.searchNumber(
+			"4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(20)
+		gg.editAll("120", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function pm()
+		hh = gg.multiChoice({
+			" Anti Report [ Lobby ] ",
+			" Anti Report [ Game ] ",
+			" Bypass Detect [ Lobby ] ",
+			"B A C K",
+		}, nil, "[~] Telegram : t.me/www.pubgleak.com ||  \n Join on Telegram \n[~] THANKS FOR SUPPORT")
+		if hh == nil then
+		else
+			if hh[1] == true then
+				ar1()
+			end
+			if hh[2] == true then
+				ar2()
+			end
+			if hh[3] == true then
+				ar3()
+			end
+			if hh[4] == true then
+				START()
+			end
+		end
+		HM = -1
+	end
+
+	function ar1()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("909391408;808923191::8", gg.TYPE_DWORD)
+		gg.getResults(999)
+		gg.editAll("1089886885", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("909391408", gg.TYPE_DWORD)
+		gg.getResults(999)
+		gg.editAll("1089886885", gg.TYPE_DWORD)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function ar2()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("257;2131;-10F~888888F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("-10F~888888F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("257;2131;0F~99999F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResultCount()
+		gg.searchNumber("0F~99999F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_BAD)
+		gg.searchNumber(
+			"2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200",
+			gg.TYPE_FLOAT,
+			false,
+			gg.SIGN_EQUAL,
+			0,
+			-1
+		)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+		gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+		gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+		gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+		gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(10)
+		gg.editAll("0", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-1.3068388e21;-9.3858979e22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.searchNumber("-9.3858979e22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("-5112e21", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("1.4349296e-41;1.4012985e-45;5.6051939e-45;2.986167e-42::", gg.TYPE_FLOAT)
+		gg.getResults(999)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("2.986167e-42", gg.TYPE_FLOAT)
+		gg.getResults(999)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(100)
+		gg.editAll("0", gg.TYPE_FLOAT)
+		gg.toast(" By www.pubgleak.com ||  ")
+	end
+
+	function ar3()
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+		gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+		gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_BAD)
+		gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(600)
+		gg.editAll("0", gg.TYPE_DWORD)
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/xg.otherpush.xml.xml"
+		)
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/tpush.shareprefs.xml"
+		)
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/HSJsonData.xml")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/gsdk_prefs.xml")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/DENGTA_META.xml")
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/com.tencent.ig_preferences.xml"
+		)
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/com.google.android.gms.measurement.prefs.xml"
+		)
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/beacon_cover.xml"
+		)
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/shared_prefs/admob.xml")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/cache")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/app_crashrecord/1004")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/cache/*")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/databases")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/databases/*")
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/iMSDK/2_3958967099ae8f8decc2054e1e1a3ca9_1320_20190415083930.log"
+		)
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/mycpuinfo")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/AdjustIoActivityState")
+		os.remove("/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/AdjustIoPackageQueue")
+		os.remove(
+			"/storage/emulated/0/REDCORPORATION/ORIFILE/* /data/data/com.tencent.ig/files/AppEventsLogger.persistedevents"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud")
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud/*")
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog/tbslog.txt")
+		os.remove(
+			"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+		os.remove(
+			"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra.log"
+		)
+		os.remove(
+			"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/loginInfoFile.json"
+		)
+		os.remove(
+			"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs/ShadowTrackerExtra-backup-2019.04.15-05.04.17.log"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+		os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+		os.remove(
+			"/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+		os.remove(
+			"/sdcard/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+		os.remove(
+			"/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+		os.remove(
+			"/sdcard/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.ig/cache/GCloud.ini")
+		os.remove(
+			"/mnt/shell/0/emulated/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.tencent.ig/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+		os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.igce/cache/GCloud.ini")
+		os.remove(
+			"/mnt/shell/0/emulated/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.igce/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.tencent.igce/cache/GCloud.ini")
+		os.remove(
+			"/sdcard/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.iglite/cache/GCloud.ini")
+		os.remove(
+			"/mnt/shell/0/emulated/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		os.remove("/storage/emulated/0/Android/data/com.tencent.iglite/cache/GCloud.ini")
+		os.remove("/sdcard/Android/data/com.tencent.iglite/cache/GCloud.ini")
+		os.remove(
+			"/sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+		)
+		gg.toast("Sucess Fully Deleted")
+	end
+
+	if menuk == 1 then
+		START()
+	end
+end

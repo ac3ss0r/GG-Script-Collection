@@ -1,0 +1,234 @@
+gg.setRanges(
+	gg.REGION_JAVA_HEAP
+		| gg.REGION_C_HEAP
+		| gg.REGION_C_ALLOC
+		| gg.REGION_C_DATA
+		| gg.REGION_C_BSS
+		| gg.REGION_ANONYMOUS
+		| gg.REGION_BAD
+)
+gg.setVisible(false)
+gg.toast("WELCOME TO MY BYPASS AN UNBAN")
+gg.toast("❖ ᎢᏆᎷᎬ: 11.54.00")
+gg.toast("❖ ᎢᎾᎠᎪY:  November 17 ,2020")
+gg.alert("created by NCGTYT .Only Guest Login PlS Subscribe Are Channel ", "GO through the SCRIPT")
+--[[ return: 1 ]]
+gg.toast("NCGTYT LODING SCRIPT")
+gg.choice({ -- table(8ea2f6c)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: nil ]]
+gg.setVisible(false)
+gg.toast("NCGTYT LODING SCRIPT")
+gg.choice({ -- table(ebe0e06)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: 1 ]]
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(
+	"-1.1888024e-10F;-0.00883197878F;-9,004,122,112.0F;4.8888483e24F;-0.0079164654F;1.0865689e-19F;1.0879452e-19F;4.1778991e34F:29",
+	gg.TYPE_FLOAT,
+	false,
+	gg.SIGN_EQUAL,
+	0,
+	-1
+)
+--[[ found: 0 ]]
+gg.refineNumber("-1.1888024e-10;-0.00883197878", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(100)
+--[[ count: 0 ]]
+gg.editAll("120", gg.TYPE_FLOAT)
+os.remove("/storage/emulated/0/aVtiikari honest")
+os.remove("/storage/emulated/0/aViitfiakari honest")
+gg.toast("BYPASS NO FORCE CLOSE success Yay No More Closing")
+gg.setVisible(false)
+gg.toast("NCGTYT LODING SCRIPT")
+gg.choice({ -- table(1d4e212)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: nil ]]
+gg.setVisible(false)
+gg.toast("NCGTYT LOADING SCRIPT")
+gg.choice({ -- table(55b2fef)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: 1 ]]
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(
+	"-1.1888024e-10F;-0.00883197878F;-9,004,122,112.0F;4.8888483e24F;-0.0079164654F;1.0865689e-19F;1.0879452e-19F;4.1778991e34F:29",
+	gg.TYPE_FLOAT,
+	false,
+	gg.SIGN_EQUAL,
+	0,
+	-1
+)
+--[[ found: 0 ]]
+gg.refineNumber("-1.1888024e-10;-0.00883197878", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+--[[ found: 0 ]]
+gg.getResults(100)
+--[[ count: 0 ]]
+gg.editAll("120", gg.TYPE_FLOAT)
+os.remove("/storage/emulated/0/aVtiikari honest")
+os.remove("/storage/emulated/0/aViitfiakari honest")
+gg.toast("BYPASS NO FORCE CLOSE success Yay No More Closing")
+gg.setVisible(false)
+gg.toast("NCGTYT LOADING SCRIPT")
+gg.choice({ -- table(3f81eb9)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: 7 ]]
+gg.loadList("/storage/emulated/0/AJAY.log", gg.LOAD_APPEND)
+gg.getListItems()
+gg.loadResults({ -- table(4b8ab4b)
+})
+gg.getListItems()
+gg.removeListItems({ -- table(eff57e6)
+})
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.searchNumber("7Fr;45r;4Cr;46r;01r;01r;01r;00r::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0xda28d000, 0xdd09e000)
+--[[ found: 0 ]]
+gg.getResultsCount()
+gg.getResults(8)
+--[[ count: 0 ]]
+gg.loadResults({ -- table(c71d8b3)
+	[1] = { -- table(22fa5e9)
+		["address"] = 0xdb81dae4,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[2] = { -- table(e0cd26e)
+		["address"] = 0xdb81dae5,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[3] = { -- table(2a74d0f)
+		["address"] = 0xdb81dae6,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[4] = { -- table(350919c)
+		["address"] = 0xdb81dae7,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[5] = { -- table(53b7a5)
+		["address"] = 0xdb81dae8,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[6] = { -- table(437a77a)
+		["address"] = 0xdb81dae9,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[7] = { -- table(315ab2b)
+		["address"] = 0xdb81daea,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+	[8] = { -- table(9f1fe70)
+		["address"] = 0xdb81daeb,
+		["flags"] = 1, -- gg.TYPE_BYTE
+	},
+})
+gg.setValues({ -- table(952365d)
+	[1] = { -- table(c2254a3)
+		["address"] = 0xdb81dae4,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "00r",
+	},
+	[2] = { -- table(979e3a0)
+		["address"] = 0xdb81dae5,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "00r",
+	},
+	[3] = { -- table(a00db59)
+		["address"] = 0xdb81dae6,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "A0r",
+	},
+	[4] = { -- table(508b31e)
+		["address"] = 0xdb81dae7,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "E3r",
+	},
+	[5] = { -- table(27b97ff)
+		["address"] = 0xdb81dae8,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "1Er",
+	},
+	[6] = { -- table(52999cc)
+		["address"] = 0xdb81dae9,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "FFr",
+	},
+	[7] = { -- table(f5ad415)
+		["address"] = 0xdb81daea,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "2Fr",
+	},
+	[8] = { -- table(d7fabd2)
+		["address"] = 0xdb81daeb,
+		["flags"] = 1, -- gg.TYPE_BYTE
+		["value"] = "E1r",
+	},
+})
+gg.clearResults()
+gg.toast("📱UNBAN DEVICE V3📱")
+gg.setVisible(false)
+gg.setVisible(false)
+gg.toast("NCGTYT LOADING SCRIPT")
+gg.choice({ -- table(4b3e1c1)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: nil ]]
+gg.setVisible(false)
+gg.toast("NCGTYT LOADING SCRIPT")
+gg.choice({ -- table(fbc9262)
+	[1] = "BYPASS NO FORCE CLOSE ",
+	[2] = "BYPASS PINGER 0 MS ",
+	[3] = "BYPASS CLEAR REPORT ",
+	[4] = "BYPASS CLEAR ACCOUNT ",
+	[5] = "📱UNBANNED DEVICE V1 ",
+	[6] = "📱UNBANNED DEVICE V2 ",
+	[7] = "📱UNBANNED DEVICE V3 ",
+	[8] = "🔚 EXIT",
+}, nil, "NCGTYT")
+--[[ return: 8 ]]
+gg.toast("🔙EXIT🔜")

@@ -1,0 +1,176 @@
+function WriteSignatures(A0_0, A1_1)
+	gg.setRanges(16384)
+	gg.searchNumber("h" .. A0_0)
+	gg.getResults(9999)
+	gg.editAll("h" .. A1_1, 1)
+	gg.clearResults()
+end
+
+function split(A0_2, A1_3)
+	local L2_4, L3_5, L4_6
+	L2_4 = 1
+	L3_5 = 1
+	L4_6 = {}
+	while true do
+		if not string.find(A0_2, A1_3, L2_4) then
+			L4_6[L3_5] = string.sub(A0_2, L2_4, string.len(A0_2))
+			break
+		end
+		L4_6[L3_5] = string.sub(A0_2, L2_4, string.find(A0_2, A1_3, L2_4) - 1)
+		L2_4 = string.find(A0_2, A1_3, L2_4) + string.len(A1_3)
+		L3_5 = L3_5 + 1
+	end
+	return L4_6
+end
+
+function xgxc(A0_7, A1_8)
+	local L2_9, L3_10, L4_11, L5_12
+	L2_9 = 1
+	L3_10 = #A1_8
+	for sn5 = 1, #A1_8 do
+		xgpy = A0_7 + A1_8[sn5].offset
+		xglx = A1_8[sn5].type
+		xgsz = A1_8[sn5].value
+		xgdj = A1_8[sn5].freeze
+		if xgdj == nil or xgdj == "" then
+			gg.setValues({
+				[1] = {
+					address = xgpy,
+					flags = xglx,
+					value = xgsz,
+				},
+			})
+		else
+			gg.addListItems({
+				[1] = {
+					address = xgpy,
+					flags = xglx,
+					freeze = xgdj,
+					value = xgsz,
+				},
+			})
+		end
+		xgsl = xgsl + 1
+		xgjg = true
+	end
+end
+
+gg.alert("AntiBan", "🎉")
+function xqmnb(A0_13)
+	gg.clearResults()
+	gg.setRanges(A0_13[1].memory)
+	gg.searchNumber(A0_13[3].value, A0_13[3].type)
+	if gg.getResultCount() == 0 then
+		gg.toast(A0_13[2].name .. "开启失败")
+	else
+		gg.refineNumber(A0_13[3].value, A0_13[3].type)
+		gg.refineNumber(A0_13[3].value, A0_13[3].type)
+		gg.refineNumber(A0_13[3].value, A0_13[3].type)
+		if gg.getResultCount() == 0 then
+			gg.toast(A0_13[2].name .. "开启失败")
+		else
+			sl = gg.getResults(999999)
+			sz = gg.getResultCount()
+			xgsl = 0
+			if 999999 < sz then
+				sz = 999999
+			end
+			for sn4 = 1, sz do
+				pdsz = true
+				for sn8 = 4, #A0_13 do
+					if pdsz == true then
+						pysz = {}
+						pysz[1] = {}
+						pysz[1].address = sl[sn4].address + A0_13[sn8].offset
+						pysz[1].flags = A0_13[sn8].type
+						szpy = gg.getValues(pysz)
+						pdpd = A0_13[sn8].lv .. ";" .. szpy[1].value
+						szpd = split(pdpd, ";")
+						tzszpd = szpd[1]
+						pyszpd = szpd[2]
+						if tzszpd == pyszpd then
+							pdjg = true
+							pdsz = true
+						else
+							pdjg = false
+							pdsz = false
+						end
+					end
+				end
+				if pdjg == true then
+					szpy = sl[sn4].address
+					xgxc(szpy, qmxg)
+				end
+			end
+			if xgjg == true then
+				gg.toast(A0_13[2].name .. "开启成功,共修改" .. xgsl .. "条数据")
+			else
+				gg.toast(A0_13[2].name .. "开启失败")
+			end
+		end
+	end
+end
+
+gg.setVisible(false)
+gg.toast("JOIN @VIRUSxMATRIX ")
+gg.toast("@VIRUSxMATRIX")
+WriteSignatures(
+	"7f 45 4c 46 02 01 01 00 00 00 00 00 00 00 00 00 03 00 b7 00 01 00 00 00",
+	"03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00"
+)
+WriteSignatures(
+	"61 00 6E 00 62 00 61 00 00 6F 00 72 00 70 00 6F 00 72 00 45 00 4C 00 46 00",
+	"03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00 03 00"
+)
+gg.toast("@VIRUSxMATRIX")
+WriteSignatures(
+	"25 00 00 00 00 00 00 00 00 00 00 00 d5 00 00 00 00 00 00 00 c7 00 00 00 fa 00 00 00 24 00 00 00 98 00 00 00 00 00 00 00 0e 00 00 00 00 00 00 00 00 00 00 00 a6 00 00 00 00 00 00 00 f7 00 00 00 00 00 00 00 4f 00 00 00 6b 00 00 00 03 01 00 00 7d 00 00 00 2c 00 00 00 00 00 00 00 68 00 00 00 bc 00 00 00 71 00 00 00 ea 00 00 00 2b 00 00 00 00 00 00 00 c3 00 00 00 90 00 00 00 5f 00 00 00",
+	"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+)
+gg.toast("@VIRUSxMATRIX")
+WriteSignatures(
+	"30 02 00 00 00 00 00 00 30 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 04 00 00 00 04 00 00 00 00 02 00 00 00 00 00 00 00 02 00 00 00 00 00 00 00 02 00 00 00 00 00 00 24 00 00 00 00 00 00 00 24 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 04 00 00 00 04 00 00 00 24 60 59 00 00 00 00 00 24 60 59 00 00 00 00 00 24 60 59 00 00 00 00 00 98 00 00 00 00 00 00 00 98 00 00 00 00 00 00 00 04 00 00 00 00 00 00 00 50 e5 74 64 04 00 00 00 cc fe 4c 00 00 00 00 00 cc fe 4c 00 00 00 00 00 cc fe 4c 00 00 00 00 00 2c 1d 02 00 00 00 00 00 2c 1d 02 00 00 00 00 00 04 00 00 00 00 00 00 00 ",
+	"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+)
+WriteSignatures(
+	"48 00 00 00 ce 00 00 00 12 01 00 00 f1 00 00 00 00 00 00 00 00 00 00 00 c6 00 00 00 d6 00 00 00 00 00 00 00 3d 00 00 00 00 00 00 00 00 00 00 00 b4 00 00 00 00 00 00 00 91 00 00 00 00 00 00 00 07 01 00 00 b5 00 00 00 6f 00 00 00 6d 00 00 00 00 00 00 00 a9 00 00 00",
+	"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+)
+WriteSignatures(
+	"6a 02 00 00 0a 00 00 00 b8 01 00 00 10 01 00 00 c4 02 00 00 00 00 00 00 00 00 00 00 9d 02 00 00 d8 02 00 00 0d 03 00 00 00 00 00 00 5d 00 00 00 47 02 00 00 8a 01 00 00 89 02 00 00 95 00 00 00 1b 03 00 00 3f 00 00 00 5e 00 00 00 53 02 00 00 38 02 00 00 00 00 00 00 ",
+	"00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00"
+)
+function setvalue(A0_14, A1_15, A2_16)
+	local L3_17
+	L3_17 = {}
+	L3_17[1] = {}
+	L3_17[1].address = A0_14
+	L3_17[1].flags = A1_15
+	L3_17[1].value = A2_16
+	gg.setValues(L3_17)
+end
+
+so = gg.getRangesList("libanogs.so")[1].start
+so = gg.getRangesList("libUE4.so")[1].start
+setvalue(so + "0x39F000", 32, "h 00 00 A0 E3 1E FF 2F E1")
+setvalue(so + "0x39E6C5", 32, "h 00 00 A0 E3 1E FF 2F E1")
+setvalue(so + "0x6F7A580", 4, "h 00 03")
+gg.clearResults()
+gg.toast("@Unique1Coder")
+gg.setRanges(16384)
+gg.searchNumber("282,584,257,676,671", gg.TYPE_QWORD)
+gg.getResults(99931)
+gg.editAll("55,945,724,357,001,828", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(16384)
+gg.searchNumber("725,016,249,368,576", gg.TYPE_QWORD)
+gg.getResults(99931)
+gg.editAll("55,945,724,357,001,828", gg.TYPE_QWORD)
+gg.clearResults()
+gg.setRanges(16384)
+gg.searchNumber("18,296,607,925,600,256", gg.TYPE_QWORD)
+gg.getResults(99931)
+gg.editAll("55,945,724,357,001,828", gg.TYPE_QWORD)
+gg.clearResults()
+gg.toast("@Unique1Coder")
+gg.alert("@Unique1Coder Telegeram add for more vip hack")

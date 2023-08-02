@@ -1,0 +1,177 @@
+-- Lua help: http://gameguardian.net/help/
+-- sample script
+-- libgame.so offset
+
+function setvalue(address, flags, value)
+	local tt = {}
+	tt[1] = {}
+	tt[1].address = address
+	tt[1].flags = flags
+	tt[1].value = value
+	gg.setValues(tt)
+end --andro
+
+time = os.date([[
+Date: %x
+Hill Climb Rasing v1.59.0
+]])
+
+--HOME--
+function HOME()
+	MN = gg.choice(
+		{
+			"Unlimited coin", --name
+			"Unlimited diamond", --name
+			"Coin Color", --name
+			"Unlock Garage", --name
+			"Garage Box", --name
+			"Exit",
+		}, --exit
+		nil,
+		time
+	)
+	if MN == nil then
+	else
+		if MN == 1 then
+			UNLICOIN()
+		end
+		if MN == 2 then
+			UNLIDIAMOND()
+		end
+		if MN == 3 then
+			COLORCOINHACK()
+		end
+		if MN == 4 then
+			UNLOCKGARAGE()
+		end
+		if MN == 5 then
+			Garagemenu()
+		end
+		if MN == 6 then
+			CLOSE() --Exit
+		end
+	end
+	ANDROMENU = -1
+end
+
+--FUNCTION--
+function UNLICOIN()
+	so = gg.getRangesList("libgame.so")[1].start
+	py = 0x51F164 -- offset
+	setvalue(so + py, 4, 9999999999) -- edit
+	gg.toast("Done.") -- toast
+end
+
+function UNLIDIAMOND()
+	so = gg.getRangesList("libgame.so")[1].start
+	py = 0x51F210
+	setvalue(so + py, 4, 9999999999)
+	gg.toast("Done.")
+end
+
+function COLORCOINHACK()
+	so = gg.getRangesList("libgame.so")[1].start -- lib name
+	local addr = so + 0x51F298 --offset
+
+	gg.addListItems({
+		{ address = addr, flags = 4, value = 1, freeze = true },
+	})
+
+	gg.clearResults()
+	gg.clearResults()
+	gg.toast("Done.") -- toast
+end
+
+function UNLOCKGARAGE()
+	gg.toast("Please read what is written")
+	gg.sleep(2000)
+	menu = gg.alert("Note:This cheat may cause you problems in the game ", "Back to home ", " active chest")
+	if menu == 1 then
+		gg.toast("Back to Home")
+		HOME()
+	end
+	if menu == 2 then
+		gg.toast("Loading...")
+		gg.sleep(2000)
+		UNLOCKGARAGE2()
+	end
+end
+
+function UNLOCKGARAGE2()
+	so = gg.getRangesList("libgame.so")[1].start
+	py = 0x51F224
+	setvalue(so + py, 4, 1)
+	gg.toast("Done.")
+end
+
+--HOME2--
+function Garagemenu()
+	gg.toast("open menu")
+	Garage = gg.multiChoice({
+		"Container",
+		"Lunchbox",
+		"Toolbox",
+		"Back",
+	}, nil, time)
+	if Garage == nil then
+	else
+		if Garage[1] == true then
+			CONTAINER()
+		end
+		if Garage[2] == true then
+			LUNCHBOX()
+		end
+		if Garage[3] == true then
+			TOOLBOX()
+		end
+		if Garage[4] == true then
+			gg.toast("Back")
+			HOME()
+		end
+	end
+	ANDROMENU = -1
+end
+
+--FUNCTION--
+function CONTAINER()
+	so = gg.getRangesList("libgame.so")[1].start
+	py = 0x51F218
+	setvalue(so + py, 4, 5)
+	gg.alert(" BUY PART CONTAINER")
+	gg.toast("Purchase complate")
+end
+
+function LUNCHBOX()
+	so = gg.getRangesList("libgame.so")[1].start
+	py = 0x51F220
+	setvalue(so + py, 4, 5)
+	gg.alert("BUY PART LUNCHBOX")
+	gg.toast("Purchase complate")
+end
+
+function TOOLBOX()
+	so = gg.getRangesList("libgame.so")[1].start
+	py = 0x51F21C
+	setvalue(so + py, 4, 5)
+	gg.alert("BUY PART TOOLBOX")
+	gg.toast("Purchase complate")
+end
+
+-- END --
+function CLOSE() --Exit
+	gg.toast("Exit")
+	print("Thank you for Download") --print exit
+	gg.skipRestoreState()
+	os.exit()
+	gg.setVisible(true)
+end
+while true do
+	if gg.isVisible(true) then
+		ANDROMENU = 1
+		gg.setVisible(false) --Will not leave the cheat menu if true
+	end
+	gg.clearResults()
+	if ANDROMENU == 1 then
+		HOME()
+	end
+end

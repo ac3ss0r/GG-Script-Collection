@@ -1,0 +1,52 @@
+gg.alert("Sub to me", "Ok") --Game guardian detection if gg.isVisible(true) then gg.setVisible(false) end gg.clearResults()
+goto START
+::START::
+
+menu = gg.choice({ "aimbot", "norecoil", "exit" }, nil, "select what ever you want")
+
+if menu == 1 then
+	goto jump1
+end
+if menu == 2 then
+	goto aimgod
+end
+if menu == nil then
+	print("error")
+end
+
+goto noselect
+
+::jump1::
+gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("1868756421", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("100000", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("noob cheater")
+goto sdone
+
+::aimgod::
+gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.getResults(300)
+gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+gg.clearResults()
+goto sdone
+
+::sdone::
+print("its the first time")
+gg.toast("noob")
+os.exit()
+
+::noselect::
+print("you select nothing")

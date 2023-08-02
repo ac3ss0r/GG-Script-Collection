@@ -1,0 +1,215 @@
+if gg.isPackageInstalled("com.roblox.client") == false then
+	gg.alert("Please Download Hide Online App First")
+	print("Subscribe to Gameguardian and Coolboy263")
+end
+gg.setVisible(false)
+gg.alert("Welcome to Hide Online Hacks")
+gg.toast("Subscribe to Gameguardian")
+
+::hi::
+menu = gg.choice({
+	"🧱🏃‍♂️💨NoClip🧱🏃‍♀️💨",
+	"🧱📷NoClip for Camera📷🧱",
+	"🛸Air Jump🛸",
+	"🧱🏃‍♂️💨Wall Hack/Window Hacks🏠",
+	"💰Money Hack💰",
+	"Hide Script",
+}, nil, " 😂Boys & Girls Dance Club Troll Script😂")
+if menu == 1 then
+	goto sp
+end
+if menu == 2 then
+	goto sl
+end
+if menu == 3 then
+	goto sm
+end
+if menu == 4 then
+	goto sn1
+end
+if menu == 5 then
+	goto sb
+end
+if menu == 6 then
+	goto hi2
+end
+if menu == nul then
+	goto ok
+end
+
+::sp::
+menu = gg.choice({ "✅On✅", "❌Off❌" }, nil, " 🧱🏃‍♂️💨NoClip🧱🏃‍♀️💨")
+if menu == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("0.80000001192", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("1.10000052384", gg.TYPE_FLOAT)
+	gg.clearResults()
+	noc = true
+	goto hi
+end
+if menu == 2 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("1.10000052384", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("0.80000001192", gg.TYPE_FLOAT)
+	gg.clearResults()
+	noc = false
+	goto hi
+end
+if menu == nul then
+	goto hi
+end
+
+::sl::
+menu = gg.choice({ "✅On✅", "❌Off❌" }, nil, " 🧱📷NoClip for Camera📷🧱")
+if menu == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("-0.5", gg.TYPE_DOUBLE)
+	gg.getResults(1000)
+	gg.editAll("-999", gg.TYPE_DOUBLE)
+	gg.clearResults()
+	ncfc = true
+	goto hi
+end
+if menu == 2 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("-999", gg.TYPE_DOUBLE)
+	gg.getResults(1000)
+	gg.editAll("-0.5", gg.TYPE_DOUBLE)
+	gg.clearResults()
+	ncfc = false
+	goto hi
+end
+if menu == nul then
+	goto hi
+end
+
+::sm::
+menu = gg.choice({ "✅On✅", "❌Off❌" }, nil, " 🛸Air Jump🛸")
+if menu == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("1.1", gg.TYPE_FLOAT)
+	gg.getResults(3000)
+	gg.editAll("101", gg.TYPE_FLOAT)
+	gg.clearResults()
+	fly = true
+	goto hi
+end
+if menu == 2 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("101", gg.TYPE_FLOAT)
+	gg.getResults(3000)
+	gg.editAll("1.1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	Fly = false
+	goto hi
+end
+if menu == nul then
+	goto hi
+end
+
+::sn1::
+menu = gg.choice({ "🧱Wall Hacks🧱", "🎗Floor Hack🎗" }, nil, " ⛓Take Apart Building (⚠️Beta⚠️)⛓")
+if menu == 1 then
+	goto fi
+end
+if menu == 2 then
+	goto fo
+end
+if menu == 3 then
+	goto hi
+end
+if menu == nul then
+	goto hi
+end
+
+::fi::
+menu = gg.choice({ "The Left Side Of The Building Hack" }, nil, " 🧱Wall Hacks🧱")
+if menu == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("19", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	goto hi
+end
+if menu == nul then
+	goto hi
+end
+
+::fo::
+menu = gg.choice({ " Porch Hack....3 Floor On The Back Of The Building", "Store" }, nil, " 🎗Floor Hack🎗")
+if menu == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("115", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	goto fo
+end
+if menu == 2 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("204.82000732422", gg.TYPE_FLOAT)
+	gg.getResults(999999)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	goto fo
+end
+if menu == nul then
+	goto sn1
+end
+
+::sb::
+menu = gg.choice({ "Unlimited Money" }, nil, " 💰Rich💰")
+if menu == 1 then
+	gg.alert("You Need To Go To The Shop And Buy The 🍦🍨🍧Ice Cream🍧🍨🍦")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("15", gg.TYPE_DOUBLE)
+	gg.getResults(100)
+	gg.editAll("-999999999999", gg.TYPE_DOUBLE)
+	gg.clearResults()
+	goto hi
+end
+if menu == nul then
+	goto hi
+end
+
+::hi2::
+if gg.isVisible() then
+	gg.setVisible(false)
+	goto hi
+end
+if hi == true then
+	goto hi2
+end
+
+::ok::
+if fly == false then
+	print("Fly hack = off")
+end
+if fly == true then
+	print("Fly hack = on")
+end
+if noc == false then
+	print("Noclip = off")
+end
+if noc == true then
+	print("Noclip = on")
+end
+if ncfc == false then
+	print("Noclip for camera = off")
+end
+if ncfc == true then
+	print("Noclip for camera = on")
+end

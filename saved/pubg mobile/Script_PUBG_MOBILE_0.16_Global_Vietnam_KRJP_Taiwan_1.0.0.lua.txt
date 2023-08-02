@@ -1,0 +1,888 @@
+local gg = gg
+On = "[ON]"
+Off = "[OFF]"
+SpeedFast = Off
+CamZoomOut = Off
+
+gg.toast("Welcome ....")
+gg.toast("use at your own risk")
+HOME = 1
+
+function HOME()
+	MainMenu = gg.choice({
+		"\226\158\164   Turn On In Lobby",
+		"\226\158\164   Turn On In Game",
+		"\226\156\152   Exit",
+		"\226\156\152   Hide",
+	}, nil, "ZERO-CYBERZ-EVO")
+	if MainMenu == 1 then
+		Direct()
+	end
+	if MainMenu == 2 then
+		Misc()
+	end
+	if MainMenu == 3 then
+		os.exit()
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function Direct()
+	DirectMenu = gg.multiChoice({
+		"\226\156\167   Wallhack PhoenixOS (Mesa 17)",
+		"\226\156\167   Wallhack Snapdragon",
+		"\226\156\167   Character Color",
+		"\226\156\167   Remove Recoil",
+		"\226\156\167   Aim Assist",
+		"\226\156\167   Remove Grass & FOG",
+		"\226\156\167   Antena Player (InGame)",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if DirectMenu == nil then
+	else
+		if DirectMenu[1] == true then
+			MultiWHPhoenix()
+		end
+		if DirectMenu[2] == true then
+			MultiWHSnap()
+		end
+		if DirectMenu[3] == true then
+			MultiColor()
+		end
+		if DirectMenu[4] == true then
+			MultiRecoil()
+		end
+		if DirectMenu[5] == true then
+			AimAssist()
+		end
+		if DirectMenu[6] == true then
+			GrassFog()
+		end
+		if DirectMenu[7] == true then
+			AntenaPlayer()
+		end
+		if DirectMenu[8] == true then
+			HOME()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiWHPhoenix()
+	MultiWHPhoenixMenu = gg.multiChoice({
+		"\226\156\167   Wallhack PhoenixOS V1",
+		"\226\156\167   Wallhack PhoenixOS V2",
+		"\226\156\167   Wallhack PhoenixOS V3",
+		"\226\156\167   Wallhack PhoenixOS V4",
+		"\226\156\167   Color Glow PhoenixOS (In Training)",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiWHPhoenixMenu == nil then
+	else
+		if MultiWHPhoenixMenu[1] == true then
+			WHPhoenixV1()
+		end
+		if MultiWHPhoenixMenu[2] == true then
+			WHPhoenixV2()
+		end
+		if MultiWHPhoenixMenu[3] == true then
+			WHPhoenixV3()
+		end
+		if MultiWHPhoenixMenu[4] == true then
+			WHPhoenixV4()
+		end
+		if MultiWHPhoenixMenu[5] == true then
+			ColorPhoenix()
+		end
+		if MultiWHPhoenixMenu[6] == true then
+			Direct()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiWHSnap()
+	MultiWHSnapMenu = gg.multiChoice({
+		"\226\156\167   Snapdragon 625",
+		"\226\156\167   Color Yellow",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiWHSnapMenu == nil then
+	else
+		if MultiWHSnapMenu[1] == true then
+			Snapdragon625()
+		end
+		if MultiWHSnapMenu[2] == true then
+			Yellow625()
+		end
+		if MultiWHSnapMenu[3] == true then
+			Direct()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiColor()
+	MultiColorMenu = gg.multiChoice({
+		"\226\156\167   White",
+		"\226\156\167   Black",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiColorMenu == nil then
+	else
+		if MultiColorMenu[1] == true then
+			ColorWhite()
+		end
+		if MultiColorMenu[2] == true then
+			ColorBlack()
+		end
+		if MultiColorMenu[3] == true then
+			Direct()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiRecoil()
+	MultiRecoilMenu = gg.multiChoice({
+		"\226\156\167   No Recoil 70%",
+		"\226\156\167   No Recoil 80%",
+		"\226\156\167   No Recoil 100%",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiRecoilMenu == nil then
+	else
+		if MultiRecoilMenu[1] == true then
+			Recoil70()
+		end
+		if MultiRecoilMenu[2] == true then
+			Recoil80()
+		end
+		if MultiRecoilMenu[3] == true then
+			Recoil100()
+		end
+		if MultiRecoilMenu[4] == true then
+			Direct()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+-- Wallhack & Color Phoenix Menu --
+function WHPhoenixV1()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3D;1,073,741,824:9", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1,073,741,824", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(70)
+	gg.editAll("1,121,714,176", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Wallhack PhoenixOS V1 Activated")
+end
+
+function WHPhoenixV2()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3D;1,073,741,824:9", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1,073,741,824", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(80)
+	gg.editAll("1,121,714,176", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Wallhack PhoenixOS V2 Activated")
+end
+
+function WHPhoenixV3()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3D;1,073,741,824:9", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1,073,741,824", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(90)
+	gg.editAll("1,121,714,176", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Wallhack PhoenixOS V3 Activated")
+end
+
+function WHPhoenixV4()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3D;1,073,741,824:9", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1,073,741,824", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1,121,714,176", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Wallhack PhoenixOS V4 Activated")
+end
+
+function ColorPhoenix()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber(
+		"4,539,628,424,389,459,968;4,575,657,222,465,388,544;4,620,693,218,747,482,112;4,510,805,389,568,114,688;-5,063,232,056,807,810,662;4,487,930,943,447,732,791;4,643,917,850,688,020,684;4,647,714,816,527,598,254;1,082,130,432;4,230,581,412,179,004,621;985,008,993:497",
+		gg.TYPE_QWORD
+	)
+	gg.refineNumber("4,487,930,943,447,732,791;4,643,917,850,688,020,684;4,647,714,816,527,598,254:93", gg.TYPE_QWORD)
+	local t = gg.getResults(100)
+	for i, v in ipairs(t) do
+		t[i].value = "4,487,930,943,773,147,897"
+		t[i].freeze = true
+	end
+	gg.addListItems(t)
+end
+
+-- WH & Color Snapdragon --
+--x Snapdragon 625 x--
+function Snapdragon625()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_VIDEO)
+	gg.searchNumber(
+		"7,169,871,370,032,123,951;7,169,871,357,147,090,988;50,331,648;1,073,741,824",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1,073,741,824", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1,123,024,896", gg.TYPE_QWORD)
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_VIDEO)
+	gg.searchNumber(
+		"2,316,046,644,623,179,970;50,331,648;-4,647,714,814,372,610,048;3,212,836,864;-4,396,076,185,201,672,192;4,500,782,613,132,083,200",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("-4,647,714,814,372,610,048", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("-4,647,714,814,323,326,976", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Wallhack Snapdragon 625 Activated")
+end
+
+function Yellow625()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_VIDEO)
+	gg.searchNumber("00002008h;4730CB0Dh;000C000Bh:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("00002008h", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("00000006h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Color Yellow Activated")
+end
+
+-- Color Character Menu --
+function ColorBlack()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"h2A0000002A000000000000030000000000000000000000000000204000002040",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h2A0000002A00000000000003000000000000000000000000286B6ECE286B6ECE", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Color Black Activated")
+end
+
+function ColorWhite()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"h2E0000002E000000000000030000000000000000000000009A99993E9A99993E",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h2E0000002E00000000000003000000000000000000000000286B6E4E286B6E4E", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Color White Activated")
+end
+
+-- Recoil Menu --
+function Recoil70()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h535265636F696C496E666F00421C0000", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- RecoilInfo
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h535265636F696C496F666F00421C0000", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h010000000000000000000000CDCC4C3D000000", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h000000000000000000000000CDCC4C3D000000", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("No Recoil Weapon 70% Activated")
+end
+
+function Recoil80()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h535265636F696C496E666F00421C0000", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- RecoilInfo
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h535265636F696C496F666F00421C0000", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h010000000000000000000000CDCC4C3D000000", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h000000000000000000000000CDCC4C3D000000", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h43616D6572615368616B6554", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- CameraShakeT
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h43616D6572615368616B6553", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("No Recoil Weapon 80% Activated")
+end
+
+function Recoil100()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.clearResults()
+	gg.searchNumber("h535265636F696C496E666F00421C0000", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- RecoilInfo
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h535265636F696C496F666F00421C0000", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h010000000000000000000000CDCC4C3D000000", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h000000000000000000000000CDCC4C3D000000", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h43616D6572615368616B6554", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- CameraShakeT
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h43616D6572615368616B6553", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h416E696D456E6454696D65", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- AnimEndTime
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h416E696D456E6454696D64", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("No Recoil Weapon 100% Activated")
+end
+
+-- Aim Menu --
+function AimAssist()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber(
+		"h0000B4430000B4C30000344317B7D13800000000103A03EE101A02",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000B4430000B4C300003443003C1C4600000000103A03EE101A02", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Aim Assist Activated")
+end
+
+-- Grass & Fog Menu --
+function GrassFog()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h4C616E6473636170654772617373", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1) -- Default__MaterialExpressionLandscapeGrassOutput
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h4C616E6473636170654772617374", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"h44656661756C745F5F4578706F6E656E7469616C486569676874466F67",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	) -- Default__ExponentialHeightFog
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h44656661756C745F5F4578706F6E656E7469616C486569676874466F66", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Remove Grass & Fog Activated")
+end
+
+-- Antena Player Menu --
+function AntenaPlayer()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("hF302B1423F8EAE42EAD2C9C20000803F", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000FC3F0000FC3FEAD2C9C200C07944", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Antena Player Activated")
+end
+
+function Misc()
+	MiscMenu = gg.multiChoice({
+		"\226\156\167   ZoomOut Camera TPP" .. CamZoomOut,
+		"\226\156\167   Fast Speed" .. SpeedFast,
+		"\226\156\167   Black Sky",
+		"\226\156\167   Headshoot & Damage",
+		"\226\156\167   Magic Bullet",
+		"\226\156\167   Aimbot",
+		"\226\156\167   Aimbot V2",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+	if MiscMenu == nil then
+	else
+		if MiscMenu[1] == true then
+			if CamZoomOut == Off then
+				CamZoomOut1(Off)
+				CamZoomOut = On
+			else
+				CamZoomOut2(On)
+				CamZoomOut = Off
+			end
+		end
+		if MiscMenu[2] == true then
+			if SpeedFast == Off then
+				SpeedFast1(Off)
+				SpeedFast = On
+			else
+				SpeedFast2(On)
+				SpeedFast = Off
+			end
+		end
+		if MiscMenu[3] == true then
+			MultiBS()
+		end
+		if MiscMenu[4] == true then
+			MultiHS()
+		end
+		if MiscMenu[5] == true then
+			MultiMB()
+		end
+		if MiscMenu[6] == true then
+			Aimbot()
+		end
+		if MiscMenu[7] == true then
+			AimbotV2()
+		end
+		if MiscMenu[8] == true then
+			HOME()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiHS()
+	MultiHSMenu = gg.multiChoice({
+		"\226\156\167   Headshoot 50%",
+		"\226\156\167   Headshoot 75%",
+		"\226\156\167   Headshoot 100%",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiHSMenu == nil then
+	else
+		if MultiHSMenu[1] == true then
+			Headshoot50()
+		end
+		if MultiHSMenu[2] == true then
+			Headshoot75()
+		end
+		if MultiHSMenu[3] == true then
+			Headshoot100()
+		end
+		if MultiHSMenu[4] == true then
+			Misc()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiBS()
+	MultiBSMenu = gg.multiChoice({
+		"\226\156\167   Snapdragon",
+		"\226\156\167   Erangel & Miranmar",
+		"\226\156\167   Sanhook",
+		"\226\156\167   Sanhook Rain",
+		"\226\156\167   Vikendi (After Landing From Parachute)",
+		"\226\156\167   Vikendi Rain",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiBSMenu == nil then
+	else
+		if MultiBSMenu[1] == true then
+			BlackSkySnap()
+		end
+		if MultiBSMenu[2] == true then
+			BlackSky1()
+		end
+		if MultiBSMenu[3] == true then
+			BlackSky2()
+		end
+		if MultiBSMenu[4] == true then
+			BlackSky3()
+		end
+		if MultiBSMenu[5] == true then
+			BlackSky4()
+		end
+		if MultiBSMenu[6] == true then
+			BlackSky4()
+		end
+		if MultiBSMenu[7] == true then
+			Misc()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+function MultiMB()
+	MultiMBMenu = gg.multiChoice({
+		"\226\156\167   Magic Bullet 50%",
+		"\226\156\167   Magic Bullet 75%",
+		"\226\156\167   Magic Bullet 100%",
+		"\226\134\182   Back",
+	}, nil, "ZERO-CYBERZ-EVO")
+
+	if MultiMBMenu == nil then
+	else
+		if MultiMBMenu[1] == true then
+			Headshoot50()
+			MagicBullet50()
+		end
+		if MultiMBMenu[2] == true then
+			Headshoot75()
+			MagicBullet75()
+		end
+		if MultiMBMenu[3] == true then
+			Headshoot100()
+			MagicBullet100()
+		end
+		if MultiMBMenu[4] == true then
+			Misc()
+		end
+	end
+	ZEROCYBERZEVO = -1
+end
+
+-- Zoom Out Cam TPP --
+function CamZoomOut1(On)
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1,065,353,216;2;1,130,102,784;1,103,626,240;4,715,268,810,984,259,584;210,024,998,633,472;4,692,750,812,840,460,288;4,361,886,362,192,838,656;1,015,580,809:113",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1,130,102,784", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("1,140,981,760", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Zoom Out Camera TPP Activated")
+end
+function CamZoomOut2(Off)
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1,065,353,216;2;1,140,981,760;1,103,626,240;4,715,268,810,984,259,584;210,024,998,633,472;4,692,750,812,840,460,288;4,361,886,362,192,838,656;1,015,580,809:113",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1,130,102,784", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("1,130,102,784", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Zoom Out Camera TPP Deactivated")
+end
+
+-- Speed Fast --
+function SpeedFast1(On)
+	gg.toast("⏳ Please Waiting... ⏳")
+	--    gg.setRanges(gg.REGION_C_DATA)
+	--    gg.searchNumber("6.1630904e-33;-6.1526231e27;-9.9839328e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.refineNumber("-6.1526231e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.getResults(gg.getResultsCount())
+	--    gg.editAll("6.1526231e27", gg.TYPE_FLOAT)
+	--    gg.clearResults()
+	--    gg.setRanges(gg.REGION_C_DATA)
+	--    gg.searchNumber("-3.693674e20;-1.2382424e28;-8.5076384e22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.refineNumber("-1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.getResults(gg.getResultsCount())
+	--    gg.editAll("1.2382424e28", gg.TYPE_FLOAT)
+	--    gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("10.90734863281;0.00999999978:77", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("10.90734863281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("9.35", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast Speed Activated")
+end
+
+function SpeedFast2(Off)
+	gg.toast("⏳ Please Waiting... ⏳")
+	--    gg.setRanges(gg.REGION_C_DATA)
+	--    gg.searchNumber("6.1630904e-33;6.1526231e27;-9.9839328e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.refineNumber("6.1526231e27", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.getResults(gg.getResultsCount())
+	--    gg.editAll("-6.1526231e27", gg.TYPE_FLOAT)
+	--    gg.clearResults()
+	--    gg.setRanges(gg.REGION_C_DATA)
+	--    gg.searchNumber("-3.693674e20;1.2382424e28;-8.5076384e22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.refineNumber("1.2382424e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	--    gg.getResults(gg.getResultsCount())
+	--    gg.editAll("-1.2382424e28", gg.TYPE_FLOAT)
+	--    gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("9.35;0.00999999978:77", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("9.35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("10.90734863281", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast Speed Deactivated")
+end
+
+-- Menu BlackSky --
+function BlackSkySnap()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_VIDEO)
+	gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false)
+	gg.getResults(100)
+	gg.editAll("-90", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("BlackSky Snapdragon Activated")
+end
+function BlackSky1()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000C8420000000000E0C448", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000C8C20000000000E0C448", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("BlackSky Erangel & Miranmar Activated")
+end
+function BlackSky2()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000C8420000000000F94448", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000C8C20000000000F94448", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("BlackSky Sanhook Activated")
+end
+function BlackSky3()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000C8420000000000E04448", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000C8C20000000000E04448", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("BlackSky Sanhook Rain Activated")
+end
+function BlackSky4()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"300,000.0;300,000.0;0.05000000075;302,400.0;302,400.0:93",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("0.05000000075", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("-10", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("BlackSky Vikendi Activated")
+end
+function BlackSky5()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000C84200000000007C9248", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000C8C200000000007C9248", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("BlackSky Vikendi Rain Activated")
+end
+
+-- Menu Headshoot --
+function Headshoot50()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000B8410000C8410000F441", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000B8410000D2420000DD42", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Headshoot & Damage++ 50% Activated")
+end
+
+function Headshoot75()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000B8410000C8410000F441", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000B84100004D4300805243", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Headshoot & Damage++ 75% Activated")
+end
+
+function Headshoot100()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h0000B8410000C8410000F441", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000B8410080984300409B43", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("Headshoot & Damage++ 100% Activated")
+end
+
+-- Menu Magic Bullet --
+function MagicBullet50()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h000080410000D041", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h000060420000D041", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"-4,417,629,825,687,778,007;4,719,772,410,574,798,848;-4,256,783,334,832,603,136:13",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("-4,417,629,825,687,778,007;4,719,772,410,598,391,808;-4,256,783,334,832,603,136", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Magic Bullet 50% Activated")
+end
+
+function MagicBullet75()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h000080410000D041", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h000084420000D041", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"-4,417,629,825,687,778,007;4,719,772,410,574,798,848;-4,256,783,334,832,603,136:13",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("-4,417,629,825,687,778,007;4,719,772,410,600,488,960;-4,256,783,334,832,603,136", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Magic Bullet 75% Activated")
+end
+
+function MagicBullet100()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("h000080410000D041", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h000098420000D041", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"-4,417,629,825,687,778,007;4,719,772,410,574,798,848;-4,256,783,334,832,603,136:13",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("-4,417,629,825,687,778,007;4,719,772,410,601,799,680;-4,256,783,334,832,603,136", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("Magic Bullet 100% Activated")
+end
+
+-- Menu Aimbot --
+function Aimbot()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber(
+		"h0000B4430000B4C30000344317B7D13800000000103A03EE101A02",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000B4430000B4C300003443003C1C4600000000103A03EE101A02", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5;1.0;1.0;1.0;1.0;2.5;1.0;1.0;1.0;1.0:89", gg.TYPE_FLOAT)
+	gg.sleep(3)
+	gg.refineNumber("3.5;1.0;1.0;1.0;1.0;2.5;1.0;1.0;1.0;1.0:89", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(250)
+	gg.editAll("99999999999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Aimbot Activated")
+end
+
+function AimbotV2()
+	gg.toast("⏳ Please Waiting... ⏳")
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber(
+		"h0000B4430000B4C30000344317B7D13800000000103A03EE101A02",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000B4430000B4C300003443003C1C4600000000103A03EE101A02", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5;1;1;1;1;200;20;2.5:73", gg.TYPE_FLOAT)
+	gg.refineNumber("3.5;1;1;1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(250)
+	gg.editAll("9999999999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("2;6;1:17", gg.TYPE_FLOAT)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(150)
+	gg.editAll("9999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Aimbot V2 Activated")
+end
+
+cs = "ZERO-CYBERZ-EVO"
+while true do
+	if gg.isVisible(true) then
+		ZEROCYBERZEVO = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if ZEROCYBERZEVO == 1 then
+		HOME()
+	end
+end

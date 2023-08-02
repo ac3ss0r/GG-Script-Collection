@@ -1,0 +1,16 @@
+--[[
+		Script made by: Michael1541#9506 
+		Watch this tutorial https://www.youtube.com/watch?v=WW5VdQOVFTQ
+--]]
+
+gg.setRanges(gg.REGION_CODE_APP, gg.REGION_ANONYMOUS)
+gg.searchNumber(
+	"h F5 53 BE A9 F3 7B 01 A9 B4 5F 01 B0 B5 3A 01 F0 88 F6 7E 39 B5 46 44 F9 F3 03 00 AA 88 01 00 37 C0 37 01 F0 00 18 41 F9 CE AF 4A 97 80 37 01 F0",
+	gg.TYPE_BYTE
+)
+gg.getResults(9999999999)
+gg.editAll(
+	"h 00 00 80 D2 C0 03 5F D6 B4 5F 01 B0 B5 3A 01 F0 88 F6 7E 39 B5 46 44 F9 F3 03 00 AA 88 01 00 37 C0 37 01 F0 00 18 41 F9 CE AF 4A 97 80 37 01 F0",
+	gg.TYPE_BYTE
+)
+gg.clearResults()

@@ -1,0 +1,80 @@
+gg.alert("Script By Fusen SUBSCRIBE MY YOUTUBE FUS3N")
+gg.toast("Roblox")
+print("ROblox")
+--Game guardian detection
+if gg.BUILD < 5511 then
+	print("You need latest version of GameGuardian to run this script. Minimum GG v.8.30.0.")
+	goto update
+end
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+gg.clearResults()
+goto START
+::START::
+
+menu = gg.choice({ "Infinite Jump", "NOClip", "NoClipOff", "Infinite Jump Off", "EXIT" }, nil, "SCRIPT BY FUS3N")
+
+if menu == 1 then
+	goto jump1
+end
+if menu == 2 then
+	goto B
+end
+if menu == 3 then
+	goto C
+end
+if menu == 4 then
+	goto D
+end
+if menu == nil then
+	print("error")
+end
+goto noselect
+
+::jump1::
+gg.alert("If It Doesnt Work First Time Try Again")
+gg.searchNumber("1.1", gg.TYPE_FLOAT)
+gg.getResults(150)
+print("Replaced: ", gg.editAll("100", gg.TYPE_FLOAT))
+gg.toast("the first try is always noob")
+gg.clearResults()
+goto sdone
+
+::B::
+gg.alert("If It Glitches Restart The Game And It Will Be Fixed 🎗️")
+gg.searchNumber("0.010", gg.TYPE_FLOAT)
+gg.getResults(9000)
+print("Replaced: ", gg.editAll("-10.1", gg.TYPE_FLOAT))
+gg.toast("the first try is always noob")
+gg.clearResults()
+goto sdone
+
+::C::
+gg.searchNumber("-10.1", gg.TYPE_FLOAT)
+gg.getResults(9000)
+print("Replaced: ", gg.editAll("0.010", gg.TYPE_FLOAT))
+gg.toast("nub no one")
+gg.clearResults()
+goto sdone
+
+::D::
+gg.searchNumber("1.1", gg.TYPE_FLOAT)
+gg.getResults(150)
+print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+gg.toast("the first try is always noob")
+gg.clearResults()
+goto sdone
+
+::sdone::
+print("its the first time")
+gg.toast("you can put here any kind of text that you want")
+os.exit()
+
+::noselect::
+print("Thanks For Using Subscribe FUS3N")
+
+::update::
+print("update your gameguardian")
+gg.toast("GG not support")
+gg.alert("Subscribe")

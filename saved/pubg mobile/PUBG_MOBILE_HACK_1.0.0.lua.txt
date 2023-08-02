@@ -1,0 +1,271 @@
+::START::
+menu = gg.choice({ "○常用功能", "○上色功能", "○防侦测(开功能后开)" }, nil, "大帝QQ3454315714")
+if menu == 1 then
+	goto OK1
+end
+if menu == 2 then
+	goto OK2
+end
+if menu == 3 then
+	goto OK3
+end
+if menu == nil then
+	print("Error")
+end
+
+::OK1::
+menu = gg.choice({
+	"人物加速",
+	"视觉扩大",
+	"人物穿墙",
+	"人物天线",
+	"全图除草",
+	"人物变大",
+	"人物天线2",
+	"除樹除屋",
+	"人物变大2",
+	"路飞",
+}, nil, "欢迎加入大帝荒野刺激交流群，群号码：488321688")
+if menu == 1 then
+	goto V1
+end
+if menu == 2 then
+	goto V2
+end
+if menu == 3 then
+	goto V3
+end
+if menu == 4 then
+	goto V4
+end
+if menu == 5 then
+	goto V5
+end
+if menu == 6 then
+	goto V6
+end
+if menu == 7 then
+	goto V7
+end
+if menu == 8 then
+	goto V8
+end
+if menu == 9 then
+	goto V9
+end
+if menu == 10 then
+	goto V10
+end
+if menu == nil then
+	print("Error")
+end
+goto sdone
+
+::V1::
+gg.clearResults()
+gg.searchNumber("1;256D;0.60000002384;25,000,000.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("3", gg.TYPE_FLOAT)
+gg.toast("第一步已开启")
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("0.81915205717;45;0.70710676908;1;0.125", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.5", gg.TYPE_FLOAT)
+gg.toast("开启成功")
+goto sdone
+
+::V2::
+gg.clearResults()
+gg.searchNumber("65,793D;1.0F;2,048D;16D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.65", gg.TYPE_FLOAT)
+gg.toast("视角扩大")
+gg.clearResults()
+goto sdone
+
+::V3::
+gg.clearResults()
+gg.searchNumber("30;58::10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("-30", gg.TYPE_FLOAT)
+gg.toast("穿墙已开启")
+goto sdone
+
+::V4::
+gg.clearResults()
+gg.searchNumber("1F;0.61365634203F;0.00034569605F;0.78957355022F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.61365634203F;0.00034569605F;0.78957355022F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("888", gg.TYPE_FLOAT)
+gg.toast("人物天线已开启")
+goto sdone
+
+::V5::
+gg.clearResults()
+gg.searchNumber("8;0;0;0.8;1.5;0.8;1.5F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("除草")
+goto sdone
+
+::V6::
+gg.clearResults()
+gg.searchNumber("-256D;1;1;1;604D;1;604D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.toast("人物变大")
+goto sdone
+
+::V7::
+gg.clearResults()
+gg.searchNumber("1;0.61365634203;0.00034569605;0.78957355022", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("666", gg.TYPE_FLOAT)
+gg.toast("人物天线开启成功")
+goto sdone
+
+::V8::
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.1", gg.TYPE_FLOAT)
+gg.toast("房子消失成功")
+goto sdone
+
+::V9::
+gg.clearResults()
+gg.searchNumber("1.4012985e-45F;4D;10~40D;3D::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("8", gg.TYPE_FLOAT)
+gg.toast("变大已开")
+goto sdone
+
+::V10::
+gg.clearResults()
+gg.searchNumber("3D;4D;-88; 1; 1; 1::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.editAll("20", gg.TYPE_FLOAT)
+gg.toast("路飞已开")
+goto sdone
+
+::OK2::
+menu = gg.choice({ "★绿色", "★蓝色", "★冰雪色", "★蓝绿色", "返回上一层" })
+if menu == 1 then
+	goto H1
+end
+if menu == 2 then
+	goto H2
+end
+if menu == 3 then
+	goto H3
+end
+if menu == 4 then
+	goto H4
+end
+if menu == 5 then
+	goto START
+end
+if menu == nil then
+	print("Error")
+end
+
+::H1::
+gg.clearResults()
+gg.searchNumber("0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("-99", gg.TYPE_FLOAT)
+gg.toast("人物绿色已开启")
+goto sdone
+
+::H2::
+gg.clearResults()
+gg.searchNumber("0.30737304688", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.30737304688", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("-99", gg.TYPE_FLOAT)
+gg.toast("人物蓝色已开启")
+goto sdone
+
+::H3::
+gg.clearResults()
+gg.searchNumber("0.30737304688;0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.30737304688;0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("-99", gg.TYPE_FLOAT)
+gg.toast("冰雪色已开启")
+goto sdone
+
+::H4::
+gg.clearResults()
+gg.searchNumber("0.30737304688;0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.30737304688", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)
+gg.editAll("-99", gg.TYPE_FLOAT)
+gg.toast("正在开启")
+gg.clearResults()
+gg.searchNumber("0.30737304688;0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)
+gg.editAll("10", gg.TYPE_FLOAT)
+gg.toast("已开启")
+goto sdone
+
+::OK3::
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.6", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.7", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.5;0.4::60", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("5", gg.TYPE_DOUBLE)
+gg.editAll("4", gg.TYPE_DOUBLE)
+gg.editAll("2.66", gg.TYPE_DOUBLE)
+gg.editAll("0.1", gg.TYPE_DOUBLE)
+goto sdone
+
+::sdone::
+print("脚本测试日期：2月17日")
+print("大帝QQ3454315714")
+gg.toast("欢迎加入大帝荒野刺激交流群，群号码：488321688")
+os.exit()

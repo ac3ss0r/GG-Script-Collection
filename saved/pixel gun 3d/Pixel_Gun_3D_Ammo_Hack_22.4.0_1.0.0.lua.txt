@@ -1,0 +1,23 @@
+hex = " F3 0F 1E F8 FD 7B 01 A9 FD 43 00 91 F3 14 02 F0 68 FA 68 39 E8 00 00 37 28 F1 01 B0"
+gg.setVisible(false)
+gg.alert("Infinite ammo script made by HorridModz (User123456789#6424).")
+gg.setVisible(false)
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber("h" .. hex, gg.TYPE_BYTE)
+gg.setVisible(false)
+if gg.getResultsCount() == 0 then
+	gg.setVisible(false)
+	gg.alert("This script is only for PG3D version 22.4.0 on 64bit devices. Sorry!")
+	gg.setVisible(false)
+	ox.exit()
+else
+	gg.setVisible(false)
+	gg.getResults(8)
+	gg.setVisible(false)
+	gg.editAll("h 20 00 80 D2 C0 03 5F D6", gg.TYPE_BYTE)
+	gg.setVisible(false)
+	gg.alert("Hack enabled!")
+end

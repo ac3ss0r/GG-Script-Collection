@@ -1,0 +1,105 @@
+--Script made by SGameCreator--
+gg.toast('Successfully executed script.')
+gg.alert('There may be bugs in this script. If you can help, send me a review on the GameGuardian page')
+goto menu
+
+::menu::
+menu = gg.choice{'Speed','AirWalking','AmmoHacks','Update Log','Some Walls Completely GONE!','Execute Script Again'}
+if menu == 1 then goto SpeedMenu end
+    if menu == 2 then goto AirWalkingMenu end
+        if menu == 3 then goto AmmoHacksMenu end
+        if menu == 4 then goto UpdateLog end
+        if menu == 5 then goto SomeWallsGone
+            if menu == 6 then goto ReExecute
+            
+
+::SpeedMenu::
+menu = gg.choice{'100 Speed','200 Speed','300 Speed','More Coming Soon'}
+if menu == 1 then goto 100Speed end
+if menu == 2 then goto 200Speed end
+if menu == 3 then goto 300Speed end
+if menu == 4 then goto MoreComingSoon end
+
+
+
+::AirWalkingMenu::
+menu = gg.choice{'AirWalkingOn','AirWalkingOff'}
+if menu == 1 then goto AirWalkingOn end
+    if menu == 2 then goto AirWalkingOff end
+
+::AmmoHacksMenu::
+menu = gg.choice{'Remington Gun','AK47 Gun','M9 Gun'}
+if menu == 1 then goto RemingtonGunHack end
+    if menu == 2 then goto AK47GunHack end
+        if menu == 3 then goto M9GunHack end
+
+
+        
+::AirWalkingOn::
+gg.searchNumber('1.1', gg.TYPE_FLOAT)
+gg.getResults(226)
+gg.editAll('100', gg.TYPE_FLOAT)
+goto Completed
+
+::AirWalkingOff::
+gg.searchNumber('100', gg.TYPE_FLOAT)
+gg.getResults(224)
+gg.editAll('1.1', gg.TYPE_FLOAT)
+goto Completed
+
+::RemingtonGunHack::
+gg.searchNumber('6', gg.TYPE_DOUBLE)
+gg.getResults(86)
+gg.editAll('99999', gg.TYPE_DOUBLE)
+goto Completed
+
+::AK47GunHack::
+gg.searchNumber('30', gg.TYPE_DOUBLE)
+gg.getResults(95)
+gg.editAll('99999', gg.TYPE_DOUBLE)
+goto Completed
+
+::M9GunHack::
+gg.searchNumber('15', gg.TYPE_DOUBLE)
+gg.getResults(45)
+gg.editAll('99999', gg.TYPE_DOUBLE)
+goto Completed
+
+::UpdateLog::
+gg.alert('NEW IN 2.0: Added 3 speeds and added some More Coming Soon alerts. There are a few bugs like waiting 99999 seconds to arrest someone, but other than that, everything works. I will reply to all reviews.')
+        end
+
+    
+::100Speed::
+gg.searchNumber('16', gg.TYPE_DOUBLE)
+gg.getResults(47)
+gg.editAll('100', gg.TYPE_DOUBLE)
+goto Completed
+
+::200Speed::
+gg.searchNumber('16', gg.TYPE_DOUBLE)
+gg.getResults(47)
+gg.editAll('200', gg.TYPE_DOUBLE)
+goto Completed
+
+::300Speed::
+gg.searchNumber('16', gg.TYPE_DOUBLE)
+gg.getResults(47)
+gg.editAll('300', gg.TYPE_DOUBLE)
+goto Completed
+
+::MoreComingSoon::
+gg.alert('More things will be coming to this script soon')
+
+::SomeWallsGone::
+gg.searchNumber('15', gg.TYPE_FLOAT)
+gg.getResults(699)
+gg.editAll('-1', gg.TYPE_FLOAT)
+goto Completed
+
+::Completed::
+gg.toast('Completed')
+
+::ReExecute::
+goto menu
+gg.toast('Successfully Executed Script')

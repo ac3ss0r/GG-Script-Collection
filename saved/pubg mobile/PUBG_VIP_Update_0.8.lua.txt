@@ -1,0 +1,377 @@
+gg.toast("PUBG MOBILE ||Hack 0.5 V6 By HackGame Mobile")
+gg.toast("Bao Cho Toi Neu Hack Khong Hoat Dong")
+
+HOME = 1
+function HOME()
+	AB = gg.choice({
+		"☬ New Bypass (Open After Tencent Logo)",
+		"             ❶•HackWall Menu",
+		"             ❷•Use In The Lobby",
+		"             ❸•Used When Landing",
+		"   ____________||✘EXIT||____________",
+		"               ❖HackGame Mobile❖",
+	}, nil, "      PUBG MOBILE MENU ||Hack 0.5 V6||            ==================================")
+	if AB == 1 then
+		xMevius()
+	end
+	if AB == 2 then
+		HWM()
+	end
+	if AB == 3 then
+		LB()
+	end
+	if AB == 4 then
+		LD()
+	end
+	if AB == 5 then
+		XMV()
+	end
+	if AB == 6 then
+		CT()
+	end
+	HOMEDM = -1
+end
+
+function LB()
+	SG = gg.choice({
+		"➟ Body Color (Purple)",
+		"➟ Colour (Mix)",
+		"➟ Body Color (RGB)",
+		"____________||↶ Back||____________",
+	}, nil, "USE IN THE LOBBY ||Hack 0.5 V4||")
+	if SG == 1 then
+		BP()
+	end
+	if SG == 2 then
+		BCP()
+	end
+	if SG == 3 then
+		PI()
+	end
+	if SG == 4 then
+		RGB()
+	end
+	if SG == 5 then
+		HOME()
+	end
+end
+
+gg.toast("___Version 6___")
+function XMV()
+	XMV = print("Like & Subscribe")
+	gg.toast("___Version 6___")
+	print("Youtube: HackGame Mobile")
+	print("Gmail: HackGameMobileVN@gmail.com")
+	print("Thanks For My Friend")
+	os.exit()
+end
+
+function HWM()
+	WM = gg.choice(
+		{ "☪•HackWall (Snap 620+)", "☪•HackWall (Snap 800+)", "____________||↶ Back||____________" },
+		nil,
+		"HACK WALL MENU ||Hack 0.5 V4||"
+	)
+	if WM == 1 then
+		HW()
+	end
+	if WM == 2 then
+		SNAP()
+	end
+	if WM == 3 then
+		HOME()
+	end
+end
+
+function PI()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1,669,433,347", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("99999999", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Character Colour has been active")
+end
+
+function RGB()
+	gg.clearResults()
+	gg.searchNumber("589,826", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("589,826", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-25", gg.TYPE_DWORD)
+	gg.toast("Body RGB has been active")
+end
+
+function BP()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("32,769;-2,134,900,722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-666", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Body Purple has been active")
+end
+
+function RTG()
+	gg.clearResults()
+	gg.searchNumber("4.8883906e21;5.1275959e-29;4.7777067e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("4.8883906e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("4.8883906e20", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Remove Tree and Grass has been active")
+end
+
+function SNAP()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,141D;4.7408155E21F;-5.5693206E-40F;4.814603E21F;3.7615819E-37F;2.0F:512",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("100", gg.TYPE_FLOAT)
+	gg.toast("The script is working 45%")
+	gg.clearResults()
+	gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("HackWal Snap 800+ has been active")
+end
+
+function NS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-9999", gg.TYPE_FLOAT)
+	gg.toast("Night Sky has been active")
+end
+
+function BSC8X()
+	gg.clearResults()
+	gg.searchNumber("0.37999999523F;1.0F::6", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(952)
+	gg.editAll("2.5", gg.TYPE_FLOAT)
+	gg.toast("Zoom x8 has been active")
+end
+
+function AI()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5F;1F;1F;1F;200F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(850)
+	gg.editAll("-999", gg.TYPE_FLOAT)
+	gg.toast("AimBot has been active")
+end
+
+function MBN()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15.0F;28.0F;16.0F;26.0F;8.0F;18.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("160", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Magic Bullet has been active")
+end
+
+function LD()
+	LZ = gg.choice({
+		"➟ Zoom Scope 8x",
+		"➟ No Grass",
+		"➟ Vision Extend",
+		"➟ Antena v",
+		"➟ Magic Bullet",
+		"➟ Weak AimBot",
+		"➟ Night Sky",
+		"➟ Remove Tree",
+		"➟ Weak Recoil",
+		"____________||↶ Back||____________",
+	}, nil, "USED WHEN LANDING ||Hack 0.5 V4||")
+	if LZ == 1 then
+		BSC8X()
+	end
+	if LZ == 2 then
+		GR()
+	end
+	if LZ == 3 then
+		VEX()
+	end
+	if LZ == 4 then
+		AT()
+	end
+	if LZ == 5 then
+		MBN()
+	end
+	if LZ == 6 then
+		AI()
+	end
+	if LZ == 7 then
+		NS()
+	end
+	if LZ == 8 then
+		RTG()
+	end
+	if LZ == 9 then
+		RC()
+	end
+	if LZ == 10 then
+		HOME()
+	end
+end
+
+function RC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.4012985e-45F;1F;1F;1F;1F;1000000F:100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("Weak Recoil has been active")
+end
+
+function youtube()
+	gg.choice({ "Youtube: HackGame Mobile" })
+	if youtube == 1 then
+		HOME()
+	end
+end
+
+function GR()
+	gg.clearResults()
+	gg.toast("___HackGame Mobile___")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F::512",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("8.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("No Grass has been active")
+	gg.clearResults()
+end
+
+function CT()
+	TC = gg.choice(
+		{ "✉️ Mail", "🔹Youtube", "____________||↶ Back||____________" },
+		nil,
+		"CONTACTS ||V.I.P Hack 0.4.0||"
+	)
+	if TC == 1 then
+		email()
+	end
+	if TC == 2 then
+		youtube()
+	end
+	if TC == 3 then
+		HOME()
+	end
+end
+
+function VEX()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1200", gg.TYPE_FLOAT)
+	gg.toast("Vision Extend has been active")
+end
+
+function xMevius()
+	xMevius = gg.alert("Please wait a second...")
+	gg.toast("Bypass is working...")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.getResults(500)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.alert("Security Removed! ✔100%")
+	gg.toast("Now you can use script features.")
+end
+
+function HW()
+	gg.toast("Please wait a second...")
+	gg.toast("WallHack is working...")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("\000-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("WallHack V.I.P has been active")
+end
+
+function AT()
+	gg.clearResults(850)
+	gg.toast("Please be Patient with this cheat")
+	gg.searchNumber("7.13142681122F;0.53447723389F;22.6400718689F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(850)
+	print("Replaced: ", gg.editAll("9999", gg.TYPE_FLOAT))
+	gg.toast("Antena has been active")
+end
+
+function email()
+	gg.choice({ "Email: Hackgamemobilevn@gmail.com " })
+	if email == 1 then
+		HOME()
+	end
+end
+
+while true do
+	if gg.isVisible(true) then
+		HOMEDM = 1
+		gg.setVisible(false)
+	end
+	if HOMEDM == 1 then
+		HOME()
+	end
+end

@@ -1,0 +1,298 @@
+gg.toast("吾爱专用版，更新时间12.20")
+print("orchidbud")
+--Game guardian detection
+
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+gg.clearResults()
+goto START
+
+::Info::
+menu = gg.choice({ "Yes", "No" }, nil, "Open More information?")
+if menu == 1 then
+	goto info
+end
+if menu == 2 then
+	goto START
+end
+goto sdone
+
+::START::
+menu = gg.choice({
+	"1✔ Grass (Day)",
+	"2❌✘ Grass (Night, Useless)",
+	"3✔ 2x Jump Height",
+	"4✔ Aimbot (Except If They`re Proned)",
+	"5✔ One Drink",
+	"6✔ Blue Gear",
+	"7✔ Violet Gear",
+	"8✔ Red Gear",
+	"9 ✔ 1.5x Speed ",
+	"10✔ Male ESP",
+	"11✘ Flying (Possible Ban)",
+	"12◆ Blood From The Sky..?",
+	"13◆ Landslide (No Clue)",
+	"14◆ Speeding up speed game hall",
+	"15✘ Ground Glitch ",
+	"16✘ Unlinited Ammo",
+	"17✘ No Recoil",
+	"18彡 Info",
+}, nil, "YLJ - Edited and translated by Illusionizt.")
+if menu == 1 then
+	goto GrassDay
+end
+if menu == 2 then
+	goto GrassNight
+end
+if menu == 3 then
+	goto Jump
+end
+if menu == 4 then
+	goto Aimbot
+end
+if menu == 5 then
+	goto Health
+end
+if menu == 6 then
+	goto Blue
+end
+if menu == 7 then
+	goto Violet
+end
+if menu == 8 then
+	goto Red
+end
+if menu == 9 then
+	goto Speed
+end
+if menu == 10 then
+	goto Lines
+end
+if menu == 11 then
+	goto Fly
+end
+if menu == 12 then
+	goto Blood
+end
+if menu == 13 then
+	goto Landslide
+end
+if menu == 14 then
+	goto Speed2
+end
+if menu == 15 then
+	goto Ground
+end
+if menu == 16 then
+	goto Ammo
+end
+if menu == 17 then
+	goto NoRecoil
+end
+if menu == 18 then
+	goto info
+end
+if menu == nil then
+	print("结束")
+end
+goto sdone
+
+::Health::
+gg.clearResults()
+gg.searchNumber("2;3D;2.25::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2;2.25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("1 Dose Enabled")
+goto START
+
+::Aimbot::
+gg.clearResults()
+gg.searchNumber("2;3D;2.25::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2;3D;2.25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9", gg.TYPE_FLOAT)
+gg.toast("Aimbot Enabled")
+goto START
+
+::Speed2::
+gg.clearResults()
+gg.searchNumber("1f;1701993518;115::200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.2444", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("I May Be Blind, Because I Do Not Unserstand This One Yet.")
+goto START
+
+::Lines::
+gg.clearResults()
+gg.searchNumber("3.42001724243;2.47032594681;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3.42001724243;2.47032594681;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Lines From Males Enabled.")
+goto START
+
+::Ground::
+gg.clearResults()
+gg.searchNumber("1910;40;40::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1910;40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Ground Glitch Enabled")
+goto START
+
+::Blood::
+gg.clearResults()
+gg.searchNumber("1300;5;0.02::15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Have Not Seen Any Change Here")
+goto START
+
+::Fly::
+gg.clearResults()
+gg.searchNumber("1;5;0.02::15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("400", gg.TYPE_FLOAT)
+gg.editAll("850", gg.TYPE_FLOAT)
+gg.editAll("1300", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("You Are Wizard Harry!")
+goto START
+
+::Landslide::
+gg.searchNumber("-11.75", gg.TYPE_FLOAT)
+gg.getResults(1)
+gg.toast("Another With No Change Noticed")
+goto sdone
+
+::Ammo::
+gg.clearResults()
+gg.searchNumber("1;60;0.05;1;60", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("3", gg.TYPE_DOUBLE)
+gg.toast("Inf. Ammo Enabled")
+goto START
+
+::GrassNight::
+gg.clearResults()
+gg.searchNumber("1270~1271;0.40000000596", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1270~1271", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Night Grass Be Gone Enabled. does not work...")
+goto START
+
+::Blue::
+gg.clearResults()
+gg.searchNumber("0.8;0.77649998665;0.73729997873::9::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.73729997873", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("66666", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Blue Gear Enabled.")
+goto START
+
+::Red::
+gg.clearResults()
+gg.searchNumber("0.8;0.77649998665;0.73729997873::9::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("66666", gg.TYPE_FLOAT)
+gg.toast("Red Gear Enabled.")
+goto START
+
+::NoRecoil::
+gg.clearResults()
+gg.searchNumber("1.1;1.26;1;82D::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_DOUBLE)
+gg.toast("Recoil Me Not.")
+goto START
+
+::Jump::
+gg.clearResults()
+gg.searchNumber("109.5445098877", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("109.5445098877", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("220", gg.TYPE_FLOAT)
+gg.toast("Trying To Be Superman?")
+goto START
+
+::Violet::
+gg.clearResults()
+gg.searchNumber("0.8;0.77649998665;0.73729997873::9::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.77649998665", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("66666", gg.TYPE_FLOAT)
+gg.toast("Purple Gear Enabled.")
+goto START
+
+::GrassDay::
+gg.clearResults()
+gg.searchNumber("1910~1911;300~301::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1910~1911;300~301::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("Day Grass Be Gone!")
+goto START
+
+::Speed::
+gg.clearResults()
+gg.searchNumber("10000;1;11d;50::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.5", gg.TYPE_FLOAT)
+gg.toast("Movement Speed Increased by 1.5")
+goto START
+
+::info::
+print("This is, simply put, a great mod. My hat off to the OP.")
+print(
+	"I have -simplified- this so that it`s easier to understand. I also left all of the original 17 mods in it (even if they are guarantee bans no matter how safe you are). The ones that i don`t recommend you to use are going to be labeled as such so as to know how to play, cheat and actually get that #1 spot without being detected. I have a few #1 wins (different accounts) that were only obtained with this (except my first #1, that was a fluke win lol). Feel free to critisize me and ridicule me whether this helps or not. I`m not here to make friends, only here and decided to take this route because i got a 3 day ban due to lag causing my character to glitch, and they cost me 3 days of xmas money farming."
+)
+
+print(
+	"1 ◆ (No Grass) This is one of the most helpful cheats. The grass disappears on your screen, so the enemy can`t hide, but to them, it`s still there and you can hide. Assuming you can determine you`re in a patch of grass. The *Night* variant doesn`t work."
+)
+print(
+	"2 ◆ (High Jump) The extra height feature works wonders. The only issues i know of with this one are that if others see you jumping higher than normal, these snowflakes will report you. Also, if you`re on a 2nd floor and jump off a balcony (or anywhere of the same height as 2 floors, you take damage. Not a big issue since it`s a small amount of damage."
+)
+print(
+	"3 ◆ (No Recoil) I stayed away from recoil because of past experiences of the feature being noticed easily. So use at your own risk. Same goes with *Bullet Expansion*. Never worked for me, but doesn`t mean it won`t for others."
+)
+print(
+	"4 ◆ (Speed) 1.5x Speed works great. But, I strongly recommend not using it unless you don`t really care if you get banned or not. Goes without saying, this one is easily noticable by other players, and also the server the game runs on. This one can trigger anomalies that can be traced back to your account. ❕NOTE❕: If you decide to use this, it would be best if you went all the way to the end of the flight before jumping off the plane so less players are around you. Just a mere suggestion. Decision is yours."
+)
+print("5 ◆ Red, blue and violet gear turn all guns, armor, vehicles and parachutes whatever color you choose.")
+print(
+	"6 ◆ Landslide, blood from the sky and speed game in game hall i have no clue about. Never noticed anything different with them."
+)
+print(
+	"7 ◆ Ground glitch and fly are self explanatory. Just don`t use them together, or the results will be deadly lol."
+)
+print(
+	'8 ◆ One coke is simply a "single dose heal all". While standing in place with this one activated, use a med item and watch as it heals you constantly until you do any action that would cancel healing.'
+)
+print(
+	"9 ◆ Lastly, aimbot. Everyone knows about it. Most hate it. I love it, since it pisses people off. It works 90% perfectly. Only 10% off since it can`t be used on a person if they`re proned (crawling) and unlike most aimbots ever made for any FPS/3PS, the aim is slightly tilted (dev issue, not OP) so we can`t ever hit a moving target unless we move the crosshair a little."
+)
+print(
+	"10 ◆ If you`re not satisified with this mod, don`t blame anyone. The OP took time to create it, i just altered it`s appearance a little and added an extra dialog. If you have issues, or want to make a suggestion to what i`ve added/altered ((didn`t touch his actual codes for the cheats in this upload (assuming someone pays attention to EVERYTHING like they should)), then tag me on the forum and i will assist if/when possible. Do not PM me, as it will be ignored since all help requests are better answered publicly to demenish the chance of a repeat question."
+)
+goto sdone
+
+::sdone::
+gg.toast("Exiting The Mod")

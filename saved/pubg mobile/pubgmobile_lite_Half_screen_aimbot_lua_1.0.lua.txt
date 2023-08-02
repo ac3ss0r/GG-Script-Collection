@@ -1,0 +1,40 @@
+function A()
+	Z = gg.choice({
+		"aimbot",
+		"exit",
+	})
+	if Z == 1 then
+		a()
+	end
+	if Z == 2 then
+		b()
+	end
+	B = -1
+end
+function a()
+	gg.clearResults()
+	gg.setRanges(8)
+	gg.searchNumber("-2.8488793e28;-5.4827808e27:5", 16, false, 536870912, 0, -1)
+	gg.searchNumber("-5.4827808e27", 16, false, 536870912, 0, -1)
+	gg.getResults(9)
+	gg.editAll("0", 16)
+	gg.clearResults()
+	gg.setRanges(8)
+	gg.searchNumber("-5.4561862e27;-8.3527253e22:5", 16, false, 536870912, 0, -1)
+	gg.searchNumber("-5.4561862e27", 16, false, 536870912, 0, -1)
+	gg.getResults(9)
+	gg.editAll("0", 16)
+end
+function b()
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		B = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if B == 1 then
+		A()
+	end
+end

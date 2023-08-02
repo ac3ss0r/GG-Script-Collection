@@ -1,3 +1,0 @@
-"value": "Ban from dev console",
-    "address": "0x6C53C70"
-  },

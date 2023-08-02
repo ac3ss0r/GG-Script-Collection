@@ -1,0 +1,224 @@
+hi = 0
+if gg.isPackageInstalled("com.roblox.client") == false then
+	gg.alert("Please Download Roblox App First")
+	print("Subscribe to Gameguardian and Coolboy263")
+end
+gg.setVisible(false)
+gg.alert("Welcome to Roblox Mobile Hacks")
+gg.toast("Subscribe to Coolboy263")
+print("Subscribe to Gameguardian and Coolboy263")
+
+::Menu1::
+
+menu = gg.choice({
+	"RoCitizens [FIXED]",
+	"💰Shark Attack💰",
+	"💰Hotel Elephant💰",
+	"💰Boys And Girls Hangout💰",
+	"💰Boys And Girls Dance Club💰",
+	"💰Blox paradise💰",
+	"💰FAMILY PARADISE💰",
+	"Get Eaten",
+	"🙈Hide Script🙈",
+}, nil, "Money Hacks V1.8")
+if menu == 1 then
+	gg.alert("You Need To Go To The Shop And Buy The the car the cost 400$")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("400", gg.TYPE_DOUBLE)
+	gg.getResults(100)
+	gg.editAll("-99999999999", gg.TYPE_DOUBLE)
+	gg.clearResults()
+	goto Menu1
+end
+
+if menu == 2 then
+	gg.alert("You Need To Go To The Shop And Buy The 🍦🍨🍧Ice Cream🍧🍨🍦")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("25", gg.TYPE_DOUBLE)
+	gg.getResults(100)
+	gg.editAll("-9999999999999", gg.TYPE_DOUBLE)
+	gg.alert("More Hacks Soon")
+	gg.toast("Subscribe to Gameguardian")
+	gg.clearResults()
+	goto Menu1
+end
+
+if menu == 3 then
+	gg.alert("Buy The JetSki In the Shop")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1200", gg.DOUBLE)
+	gg.getResults(99999)
+	gg.editAll("-999999999999", gg.TYPE_DOUBLE)
+	gg.alert("More Hacks Soon")
+	gg.toast("Subscribe to Coolboy263")
+	gg.clearResults()
+	goto Menu1
+end
+
+if menu == 4 then
+	gg.alert("You Need To Go To The Shop And Buy The Flying Cloud")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1250", gg.TYPE_DOUBLE)
+	gg.getResults(9999)
+	gg.editAll("-999999999999", gg.TYPE_DOUBLE)
+	gg.clearResults()
+	goto Menu1
+end
+
+if menu == 5 then
+	gg.alert("You Need To Go To The Shop And Buy The 🍦🍨🍧Ice Cream🍧🍨🍦")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("15", gg.TYPE_DOUBLE)
+	gg.getResults(100)
+	gg.editAll("-9999999999", gg.TYPE_DOUBLE)
+	gg.alert("More Hacks Soon")
+	gg.toast("Subscribe to Gameguardian")
+	gg.clearResults()
+	goto Menu1
+end
+
+if menu == 6 then
+	goto hack
+end
+if menu == 7 then
+	goto FP
+end
+if menu == 8 then
+	goto BF
+end
+if menu == 9 then
+	goto hi
+end
+if menu == nul then
+	goto hi1
+end
+::hack::
+gg.alert("AFTER CLICKING OK LOOK AT THE TIMER THEN CLICK ON GG ICON THEN TYPE THE NUMBER OF TIMER")
+gg.setSpeed(0.000001)
+::hack1::
+if gg.isVisible() then
+	gg.setVisible(false)
+	timer = gg.prompt({ "TIMER NUMBER" }, { "" }, { "number" })
+end
+if timer == nul then
+	goto hack1
+end
+goto hack2
+::hack2::
+timer = 60 - timer[1]
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber(timer, gg.TYPE_DOUBLE)
+gg.setSpeed(1)
+gg.sleep(1000)
+timer = timer + 1
+gg.setSpeed(0.000001)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.refineNumber(timer)
+gg.setSpeed(1)
+gg.setVisible(true)
+goto hi1
+::FP::
+gg.alert("AFTER CLICKING OK LOOK AT THE TIMER THEN CLICK ON GG ICON THEN TYPE THE NUMBER OF TIMER")
+gg.setSpeed(0.000001)
+::hacks1::
+if gg.isVisible() then
+	gg.setVisible(false)
+	timer = gg.prompt({ "TIMER NUMBER" }, { "" }, { "number" })
+end
+if timer == nul then
+	goto hacks1
+end
+goto hacks2
+::hacks2::
+timer = 60 - timer[1]
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber(timer, gg.TYPE_DOUBLE)
+gg.setSpeed(1)
+gg.sleep(1000)
+timer = timer + 1
+gg.setSpeed(0.000001)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.refineNumber(timer)
+gg.setSpeed(1)
+gg.setVisible(true)
+::A::
+if gg.isVisible() == false then
+	goto B
+end
+goto A
+
+::B::
+gg.alert("AFTER CLICKING OK LOOK AT THE TIMER THEN CLICK ON GG ICON THEN TYPE THE NUMBER OF TIMER")
+gg.setSpeed(0.000001)
+::hackss1::
+if gg.isVisible() then
+	gg.setVisible(false)
+	timer2 = gg.prompt({ "TIMER NUMBER" }, { "" }, { "number" })
+end
+if timer2 == nul then
+	goto hackss1
+end
+::hackss2::
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber(timer2[1], gg.TYPE_DOUBLE)
+gg.setSpeed(1)
+gg.sleep(1000)
+timer2 = timer2[1] - 1
+gg.setSpeed(0.000001)
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.refineNumber(timer2)
+gg.setSpeed(1)
+gg.setVisible(true)
+goto hi1
+
+::hi::
+if gg.isVisible() == false then
+	gg.setVisible(false)
+	goto Menu1
+end
+goto hi
+
+::BF::
+gg.alert("after clicking okay look at your money value then click GG icon then type it")
+::I::
+if gg.isVisible() == true then
+	gg.setVisible(false)
+	goto L
+end
+goto I
+::L::
+input = gg.prompt({ "MONEY VALUE" }, { "" }, { "number" })
+if input == nul then
+	goto I
+end
+gg.searchNumber(input[1], gg.TYPE_DWORD)
+gg.alert("after clicking okay look at your money value then click GG icon then type it")
+::ko::
+if gg.isVisible() == true then
+	gg.setVisible(false)
+	goto IQ
+end
+goto ko
+::IQ::
+input = gg.prompt({ "MONEY VALUE" }, { "" }, { "number" })
+gg.refineNumber(input[1])
+gg.alert("after clicking okay look at your money value then click GG icon then type it")
+::OP::
+if gg.isVisible() == true then
+	gg.setVisible(false)
+	goto MC
+end
+goto OP
+::MC::
+input = gg.prompt({ "MONEY VALUE" }, { "" }, { "number" })
+gg.refineNumber(input[1])
+gg.getResults(10)
+gg.editAll("9999999", gg.TYPE_DWORD)
+
+::hi1::

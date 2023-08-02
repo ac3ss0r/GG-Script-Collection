@@ -1,0 +1,247 @@
+-- @PNO_Cheat
+-- Sharing Is Permitted With Attribution
+-- All Code By PNO Team
+-- @PNO_Cheat
+
+-- @PNO_Cheat
+-- اشتراک گذاری با ذکر منبع مجاز است
+-- @PNO_Cheat
+
+function toast(x)
+	gg.toast(x)
+end
+
+function alert(x)
+	gg.alert(x)
+end
+
+function Search_LG(range, search)
+	gg.clearResults()
+	gg.setRanges(range)
+	gg.searchNumber(search, 4)
+	local t = gg.getResults(7558)
+	for i, v in ipairs(t) do
+		t[i].value = "0"
+		t[i].freeze = true
+	end
+	gg.addListItems(t)
+	gg.clearResults()
+end -- @URMRL
+
+function Search_LB(range, search, edit)
+	gg.clearResults()
+	gg.setRanges(range)
+	gg.searchNumber(search, 4)
+	gg.refineNumber(search, 4)
+	gg.getResults(7558)
+	gg.editAll(edit, 4)
+	gg.clearResults()
+end -- @URMRL
+
+a = gg.alert(
+	"Choose Your Language !\nزبان خود را انتخاب کنید !",
+	"English",
+	"فارسی",
+	"ExiT - خروج"
+)
+if a == 1 then
+	sl = "eng"
+	toast("You Choose English Language !")
+elseif a == 2 then
+	sl = "per"
+	toast("شما زبان فارسی را انتخاب کردید !")
+elseif a == 3 then
+	gg.setVisible(true)
+	os.exit(7558)
+end
+
+local d = {
+	time = "Time = ",
+	time_per = "زمان = ",
+	date = "Date = ",
+	date_per = "تاریخ = ",
+	bypass_lg = "Bypass Logo",
+	bypass_lg_per = "بایپس لوگو",
+	bypass_lb = "Bypass Lobby",
+	bypass_lb_per = "بایپس لابی",
+	hack = "Hack Menu",
+	hack_per = "منوی هک",
+	about = "About Us",
+	about_per = "درباره ی ما",
+	ch_ln = "Change Language",
+	ch_ln_per = "تغییر زبان",
+	ny = "Don't Use Anything With This Script, Just Use Esp Aim !",
+	ny_per = "از هیچ اسکریپت دیگری استفاده نکنید ، فقط از ایم بات ای اس پی استفاده کنید !",
+	swwf = "Soon We Will Find Strong Value For You !",
+	swwf_per = "بزودی کد های قوی تر برای شما پیدا خواهیم کرد !",
+	iot = "It's Only For Show Time & Date !",
+	iot_per = "این گزینه تنها برای نشان دادن زمان و تاریخ است !",
+	dywtvu = "Do You Want To Visit Us ?",
+	dywtvu_per = "آیا مایلید به ما سر بزنید ؟",
+	yes = "Yes !",
+	yes_per = "بله !",
+	no = "No !",
+	no_per = "نه !",
+	back = "BacK",
+	back_per = "برگشتن",
+	cp = "COPY !",
+	cp_per = "کپی !",
+	ty = "Thank You For Your Support !\nYou Copied Our Link !",
+	ty_per = "از حمایت شما متشکریم !\nشما لینک ما را کپی کردید !",
+	exit = "ExiT",
+	exit_per = "خروج",
+	done_bplg = "Bypass Logo Is On !",
+	done_bplg_per = "بایپس لوگو فعال شد !",
+	done_bplb = "Bypass Lobby Is On !",
+	done_bplb_per = "بایپس لابی فعال شد !",
+	au = "* All Code By PNO Team *\nMakers = @P_N_O_1 & @P_N_O_0 & @URMRL",
+	au_per = "تمامی کد ها توسط PNO Team ساخته شده است\nسازندگان = @P_N_O_1 و @P_N_O_0 و @URMRL",
+	hu = "For Help Us Please Choose * Copy * Then Go To Telegram And Join In Our Channel !",
+	hu_per = "برای کمک به ما لطفا * کپی * را انتخاب کنید ، سپس در تلگرام ایدی را جستجو و به کانال ما بپیوندید !",
+}
+
+local function change_ln(b)
+	local c = d[b .. "_" .. sl]
+	if not c then
+		c = d[b]
+	end
+	return c
+end
+
+local menu = {
+	os.date("* @PNO_Cheat *\n" .. change_ln("time") .. "%X\n" .. change_ln("date") .. "%D"),
+	change_ln("bypass_lg"),
+	change_ln("bypass_lb"),
+	change_ln("hack"),
+	change_ln("about"),
+	change_ln("exit"),
+	change_ln("ch_ln"),
+}
+
+local menu1 = {
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+	false,
+}
+
+function Menu()
+	z = gg.prompt(menu, menu1, { "checkbox", "checkbox", "checkbox", "checkbox", "checkbox", "checkbox", "checkbox" })
+	if z == nil then
+	else
+		if z[1] then
+			odat()
+		end
+		if z[2] then
+			BPLG()
+		end
+		if z[3] then
+			BPLB()
+		end
+		if z[4] then
+			HM()
+		end
+		if z[5] then
+			AU()
+		end
+		if z[6] then
+			ET()
+		end
+		if z[7] then
+			CL()
+		end
+	end
+	PNO = -1
+end
+
+function odat()
+	alert(change_ln("iot"))
+end
+
+function BPLG()
+	Search_LG(16384, 83886592)
+	toast(change_ln("done_bplg"))
+	alert(change_ln("done_bplg"))
+end
+
+function BPLB()
+	Search_LB(4, 134914, 168363778)
+	Search_LB(4, 144387, 168363778)
+	Search_LB(4, 134658, 168363778)
+	toast(change_ln("done_bplb"))
+	alert(change_ln("done_bplb"))
+end
+
+local hm = {
+	change_ln("ny"),
+	change_ln("back"),
+}
+
+local hm1 = {
+	true,
+	false,
+}
+
+function HM()
+	x = gg.multiChoice(hm, hm1, "* PNO Team *\n" .. change_ln("hack"))
+	if x == nil then
+	else
+		if x[1] then
+			NT()
+		end
+		if x[2] then
+			Menu()
+		end
+	end
+end
+
+function NT()
+	-- Nothing
+	alert(change_ln("swwf"))
+end
+
+function AU()
+	alert(change_ln("au"))
+	y = gg.alert(change_ln("hu"), change_ln("cp"), "", change_ln("back"))
+	if y == 1 then
+		gg.copyText("t.me/PNO_Cheat")
+		toast(change_ln("ty"))
+	end
+	if y == 3 then
+		Menu()
+	end
+end
+
+function ET()
+	q = gg.alert(change_ln("dywtvu"), change_ln("yes"), change_ln("no"), change_ln("back"))
+	if q == 1 then
+		gg.copyText("t.me/PNO_Cheat")
+		toast(change_ln("ty"))
+		gg.setVisible(true)
+		os.exit(7558)
+	end
+	if q == 2 then
+		gg.setVisible(true)
+		os.exit(7558)
+	end
+	if q == 3 then
+		Menu()
+	end
+end
+
+function CL()
+	dofile(gg.getFile())
+end
+
+while true do
+	if gg.isVisible(true) then
+		PNO = 1
+		gg.setVisible(false)
+	end
+	if PNO == 1 then
+		Menu()
+	end
+end

@@ -1,0 +1,460 @@
+gg.toast("Welcome") --Toast Massagegg.setVisible(true)
+xTool = -1
+function HOME()
+	MENU = gg.multiChoice({
+		"Spectate blocker", --multiChoice
+		"Magic or something lol", --multiChoice
+		"instant hit ", --multiChoice
+		"Aimbot 400m -600m ", --multiChoice
+		"bullet track (some device not work) ", --multiChoice
+		"Looong Jump", --multiChoice
+		"Flash", --multiChoice
+		"no recoil", --multiChoice
+		"fast reload", --multiChoice
+		"Skin Hack (Godzilla suit if possible more in next update", --multiChoice
+		"EXIT", --EndScript
+	}, nil, "Hackz by Crackmonkey")
+	if MENU == nil then
+	else
+		if MENU[1] == true then --multiChoice
+			MENU1()
+		end
+		if MENU[2] == true then --multiChoice
+			MENU2()
+		end
+		if MENU[3] == true then --multiChoice
+			MENU3()
+		end
+		if MENU[4] == true then --multiChoice
+			MENU4()
+		end
+		if MENU[5] == true then --multiChoice
+			MENU5()
+		end
+		if MENU[6] == true then --multiChoice
+			MENU6()
+		end
+		if MENU[7] == true then --multiChoice
+			MENU7()
+		end
+		if MENU[8] == true then --multiChoice
+			MENU8()
+		end
+		if MENU[9] == true then --multiChoice
+			MENU9()
+		end
+		if MENU[10] == true then --multiChoice
+			MENU10()
+		end
+		if MENU[11] == true then --EndScript
+			LOBBY()
+		end
+	end
+	xTool = -1
+end
+function MENU1() --multiChoice
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("909391408;808923191::8", gg.TYPE_DWORD)
+	gg.getResults(999)
+	gg.editAll("1089886885", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("909391408", gg.TYPE_DWORD)
+	gg.getResults(999)
+	gg.editAll("1089886885", gg.TYPE_DWORD)
+
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+
+function MENU2() --multiChoice
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(32) --ZeroShadow
+	gg.searchNumber("88.15017700195;15:512", 16, false, 536870912, 0, -1) --ZeroShadow
+	gg.searchNumber("15", 16, false, 536870912, 0, -1) --ZeroShadow
+	gg.getResults(10) --ZeroShadow
+	gg.editAll("95", 16) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.searchNumber("-88.66608428955;26:512", 16, false, 536870912, 0, -1) --ZeroShadow
+	gg.searchNumber("26", 16, false, 536870912, 0, -1) --ZeroShadow
+	gg.getResults(10) --ZeroShadow
+	gg.editAll("66", 16) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.searchNumber("90.4850692749;27.25;28:512", 16, false, 536870912, 0, -1)
+	gg.searchNumber("27.25;28", 16, false, 536870912, 0, -1)
+	gg.getResults(10) --ZeroShadow
+	gg.editAll("87", 16) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.searchNumber("1,104,805,888D;18", 16, false, 536870912, 0, -1)
+	gg.searchNumber("18", 16, false, 536870912, 0, -1)
+	gg.getResults(250) --ZeroShadow
+	gg.editAll("120", 16) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.toast("ᴍᴀɢɪᴄ ACTIVE ") --ZeroShadow
+
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+
+function MENU3() --multiChoice
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-1,883,348,481,058,764,210", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-1,883,348,485,055,444,540", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+	gg.searchNumber("-298284466;-1.304566e23F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.alert(" @Crackmonkey ")
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+function MENU4() --multiChoice
+	gg.getRangesList("libUE4.so") --@Crackmonkey telegram
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end --@Crackmonkey telegram
+	gg.setValues({ --@Crackmonkey telegram
+		[1] = { --@Crackmonkey telegram
+			["address"] = gg.getRangesList("libUE4.so")[1].start + 59845972,
+			["flags"] = 16,
+			["value"] = 1,
+		},
+	})
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17011332, 16, 1.66153519E35) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17006628, 16, -3.8685631E25) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17006624, 16, -9.9066194E27) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17006628, 16, -5.9029587E21) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17004676, 16, -9.9839906E27) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 40101084, 16, 0) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17011332, 16, 1.66153519E35) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17006628, 16, -3.8685631E25) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17003180, 16, -9.9066194E27) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17003184, 16, -5.9029587E21) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 17004676, 16, -9.9839906E27) --@Crackmonkey telegram
+	setvalue(gg.getRangesList("libUE4.so")[1].start + 40101180, 16, 0) --@Crackmonkey telegram
+	gg.setValues({ --@Crackmonkey telegram
+		[1] = { --@Crackmonkey telegram
+			["address"] = gg.getRangesList("libUE4.so")[1].start + 47976392,
+			["flags"] = 16,
+			["value"] = 0,
+		}, --@Crackmonkey telegram
+	}) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1036AF8
+	setvalue(so + py, 16, -9.98399062e27) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1038020
+	setvalue(so + py, 16, -9.90661937e27) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1038024
+	setvalue(so + py, 16, -3.86856308e25) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1039284
+	setvalue(so + py, 16, 1.66153519e35) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x258B740
+	setvalue(so + py, 16, 0) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x263E53C
+	setvalue(so + py, 16, 0) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x263E610
+	setvalue(so + py, 16, 1998.0) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x258B74C
+	setvalue(so + py, 4, 0) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x258B880
+	setvalue(so + py, 4, 1152327680) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x14D7980
+	setvalue(so + py, 16, 0) --@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3912DB4
+	setvalue(so + py, 16, 0) --@Crackmonkey telegram
+	gg.getRangesList("libUE4.so") --@Crackmonkey telegram
+	gg.sleep(900) --@Crackmonkey telegram
+	gg.toast("ðŸ‘¾ Aimbot 600 meters active ðŸ‘¾") --@Crackmonkey telegram
+
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+
+function MENU5() --multiChoice
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP) --ZeroShadow
+	gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.searchNumber("-298284466", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(999) --ZeroShadow
+	gg.editAll("0", gg.TYPE_DWORD) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3C491D0
+	setvalue(so + py, 16, 0)
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP) --ZeroShadow
+	gg.searchNumber("-511703038;-336586961:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.searchNumber("-511703038", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(2) --ZeroShadow
+	gg.editAll("-476053504", gg.TYPE_DWORD) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP) --ZeroShadow
+	gg.searchNumber("1.6615354e35;-5.8049376e26:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.searchNumber("1.6615354e35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(6) --ZeroShadow
+	gg.editAll("1.6615351e35", gg.TYPE_FLOAT) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP) --ZeroShadow
+	gg.searchNumber("-1903895621994000383", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(10) --ZeroShadow
+	gg.editAll("-1903895621994000382", gg.TYPE_QWORD) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP) --ZeroShadow
+	gg.searchNumber("2015175168", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(6) --ZeroShadow
+	gg.editAll("0", gg.TYPE_FLOAT) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP) --ZeroShadow
+	gg.searchNumber("1.6615354e35;-5.8048945e26:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.searchNumber("1.6615354e35", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(6) --ZeroShadow
+	gg.editAll("1.6615351e35", gg.TYPE_FLOAT) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x1C113E8
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x270D07C
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x136BDDC
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x381CCE0
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x376E57C
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x136D4F8
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2559FE8
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x381FCB0
+	setvalue(so + py, 16, 254.70928955078) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"-476047874;-393411840;-509599738;-443740152;-509603833;-476041216::21",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	) --ZeroShadow
+	gg.refineNumber("-476047874", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1) --ZeroShadow
+	gg.getResults(10) --ZeroShadow
+	gg.editAll("-476047889", gg.TYPE_DWORD) --ZeroShadow
+	gg.clearResults() --ZeroShadow
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x39279FC
+	setvalue(so + py, 4, 0) --ZeroShadow
+	gg.toast("🌐Bullet track🌐")
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+
+function MENU6() --multiChoice
+	gg.clearResults()
+	gg.getRangesList("libUE4.so") --@@Crackmonkey telegram
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end --@@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 40101072
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2565F264
+	setvalue(so + py, 16, 250)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3CB1598
+	setvalue(so + py, 16, 48)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x13C44A0
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x13C4A54
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2DC0FC8
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x260CEC8
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3CB2478
+	setvalue(so + py, 16, 44)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x11EC358
+	setvalue(so + py, 16, -2.83335968e28)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x11EC358
+	setvalue(so + py, 16, -2.83335968e28)
+	gg.getRangesList("libUE4.so")
+	gg.sleep(900)
+	gg.toast("⚡️ Long jump active ⚡️")
+	gg.toast("Script long jump credits to @@Crackmonkey telegram")
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+function MENU7() --multiChoice
+	gg.clearResults()
+	os.remove("src/main/java/com/google/errorprone/annotations")
+	os.remove("src/main/java/com/google/errorprone/annotations")
+	os.remove("src/main/java/com/google/errorprone/annotations/concurrent")
+	os.remove("third_party.java_src.error_prone.project.annotations.Google_internal")
+	gg.getRangesList("libUE4.so") --@@Crackmonkey telegram
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end --@@Crackmonkey telegram
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58609764
+	setvalue(so + py, 4, -301458928)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 40101072
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2565F264
+	setvalue(so + py, 16, 250)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3CB1598
+	setvalue(so + py, 16, 48)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x13C44A0
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x13C4A54
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x2DC0FC8
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x260CEC8
+	setvalue(so + py, 16, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x3CB2478
+	setvalue(so + py, 16, 44)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 19687984
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58179660
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58279548
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58609764
+	setvalue(so + py, 4, 0)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 19687984
+	setvalue(so + py, 4, -308344155)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58179660
+	setvalue(so + py, 4, -308340222)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58279548
+	setvalue(so + py, 4, -290186560)
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 58609764
+	setvalue(so + py, 4, -301458928)
+	gg.sleep(900)
+	gg.toast(" Vip Flash active join @CrackMonkey")
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+function MENU8() --multiChoice
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x13C2D80
+	setvalue(so + py, 16, 0)
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+function MENU9() --multiChoice
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber(
+		"-2.02910614e20;-9.3991982e20;-7.16031585e24;1.98768461e-36;-1.30928164e25:17",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-2.02910614e20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6281913639784)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+function MENU10() --multiChoice
+	qmnb = {
+		{ ["memory"] = 32 },
+		{ ["name"] = "Godzilla Outfit" },
+		{ ["value"] = 1400129, ["type"] = 4 },
+		{ ["lv"] = 519, ["offset"] = 4, ["type"] = 4 },
+	}
+	qmxg = {
+		{ ["value"] = 1405186, ["offset"] = 0, ["type"] = 4 },
+	}
+	xqmnb(qmnb)
+	gg.clearResults()
+	gg.toast("Thx 💝 for using hope Fully u don't get banned") --Toast Massage
+end
+function LOBBY() --End Script
+	print("Created By XTool")
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		xTool = 1
+		gg.setVisible(false)
+	end
+	if xTool == 1 then
+		HOME()
+	end
+end

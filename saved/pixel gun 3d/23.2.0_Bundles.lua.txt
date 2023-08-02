@@ -1,0 +1,1005 @@
+do
+	local v0
+	local v1
+	local v2
+	local v3
+	local v4
+	local v5
+	local v6
+	local v7
+	local v8
+	local v9
+	local v10
+	local v11
+	local v12
+	local v13 = 0
+	while true do
+		if v13 == 4 then
+			v7 = nil
+			v7 = function(v14, v15)
+				local v29 = 0
+				local v30
+				local v31
+				while true do
+					if v29 == 0 then
+						v30 = 0
+						v31 = nil
+						v29 = 1
+					end
+					if v29 == 1 then
+						while true do
+							local v49 = 0
+							while true do
+								if v49 == 0 then
+									if v30 == 1 then
+										return v5(v31)
+									end
+									if 0 == v30 then
+										local v58 = 0
+										while true do
+											if v58 == 1 then
+												v30 = 1
+												break
+											end
+											if v58 == 0 then
+												v31 = {}
+												for v74 = 1, #v14 do
+													v6(
+														v31,
+														v0(
+															v4(
+																v1(v2(v14, v74, v74 + 1)),
+																v1(
+																	v2(
+																		v15,
+																		1 + ((v74 - (1 + 0)) % #v15),
+																		1
+																			+ 0
+																			+ ((v74 - (925 - (499 + 425))) % #v15)
+																			+ (1 - 0)
+																	)
+																)
+															) % (1927 - (1292 + 379))
+														)
+													)
+												end
+												v58 = 1
+											end
+										end
+									end
+									break
+								end
+							end
+						end
+						break
+					end
+				end
+			end
+			v8, v9, v10 = nil, 0, 0 + 0 + 0
+			v11 = nil
+			v13 = 5
+		end
+		if v13 == 6 then
+			gg.setVisible(false)
+			gg.alert(
+				v7(
+					"\111\2\201\64\45\183\4\84\79\14\135\96\32\160\30\87\28\68\148\23\97\137\1\70\30\89\149\10\113\143",
+					"\45\119\167\36\65\210\119\116"
+				)
+			)
+			edit()
+			break
+		end
+		if 1 == v13 then
+			v4 = v3.bxor
+			v5 = table.concat
+			v6 = table.insert
+			v7 = nil
+			v13 = 2
+		end
+		if v13 == 5 then
+			v11 = function(v19)
+				local v32 = 0
+				local v33
+				local v34
+				local v35
+				while true do
+					if 1 == v32 then
+						v35 = nil
+						while true do
+							if v33 == 0 then
+								local v51 = 0
+								while true do
+									if 0 == v51 then
+										v34 = 1963 - (1538 + 425)
+										v35 = nil
+										v51 = 1
+									end
+									if v51 == 1 then
+										v33 = 1
+										break
+									end
+								end
+							end
+							if v33 == 1 then
+								while true do
+									local v55 = 0
+									local v56
+									local v57
+									while true do
+										if v55 == 1 then
+											while true do
+												if v56 == 0 then
+													v57 = (3261 - (1143 + 150)) - (1407 + 561)
+													while true do
+														if v57 == ((1753 - 582) - (1110 + (128 - 67))) then
+															if (0 - 0) == v34 then
+																local v81 = 0
+																local v82
+																local v83
+																while true do
+																	if v81 == 1 then
+																		while true do
+																			if v82 == 0 then
+																				v83 = (0 + 0) - 0
+																				while true do
+																					if v83 == (897 - (510 + 386)) then
+																						v34 = 1
+																						break
+																					end
+																					if v83 == 0 then
+																						local v97 = 0
+																						local v98
+																						while true do
+																							if v97 == 0 then
+																								v98 = 0
+																								while true do
+																									if v98 == 1 then
+																										v83 = 1 - 0
+																										break
+																									end
+																									if v98 == 0 then
+																										local v110 = 0
+																										while true do
+																											if
+																												v110
+																												== 1
+																											then
+																												v98 = 1
+																												break
+																											end
+																											if
+																												v110
+																												== 0
+																											then
+																												if
+																													v8
+																													== v19
+																												then
+																													return v9,
+																														v10
+																												end
+																												v35 =
+																													gg.getRangesList(
+																														v19
+																															or v7(
+																																"\207\170\255\223\177\145\160\237\198\243\208\172",
+																																"\163\195\157\182\221"
+																															)
+																													)
+																												v110 = 1
+																											end
+																										end
+																									end
+																								end
+																								break
+																							end
+																						end
+																					end
+																				end
+																				break
+																			end
+																		end
+																		break
+																	end
+																	if v81 == 0 then
+																		v82 = 0
+																		v83 = nil
+																		v81 = 1
+																	end
+																end
+															end
+															if v34 == (258 - (26 + 231)) then
+																local v84 = 0
+																local v85
+																local v86
+																while true do
+																	if v84 == 1 then
+																		while true do
+																			if v85 == 0 then
+																				v86 = 0
+																				while true do
+																					if 0 == v86 then
+																						local v99 = 0
+																						local v100
+																						while true do
+																							if 0 == v99 then
+																								v100 = 0
+																								while true do
+																									if v100 == 0 then
+																										local v111 = 0
+																										while true do
+																											if
+																												0
+																												== v111
+																											then
+																												for
+																													v112,
+																													v113
+																												in
+																													ipairs(
+																														v35
+																													)
+																												do
+																													if
+																														v113[v7(
+																															"\11\63\201\41\59",
+																															"\120\75\168\93\94"
+																														)]
+																														== v7(
+																															"\209\78",
+																															"\137\47\179\46\63\197"
+																														)
+																													then
+																														v9 =
+																															v113[v7(
+																																"\76\202\211\201\88",
+																																"\63\190\178\187\44"
+																															)]
+																														v10 =
+																															v35[#v35][v7(
+																																"\10\24\219",
+																																"\111\118\191\118\169\116\108\20"
+																															)]
+																														break
+																													end
+																												end
+																												return v9,
+																													v10
+																											end
+																										end
+																									end
+																								end
+																								break
+																							end
+																						end
+																					end
+																				end
+																				break
+																			end
+																		end
+																		break
+																	end
+																	if v84 == 0 then
+																		v85 = 0
+																		v86 = nil
+																		v84 = 1
+																	end
+																end
+															end
+															break
+														end
+													end
+													break
+												end
+											end
+											break
+										end
+										if v55 == 0 then
+											v56 = 0
+											v57 = nil
+											v55 = 1
+										end
+									end
+								end
+								break
+							end
+						end
+						break
+					end
+					if v32 == 0 then
+						v33 = 0
+						v34 = nil
+						v32 = 1
+					end
+				end
+			end
+			v12 = nil
+			v12 = function(v20, v21, v22)
+				local v36 = 0
+				local v37
+				local v38
+				local v39
+				local v40
+				local v41
+				local v42
+				while true do
+					if 3 == v36 then
+						while true do
+							if v37 == 1 then
+								local v52 = 0
+								while true do
+									if 0 == v52 then
+										v40 = nil
+										v41 = nil
+										v52 = 1
+									end
+									if 1 == v52 then
+										v37 = 2
+										break
+									end
+								end
+							end
+							if v37 == 2 then
+								v42 = nil
+								while true do
+									if v38 == ((1499 - (327 + 131)) - ((2668 - (456 + 1336)) + 150 + 13)) then
+										while true do
+											if v39 == 0 then
+												local v63 = 0
+												local v64
+												local v65
+												while true do
+													if v63 == 1 then
+														while true do
+															if v64 == 0 then
+																v65 = 0 - 0
+																while true do
+																	if v65 == ((3530 - (937 + 745)) - (805 + 1043)) then
+																		local v89 = 0
+																		local v90
+																		while true do
+																			if v89 == 0 then
+																				v90 = 0
+																				while true do
+																					if v90 == 1 then
+																						v65 = 1500 - (1002 + 137 + 360)
+																						break
+																					end
+																					if v90 == 0 then
+																						local v101 = 0
+																						while true do
+																							if v101 == 1 then
+																								v90 = 1
+																								break
+																							end
+																							if 0 == v101 then
+																								v11(v20)
+																								v40, v41 = {}, 0 + 0
+																								v101 = 1
+																							end
+																						end
+																					end
+																				end
+																				break
+																			end
+																		end
+																	end
+																	if
+																		v65
+																		== ((225 - (23 + 201)) - (867 - (746 + 121)))
+																	then
+																		v39 = 1 + 0 + 0
+																		break
+																	end
+																end
+																break
+															end
+														end
+														break
+													end
+													if v63 == 0 then
+														v64 = 0
+														v65 = nil
+														v63 = 1
+													end
+												end
+											end
+											if v39 == 1 then
+												local v66 = 0
+												local v67
+												local v68
+												while true do
+													if v66 == 1 then
+														while true do
+															if v67 == 0 then
+																v68 = 0
+																while true do
+																	if v68 == (0 + (0 - 0)) then
+																		local v91 = 0
+																		local v92
+																		while true do
+																			if v91 == 0 then
+																				v92 = 0
+																				while true do
+																					if v92 == 1 then
+																						v68 = 1
+																						break
+																					end
+																					if 0 == v92 then
+																						local v102 = 0
+																						while true do
+																							if 0 == v102 then
+																								for v104 in
+																									_G[v7(
+																										"\254\227\204\0\247\234",
+																										"\141\151\190\105\153"
+																									)].gmatch(
+																										v22,
+																										v7(
+																											"\16\25\120\7",
+																											"\53\74\93\84\54\92\108\34"
+																										)
+																									)
+																								do
+																									local v105 = 0
+																									local v106
+																									local v107
+																									local v108
+																									while true do
+																										if
+																											v105 == 1
+																										then
+																											v108 = nil
+																											while
+																												true
+																											do
+																												if
+																													v106
+																													== 1
+																												then
+																													while
+																														true
+																													do
+																														if
+																															v107
+																															== (
+																																(
+																																	0
+																																	+ 0
+																																)
+																																- (
+																																	0
+																																	- 0
+																																)
+																															)
+																														then
+																															v108 = 259
+																																- (
+																																	23
+																																	+ 188
+																																	+ 48
+																																)
+																															while
+																																true
+																															do
+																																if
+																																	(
+																																		0
+																																		- 0
+																																	)
+																																	== v108
+																																then
+																																	_G[v7(
+																																		"\6\120\243\190\58",
+																																		"\114\25\145\210\95\190"
+																																	)].insert(
+																																		v40,
+																																		{
+																																			[v7(
+																																				"\73\32\242\48\15\199\94",
+																																				"\40\68\150\66\106\180\45"
+																																			)] = (
+																																				v9
+																																				+ v21
+																																				+ v41
+																																			),
+																																			[v7(
+																																				"\13\198\65\188\34",
+																																				"\107\170\32\219\81"
+																																			)] = gg[v7(
+																																				"\19\156\33\90\133\5\156\37\90",
+																																				"\71\197\113\31\218"
+																																			)],
+																																			[v7(
+																																				"\20\47\118\159\251",
+																																				"\98\78\26\234\158\18\115\150"
+																																			)] = (
+																																				v104
+																																				.. "r"
+																																			),
+																																		}
+																																	)
+																																	v41 = v41
+																																		+ 1
+																																	break
+																																end
+																															end
+																															break
+																														end
+																													end
+																													break
+																												end
+																												if
+																													v106
+																													== 0
+																												then
+																													local v114 =
+																														0
+																													while
+																														true
+																													do
+																														if
+																															v114
+																															== 0
+																														then
+																															v107 = (
+																																0
+																																+ 0
+																															)
+																																- 0
+																															v108 =
+																																nil
+																															v114 =
+																																1
+																														end
+																														if
+																															v114
+																															== 1
+																														then
+																															v106 =
+																																1
+																															break
+																														end
+																													end
+																												end
+																											end
+																											break
+																										end
+																										if
+																											v105 == 0
+																										then
+																											v106 = 0
+																											v107 = nil
+																											v105 = 1
+																										end
+																									end
+																								end
+																								v42 = gg.setValues(v40)
+																								v102 = 1
+																							end
+																							if v102 == 1 then
+																								v92 = 1
+																								break
+																							end
+																						end
+																					end
+																				end
+																				break
+																			end
+																		end
+																	end
+																	if 1 == v68 then
+																		v39 = 1253 - (563 + 688)
+																		break
+																	end
+																end
+																break
+															end
+														end
+														break
+													end
+													if v66 == 0 then
+														v67 = 0
+														v68 = nil
+														v66 = 1
+													end
+												end
+											end
+											if v39 == ((3206 - 1595) - (128 + 448 + 1033)) then
+												if type(v42) ~= v7("\162\10\211\0\191\25", "\209\126\161\105") then
+													return true
+												else
+													local v75 = 0
+													local v76
+													local v77
+													local v78
+													while true do
+														if v75 == 1 then
+															v78 = nil
+															while true do
+																if v76 == 1 then
+																	while true do
+																		if v77 == (0 + 0) then
+																			v78 = 0
+																			while true do
+																				if v78 == (0 - 0) then
+																					local v95 = 0
+																					local v96
+																					while true do
+																						if v95 == 0 then
+																							v96 = 0
+																							while true do
+																								if v96 == 0 then
+																									local v109 = 0
+																									while true do
+																										if
+																											v109 == 0
+																										then
+																											gg.alert(
+																												v42
+																											)
+																											return false
+																										end
+																									end
+																								end
+																							end
+																							break
+																						end
+																					end
+																				end
+																			end
+																			break
+																		end
+																	end
+																	break
+																end
+																if v76 == 0 then
+																	local v88 = 0
+																	while true do
+																		if v88 == 0 then
+																			v77 = 1374
+																				- (
+																					(963 - (480 + 381))
+																					+ (1541 - (140 + 129))
+																				)
+																			v78 = nil
+																			v88 = 1
+																		end
+																		if v88 == 1 then
+																			v76 = 1
+																			break
+																		end
+																	end
+																end
+															end
+															break
+														end
+														if v75 == 0 then
+															v76 = 0
+															v77 = nil
+															v75 = 1
+														end
+													end
+												end
+												break
+											end
+										end
+										break
+									end
+									if v38 == ((112 + 219) - (263 + 67)) then
+										local v59 = 0
+										local v60
+										while true do
+											if v59 == 0 then
+												v60 = 0
+												while true do
+													if 1 == v60 then
+														v38 = 1 + (1053 - (474 + 578))
+														break
+													end
+													if v60 == 0 then
+														local v79 = 0
+														while true do
+															if v79 == 0 then
+																v41 = nil
+																v42 = nil
+																v79 = 1
+															end
+															if v79 == 1 then
+																v60 = 1
+																break
+															end
+														end
+													end
+												end
+												break
+											end
+										end
+									end
+									if v38 == 0 then
+										local v61 = 0
+										local v62
+										while true do
+											if 0 == v61 then
+												v62 = 0
+												while true do
+													if 0 == v62 then
+														local v80 = 0
+														while true do
+															if v80 == 1 then
+																v62 = 1
+																break
+															end
+															if v80 == 0 then
+																v39 = 1710 - (667 + 1043)
+																v40 = nil
+																v80 = 1
+															end
+														end
+													end
+													if v62 == 1 then
+														v38 = 2 - (3 - 2)
+														break
+													end
+												end
+												break
+											end
+										end
+									end
+								end
+								break
+							end
+							if 0 == v37 then
+								local v53 = 0
+								while true do
+									if v53 == 0 then
+										v38 = 0
+										v39 = nil
+										v53 = 1
+									end
+									if v53 == 1 then
+										v37 = 1
+										break
+									end
+								end
+							end
+						end
+						break
+					end
+					if v36 == 2 then
+						v41 = nil
+						v42 = nil
+						v36 = 3
+					end
+					if v36 == 0 then
+						v37 = 0
+						v38 = nil
+						v36 = 1
+					end
+					if 1 == v36 then
+						v39 = nil
+						v40 = nil
+						v36 = 2
+					end
+				end
+			end
+			_G[v7("\142\219\249\109", "\235\191\144\25\119\96")] = function()
+				local v43 = 0
+				local v44
+				local v45
+				local v46
+				while true do
+					if v43 == 1 then
+						v46 = nil
+						while true do
+							if v44 == 1 then
+								while true do
+									if (1669 - ((2799 - 1140) + (1602 - (1321 + 271)))) == v45 then
+										v46 = 0
+										while true do
+											if v46 == (1378 - (599 + 779)) then
+												local v69 = 0
+												local v70
+												while true do
+													if 0 == v69 then
+														v70 = 0
+														while true do
+															if v70 == 1 then
+																v46 = 1 - (0 + 0)
+																break
+															end
+															if v70 == 0 then
+																local v87 = 0
+																while true do
+																	if v87 == 0 then
+																		gg.setVisible(false)
+																		gg.setRanges(
+																			gg[v7(
+																				"\122\115\26\112\7\116\119\117\2\125\9\110\105",
+																				"\40\54\93\57\72\58"
+																			)]
+																				| gg[v7(
+																					"\199\193\23\173\86\105\202\199\31\160\92\120\212\212\0",
+																					"\149\132\80\228\25\39"
+																				)]
+																		)
+																		v87 = 1
+																	end
+																	if v87 == 1 then
+																		v70 = 1
+																		break
+																	end
+																end
+															end
+														end
+														break
+													end
+												end
+											end
+											if v46 == (220 - (60 + 158)) then
+												gg.toast(" Done, if didn't work just execute again ")
+												break
+											end
+											if v46 == (351 - (292 + 58)) then
+												local v71 = 0
+												local v72
+												local v73
+												while true do
+													if v71 == 0 then
+														v72 = 0
+														v73 = nil
+														v71 = 1
+													end
+													if v71 == 1 then
+														while true do
+															if v72 == 0 then
+																v73 = 530 - (338 + 192)
+																while true do
+																	if 1 == v73 then
+																		v46 = 2
+																		break
+																	end
+																	if v73 == 0 then
+																		local v93 = 0
+																		local v94
+																		while true do
+																			if v93 == 0 then
+																				v94 = 0
+																				while true do
+																					if v94 == 1 then
+																						v73 = 1 + (1686 - (278 + 1408))
+																						break
+																					end
+																					if v94 == 0 then
+																						local v103 = 0
+																						while true do
+																							if 0 == v103 then
+																								v12(
+																									v7(
+																										"\179\17\73\58\18\123\188\8\91\125\13\38",
+																										"\223\120\43\83\126\73"
+																									),
+																									54176772,
+																									v7(
+																										"\148\141\169\83\114\235\40\116\132\136\187\67\1\251\48\116\151\157\188\37\98\143\38",
+																										"\164\189\137\99\66\203\16\68"
+																									)
+																								)
+																								v12(
+																									v7(
+																										"\11\168\33\16\237\85\162\51\9\175\20\174",
+																										"\103\193\67\121\129"
+																									),
+																									225851827
+																										- 171674219,
+																									v7(
+																										"\64\236\129\237\65\148\183\64\252\148\239\81\247\191\80\236\146\253\68\242\175\52\234",
+																										"\112\220\161\221\113\180\143"
+																									)
+																								)
+																								v103 = 1
+																							end
+																							if v103 == 1 then
+																								v94 = 1
+																								break
+																							end
+																						end
+																					end
+																				end
+																				break
+																			end
+																		end
+																	end
+																end
+																break
+															end
+														end
+														break
+													end
+												end
+											end
+										end
+										break
+									end
+								end
+								break
+							end
+							if v44 == 0 then
+								local v54 = 0
+								while true do
+									if v54 == 0 then
+										v45 = 0 - 0
+										v46 = nil
+										v54 = 1
+									end
+									if 1 == v54 then
+										v44 = 1
+										break
+									end
+								end
+							end
+						end
+						break
+					end
+					if v43 == 0 then
+						v44 = 0
+						v45 = nil
+						v43 = 1
+					end
+				end
+			end
+			v13 = 6
+		end
+		if v13 == 2 then
+			v7 = function(v23, v24)
+				local v47 = 0
+				local v48
+				while true do
+					if v47 == 1 then
+						return v5(v48)
+					end
+					if v47 == 0 then
+						v48 = {}
+						for v50 = 1, #v23 do
+							v6(
+								v48,
+								v0(
+									v4(
+										v1(v2(v23, v50, v50 + 1)),
+										v1(v2(v24, 1 + ((v50 - 1) % #v24), 1 + ((v50 - 1) % #v24) + 1))
+									) % 256
+								)
+							)
+						end
+						v47 = 1
+					end
+				end
+			end
+			v0 = _G[v7("\246\10\92\36\247\226", "\133\126\46\77\153")][v7("\74\186\168\193", "\41\210\201\179\140")]
+			v1 = _G[v7("\214\14\20\187\205\223", "\165\122\102\210\163\184\151")][v7(
+				"\137\234\180\140",
+				"\235\147\192\233\118\215\222\28"
+			)]
+			v2 = _G[v7("\151\55\158\86\139\114", "\228\67\236\63\229\21")][v7(
+				"\238\195\186",
+				"\157\182\216\218\187\90\133"
+			)]
+			v13 = 3
+		end
+		if v13 == 0 then
+			v0 = string.char
+			v1 = string.byte
+			v2 = string.sub
+			v3 = bit32 or bit
+			v13 = 1
+		end
+		if v13 == 3 then
+			v3 = _G[v7("\33\43\43\68\65", "\67\66\95\119\115")] or _G[v7("\253\2\108", "\159\107\24\192\61")]
+			v4 = v3[v7("\237\107\17\75", "\143\19\126\57\163\63\147")]
+			v5 = _G[v7("\83\93\2\30\66", "\39\60\96\114")][v7("\207\86\140\59\136\216", "\172\57\226\88\233")]
+			v6 = _G[v7("\164\245\120\13\86", "\208\148\26\97\51\41")][v7("\38\20\89\185\61\14", "\79\122\42\220")]
+			v13 = 4
+		end
+	end
+end

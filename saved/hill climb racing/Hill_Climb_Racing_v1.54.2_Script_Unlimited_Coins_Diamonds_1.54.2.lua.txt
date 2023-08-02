@@ -1,0 +1,84 @@
+﻿﻿gg.alert('⚠️  NOTICE ⚠️ \n \n Follow for more scripts.')
+
+gg.toast('  GS47 Mods  ')
+
+
+
+function patch8bytes(pAddress, pValue)
+    -- get the base address of lib2ilcpp.so
+    local soBase = gg.getRangesList('libgame.so')[1].start
+
+    -- patching the first 4 bytes for our value, ex : mov r0, #100 (yes, this line of code need 4 bytes in memory)
+    gg.addListItems({
+        [1] = {
+            address = soBase + pAddress,
+            flags = gg.TYPE_DWORD,
+            value = pValue,
+            freeze = true
+        }
+    })
+
+    -- after put our desired value, we need to put an return, ex : BX LR. So just add "4" to the first address
+    -- BX LR
+    gg.addListItems({
+        [1] = {
+            address = soBase + pAddress + 4,
+            flags = gg.TYPE_DWORD,
+            value = -516948194,
+            freeze = true
+        }
+    })
+    gg.removeListItems(gg.getListItems())
+end
+ 
+
+is_Exit = false
+
+menu = gg.choice({'1️⃣ Unlimited Coins 滋','2️⃣ Unlimited Diamonds ','EXIT '},nil,'    GS47 Mods    ')
+
+
+if  menu == nil  then
+else
+if menu == 1 then 
+
+-- returning big value
+ofs_GetMoney = 0x4BAE60
+patch8bytes(ofs_GetMoney, 9999999) -- return 10000000
+
+gg.toast('滋 Hack Applied Successfully ✅')
+
+
+end
+
+
+
+if menu == 2 then 
+-- returning big value
+ofs_GetMoney = 0x4BAECC
+patch8bytes(ofs_GetMoney, 9999999) -- return 10000000
+
+gg.toast('滋 Hack Applied Successfully ✅')
+
+
+
+
+
+
+
+end
+
+
+if menu == 3 then 
+os.exit()
+
+
+
+
+
+end
+
+
+gg.toast('-=[ Script Finished ]=-')
+
+-- stop the script
+end

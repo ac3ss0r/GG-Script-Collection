@@ -1,0 +1,93 @@
+function wait()
+	gg.setVisible(false)
+	while true do
+		if gg.isVisible() then
+			break
+		end
+
+		gg.sleep(300)
+	end
+	gg.clearResults()
+	gg.sleep(300)
+end
+gg.alert("you need max rank clan to unlock all wepons")
+gg.alert(" script by PG3DSTRIKER#1141 [FOR ALL VERSION]")
+
+D = gg.TYPE_DWORD
+gg.setVisible(false)
+menu = gg.choice({ "bronze" }, nil, "welcome to my script, script by PG3DSTRIKER")
+if menu == 1 then
+end
+choice1 = gg.choice({ "Primary", "Back up", "Melee", "special", "sniper", "heavy" })
+if choice1 == 1 then
+	gg.searchNumber("893,029,663D;893,029,663D:1985", D)
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.getResults(999)
+	gg.editAll(0, D)
+	gg.alert("double click on the gun , don't buy it and click on game guardian icon.")
+	wait()
+	gg.setValues(revert)
+	gg.toast("Values Reversed, its now safe to buy.")
+	gg.clearResults()
+end
+if choice1 == 2 then
+	gg.searchNumber("1,022,557,565D;1,022,557,565D:1969", D)
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.getResults(999)
+	gg.editAll(0, D)
+	gg.alert("double click on the gun , don't buy it and click on game guardian icon.")
+	wait()
+	gg.setValues(revert)
+	gg.toast("Values Reversed, its now safe to buy.")
+	gg.clearResults()
+end
+if choice1 == 3 then
+	gg.searchNumber("1,332,757,687D;1,332,757,687D:1969", D)
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.getResults(999)
+	gg.editAll(0, D)
+	gg.alert("double click on the gun , don't buy it and click on game guardian icon.")
+	wait()
+	gg.setValues(revert)
+	gg.toast("Values Reversed, its now safe to buy.")
+	gg.clearResults()
+end
+if choice1 == 4 then
+	gg.searchNumber("371,505,332D;371,505,332D:2017", D)
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.getResults(999)
+	gg.editAll(0, D)
+	gg.alert("double click on the gun , don't buy it and click on game guardian icon.")
+	wait()
+	gg.setValues(revert)
+	gg.toast("Values Reversed, its now safe to buy.")
+	gg.clearResults()
+end
+if choice1 == 5 then
+	gg.searchNumber("150,121,465D;150,121,465D:2081", D)
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.getResults(999)
+	gg.editAll(0, D)
+	gg.alert("double click on the gun , don't buy it and click on game guardian icon.")
+	wait()
+	gg.setValues(revert)
+	gg.toast("Values Reversed, its now safe to buy.")
+	gg.clearResults()
+end
+if choice1 == 6 then
+	gg.searchNumber("2,014,352,882D;2,014,352,882D:2081", D)
+	revert = gg.getListItems(999999)
+	gg.getListItems(999999)
+	gg.getResults(999)
+	gg.editAll(0, D)
+	gg.alert("double click on the gun , don't buy it and click on game guardian icon.")
+	wait()
+	gg.setValues(revert)
+	gg.toast("Values Reversed, its now safe to buy.")
+	gg.clearResults()
+end

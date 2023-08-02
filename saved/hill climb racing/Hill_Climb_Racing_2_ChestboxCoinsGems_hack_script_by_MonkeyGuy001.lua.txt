@@ -1,0 +1,172 @@
+on = "🔸ᴄʜᴀɴɢᴇ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴇsᴛ [✔️]"
+off = "▫️ʀᴇsᴇᴛ ʙᴀᴄᴋ ᴛᴏ ʀᴀʀᴇ [✅]"
+on1 = "🔹sᴛᴀʀᴛ [✔️]"
+off1 = "▫️ғɪɴɪsʜ [✅]"
+on2 = "⇨ sᴇᴛ ᴛᴏ ᴢᴇʀᴏ"
+off2 = "⇦ ʀᴇsᴇᴛ ʙᴀᴄᴋ"
+RC = on
+GC = on1
+PC = on2
+gg.toast("𝙼𝚊𝚍𝚎 𝚋𝚢 𝙼𝚘𝚗𝚔𝚎𝚢...𝙴𝚗𝚓𝚘𝚢")
+gg.alert(
+	"⚠️𝗪𝗔𝗥𝗡𝗜𝗡𝗚⚠️\n\n• 𝗬𝗼𝘂 𝗿𝗶𝘀𝗸 𝗮 𝗕𝗔𝗡 𝗳𝗼𝗿 𝘂𝘀𝗶𝗻𝗴 𝘁𝗵𝗶𝘀 𝗵𝗮𝗰𝗸.\n• 𝗔𝘃𝗼𝗶𝗱 𝘂𝘀𝗶𝗻𝗴 𝗠𝗮𝗶𝗻 𝗔𝗰𝗰𝗼𝘂𝗻𝘁.\n• 𝗔𝘃𝗼𝗶𝗱 𝗰𝗵𝗮𝗻𝗴𝗲 𝗮𝗻𝘆 𝘃𝗮𝗹𝘂𝗲 𝘁𝗼𝗼 𝗺𝘂𝗰𝗵.\n• 𝗖𝗵𝗮𝗻𝗴𝗲 𝘁𝗼 𝗼𝗻𝗹𝘆 𝘄𝗵𝗮𝘁 𝘆𝗼𝘂 𝗻𝗲𝗲𝗱. "
+)
+
+local gg = gg
+function main()
+	gg.setVisible(false)
+	Menu = gg.choice({
+		"┏⚠️ᴍᴜsᴛ ᴅᴏ ғɪʀsᴛ⚠️\n┗💎ɢᴇᴍs ᴘʀɪᴄᴇ " .. PC,
+		"\n┏🔸ʀᴀʀᴇ ᴄʜᴇsᴛ\n┗" .. RC,
+		"\n┏🔹ᴄᴏɪɴs/ɢᴇᴍs\n┗" .. GC,
+		"\n➖[𝗛𝗜𝗗𝗘 𝗠𝗘𝗡𝗨]",
+		"\n❎[𝗘𝗫𝗜𝗧]",
+	}, nil, "𝗛𝗶𝗹𝗹 𝗖𝗹𝗶𝗺𝗯 𝗥𝗮𝗰𝗶𝗻𝗴 𝟮 𝗯𝘆 𝗠𝗼𝗻𝗸𝗲𝘆")
+	if Menu == nil then
+		return
+	else
+		if Menu == 1 then
+			if PC == on2 then
+				gg.setRanges(4)
+				gg.searchNumber("33;16;100;2::17", 4)
+				gg.refineNumber("100;2")
+				local t = gg.getResults(2)
+
+				for i, v in ipairs(t) do
+					t[1].value = 0
+					t[1].name = "Gems Price"
+				end
+				gg.setValues(t)
+				gg.addListItems(t)
+				t = nil
+				gg.clearResults()
+				gg.toast("Price set to 0")
+				PC = off2
+			else
+				gg.setVisible(false)
+				gg.setRanges(4)
+				local t = gg.getListItems()
+				gg.getResults(2)
+
+				for i, v in ipairs(t) do
+					t[1].value = 100
+					t[1].name = "Gems Price"
+				end
+				gg.setValues(t)
+				gg.addListItems(t)
+				t = nil
+				gg.clearResults()
+				gg.toast("Price reset to 100")
+				PC = on2
+			end
+		end
+
+		if Menu == 2 then
+			if RC == on then
+				BOX1(on)
+				RC = off
+			else
+				BOX2(off)
+				RC = on
+			end
+		end
+
+		if Menu == 3 then
+			if GC == on1 then
+				GCS1(on1)
+				GC = off1
+			else
+				GCS2(off1)
+				GC = on1
+			end
+		end
+
+		if Menu == 4 then
+			gg.setVisible(false)
+			gg.toast("Minimize menu")
+		end
+		if Menu == 5 then
+			gg.toast("Thank You")
+			os.exit()
+		end
+	end
+end
+
+function BOX1(on)
+	d = gg.prompt({
+		"= Chest Value =\n1 = Uncommon   0/5 = Common   9/10 = VIP\n2 = Rare                6 = Xmas                  11 = Video\n3 = Epic                 7 = Legendary\n4 = Champion      8 = Free\n\nSet Chest Value :[0;11]",
+	}, nil, { "number" })
+	if d == nil then
+		main()
+	else
+		gg.setVisible(false)
+		gg.setRanges(4)
+		local t = gg.getListItems()
+		gg.getResults(2)
+
+		for i, v in ipairs(t) do
+			t[2].value = d[1]
+			t[2].name = "Chest"
+		end
+		gg.setValues(t)
+		gg.addListItems(t)
+		t = nil
+		gg.clearResults()
+		gg.toast("Chestbox changed")
+	end
+end
+
+function BOX2(off)
+	gg.setVisible(false)
+	gg.setRanges(4)
+	local t = gg.getListItems()
+	gg.getResults(2)
+
+	for i, v in ipairs(t) do
+		t[2].value = 2
+		t[2].name = "Chest"
+	end
+	gg.setValues(t)
+	gg.addListItems(t)
+	t = nil
+	gg.clearResults()
+	gg.toast("Chestbox reset")
+	return
+end
+
+function GCS1(on1)
+	gg.alert(
+		"ℹ️NOTE\n• Enter Current Coins/Gems value +1\n\nEXAMPLE :\n• Current Coins value = 5000\nthen 5000+1 = 5001\n• Current Gems value = 50\nthen 50+1 = 51"
+	)
+	d = gg.prompt({ "Enter Current Coins Value [ coins/gems+1]" })
+	if d == nil then
+		main()
+	else
+		gg.setRanges(4)
+		gg.searchNumber(d[1], 4)
+		local t = gg.getResults(20)
+		gg.alert("Now get some Coins/Gems....then get back to the script and FINISH")
+	end
+end
+
+function GCS2(off1)
+	gg.alert(
+		"ℹ️NOTE\n• Enter Current Coins/Gems value +1\n\nEXAMPLE :\n• Current Coins value = 5001\nthen 5001+1 = 5002\n• Current Gems value = 51\nthen 51+1 = 52"
+	)
+	d = gg.prompt({ "Enter New Coins Value [coins/gems+1]", "Edit Coins" })
+	if d == nil then
+		main()
+	else
+		gg.refineNumber(d[1], 4)
+		local t = gg.getResults(2)
+		gg.editAll(d[2], 4)
+		gg.clearResults()
+		gg.toast("Done")
+	end
+end
+
+while true do
+	if gg.isVisible(true) then
+		main()
+	end
+end

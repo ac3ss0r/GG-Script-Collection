@@ -1,0 +1,108 @@
+gg.setVisible(true)
+function HOME()
+	MN = gg.multiChoice(
+		{
+			"⟦ 🔐 ⟧BYPASS ANTISEAL", --1
+			"◆━━━━━▣ Exɪᴛ ▣━━━━━━◆", --7
+		},
+		nil,
+		(os.date([[
+@𝐓𝐏𝐆𝐀𝐌𝐄𝐑𝟐 𝐕𝐈𝐏 𝐁𝐀𝐘𝐏𝐀𝐒
+%A, %d %B %Y %H:%M%p]]))
+	)
+	if MN == nil then
+		gg.toast("\n「 TP GAMER V30 | TP GAMER 」")
+	else
+		if MN[1] == true then
+			BYPASS()
+		end
+		if MN[2] == true then
+			EXIT()
+		end
+	end
+	VIRUS = -1
+end
+
+function BYPASS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("70,368,744,177,664;288,232,579,469,934,592", gg.TYPE_QWORD)
+	gg.refineNumber("70,368,744,177,664", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("578,351,706,144,768;564,058,054,983,680", gg.TYPE_QWORD)
+	gg.refineNumber("578,351,706,144,768", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+	gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+	gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("17,592,186,044,416;582749752655872", gg.TYPE_QWORD)
+	gg.refineNumber("17,592,186,044,416", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+	gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("578,351,706,144,768;578,351,706,144,768", gg.TYPE_QWORD)
+	gg.refineNumber("578,351,706,144,768", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("582749752655872;620137442967552", gg.TYPE_QWORD)
+	gg.refineNumber("582749752655872", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("565157566611456;566257078239232", gg.TYPE_QWORD)
+	gg.refineNumber("565157566611456", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("577252194516992;288233678981562368", gg.TYPE_QWORD)
+	gg.refineNumber("577252194516992", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288232579469934592", gg.TYPE_QWORD)
+	gg.clearResults()
+	gg.toast("ACTIVATION SUCCESSFULLY")
+end
+
+function EXIT()
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	gg.clearResults()
+	gg.clearList()
+	os.exit()
+end
+
+while true do
+	if gg.isVisible(true) then
+		VIRUS = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if VIRUS == 1 then
+		HOME()
+	end
+end

@@ -1,0 +1,63 @@
+--Discord https://discord.gg/tfk4nR6QYz
+--Youtube: Stsgi
+
+function bypass()
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.sleep(300)
+	gg.toast("Pg3d Spoofer + detection bypasser by stsgi")
+	eval = gg.choice({ "Use both", "Only Bypass", "Only ID Spoof" }, nil, "What do you wanna do?")
+	if eval == 3 then
+		spoof_id()
+	end
+	gg.alert("Make sure you are out of the game && press gg icon quick afte pressing ok")
+
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F4 0F 1E F8 F3 7B 01 A9 93 79 02 F0 14 54 02 B0 68 32 63 39 94 9A 43 F9 C8 00 00 37 00 54 02 B0 00 98 43 F9 76 03 D9 97 28 00 80 52 68 32 23 39 80 02 40 F9 08 E0 40 B9 48 00 00 35 AC 03 D9 97",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(gg.getResultCount())
+	gg.editAll("E0018052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.sleep(500)
+	gg.processResume()
+	if eval == 2 then
+		return
+	end
+	spoof_id()
+end
+
+function spoof_id()
+	gg.setVisible(false)
+	gg.alert("Press GG Icon when u copied ID and ready to spoof ID")
+	while gg.isVisible() == false do
+		--wait
+	end
+	local var = 0
+	local spoofed = 999999999
+	gg.setVisible(false)
+	gg.clearResults()
+	local uid = gg.prompt({ "Paste ur ID" }, nil, { "number" })
+	if uid == nil then
+		print("ID spoof cancelled")
+		os.exit()
+	end
+	for i = 1, 10 do
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber(";" .. uid[1], gg.TYPE_WORD)
+		gg.getResults(1000)
+		if gg.getResultsCount() == 0 then
+			break
+		end
+		gg.editAll(";" .. spoofed, gg.TYPE_WORD)
+		gg.clearResults()
+	end
+	print("Done")
+	os.exit()
+end
+
+bypass()
+gg.setVisible(false)
+print("Script finished!")

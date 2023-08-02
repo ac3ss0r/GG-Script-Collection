@@ -1,0 +1,124 @@
+menuk = 1
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+gg.alert("Your Dimomd and coin most be greater then 2")
+
+function coin()
+	gg.searchNumber('"820~830;0;1;0;0;0;0;0;2~4294967295::33"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber('"828"', gg.TYPE_DWORD, false, gg.SIGN_NOT_EQUAL, 0, -1)
+	gg.refineNumber('"0"', gg.TYPE_DWORD, false, gg.SIGN_NOT_EQUAL, 0, -1)
+	gg.refineNumber('"1"', gg.TYPE_DWORD, false, gg.SIGN_NOT_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll('"999999999"', gg.TYPE_DWORD)
+	if gg.getResultCount() == 0 then
+		gg.toast("Coin Hack Failed ")
+		gg.sleep(4000)
+		gg.alert("Coin must be Greater then 2")
+	end
+	gg.toast("Coin Hacked")
+	if menuk == 1 then
+		start()
+	end
+end
+
+function Dimond()
+	gg.clearResults()
+	gg.searchNumber('"831;0;1;0;0;0;1;0;2~4294967295::33"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber('"0"', gg.TYPE_DWORD, false, gg.SIGN_NOT_EQUAL, 0, -1)
+	gg.refineNumber('"831"', gg.TYPE_DWORD, false, gg.SIGN_NOT_EQUAL, 0, -1)
+	gg.refineNumber('"1"', gg.TYPE_DWORD, false, gg.SIGN_NOT_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll('"999999999"', gg.TYPE_DWORD)
+	if gg.getResultCount() == 0 then
+		gg.toast("Dimond Hack Failed ")
+		gg.sleep(4000)
+		gg.alert("Dimond must be Greater then 2")
+	end
+	gg.toast("Dimond Hacked")
+	gg.clearResults()
+	if menuk == 1 then
+		start()
+	end
+end
+
+function unlock()
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber(
+		"75000;100000;120000;150000;175000;200000;250000;300000;350000;400000;450000;500000;750000;800000;1000000;1200000;1500000:65536",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	gg.searchNumber(
+		"75000;100000;120000;150000;175000;200000;250000;300000;350000;400000;450000;500000;750000;800000;1000000;1200000;1500000:65536",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_DWORD)
+	local t = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.addListItems(t)
+	t = nil
+	if gg.getResultCount() == 0 then
+		gg.toast("unlocking Failed")
+	end
+	gg.clearResults()
+	gg.processResume()
+	gg.toast("All Vehicals Unlocked")
+	if menuk == 1 then
+		start()
+	end
+end
+function start()
+	gg.setVisible(false)
+	menu = gg.choice(
+		{ "💰Coin Hack", "💎Dimond Hack", "🔓Unlock All cars with zero coin", "🔚Exit" },
+		nil,
+		"Script By Ahmad"
+	)
+
+	if menu == 1 then
+		coin()
+	end
+	if menu == 2 then
+		Dimond()
+	end
+	if menu == 3 then
+		unlock()
+	end
+	if menu == 4 then
+		os.exit()
+	end
+	if menu == nil then
+		start()
+		gg.setVisible(false)
+	end
+end
+if menuk == 1 then
+	start()
+end
+print("Created by Ahmad")

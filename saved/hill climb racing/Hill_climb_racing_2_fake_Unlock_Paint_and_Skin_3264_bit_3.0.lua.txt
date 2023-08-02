@@ -1,0 +1,63 @@
+gg.alert(" Customizations script")
+gg.sleep(1000)
+gg.toast("This Script For everyone")
+gg.sleep(3000)
+gg.toast("Welcome to My Script")
+
+-----Menus
+
+function Main()
+	menu = gg.choice({
+		"Unlocker",
+		"Exit",
+	}, Nil, "Script by PlayerUnknown")
+	if menu == nil then
+	else
+		if menu == 1 then
+			UnlockMenu()
+		end
+		if menu == 2 then
+			main()
+		end
+	end
+end
+
+function UnlockMenu()
+	setm = gg.choice({
+		"Fake Unlock all Paints Skins Animations 32 bit 1.56.?",
+		"Back",
+	}, nil, "Value by NoFear ( GG Moderator) & Rei")
+	if setm == nil then
+	else
+		if setm == 1 then
+			UNLOCK()
+		end
+		if setm == 2 then
+			Main()
+		end
+	end
+end
+
+function UNLOCK()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("1148820036D;1745446921D;-12032W", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1, 0)
+	revert = gg.getResults(500, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("8193", gg.TYPE_WORD)
+	gg.clearResults()
+	gg.toast("Done")
+end
+
+function main()
+	gg.clearReults()
+	print("Script By PlayerUnknown")
+	os.exit()
+end
+
+Main()
+
+while true do
+	while gg.isVisible(true) do
+		gg.setVisible(false)
+		Main()
+	end
+end

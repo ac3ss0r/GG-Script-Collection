@@ -1,0 +1,616 @@
+gg.alert("⚡ANMOLYT⚡")
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("67109633", gg.TYPE_DWORD)
+gg.getResults(50000)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+os.remove("/storage/emulated/0/tencent")
+os.remove("/storage/emulated/0/MidasOverse")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+os.remove(
+	"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini"
+)
+os.remove("/data/data/com.tencent.ig/app_appcache")
+os.remove("/data/data/com.tencent.ig/app_bugly")
+os.remove("/data/data/com.tencent.ig/app_crashrecord")
+os.remove("/data/data/com.tencent.ig/cache")
+os.remove("/data/data/com.tencent.ig/code_cache")
+
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
+os.remove("/storage/emulated/0/tencent")
+os.remove("/storage/emulated/0/MidasOverse")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
+os.remove(
+	"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini"
+)
+os.remove("/data/data/com.pubg.krmobile/app_appcache")
+os.remove("/data/data/com.pubg.krmobile/app_bugly")
+os.remove("/data/data/com.pubg.krmobile/app_crashrecord")
+os.remove("/data/data/com.pubg.krmobile/cache")
+os.remove("/data/data/com.pubg.krmobile/code_cache")
+
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
+os.remove("/storage/emulated/0/tencent")
+os.remove("/storage/emulated/0/MidasOverse")
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog")
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt")
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt")
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/vmpcloudconfig.json")
+os.remove(
+	"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini"
+)
+os.remove(
+	"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini"
+)
+os.remove("/data/data/com.vng.pubgmobile/app_appcache")
+os.remove("/data/data/com.vng.pubgmobile/app_bugly")
+os.remove("/data/data/com.vng.pubgmobile/app_crashrecord")
+os.remove("/data/data/com.vng.pubgmobile/cache")
+os.remove("/data/data/com.vng.pubgmobile/code_cache")
+gg.clearResults()
+gg.toast("Bypass Done✅")
+gg.alert("⚡Loaded ANMOLYT Weapons⚡ ")
+
+print("Lets ANMOLYT Games")
+
+gg.sleep(200)
+
+gg.toast("WAIT STARTING 💝.")
+
+gg.sleep(200)
+
+gg.toast("ANMOLYT VIP Loaded")
+
+gg.sleep(400)
+
+gg.setVisible(true)
+
+menuk = -1
+
+function START()
+	SN = gg.multiChoice(
+		{
+
+			"🔱FAST LANDING",
+
+			"🔱ANTENA",
+
+			"🔱AIMBOT",
+
+			"🔱HEAD SHOT",
+
+			"🔱JEEP JUMP",
+
+			"🔱I PAID VIEW",
+
+			"🔱FAST RAN ON",
+
+			"🔱FAST RAN OFF",
+
+			"🔱NO RECOIL",
+
+			"🔱JEEP JUMP",
+
+			"🔱DACIA JUMP",
+
+			"🔱Wallhack 710|800",
+
+			"🔱Wallhack green colour",
+
+			"EXIT",
+		},
+		nil,
+		"╔─━━━━━━━━░░ 🙏FULL USE NO BAN ANDRID 10🙏 ░░━━━━━━━━─╗\n             ♔ VIP SCRIPT BY ANMOLYT 💝🔸YOUTUBE 〘 ANMOLYT〙🔸♔ \n╚─━━━━━━━━░░ 🔱 SCRIPT ANMOLYT🔱 ░░━━━━━━━━─╝"
+	)
+
+	if SN == nil then
+	else
+		if SN[1] == true then
+			ch1()
+		end
+
+		if SN[2] == true then
+			ch2()
+		end
+
+		if SN[3] == true then
+			ch3()
+		end
+
+		if SN[4] == true then
+			ch4()
+		end
+
+		if SN[5] == true then
+			ch5()
+		end
+
+		if SN[6] == true then
+			ch6()
+		end
+
+		if SN[7] == true then
+			ch7()
+		end
+
+		if SN[8] == true then
+			ch8()
+		end
+
+		if SN[9] == true then
+			ch9()
+		end
+
+		if SN[10] == true then
+			ch10()
+		end
+
+		if SN[11] == true then
+			ch11()
+		end
+
+		if SN[12] == true then
+			ch12()
+		end
+
+		if SN[13] == true then
+			ch13()
+		end
+
+		if SN[14] == true then
+			ch14()
+		end
+	end
+
+	menuk = -1
+end
+
+function ch1()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_C_BSS)
+
+	gg.searchNumber("2048D;4D;1F;1F;1D:30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResultsCount()
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_ANONYMOUS)
+
+	gg.searchNumber("3000;5000;1024;1000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(3472849)
+
+	gg.editAll("999999", gg.TYPE_FLOAT)
+
+	gg.toast("💝Done (@ANMOLYT)💝")
+end
+
+function ch2()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_ANONYMOUS)
+
+	gg.searchNumber(
+		"0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+
+	gg.getResultsCount()
+
+	gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(100)
+
+	gg.editAll("16000", gg.TYPE_FLOAT)
+
+	gg.toast("💝Done @ANMOLYT💝")
+end
+
+function ch3()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_C_DATA)
+
+	gg.setRanges(gg.REGION_C_DATA)
+
+	gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(100)
+
+	gg.editAll("9999", gg.TYPE_FLOAT)
+
+	gg.toast("Aimbot On")
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_ANONYMOUS)
+
+	gg.searchNumber("0000B040rA;0000803FrA;0000403FrA:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(3)
+
+	gg.editAll("1,087,897,600;1,075,838,976;1,075,838,976", gg.TYPE_DWORD)
+
+	gg.clearResults()
+
+	gg.clearResults()
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_ANONYMOUS)
+
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(100)
+
+	gg.editAll("300;305", gg.TYPE_FLOAT)
+
+	gg.clearResults()
+
+	gg.toast("Magic Bullet Activated")
+end
+
+function ch4()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_ANONYMOUS)
+
+	gg.searchNumber("25;23;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(3)
+
+	gg.editAll("180", gg.TYPE_FLOAT)
+
+	gg.toast("Auto headshot")
+end
+
+function ch5()
+	gg.clearResults()
+
+	gg.processResume()
+
+	gg.searchNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	gg.refineNumber("45;20;2500", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
+
+	gg.editAll("999", gg.TYPE_FLOAT)
+
+	gg.processResume()
+
+	gg.sleep(1000)
+
+	if revert ~= nil then
+		gg.setValues(revert)
+	end
+
+	gg.clearResults()
+end
+
+function ch6()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_ANONYMOUS)
+
+	gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(300)
+
+	gg.editAll("438", gg.TYPE_FLOAT)
+
+	gg.toast("Ipad View Active")
+end
+
+function ch7()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_BAD)
+
+	gg.searchNumber(5.2806111E-40, gg.TYPE_FLOAT)
+
+	gg.getResultsCount()
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_BAD)
+
+	gg.searchNumber(6.50000238419, gg.TYPE_FLOAT)
+
+	gg.getResultsCount()
+
+	gg.toast("Bypass Function Flash")
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_C_DATA)
+
+	gg.searchNumber("-1,296,744,149,883,614,555", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(99)
+
+	gg.editAll(" -1,296,744,153,870,237,696", gg.TYPE_QWORD)
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_C_DATA)
+
+	gg.searchNumber("-1,904,987,454,010,553,855", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(99)
+
+	gg.editAll("-1,904,987,454,002,165,247", gg.TYPE_QWORD)
+
+	gg.toast("Speed Flash On")
+end
+
+function ch8()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_C_DATA)
+
+	gg.searchNumber(" -1,296,744,153,870,237,696 ", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(99)
+
+	gg.editAll("-1,296,744,149,883,614,555 ", gg.TYPE_QWORD)
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_C_DATA)
+
+	gg.searchNumber("-1,904,987,454,002,165,247 ", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(99)
+
+	gg.editAll("-1,904,987,454,010,553,855 ", gg.TYPE_QWORD)
+
+	gg.toast("Speed Flash Deactivated")
+end
+
+function ch9()
+	gg.clearResults()
+
+	gg.setVisible(false)
+
+	gg.clearResults()
+
+	gg.setRanges(8)
+
+	gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
+
+	gg.getResults(1)
+
+	gg.editAll("0", 16)
+
+	gg.clearResults()
+
+	gg.setVisible(false)
+
+	gg.setRanges(8)
+
+	gg.searchNumber("-6.1549454e27;1.8638966e-20;-1.1144502e28;0::", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("-1.1144502e28", 16, false, 536870912, 0, -1)
+
+	gg.getResults(1)
+
+	gg.editAll("0", 16)
+
+	gg.toast("No recoil")
+
+	gg.clearResults()
+
+	gg.setRanges(8)
+
+	gg.searchNumber("-2.786982e28;-3.7444097e28;-1.1368837e-13::", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("-3.7444097e28", 16, false, 536870912, 0, -1)
+
+	gg.getResults(1)
+
+	gg.editAll("0", 16)
+
+	gg.toast("Less recoil")
+
+	gg.clearResults()
+end
+
+function ch10()
+	gg.clearResults()
+
+	gg.setRanges(32)
+
+	gg.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("0.74509805441", 16, false, 536870912, 0, -1)
+
+	gg.getResults(9999)
+
+	gg.editAll("99999", 16)
+
+	gg.clearResults()
+
+	gg.setRanges(32)
+
+	gg.searchNumber("45F;15F;20F;2500F", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("45", 16, false, 536870912, 0, -1)
+
+	gg.getResults(999)
+
+	gg.editAll("500", 16)
+
+	gg.toast("Jeep Fly activated!")
+
+	gg.clearResults()
+end
+
+function ch11()
+	gg.clearResults()
+
+	gg.processResume()
+
+	gg.searchNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	gg.refineNumber("30;6;22050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+	revert = gg.getResults(61, nil, nil, nil, nil, nil, nil, nil, nil)
+
+	gg.editAll("999", gg.TYPE_FLOAT)
+
+	gg.processResume()
+
+	gg.sleep(1000)
+
+	if revert ~= nil then
+		gg.setValues(revert)
+	end
+
+	gg.clearResults()
+end
+
+function ch12()
+	gg.clearResults()
+
+	gg.setRanges(131072)
+
+	gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297De39;1.66433e10::17", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("2", 16, false, 536870912, 0, -1)
+
+	gg.getResults(30)
+
+	gg.editAll("125", 16)
+
+	gg.clearResults()
+
+	gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("2", 16, false, 536870912, 0, -1)
+
+	gg.getResults(30)
+
+	gg.editAll("125", 16)
+
+	gg.clearResults()
+
+	gg.setRanges(131072)
+
+	gg.searchNumber("4.8146047e21;3.7615819e-37;2.0:61", 16, false, 536870912, 0, -1)
+
+	gg.searchNumber("2", 16, false, 536870912, 0, -1)
+
+	gg.getResults(10)
+
+	gg.editAll("120", 16)
+
+	gg.clearResults()
+
+	gg.toast("Wallhack activated")
+end
+
+function ch13()
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_BAD)
+
+	gg.searchNumber("8200;8201;8203:512", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+
+	gg.editAll("3;7;8", gg.TYPE_DWORD)
+
+	gg.toast("Colour Green Aktif✓")
+
+	gg.clearResults()
+
+	gg.setRanges(gg.REGION_BAD)
+
+	gg.searchNumber("8200D;10D;256D;32769D;32768D:1177", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.refineNumber("32768;32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+
+	gg.editAll("9999", gg.TYPE_DWORD)
+
+	gg.toast("Colour Green Smooth")
+end
+
+function ch14()
+	gg.skipRestoreState()
+
+	gg.setVisible(true)
+
+	print(
+		"╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n             ♔ VIP SCRIPT BY ANMOLYT ALL DIVICE WORKING 💝 🔸 YOUTUBE 〘 ANMOLYT〙🔸♔\n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝"
+	)
+
+	os.exit()
+end
+
+while true do
+	if gg.isVisible(true) then
+		menuk = 1
+
+		gg.setVisible(false)
+	end
+
+	gg.clearResults()
+
+	if menuk == 1 then
+		START()
+	end
+end

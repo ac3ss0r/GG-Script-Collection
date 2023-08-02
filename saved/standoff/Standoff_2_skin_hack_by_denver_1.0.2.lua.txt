@@ -1,0 +1,119 @@
+gg.alert(
+	"you will need the ump pixel for this hack. please do this while youre in the menu. you should verify that you have equipped it. this script was made by callmedenver#3623"
+)
+menu = gg.choice({
+	"1️⃣karambit gold1️⃣",
+	"2️⃣karambit universe2️⃣",
+	"3️⃣awm treasure hunter3️⃣",
+	"4️⃣ butterfly dragon glass4️⃣",
+	"5️⃣akr treasure hunter5️⃣",
+	"6️⃣m9 bayonet universe6️⃣",
+	"7️⃣usp genesis7️⃣",
+	"8️⃣ butterfly starfall8️⃣",
+	"9️⃣awm genesis9️⃣",
+	"1️⃣0️⃣akr dragon1️⃣0️⃣",
+	"1️⃣1️⃣scorpion starfall1️⃣1️⃣",
+	"1️⃣2️⃣ jkommando floral1️⃣2️⃣",
+	"1️⃣3️⃣famas fury1️⃣3️⃣",
+	"1️⃣4️⃣deagle dragon glass1️⃣4️⃣",
+	"1️⃣5️⃣butterfly legacy1️⃣5️⃣",
+	"1️⃣6️⃣deagle capt. morgan1️⃣6️⃣",
+	"1️⃣7️⃣kunai poison1️⃣7️⃣",
+	"1️⃣8️⃣medal of assistance brillant1️⃣8️⃣",
+	"1️⃣9️⃣🏅veteran 2018 gold 🏅1️⃣9️⃣",
+})
+if menu == 1 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("72003", gg.TYPE_DWORD)
+end
+if menu == 2 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("72007", gg.TYPE_DWORD)
+end
+if menu == 3 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("85104", gg.TYPE_DWORD)
+end
+if menu == 4 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("47504", gg.TYPE_DWORD)
+end
+if menu == 5 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("44002", gg.TYPE_DWORD)
+end
+if menu == 6 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("71004", gg.TYPE_DWORD)
+end
+if menu == 7 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("12001", gg.TYPE_DWORD)
+end
+if menu == 8 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("47505", gg.TYPE_DWORD)
+end
+if menu == 9 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("51007", gg.TYPE_DWORD)
+end
+if menu == 10 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("1084402", gg.TYPE_DWORD)
+end
+if menu == 11 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("87992", gg.TYPE_DWORD)
+end
+if menu == 12 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("73004", gg.TYPE_DWORD)
+end
+if menu == 13 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("48002", gg.TYPE_DWORD)
+end
+if menu == 14 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("1015006", gg.TYPE_DWORD)
+end
+if menu == 15 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("47502", gg.TYPE_DWORD)
+end
+if menu == 16 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("15001", gg.TYPE_DWORD)
+end
+if menu == 17 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("77815", gg.TYPE_DWORD)
+end
+if menu == 18 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("104", gg.TYPE_DWORD)
+end
+if menu == 19 then
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll("107", gg.TYPE_DWORD)
+end

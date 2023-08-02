@@ -1,0 +1,120 @@
+local gg = gg
+local Menu = menu
+local Toggle = 1
+local On = "On"
+local Off = "Off"
+
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.processResume()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("0.00999999978", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(9999)
+local clipres = {}
+clipres = gg.getResults(9999)
+
+gg.clearResults()
+gg.processResume()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("18;18;18;15;15;15;5;5;5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.processResume()
+gg.refineNumber("5;5;5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(50)
+local flyres = {}
+flyres = gg.getResults(9999)
+
+local SwitchA = Off
+local SwitchB = Off
+
+function ToggleMenu()
+	gg.alert("ROBLOX MOD-MENU by AKidWithAMidgetFriend")
+	Menu = gg.choice({
+		"No clip-" .. SwitchA,
+		"Fly-" .. SwitchB,
+		"Exit",
+		"Special Thanks",
+	}, nil, "AKidWithAMidgetFriends Mod Menu")
+
+	if Menu == 1 then
+		Hack = "A"
+		if SwitchA == Off then
+			SwitchA = On
+			HackFunction(true)
+		else
+			SwitchA = Off
+			HackFunction(false)
+		end
+	elseif Menu == 2 then
+		Hack = "B"
+		if SwitchB == Off then
+			SwitchB = On
+			HackFunction(true)
+		else
+			SwitchB = Off
+			HackFunction(false)
+		end
+	elseif Menu == 3 then
+		gg.setVisible(true)
+		os.exit(print("Script Ended"))
+
+		while true do
+			if gg.isVisible() then
+				gg.setVisible(false)
+				ToggleMenu()
+			end
+		end
+	elseif Menu == 4 then
+		gg.setVisible(false)
+		gg.alert("Special thanks to NexusLove their toggle script was used for reference")
+	end
+	Toggle = -1
+end
+function HackFunction(ToF)
+	if Hack == "A" then
+		if ToF == true then
+			gg.getValues(clipres)
+			gg.loadResults(clipres)
+			gg.getResults(100)
+			gg.editAll("-10.19999980927", gg.TYPE_FLOAT)
+			gg.processResume()
+			gg.clearResults()
+			gg.toast("No-clip On")
+		else
+			gg.getValues(clipres)
+			gg.loadResults(clipres)
+			gg.getResults(100)
+			gg.editAll("0.00999999978", gg.TYPE_FLOAT)
+			gg.toast("No-clip off")
+		end
+	elseif Hack == "B" then
+		if ToF == true then
+			gg.getValues(flyres)
+			gg.loadResults(flyres)
+			gg.getResults(100)
+			gg.editAll("4", gg.TYPE_DWORD)
+			gg.toast("Fly on")
+		else
+			gg.getValues(flyres)
+			gg.loadResults(flyres)
+			gg.getResults(100)
+			gg.editAll("5", gg.TYPE_DWORD)
+			gg.toast("Fly Off")
+		end
+	else
+		gg.toast("Error You Broke It")
+	end
+end
+
+ToggleMenu()
+
+while true do
+	if gg.isVisible(true) then
+		gg.setVisible(false)
+		Toggle = 1
+	end
+	gg.sleep(100)
+	if Toggle == 1 then
+		ToggleMenu()
+	end
+end

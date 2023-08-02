@@ -1,0 +1,1725 @@
+gg.alert(
+	"ᴡᴇʟᴄᴏᴍᴇ ʙʏ ʙʙᴏɪ ❤\nʏᴏᴜ ᴀʀᴇ ᴏɴ ᴀᴛ HACKERS ɴᴇᴛᴡᴏʀᴋ 📡\nᴊᴏɪɴ ᴜꜱ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ::\n@THE_GLOBALHACKER"
+)
+gg.toast("ʟᴏᴀᴅɪɴɢ... 🎀")
+gg.sleep(1500)
+gg.alert(
+	"ꜱᴄʀɪᴘᴛ ʙʏ ✨\nᴛᴇʟᴇʀᴀᴍ : @THE_GLOBALHACKER\nᴠᴇʀᴛɪᴏɴ  :: ʙʀᴜᴛᴀʟ\nꜱᴜᴘᴘᴏʀᴛ :: ʙɢᴍɪ 2.1\nᴍᴀɴᴜꜰᴀᴄᴛᴜʀᴇ ᴅᴀᴛᴇ ::\n29 ᴊuly 2022\nꜰᴇᴇᴅʙᴀᴄᴋ : \nᴛᴇʟᴇɢʀᴀᴍ :: @Hack_Devloper",
+	"ᴏᴋ ʙᴏꜱꜱ 👍"
+)
+gg.toast("ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ HACKERS")
+gg.sleep(1200)
+gg.setVisible(false)
+gg.sleep(200)
+gg.alert("FEEDBACK WILL BE PROMOTED = @Hack_Devloper", "SURE 🙃")
+gg.sleep(400)
+gg.setVisible(true)
+
+---DEC BY @x0star
+function setvalue(A0_21, A1_22, A2_23)
+	local L3_24
+	L3_24 = {}
+	L3_24[1] = {}
+	L3_24[1].address = A0_21
+	L3_24[1].flags = A1_22
+	L3_24[1].value = A2_23
+	gg.setValues(L3_24)
+	local CODE_APP = 1638
+end
+
+local lib_name = "libUE4.so"
+
+local libbase = 0
+---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ----
+function getMemCpp(libname)
+	gg.setRanges(gg.REGION_CODE_APP)
+	local alloc = gg.getRangesList(libname)
+	for i in ipairs(alloc) do
+		if alloc[i].type == "r-xp" and alloc[i].state == "Xa" then
+			if libbase == 0 then
+				libbase = alloc[i].start
+				break
+			end
+		end
+	end
+	return libbase
+end
+---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ----
+function Write(address, flags, value)
+	local iht = {}
+	iht[1] = {}
+	iht[1].address = address
+	iht[1].flags = flags
+	iht[1].value = value
+	gg.setValues(iht)
+end
+---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ----
+function getMemoryBaseAdress(address)
+	if libbase == 0 then
+	end
+	return libbase + address
+end
+---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ---- ---- ---- ---- ---- ----- ----
+function initMemoryBase()
+	libbase = getMemCpp(lib_name)
+	if libbase == 0 then
+		return false
+	end
+	return true
+end
+
+on = "｟𝙊𝙉 ✔｠"
+off = "｟𝙊𝙁𝙁 ✖｠"
+
+fastp = off
+antifall = off
+ocl = off
+hs = off
+hitx = off
+instant = off
+aim = off
+ssscope = off
+antenna = off
+fastscope = off
+fixs = off
+sit = off
+flash1 = off
+flash2 = off
+flash3 = off
+slowmo = off
+medium = off
+skp = off
+auto = off
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+function HOME()
+	HACKERz = gg.choice({
+		"{[✴️]Less Recoil }",
+		"{[✴️]LOBBY \n BYPASS }",
+		"{[✴️]W & C }",
+		"{[✴️]Antenna }",
+		"{[✴️]X Hit Effect }",
+		"{[✴️]Bullet Tracking }",
+		"{[✴️]Aimbot 360° { BAN RISK ⚠️ }",
+		"{[✴️]God View }",
+		". . Exɪᴛ. .♎",
+	}, nil, " ANTIBAN SCRIPT PLAY SAFE ✅")
+	if HACKGURU == nil then
+	else
+		if HACKGURU == 1 then
+			LOGO()
+		end
+		if HACKGURU == 2 then
+			LOBBY()
+		end
+		if HACKGURU == 3 then
+			wallhack()
+		end
+		if HACKGURU == 4 then
+			antenna()
+		end
+		if HACKGURU == 5 then
+			xeffect()
+		end
+		if HACKGURU == 6 then
+			magic()
+		end
+		if HACKGURU == 7 then
+			aimbot360()
+		end
+		if HACKGURU == 8 then
+			godview()
+		end
+
+		---DEC BY @x0star
+		if HACKGURU == 9 then
+			EXIT()
+		end
+		---DEC BY @x0star
+	end
+	HACKGURUNP = -1
+end
+---DEC BY @x0star
+function LOGO()
+	function setvalue(address, flags, value)
+		local refinevalues = {}
+		refinevalues[1] = {}
+		refinevalues[1].address = address
+		refinevalues[1].flags = flags
+		refinevalues[1].value = value
+		gg.setValues(refinevalues)
+	end
+
+	---DEC BY @x0star
+	local UE4 = gg.getRangesList("libUE4.so")[1].start
+	---DEC BY @x0star
+	so = gg.getRangesList("libUE4.so")[1].start
+	py = 0x142FCC8
+	setvalue(so + py, 16, 0)
+	gg.toast("ʟᴇss ʀᴇᴄᴏɪʟ ᴀᴄᴛɪᴠᴀᴛᴇᴅ")
+end
+
+function LOBBY()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("620137442967552;564058054983680", gg.TYPE_QWORD)
+	gg.refineNumber("620137442967552", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288516253469900800", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("303473799200768;282587373240320", gg.TYPE_QWORD)
+	gg.refineNumber("303473799200768", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288516253469900800", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("572854148005888;582749752655872", gg.TYPE_QWORD)
+	gg.refineNumber("572854148005888", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("579451217772544;564058054983680", gg.TYPE_QWORD)
+	gg.refineNumber("579451217772544", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("564049481826305;564049465049090", gg.TYPE_QWORD)
+	gg.refineNumber("564049481826305", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("564049465049089;562949953421313", gg.TYPE_QWORD)
+	gg.refineNumber("564049465049089", gg.TYPE_QWORD)
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("573329219944448;562949953421312", gg.TYPE_QWORD)
+	gg.refineNumber("573329219944448", gg.TYPE_QWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("134658;144387", gg.TYPE_DWORD)
+	gg.refineNumber("134658", gg.TYPE_DWORD)
+	gg.getResults(50000)
+	gg.editAll("67109633", gg.TYPE_DWORD)
+	gg.clearResults()
+	---DEC BY @x0star
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("134914;133378", gg.TYPE_DWORD)
+	gg.refineNumber("134914", gg.TYPE_DWORD)
+	gg.getResults(50000)
+	gg.editAll("133890", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.alert("⤵️⤵️ LOBBY ANTIBAN ⤴️⤴️")
+end
+---DEC BY @x0star
+function wallhack()
+	WALL11 = gg.multiChoice({
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟎𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟏𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟏𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟐𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟑𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟑𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟑𝟗 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟒𝟓𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟎𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟏𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟏𝟔 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟐𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟑𝟔 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟔𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟔𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟔𝟕𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟕𝟏𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟕𝟏𝟐 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟕𝟐𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟖𝟐𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟖𝟑𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟖𝟒𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐒𝐍𝐀𝐏𝐃𝐑𝐀𝐆𝐎𝐍 𝟖𝟓𝟓  𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐄𝐗𝐘𝐍𝐎𝐒 𝟕𝟒𝟐𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐄𝐗𝐘𝐍𝐎𝐒 𝟕𝟓𝟕𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐄𝐗𝐘𝐍𝐎𝐒 𝟕𝟖𝟕𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝟔𝟓𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝟔𝟓𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝟔𝟓𝟖 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝟕𝟏𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐆𝟗𝟎𝐓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟏𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟐𝟐 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟐𝟑 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟔𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟕𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐗𝟐𝟎 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐗𝟐𝟓 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐄𝐗𝐘𝐍𝐎𝐒 𝐑𝐄𝐃 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐄𝐗𝐘𝐍𝐎𝐒 𝐖𝐇𝐈𝐓𝐄 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝐆𝐑𝐄𝐍 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍  𝐑𝐄𝐃 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝐖𝐇𝐈𝐓𝐄 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐊𝐈𝐑𝐈𝐍 𝐘𝐄𝐋𝐋𝐎𝐖 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐆𝐑𝐄𝐄𝐍 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐑𝐄𝐃 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐘𝐄𝐋𝐋𝐎𝐖 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐖𝐇𝐈𝐓𝐄 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟐𝟐 𝐆𝐑𝐄𝐄𝐍 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟐𝟐 𝐘𝐄𝐋𝐋𝐎𝐖 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟔𝟎 𝐁𝐋𝐔𝐄 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟔𝟎 𝐑𝐄𝐃 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🎨𝐌𝐄𝐃𝐈𝐀𝐓𝐄𝐊 𝐏𝟔𝟎 𝐘𝐄𝐋𝐋𝐎𝐖 𝐖𝐡 & 𝐂𝐨𝐥𝐨𝐫\n",
+		"🅱🅰🅲🅺",
+	}, nil, "")
+	if WALL11 == nil then
+	else
+		if WALL11[1] == true then
+			WHC400()
+		end
+		if WALL11[2] == true then
+			WHC410()
+		end
+		if WALL11[3] == true then
+			WHC415()
+		end
+		if WALL11[4] == true then
+			WHC425()
+		end
+		if WALL11[5] == true then
+			WHC430()
+		end
+		if WALL11[6] == true then
+			WHC435()
+		end
+		if WALL11[7] == true then
+			WHC439()
+		end
+		if WALL11[8] == true then
+			WHC450()
+		end
+		if WALL11[9] == true then
+			WHC600()
+		end
+		if WALL11[10] == true then
+			WHC615()
+		end
+		if WALL11[11] == true then
+			WHC616()
+		end
+		if WALL11[12] == true then
+			WHC625()
+		end
+		if WALL11[13] == true then
+			WHC636()
+		end
+		if WALL11[14] == true then
+			WHC660()
+		end
+		if WALL11[15] == true then
+			WHC665()
+		end
+		if WALL11[16] == true then
+			WHC675()
+		end
+		if WALL11[17] == true then
+			WHC710()
+		end
+		if WALL11[18] == true then
+			WHC712()
+		end
+		if WALL11[19] == true then
+			WHC720()
+		end
+		if WALL11[20] == true then
+			WHC820()
+		end
+		if WALL11[21] == true then
+			WHC835()
+		end
+		if WALL11[22] == true then
+			WHC845()
+		end
+		if WALL11[23] == true then
+			WHC855()
+		end
+		if WALL11[24] == true then
+			WE7420()
+		end
+		if WALL11[25] == true then
+			WE7570()
+		end
+		if WALL11[26] == true then
+			WE7870()
+		end
+		if WALL11[27] == true then
+			KIRIN650()
+		end
+		if WALL11[28] == true then
+			KIRIN655()
+		end
+		if WALL11[29] == true then
+			KIRIN658()
+		end
+		if WALL11[30] == true then
+			KIRIN710()
+		end
+		if WALL11[31] == true then
+			KIRIN970()
+		end
+		if WALL11[32] == true then
+			WMP10()
+		end
+		if WALL11[33] == true then
+			WMP22()
+		end
+		if WALL11[34] == true then
+			WMP23()
+		end
+		if WALL11[35] == true then
+			WMP60()
+		end
+		if WALL11[36] == true then
+			WMP70()
+		end
+		if WALL11[37] == true then
+			WMX20()
+		end
+		if WALL11[38] == true then
+			WMX25()
+		end
+		if WALL11[39] == true then
+			CER()
+		end
+		if WALL11[40] == true then
+			CEW()
+		end
+		if WALL11[41] == true then
+			CKG()
+		end
+		if WALL11[42] == true then
+			CKR()
+		end
+		if WALL11[43] == true then
+			CKW()
+		end
+		if WALL11[44] == true then
+			CKY()
+		end
+		if WALL11[45] == true then
+			CMG()
+		end
+		if WALL11[46] == true then
+			CMR()
+		end
+		if WALL11[47] == true then
+			CMY()
+		end
+		if WALL11[48] == true then
+			CMW()
+		end
+		if WALL11[49] == true then
+			CMP22G()
+		end
+		if WALL11[50] == true then
+			CMP22Y()
+		end
+		if WALL11[51] == true then
+			CMP60B()
+		end
+		if WALL11[52] == true then
+			CMP60R()
+		end
+		if WALL11[53] == true then
+			CMP60Y()
+		end
+		if WALL11[54] == true then
+			HOME()
+		end
+		PUBGMH = -1
+	end
+end
+
+function WHC400()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_HEAP)
+	gg.searchNumber(
+		"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_HEAP)
+	gg.searchNumber("3.2229865e-43F;2.0F;-1.0F;-1.0F;2.0F:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(360)
+	gg.editAll("150", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("8,201;8,202;538,968,081:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8202", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("8", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 400✓")
+end
+
+function WHC410()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("3.1949605e-43;3.1809475e-43;2.0;3.2089735e-43", 16, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", 16, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("150", 16)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("8204;8205;1,194,344,451", 4, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8204", 4, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("15", 4)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1,669,693,440;8205", 4, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8205", 4, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("8204", 4)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("856128", 4, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("856118", 4)
+	gg.clearResults()
+	gg.searchNumber("196610;1280;196608:25", 4, false, gg.S8GN_EQUAL, 0, -1)
+	gg.searchNumber("196608", 4, false)
+	gg.getResults(10)
+	gg.editAll("9999", 4)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 410✓")
+end
+
+function WHC415()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_HEAP)
+	gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("1,123,024,896", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_HEAP)
+	gg.searchNumber(
+		"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1.14906474e-41;1.14920487e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(69)
+	gg.editAll("1.14892461e-41", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 415✓")
+end
+
+function WHC425()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"2.9427268e-44;2.0;3.0828566e-44;-1.0;3.2229865e-44;3.3631163e-44;3.643376e-44",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("3.1529215e-43;2.0F;3.1669345e-43F;3.1809475e-43:49", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("200,761;92;8,204;856,124;108;196,610:409", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("8204", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("8203", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 425✓")
+end
+
+function WHC430()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;-127.0F::520", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1.14906474e-41;1.14920487e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(69)
+	gg.editAll("1.14892461e-41", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 430✓")
+end
+
+function WHC435()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2;3.7615819e-37;4.814603e21;4.7408149e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2;3.7615819e-37;1.3912552e-19;4.9252829e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
+	gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", 4)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 435✓")
+end
+
+function WHC439()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
+	gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", 4)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 435✓")
+end
+
+function WHC450()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
+	gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", 4)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 450 ✓")
+end
+
+function WHC600()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1.14906474e-41;1.14920487e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(69)
+	gg.editAll("1.14892461e-41", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 600 ✓")
+end
+
+function WHC615()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_HEAP)
+	gg.searchNumber("3.2229865e-43;2.0;-1.0;-1.0;2.0:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("122", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_HEAP)
+	gg.searchNumber(
+		"3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("3.1809475e-43;3.1949605e-43;2.0;3.2089735e-43:53", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1D;2D;91D:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1;2;91", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("5", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 615✓")
+end
+
+function WHC616()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,140D;4.7408166e21F;4.7223665e21;0D;0D;0D;0D;0D;0D;-0.0F;2.0F",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"2.718519e-43;2.0F;-1.0F;1.0F;-127F;0.24022650719F;-0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("8,196D;8,192D;8,200D::", 4, false, 536870912, 0, -1)
+	gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", 4)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 616✓")
+end
+
+function WHC625()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("504", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("980", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("6", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 625✓")
+end
+
+function WHC636()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("504", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("980", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("6", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 636✓")
+end
+
+function WHC660()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("504", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("980", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("6", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 660 ✓")
+end
+
+function WHC665()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber('"8200;1194344475;8201"', 4, false, 536870912, 0, -1)
+	gg.processResume()
+	gg.refineNumber('"8200;8201"', 4, false, 536870912, 0, -1)
+	gg.processResume()
+	gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll('"7"', 4)
+	gg.processResume()
+	gg.toast("Wall and Color SNAPDRAGON 665✓")
+end
+
+function WHC675()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("1.8948778e-40;4.7408166e21;2.0:93", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("504", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("3.37670946121;3.37548875809;2.0:149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineAddress("980", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("537133071;8200;1194380048:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("0E8", -1, gg.TYPE_DWORD, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 675✓")
+end
+function WHC710()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 710✓")
+end
+
+function WHC712()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 712✓")
+end
+
+function WHC720()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 720✓")
+end
+
+function WHC820()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8200;8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("6;7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 820 ✓")
+end
+
+function WHC835()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 835✓")
+end
+
+function WHC845()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8200;8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("6;7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 845✓")
+end
+
+function WHC855()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("5.1097599e21;8.2676609e-44;2.0:13", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("200", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("2.0;0.69314718246;0.00999999978:29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("9B0", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(63825)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO or gg.REGION_BAD)
+	gg.searchNumber("537133066;8200;1194344459;8201:13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("8200;8201", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(63825)
+	gg.editAll("6;7", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color SNAPDRAGON 855✓")
+end
+
+function WE7420()
+	gg.searchNumber(
+		"0.5;1.098618e-42;2.24207754e-44;2.69049305e-43;1.68155816e-44:645",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
+	do
+		do
+			for i, i in ipairs((gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil))) do
+				if i.flags == gg.TYPE_FLOAT then
+					i.value = "0"
+					i.freeze = true
+				end
+			end
+		end
+	end
+	gg.addListItems((gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)))
+	gg.processResume()
+	gg.toast("Wall and Color EXYNOS 7420✓")
+end
+
+function WE7570()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"360;0;0;0;-640;1;1;1;0;0;0;0;1;360;640;0.5;0;0;0;0.5;1;1;0;0;0;0;0;1;1;1;1;1,098618e-48:373",
+		gg.TYPE_FLOAT
+	)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT)
+	t = gg.getResults(10)
+	gg.editAll("50", gg.TYPE_FLOAT)
+	t[1].value = "50"
+	t[2].value = "50"
+	t[3].value = "50"
+	t[4].value = "50"
+	t[5].value = "50"
+	t[6].value = "50"
+	t[1].freeze = true
+	t[2].freeze = true
+	t[3].freeze = true
+	t[4].freeze = true
+	t[5].freeze = true
+	t[6].freeze = true
+	print("addListItems: ", gg.addListItems(t))
+	gg.toast("Wall and Color EXYNOS 7570✓")
+end
+
+function WE7870()
+	gg.searchNumber("0.5;0;1;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("2", gg.TYPE_FLOAT)
+	gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.refineNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.addListItems((gg.getResults(99999, nil, nil, nil, nil, nil, nil, nil, nil)))
+	gg.toast("Wall and Color EXYNOS 7870✓")
+end
+
+function KIRIN650()
+	gg.clearResults()
+	gg.searchNumber(
+		"8.4077908e-45;4.2038954e-45;1.5694543e-43;1.4012985e-45;2.8025969e-45;268.0;480.0;0.5:149",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+	do
+		do
+			for i, i in ipairs((gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil))) do
+				if i.flags == gg.TYPE_FLOAT then
+					i.value = "1"
+					i.freeze = true
+				end
+			end
+		end
+	end
+	gg.addListItems((gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)))
+	gg.toast("Wall and Color KIRIN 650✓")
+end
+
+function KIRIN658()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"0.5;1.4012985e-45;1.4012985e-45;3.8115318e-43;2.8025969e-45;2.2958874e-41:125",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+	do
+		do
+			for i, i in ipairs((gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil))) do
+				if i.flags == gg.TYPE_FLOAT then
+					i.value = "20"
+					i.freeze = true
+				end
+			end
+		end
+	end
+	gg.addListItems((gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)))
+	gg.toast("Wall and Color KIRIN 658✓")
+end
+
+function KIRIN710()
+	gg.clearResults()
+	gg.searchNumber(
+		"1.8367379e-40;4.5917748e-40;4.2038954e-45;1.4012985e-45;1.793662e-43;1.4012985e-45;2.8025969e-45;1.1210388e-44;0.5:281",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)
+	do
+		do
+			for i, i in ipairs((gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil))) do
+				if i.flags == gg.TYPE_FLOAT then
+				end
+			end
+		end
+	end
+	gg.addListItems((gg.getResults(1, nil, nil, nil, nil, nil, nil, nil, nil)))
+	gg.toast("Wall and Color KIRIN 710✓")
+end
+
+function KIRIN970()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("8;16;32;48;40::169", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("38", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color KIRIN 970✓")
+end
+
+function WMP10()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("7.70714155e-44;5.15677835e-43;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(20)
+	gg.editAll("2", gg.TYPE_FLOAT)
+	var = gg.getResults(100)
+	gg.addListItems(var)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function WMP22()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("4;4;2;6;5;5;1;1;1;3::769", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(1)
+	gg.editAll("140", gg.TYPE_FLOAT)
+	var = gg.getResults(100)
+	var[1].value = 140
+	var[1].freeze = true
+	gg.addListItems(var)
+	gg.toast("Wall and Color✓")
+end
+
+function WMP23()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("7.70714155e-44;5.15677835e-43;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(20)
+	gg.editAll("2", gg.TYPE_FLOAT)
+	var = gg.getResults(100)
+	gg.addListItems(var)
+	gg.clearResults()
+	gg.toast("Wall and Color ✓")
+end
+
+function WMP60()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("5.1567783e-43;3.5873241e-43;3.2229865e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(20)
+	gg.editAll("2", gg.TYPE_FLOAT)
+	var = gg.getResults(100)
+	gg.addListItems(var)
+	gg.clearResults()
+	gg.toast("Wall and Color ✓")
+end
+
+function WMP70()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("1.793662e-43;3.5873241e-43;1.1210388e-44;0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(20)
+	gg.editAll("2", gg.TYPE_FLOAT)
+	var = gg.getResults(100)
+	var[1].value = 2
+	var[1].freeze = true
+	var[2].value = 2
+	var[2].freeze = true
+	var[3].value = 2
+	var[3].freeze = true
+	var[4].value = 2
+	var[4].freeze = true
+	var[5].value = 2
+	var[5].freeze = true
+	var[6].value = 2
+	var[6].freeze = true
+	var[7].value = 2
+	var[7].freeze = true
+	var[8].value = 2
+	var[8].freeze = true
+	var[9].value = 2
+	var[9].freeze = true
+	gg.addListItems(var)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function WMX20()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("0.5;360;640;1;1;1;-640;360::", gg.POINTER_WRITABLE, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.searchNumber("0.5", gg.POINTER_WRITABLE, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(20)
+	gg.editAll("0", gg.POINTER_WRITABLE)
+	var = gg.getResults(100)
+	gg.addListItems(var)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("56;64;48::35", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("47", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function WMX25()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"640.0;360;0.5;0;640;360;0.5;12000;0.27913400531;0.56855899096::",
+		gg.POINTER_WRITABLE,
+		false,
+		gg.SIGN_FUZZY_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("0.5", gg.POINTER_WRITABLE, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	var = gg.getResults(20)
+	gg.editAll("2", gg.POINTER_WRITABLE)
+	var = gg.getResults(100)
+	gg.addListItems(var)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CER()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("24;802824704;32;2::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("22", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CEW()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CKG()
+	gg.clearResults()
+	gg.searchNumber("24;802824704;32;2:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("20", gg.TYPE_DWORD)
+	gg.processResume()
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CKR()
+	gg.clearResults()
+	gg.searchNumber("24;802824704;32;2::21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("22", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CKW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("40D;32D;16D;2D::37", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("42", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CKY()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("36", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CMG()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("36", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CMR()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("8;16;32;48;40::169", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("38", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CMY()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("16;32;40;48;40:41", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("36", gg.TYPE_DWORD)
+	gg.toast("Wall and Color ✓")
+end
+
+function CMW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Wall and Color✓")
+end
+
+function CMP22G()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("16;29;29;56:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("33", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CMP22Y()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("16;29;29;56:21", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+
+	gg.getResults(1)
+	gg.editAll("32", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("64;32;65;33:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("65", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("32", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CMP60B()
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"802,824,192;48;937,041,920;40;736,370,688;32;802,824,192;48;802,824,192;16;802,824,192;2;2::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("28", gg.TYPE_DWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CMP60R()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"1.68155816e-44F;1.62092562e-12F;3162688022693019688Q;1.62092562e-12F;2.24207754e-44F:241",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("3162688022693019688", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("38", gg.TYPE_QWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function CMP60Y()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(
+		"1.68155816e-44F;1.62092562e-12F;3162688022693019688Q;1.62092562e-12F;2.24207754e-44F:241",
+		gg.TYPE_QWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("3162688022693019688", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(25, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("36", gg.TYPE_QWORD)
+	gg.toast("Wall and Color✓")
+end
+
+function antenna()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"88.50576019287F;87.27782440186F;-100.91194152832F;1F::13",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	B = gg.getResults(6)
+	gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function xeffect()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10;46;0;0::9", gg.TYPE_FLOAT)
+	gg.refineNumber("10", gg.TYPE_FLOAT)
+	gg.getResults(50000)
+	gg.editAll("99999", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function magic()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("23;25;30.5::9", gg.TYPE_FLOAT)
+	gg.refineNumber("25;30.5", gg.TYPE_FLOAT)
+	gg.getResults(50000)
+	gg.editAll("700", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function aimbot360()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-511703038;-336691171:29", gg.TYPE_DWORD)
+	gg.searchNumber("-511703038", gg.TYPE_DWORD)
+	AimBot1 = gg.getResults(2)
+	gg.editAll("-476053504", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("1.6615354e35;-5.8049376e26:9", gg.TYPE_FLOAT)
+	gg.searchNumber("1.6615354e35", gg.TYPE_FLOAT)
+	AimBot2 = gg.getResults(6)
+	gg.editAll("1.6615351e35", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("2015175168", gg.TYPE_FLOAT)
+	AimBot3 = gg.getResults(6)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("1.6615354e35;-5.8048945e26:9", gg.TYPE_FLOAT)
+	gg.searchNumber("1.6615354e35", gg.TYPE_FLOAT)
+	AimBot4 = gg.getResults(6)
+	gg.editAll("1.6615351e35", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT)
+	gg.searchNumber("0.0001", gg.TYPE_FLOAT)
+	AimBot5 = gg.getResults(100)
+	gg.editAll("9999", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function godview()
+	GODVIEW = gg.choice({
+		"GodView ON",
+		"GodView OFF",
+		"Back",
+	}, nil, " God View Menu")
+
+	if GODVIEW == 1 then
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("220;0;25::9", gg.TYPE_FLOAT)
+		gg.refineNumber("220", gg.TYPE_FLOAT)
+		gg.getResults(50000)
+		gg.editAll("6000", gg.TYPE_FLOAT)
+		gg.clearResults()
+	end
+	if GODVIEW == 2 then
+		gg.clearResults()
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("6000;0;25::9", gg.TYPE_FLOAT)
+		gg.refineNumber("220", gg.TYPE_FLOAT)
+		gg.getResults(50000)
+		gg.editAll("220", gg.TYPE_FLOAT)
+		gg.clearResults()
+	end
+	if GODVIEW == 3 then
+		HOME()
+	end
+end
+
+function EXIT()
+	print("😁 ✌")
+	print("ʜᴀᴘᴘʏ ᴄʜᴇᴀᴛɪɴɢ ❤ ")
+	print("Thanks for dealing with us, Have a Good Day!😁 ❤ ")
+	gg.skipRestoreState()
+	os.exit()
+	gg.setVisible(true)
+end
+---DEC BY @x0star
+while true do
+	if gg.isVisible(true) then
+		HACKGURUNP = 1
+		gg.setVisible(false)
+	end
+	---DEC BY @x0star
+	gg.clearResults()
+	if HACKGURUNP == 1 then
+		HOME()
+	end
+end
+---DEC BY @x0star
+---DEC BY @x0star

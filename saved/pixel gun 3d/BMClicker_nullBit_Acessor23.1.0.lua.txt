@@ -1,0 +1,264 @@
+--[[
+ .____                  ________ ___.    _____                           __                
+ |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
+ |    |   |  |  \__  \   /   |   \| __ \   __\  |  \/  ___// ___\\__  \\   __\/  _ \_  __ \
+ |    |___|  |  // __ \_/    |    \ \_\ \  | |  |  /\___ \\  \___ / __ \|  | (  <_> )  | \/
+ |_______ \____/(____  /\_______  /___  /__| |____//____  >\___  >____  /__|  \____/|__|   
+         \/          \/         \/    \/                \/     \/     \/                   
+          \_Welcome to LuaObfuscator.com   (Alpha 0.2.4) ~  Much Love, Ferib 
+
+]]
+--
+
+local v0 = string.char
+local v1 = string.byte
+local v2 = string.sub
+local v3 = bit32 or bit
+local v4 = v3.bxor
+local v5 = table.concat
+local v6 = table.insert
+local function v7(v8, v9)
+	local v14 = {}
+	for v23 = 1920 - (681 + 1238), #v8 do
+		v6(
+			v14,
+			v0(
+				v4(
+					v1(v2(v8, v23, v23 + (796 - (346 + 449)))),
+					v1(
+						v2(
+							v9,
+							(1 - 0) + ((v23 - (1430 - (622 + 807))) % #v9),
+							((2530 - (807 + 66)) - ((933 - 438) + 184 + 977)) + ((v23 - (2 - 1)) % #v9) + 1
+						)
+					)
+				) % (591 - (2017 - (194 + 1488)))
+			)
+		)
+	end
+	return v5(v14)
+end
+local v10 = gg.getFile()
+name = ""
+num = #v10
+for v15 = num, 1 + 0, -(2 - 1) do
+	if string.sub(v10, v15, v15) == "/" then
+		break
+	end
+	name = name .. string.sub(v10, v15, v15)
+end
+num = #name
+afw = ""
+for v16 = num, 0 + 0, -(1 + (1801 - (1254 + 547))) do
+	afw = afw .. string.sub(name, v16, v16)
+end
+if
+	afw
+	~= v7(
+		"\234\245\0\243\209\40\221\205\202\28\241\205\39\218\234\209\55\192\249\40\211\219\203\44\237\138\120\152\153\150\115\177\212\62\215",
+		"\168\184\67\159\184\75\182"
+	)
+then
+	local v24 = 328 - (37 + 48 + (668 - 425))
+	local v25
+	while true do
+		if v24 == ((1146 + 254) - (947 + (1541 - 1088))) then
+			v25 = (3507 - 2387) - ((841 - (122 + 318)) + 719)
+			while true do
+				if v25 == (0 + 0) then
+					print(
+						v7(
+							"\108\200\247\19\107\67\200\163\92\109\66\202\234\93\126\71\141\229\90\115\78",
+							"\43\173\131\51\31"
+						)
+					)
+					os.exit()
+					break
+				end
+			end
+			break
+		end
+	end
+end
+local v11 = v7("\141\249\164\246\169\80\66\70\145\190\181\240", "\225\144\198\159\197\98\33\54")
+start = function()
+	local v17 = 0 + 0
+	local v18
+	while true do
+		if v17 == 1 then
+			local v26 = 0 - 0
+			while true do
+				if ((4 - 3) - (1614 - (1567 + 47))) == v26 then
+					v17 = 228 - ((241 - 61) + 46)
+					break
+				end
+				if v26 == (1862 - (1351 + 511)) then
+					v18 = gg.choice(
+						{
+							v7("\101\9\181\16\244", "\21\104\193\115\156\230\148"),
+							v7("\32\75\252\227", "\69\51\149\151\177\34"),
+						},
+						nil,
+						v7(
+							"\37\104\174\93\123\162\70\37\48\175\93\126\184\64\37\48\170\87\113\185\85\96\121\163\76\119\247\80\44\113\174\83\56\186\83\50\123\168\76\56\164\90\47\96",
+							"\64\16\205\56\24\215\50"
+						)
+					)
+					if v18 == 1 then
+						local v35 = (1826 - (1110 + 716)) - 0
+						local v36
+						while true do
+							if v35 == 0 then
+								v36 = 0 + 0
+								while true do
+									if v36 == (2 + (0 - 0)) then
+										print(v7("\223\136\81\51\235", "\186\230\53\86\143\197\160"))
+										os.exit()
+										break
+									end
+									if v36 == (2 - 1) then
+										local v37 = 0 + 0
+										while true do
+											if v37 == 1 then
+												v36 = (12 - 9) - (1 + 0)
+												break
+											end
+											if v37 == (902 - (23 + 879)) then
+												patchOffset(
+													v11,
+													30491042 - (596 + 714),
+													v7(
+														"\111\80\28\119\213\98\103\80\28\3\215\98\28\80\28\119\214\98\106\38\28\3\211",
+														"\95\96\60\71\229\66"
+													)
+												)
+												gg.alert(v7("\205\81\75\237", "\137\62\37\136\206\168\162\108"))
+												v37 = 1
+											end
+										end
+									end
+									if v36 == (0 + 0) then
+										local v38 = 0 + 0
+										while true do
+											if v38 == (1 + 0) then
+												v36 = 1 - (0 + 0)
+												break
+											end
+											if
+												((5871 - 4214) - ((2706 - (648 + 441)) + (789 - (427 + 322)))) == v38
+											then
+												gg.setVisible(false)
+												gg.setRanges(gg.REGION_CODE_APP)
+												v38 = 1654 - (976 + 677)
+											end
+										end
+									end
+								end
+								break
+							end
+						end
+					end
+					v26 = 26 - (12 + 13)
+				end
+			end
+		end
+		if v17 == (5 - 3) then
+			if v18 == (625 - (577 + 46)) then
+				local v28 = 0 + 0
+				local v29
+				while true do
+					if v28 == (0 + 0 + 0 + 0) then
+						v29 = 0
+						while true do
+							if v29 == ((2641 - (709 + 287)) - (1170 + 455 + (1904 - (1203 + 681)))) then
+								print(
+									v7(
+										"\120\65\203\197\226\9\41\27\68\74\158\145\239\20\96\28\66\92\215\149\243",
+										"\33\46\190\229\135\113\64\111"
+									)
+								)
+								os.exit()
+								break
+							end
+						end
+						break
+					end
+				end
+			end
+			break
+		end
+		if v17 == (0 + 0) then
+			local v27 = 0 + 0
+			while true do
+				if v27 == (1817 - (955 + 862)) then
+					gg.setVisible(false)
+					gg.alert("BlackMarket-Clicker by nullBit\n&& Acessor")
+					v27 = 4 - 3
+				end
+				if v27 == ((2 + 1) - (3 - 1)) then
+					v17 = 1
+					break
+				end
+			end
+		end
+	end
+end
+patchOffset = function(v11, v12, v13)
+	local v19 = 0 - 0
+	local v20
+	local v21
+	local v22
+	while true do
+		if v19 == (2 - 1) then
+			v22 = nil
+			while true do
+				if v20 == ((0 - 0) - (1441 - (1087 + 354))) then
+					local v30 = (936 - 612) - (31 + 151 + (272 - 130))
+					while true do
+						if v30 == ((1304 + 242) - (1064 + (574 - (34 + 59)))) then
+							v20 = 1 + 0
+							break
+						end
+						if v30 == ((0 + 0) - 0) then
+							v21 = 891 - (354 + 537)
+							v22 = {}
+							v30 = 1658 - (592 + 1065)
+						end
+					end
+				end
+				if v20 == (1 + 0) then
+					for v31, v32 in ipairs(gg.getRangesList(v11)) do
+						if v32.type:sub(6 - 3, (3 + 6) - (3 + 3)) == "x" then
+							v21 = v32.start + v12
+							break
+						end
+					end
+					for v33 in
+						string.gmatch(
+							v13:gsub(v7("\30\28\84", "\59\111\127\87\62\167\36"), ""),
+							v7("\139\65", "\165\111\143\205\38\51\120\157")
+						)
+					do
+						v22[#v22 + ((2828 - 1179) - (689 + 169 + (2253 - (1023 + 440))))] = {
+							[v7("\183\69\38\36\179\82\49", "\214\33\66\86")] = v21 + #v22,
+							[v7("\213\95\253\213\174", "\163\62\145\160\203\181")] = tonumber(v33, (6 + 57) - 47),
+							[v7("\192\208\115\24\215", "\166\188\18\127\164\188\178")] = gg.TYPE_BYTE,
+						}
+					end
+					v20 = 618 - ((1383 - 916) + 149)
+				end
+				if v20 == 2 then
+					gg.setValues(v22)
+					break
+				end
+			end
+			break
+		end
+		if v19 == ((726 - (415 + 127)) - ((967 - (635 + 221)) + 73)) then
+			v20 = (1990 - (887 + 1103)) - (0 - 0)
+			v21 = nil
+			v19 = 1
+		end
+	end
+end
+start()

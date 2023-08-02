@@ -1,0 +1,70 @@
+gg.alert("Pixel Strike 3D From Fastgamer22")
+gg.toast("Fastgamer22 Is the best hacker!")
+menu = gg.choice({
+	"Follow Me On Twitch",
+	"Speedhack Can Crash",
+	"Unlimited Ammo",
+	"End Speedhack",
+	"EXIT",
+	"Speedhack2.0",
+	"End Speedhack2.0",
+	"🔫NO RECOIL [99%]",
+	"Slowmotion",
+	"End Slowmotion",
+}, nil, "Fastgamer22 Is the best hacker!")
+if menu == 1 then
+	gg.alert("Follow fastgamer22 On Twitch")
+end
+if menu == 2 then
+	local old = gg.getRanges()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.0078125E;1.0F;0.33333334327F;0.02999999933F::13", gg.TYPE_FLOAT)
+	gg.searchNumber(1, gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll(2, gg.TYPE_FLOAT)
+	gg.setRanges(old)
+end
+if menu == 3 then
+	gg.alert("Working On It,Coming Soon!")
+end
+if menu == 4 then
+	local old = gg.getRanges()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("2E;2.0F;0.33333334327F;0.02999999933F::13", gg.TYPE_FLOAT)
+	gg.searchNumber(2, gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll(1, gg.TYPE_FLOAT)
+	gg.setRanges(old)
+end
+if menu == 5 then
+	os.exit()
+end
+if menu == 6 then
+	gg.setSpeed(30)
+end
+if menu == 7 then
+	gg.setSpeed(1)
+end
+if menu == 8 then
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"h0000803F0000803F3333933FCDCC8C3F00007041000010419A99C93FACC527370000A040",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(gg.getResultsCount())
+	gg.editAll("h0000803F0000803F3333933FCDCC8C3FF0237449000010419A99C93FACC527370000A040", gg.TYPE_BYTE)
+	gg.toast("No Recoil [99%] Active")
+	gg.clearResults()
+end
+if menu == 9 then
+	gg.setSpeed(0.5)
+end
+if menu == 10 then
+	gg.setSpeed(1)
+end

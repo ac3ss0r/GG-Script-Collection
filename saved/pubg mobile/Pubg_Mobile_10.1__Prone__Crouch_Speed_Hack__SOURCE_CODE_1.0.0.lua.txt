@@ -1,0 +1,46 @@
+cheat_choice = gg.alert("⚠ Prone + Crouch Speedhack! ⚠", "Disable", "Enable")
+if cheat_choice == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0.0F;7.0064923e-45F;9.0F;100.0F;1.0F;2,500,000,000.0F;0.10000000149F;88.0F:512",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("9.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.0F;0.60000002384F;0.10000000149F;0.125F ::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+if cheat_choice == 2 then
+	gg.toast("Prone+Crouch Speedhack Activating...")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0.0F;7.0064923e-45F;1.0F;100.0F;1.0F;2,500,000,000.0F;0.10000000149F;88.0F:512",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("9", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.0F;0.60000002384F;0.10000000149F;0.125F ::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("9", gg.TYPE_FLOAT)
+	gg.toast("Activated Successfully!")
+end

@@ -1,0 +1,67 @@
+gg.alert("Welcome to Roblox hack")
+menu = gg.choice({
+	"Noclip",
+	"Speed Hack",
+	"Get free Money in Broken Bones IV",
+	"Get free Barbecue in Restaurant tycoon",
+	"Get Comfy Chair for free",
+	"Get free Japanese Lamp",
+	"Get Large Glass Table for free",
+	"Get free Milkshake bar",
+	"Get free Luxurious quality counter",
+	"EXIT",
+})
+if menu == 1 then
+	gg.searchNumber("0.8", gg.TYPE_FLOAT)
+	gg.getResults(20000)
+	gg.editAll("3", gg.TYPE_FLOAT)
+	gg.clearResults(20000)
+	gg.alert("Enjoy")
+end
+if menu == 2 then
+	gg.setSpeed(3)
+	gg.alert("Enjoy")
+end
+if menu == 3 then
+	gg.searchNumber("5000000", gg.TYPE_DOUBLE)
+	gg.getResults(1000)
+	gg.editAll("-999999999", gg.TYPE_DOUBLE)
+	gg.clearResults(1000)
+	gg.alert("Buy the map for 5M to get Money")
+end
+if menu == 4 then
+	gg.searchNumber("200", gg.TYPE_DOUBLE)
+	gg.getResults(10000)
+	gg.editAll("0", gg.TYPE_DOUBLE)
+	gg.clearResults(10000)
+end
+if menu == 5 then
+	gg.searchNumber("10", gg.TYPE_DOUBLE)
+	gg.GetResults(5000)
+	gg.editAll("0", gg.TYPE_DOUBLE)
+	gg.clearResults(10000)
+end
+if menu == 6 then
+	gg.searchNumber("40", gg.TYPE_DOUBLE)
+	gg.getResults(5000)
+	gg.editAll("0", gg.TYPE_DOUBLE)
+	gg.clearResults(10000)
+end
+if menu == 7 then
+	gg.searchNumber("35", gg.TYPE_DOUBLE)
+	gg.getResults(5000)
+	gg.editAll("0", TYPE_DOUBLE)
+	gg.clearResults(10000)
+end
+if menu == 8 then
+	gg.searchNumber("100", gg.TYPE_DOUBLE)
+	gg.getResults(10000)
+	gg.editAll("0", gg.TYPE_DOUBLE)
+	gg.clearResults(10000)
+end
+if menu == 9 then
+	gg.searchNumber("200", gg.TYPE_DOUBLE)
+	gg.getResults(10000)
+	gg.editAll("0", gg.TYPE_DOUBLE)
+	gg.clearResults(10000)
+end

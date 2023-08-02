@@ -1,0 +1,37 @@
+--ban script by nullBit
+function floatM()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("280", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL)
+	local num = gg.getResultCount()
+	gg.getResults(num)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	return num
+end
+
+function dwordM()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10", gg.TYPE_DWORD, false, gg.SIGN_EQUAL)
+	local cum = gg.getResultCount()
+	gg.getResults(cum)
+	gg.editAll("999", gg.TYPE_DWORD)
+	return cum
+end
+
+local cum = 1
+local num = 1
+
+gg.setVisible(false)
+
+eval = 1
+
+if eval == 1 then
+	while num ~= 0 and cum ~= 0 do
+		num = floatM()
+		cum = dwordM()
+	end
+else
+	print("You exited")
+	os.exit()
+end

@@ -1,0 +1,164 @@
+gg.alert(
+	"Welcome To Riskbreaker FREE Script                   WARNING am not responsible what happen to your account! THIS script is SAFE ! But no hack is 100% safe! You will still get banned if so many player reporting you then DEV check your account! PLEASE AVOID USING IT IF THERE IS ANY UPDATE OR NEW PATCH!"
+)
+gg.toast("Click Game Guardian To open menu")
+print("Credit By The Savior & The Sculptor, Owned by RISKBREAKER team")
+HOME = 1
+function HOME()
+	AB = gg.choice({
+		"________________✓Break Protection✓________________",
+		"___________________✓FREE VERSION✓___________________",
+		"______________________CLOSE_______________________",
+	}, nil, "                       ® RISKBREAKER FREE VERSION®")
+	if AB == 1 then
+		Security()
+	end
+	if AB == 2 then
+		D()
+	end
+	if AB == 3 then
+		XXX()
+	end
+	HOMEDM = -1
+end
+
+function Security()
+	SG = gg.choice(
+		{ "✓ByPass", "                     ™ BACK ™" },
+		nil,
+		"™ Use while the game loads the Tencent Logo ™ "
+	)
+	if SG == 1 then
+		A1()
+	end
+	if SG == 2 then
+		HOME()
+	end
+end
+
+function C()
+	gg.toast(" Welcome ")
+end
+
+function D()
+	DE = gg.choice(
+		{ "|W Color|", "|Aimbot|", "|Aimbot Config|", "                      |BACK|" },
+		nil,
+		" |Can use while in-game or In lobby|"
+	)
+	if DE == 1 then
+		A2()
+	end
+	if DE == 2 then
+		Aimbot1()
+	end
+	if DE == 3 then
+		Config()
+	end
+	if DE == 4 then
+		HOME()
+	end
+end
+
+function Aimbot1()
+	EE = gg.choice(
+		{ "Aimbot Short", "Aimbot X4", "Aimbot Short Off", "Aimbot X4 Off", "                     ™ BACK ™" },
+		nil,
+		"™ PLEASE READ !! Before Changinge type of aimbot PLEASE off the Active AIMBOT first ™"
+	)
+	if EE == 1 then
+		A3()
+	end
+	if EE == 2 then
+		A4()
+	end
+	if EE == 3 then
+		A5()
+	end
+	if EE == 4 then
+		A6()
+	end
+	if EE == 5 then
+		D()
+	end
+end
+
+function Config()
+	GG = gg.choice({
+		"Aim Head",
+		"Aim Body Part",
+		"Aim Leg Part",
+		"Off Aim Head",
+		"Off Aim Body",
+		"Off Aim Leg",
+		"                     ™ BACK ™",
+	}, nil, "™ PLEASE READ !! Before Changing Type of aim PLEASE off the Active AIM first ™")
+	if GG == 1 then
+		H1()
+	end
+	if GG == 2 then
+		H2()
+	end
+	if GG == 3 then
+		H3()
+	end
+	if GG == 4 then
+		H4()
+	end
+	if GG == 5 then
+		H5()
+	end
+	if GG == 6 then
+		H6()
+	end
+	if GG == 7 then
+		D()
+	end
+end
+
+function A1()
+	A1 = gg.alert("Removing XIGN code security")
+	gg.toast("Please wait while hack been injected")
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.alert("Security Removed")
+	gg.toast("Hack Injected")
+end
+
+function A2()
+	gg.clearResults()
+	gg.toast("Processing now...")
+	gg.searchNumber("0.05499718338;1.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("1120.15", gg.TYPE_FLOAT)
+	gg.clearResults(850)
+	gg.toast("Cheat has been activated")
+end
+
+function XXX() --退出
+	print("️          ™Riskbreaker Unrelease Version")
+	print("️          ™Will accept any kind of payment™ ")
+	print("️          ™Whatsapp for more INFO +6738619313™")
+	gg.toast("️Thank You")
+	gg.toast("Script is updated every new version!")
+	os.exit()
+end
+
+while true do
+	if gg.isVisible(true) then
+		HOMEDM = 1
+		gg.setVisible(false)
+	end
+	if HOMEDM == 1 then
+		HOME()
+	end
+end

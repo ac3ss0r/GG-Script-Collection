@@ -1,0 +1,5 @@
+gg.searchNumber(";23.2.2", gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll(";23.3.1", GG.TYPE_WORD)
+gg.processResume()
+gg.alert("MADE BY THE ROOK#8883")

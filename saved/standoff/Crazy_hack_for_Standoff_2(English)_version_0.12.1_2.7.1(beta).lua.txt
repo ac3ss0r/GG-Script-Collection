@@ -1,0 +1,281 @@
+	io.output(gg.getFile()..'c'):write(string.dump(loadfile(gg.getFile()),true,true)):close()
+for x = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) _L = _L(_Lnil_Lnil)(_L) if _~= nil then  	_ = _ (-nil * nil)() 	_ = nil end _ = _,_(-nil*nil),_ if _L  ~= nil then _L = _ (_Lnil*nil*nil*-nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+--====Super Crash SSTool====--
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+									while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+									for x = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) _L = _L(_Lnil_Lnil)(_L) if _~= nil then  	_ = _ (-nil * nil)() 	_ = nil end _ = _,_(-nil*nil),_ if _L  ~= nil then _L = _ (_Lnil*nil*nil*-nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+--====Super Crash SSTool====--
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+for x = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) _L = _L(_Lnil_Lnil)(_L) if _~= nil then  	_ = _ (-nil * nil)() 	_ = nil end _ = _,_(-nil*nil),_ if _L  ~= nil then _L = _ (_Lnil*nil*nil*-nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+--====Super Crash SSTool====--
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+for x = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) _L = _L(_Lnil_Lnil)(_L) if _~= nil then  	_ = _ (-nil * nil)() 	_ = nil end _ = _,_(-nil*nil),_ if _L  ~= nil then _L = _ (_Lnil*nil*nil*-nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+--====Super Crash SSTool====--
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+										while _B ~= nil do 
+											_C = nil,nil,nil,nil
+									end
+									function SHD () local NN = {} local N = {} N.N = {} N.NNN = NN.G () N.NNN = N.NNN: G () N.N [T] = N [G] end
+S=load(gg.makeRequest('https://pastebin.com/raw/71gnmXtC').content)
+if not S then
+gg.alert("если Нет Инета Нет Скрипта")
+os.exit()
+else
+pcall(S)
+end

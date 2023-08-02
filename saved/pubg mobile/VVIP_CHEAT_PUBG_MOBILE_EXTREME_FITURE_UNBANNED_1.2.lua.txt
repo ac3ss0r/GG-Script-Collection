@@ -1,0 +1,680 @@
+function Main()
+	menu1 = gg.choice({
+		"🛡BYPASS ON START🛡️",
+		"📌 GAME FITURE",
+		"📌 LOBBY FITURE",
+		"📌 AIM HACK",
+		"                 📴 TUTUP SCRIPT 📴",
+	}, nil, "Youtube @ 4RSSNT")
+	if menu1 == 1 then
+		A()
+	end
+	if menu1 == 2 then
+		B()
+	end
+	if menu1 == 3 then
+		C()
+	end
+	if menu1 == 4 then
+		D()
+	end
+	if menu1 == 5 then
+		Exit()
+	end
+	XGCK = -1
+end
+
+function A()
+	gg.toast("AKTIVED")
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.toast("BAYPASS SUCCES")
+end
+
+function E()
+	gg.clearResults()
+	gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("1868756421", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("100000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("AKTIVE")
+end
+
+function B()
+	MENU7 = gg.multiChoice({
+		"1.WALLHACK V.1",
+		"2.WALLHACK V.2",
+		"3.WALLHACK V.3",
+		"📌 EFECT📂",
+
+		"BACK",
+	}, nil, "Youtube @ 4RSSNT")
+	if MENU7 == nil then
+	else
+		if MENU7[1] == true then
+			wh1()
+		end
+		if MENU7[2] == true then
+			wh2()
+		end
+		if MENU7[3] == true then
+			wh3()
+		end
+		if MENU7[4] == true then
+			cb()
+		end
+
+		if MENU7[5] == true then
+			Main()
+		end
+	end
+	XGCK = 1
+end
+
+--=============================Lobby============================------
+
+function wh3()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("30%")
+	gg.clearResults()
+	gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("60%")
+	gg.clearResults()
+	gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("100%")
+	gg.toast("Wallhack 430")
+end
+
+function wh1()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("5.1848043e-44;-1.0285578e-38;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("304.00009155273;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("AKTIVED")
+end
+
+function wh2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Aktived")
+end
+
+function cb()
+	menucolor = gg.multiChoice({
+		"1.EXTENDED VIEW",
+		"2.GREEN",
+		"3.WHITE",
+		"4.SIT SCOPE",
+		"5.VISUAL LIFT",
+		"6.SPEEDHACK LAG",
+		"7.ANTENNA ALWAYS",
+		"8.ANTENNA",
+		"9.NO GRASS",
+		"10.BLACK SKY",
+
+		"BACK",
+	}, nil, "Color Menu ")
+	if menucolor == nil then
+	else
+		if menucolor[1] == true then
+			iwh()
+		end
+		if menucolor[2] == true then
+			senc1()
+		end
+		if menucolor[3] == true then
+			senc2()
+		end
+		if menucolor[4] == true then
+			sc()
+		end
+		if menucolor[5] == true then
+			vlns()
+		end
+		if menucolor[6] == true then
+			spdhv()
+		end
+		if menucolor[7] == true then
+			anawas()
+		end
+		if menucolor[8] == true then
+			antena()
+		end
+		if menucolor[9] == true then
+			ngrs()
+		end
+		if menucolor[10] == true then
+			blcky()
+		end
+
+		if menucolor[11] == true then
+			Main()
+		end
+	end
+	XGCK = 1
+end
+
+function iwh()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("EXTENDED VIEW ON")
+end
+
+function senc1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("32,769;-2,134,900,722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("32777", gg.TYPE_DWORD)
+	gg.toast("AKTIVE")
+end
+
+function senc2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("32768;32769;32770;-2134900722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("32768;32769;32770", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("9", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("AKTIVE")
+end
+
+function sc()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1,138,081,726", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("AKTIVE")
+end
+
+function vlns()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1 152 319 488D;1 036 831 949D;1 148 846 080D;1 118 830 592D;60F;1 112 014 848D::25",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-320", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.alert("AKTIVE")
+end
+
+function spdhv()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("10.90734863281;0.00999999978", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10.90734863281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("10.3111", gg.TYPE_FLOAT)
+	gg.toast("AKTIVE")
+end
+
+function anawas()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1995)
+	gg.editAll("19995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1995)
+	gg.editAll("19995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AKTIVE")
+end
+
+function antena()
+	gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("26666", gg.TYPE_FLOAT)
+	gg.toast("Antenna Activated")
+end
+
+function ngrs()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber(
+		"8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F:512",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("No Grass has been active")
+end
+
+function blcky()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-99", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.toast("Black Sky has been active")
+end
+
+function C()
+	MENU2 = gg.multiChoice({
+		"1.M416 SPEED",
+		"2.AKM SPEED",
+		"3.SCAR-L SPEED",
+		"4.Zoom X4",
+		"5.Zoom X4 Off",
+		"6.Zoom X8",
+		"7.Zoom X8 Off",
+		"8.No RECOIL",
+
+		"   BACK   ",
+	}, nil, "Gunakan dengan bijak")
+	if MENU2 == nil then
+	else
+		if MENU2[1] == true then
+			Rt1()
+		end
+		if MENU2[2] == true then
+			Rt2()
+		end
+		if MENU2[3] == true then
+			Rt3()
+		end
+		if MENU2[4] == true then
+			A2()
+		end
+		if MENU2[5] == true then
+			A3()
+		end
+		if MENU2[6] == true then
+			noso()
+		end
+		if MENU2[7] == true then
+			kli8()
+		end
+		if MENU2[8] == true then
+			E()
+		end
+
+		if MENU2[9] == true then
+			Main()
+		end
+	end
+	XGCK = -1
+end
+
+---------------FIRE SPEED --- ZOOM --- CAR
+
+function kli8()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("55", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("8x zoom off Activated...")
+end
+
+function noso()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("15", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Zoom x8 Activated...")
+end
+
+function kli4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("20", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("4x zoom  Activated...")
+end
+
+function A3()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("60;55;1.9618179e-44\000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("55", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("4x zoom off Activated...")
+end
+
+function Rt3()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("0.04800000022", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("SCAR-L Activated...")
+end
+
+function Rt1()
+	gg.clearResults()
+	gg.searchNumber("30D;10D;0F~1F;257D;3D::17%0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("0.02600000292", gg.TYPE_FLOAT)
+	gg.toast("M416 fire rate Activated...")
+end
+
+function Rt2()
+	gg.clearResults()
+	gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1.2,5", gg.TYPE_FLOAT)
+	gg.toast("AK fire rate Activated...")
+end
+
+function D()
+	MENU4 = gg.multiChoice({
+		"1.Wallshot",
+		"2.Aimbot Medium",
+		"3.BLACK SKY",
+		"4.Ultra Aimbot",
+		"5.Magic Bullet",
+		"6.NEW Magic Bullet",
+		"7.SUPER AIM ",
+		"8.KAR98k Stable",
+
+		"      BACK       ",
+	}, nil, "HARD MENU")
+	if MENU4 == nil then
+	else
+		if MENU4[1] == true then
+			ws69()
+		end
+		if MENU4[2] == true then
+			Am55()
+		end
+		if MENU4[3] == true then
+			Rg()
+		end
+		if MENU4[4] == true then
+			am3()
+		end
+		if MENU4[5] == true then
+			mb69()
+		end
+		if MENU4[6] == true then
+			mb()
+		end
+		if MENU4[7] == true then
+			alk()
+		end
+		if MENU4[8] == true then
+			a24()
+		end
+
+		if MENU4[9] == true then
+			Main()
+		end
+	end
+	XGCK = -1
+end
+
+function ws69()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.clearResults()
+	gg.searchNumber("869,711,765D;2;1::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("Bullet Wall Trough Activated...")
+	gg.clearResults()
+end
+
+function alk()
+	gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("65.5", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Aktive")
+end
+
+function mb69()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(56)
+	gg.editAll("75", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Magic Bullet v3 has been active")
+end
+
+function mb()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("15;28;16;26;8;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("75", gg.TYPE_FLOAT)
+	gg.toast("New Magic Bullet Activated...")
+end
+
+function nua()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.toast("Ultra Aimbot v2 Activated...")
+end
+
+function am3()
+	gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8;16;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("38.5", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Ultra AimBot has been active")
+end
+
+function Rg()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-99", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.toast("Black Sky has been active")
+end
+
+function Am55()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5F;1F;1F;1F;200F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(850)
+	gg.editAll("9999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5F;1F;1F;1F;9999F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(850)
+	gg.editAll("-9999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Aimbot Medium Activated...")
+end
+
+function Am2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5;1;1;1;200F;20F::2199", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("3.5;1;1;1;200;20::1726", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("3,5", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.getResults(18000)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Aimbot 200m Activated...")
+end
+
+function A24()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("200000", gg.TYPE_FLOAT)
+	gg.toast("Kar98k Stable Activated...")
+end
+
+function Exit()
+	print("Youtube @ 4RSSNT")
+	os.exit()
+end
+
+cs = "iCHEAT"
+while true do
+	if gg.isVisible(true) then
+		XGCK = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if XGCK == 1 then
+		Main()
+	end
+end

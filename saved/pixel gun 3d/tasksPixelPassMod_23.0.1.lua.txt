@@ -1,0 +1,865 @@
+-- start of json.lua
+-- patch data in /storage/emulated/0/CH.DATA/
+
+json = {
+
+    _version = "0.1.2"
+
+}
+
+
+
+-------------------------------------------------------------------------------
+
+-- Encode
+
+-------------------------------------------------------------------------------
+
+
+
+local encode
+
+
+
+local escape_char_map = {
+
+    ["\\"] = "\\\\",
+
+    ["\""] = "\\\"",
+
+    ["\b"] = "\\b",
+
+    ["\f"] = "\\f",
+
+    ["\n"] = "\\n",
+
+    ["\r"] = "\\r",
+
+    ["\t"] = "\\t"
+
+}
+
+
+
+local escape_char_map_inv = {
+
+    ["\\/"] = "/"
+
+}
+
+for k, v in pairs(escape_char_map) do
+
+    escape_char_map_inv[v] = k
+
+end
+
+
+
+local function escape_char(c)
+
+    return escape_char_map[c] or string.format("\\u%04x", c:byte())
+
+end
+
+
+
+local function encode_nil(val)
+
+    return "null"
+
+end
+
+
+
+local function encode_table(val, stack)
+
+    local res = {}
+
+    stack = stack or {}
+
+
+
+    -- Circular reference?
+
+    if stack[val] then
+
+        error("circular reference")
+
+    end
+
+
+
+    stack[val] = true
+
+
+
+    if rawget(val, 1) ~= nil or next(val) == nil then
+
+        -- Treat as array -- check llAs are valid and it is not sparse
+
+        local n = 0
+
+        for k in pairs(val) do
+
+            if type(k) ~= "number" then
+
+                error("invalid table: mixed or invalid llA types")
+
+            end
+
+            n = n + 1
+
+        end
+
+        if n ~= #val then
+
+            error("invalid table: sparse array")
+
+        end
+
+        -- Encode
+
+        for i, v in ipairs(val) do
+
+            table.insert(res, encode(v, stack))
+
+        end
+
+        stack[val] = nil
+
+        return "[" .. table.concat(res, ",") .. "]"
+
+
+
+    else
+
+        -- Treat as an object
+
+        for k, v in pairs(val) do
+
+            if type(k) ~= "string" then
+
+                error("invalid table: mixed or invalid llA types")
+
+            end
+
+            table.insert(res, encode(k, stack) .. ":" .. encode(v, stack))
+
+        end
+
+        stack[val] = nil
+
+        return "{" .. table.concat(res, ",") .. "}"
+
+    end
+
+end
+
+
+
+local function encode_string(val)
+
+    return '"' .. val:gsub('[%z\1-\31\\"]', escape_char) .. '"'
+
+end
+
+
+
+local function encode_number(val)
+
+    -- Check for NaN, -inf and inf
+
+    if val ~= val or val <= -math.huge or val >= math.huge then
+
+        error("unexpected number value '" .. tostring(val) .. "'")
+
+    end
+
+    return string.format("%.14g", val)
+
+end
+
+
+
+local type_func_map = {
+
+    ["nil"] = encode_nil,
+
+    ["table"] = encode_table,
+
+    ["string"] = encode_string,
+
+    ["number"] = encode_number,
+
+    ["boolean"] = tostring
+
+}
+
+
+
+encode = function(val, stack)
+
+    local t = type(val)
+
+    local f = type_func_map[t]
+
+    if f then
+
+        return f(val, stack)
+
+    end
+
+    error("unexpected type '" .. t .. "'")
+
+end
+
+
+
+function json.encode(val)
+
+    return (encode(val))
+
+end
+
+
+
+-------------------------------------------------------------------------------
+
+-- Decode
+
+-------------------------------------------------------------------------------
+
+
+
+local parse
+
+
+
+local function create_set(...)
+
+    local res = {}
+
+    for i = 1, select("#", ...) do
+
+        res[select(i, ...)] = true
+
+    end
+
+    return res
+
+end
+
+
+
+local space_chars = create_set(" ", "\t", "\r", "\n")
+
+local delim_chars = create_set(" ", "\t", "\r", "\n", "]", "}", ",")
+
+local escape_chars = create_set("\\", "/", '"', "b", "f", "n", "r", "t", "u")
+
+local literals = create_set("true", "false", "null")
+
+
+
+local literal_map = {
+
+    ["true"] = true,
+
+    ["false"] = false,
+
+    ["null"] = nil
+
+}
+
+
+
+local function next_char(str, idx, set, negate)
+
+    for i = idx, #str do
+
+        if set[str:sub(i, i)] ~= negate then
+
+            return i
+
+        end
+
+    end
+
+    return #str + 1
+
+end
+
+
+
+local function decode_error(str, idx, msg)
+
+    local line_count = 1
+
+    local col_count = 1
+
+    for i = 1, idx - 1 do
+
+        col_count = col_count + 1
+
+        if str:sub(i, i) == "\n" then
+
+            line_count = line_count + 1
+
+            col_count = 1
+
+        end
+
+    end
+
+    error(string.format("%s at line %d col %d", msg, line_count, col_count))
+
+end
+
+
+
+local function codepoint_to_utf8(n)
+
+    -- http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=iws-appendixa
+
+    local f = math.floor
+
+    if n <= 0x7f then
+
+        return string.char(n)
+
+    elseif n <= 0x7ff then
+
+        return string.char(f(n / 64) + 192, n % 64 + 128)
+
+    elseif n <= 0xffff then
+
+        return string.char(f(n / 4096) + 224, f(n % 4096 / 64) + 128, n % 64 + 128)
+
+    elseif n <= 0x10ffff then
+
+        return string.char(f(n / 262144) + 240, f(n % 262144 / 4096) + 128, f(n % 4096 / 64) + 128, n % 64 + 128)
+
+    end
+
+    error(string.format("invalid unicode codepoint '%x'", n))
+
+end
+
+
+
+local function parse_unicode_escape(s)
+
+    local n1 = tonumber(s:sub(3, 6), 16)
+
+    local n2 = tonumber(s:sub(9, 12), 16)
+
+    -- Surrogate pair?
+
+    if n2 then
+
+        return codepoint_to_utf8((n1 - 0xd800) * 0x400 + (n2 - 0xdc00) + 0x10000)
+
+    else
+
+        return codepoint_to_utf8(n1)
+
+    end
+
+end
+
+
+
+local function parse_string(str, i)
+
+    local has_unicode_escape = false
+
+    local has_surrogate_escape = false
+
+    local has_escape = false
+
+    local last
+
+    for j = i + 1, #str do
+
+        local x = str:byte(j)
+
+
+
+        if x < 32 then
+
+            decode_error(str, j, "control character in string")
+
+        end
+
+
+
+        if last == 92 then -- "\\" (escape char)
+
+            if x == 117 then -- "u" (unicode escape sequence)
+
+                local hex = str:sub(j + 1, j + 5)
+
+                if not hex:find("%x%x%x%x") then
+
+                    decode_error(str, j, "invalid unicode escape in string")
+
+                end
+
+                if hex:find("^[dD][89aAbB]") then
+
+                    has_surrogate_escape = true
+
+                else
+
+                    has_unicode_escape = true
+
+                end
+
+            else
+
+                local c = string.char(x)
+
+                if not escape_chars[c] then
+
+                    decode_error(str, j, "invalid escape char '" .. c .. "' in string")
+
+                end
+
+                has_escape = true
+
+            end
+
+            last = nil
+
+
+
+        elseif x == 34 then -- '"' (end of string)
+
+            local s = str:sub(i + 1, j - 1)
+
+            if has_surrogate_escape then
+
+                s = s:gsub("\\u[dD][89aAbB]..\\u....", parse_unicode_escape)
+
+            end
+
+            if has_unicode_escape then
+
+                s = s:gsub("\\u....", parse_unicode_escape)
+
+            end
+
+            if has_escape then
+
+                s = s:gsub("\\.", escape_char_map_inv)
+
+            end
+
+            return s, j + 1
+
+
+
+        else
+
+            last = x
+
+        end
+
+    end
+
+    decode_error(str, i, "expected closing quote for string")
+
+end
+
+
+
+local function parse_number(str, i)
+
+    local x = next_char(str, i, delim_chars)
+
+    local s = str:sub(i, x - 1)
+
+    local n = tonumber(s)
+
+    if not n then
+
+        decode_error(str, i, "invalid number '" .. s .. "'")
+
+    end
+
+    return n, x
+
+end
+
+
+
+local function parse_literal(str, i)
+
+    local x = next_char(str, i, delim_chars)
+
+    local word = str:sub(i, x - 1)
+
+    if not literals[word] then
+
+        decode_error(str, i, "invalid literal '" .. word .. "'")
+
+    end
+
+    return literal_map[word], x
+
+end
+
+
+
+local function parse_array(str, i)
+
+    local res = {}
+
+    local n = 1
+
+    i = i + 1
+
+    while 1 do
+
+        local x
+
+        i = next_char(str, i, space_chars, true)
+
+        -- Empty / end of array?
+
+        if str:sub(i, i) == "]" then
+
+            i = i + 1
+
+            break
+
+        end
+
+        -- Read token
+
+        x, i = parse(str, i)
+
+        res[n] = x
+
+        n = n + 1
+
+        -- Next token
+
+        i = next_char(str, i, space_chars, true)
+
+        local chr = str:sub(i, i)
+
+        i = i + 1
+
+        if chr == "]" then
+
+            break
+
+        end
+
+        if chr ~= "," then
+
+            decode_error(str, i, "expected ']' or ','")
+
+        end
+
+    end
+
+    return res, i
+
+end
+
+
+
+local function parse_object(str, i)
+
+    local res = {}
+
+    i = i + 1
+
+    while 1 do
+
+        local llA, val
+
+        i = next_char(str, i, space_chars, true)
+
+        -- Empty / end of object?
+
+        if str:sub(i, i) == "}" then
+
+            i = i + 1
+
+            break
+
+        end
+
+        -- Read llA
+
+        if str:sub(i, i) ~= '"' then
+
+            decode_error(str, i, "expected string for llA")
+
+        end
+
+        llA, i = parse(str, i)
+
+        -- Read ':' delimiter
+
+        i = next_char(str, i, space_chars, true)
+
+        if str:sub(i, i) ~= ":" then
+
+            decode_error(str, i, "expected ':' after llA")
+
+        end
+
+        i = next_char(str, i + 1, space_chars, true)
+
+        -- Read value
+
+        val, i = parse(str, i)
+
+        -- Set
+
+        res[llA] = val
+
+        -- Next token
+
+        i = next_char(str, i, space_chars, true)
+
+        local chr = str:sub(i, i)
+
+        i = i + 1
+
+        if chr == "}" then
+
+            break
+
+        end
+
+        if chr ~= "," then
+
+            decode_error(str, i, "expected '}' or ','")
+
+        end
+
+    end
+
+    return res, i
+
+end
+
+
+
+local char_func_map = {
+
+    ['"'] = parse_string,
+
+    ["0"] = parse_number,
+
+    ["1"] = parse_number,
+
+    ["2"] = parse_number,
+
+    ["3"] = parse_number,
+
+    ["4"] = parse_number,
+
+    ["5"] = parse_number,
+
+    ["6"] = parse_number,
+
+    ["7"] = parse_number,
+
+    ["8"] = parse_number,
+
+    ["9"] = parse_number,
+
+    ["-"] = parse_number,
+
+    ["t"] = parse_literal,
+
+    ["f"] = parse_literal,
+
+    ["n"] = parse_literal,
+
+    ["["] = parse_array,
+
+    ["{"] = parse_object
+
+}
+
+
+
+parse = function(str, idx)
+
+    local chr = str:sub(idx, idx)
+
+    local f = char_func_map[chr]
+
+    if f then
+
+        return f(str, idx)
+
+    end
+
+    decode_error(str, idx, "unexpected character '" .. chr .. "'")
+
+end
+
+
+
+function json.decode(str)
+
+    if type(str) ~= "string" then
+
+        error("expected argument of type string, got " .. type(str))
+
+    end
+
+    local res, idx = parse(str, next_char(str, 1, space_chars, true))
+
+    idx = next_char(str, idx, space_chars, true)
+
+    if idx <= #str then
+
+        decode_error(str, idx, "trailing garbage")
+
+    end
+
+    return res
+
+end
+
+-- end of json.lua
+
+local string = require("string")
+local table = require("table")
+local io = require("io")
+
+local cho = gg.choice
+local mcho = gg.multiChoice
+local pr = gg.prompt
+local grc = gg.getResultCount
+local ali = gg.addListItems
+local rr = gg.removeResults
+local sn = gg.searchNumber
+local ed = gg.editAll
+local mr = gg.makeRequest
+local al = gg.alert
+local to = gg.toast
+local sr = gg.setRanges
+local gr = gg.getResults
+local tpw = gg.TYPE_WORD
+local tpb = gg.TYPE_BYTE
+local rca = gg.REGION_CODE_APP
+local ra = gg.REGION_ANONYMOUS
+local sl = gg.sleep
+local cr = gg.clearResults
+
+function isExisting(file)
+  local f = io.open(file, "r")
+  if f == nil then
+    return false
+  else
+    f:close()
+    return true
+  end
+end
+
+function getFileData(file)
+  local f = io.open(file, "r")
+  if f == nil then
+    return nil
+  else
+    data = f:read("*all")
+    f:close()
+    return data
+  end
+end
+
+function dumpDIR()
+pluginsDataPath = gg.EXT_STORAGE .. "/CH.DATA/"
+
+for i, v in pairs(gg.getRangesList()) do
+            if v["end"] - v.start < 10240 then
+                if not string.find(v["name"], "deleted") then
+                    create_start = v.start
+                    create_end = v["end"]
+                    break
+                end
+            end
+        end
+
+gg.dumpMemory(create_start, create_end, pluginsDataPath, gg.DUMP_SKIP_SYSTEM_LIBS)
+end
+
+function tryGetData()
+local searchJSON = getFileData(gg.EXT_STORAGE .. "/CH.DATA/patchSearches.json")
+local editJSON = getFileData(gg.EXT_STORAGE .. "/CH.DATA/patchEdits.json")
+if searchJSON ~= nil and editJSON ~= nil then
+return json.decode(searchJSON), json.decode(editJSON)
+else
+dumpDIR()
+
+searches = {
+	taskHex = "h F3 7B BF A9 F3 03 00 AA E7 FF FF 97 E0 00 00 36 60 2A 40 F9 60 01 00 B4 08 00 40 F9 09 85 59 A9 20 01 3F D6 80 00 00 36 E0 03 1F 2A F3 7B C1 A8 C0 03 5F D6 E0 03 13 AA F3 7B C1 A8 EB A2 FF 17",
+	pixelPassHex = "h F5 53 BE A9 F3 7B 01 A9 35 8C 02 90 A8 1E 78 39 F3 03 01 2A F4 03 00 AA C8 00 00 37 60 64 02 90 00 84 46 F9 63 4A E2 97 28 00 80 52 A8 1E 38 39 94 36 40 F9 E0 03 13 2A E1 03 1F AA 5D F7 93 94"
+}
+
+edits = {
+	taskHex = "h 20 00 80 52 C0 03 5F D6 74 6E 02 F0 88 26 6F 39 F3 03 00 AA C8 00 00 37 C0 48 02 D0 00 F8 41 F9 33 51 D2 97 28 00 80 52 88 26 2F 39 33 02 00 B4 C8 48 02 D0 08 F9 41 F9 00 01 40 F9 08 E0 40 B9",
+	pixelPassHex = "h 00 00 80 D2 C0 03 5F D6"
+}
+
+sJson = json.encode(searches)
+eJson = json.encode(edits)
+
+local sFile = io.open(gg.EXT_STORAGE .. "/CH.DATA/patchSearches.json", "w")
+sFile:write(sJson)
+sFile:close()
+local eFile = io.open(gg.EXT_STORAGE .. "/CH.DATA/patchEdits.json", "w")
+eFile:write(eJson)
+eFile:close()
+print("Please Restart The Script.")
+return "Fail", "Written"
+end
+end
+
+s, e = tryGetData()
+
+if s == "Fail" and e == "Written" then
+print("Reason: \nfirstHand Writing Thread Ran, Waiting For Script Restart.")
+else
+main = cho({
+	"Run Script With Search Diagnosis"
+}, nil, "Tasks & Pixel Pass Clicker Scripted By Pulsed#1874")
+
+if main == 1 then
+sr(rca)
+cr()
+sn(s["taskHex"], tpw)
+count = grc(gr(64))
+if count == 64 then
+res = gr(64)
+ed(e["taskHex"], tpw)
+task = ali(res)
+cr()
+sn(s["pixelPassHex"], tpw)
+count = grc(gr(64))
+if count == 64 then
+res = gr(8)
+ed(e["pixelPassHex"], tpw)
+res = gr(64)
+task = ali(res)
+cr()
+print("Open-Source Script Made By Pulsed#1874!")
+else
+print("An Error Occurred: Expected 64 Bytes, Received: " .. count)
+end
+else
+print("An Error Occurred: Expected 64 Bytes, Received: " .. count)
+end
+end
+
+end

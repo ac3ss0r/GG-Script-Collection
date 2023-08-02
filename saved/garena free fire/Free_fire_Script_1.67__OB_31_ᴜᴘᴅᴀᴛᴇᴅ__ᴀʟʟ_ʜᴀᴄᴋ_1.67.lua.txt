@@ -1,0 +1,543 @@
+local memFrom, memTo, lib, num, lim, results, src, ok = 0, -1, nil, 0, 32, {}, nil, false
+function name(n)
+	if lib ~= n then
+		lib = n
+		local ranges = gg.getRangesList(lib)
+		if #ranges == 0 then
+		else
+			memFrom = ranges[1].start
+			memTo = ranges[#ranges]["end"]
+		end
+	end
+end
+function hex2tbl(hex)
+	local ret = {}
+	hex:gsub("%S%S", function(ch)
+		ret[#ret + 1] = ch
+		return ""
+	end)
+	return ret
+end
+function original(orig)
+	local tbl = hex2tbl(orig)
+	local len = #tbl
+	if len == 0 then
+		return
+	end
+	local used = len
+	if len > lim then
+		used = lim
+	end
+	local s = ""
+	for i = 1, used do
+		if i ~= 1 then
+			s = s .. ";"
+		end
+		local v = tbl[i]
+		if v == "??" or v == "**" then
+			v = "0~~0"
+		end
+		s = s .. v .. "r"
+	end
+	s = s .. "::" .. used
+	gg.searchNumber(s, gg.TYPE_BYTE, false, gg.SIGN_EQUAL, memFrom, memTo)
+	if len > used then
+		for i = used + 1, len do
+			local v = tbl[i]
+			if v == "??" or v == "**" then
+				v = 256
+			else
+				v = ("0x" .. v) + 0
+				if v > 127 then
+					v = v - 256
+				end
+			end
+			tbl[i] = v
+		end
+	end
+	local found = gg.getResultCount()
+	results = {}
+	local count = 0
+	local checked = 0
+	while true do
+		if checked >= found then
+			break
+		end
+		local all = gg.getResults(8)
+		local total = #all
+		local start = checked
+		if checked + used > total then
+			break
+		end
+		for i, v in ipairs(all) do
+			v.address = v.address + myoffset
+		end
+		gg.loadResults(all)
+		while start < total do
+			local good = true
+			local offset = all[1 + start].address - 1
+			if used < len then
+				local get = {}
+				for i = lim + 1, len do
+					get[i - lim] = { address = offset + i, flags = gg.TYPE_BYTE, value = 0 }
+				end
+				get = gg.getValues(get)
+				for i = lim + 1, len do
+					local ch = tbl[i]
+					if ch ~= 256 and get[i - lim].value ~= ch then
+						good = false
+						break
+					end
+				end
+			end
+			if good then
+				count = count + 1
+				results[count] = offset
+				checked = checked + used
+			else
+				local del = {}
+				for i = 1, used do
+					del[i] = all[i + start]
+				end
+				gg.removeResults(del)
+			end
+			start = start + used
+		end
+	end
+end
+function replaced(repl)
+	num = num + 1
+	local tbl = hex2tbl(repl)
+	if src ~= nil then
+		local source = hex2tbl(src)
+		for i, v in ipairs(tbl) do
+			if v ~= "??" and v ~= "**" and v == source[i] then
+				tbl[i] = "**"
+			end
+		end
+		src = nil
+	end
+	local cnt = #tbl
+	local set = {}
+	local s = 0
+	for _, addr in ipairs(results) do
+		for i, v in ipairs(tbl) do
+			if v ~= "??" and v ~= "**" then
+				s = s + 1
+				set[s] = {
+					["address"] = addr + i,
+					["value"] = v .. "r",
+					["flags"] = gg.TYPE_BYTE,
+				}
+			end
+		end
+	end
+	if s ~= 0 then
+		gg.setValues(set)
+	end
+	ok = true
+end
+gg.clearResults()
+t = gg.getListItems()
+gg.removeListItems(t)
+
+libil2cpp = "3.5;9.219563e-41;3.34241e-39;1.4012985e-45;4.8808683e-39::25"
+libunity = "3.5;9.219563e-41;3.34241e-39;1.4012985e-45;.52e-44;2.936e-38::33"
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end -- Iғ | Sɴ
+gg.clearResults()
+Random = 1
+b = [[
+5273
+Var #9513FC90|9513fc90|10|42200000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|63ec90
+Var #9641C684|9641c684|10|e590013c|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|191b684
+Var #9641C688|9641c688|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|191b688
+Var #9A237484|9a237484|10|c0000000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|252484
+Var #9514E0B0|9514e0b0|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|64d0b0
+Var #9514E0B4|9514e0b4|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|64d0b4
+Var #951005D4|951005d4|10|e92d4830|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff5d4
+Var #951005D8|951005d8|10|e28db008|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff5d8
+Var #9512C6B0|9512c6b0|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|62b6b0
+Var #9512C6B4|9512c6b4|10|e28dff10|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|62b6b4
+Var #95FF8CF8|95ff8cf8|10|eb33a910|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|14f7cf8
+Var #9657E0FC|9657e0fc|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1a7d0fc
+Var #9657E100|9657e100|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1a7d100
+Var #95AEA134|95aea134|10|e5900018|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|fe9134
+Var #95AEA138|95aea138|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|fe9138
+Var #96417AA0|96417aa0|10|e92d4ff0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1916aa0
+Var #96417AA4|96417aa4|10|e28db01c|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1916aa4
+Var #95B2D454|95b2d454|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|102c454
+Var #95B2D458|95b2d458|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|102c458
+Var #95147D90|95147d90|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|646d90
+Var #95147D94|95147d94|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|646d94
+Var #96804868|96804868|10|e92d4bf0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1d03868
+Var #9680486C|9680486c|10|e28db018|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1d0386c
+Var #9A136280|9a136280|10|358637bd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|151280
+Var #9510C804|9510c804|10|e92d4ff0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b804
+Var #9510C808|9510c808|10|e28db01c|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b808
+Var #9510C950|9510c950|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b950
+Var #9510C954|9510c954|10|e1a01005|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b954
+Var #9574CAC0|9574cac0|10|3e4ccccd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|c4bac0
+Var #9574CD78|9574cd78|10|3e4ccccd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|c4bd78
+Var #96E86664|96e86664|10|42c80000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|2385664
+Var #9640E110|9640e110|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190d110
+Var #9640E114|9640e114|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190d114
+Var #95152FFC|95152ffc|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|651ffc
+Var #95153000|95153000|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|652000
+Var #9510010C|9510010c|10|e92d4800|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff10c
+Var #95100110|95100110|10|e1a0b00d|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff110
+Var #959DE9F8|959de9f8|10|42700000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|edd9f8
+Var #959DD758|959dd758|10|e92d4ff0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|edc758
+Var #959DD75C|959dd75c|10|e28db01c|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|edc75c
+Var #9640DAF0|9640daf0|10|e5900060|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190caf0
+Var #9640DAF4|9640daf4|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190caf4
+Var #9514D470|9514d470|10|43960000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|64c470
+Var #964096EC|964096ec|10|e5900050|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|19086ec
+Var #964096F0|964096f0|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|19086f0
+Var #96411670|96411670|10|e92d4c70|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1910670
+Var #96411674|96411674|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1910674
+Var #951594C8|951594c8|10|e92d48f0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|6584c8
+Var #951594CC|951594cc|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|6584cc
+Var #950FF744|950ff744|10|e5d00324|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5fe744
+Var #950FF748|950ff748|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5fe748
+Var #9AE86890|9ae86890|10|358637bd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea1890
+Var #9AE86894|9ae86894|10|358637bd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea1894
+Var #9AE86898|9ae86898|10|358637bd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea1898
+Var #9AE8689C|9ae8689c|10|358637bd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea189c
+Var #9AE7A79C|9ae7a79c|10|358637bd|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|e9579c
+]]
+fileData = gg.EXT_STORAGE .. "/[###].dat"
+io.output(fileData):write(b):close()
+gg.loadList(fileData, gg.LOAD_APPEND)
+gg.sleep(50)
+r = gg.getListItems()
+getReset = gg.getValues(r)
+gg.clearList()
+os.remove(fileData)
+
+b = [[
+5273
+Var #9513FC90|9513fc90|10|43b40000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|63ec90
+Var #9641C684|9641c684|10|e3a0000f|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|191b684
+Var #9641C688|9641c688|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|191b688
+Var #9A237484|9a237484|10|447a0000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|252484
+Var #9514E0B0|9514e0b0|10|e3a00001|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|64d0b0
+Var #9514E0B4|9514e0b4|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|64d0b4
+Var #951005D4|951005d4|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff5d4
+Var #951005D8|951005d8|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff5d8
+Var #9512C6B0|9512c6b0|10|e3a00001|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|62b6b0
+Var #9512C6B4|9512c6b4|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|62b6b4
+Var #95FF8CF8|95ff8cf8|10|e3bb0000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|14f7cf8
+Var #9657E0FC|9657e0fc|10|e344007f|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1a7d0fc
+Var #9657E100|9657e100|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1a7d100
+Var #95AEA134|95aea134|10|e3430f96|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|fe9134
+Var #95AEA138|95aea138|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|fe9138
+Var #96417AA0|96417aa0|10|e3a00012|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1916aa0
+Var #96417AA4|96417aa4|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1916aa4
+Var #95B2D454|95b2d454|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|102c454
+Var #95B2D458|95b2d458|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|102c458
+Var #95147D90|95147d90|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|646d90
+Var #95147D94|95147d94|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|646d94
+Var #96804868|96804868|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1d03868
+Var #9680486C|9680486c|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1d0386c
+Var #9A136280|9a136280|10|bf800000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|151280
+Var #9510C804|9510c804|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b804
+Var #9510C808|9510c808|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b808
+Var #9510C950|9510c950|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b950
+Var #9510C954|9510c954|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|60b954
+Var #9574CAC0|9574cac0|10|0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|c4bac0
+Var #9574CD78|9574cd78|10|0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|c4bd78
+Var #96E86664|96e86664|10|c1d00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|2385664
+Var #9640E110|9640e110|10|e3a00312|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190d110
+Var #9640E114|9640e114|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190d114
+Var #95152FFC|95152ffc|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|651ffc
+Var #95153000|95153000|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|652000
+Var #9510010C|9510010c|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff10c
+Var #95100110|95100110|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5ff110
+Var #959DE9F8|959de9f8|10|bf800000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|edd9f8
+Var #959DD758|959dd758|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|edc758
+Var #959DD75C|959dd75c|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|edc75c
+Var #9640DAF0|9640daf0|10|e344045c|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190caf0
+Var #9640DAF4|9640daf4|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|190caf4
+Var #9514D470|9514d470|10|437a0000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|64c470
+Var #964096EC|964096ec|10|e3a0008a|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|19086ec
+Var #964096F0|964096f0|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|19086f0
+Var #96411670|96411670|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1910670
+Var #96411674|96411674|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|1910674
+Var #951594C8|951594c8|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|6584c8
+Var #951594CC|951594cc|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|6584cc
+Var #950FF744|950ff744|10|e3a00001|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5fe744
+Var #950FF748|950ff748|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|5fe748
+Var #9AE86890|9ae86890|10|bf8e3cc9|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea1890
+Var #9AE86894|9ae86894|10|bf8e3cc9|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea1894
+Var #9AE86898|9ae86898|10|bf8e3cc9|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea1898
+Var #9AE8689C|9ae8689c|10|bf8e3cc9|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|ea189c
+Var #9AE7A79C|9ae7a79c|10|bf800000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|e9579c
+]]
+fileData = gg.EXT_STORAGE .. "/[###].dat"
+io.output(fileData):write(b):close()
+gg.loadList(fileData, gg.LOAD_APPEND)
+gg.sleep(50)
+r = gg.getListItems()
+getReset = gg.getValues(r)
+gg.clearList()
+os.remove(fileData)
+b = [[
+15742
+Var #96AECC44|96aecc44|10|e92d4830|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|222bc44
+Var #96AECC48|96aecc48|10|e28db008|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|222bc48
+Var #96A35D8C|96a35d8c|10|e92d48f0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|2174d8c
+Var #96A35D90|96a35d90|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|2174d90
+Var #96C3B264|96c3b264|10|e92d48f0|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|237a264
+Var #96C3B268|96c3b268|10|e28db010|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|237a268
+Var #96AECC44|96aecc44|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|222bc44
+Var #96AECC48|96aecc48|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|222bc48
+Var #96A35D8C|96a35d8c|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|2174d8c
+Var #96A35D90|96a35d90|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|2174d90
+Var #96C3B264|96c3b264|10|e3a00000|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|237a264
+Var #96C3B268|96c3b268|10|e12fff1e|0|0|0|0|rwxp|/data/app/com.dts.freefireth-1/lib/arm/libil2cpp.so|237a268
+]]
+fileData = gg.EXT_STORAGE .. "/[###].dat"
+io.output(fileData):write(b):close()
+gg.loadList(fileData, gg.LOAD_APPEND)
+gg.sleep(50)
+r = gg.getListItems()
+getReset = gg.getValues(r)
+gg.clearList()
+os.remove(fileData)
+gg.setVisible(true)
+
+if os.date("%Y%m%d") > "20510929" then
+	hh = gg.alert("💣SCRIPT EXPIRED💣 \n New Script On PLAYERS TEAM YOUTUBE")
+	os.exit()
+end
+
+gg.toast("SCRIPT BY PLAYERS TEAM COMPLETE 1K FAST")
+gg.alert("SUBSCRIBE PLAYERS TEAM")
+gg.alert("Click on GG to use script😎")
+
+function Main0()
+	SN = gg.choice(
+		{
+			Ghost .. "GHOST HACK 👻",
+			Stone .. "STONE HACK ⛰️",
+			Head .. "ANTIENA 🗼",
+			Diamond .. "SPEED HACK 🏃‍♂️",
+			"WALL KILL 🏘️",
+			"AIM LOCK 🎯",
+			"EXIT 🚫",
+		},
+		nil,
+		"═══════════════════ \n ▶ COMPLETE 1K SUBS🥺\n ▶PLAYERS TEAM 😘\n ▶ ANTIBAN __EXPIRE 2050/08/29\n ═══════════════════════"
+	)
+	if SN == 1 then
+		Main2()
+	end
+	if SN == 2 then
+		Main3()
+	end
+	if SN == 3 then
+		Main4()
+	end
+	if SN == 4 then
+		Main5()
+	end
+	if SN == 5 then
+		Main6()
+	end
+	if SN == 6 then
+		Main7()
+	end
+	if SN == 7 then
+		HS8()
+	end
+	FX = 0
+end
+
+Ghost = " ❌️ "
+function Main2()
+	if Ghost == " ❌️ " then
+		gg.setVisible(false)
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 13536000
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("00 00 A0 E3 1E FF 2F E1")
+		gg.addListItems(gg.getResults(gg.getResultsCount()))
+		gg.saveList(
+			"/storage/emulated/0/Android/data/com.dts.freefireth/files/contentcache/Temp/android/MultiThread/CompulsoryRes/gameassetbundles/config/.a.txt",
+			gg.LOAD_VALUES
+		)
+		gg.clearList()
+		gg.setVisible(true)
+		gg.toast("👻 GHOST MODE👻")
+		Ghost = " ✅ "
+	elseif Ghost == " ✅ " then
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 13536000
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("F0 4F 2D E9 1C B0 8D E2")
+		gg.addListItems(gg.getResults(gg.getResultsCount()))
+		gg.saveList(
+			"/storage/emulated/0/Android/data/com.dts.freefireth/files/contentcache/Temp/android/MultiThread/CompulsoryRes/gameassetbundles/config/.aa.txt",
+			gg.LOAD_VALUES
+		)
+		gg.clearList()
+		gg.clearResults()
+		gg.toast("👻 GHOST MODE👻")
+		Ghost = " ❌️ "
+	end
+end
+
+Stone = " ❌️ "
+function Main3()
+	if Stone == " ❌️ " then
+		gg.clearResults()
+		io.output(fileData)
+			:write([[
+20672
+Var #9CDFC4A8|9cdfc4a8|10|0|0|0|0|0|r-xp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|abff68
+Var #9CDFC4B8|9cdfc4b8|10|0|0|0|0|0|r-xp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|abff78
+Var #9CDFC4E8|9cdfc4e8|10|0|0|0|0|0|r-xp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|abffa8
+]])
+			:close()
+		gg.loadList(fileData, gg.LOAD_APPEND | gg.LOAD_VALUES)
+		os.remove(fileData)
+		gg.sleep(50)
+		gg.clearList()
+		gg.clearResults()
+		gg.toast("🗿WALLHACK STONE🗿")
+		Stone = " ✅ "
+	elseif Stone == " ✅ " then
+		gg.clearResults()
+		io.output(fileData)
+			:write([[
+12873
+Var #9D95DF68|9d95df68|10|cafffe57|0|0|0|0|r-xp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|abff68
+Var #9D95DF78|9d95df78|10|cafffe53|0|0|0|0|r-xp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|abff78
+Var #9D95DFA8|9d95dfa8|10|cafffe47|0|0|0|0|r-xp|/data/app/com.dts.freefireth-1/lib/arm/libunity.so|abffa8
+]])
+			:close()
+		gg.loadList(fileData, gg.LOAD_APPEND | gg.LOAD_VALUES)
+		os.remove(fileData)
+		gg.sleep(50)
+		gg.clearList()
+		gg.clearResults()
+		gg.toast("🗿WALLHACK STONE🗿")
+		Stone = " ❌️ "
+	end
+end
+
+Head = " ❌️ "
+function Main4()
+	if Head == " ❌️ " then
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("73r;6Cr;20r;35r;00r;00r;80r;3Fr::8", 1)
+		gg.getResults(1000)
+		gg.editAll("73r;6Cr;20r;35r;9Ar;19r;34r;43r", 1)
+		gg.clearResults()
+		gg.searchNumber("E9r;C5r;4Ar;35r;00r;00r;80r;3Fr::8", 1)
+		gg.getResults(1000)
+		gg.editAll("E9r;C5r;4Ar;35r;9Ar;19r;34r;43r", 1)
+		gg.clearResults()
+		gg.toast("🗼ANTENA HEAD🗼")
+		gg.toast("ANMS MODS")
+		Head = " ✅ "
+	elseif Head == " ✅ " then
+		gg.setRanges(gg.REGION_ANONYMOUS)
+		gg.searchNumber("73r;6Cr;20r;35r;9Ar;19r;34r;43r::8", 1)
+		gg.getResults(1000)
+		gg.editAll("73r;6Cr;20r;35r;00r;00r;80r;3Fr", 1)
+		gg.clearResults()
+		gg.searchNumber("E9r;C5r;4Ar;35r;9Ar;19r;34r;43r::8", 1)
+		gg.getResults(1000)
+		gg.editAll("E9r;C5r;4Ar;35r;00r;00r;80r;3Fr", 1)
+		gg.clearResults()
+		gg.toast("🗼ANTENA HEAD🗼")
+		gg.toast("ANMS MODS")
+		Head = " ❌️ "
+	end
+end
+
+Diamond = " ❌️ "
+function Main5()
+	if Diamond == " ❌️ " then
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("1.0F;0.33333334327F;0.02999999933F:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, -0, -1, -0)
+		gg.refineNumber("1.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, -0, -1, -0)
+		revert = gg.getResults(1)
+		gg.editAll("3.0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("🏃‍♂️ACTIVATED SPEED✔️🏃‍♂️")
+		Diamond = " ✅️ "
+	elseif Diamond == " ✅️ " then
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("3.0F;0.33333334327F;0.02999999933F:9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, -0, -1, -0)
+		gg.refineNumber("3.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, -0, -1, -0)
+		revert = gg.getResults(1)
+		gg.editAll("1.0", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.toast("🏃‍♂️DEACTIVATED SPEED❌🏃‍♂️")
+		Diamond = " ❌️ "
+	end
+end
+
+function Main6()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"-1.30928164e25;-3.69511377e20;1.25206298e-38;0.00001",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1,
+		0
+	)
+	gg.refineNumber("0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	revert = gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.processResume()
+	gg.toast("🎪 WALL KILL🎪")
+end
+
+function Main7()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1057048494", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(205)
+	gg.editAll("-2000000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3DB851ECh;3F800000h;420000h;40A00000h;40133333h", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.refineNumber("1075000115", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(1000)
+	gg.editAll("-5", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.35000002384", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.getResults(1000)
+	gg.editAll("100", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	name("libil2cpp.so")
+	myoffset = 23090004
+	original("7F 45 4C 46 01 01 01 00")
+	replaced("01 00 A0 E3 1E FF 2F E1")
+	gg.clearResults()
+	gg.toast("🔐AIM LOCK 🔐")
+end
+
+function HS8()
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		FX = 1
+		gg.setVisible(false)
+	end
+	if FX == 1 then
+		Main0()
+	end
+end

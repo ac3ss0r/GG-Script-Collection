@@ -1,0 +1,218 @@
+while true do
+	if gg.isVisible(true) then
+		menuk = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+
+	START = 1
+
+	function START()
+		menu = gg.choice(
+			{ "NEW: Kick All Out Lobby(respawn)", "NEW: Infinity Match Time", "NEW: Speed Hack", "EXIT" },
+			nil,
+			"Select Cheat"
+		)
+
+		if menu == 1 then
+			kick()
+		end
+		if menu == 2 then
+			infinity()
+		end
+		if menu == 3 then
+			speedhack()
+		end
+		if menu == 4 then
+			os.exit()
+		end
+		if menu == nil then
+			noselect()
+		end
+		menuk = -1
+	end
+
+	function kick()
+		gg.clearResults()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-2.9687729e21F;0.0F;4.4765625F;1.0116976e-37F;1.3424271e-39F::17", gg.TYPE_FLOAT)
+		if gg.getResultCount() == 0 then
+			gg.toast('DISABLE "INFINITY TIME" BEFORE USING "KICKOUTOFLOBBY"')
+		else
+			t = gg.getResults(5)
+			t[3].value = "0"
+			gg.setValues(t)
+			gg.toast("FIRST RESPAWN, YOU HAVE 30 SECONDS TIME!!")
+			gg.toast("30 seconds")
+			gg.sleep(1000)
+			gg.toast("39 seconds")
+			gg.sleep(1000)
+			gg.toast("38 seconds")
+			gg.sleep(1000)
+			gg.toast("37 seconds")
+			gg.sleep(1000)
+			gg.toast("36 seconds")
+			gg.sleep(1000)
+			gg.toast("35 seconds")
+			gg.sleep(1000)
+			gg.toast("34 seconds")
+			gg.sleep(1000)
+			gg.toast("33 seconds")
+			gg.sleep(1000)
+			gg.toast("32 seconds")
+			gg.sleep(1000)
+			gg.toast("31 seconds")
+			gg.sleep(1000)
+			gg.toast("20 seconds")
+			gg.sleep(1000)
+			gg.toast("19 seconds")
+			gg.sleep(1000)
+			gg.toast("18 seconds")
+			gg.sleep(1000)
+			gg.toast("17 seconds")
+			gg.sleep(1000)
+			gg.toast("16 seconds")
+			gg.sleep(1000)
+			gg.toast("15 seconds")
+			gg.sleep(1000)
+			gg.toast("14 seconds")
+			gg.sleep(1000)
+			gg.toast("13 seconds")
+			gg.sleep(1000)
+			gg.toast("12 seconds")
+			gg.sleep(1000)
+			gg.toast("11 seconds")
+			gg.sleep(1000)
+			gg.toast("10 seconds")
+			gg.sleep(1000)
+			gg.toast("9 seconds")
+			gg.sleep(1000)
+			gg.toast("8 seconds")
+			gg.sleep(1000)
+			gg.toast("7 seconds")
+			gg.sleep(1000)
+			gg.toast("6 seconds")
+			gg.sleep(1000)
+			gg.toast("12 seconds")
+			gg.sleep(1000)
+			gg.toast("11 seconds")
+			gg.sleep(1000)
+			gg.toast("10 seconds")
+			gg.sleep(1000)
+			gg.toast("9 seconds")
+			gg.sleep(1000)
+			gg.toast("8 seconds")
+			gg.sleep(1000)
+			gg.toast("7 seconds")
+			gg.sleep(1000)
+			gg.toast("6 seconds")
+			gg.sleep(1000)
+			gg.toast("5 seconds")
+			gg.sleep(1000)
+			gg.toast("4 seconds")
+			gg.sleep(1000)
+			gg.toast("3 seconds")
+			gg.sleep(1000)
+			gg.toast("2 seconds")
+			gg.sleep(1000)
+			gg.toast("1 seconds")
+			gg.sleep(1000)
+			gg.toast("TIME FINISHED!!")
+			gg.searchNumber("-2.9687729e21F;0.0F;0.0;1.0116976e-37F;1.3424271e-39F::17", gg.TYPE_FLOAT)
+			t = gg.getResults(5)
+			t[3].value = "4.4765625"
+			gg.setValues(t)
+			gg.clearResults()
+			gg.setRanges(old)
+		end
+	end
+
+	function infinity()
+		kick = gg.multiChoice({ "Activate/Deactivate", "BACK" }, { [1] = true }, "ON/OFF infinity")
+
+		if kick == nil then
+			noselect()
+		else
+			if kick[2] == true then
+				START()
+			else
+				if kick[1] == true then
+					infinityON()
+				else
+					infinityOFF()
+				end
+			end
+		end
+	end
+
+	function infinityON()
+		gg.clearResults()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-2.9687729e21F;0.0F;4.4765625F;1.0116976e-37F;1.3424271e-39F::17", gg.TYPE_FLOAT)
+		t = gg.getResults(5)
+		t[3].value = "-4.4765625"
+		gg.setValues(t)
+		gg.clearResults()
+		gg.setRanges(old)
+	end
+
+	function infinityOFF()
+		gg.clearResults()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-2.9687729e21F;0.0F;-4.4765625F;1.0116976e-37F;1.3424271e-39F::17", gg.TYPE_FLOAT)
+		t = gg.getResults(5)
+		t[3].value = "4.4765625"
+		gg.setValues(t)
+		gg.clearResults()
+		gg.setRanges(old)
+	end
+
+	function speedhack()
+		speedhack = gg.multiChoice({ "Activate/Deactivate", "BACK" }, { [1] = true }, "ON /OFF speedhack")
+
+		if speedhack == nil then
+			noselect()
+		else
+			if speedhack[2] == true then
+				START()
+			else
+				if speedhack[1] == true then
+					speedhackON()
+				else
+					speedhackOFF()
+				end
+			end
+		end
+	end
+
+	function speedhackON()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("0.0078125E;1.0F;0.33333334327F;0.02999999933F::13", gg.TYPE_FLOAT)
+		gg.searchNumber(1, gg.TYPE_FLOAT)
+		gg.getResults(1)
+		gg.editAll(2, gg.TYPE_FLOAT)
+		gg.setRanges(old)
+	end
+
+	function speedhackOFF()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("2E;2.0F;0.33333334327F;0.02999999933F::13", gg.TYPE_FLOAT)
+		gg.searchNumber(2, gg.TYPE_FLOAT)
+		gg.getResults(1)
+		gg.editAll(1, gg.TYPE_FLOAT)
+		gg.setRanges(old)
+	end
+
+	function noselect()
+		gg.toast("You Not Select Anything")
+	end
+
+	if menuk == 1 then
+		START()
+	end
+end

@@ -1,0 +1,28 @@
+if gg.isVisible(true) then
+	gg.setVisible(false)
+
+	gg.alert("This Script is made by Krotenhannes")
+
+	menu = gg.choice({ "Money hack", "Exit" })
+
+	if menu == 1 then
+		gg.searchNumber("400;300;500;200", gg.TYPE_DWORD)
+		gg.getResults(100)
+		gg.editAll("-10000", gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.alert(
+			"Now go to the Grenades Store and buy something ;) buy? you will always make 10000 plus when you buy something"
+		)
+		return
+	end
+
+	if menu == 2 then
+		os.exit()
+	end
+end
+
+while true do
+	if gg.isVisible(true) then
+		gg.setVisible(false)
+	end
+end

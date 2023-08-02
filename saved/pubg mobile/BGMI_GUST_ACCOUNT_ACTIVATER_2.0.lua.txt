@@ -1,0 +1,14 @@
+function setvalue(address, flags, value)
+	local tt = {}
+	tt[1] = {}
+	tt[1].address = address
+	tt[1].flags = flags
+	tt[1].value = value
+	gg.setValues(tt)
+end
+
+so = gg.getRangesList("libUE4.so")[1].start
+py = 0x6AF893B
+setvalue(so + py, 4, 0)
+gg.toast("ᴡᴇʟᴄᴏᴍᴇ ʏᴏᴜ ᴛᴏ ᴄʜᴇᴀᴛᴇʀꜱ ❤")
+print("ꜰᴏʟᴏᴡ ᴜꜱ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ❤\n@TheGameCheaters")

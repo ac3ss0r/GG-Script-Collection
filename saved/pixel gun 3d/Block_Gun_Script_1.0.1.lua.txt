@@ -1,0 +1,218 @@
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+
+function main()
+	Menu = gg.choice({
+		"Transparent Walls ON",
+		"Transparent Walls OFF",
+		"White Charms ON",
+		"White Charms OFF",
+		"Kick All Players",
+		"Buy Weapon Get Cash Back",
+		"Exit",
+	}, nil, "Block Gun Script by Luckyday999")
+
+	if Menu == 1 then
+		F1()
+	end
+	if Menu == 2 then
+		F2()
+	end
+	if Menu == 3 then
+		F3()
+	end
+	if Menu == 4 then
+		F4()
+	end
+	if Menu == 5 then
+		F5()
+	end
+	if Menu == 6 then
+		F6()
+	end
+	if Menu == 7 then
+		Exit()
+	end
+end
+
+function F1()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.processResume()
+	gg.refineNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0.99900000149", gg.TYPE_FLOAT)
+	gg.refineNumber("99999999999999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.toast("Transparent Walls ON")
+end
+
+function F2()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.99900000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	revert = gg.getResults(5000, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0.1", gg.TYPE_FLOAT)
+	gg.refineNumber("99999999999999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+	gg.toast("Transparent Walls OFF")
+end
+
+function F3()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("1000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("White Charms ON")
+end
+
+function F4()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("1000", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("-1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("White Charms OFF")
+end
+
+function F5()
+	gg.setSpeed(128)
+	gg.sleep("1000")
+	gg.setSpeed(1)
+	gg.clearResults()
+	gg.toast("Disconected - All Players Have Been Kicked")
+end
+
+function F6()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("120000", gg.TYPE_DWORD)
+	gg.getResults(10000)
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10000", gg.TYPE_DWORD)
+	gg.getResults(10000)
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("140000", gg.TYPE_DWORD)
+	gg.getResults(10000)
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4500", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4000", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3000", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("2500", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("2500", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3000", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("-999999999", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3000", gg.TYPE_DWORD)
+	--[[ found: 0 ]]
+	gg.getResults(10000)
+	--[[ count: 0 ]]
+	gg.editAll("1", gg.TYPE_DWORD)
+	gg.alert("Buy Weapon Get Cash Back ON Now goto shop & buy P228 Pistol")
+end
+
+function Exit()
+	gg.clearResults()
+	os.exit()
+end
+
+main()
+
+while true do
+	while gg.isVisible(true) do
+		gg.setVisible(false)
+		main()
+	end
+end

@@ -1,0 +1,468 @@
+gg.alert('Torius Project')
+gg.toast('https://www.youtube.com/c/toriusoff')
+HOME=1
+function HOME()
+AB = gg.choice({'✓Анти-Детект', '✓Игровое меню', '✓Цвет ( НЕ ИСПОЛЬЗОВАТЬ НА ЭМУЛЯТОРЕ )', '✓VIP','✓VIP Скорость','                      || ЗАКРЫТЬ ||', '           ™ Torius Project ™'},nil,'® PUBG MOBILE ®')
+if AB == 1 then Deteksi() end
+if AB == 2 then D() end
+if AB == 3 then E() end
+if AB == 4 then F() end
+if AB == 5 then RUN() end 
+if AB == 6 then TC() end
+if AB == 7 then G() end
+HOMEDM=-1
+end
+
+
+function Deteksi()
+SG = gg.choice({"✓Анти-Детект","                     ™ НАЗАД ™"}, nil, '™ Использовать при логотипе Tentent ™ ')
+if SG == 1 then A22() end 
+if SG == 2 then HOME() end 
+end
+
+function D()
+SG = gg.choice({"✓Большой шлем ™ В лобби","✓Нет травы ™","✓Ходить через стены ™","✓Антена ™", "✓Высокий прыжок ™","✓Стрельба сквозь стены ™","               ™ НАЗАД ™ "}, nil, 'Использовать в игре')
+if SG == 1 then Z1() end
+if SG == 2 then A1() end
+if SG == 3 then A62() end
+if SG == 4 then A11() end
+if SG == 5 then A12() end
+if SG == 6 then X() end
+if SG == 7 then HOME() end 
+end
+
+function C()
+gg.toast(' Welcome ')
+	end
+	
+
+
+function E() 
+ BQ = gg.choice({"✓Белый", "✓Чёрный", "✓Голубой","✓Синий","                     ™ НАЗАД ™"}, nil, '® Использовать при авторизации ®')
+if BQ == 1 then A60() end
+if BQ == 2 then A61() end
+if BQ == 3 then A13() end
+if BQ == 4 then A14() end 
+if BQ == 5 then HOME() end
+end
+
+function F() 
+ DD = gg.choice({"✓ВХ ™","✓АИМ ™","✓Высокая стрельба ™","✓Нет травы + Нет деревьев","✓Визуальный подъём","                      ™НАЗАД™"},nil,' ™ ВХ использовать при авторизации ™ ') 
+if DD == 1 then A16() end 
+if DD == 2 then H() end
+if DD == 3 then J() end
+if DD == 4 then Z() end
+if DD == 5 then A228() end
+if DD == 6 then HOME() end 
+end 
+
+function H() 
+ EE = gg.choice({"✓АИМ 1 ™","✓АИМ 2  ™","                     ™ BACK ™"},nil,'™ Использовать в игре ™') 
+if EE == 1 then A9() end
+if EE == 2 then A10() end
+if EE == 3 then HOME() end 
+end
+
+function RUN() 
+ FF = gg.choice({"✓ON быстрый бег 1  ™","✓OFF быстрый бег 1 ™","✓ON быстрый бег 2 ™","✓OFF быстрый бег 2 ™","✓ON быстрый бег 3 ™","✓OFF быстрый бег 3 ™","                     ™НАЗАД™"},nil,' ™ Использовать в игре ™ ')
+if FF == 1 then RUN1() end 
+if FF == 2 then OFFRUN1() end 
+if FF == 3 then RUN2() end 
+if FF == 4 then OFFRUN2() end 
+if FF == 5 then RUN3() end 
+if FF == 6 then OFFRUN3() end 
+if FF == 7 then HOME() end 
+end
+
+function TC()--退出
+print("️️         ™YouTube™")
+print(" https://www.youtube.com/c/toriusoff ")
+
+print(" ™ВКонтакте™ ")
+print("       https://vk.com/toriusgroup ")
+os.exit() 
+end
+
+function G() 
+ EE = gg.choice({"™ E-mail ™","™ ВКонтакте ™"},nil,' ® Контакты ® ') 
+if EE == 1 then email() end 
+if EE == 2 then phone() end 
+end
+
+function email() 
+ AA = gg.choice({" Email : toriusoff@mail.ru "})
+if AA == 1 then HOME() end 
+end 
+
+function phone() 
+ AA = gg.choice({" https://vk.com/toriusoff"})
+if AA == 1 then HOME() end 
+end
+
+function J()
+ JJ = gg.choice({"✓ON Высокая стрельба ™","✓OFF Высокая стрельба ™","                     ™НАЗАД™"},nil,'™ Использовать в игре ™')
+if JJ == 1 then HIGH1() end
+if JJ == 2 then HIGH2() end
+if JJ == 3 then HOME() end
+end
+
+function Z()
+ HH = gg.choice({"✓ ON Нет травы + Нет деревьев ™","✓OFF Нет травы + Нет деревьев ™","                     ™ НАЗАД ™"},nil,'™ Использовать в игре ™')
+if HH == 1 then A2() end 
+if HH == 2 then A0() end 
+if HH == 3 then HOME() end
+end
+
+function A1()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('8;1.2;0.8;1.5;0.8;1.5',gg.TYPE_FLOAT,false, gg.SIGN_EQUAL,0, -1)
+gg.getResults(100)
+gg.editAll('0', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+function A2()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.setRanges (gg.REGION_C_BSS)
+gg.searchNumber('2048D;1F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('0.1', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован') 
+end
+
+function A0()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.setRanges (gg.REGION_C_BSS)
+gg.searchNumber('2048D;0.1F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('0.1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован') 
+end
+
+function A62()
+gg.clearResults(Sukses)
+gg.toast('Процесс...')
+gg.searchNumber('30;58::10', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('30', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print('Replaced: ', gg.editAll('-30', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+
+
+function A3()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('1065353216;1110704128;1092616192', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1065353216', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+print('Replaced: ', gg.editAll('1099000000', gg.TYPE_DWORD))
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+
+
+function A9()
+gg.clearResults(850)
+gg.toast('')
+gg.searchNumber('3.5F;1F;0.5F;200F;20F::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('3.5;1;0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+print('Replaced: ', gg.editAll('3.4e38', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.searchNumber('200F;100F;8000F;2.5F;1F;0.5F::41', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2.5;1;0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+print('Replaced: ', gg.editAll('3.4e38', gg.TYPE_FLOAT))
+gg.toast('Чит активирован')
+end
+
+function A10() 
+gg.clearResults(850)
+gg.toast('')
+gg.searchNumber('3.5F;1F;0.5F;200F;20F::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('3.5;1;0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+print('Replaced: ', gg.editAll('7.4e38', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.searchNumber('200F;100F;8000F;2.5F;1F;0.5F::41', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2.5;1;0.5', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+print('Replaced: ', gg.editAll('7.4e38', gg.TYPE_FLOAT))
+gg.toast('Чит активирован')
+end
+
+
+
+function A13()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('0.30737304688;0.09112548828',gg.TYPE_FLOAT,false, gg.SIGN_EQUAL,0, -1)
+gg.searchNumber('0.30737304688;0.09112548828', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll('-99', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+
+
+function A22()
+A22 = gg.alert('Подождите...')
+gg.toast('Процесс...')
+gg.searchNumber('1.2F;1.8F:9::1', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.1F;1.4F:3::1', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.1D;1.4D:2::10', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber('5001;1.1;1F::10', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber('1.2F;1.8F:9::1', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.1F;1.4F:3::1', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.1D;1.4D:2::10', gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults(850)
+gg.alert('Ещё чуть-чуть')
+gg.toast('Готово!')
+end
+
+function A228()
+gg.clearResults()
+gg.searchNumber('0.1;1000;88;60;30',gg.TYPE_FLOAT,false, gg.SIGN_EQUAL,0, -1)
+gg.searchNumber('30', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('-999', gg.TYPE_FLOAT)
+gg.toast('Готово')
+end
+
+
+
+function A60()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('0.05499718338;1.0F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll('999', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+
+function A61()
+gg.clearResults(850)
+gg.toast('Процесс...')
+gg.searchNumber('573.70306396484;0.05499718338;1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print('Replaced: ', gg.editAll('-999', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.toast('Чит активирован')
+gg.toast('^_^')	
+end
+
+
+
+function A11()
+gg.clearResults(850)
+gg.alert('Использовать в игре')
+gg.toast('Процесс...')
+gg.searchNumber('1F;0.61365634203F;0.00034569605F;0.78957355022F',gg.TYPE_FLOAT,false, gg.SIGN_EQUAL,0, -1)
+gg.searchNumber('0.61365634203F;0.00034569605F;0.78957355022F', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('888', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+
+
+function A12()
+gg.clearResults(850)
+gg.toast('Процесс...')
+gg.searchNumber('1;35;443;0.5;55;0.57357645035', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print('Replaced: ', gg.editAll('0.5', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+function A14()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('0.30737304688', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('0.30737304688', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+print('Replaced: ', gg.editAll('-99', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+
+function A15()
+gg.clearResults(BTW)
+gg.toast('Процесс...')
+gg.searchNumber('65706D;65707D;65708D;2;2;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print('Replaced: ', gg.editAll('10', gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+function X()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('869,711,765D;2.0F;1.0F::55', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll('0', gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+function A16()
+gg.toast('Start')
+gg.clearResults()
+gg.searchNumber('-5.5693206e-40;4.814603e21;3.7615819e-37;2:', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('200', gg.TYPE_FLOAT)
+gg.toast('Процесс (1/3)')
+gg.clearResults()
+gg.searchNumber('-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('200', gg.TYPE_FLOAT)
+gg.toast('Процесс (2/3)')
+gg.clearResults()
+gg.searchNumber('304.00009155273;3.7615819e-37;2;-1;1;-127::240', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll('100', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Процесс (3/3)')
+gg.toast('Чит активирован')
+end
+
+function HIGH1()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('0.41357067227F;18.38614845276F;0.53446006775F:512', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('0.53446006775', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1150',gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+
+function HIGH2()
+gg.clearResults()
+gg.toast('Процесс...')
+gg.searchNumber('0.41357067227F;18.38614845276F;1150:512', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1150', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('0.53446006775',gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end
+function Z1()
+gg.clearResults()
+gg.toast('Процесс..')
+gg.searchNumber('88.50576019287;87.27782440186;1::50',gg.TYPE_FLOAT,false, gg.SIGN_EQUAL,0, -1)
+gg.getResults(100)
+gg.editAll('3', gg.TYPE_FLOAT)
+gg.toast('Чит активирован')
+end
+
+
+
+
+function RUN1()
+gg.alert('Использовать в игре')
+gg.clearResults()
+gg.searchNumber('1;1;1;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1.1', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end 
+
+function OFFRUN1()
+gg.alert('Использовать в игре')
+gg.clearResults()
+gg.searchNumber('1.1;1.1,1;1.1;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end 
+
+function RUN2()
+gg.alert('Использовать в игре')
+gg.clearResults()
+gg.searchNumber('1;1;1;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1.1,2', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end 
+
+function OFFRUN2()
+gg.alert('Использовать в игре')
+gg.clearResults()
+gg.searchNumber('1.1,2;1.1,2;1.1,2;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.1,2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end 
+
+function RUN3()
+gg.alert('Использовать в игре')
+gg.clearResults()
+gg.searchNumber('1;1;1;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1.2,2', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end 
+
+function OFFRUN3()
+gg.alert('Использовать в игре')
+gg.clearResults()
+gg.searchNumber('1.2,2;1.2,2;1.2,2;0.0001;20;0.0005;0.4::50', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber('1.2,2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll('1', gg.TYPE_FLOAT) 
+gg.clearResults(850)
+gg.toast('Чит активирован')
+end 
+
+
+
+while(true)
+
+do
+
+  if gg.isVisible(true) then
+    HOMEDM=1
+    gg.setVisible(false) 
+  end 
+  if HOMEDM==1 then HOME() end
+end  

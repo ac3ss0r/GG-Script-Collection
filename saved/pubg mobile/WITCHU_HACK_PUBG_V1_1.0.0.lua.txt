@@ -1,0 +1,168 @@
+HOME = 1
+function HOME()
+	HM = gg.choice({
+		"\240\159\148\176 New Bypass (Open After Tencent Logo)",
+		"\240\159\147\176 [hack ]",
+		"________||EXIT||________",
+	}, nil, "\226\155\148 Witchu V1")
+	if HM == 1 then
+		NEWBAYPASS()
+	end
+	if HM == 2 then
+		WITCHU()
+	end
+	if HM == 3 then
+		EXIT()
+	end
+
+	HOMEDM = -1
+end
+
+function NEWBAYPASS()
+	gg.toast("BYPASS WORKING")
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults(850)
+	gg.toast("BYPASS 100% SUCCESS")
+	gg.alert(os.date([[Today: %Y/%m/%d Time: %H:%M:%S BYpass SSSS. Good Luck]]))
+end
+
+function WITCHU()
+	AM = gg.multiChoice({
+		"\240\159\147\130 Recoil ",
+		"\240\159\147\130 Color Black",
+		"\240\159\147\130 Color White",
+		"\240\159\147\130 AimBot Ultra",
+		"\240\159\147\130 Antenna Always Landing",
+		"\240\159\147\130 Antenna Head Landing",
+		"\240\159\147\130 Zoom 4x Landing",
+		"\226\153\187 BACK",
+	}, nil, "HACK MENU AB HACK V1")
+	if AM == nil then
+	else
+		if AM[1] == true then
+			RC()
+		end
+		if AM[2] == true then
+			BLACK()
+		end
+		if AM[3] == true then
+			WHIT3()
+		end
+		if AM[4] == true then
+			UAIM()
+		end
+		if AM[5] == true then
+			AT2()
+		end
+		if AM[6] == true then
+			ATH()
+		end
+		if AM[7] == true then
+			Z4X()
+		end
+		if AM[8] == true then
+			HOME()
+		end
+	end
+end
+
+function RC()
+	gg.clearResults()
+	gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("1868756421", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("100000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("No recoil Activation")
+end
+function UAIM()
+	gg.clearResults()
+	gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.toast("Ultra AimBot Success")
+end
+function ATH()
+	gg.clearResults(850)
+	gg.searchNumber("-0.08587168157F;7.13142681122F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("7.13142681122", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(850)
+	print("Replaced: ", gg.editAll("9999", gg.TYPE_FLOAT))
+	gg.clearResults()
+	gg.toast("Successful Activation")
+end
+
+function AT2()
+	gg.clearResults()
+	gg.searchNumber("7.13142681122;0.53447723389;22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("9621", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1995)
+	gg.editAll("19995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1995)
+	gg.editAll("19995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Successful Activation")
+end
+function Z4X()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("60;55;1.9618179e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("20", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Zoom X4 has been active")
+end
+
+function EXIT()
+	os.exit()
+end
+
+while true do
+	if gg.isVisible(true) then
+		HOMEDM = 1
+		gg.setVisible(false)
+	end
+	if HOMEDM == 1 then
+		HOME()
+	end
+end

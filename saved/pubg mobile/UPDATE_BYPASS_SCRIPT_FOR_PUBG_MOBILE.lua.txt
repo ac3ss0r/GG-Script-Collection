@@ -1,0 +1,59 @@
+function MAINJD()
+	if JAADU == 1 then
+		HOMEJD()
+	end
+	HOMEJD = 1
+end --SCRIPT BY JAADUGAR
+JAADU =
+	gg.alert("UPDATE BYPASS SCRIPT FOR PUBG MOBILE \n MADE BY JAADUGAR \n TELEGRAM :- @JaadugarOfficial", "CONTINUE")
+gg.copyText("@JaadugarOfficial") --TELEGRAM :- @JaadugarHacksOfficial @JaadugarahacksOP
+function HOMEJD()
+	HM = gg.multiChoice({ "BYPASS UPDATE", "INFORMATION", "EXIT" }, nil, "UPDATE BYPASSER BY JAADUGAR HACKS")
+	--SCRIPT MADE BY JAADUGAR   TELEGRAM :- @JaadugarHacksOfficial , @Jaadugarofficial
+	if HM == nil then
+	else
+		if HM[1] == true then
+			JD()
+		end
+		if HM[2] == true then
+			JD1()
+		end
+		if HM[3] == true then
+			EXIT()
+		end
+	end
+	HOMEJDJAADU = -1
+end
+--UPDATE BYPASS
+function JD() --UPDATE BYPASS BY JAADUGAR
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber('"1835100009;778724197"', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll('"0"', gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.alert(
+		"UPDATE BYPASSER 100% ACTIVATED \n \n JOIN OUR TELEGRAM FOR MORE STUFF \n \n @JaadugarHacksOfficial \n @JaadugarOfficial"
+	)
+end
+--INFO
+function JD1()
+	gg.alert(
+		"THIS SCRIPT IS THE UPDATE BYPASSER SCRIPT \n JOIN OUR TELEGRAM AND SUPPORT US :- @JaadugarOfficial \n \n SHARE WITH CREDITS !"
+	)
+end
+--EXIT
+function EXIT()
+	gg.alert("UPDATE BYPASSER \n BY Jaadugar Hacks \n TELEGRAM :- @JaadugarHacksOfficial ")
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		HOMEJDJAADU = 1
+		gg.setVisible(false)
+	end
+	--SHARE WITH CREDITS
+	if HOMEJDJAADU == 1 then
+		HOMEJD()
+	end
+end

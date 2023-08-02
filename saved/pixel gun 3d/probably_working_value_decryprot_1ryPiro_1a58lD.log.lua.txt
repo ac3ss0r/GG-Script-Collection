@@ -1,0 +1,47 @@
+gg.choice({ -- table(f02eb41)
+	[1] = "250",
+	[2] = "500",
+	[3] = "1k",
+	[4] = "2.5",
+	[5] = "5k",
+	[6] = "10k",
+	[7] = "20k",
+	[8] = "Exit",
+}, nil, "Amount For Save ValueDecrypt")
+--[[ return: 2 ]]
+gg.alert("Script Made By NOT HEXCODEHK")
+--[[ return: 1 ]]
+gg.setVisible(false)
+gg.setRanges(gg.REGION_CODE_APP)
+gg.setVisible(false)
+gg.clearResults()
+gg.setVisible(false)
+gg.searchNumber(
+	"h 00 A0 00 91 E1 03 1F AA 55 29 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 D5 DE 01 F0 94 BB 01 F0",
+	gg.TYPE_BYTE,
+	false,
+	gg.SIGN_EQUAL,
+	1.1125369292536007E-308,
+	-1,
+	1.1125369292536007E-308
+)
+--[[ found: 0 ]]
+gg.setVisible(false)
+gg.getResults(100.0)
+--[[ count: 0 ]]
+gg.setVisible(false)
+gg.editAll(
+	"h80 3E 80 52 C0 03 5F D6 55 29 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 D5 DE 01 F0 94 BB 01 F0",
+	gg.TYPE_BYTE
+)
+gg.setVisible(false)
+gg.getResults(100.0)
+--[[ count: 0 ]]
+gg.setVisible(false)
+gg.editAll(
+	"h80 3E 80 52 C0 03 5F D6 55 29 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 D5 DE 01 F0 94 BB 01 F0",
+	gg.TYPE_BYTE
+)
+gg.setVisible(false)
+gg.clearResults()
+gg.setVisible(false)

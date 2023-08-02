@@ -1,0 +1,31 @@
+gg.alert(" script by | by [S̷T̴R̶I̳K҉E̶̓͛ℜ]#1141")
+
+gg.setVisible(false)
+
+local Value = {
+	{
+		search = "h F5 53 BE A9 F3 7B 01 A9 B4 59 02 B0 75 35 02 F0 88 92 52 39 B5 56 43 F9 F3 03 00 AA 28 01 00 37",
+		replace = "h 80 25 80 52 C0 03 5F D6 B4 59 02 B0 75 35 02 F0 88 92 52 39 B5 56 43 F9 F3 03 00 AA 28 01 00 37",
+	},
+}
+
+function edit_values()
+	local set = gg.setRanges(gg.REGION_CODE_APP)
+	for i, v in ipairs(Value) do
+		gg.searchNumber(v.search, gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(8)
+		gg.editAll(v.replace, gg.TYPE_BYTE)
+	end
+end
+
+edit_values()
+
+local Value = {
+	{
+		search = "h FF 03 02 D1 F4 33 00 F9 F3 7B 07 A9 F4 03 01 AA E0 03 01 AA E1 03 1F AA F3 03 02 AA 30 98 FB 97",
+		replace = "h E0 86 80 52 C0 03 5F D6 FF 03 02 D1 F4 33 00 F9 F3 7B 07 A9 F4 03 01 AA E0 03 01 AA E1 03 1F AA F3 03 02 AA 30 98 FB 97",
+	},
+}
+edit_values()
+gg.clearResults()
+gg.alert("done✅")

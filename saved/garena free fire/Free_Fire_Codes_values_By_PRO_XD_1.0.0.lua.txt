@@ -1,0 +1,95 @@
+FILE BY PRO XD
+About File: 
+Game: Free Fire
+App:  Game Gurdian
+
+---------------Auto Aim Code-------
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1057048494;1054951342;1053273620", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20000)
+gg.editAll("-20000", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.30928164e25;-3.69511377e20;1.25206298e-38;0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.refineNumber("0.00001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+gg.getResults(10, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.processResume()
+gg.toast("Aimbot ON🟢")
+____________________________________________________
+-------Wallhack Stone only for 32bit free fire---------
+
+ON✅
+gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+name("libunity.so")
+myoffset = 0xB47158
+original("7F 45 4C 46 01 01 01 00")
+replaced("000000000")
+gg.clearResults()
+gg.toast("Wallhack stone ON✅")
+............ 
+OFF❌
+gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+name("libunity.so")
+myoffset = 0xB47158
+original("7F 45 4C 46 01 01 01 00")
+replaced("57FEFFCA")
+gg.clearResults()
+gg.toast("Wallhack stone OFF❌")
+________________________________________
+------------Cool Emote------------
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("909000001~909034013", gg.TYPE_DWORD)
+gg.getResults("20000")
+gg.editAll("909034010", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("💡Cool Emote ON💡")
+gg.alert("Note ⚠️ Please use emote only in training to not be used in rank or battle royale avoid blacklist, bannd and report 🇺🇲")
+______________________________________________
+---------green crosshair-------------
+
+gg.setRanges(32)
+    gg.searchNumber("00r;00r;00r;3Fr;00r;00r;80r;3Fr;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;00r;3Fr::20", 1)
+    gg.getResults(20)
+    gg.editAll("7Fr;45r;4Cr;46r;01r;01r;01r;00r", 1)
+    gg.clearResults()
+    gg.toast("🎯ᴄʀᴏѕѕнᴀιʀ✔️🎯")
+_________________________________________________
+----------Fix lag Gun------------
+
+gg.setRanges(32)
+gg.searchNumber(" 5.5;1.0;0.75::9", 16, false, 536870912, 0, -1)
+gg.refineNumber("1", 16, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("-999", 16)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(" 5.5;0.75::9", 16, false, 536870912, 0, -1)
+gg.refineNumber("0.75", 16, false, 536870912, 0, -1)
+gg.getResults(1)
+gg.editAll("-999", 16)
+gg.clearResults()
+gg.toast("🔫Lag Fix:)🔫")
+___________________________________________
+------------Antena Head-----------
+
+gg.setRanges(gg.REGION_ANONYMOUS)
+    gg.searchNumber('0.0F;0.78218489885F;0.20846158266F;5.9762459e-7F;1.0F:17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('0', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1000)
+    gg.editAll('300.0012345', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.searchNumber('0.0F;0.78520542383F;0.2656314373F;7.5538861e-7F;1.0F:17', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('0', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(1000)
+    gg.editAll('300.0012345', gg.TYPE_FLOAT)
+    gg.clearResults()
+    gg.toast("ᴀᴄᴛɪᴠᴇᴅ Antena Head")
+    ________________♕♕♕♕♕________________
+    Codes By PRO XD
+    YT: XD محترف
+    INSTA:  @PRO128XD
+                                          Game Gurdian net.com

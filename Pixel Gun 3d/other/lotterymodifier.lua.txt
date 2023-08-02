@@ -1,6 +1,0 @@
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber(";Lottery", gg.TYPE_WORD)
-gg.getResults(gg.getResultsCount())
-gg.editAll(";69420 haha", gg.TYPE_WORD)
-gg.clearResults()

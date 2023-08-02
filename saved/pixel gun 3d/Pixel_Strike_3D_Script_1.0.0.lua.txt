@@ -1,0 +1,149 @@
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+
+function main()
+	Menu = gg.choice({
+		"Speed Hack ON",
+		"Speed Hack OFF",
+		"Jump Hack ON",
+		"Jump Hack OFF",
+		"Perfect Antena",
+		"Fast ADS Speed ON",
+		"Fast ADS Speed OFF",
+		"Teleport Ontop Of Map",
+		"Exit",
+	}, nil, "Pixel Strike 3D Script By Luckyday999😈🔥")
+
+	if Menu == 1 then
+		F1()
+	end
+	if Menu == 2 then
+		F2()
+	end
+	if Menu == 3 then
+		F3()
+	end
+	if Menu == 4 then
+		F4()
+	end
+	if Menu == 5 then
+		F5()
+	end
+	if Menu == 6 then
+		F6()
+	end
+	if Menu == 7 then
+		F7()
+	end
+	if Menu == 8 then
+		F8()
+	end
+	if Menu == 9 then
+		Exit()
+	end
+end
+
+function F1()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1.5", gg.TYPE_FLOAT)
+	gg.getResults(999)
+	gg.editAll("4.616323", gg.TYPE_FLOAT)
+	gg.toast("Speed Hack ON")
+end
+
+function F2()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4.616323", gg.TYPE_FLOAT)
+	gg.getResults(999)
+	gg.editAll("1.5", gg.TYPE_FLOAT)
+	gg.toast("Speed Hack OFF")
+end
+function F3()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("12", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("100", gg.TYPE_FLOAT)
+	gg.toast("Jump Hack ON")
+end
+
+function F4()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("100", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("12", gg.TYPE_FLOAT)
+	gg.toast("Jump Hack OFF")
+end
+
+function F5()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("-0.5", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("12", gg.TYPE_FLOAT)
+	gg.toast("Perfect Antena ON")
+end
+
+function F6()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("1000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast ADS Speed ON")
+end
+
+function F7()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("1000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast ADS Speed OFF")
+end
+
+function F8()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4,554,552,040,939,128,051Q;1.5F:53", gg.TYPE_FLOAT)
+	gg.refineNumber("1.5", gg.TYPE_FLOAT)
+	revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+	resultsCount = gg.getResultCount()
+	results = gg.getResults(resultsCount)
+	do
+		do
+			for i = 1, resultsCount do
+				gg.setValues({
+					[1] = {
+						address = results[i].address + 44,
+						flags = gg.TYPE_FLOAT,
+						value = "2.20734848976",
+					},
+					[2] = {
+						address = results[i].address + 52,
+						flags = gg.TYPE_FLOAT,
+						value = "3.14780855179",
+					},
+					[3] = {
+						address = results[i].address + 60,
+						flags = gg.TYPE_FLOAT,
+						value = "2.52171564102",
+					},
+				})
+			end
+		end
+	end
+end
+
+function Exit()
+	gg.clearResults()
+	os.exit()
+end
+
+main()
+
+while true do
+	while gg.isVisible(true) do
+		gg.setVisible(false)
+		main()
+	end
+end

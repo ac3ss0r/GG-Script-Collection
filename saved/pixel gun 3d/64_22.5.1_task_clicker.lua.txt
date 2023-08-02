@@ -1,0 +1,203 @@
+function Reset()
+	gg.setVisible(false)
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h 00 F9 95 52 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--7
+	gg.searchNumber(
+		"h 00 C4 89 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--6
+	gg.searchNumber(
+		"h 00 E2 84 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--5
+	gg.searchNumber(
+		"h 00 71 82 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--4
+	gg.searchNumber(
+		"h 80 38 81 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--3
+	gg.searchNumber(
+		"h 00 7D 80 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--2
+	gg.searchNumber(
+		"h 80 3E 80 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	--1
+	gg.searchNumber(
+		"h 40 1F 80 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+
+menu = gg.choice(
+	{ "Reset to Normal", "250", "500", "1000", "2500", "5000", "10000", "20000", "45000", "Any Higher will be banned" },
+	nil,
+	"Changes the rewards in the Lottery and Sets to the value you select | Script made by hah#7126"
+)
+if menu == 2 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 40 1F 80 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 3 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 80 3E 80 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 4 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 7D 80 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 5 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 80 38 81 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 6 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 71 82 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 7 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 E2 84 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 8 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 C4 89 D2 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 9 then
+	Reset()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F4 4F 01 A9 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(100)
+	gg.editAll(
+		"h 00 F9 95 52 C0 03 5F D6 FD 7B 02 A9 FD 83 00 91 34 1A 02 D0 88 92 69 39 F3 03 00 AA E8 00 00 37",
+		gg.TYPE_BYTE
+	)
+end
+if menu == 1 then
+	Reset()
+end
+if menu == 10 then
+end
+
+gg.alert("Done! If not working: Try to use a 64bit device")
+gg.toast("Done! Lottery or Sets rewards will be changed to the number you selected.")
+gg.sleep(3000)
+gg.toast("Done! Lottery or Sets rewards will be changed to the number you selected.")

@@ -1,0 +1,320 @@
+gg.toast("Script PUBG Mobile Tencent English by Yuukij")
+print("Script PUBG Mobile Tencent English by Yuukij")
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+gg.clearResults(850)
+-- Hide GG panel
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+-- DISCLAIMER ALERT
+gg.alert("PUBG Mobile Tencent English!")
+-- Check game compatibility
+::gamecheck::
+game = gg.getTargetInfo()
+if game.versionName ~= "2.0" then
+	forcescript = gg.alert("Do not FORGET to Unlock Anti Detection!, The Cheat will be detected")
+end
+
+::restart::
+-- Main menu
+hacktype = {
+	">Anti PUBG Mobile Tencent Detection ⇨ Enable it Past When the  Tencent Logo",
+	">God Mode Combination ⇨ Quick Run + Quick Parachute + Quick Shot + Fast Blood",
+	">Character Antena 1",
+	">Character Antena 2",
+	">Through Wall",
+	">Bullet Through Wall",
+	">High Jump",
+	">Combination Cheat ⇨ Run Fast + Fast Parachute + Fast Swim",
+	">Combination Cheat ⇨ White Eye + No Grass",
+	">No Grass",
+	">White Eye",
+	">Climb Wall",
+	">White Chams ⇨ Enable it in Lobby",
+	">Black Chams ⇨ Activate in the game progress, it takes effect when after finished playing",
+	">Green Chams ⇨ Activate in game progress",
+	">Blue Chams ⇨ Activate in game progress",
+	">Light Blue chams ⇨ Activate in game progress",
+}
+cheat = gg.choice(
+	hacktype,
+	nil,
+	"Choose Selected Cheats by Yuukijs! Please Donate Thankyou. ↓↓↓                                                                   FB: Jerieno Faustino Bornales Please Donate!: paypal.me/zanderyuuki"
+)
+if cheat == 1 then
+	goto adpubgmobile
+end
+if cheat == 2 then
+	goto kombinasigodmode
+end
+if cheat == 3 then
+	goto antena1
+end
+if cheat == 4 then
+	goto antena2
+end
+if cheat == 5 then
+	goto tembusdinding
+end
+if cheat == 6 then
+	goto pelurutembusdinding
+end
+if cheat == 7 then
+	goto lompattinggi
+end
+if cheat == 8 then
+	goto kombinasicheat1
+end
+if cheat == 9 then
+	goto kombinasicheat2
+end
+if cheat == 10 then
+	goto tidakadarumput
+end
+if cheat == 11 then
+	goto matabyakugan
+end
+if cheat == 12 then
+	goto memanjatdinding
+end
+if cheat == 13 then
+	goto karakterwhite
+end
+if cheat == 14 then
+	goto karakterblack
+end
+if cheat == 15 then
+	goto karaktergreen
+end
+if cheat == 16 then
+	goto karakterblue
+end
+if cheat == 17 then
+	goto karaktercahayabiru
+end
+if cheat == 18 then
+	goto endall
+end
+if cheat == nil then
+	print("ABORT: No Hack Selected")
+	goto endall
+end
+
+::adpubgmobile::
+adpubgmobile = gg.alert("Wait For A Moment Anti Detect PUBG Mobile Tencent Needs a Long Time Be patient Yes")
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.6", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.7", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.5;0.4::60", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("5", gg.TYPE_DOUBLE)
+gg.editAll("4", gg.TYPE_DOUBLE)
+gg.editAll("2.66", gg.TYPE_DOUBLE)
+gg.editAll("0.1", gg.TYPE_DOUBLE)
+gg.toast("Anti Active PUBG Mobile Tencent Detection")
+goto restart
+
+::kombinasigodmode::
+gg.clearResults(850)
+gg.toast("Please Be patient with this Cheat")
+gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("1.25", gg.TYPE_FLOAT))
+gg.toast("Combination God Mode On")
+goto restart
+
+::antena1::
+gg.clearResults(850)
+gg.toast("Please be patient with this test")
+gg.searchNumber("1F;0.61365634203F;0.00034569605F;0.78957355022F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.61365634203F;0.00034569605F;0.78957355022F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("888", gg.TYPE_FLOAT))
+gg.toast("Antena 1 On")
+goto restart
+
+::antena2::
+gg.clearResults(850)
+gg.toast("Please be Patient with this cheat")
+gg.searchNumber("1;0.61365634203;0.00034569605;0.78957355022", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("666", gg.TYPE_FLOAT))
+gg.toast("Antena 2 On")
+goto restart
+
+::tembusdinding::
+gg.clearResults(850)
+gg.toast("Please be Patient with this cheat")
+gg.searchNumber("30;58::10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("-30", gg.TYPE_FLOAT))
+gg.toast("Through Wall Activated")
+goto restart
+
+::pelurutembusdinding::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("65706D;65707D;65708D;2;2;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("10", gg.TYPE_FLOAT))
+gg.toast("Bullet Through Wall Activated")
+goto endall
+
+::lompattinggi::
+gg.clearResults(850)
+gg.toast("Please be Patient with this cheat")
+gg.searchNumber("1;35;443;0.5;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0.5", gg.TYPE_FLOAT))
+gg.toast("High Jump Activated")
+goto restart
+
+::kombinasicheat1::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("1065353216;1110704128;1092616192", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1065353216", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("1099000000", gg.TYPE_DWORD))
+gg.toast("Combination Cheat Fast Parachute + Fast Run + Fast Swim Activated")
+goto endall
+
+::kombinasicheat2::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0.1", gg.TYPE_FLOAT))
+gg.getResults(850)
+gg.searchNumber("8;0;0;0.8;1.5;0.8;1.5F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+gg.toast("Combination - White eye + No grass Activated")
+goto restart
+
+::tidakadarumput::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("8;0;0;0.8;1.5;0.8;1.5F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+gg.toast("No Grass Activated")
+goto restart
+
+::matabyakugan::
+gg.clearResults(850)
+gg.setRanges(gg.REGION_C_BSS)
+gg.toast("Mohon Bersabar Ini Ujian")
+gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0.1", gg.TYPE_FLOAT))
+gg.toast("White Eye Activated")
+goto restart
+
+::memanjatdinding::
+gg.clearResults(850)
+gg.toast("Please be Patiend with this Cheat")
+gg.searchNumber("0.20000000298F;65,536D;1.5F::400", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.20000000298", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("50", gg.TYPE_FLOAT))
+gg.toast("Wall Climb Activated")
+goto restart
+
+::karakterwhite::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("0.05499718338;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("999", gg.TYPE_FLOAT))
+gg.toast("White chams activated")
+goto restart
+
+::karakterblack::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("573.70306396484;0.05499718338;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("-999", gg.TYPE_FLOAT))
+gg.toast("Black Chams Activated")
+goto restart
+
+::karaktergreen::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("-99", gg.TYPE_FLOAT))
+gg.toast("Green Chams Activated")
+goto restart
+
+::karakterblue::
+gg.clearResults(850)
+gg.toast("Please Be patient with this Cheat")
+gg.searchNumber("0.30737304688", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("-99", gg.TYPE_FLOAT))
+gg.toast("Blue Chams Activated")
+goto restart
+
+::karaktercahayabiru::
+gg.clearResults(850)
+gg.toast("Please be Patient with this Cheat")
+gg.searchNumber("0.30737304688;0.09112548828", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("-99", gg.TYPE_FLOAT))
+gg.toast("Light Blue Chams Activated")
+goto restart
+
+::endall::
+print("Script PUBG Mobile Tencent English")
+print("Please Donate -  paypal.me/zanderyuuki ")
+print("Enjoy Cheating :)")
+gg.toast("Created Script PUBG Mobile Tencent English By : Yuukijs")
+os.exit(850)

@@ -1,0 +1,53 @@
+gg.toast("SUBSCRIBE TO NOOB KAAI YOUTUBE")
+::kim::
+gg.toast("SCRIPT BY NOOB KAAI YOUTUBE")
+gg.toast("SUBSCRIBE TO NOOB KAAI YOUTUBE")
+menu = gg.choice({ "RESOURCE HACK", "EXIT" })
+gg.alert("watch my youtube video for a step to step tutorial on how to execute the script")
+gg.alert("SUBSCRIBE TO NOOB KAAI YOUTUBE")
+if menu == 1 then
+	gg.toast("SCRIPT BY NOOB KAAI YOUTUBE")
+	gg.toast("SUBSCRIBE TO NOOB KAAI YOUTUBE")
+	gg.clearResults()
+	local val = gg.prompt({ "enter the current amount of resources" }, { [1] = 0 }, { [1] = "number" })
+
+	irungu = tonumber(val[1])
+
+	gg.searchNumber(irungu, gg.TYPE_DWORD)
+	gg.searchNumber(irungu, gg.TYPE_DWORD)
+	gg.alert("enter store and buy anything")
+	gg.sleep(10000)
+
+	local val = gg.prompt({ "how much did the item cost?" }, { [1] = 0 }, { [1] = "number" })
+	albastuz = irungu - val[1]
+
+	gg.searchNumber(albastuz, gg.TYPE_DWORD)
+	gg.searchNumber(albastuz, gg.TYPE_DWORD)
+	gg.getResults(100)
+	gg.editAll(999999999, gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("HACK SUCCESS")
+	gg.alert("HACK SUCCESS")
+	gg.alert("NOW BUY ANOTHER ITEM  TO REFRESH")
+	gg.toast("SUBSCRIBE TO NOOB KAAI YOUTUBE")
+end
+if menu == 2 then
+	gg.alert("CHOOSE IN NEXT DIALOGUE IF YOU WANT TO TERMINATE SCRIPT")
+	alpha = gg.choice({ "YES", "NO" })
+	if alpha == 1 then
+		os.exit(print("created by NOOB KAAI"))
+	end
+	if alpha == 2 then
+		goto kim
+	end
+	gg.alert("NOOB KAAI THANKS YOU FOR DOWNLOADING SCRIPT")
+	gg.toast("SCRIPT BY NOOB KAAI YOUTUBE")
+	gg.clearResults()
+	gg.alert("SCRIPT TERMINATED SUBSCRIBE TO NOOB KAAI YOUTUBE FOR MORE CONTENT")
+	gg.toast("SCRIPT BY NOOB KAAI YOUTUBE")
+	os.exit(
+		print(
+			"CREATED BY: NOOB KAAI YOUTUBE\n\n\nSUBSCRIBE FOR NEW CONTENT\n\n\n ENCOUNTERED ANY DIFFICULTY WITH THIS SCRIPT? COMMENT ON YOUTUBE FOR GUIDANCE\nPLAY WITHOUT LIMITS"
+		)
+	)
+end

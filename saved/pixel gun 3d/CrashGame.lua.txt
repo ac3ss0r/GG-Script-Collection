@@ -1,0 +1,13 @@
+gg.setRanges(
+	gg.REGION_JAVA_HEAP
+		| gg.REGION_C_HEAP
+		| gg.REGION_C_ALLOC
+		| gg.REGION_C_DATA
+		| gg.REGION_C_BSS
+		| gg.REGION_PPSSPP
+		| gg.REGION_ANONYMOUS
+		| gg.REGION_CODE_APP
+)
+gg.searchNumber("757", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(9000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("90000", gg.TYPE_DWORD)

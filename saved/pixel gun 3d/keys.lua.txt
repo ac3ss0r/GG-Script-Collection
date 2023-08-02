@@ -1,0 +1,8 @@
+hex =
+	"FE 0F 1F F8 08 08 40 F9 E0 23 00 91 E1 03 1F AA E8 07 00 F9 17 B3 D7 97 FE 07 41 F8 C0 03 5F D6 00 0C 40 F9 C0 03 5F D6 01 8C 01 F8 AD 1F 26 17 F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 D5 13 01 F0"
+
+gg.setRanges(gg.REGION_CODE_APP)
+
+gg.searchNumber("h " .. hex, gg.TYPE_BYTE)
+gg.getResults(8)
+gg.editAll("h 603E8012C0035FD6", gg.TYPE_BYTE)

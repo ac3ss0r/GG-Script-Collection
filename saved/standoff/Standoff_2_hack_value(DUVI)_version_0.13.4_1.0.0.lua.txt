@@ -1,0 +1,1036 @@
+function FUNKCMENU()
+	LB = gg.multiChoice({
+		"UNDEGRAUND MAP 🚇",
+		"УБРАТЬ СТЕНЫ ❌🧱",
+		"NORECOIL MENU 🎯",
+		"FAST BOMBA ⏳/ invulnerability 🛡",
+		"FOV MENU👐",
+		"Wall Shot 🔨🏠",
+		"INVENTORY CHANGER 🦄",
+		"MEDAL HACK 🥇",
+		"SMOK MENU ☁️",
+		"SKIN CHANGER 🍭",
+		"НАЗАД ⬅️",
+	}, nil, "SI_DAN IMPROVENT 6.1")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			UNDEGMEN()
+		end
+		if LB[2] == true then
+			KILSTEN()
+		end
+		if LB[3] == true then
+			NOREKM()
+		end
+		if LB[4] == true then
+			FASTBNEZ()
+		end
+		if LB[5] == true then
+			FOV()
+		end
+		if LB[6] == true then
+			AUTWALLSHOT()
+		end
+		if LB[7] == true then
+			SKINC()
+		end
+		if LB[8] == true then
+			MEDALHACK()
+		end
+		if LB[9] == true then
+			SMOKMENU()
+		end
+		if LB[10] == true then
+			SKINCCC()
+		end
+		if LB[11] == true then
+			HOME()
+		end
+	end
+end
+
+function SKINCCC()
+	LB = gg.multiChoice({
+		"AKR TREASH",
+		"AWM V2",
+		"G22 RELIC",
+		"НАЗАД ⬅️",
+	}, nil, "SKIN CHANGER Menu")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			AKRTREASH()
+		end
+		if LB[2] == true then
+			AWMV2()
+		end
+		if LB[3] == true then
+			G22RELIK()
+		end
+		if LB[4] == true then
+			Home()
+		end
+	end
+end
+
+function AKRTREASH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.processResume()
+	gg.setVisible(false)
+	gg.searchNumber("-113224042;-757549688;704700000~1387062953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.refineNumber("704700000~1387062953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.refineNumber("704770000~704780000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultsCount() == 0 then
+		gg.clearResults()
+		gg.setVisible(false)
+		gg.searchNumber("-113224042;-757549688;704700000~1387062953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.setVisible(false)
+		gg.refineNumber("1384500000~1387012953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.setVisible(false)
+		gg.editAll(1385528403, gg.TYPE_DWORD)
+		gg.setVisible(false)
+		gg.clearResults()
+	else
+		gg.getResults(1)
+		gg.setVisible(false)
+		gg.editAll(1385528403, gg.TYPE_DWORD)
+		gg.setVisible(false)
+		gg.clearResults()
+	end
+end
+
+function AWMV2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.processResume()
+	gg.setVisible(false)
+	gg.searchNumber("-113224042;-757549688;704700000~1387062953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.refineNumber("704700000~1387062953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.refineNumber("704770000~704780000", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	if gg.getResultsCount() == 0 then
+		gg.clearResults()
+		gg.setVisible(false)
+		gg.searchNumber("-113224042;-757549688;704700000~1387062953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.setVisible(false)
+		gg.refineNumber("1384500000~1387012953", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+		gg.getResults(1)
+		gg.setVisible(false)
+		gg.editAll(1385752531, gg.TYPE_DWORD)
+		gg.setVisible(false)
+		gg.clearResults()
+	else
+		gg.getResults(1)
+		gg.setVisible(false)
+		gg.editAll(1385752531, gg.TYPE_DWORD)
+		gg.setVisible(false)
+		gg.clearResults()
+	end
+end
+
+function G22RELIK()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-113,224,042;-757,549,688;704,775,155", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("704,775,155", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	local t = gg.getResults(1)
+	gg.addListItems(t)
+	gg.editAll("1,385,435,571", gg.TYPE_DWORD)
+	gg.clearList()
+	gg.clearResults()
+	gg.alert("ON ✅")
+end
+
+function SMOKMENU()
+	LB = gg.multiChoice({
+		"ANTI SMOK 🚫☁️",
+		"SMOK BIG ☁️☁️☁️",
+		"НАЗАД ⬅️",
+	}, nil, "Медали")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			ANTISMOK()
+		end
+		if LB[2] == true then
+			BIGSMOK()
+		end
+		if LB[3] == true then
+			Home()
+		end
+	end
+end
+
+function BIGSMOK()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1,249,495,107;925,353,388", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("925,353,388", gg.TYPE_DWORD)
+	local t = gg.getResults(1)
+	gg.addListItems(t)
+	gg.editAll("325,353,388", gg.TYPE_DWORD)
+	gg.clearList()
+	gg.clearResults()
+	gg.toast("BIG SMOK ON ✅")
+end
+
+function ANTISMOK()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1,249,495,107;925,353,388", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("925,353,388", gg.TYPE_DWORD)
+	local t = gg.getResults(1)
+	gg.addListItems(t)
+	gg.editAll("1,034,818,683", gg.TYPE_DWORD)
+	gg.clearList()
+	gg.clearResults()
+	gg.toast("ANTI SMOK ON ✅")
+end
+
+function MEDALHACK()
+	LB = gg.multiChoice({
+		"UMP40 PIX - MedalAssistanceBrilliant",
+		"UMP40 PIX - MedalVeteran2018Gold",
+		"UMP40 PIX - MedalVeteran2018Platinum",
+		"UMP40 PIX - MedalVeteran2019Gold",
+		"UMP40 PIX - MedalVeteran2019Platinum",
+		"UMP40 PIX - Medal2YearsSilver",
+		"UMP40 PIX - Medal2YearsGold",
+		"НАЗАД ⬅️",
+	}, nil, "Медали")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			MAB()
+		end
+		if LB[2] == true then
+			MV8G()
+		end
+		if LB[3] == true then
+			MV8P()
+		end
+		if LB[4] == true then
+			MV9G()
+		end
+		if LB[5] == true then
+			MV9P()
+		end
+		if LB[6] == true then
+			M2YS()
+		end
+		if LB[7] == true then
+			M2YG()
+		end
+		if LB[8] == true then
+			Home()
+		end
+	end
+end
+
+function MAB()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("104", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function MV8G()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("107", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function MV8P()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("108", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function MV9G()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("111", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function MV9P()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("112", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function M2YS()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("113", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function M2YG()
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("114", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKINC()
+	gg.alert("ПОМОГ X1EZ")
+	LB = gg.multiChoice({
+		"DeagleThunder - KUNAY",
+		"DeagleThunder - KAR GOLD",
+		"DeagleThunder - M9 BAY",
+		"DeagleThunder - BUTTERFLY",
+		"AKR TIGER - AKRTreasureHunterStatTrack",
+		"P350Savannah - P350ForestSpiritStatTrack",
+		"G22PixelCamouflage - G22FrostWyrmStatTrack",
+		"SM1014Quake - AWMSportV2",
+		"НАЗАД ⬅️",
+	}, nil, "ИНВЕНТАРЬ ЧЕНДЖ")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			SKKUNAY()
+		end
+		if LB[2] == true then
+			SKKARGOLD()
+		end
+		if LB[3] == true then
+			SKMD()
+		end
+		if LB[4] == true then
+			SKBUTTERFLY()
+		end
+		if LB[5] == true then
+			AKRTG()
+		end
+		if LB[6] == true then
+			FORESTST()
+		end
+		if LB[7] == true then
+			G22FROSTST()
+		end
+		if LB[8] == true then
+			AWMV2()
+		end
+		if LB[9] == true then
+			Home()
+		end
+	end
+end
+
+function AWMV2()
+	gg.searchNumber("62005", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("51006", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function G22FROSTST()
+	gg.searchNumber("11001", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1011008", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function FORESTST()
+	gg.searchNumber("13002", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1013003", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function AKRTG()
+	gg.searchNumber("44003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1044002", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKMD()
+	LB = gg.multiChoice({
+		"M9 DRAGON GLASS",
+		"M9 SCRATCH",
+		"M9 ANCIENT",
+		"M9 UNIVERSE",
+		"НАЗАД ⬅️",
+	}, nil, "СКИНЧЕНДЖЕР КНАЙФ")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			SKMDDG()
+		end
+		if LB[2] == true then
+			SKMDSCR()
+		end
+		if LB[3] == true then
+			SKMDKAM()
+		end
+		if LB[4] == true then
+			SKMDUNI()
+		end
+		if LB[5] == true then
+			Home()
+		end
+	end
+end
+
+function SKMDDG()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("71005", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKMDSCR()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("71003", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKMDKAM()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("71002", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKMDUNI()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("71004", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKBUTTERFLY()
+	LB = gg.multiChoice({
+		"BUTTERFLY DRAGON GLASS",
+		"BUTTERFLY LEGACY",
+		"BUTTERFLY STARFALL",
+		"НАЗАД ⬅️",
+	}, nil, "СКИНЧЕНДЖЕР КНАЙФ")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			SKBFDG()
+		end
+		if LB[2] == true then
+			SKBFLY()
+		end
+		if LB[3] == true then
+			SKBFSL()
+		end
+		if LB[4] == true then
+			Home()
+		end
+	end
+end
+
+function SKBFDG()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("47503", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKBFLY()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("47502", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKBFSL()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("47505", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKKUNAY()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("77815", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function SKKARGOLD()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("72003", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.alert("ON")
+end
+
+function WALLHACK()
+	LB = gg.multiChoice({
+		"[ON]",
+		"[OFF]",
+		"НАЗАД ⬅️",
+	}, nil, "Хождение сквозь стены")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			WHON()
+		end
+		if LB[2] == true then
+			WHOFF()
+		end
+		if LB[3] == true then
+			Home()
+		end
+	end
+end
+
+function WHON()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+
+26608
+Var #C444A8EC|c444a8ec|10|9c971da0|1|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|83e8ec
+
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("ON")
+end
+
+function WHOFF()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+
+26608
+Var #C444A8EC|c444a8ec|10|358637bd|1|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|83e8ec
+
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("ON")
+end
+
+function FLYSIDAN()
+	LB = gg.multiChoice({
+		"ON 5 SEC 🐉",
+		"ON 10 SEC 🐉",
+		"ON 15 SEC 🐉",
+		"НАЗАД ⬅️",
+	}, nil, "ПАЛЕТ")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			FLYSDP()
+		end
+		if LB[2] == true then
+			FLYSDD()
+		end
+		if LB[3] == true then
+			FLYSDPT()
+		end
+		if LB[4] == true then
+			Home()
+		end
+	end
+end
+
+function FLYSDP()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("-0.5", gg.TYPE_FLOAT)
+	gg.sleep(950)
+	gg.toast("1")
+	gg.sleep(950)
+	gg.toast("2")
+	gg.sleep(950)
+	gg.toast("3")
+	gg.sleep(950)
+	gg.toast("4")
+	gg.sleep(950)
+	gg.toast("5")
+	gg.sleep(950)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function FLYSDD()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("-0.5", gg.TYPE_FLOAT)
+	gg.sleep(950)
+	gg.toast("1")
+	gg.sleep(950)
+	gg.toast("2")
+	gg.sleep(950)
+	gg.toast("3")
+	gg.sleep(950)
+	gg.toast("4")
+	gg.sleep(950)
+	gg.toast("5")
+	gg.sleep(950)
+	gg.toast("6")
+	gg.sleep(950)
+	gg.toast("7")
+	gg.sleep(950)
+	gg.toast("8")
+	gg.sleep(950)
+	gg.toast("9")
+	gg.sleep(950)
+	gg.toast("10")
+	gg.sleep(950)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function FLYSDPT()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("-0.5", gg.TYPE_FLOAT)
+	gg.sleep(950)
+	gg.toast("1")
+	gg.sleep(950)
+	gg.toast("2")
+	gg.sleep(950)
+	gg.toast("3")
+	gg.sleep(950)
+	gg.toast("4")
+	gg.sleep(950)
+	gg.toast("5")
+	gg.sleep(950)
+	gg.toast("6")
+	gg.sleep(950)
+	gg.toast("7")
+	gg.sleep(950)
+	gg.toast("8")
+	gg.sleep(950)
+	gg.toast("9")
+	gg.sleep(950)
+	gg.toast("10")
+	gg.sleep(950)
+	gg.toast("11")
+	gg.sleep(950)
+	gg.toast("12")
+	gg.sleep(950)
+	gg.toast("13")
+	gg.sleep(950)
+	gg.toast("14")
+	gg.sleep(950)
+	gg.toast("15")
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function PRIGOKBIG()
+	LB = gg.multiChoice({
+		"NORM  🐀",
+		"SRED   🐇",
+		"MEGA  🦘",
+		"OFF   🐘",
+		"НАЗАД ⬅️",
+	}, nil, "Увеличенный прыжок")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			PRIGOKNORM()
+		end
+		if LB[2] == true then
+			PRIGOKSRED()
+		end
+		if LB[3] == true then
+			PRIGOKMAX()
+		end
+		if LB[4] == true then
+			PRIGOKOFF()
+		end
+		if LB[5] == true then
+			Home()
+		end
+	end
+end
+
+function PRIGOKNORM()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("1.9", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function PRIGOKSRED()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("2.5", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function PRIGOKMAX()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("3.0", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function PRIGOKOFF()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("3.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+end
+
+function AUTWALLSHOT()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("9.9999997e-10;9.9999997e-10;9.9999997e-10;9.9999997e-10:13", gg.TYPE_FLOAT)
+	gg.getResults(100)
+	gg.editAll("935", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("ACTIV")
+end
+
+function FOV()
+	LB = gg.multiChoice({
+		"FOV  [ON]",
+		"FOV + [ON]",
+		"FOV [OFF]",
+		"НАЗАД ⬅️",
+	}, nil, "FOV MENU")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			FOVI()
+		end
+		if LB[2] == true then
+			FOVP()
+		end
+		if LB[3] == true then
+			FOVOFF()
+		end
+		if LB[4] == true then
+			HOME()
+		end
+	end
+end
+
+function FOVI()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+
+9947
+Var #C9AAB50C|c9aab50c|10|437a0000|0|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|1a050c
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("FOV ON")
+end
+
+function FOVP()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+
+23883
+Var #C9AA150C|c9aa150c|10|43480000|0|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|1a050c
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("FOV ON")
+end
+
+function FOVOFF()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+
+25015
+Var #C9AAD50C|c9aad50c|10|43b40000|0|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|1a050c
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("FOV ON")
+end
+
+function FASTBNEZ()
+	gg.alert("С ДАННОЙ ФУНКИЦЕЙ МНЕ ПОМОГ VIPIS")
+	gg.setSpeed(76)
+	gg.sleep(3400)
+	gg.setSpeed(1)
+	gg.toast("ON✅")
+end
+
+function KILSTEN()
+	LB = gg.multiChoice({
+		"Zona 9 [ON]",
+		"Zona 9 [OFF]",
+		"SANDSTONE [ON]",
+		"SANDSTONE [OFF]",
+		"НАЗАД ⬅️",
+	}, nil, "УБРАТЬ СТЕНЫ")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			KSZONON()
+		end
+		if LB[2] == true then
+			KSZONOFF()
+		end
+		if LB[3] == true then
+			KSSANDON()
+		end
+		if LB[4] == true then
+			KSSANDOFF()
+		end
+		if LB[5] == true then
+			HOME()
+		end
+	end
+end
+
+function KSZONON()
+	gg.searchNumber("5.55385255814", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("5.55385255814", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("90", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Убрать стены ON")
+end
+
+function KSZONOFF()
+	gg.searchNumber("90", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.editAll("5.55385255814", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function KSSANDON()
+	gg.searchNumber("5.15625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("5.15625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("90", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Убрать стены ON")
+end
+
+function KSSANDOFF()
+	gg.searchNumber("90", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.editAll("5.15625", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("УБРАТЬ СТЕНЫ OFF")
+end
+
+function UNDEGMEN()
+	LB = gg.multiChoice({
+		"Zona 9 [ON]",
+		"Zona 9 [OFF]",
+		"SANDSTONE [ON]",
+		"SANDSTONE [OFF]",
+		"НАЗАД ⬅️",
+	}, nil, "Ундеграунд меню")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			UNDEGZONON()
+		end
+		if LB[2] == true then
+			UNDEGZONOFF()
+		end
+		if LB[3] == true then
+			UNDEGSANDON()
+		end
+		if LB[4] == true then
+			UNDEGSANDOFF()
+		end
+		if LB[5] == true then
+			HOME()
+		end
+	end
+end
+
+function UNDEGZONON()
+	gg.searchNumber("5.55385255814", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("5.55385255814", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("10", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function UNDEGZONOFF()
+	gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.editAll("5.55385255814", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function UNDEGSANDON()
+	gg.searchNumber("5.15625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("5.15625", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	revert = gg.getResults(100, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("10", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function UNDEGSANDOFF()
+	gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.editAll("5.15625", gg.TYPE_FLOAT)
+	gg.clearResults()
+end
+
+function NOREKM()
+	LB = gg.multiChoice({
+		"[ON]",
+		"[OFF]",
+		"НАЗАД ⬅️",
+	}, nil, "Антиотдача")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			NOREKON()
+		end
+		if LB[2] == true then
+			NOREKOFF()
+		end
+		if LB[3] == true then
+			HOME()
+		end
+	end
+end
+
+function NOREKON()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+
+9947
+Var #C9B508E4|c9b508e4|10|470ca000|0|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|2458e4
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("Norecoil ON")
+end
+
+function NOREKOFF()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+")
+		:write([[
+ 
+ 
+ 22038
+Var #C5A4F80C|c5a4f80c|4|43b40000|1|0|0|0|r-xp|/data/data/io.va.exposed/virtual/data/app/com.axlebolt.standoff2/lib/libunity.so|24580c
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/SI_DAN.cfg", "w+"):write(""):close()
+	gg.toast("Norecoil OFF")
+end

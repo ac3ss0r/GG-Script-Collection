@@ -1,0 +1,142 @@
+::START::
+menu = gg.choice(
+	{ "Cheat list (Open in-game)", 'Anti-detection (Activate while "tencent" logo appear)' },
+	nil,
+	"Winner Winner Chicken Dinner with HARITH MOD!"
+)
+if menu == 1 then
+	goto OK1
+end
+if menu == 2 then
+	goto OK2
+end
+if menu == nil then
+	print("Error")
+end
+
+::OK1::
+menu = gg.choice(
+	{ "Speedhack ON", "No grass-tree and building", "Speedhack OFF", "Bullet Translucent Wall", "Back to Main Menu" },
+	nil,
+	"Activate all cheat while in-game"
+)
+if menu == 1 then
+	goto V1
+end
+if menu == 2 then
+	goto V2
+end
+if menu == 3 then
+	goto V3
+end
+if menu == 4 then
+	goto V4
+end
+if menu == 5 then
+	goto START
+end
+if menu == nil then
+	print("Error")
+end
+goto sdone
+
+::V1::
+gg.alert("please be patient")
+gg.clearResults()
+gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.2,5", gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast("Cheat has been active")
+goto sdone
+
+::V2::
+gg.clearResults(850)
+gg.toast("Please be Patient")
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0.1", gg.TYPE_FLOAT))
+gg.getResults(850)
+gg.searchNumber("8;0;0;0.8;1.5;0.8;1.5F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+gg.toast("No grass-tree and house Activated")
+goto sdone
+
+::V3::
+gg.alert("Used In Gameplay")
+gg.clearResults()
+gg.searchNumber("1.2,5;1.2,5;1.2,5;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2,5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1", gg.TYPE_FLOAT)
+gg.clearResults(850)
+gg.toast("Cheat has been active")
+goto sdone
+
+::V4::
+gg.clearResults(850)
+gg.toast("Please be patient")
+gg.searchNumber("65706D;65707D;65708D;2;2;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(850)
+print("Replaced: ", gg.editAll("10", gg.TYPE_FLOAT))
+gg.clearResults(850)
+gg.toast("Cheat has been active")
+goto sdone
+
+::OK2::
+gg.alert("Wait For A Moment Anti Detect PUBG Mobile Tencent Needs a Long Time Be patient Yes")
+gg.toast("Please be Patientt")
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.6", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.7", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("1.5;0.4::60", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.searchNumber("1.5", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("5", gg.TYPE_DOUBLE)
+gg.editAll("4", gg.TYPE_DOUBLE)
+gg.editAll("2.66", gg.TYPE_DOUBLE)
+gg.editAll("0.1", gg.TYPE_DOUBLE)
+gg.toast("Anti Active PUBG Mobile Tencent Detection")
+goto sdone
+
+::sdone::
+print("Script Test: April 2018")
+print("Undetected Mod")
+gg.toast("Winner Winner Chicken Dinner with HARITH MOD")
+os.exit()

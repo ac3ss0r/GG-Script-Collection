@@ -1,0 +1,63 @@
+gg.toast("🔐 One Click Bypass... 🔐")
+gg.clearResults()
+gg.setRanges(131104)
+gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.toast("🔒 Bypassing... 🔒 25%")
+gg.setRanges(131104)
+gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+gg.getResults(500)
+gg.toast("🔐 Bypassing... 🔐 50%")
+gg.editAll("0", gg.TYPE_DWORD)
+gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.toast("🔐 Bypassing... 🔐 75%")
+os.remove("/mnt/shell/0/emulated/Android/data/com.pubg.krmobile/cache/GCloud.ini")
+os.remove(
+	"/mnt/shell/0/emulated/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.pubg.krmobile/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+os.remove(
+	"/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+os.remove(
+	"/sdcard/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+os.remove(
+	"/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.ig/cache/GCloud.ini")
+os.remove(
+	"/mnt/shell/0/emulated/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.ig/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.igce/cache/GCloud.ini")
+os.remove(
+	"/mnt/shell/0/emulated/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/storage/emulated/0/Android/data/com.tencent.igce/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.igce/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.iglite/cache/GCloud.ini")
+os.remove(
+	"/mnt/shell/0/emulated/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+)
+os.remove("/storage/emulated/0/Android/data/com.tencent.iglite/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.iglite/cache/GCloud.ini")
+os.remove("/sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+gg.toast("🔐 Bypassing... 🔐 100%")
+gg.alert("🔓 Successfully Bypassed! 🔓")

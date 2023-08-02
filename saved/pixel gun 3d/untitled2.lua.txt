@@ -1,0 +1,9 @@
+gg.clearResults()
+B = gg.TYPE_BYTE
+gg.alert("script by me")
+gg.toast("Searching...")
+gg.searchNumber("h FE 0F 1F F8 C7 FE FF 97 A0 00 00 B4 00 A0 01 91 E1 03 1F AA FE 07 41 F8 74 C2 F2 17 8E A6 50 97 ", B)
+gg.getResults(8)
+gg.editAll("h00008052C0035FD6", B)
+gg.clearResults()
+gg.alert("Complete, Enjoy 🥶")

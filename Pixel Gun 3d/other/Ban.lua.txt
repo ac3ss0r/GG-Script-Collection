@@ -1,5 +1,0 @@
-gg.setRanges(gg.TYPE_ANONYMOUS)
-gg.searchNumber("280", gg.TYPE_FLOAT)
-gg.getResults(100)
-gg.editAll("1")
-gg.clearResults()

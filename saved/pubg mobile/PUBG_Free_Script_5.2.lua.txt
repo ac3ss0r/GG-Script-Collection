@@ -1,0 +1,212 @@
+function Main()
+	menu1 = gg.choice({
+		"1.❤god mode v5.06(after drink)",
+		"2.❤aimbot plus  v3.16(landed)",
+		"3.❤antena v3.16(landed)",
+		"4.❤white color v3.21(lobby)",
+		"5.❤no grass v3.21(landed)",
+		"6.❤Squat v3.03(landed)",
+		"7.❤esp v5.20(lobby,memory B)",
+		"8.❤bullet permeate v3.09(landed)",
+		"9.❤no recoil v5.20(landed)",
+		"10.❤god mod v3.03(landed)",
+		"11.❤bypass v5.29(tencent logo)",
+		"0.❤exit",
+	}, nil, "By Openkirin,kirin960")
+	gg.alert("kirin960")
+	if menu1 == 1 then
+		a()
+	end
+	if menu1 == 2 then
+		b()
+	end
+	if menu1 == 3 then
+		c()
+	end
+	if menu1 == 4 then
+		d()
+	end
+	if menu1 == 5 then
+		e()
+	end
+	if menu1 == 6 then
+		f()
+	end
+	if menu1 == 7 then
+		g()
+	end
+	if menu1 == 8 then
+		h()
+	end
+	if menu1 == 9 then
+		i()
+	end
+	if menu1 == 10 then
+		j()
+	end
+	if menu1 == 11 then
+		k()
+	end
+	if menu1 == 12 then
+		Exit()
+	end
+	XGCK = -1
+end
+gg.alert("kirin960")
+
+function a()
+	gg.clearResults()
+	gg.searchNumber("1.0F;0.6;0.1;0.125::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("99", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function b()
+	gg.clearResults()
+	gg.searchNumber("3.5;1::20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("999999", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function c()
+	gg.clearResults()
+	gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("6666", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function d()
+	gg.clearResults()
+	gg.searchNumber("0.05499718338;1.0F::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("900", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function e()
+	gg.clearResults()
+	gg.searchNumber("8;0;0;0.8;1.5;0.8;1.5F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function f()
+	gg.clearResults()
+	gg.searchNumber("1400;0.10000000149;1000;88;60;30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("-6000", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function g()
+	gg.clearResults()
+	gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.toast("opening...30")
+	gg.clearResults()
+	gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.toast("opening...66")
+	gg.clearResults()
+	gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function h()
+	gg.clearResults()
+	gg.searchNumber("869,711,765D;2;1::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function i()
+	gg.clearResults()
+	gg.searchNumber("30;0.3;80;25;220::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.toast("opening...66")
+	gg.toast("opening...90")
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber("1;10000D;100000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("0.001", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function j()
+	gg.clearResults()
+	gg.searchNumber("1.0F;1.0F;1.0F;0.0001F;20.0F;0.00050F;0.4F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1.5", gg.TYPE_FLOAT)
+	gg.toast("success")
+	Main()
+end
+
+function k()
+	gg.alert("kirin960")
+	gg.clearResults()
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("23％")
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("46％")
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("67％")
+	gg.clearResults()
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("72％")
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("83％")
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("92％")
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.toast("success")
+	Main()
+end
+
+function Exit()
+	print("kirin960")
+	os.exit()
+end
+
+while true do
+	if gg.isVisible(true) then
+		XGCK = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if XGCK == 1 then
+		Main()
+	end
+end

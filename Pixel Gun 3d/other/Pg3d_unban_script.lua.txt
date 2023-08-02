@@ -1,7 +1,0 @@
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("C0 03 5F D6 FF 43 01 D1 F9 63 01 A9 F7 5B 02 A9 F5 53 03 A9 F3 7B 04 A9 B5 70 02 B0 A8 4A 43 39 F4 03 01 AA F3 03 00 AA A8 05 00 37 00 4A 02 90 00 0C 42 F9", gg.TYPE_BYTE)
-gg.getResults(100000)
-gg.editAll("h 20 00 80 D2 C0 03 5F D6 ", gg.TYPE_BYTE)
-gg.alert("unbanned this might not 100% working")
-gg.clearResults()

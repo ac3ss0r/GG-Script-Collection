@@ -1,0 +1,744 @@
+function split(szFullString, szSeparator)
+	local nFindStartIndex = 1
+	local nSplitIndex = 1
+	local nSplitArray = {}
+	while true do
+		local nFindLastIndex = string.find(szFullString, szSeparator, nFindStartIndex)
+		if not nFindLastIndex then
+			nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, string.len(szFullString))
+			break
+		end
+		nSplitArray[nSplitIndex] = string.sub(szFullString, nFindStartIndex, nFindLastIndex - 1)
+		nFindStartIndex = nFindLastIndex + string.len(szSeparator)
+		nSplitIndex = nSplitIndex + 1
+	end
+	return nSplitArray
+end
+function xgxc(szpy, qmxg)
+	for x = 1, #qmxg do
+		xgpy = szpy + qmxg[x]["offset"]
+		xglx = qmxg[x]["type"]
+		xgsz = qmxg[x]["value"]
+		xgdj = qmxg[x]["freeze"]
+		if xgdj == nil or xgdj == "" then
+			gg.setValues({ [1] = { address = xgpy, flags = xglx, value = xgsz } })
+		else
+			gg.addListItems({ [1] = { address = xgpy, flags = xglx, freeze = xgdj, value = xgsz } })
+		end
+		xgsl = xgsl + 1
+		xgjg = true
+	end
+end
+function xqmnb(qmnb)
+	gg.clearResults()
+	gg.setRanges(qmnb[1]["memory"])
+	gg.searchNumber(qmnb[3]["value"], qmnb[3]["type"])
+	if gg.getResultCount() == 0 then
+		gg.toast(qmnb[2]["name"] .. "开启失败")
+	else
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		gg.refineNumber(qmnb[3]["value"], qmnb[3]["type"])
+		if gg.getResultCount() == 0 then
+			gg.toast(qmnb[2]["name"] .. "开启失败")
+		else
+			sl = gg.getResults(999999)
+			sz = gg.getResultCount()
+			xgsl = 0
+			if sz > 999999 then
+				sz = 999999
+			end
+			for i = 1, sz do
+				pdsz = true
+				for v = 4, #qmnb do
+					if pdsz == true then
+						pysz = {}
+						pysz[1] = {}
+						pysz[1].address = sl[i].address + qmnb[v]["offset"]
+						pysz[1].flags = qmnb[v]["type"]
+						szpy = gg.getValues(pysz)
+						pdpd = qmnb[v]["lv"] .. ";" .. szpy[1].value
+						szpd = split(pdpd, ";")
+						tzszpd = szpd[1]
+						pyszpd = szpd[2]
+						if tzszpd == pyszpd then
+							pdjg = true
+							pdsz = true
+						else
+							pdjg = false
+							pdsz = false
+						end
+					end
+				end
+				if pdjg == true then
+					szpy = sl[i].address
+					xgxc(szpy, qmxg)
+				end
+			end
+			if xgjg == true then
+				gg.toast(qmnb[2]["name"] .. "开启成功，一共修改" .. xgsl .. "条数据")
+			else
+				gg.toast(qmnb[2]["name"] .. "未搜索到数据，开启失败")
+			end
+		end
+	end
+end
+function SearchWrite(Search, Write, Type)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber(Search[1][1], Type)
+	local count = gg.getResultCount()
+	local result = gg.getResults(count)
+	gg.clearResults()
+	local data = {}
+	local base = Search[1][2]
+	if count > 0 then
+		for i, v in ipairs(result) do
+			v.isUseful = true
+		end
+		for k = 2, #Search do
+			local tmp = {}
+			local offset = Search[k][2] - base
+			local num = Search[k][1]
+			for i, v in ipairs(result) do
+				tmp[#tmp + 1] = {}
+				tmp[#tmp].address = v.address + offset
+				tmp[#tmp].flags = v.flags
+			end
+			tmp = gg.getValues(tmp)
+			for i, v in ipairs(tmp) do
+				if tostring(v.value) ~= tostring(num) then
+					result[i].isUseful = false
+				end
+			end
+		end
+		for i, v in ipairs(result) do
+			if v.isUseful then
+				data[#data + 1] = v.address
+			end
+		end
+		if #data > 0 then
+			local t = {}
+			local base = Search[1][2]
+			for i = 1, #data do
+				for k, w in ipairs(Write) do
+					offset = w[2] - base
+					t[#t + 1] = {}
+					t[#t].address = data[i] + offset
+					t[#t].flags = Type
+					t[#t].value = w[1]
+					if w[3] == true then
+						local item = {}
+						item[#item + 1] = t[#t]
+						item[#item].freeze = true
+						gg.addListItems(item)
+					end
+				end
+			end
+			gg.setValues(t)
+			gg.toast("开启成功，一共修改" .. #t .. "条数据")
+			gg.addListItems(t)
+		else
+			gg.toast("未搜索到数据，开启失败", false)
+			return false
+		end
+	else
+		gg.toast("Not Found")
+		return false
+	end
+end -- JOKER
+
+HOME1 = 1
+BYPDONE = 0
+CMENU = 0
+function HOME()
+	LANGHOME = gg.alert(
+		" Official Channel @THEGLOBALHACKER \n Select your version  ",
+		"⟬ GLOBAL/KR/TW/VN  ⟭",
+		"⟬ BGMI ⟭"
+	) --
+	if LANGHOME == nil then
+	else
+		if LANGHOME == 1 then
+			HOME1()
+			CMENU = 1
+		end
+		if LANGHOME == 2 then
+			HOME2()
+			CMENU = 2
+		end
+	end
+	PUBGMH = -1
+end
+
+on = " [❌] " -- JOKER
+off = " " -- JOKER
+
+function HOME1()
+	MN = gg.choice(
+		{
+			"⟬➤[≛L۞ɢo Bʏᴘᴀss ⚧️⟭ ", -- JOKER
+			"⟬➤[≛Lᴏʙʙʏ Bʏᴘᴀss ⚧️⟭ ", -- JOKER
+			" ᴇ x ɪ ᴛ ", -- JOKER
+		},
+		nil,
+		(
+			os["date"](
+				" •┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈• \n۞Official Channel @THEGLOBALHACKER🇮🇳\n  ❏ %Y/%m/%d  ᴛɪᴍᴇ: %H:%M:%S   \n  ❏ ! REO_47 \n  •┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈• "
+			)
+		)
+	) -- JOKER
+	if MN == nil then
+	else
+		if MN == 1 then
+			SKNS1()
+		end
+		if MN == 2 then
+			SPEC1()
+		end
+		if MN == 3 then
+			CLOSE()
+		end
+	end
+	PUBGMH = -1
+end
+
+function HOME2()
+	MN2 = gg.choice(
+		{
+			"⟬➤[≛Bʏᴘᴀss [ISLAND 🏝️] ⚧️⟭ ", -- JOKER
+			"⟬➤[≛Lᴏʙʙʏ Bʏᴘᴀss [A11☔⟭⚧️⟭ ", -- JOKER
+			"⟬➤[≛Lᴏʙʙʏ Bʏᴘᴀss [A10🌍⟭⚧️⟭ ", -- JOKER
+			" ᴇ x ɪ ᴛ ", -- JOKER
+		},
+		nil,
+		(
+			os["date"](
+				" •┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈• \n۞Official Channel @THEGLOBALHACKER🇮🇳\n  ❏ %Y/%m/%d  ᴛɪᴍᴇ: %H:%M:%S   \n  ❏ ! REO_47️  \n  •┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈• "
+			)
+		)
+	) -- JOKER
+	if MN2 == nil then
+	else
+		if MN2 == 1 then
+			SKNS2()
+		end
+		if MN2 == 2 then
+			SPEC2()
+		end
+		if MN2 == 3 then
+			SPEC22()
+		end
+		if MN2 == 4 then
+			CLOSE()
+		end
+	end
+	PUBGMH = -1
+end
+
+-- -- -- -- -- -- -- -- --   Weapons 7H VIP   -- -- -- -- -- -- -- -- --
+
+function SKNS1()
+	function setvalue(address, flags, value)
+		local refinevalues = {}
+		refinevalues[1] = {}
+		refinevalues[1].address = address
+		refinevalues[1].flags = flags
+		refinevalues[1].value = valuegg.setValues(refinevalues)
+	end
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end
+	so = gg.getRangesList("libanogs.so")[1].start
+	setvalue(so + 0x33B0C, 4, 1198530560) -- JOKER
+	so = gg.getRangesList("libanogs.so")[1].start
+	setvalue(so + 0x3432C, 4, 781)
+	setvalue(so + 0x3432E, 4, 781)
+	setvalue(so + 0x3433E, 4, 781)
+	setvalue(so + 0x34342, 4, 781)
+	setvalue(so + 0x34346, 4, 781)
+	setvalue(so + 0x3434E, 4, 781)
+	setvalue(so + 0x34350, 4, 781)
+	setvalue(so + 0x0, 4, 0)
+	setvalue(so + 0x4, 4, 0)
+	setvalue(so + 0x10, 4, 0)
+	setvalue(so + 0x2c, 4, 0)
+	setvalue(so + 0x64, 4, 0)
+	setvalue(so + 0x107528, 4, 781)
+	setvalue(so + 0x1075FC, 4, 781)
+	setvalue(so + 0X10769C, 4, 781)
+	setvalue(so + 0X1076A0, 4, 781)
+	setvalue(so + 0X1076A4, 4, 781)
+	setvalue(so + 0X1076B4, 4, 781)
+	setvalue(so + 0X107940, 4, 781)
+	setvalue(so + 0X107944, 4, 781)
+	setvalue(so + 0X107948, 4, 781)
+	setvalue(so + 0X107CF8, 4, 781)
+	setvalue(so + 0X107D10, 4, 781)
+	setvalue(so + 0X107D14, 4, 781)
+	setvalue(so + 0X107D18, 4, 781)
+	setvalue(so + 0X107D1c, 4, 781)
+	setvalue(so + 0X107D20, 4, 781)
+	setvalue(so + 0X107D24, 4, 781)
+	setvalue(so + 0X176270, 4, 781)
+	setvalue(so + 0X176274, 4, 781)
+	setvalue(so + 0X176290, 4, 781)
+	setvalue(so + "0X93890", 4, "h00 BF") -- JOKER
+	setvalue(so + "0X93894", 4, "h00 BF") -- JOKER
+	setvalue(so + "0X93898", 4, "h00 BF") -- JOKER
+	Ano = gg.getRangesList("libUE4.so")[1].start
+	setvalue(Ano + 0x89A535A, 32, 0)
+	setvalue(Ano + 0x89A5358, 32, 0)
+	setvalue(Ano + 0x89A5364, 32, 0)
+	setvalue(Ano + 0x89A535C, 32, 0)
+	setvalue(Ano + 0x89A5358, 32, 0)
+	setvalue(Ano + 0x89A5360, 32, 0)
+	setvalue(so + "0x262c76", 4, "h 00 00 00 00") -- JOKER
+	function setvalue(address, flags, value)
+		local refinevalues = {}
+		refinevalues[1] = {}
+		refinevalues[1].address = address
+		refinevalues[1].flags = flags
+		refinevalues[1].value = valuegg.setValues(refinevalues)
+	end
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end
+	so = gg.getRangesList("libanogs.so")[1].start
+	setvalue(so + 0x342da, 4, 781)
+	setvalue(so + 0x33f9a, 4, 781)
+	setvalue(so + 0x33faa, 4, 781)
+	setvalue(so + 0x42bb6, 4, 781)
+	setvalue(so + 0x438f4, 4, 781)
+	setvalue(so + 0x4391e, 4, 781)
+	setvalue(so + 0x47f14, 4, 781)
+	setvalue(so + "0x262c76", 4, "h 00 00 00 00") -- JOKER
+	gg.toast("■■■■■■■100%") -- JOKER
+	gg.alert("💟Bʏᴘᴀᴀs Lᴏɢᴏ Aᴄᴛɪᴠᴀᴛᴇᴅ Aɴᴛɪ 10ʏ#GL/KR/TW🇮🇳") -- JOKER
+end
+
+function SKNS2()
+	function setvalue(address, flags, value)
+		local tt = {}
+		tt[1] = {}
+		tt[1].address = address
+		tt[1].flags = flags
+		tt[1].value = value
+		gg.setValues(tt)
+	end
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D8EC, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D060, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D05C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D058, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D040, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DBF0, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DBD8, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D99C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D98C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39D96C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC18, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC10, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC0C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC08, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC04, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC58, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC48, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC34, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC2C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC1C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCAC, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC98, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC70, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC6C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DC5C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCF0, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCEC, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCE8, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCD4, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCBC, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD08, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD04, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCFC, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCF8, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DCF4, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD1C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD18, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD14, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD10, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD0C, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39E4E4, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39E474, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD24, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39DD20, 4, 0)
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x35F8BB, 4, "h00 BF")
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x35F8CA, 4, "h00 BF")
+	setvalue(gg.getRangesList("libanogs.so")[1].start + 0x39E408, 4, "h00 BF")
+	gg.alert("💟Bʏᴘᴀᴀs Aᴄᴛɪᴠᴀᴛᴇᴅ [ISLAND 🏝️]#BGMI🇮🇳") -- JOKER
+end
+
+function SPEC1()
+	gg.clearResults()
+	gg.alert("   ◆▬ HACKERS ɪs ғᴜᴄᴋɪɴɢ ʜᴇʀᴇ ▬◆")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_JAVA_HEAP | gg.REGION_ANONYMOUS | gg.REGION_JAVA | gg.REGION_STACK | gg.REGION_C_DATA)
+	gg.searchNumber(";2.1.0.16518", gg.TYPE_WORD) -- JOKER
+	gg.getResults(500000)
+	gg.editAll(";2.1.0.99999", gg.TYPE_WORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_JAVA_HEAP | gg.REGION_ANONYMOUS | gg.REGION_JAVA | gg.REGION_STACK | gg.REGION_C_DATA)
+	gg.searchNumber(":2.1.0.16518", gg.TYPE_WORD) -- JOKER
+	gg.getResults(500000)
+	gg.editAll(":2.1.0.99999", gg.TYPE_WORD) -- JOKER
+	gg.clearResults()
+	gg.clearResults()
+	gg.searchNumber(":asia.csoversea.mbgame.anticheatexpert.com", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0) -- JOKER
+	gg.refineNumber(":asia.csoversea.mbgame.anticheatexpert.com", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0) -- JOKER
+	gg.getResults(2, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":_report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0) -- JOKER
+	gg.searchNumber(":_report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0) -- JOKER
+	gg.getResults(2, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":_Report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0) -- JOKER
+	gg.searchNumber(":_Report", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1, 0) -- JOKER
+	gg.getResults(2, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":/report") -- JOKER
+	gg.refineNumber(":/report") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":cheat") -- JOKER
+	gg.refineNumber(":cheat") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":Cheat") -- JOKER
+	gg.refineNumber(":Cheat") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":/tss") -- JOKER
+	gg.refineNumber(":/tss") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":/report") -- JOKER
+	gg.refineNumber(":/report") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP) -- JOKER
+	gg.searchNumber(":cheat") -- JOKER
+	gg.refineNumber(":cheat") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":Cheat") -- JOKER
+	gg.refineNumber(":Cheat") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":/tss") -- JOKER
+	gg.refineNumber(":/tss") -- JOKER
+	gg.getResults(99999)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":get_report_data") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":get_report_data2") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":Delete_reports.bat") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":report_apk") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":tdm_report_sdk_update_config_finish") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":tdm_report_sdk_update_config_finish") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":sc_report") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":TssSDKGetReportData") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll(":TssSDKDelReportData", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":TssSDKOnRecvData") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll(":TssSDKDelRecvData", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":N6TssSDK11ReportQueueE") -- JOKER
+	gg.getResults(17071992)
+	gg.editAll(":Block", gg.TYPE_BYTE) -- JOKER
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":get_report_data", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":get_report_data2", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":Delete_reports.bat", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber(":report_apk", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":tdm_report_sdk_update_config_finish", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":tdm_report_sdk_update_config_finish", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":sc_report", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll("0", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":TssSDKGetReportData", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll(":TssSDKDelReportData", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":TssSDKOnRecvData", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll(":TssSDKDelRecvData", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(":N6TssSDK11ReportQueueE", gg.TYPE_BYTE) -- JOKER
+	gg.getResults(17071992)
+	gg.editAll(":Block", gg.TYPE_BYTE) -- JOKER
+	gg.clearResults()
+	gg.toast("■■■■■■■100%") -- JOKER
+	gg.alert("💟2.0 Bʏᴘᴀᴀs Aᴄᴛɪᴠᴀᴛᴇᴅ Aɴᴛɪ 10ʏ🇮🇳") -- JOKER
+end
+
+function SPEC2()
+	gg.clearResults()
+	gg.alert("   ◆▬ HACKERS ɪs ғᴜᴄᴋɪɴɢ ʜᴇʀᴇ ▬◆")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("564,058,054,983,680;566,257,078,239,232", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("566,257,078,239,232", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("572,854,148,005,888;573,953,659,633,664", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("572,854,148,005,888", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER) -- JOKER
+	gg.searchNumber("577,252,194,516,992;578,351,706,144,768", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("578,351,706,144,768;620,137,442,967,552", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("578,351,706,144,768", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("196864;16842753::5", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("196864", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("16384;67109377", gg.TYPE_DWORD, nil, nil, nil, nil) -- JOKER
+	gg.refineNumber("16384", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("133634;133890", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("133634", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("134658;134658", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("134658", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("133634;135682", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("133634", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("133634;135682", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("133634", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("4096;135682", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("4096", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+	gg.searchNumber("909391408") -- JOKER
+	gg.getResults(999)
+	gg.editAll("1089886885", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.alert(" PAID ʙʏᴘᴀss ᴀᴄᴛɪᴠᴇ #BGMI A11-12") -- JOKER
+	gg.toast("■■■■■■■100%") -- JOKER
+end
+
+function SPEC22()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("564,058,054,983,680;566,257,078,239,232", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("566,257,078,239,232", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("572,854,148,005,888;573,953,659,633,664", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("572,854,148,005,888", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("577,252,194,516,992;578,351,706,144,768", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("577,252,194,516,992", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("578,351,706,144,768;620,137,442,967,552", gg.TYPE_QWORD) -- JOKER
+	gg.refineNumber("578,351,706,144,768", gg.TYPE_QWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("288233678981562368", gg.TYPE_QWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("196864;16842753::5", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("196864", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("16384;67109377", gg.TYPE_DWORD, nil, nil, nil, nil) -- JOKER
+	gg.refineNumber("16384", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("909391408") -- JOKER
+	gg.getResults(999)
+	gg.editAll("1089886885", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("133634;133890", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("133634", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("134658;134658", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("134658", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("133634;135682", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("133634", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("133634;135682", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("133634", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("4096;135682", gg.TYPE_DWORD) -- JOKER
+	gg.refineNumber("4096", gg.TYPE_DWORD) -- JOKER
+	gg.getResults(50000)
+	gg.editAll("84149249", gg.TYPE_DWORD) -- JOKER
+	gg.clearResults()
+	gg.alert(" PAID ʙʏᴘᴀss ᴀᴄᴛɪᴠᴇ #BGMI A10-9") -- JOKER
+	gg.toast("■■■■■■■100%") -- JOKER
+end
+
+function CLOSE()
+	print(
+		"╔─━━━━━━━━░░ 👑 ░░━━━━━━━━─╗\n\n ♔🔸〘REO_47 〙🔸♔\n🔸 Telegram ⟮@THEGLOBALHACKER⟯     🔸 \n\n╚─━━━━━━━━░░  ★ ░░━━━━━━━━─╝"
+	)
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		PUBGMH = 1
+		gg.setVisible(false)
+	end
+	if PUBGMH == 1 and CMENU == 0 then
+		HOME()
+	end
+	if PUBGMH == 1 and CMENU == 1 then
+		HOME1()
+	end
+	if PUBGMH == 1 and CMENU == 2 then
+		HOME2()
+	end
+end

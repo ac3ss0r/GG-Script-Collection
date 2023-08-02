@@ -1,0 +1,17 @@
+more deails:
+download decrypted apk from: [https://armconverter.com/decryptedappstore/us/pixel%20gun%203d]
+then inject the following dylibs / debs: libsupport.dylibm & h5gg.deb
+then sideload it.
+once it is done, go to your system tray -> sideloady -> apps -> pixel gun 3d (zombiegun or something like that) -> run & enable  jit
+
+
+libsupport: https://github.com/Rednick16/libSupport
+h5gg: https://github.com/H5GG/H5GG/blob/main/packages/com.test.h5gg_0.0.1_iphoneos-arm.deb
+
+
+
+how it should look: https://ibb.co/VtVQkR9
+
+
+
+dm me if you need help.

@@ -1,0 +1,3349 @@
+gg.alert("Decrypted by @hohoholol")
+gg.alert("Decrypted by @hohoholol")
+gg.alert("Decrypted by @hohoholol")
+function BP()
+	gg.clearResults()
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.clearResults()
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber(
+		"1",
+		gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.toast("Protection Completed")
+end
+function bypassHelp()
+	bypassHelpAlert = gg.alert(
+		[[
+Bypass - Function to protect against crashes. 
+Without it, your PUBG with a propability of 90% will exit after you try to activate something. 
+You need to start bypass at the correct time, it must be started at the begin of Tencent & Lighspeed logo. 
+Probably, while you're reading this, the game had time to load and you need to restart it again.]],
+		[[
+Finish script 
+and exit the game]],
+		"Back to selection"
+	)
+	if bypassHelpAlert == 1 then
+		gg.processKill()
+		os.exit()
+	end
+	if bypassHelpAlert == 2 then
+		startBypass()
+	end
+end
+function startBypass()
+	gg.setVisible(false)
+	bypassAlert = gg.alert("Bypass Now?", "What is this?", "NO", "YES")
+	if bypassAlert == 3 then
+		BP()
+	end
+	if bypassAlert == 2 then
+	end
+	if bypassAlert == 1 then
+		bypassHelp()
+	end
+end
+startBypass()
+function Main()
+	menu = gg.choice({
+		"📛 New WallHacks Menu💯 [Landing] 📛 ",
+		"📛 New Color Menu💯 [Landing] 📛 ",
+		"📛 New Graphic Menu💯 [Landing] 📛 ",
+		"📛 New Vehicle Menu💯 [Landing] 📛 ",
+		"📛 New Battle Menu💯 [Landing]  📛 ",
+		"📛 New Guns Skins💯 [Landing] 📛",
+		"🌀EXIT🌀",
+	}, nil, "📛 🇹 🇭 🇴 🇷 8055 📛 ")
+	if menu == 1 then
+		WHCM()
+	end
+	if menu == 2 then
+		Color()
+	end
+	if menu == 3 then
+		GM()
+	end
+	if menu == 4 then
+		VM()
+	end
+	if menu == 5 then
+		OPM()
+	end
+	if menu == 6 then
+		NGS()
+	end
+	if menu == 7 then
+		EXIT()
+	end
+	XCGK = -1
+end
+function WHCM()
+	IBM = gg.multiChoice({
+		"😊SD 425 Wallhack[0.8.5]🤓",
+		"👸SD 435 Wallhack[0.8.5]😌 ",
+		"⭐SD 625 Wallhack[0.8.5]⭐ ",
+		"🌠SD 660 Wallhack[0.8.5] 🌠",
+		"🌀SD 800 Wallhack[0.8.5] 🌀",
+		"🌀SD 820 Wallhack[0.8.5]🌀 ",
+		"🌈SD 835 Wallhack[0.8.5]🌈 ",
+		"☔SD 845 Wallhack[0.8.5]☔ ",
+		"☔OPPO r15 Wallhack[0.8.5] ☔",
+		"☔Huawei Wallhack[0.8.5] ☔",
+		"🔥MediaTek Wallhack[0.8.5] 🔥",
+		"⛄Perfect Wallhack[0.8.5] ⛄",
+		"🎃Universal Wallhack[0.8.5]🎃 ",
+		"🎊General Wallhack[0.8.5]🎊 ",
+		"🎉Redmi Wallhack[0.8.5]🎉 ",
+		"🎖Land Wallhack[0.8.5] 🎖",
+		"👻Item Wallhack [0.8.5] 👻",
+		"📛Vivo X20 Wallhack [0.8.5] 📛",
+		"🦄Vivo X9 Wallhack [0.8.5] 🦄",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if IBM == nil then
+	else
+		if IBM[1] == true then
+			WH425()
+		end
+		if IBM[2] == true then
+			WH435()
+		end
+		if IBM[3] == true then
+			WH625()
+		end
+		if IBM[4] == true then
+			WH660()
+		end
+		if IBM[5] == true then
+			WH800()
+		end
+		if IBM[6] == true then
+			WH820()
+		end
+		if IBM[7] == true then
+			WH835()
+		end
+		if IBM[8] == true then
+			WH845()
+		end
+		if IBM[9] == true then
+			Oppo()
+		end
+		if IBM[10] == true then
+			Huawei()
+		end
+		if IBM[11] == true then
+			Mediatek()
+		end
+		if IBM[12] == true then
+			PerWH()
+		end
+		if IBM[13] == true then
+			WHUNI()
+		end
+		if IBM[14] == true then
+			GW()
+		end
+		if IBM[15] == true then
+			XW()
+		end
+		if IBM[16] == true then
+			LW()
+		end
+		if IBM[17] == true then
+			IW()
+		end
+		if IBM[18] == true then
+			VWH()
+		end
+		if IBM[19] == true then
+			VWHv2()
+		end
+		if IBM[20] == true then
+			Main()
+		end
+	end
+end
+function WH425()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"200,866D;0.24022650719;0.69314718246;0.00999999978;1;-1;2;-127:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.01799999923;0.29907226562;0.5869140625;0.11401367188;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"266,400D;0.24022650719;0.69314718246;0.00999999978;1;-1;-127;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WH435()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"200,866D;0.24022650719;0.69314718246;0.00999999978;1;-1;2;-127:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.01799999923;0.29907226562;0.5869140625;0.11401367188;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"266,400D;0.24022650719;0.69314718246;0.00999999978;1;-1;-127;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("435Success")
+end
+function WH625()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-5.5695588e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.718519e-43;1.3912552e-19;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("5.6896623e-29;4.7961574e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.718519e-43;1.3912525e-19;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.6815582e-44;1.1202057e-19;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WH660()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.setVisible(false)
+	gg.searchNumber(
+		"2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.setVisible(false)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setVisible(false)
+	gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("660 success")
+end
+function WH800()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("2.718519e-43;3.7615819e-37;2.0;0.00999999978::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("5.8013756e-42;-5.5695588e-40;2.0::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Processing")
+	gg.clearResults()
+	gg.searchNumber(
+		"4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WH820()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.3912552e-19;0;3.7615819e-37;0;0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-5.5695588e-40;4.814603e21;0;3.7615819e-37;-0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WH835()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Processing15%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0; 4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Processing25%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Processing65%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Processing75%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Processing95%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0; 4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WH845()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.toast("Processing10%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.toast("Processing45%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(15)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.toast("Processing75%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("130", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function Oppo()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0; 4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0; 4.7777152e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function Huawei()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2;-1;0;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("20", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,141D;4.7408155e21;-5.5693206e-40;4.814603e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("100", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-1.0285578e-38;3.7615819e-37;2;-1;1;-127::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function Mediatek()
+	gg.clearResults()
+	gg.searchNumber("10000;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.alert("Prevent invalid manual freeze 0")
+end
+function PerWH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"200,866D;0.24022650719;0.69314718246;0.00999999978;1;-1;2;-127:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.01799999923;0.29907226562;0.5869140625;0.11401367188;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"266,400D;0.24022650719;0.69314718246;0.00999999978;1;-1;-127;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber(
+		"4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("6.50000333786;1.1202013e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("99999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WHUNI()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961074e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0; 4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7777102e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961074e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0; 4.7777102e21;4.7777146e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("300", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function GW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("1.9327361e10;4.8146041e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("121", gg.TYPE_FLOAT)
+	gg.toast("Processing30%")
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("1.1202042e-19;3.7615819e-37;2.0;-127::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("121", gg.TYPE_FLOAT)
+	gg.toast("Processing60%")
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("-5.5695588e-40;4.814603e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("121", gg.TYPE_FLOAT)
+	gg.toast("Processing90%")
+	gg.setRanges(gg.REGION_BAD)
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("2.718519e-43;1.5414283e-44;3.7615819e-37;2;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("121", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function XW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2;1.1204989e-19;1.6815582e-44;1.5414283e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("2;4.7408166e21;5.6896623e-29;4.7961574e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2;4.8699472e21;2.718519e-43;1.3912525e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("2;3.2363458e-17;7.3900417e-40;5.3249342e-44", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(40)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("2;4.9252829e21;2.718519e-43;1.3912552e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("1;4.8699472e21;2.718519e-43;1.3912525e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("1;4.9252829e21;2.718519e-43;1.3912552e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function LW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.49029350281;1003658240D;923795456D :512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("-250", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function IW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.0;1.6623364e-19;2.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("90", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function VWH()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Loading25%")
+	gg.clearResults()
+	gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Loading50%")
+	gg.clearResults()
+	gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Loading75%")
+	gg.clearResults()
+	gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function VWHv2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-5.5695588e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.718519e-43;1.3912552e-19;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("5.6896623e-29;4.7961574e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("2.718519e-43;1.3912525e-19;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.6815582e-44;1.1202057e-19;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("350", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function Color()
+	BBM = gg.multiChoice({
+		"🎯Kirin Universal Red🎯 ",
+		"🏍New Balanced Yellow 🏍",
+		"🏎New Red Color🏎",
+		"💰New Pink Color💰",
+		"🔮Hundreds Of Color🔮",
+		"🔮Gemstone Blue🔮 ",
+		"🚷New Blue🚷 ",
+		"🚷New White🚷 ",
+		"🔯Antiflower Yellow🔯 ",
+		"🔞New Exclusive Green🔞 ",
+		"🆎Special SD435 Color 🆎",
+		"🎠SD845 Laser Color🎠 ",
+		"👻HDR Color👻 ",
+		"🎎All Model Color🎎 ",
+		"💀SD625 Color💀 ",
+		"🐼Sky Blue Color🐼 ",
+		"🚔Universal Black🚔 ",
+		"🎡Universal White🎡 ",
+		"🎅Colour Mix2s🎅 ",
+		"📛New Orange 📛 ",
+		"🎎Flash Color 🎎 ",
+		"🔥Girl Powder 🔥 ",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if BBM == nil then
+	else
+		if BBM[1] == true then
+			CO()
+		end
+		if BBM[2] == true then
+			COY()
+		end
+		if BBM[3] == true then
+			COR()
+		end
+		if BBM[4] == true then
+			Pink()
+		end
+		if BBM[5] == true then
+			CF()
+		end
+		if BBM[6] == true then
+			GB()
+		end
+		if BBM[7] == true then
+			BLUE()
+		end
+		if BBM[8] == true then
+			WHITE()
+		end
+		if BBM[9] == true then
+			AY()
+		end
+		if BBM[10] == true then
+			NEG()
+		end
+		if BBM[11] == true then
+			SDC()
+		end
+		if BBM[12] == true then
+			S8C()
+		end
+		if BBM[13] == true then
+			HDR()
+		end
+		if BBM[14] == true then
+			AMC()
+		end
+		if BBM[15] == true then
+			S6C()
+		end
+		if BBM[16] == true then
+			SBC()
+		end
+		if BBM[17] == true then
+			UB()
+		end
+		if BBM[18] == true then
+			UW()
+		end
+		if BBM[19] == true then
+			CM()
+		end
+		if BBM[20] == true then
+			NO()
+		end
+		if BBM[21] == true then
+			FC()
+		end
+		if BBM[22] == true then
+			GP()
+		end
+		if BBM[23] == true then
+			Main()
+		end
+	end
+end
+function CO()
+	gg.clearResults()
+	gg.setRanges(4)
+	gg.searchNumber("252248832;201851904;5136", 4, false, 536870912, 0, -1)
+	gg.searchNumber("201851904", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("629000", 4)
+	gg.clearResults()
+	gg.searchNumber("254018304;201851904;5136", 4, false, 536870912, 0, -1)
+	gg.searchNumber("201851904", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("629000", 4)
+	gg.clearResults()
+	gg.searchNumber("3874;201851904;16", 4, false, 536870912, 0, -1)
+	gg.searchNumber("201851904", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("629000", 4)
+	gg.clearResults()
+	gg.searchNumber("3846;201851904;16", 4, false, 536870912, 0, -1)
+	gg.searchNumber("201851904", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("629000", 4)
+	gg.toast("Success")
+end
+function COY()
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("1.8189894e-12;3;4.75926e21", 16, false, 536870912, 0, -1)
+	gg.searchNumber("3", 16, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("400", 16)
+	gg.clearResults()
+	gg.searchNumber("69,778D;1,669,332,992D;11D", 4, false, 536870912, 0, -1)
+	gg.searchNumber("11", 4, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("32777", 4)
+	gg.toast("Processing")
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("8,192D;256D;65,540D;12D;8200D", 4, false, 536870912, 0, -1)
+	gg.searchNumber("8200", 4, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("6", 4)
+	gg.toast("Success")
+end
+function COR()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("9D;537,149,445D;50,331,648D;2:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("120", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function Pink()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CF()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function GB()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("201851904;3874;50335498;252907268;5;32790:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("201851904;3846;50335490;252776217;5;20502:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("201851904;252248832;253824770;252776218;6;20502:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber(" 201851904;3845;55378697;253824769;252645146;7:72", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function BLUE()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("96D;8200;196,615", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function WHITE()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("3;1,081,612,800;278,200,320", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function AY()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("8,192D;256D;65,540D;12D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("6", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function NEG()
+	gg.clearResults()
+	gg.searchNumber("102,667;540,673;147,457::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("147457", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5201314)
+	gg.editAll("98765", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function SDC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.1202013e-19;1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("9999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function S8C()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1,661,566,999;96;539,246,604;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function HDR()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("8204;256;176;7;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function AMC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("15", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function S6C()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("3.50048899651;2.814536e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3.50048899651", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("3", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.toast("Success")
+end
+function SBC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("201851904;3874;50335498;252907268;5;32790:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(12)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("201851904;3846;50335490;252776217;5;20502:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(12)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("201851904;252248832;253824770;252776218;6;20502:76", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(12)
+	gg.editAll("405000", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function UB()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.05499718338;1:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function UW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("15", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CM()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.1202013e-19;1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(2, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("9999", gg.TYPE_FLOAT)
+	gg.toast("First Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1,081,081,861;7;-2,146,435,049;8200::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("7", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function NO()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("4.5926155869782e-41;1.0863202718415e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.0863202718415e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1.0863202718415e-25", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function FC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("252,776,218;253,824,770;252,248,832;201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("17171717", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("252,907,268;50,335,498;3,874;201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("17171717", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("254,283,524;253,038,346;254,018,304;201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("17171717", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.searchNumber("252,776,217;50,335,490;3,846;201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("201851904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("17171717", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function GP()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("8E;2.5;6.0255834e-44::150", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function GM()
+	IGM = gg.multiChoice({
+		"💥Running Antenna【Land/EveryMatch]💥",
+		"💎New Antenna【Land/EveryMatch】💎",
+		"🐼Standing Antenna【Land/EveryMatch】🐼",
+		"🐰Neck Antenna [Land] 🐰",
+		"🏤 Global Antenna [Land]🏤 ",
+		"🕋Headpiece Antenna [Land] 🕋",
+		"🚡Super Antenna [Land]🚡 ",
+		"👽Armour Antenna [Land] 👽 ",
+		"💣Flare Gun Antenna [Land] 💣",
+		"🌹Prone Antenna [Land] 🌹",
+		"🦀Whole Body Antenna [Land] 🦀",
+		"🌀Flash Speed [Land] 🌀",
+		"🌀Character Stepping in Air【Land/EveryMatch】🌀",
+		"🌀No Grass【Land/EveryMatch】🌀",
+		"🎌No Grass And Tree【Land/EveryMatch】🎌",
+		"🎈Weapon Antenna 【Land/EveryMatch】🎈",
+		"🎱Black Sky+Black Land【Land/EveryMatch] 🎱",
+		"🏆Violent Weeding [Land/EveryMatch] 🏆",
+		"🚆Black Sky [Land/EveryMatch] 🚆",
+		"😇Big Helmet [Land/EveryMatch] 😇",
+		"🐼God View [Land/EveryMatch] 🐼",
+		"🐹Crouching In Sky [Land/EveryMatch] 🤕",
+		"💥Parachute SpeedUp [Land/EveryMatch] 💥",
+		"🕵Super Acceration 🕵 [Land/EveryMatch] 🕵",
+		"🛩Character Flying [Land/EveryMatch] 🛩",
+		"🦀Character Vision Expansion [Land/EveryMatch] 🦀",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if IGM == nil then
+	else
+		if IGM[1] == true then
+			RN()
+		end
+		if IGM[2] == true then
+			NA()
+		end
+		if IGM[3] == true then
+			SA()
+		end
+		if IGM[4] == true then
+			NAN()
+		end
+		if IGM[5] == true then
+			GA()
+		end
+		if IGM[6] == true then
+			HPA()
+		end
+		if IGM[7] == true then
+			SA()
+		end
+		if IGM[8] == true then
+			AA()
+		end
+		if IGM[9] == true then
+			FGA()
+		end
+		if IGM[10] == true then
+			PA()
+		end
+		if IGM[11] == true then
+			WBA()
+		end
+		if IGM[12] == true then
+			FS()
+		end
+		if IGM[13] == true then
+			CAIR()
+		end
+		if IGM[14] == true then
+			NG()
+		end
+		if IGM[15] == true then
+			NGT()
+		end
+		if IGM[16] == true then
+			WAN()
+		end
+		if IGM[17] == true then
+			BSK()
+		end
+		if IGM[18] == true then
+			VW()
+		end
+		if IGM[19] == true then
+			BS()
+		end
+		if IGM[20] == true then
+			BH()
+		end
+		if IGM[21] == true then
+			GV()
+		end
+		if IGM[22] == true then
+			CRS()
+		end
+		if IGM[23] == true then
+			PSU()
+		end
+		if IGM[24] == true then
+			SUA()
+		end
+		if IGM[25] == true then
+			CF()
+		end
+		if IGM[26] == true then
+			CWE()
+		end
+		if IGM[27] == true then
+			Main()
+		end
+	end
+end
+function RN()
+	gg.clearResults()
+	gg.toast("Loading Running Antenna")
+	gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("6666", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function NA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.99626296759", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(400)
+	gg.editAll("866", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function SA()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1995)
+	gg.editAll("19995", gg.TYPE_FLOAT)
+	gg.toast("Loading Standing Antenna")
+	gg.clearResults()
+	gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1995)
+	gg.editAll("19995", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Standing Antenna Activated!")
+end
+function NAN()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("7.13142681122F;0.05440318212F;0.06085279956F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("7.13142681122F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(9)
+	gg.editAll("5000", gg.TYPE_FLOAT)
+	gg.toast("Neck Success")
+end
+function GA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.99626296759", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(400)
+	gg.editAll("866", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function HPA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("88.50576019287F;87.27782440186F;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(7)
+	gg.editAll("1.96875", gg.TYPE_FLOAT)
+	gg.toast("50％")
+	gg.clearResults()
+	gg.searchNumber("1.96875F;1.96875F;-100.91194152832;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function SA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18.38613319397", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("99999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function AA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.99626296759", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(400)
+	gg.editAll("866", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function FGA()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("0.7576~0.7579", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.7576~0.7579", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("99999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function PA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("88.50576019287F;87.27782440186F;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(7)
+	gg.editAll("1.96875", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("1.96875F;1.96875F;-100.91194152832;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("976", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResultCount()
+	gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("16000", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WBA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.99626296759", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(400)
+	gg.editAll("866", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function FS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("1.123", gg.TYPE_FLOAT)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function CAIR()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1;-0.70710676908;0.70710670948;64;1.793662e-43;1.4012985e-45;1D;1D::,",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(9999)
+	gg.editAll("999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function NG()
+	gg.clearResults()
+	gg.searchNumber("24;1194344472;16;5;1084227832;1280::392", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("24", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("9", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function NGT()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("0.00390625;1;0.99900001287;2", gg.TYPE_FLOAT, false)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false)
+	gg.getResults(30)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WAN()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.7576~0.7579", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("99999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function BSK()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("100.0;403,200.0;403,200.0;4,718.40625;1.0:21", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-99", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber(
+		"3.75000119209;2;2.00000023842;2.00000047684;2.7506108284;3",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("888", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function VW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"67328;5131;1;12;2;69376;5121;2;4;66305;5126;3;4;1;67584::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("4", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function BS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false, gg.SING_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-90", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function BH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("88.50576019287;87.27782440186;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6)
+	gg.editAll("3", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function GV()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("220;25;178", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("500", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CRS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1,134,081,726", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function PSU()
+	gg.clearResults()
+	gg.searchNumber("49D;4000;-980;0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("12", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function SUA()
+	gg.clearResults()
+	gg.searchNumber("20000;750;0.0001;0.0005 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.0005", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.07", gg.TYPE_FLOAT)
+	gg.toast("Process")
+	gg.searchNumber("1.0F;0.6;0.1;0.125F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("2.55", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1400;0.10000000149;1000;88;60;30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-4000", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CWE()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("220;178;15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(599)
+	gg.editAll("1200", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CS()
+	CS = gg.multiChoice({
+		"🏆Small Character🏆【Landed】",
+		"🏆Big Character 🏆【Landed】",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if CS == nil then
+	else
+		if CS[1] == true then
+			MC()
+		end
+		if CS[2] == true then
+			TC()
+		end
+		if CS[3] == true then
+			Main()
+		end
+	end
+end
+function MC()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("3.0828566e-44;88;88;1;1;1", 16, false, 536870912, 0, -1)
+	gg.searchNumber("1", 16, false)
+	gg.getResults(50)
+	gg.editAll("0.2", 16)
+	gg.toast("Success")
+end
+function TC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.setVisible(false)
+	gg.searchNumber("96.63009643555F;1.0F::30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(9990)
+	gg.setVisible(false)
+	gg.editAll("2.2", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function VW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"67328;5131;1;12;2;69376;5121;2;4;66305;5126;3;4;1;67584::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("3", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("4", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function VM()
+	IVM = gg.multiChoice({
+		"🕹Vehicle Wallhack🕹 【Land/EveryMatch】",
+		"🎮Jeep Acceleration🎮 [Land/Everymatch] ",
+		"♥Drive Through The Wall♥【Land/EveryMatch】",
+		"🚨Jeep Launching 🚨 【Land/EveryMatch】",
+		"Back",
+	}, nil, " 🔮🇹 🇭 🇴 🇷 8055 🔮")
+	if IVM == nil then
+	else
+		if IVM[1] == true then
+			CWH()
+		end
+		if IVM[2] == true then
+			JA()
+		end
+		if IVM[3] == true then
+			DTW()
+		end
+		if IVM[4] == true then
+			JL()
+		end
+		if IVM[5] == true then
+			Main()
+		end
+	end
+end
+function CWH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("304.00009155273;3.7615819e-37;2;-1;1;-127::240", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(30)
+	gg.editAll("110", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function JA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.64705884457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.64705884457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("-999999999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function DTW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"982622900;1956496814;1103626239982622900;1956496814;1103626239::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1956496814", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1091567616", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function JL()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber(45, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("99996", gg.TYPE_FLOAT)
+	gg.clearResults(1314520)
+	gg.toast("Success")
+end
+function OPM()
+	JM = gg.multiChoice({
+		"🌀 Gun Modification Menu 🌀 ",
+		"🌀 HeadAimbot【Landed/EveryMatch】🌀",
+		"🌀High Damage+Headshot 90%【Landed/EveryMatch】🌀",
+		"😲Headshot 80%【Landed/EveryMatch】😲",
+		"💀Hunter Headshot v1【Landed/EveryMatch】💀",
+		"👻Hunter Headshot v2【Landed/EveryMatch】👻",
+		"☔Wallshoot v1【Landed/EveryMatch】☔",
+		"☔Aimbot Menu☔ ",
+		"⭐Wallshoot v2【Landed/EveryMatch】⭐",
+		"🌀High Increase Damage【Landed/EveryMatch】🌀",
+		"🎃Character Through The Wall【Landed/EveryMatch】🎃",
+		"🏋No FootStep【Landed/EveryMatch】🏋",
+		"🌤AutoHit【Landed/EveryMatch】🌤",
+		"🌝Wallshot v2【Landed/EveryMatch】🌝",
+		"🌞Crosshair【Landed/EveryMatch】🌞",
+		"📺Magic Bullet [Land] 📺",
+		"🎭Magic Bullet v2 [Lobby/Land] 🎭",
+		"🦀Headshot MagicBullet [Land] 🦀 ",
+		"📽Holographic Locks Head [Land] 📽",
+		"💡Hyper HitRate [Land] 💡",
+		"🔮Seconds Cutting Gun [Land] 🔮",
+		"🔮No Recoil [Landed/EveryMatch] 🔮",
+		"🔕Sit Scope[Risk/EveryMatch] 🔕",
+		"🚨Extended Arms On[Land] 🚨",
+		"🚨Extended Arms Off[Land] 🚨",
+		"🤖8000m Bullet Acceleration 🤖",
+		"☔Right Lower Flying Scope [Land] ☔",
+		"😻Left Upper Flying Scope [Land] 😻",
+		"👼Perfect Antishack [Land] 👼",
+		"🐹GodMode [Testing/Land] 😽",
+		"💣Unlimited BagPacK [Testing/Land] 💣",
+		"🔞Body Damage [New/Land] 🔞",
+		"Back",
+	}, nil, "📛 🇹 🇭 🇴 🇷 8055 📛")
+	if JM == nil then
+	else
+		if JM[1] == true then
+			RFM()
+		end
+		if JM[2] == true then
+			HA()
+		end
+		if JM[3] == true then
+			HS90()
+		end
+		if JM[4] == true then
+			HS80()
+		end
+		if JM[5] == true then
+			HHv1()
+		end
+		if JM[6] == true then
+			HHv2()
+		end
+		if JM[7] == true then
+			Wv1()
+		end
+		if JM[8] == true then
+			AM()
+		end
+		if JM[9] == true then
+			SWv2()
+		end
+		if JM[10] == true then
+			UGB()
+		end
+		if JM[11] == true then
+			CTW()
+		end
+		if JM[12] == true then
+			NF()
+		end
+		if JM[13] == true then
+			AH()
+		end
+		if JM[14] == true then
+			Wv2()
+		end
+		if JM[15] == true then
+			CH()
+		end
+		if JM[16] == true then
+			MB()
+		end
+		if JM[17] == true then
+			MBv2()
+		end
+		if JM[18] == true then
+			HMB()
+		end
+		if JM[19] == true then
+			HLH()
+		end
+		if JM[20] == true then
+			IHR()
+		end
+		if JM[21] == true then
+			QCG()
+		end
+		if JM[22] == true then
+			NR()
+		end
+		if JM[23] == true then
+			SC()
+		end
+		if JM[24] == true then
+			EA()
+		end
+		if JM[25] == true then
+			EAC()
+		end
+		if JM[26] == true then
+			MBA()
+		end
+		if JM[27] == true then
+			RLH()
+		end
+		if JM[28] == true then
+			LUH()
+		end
+		if JM[29] == true then
+			PASK()
+		end
+		if JM[30] == true then
+			GOD()
+		end
+		if JM[31] == true then
+			UBP()
+		end
+		if JM[32] == true then
+			BD()
+		end
+		if JM[33] == true then
+			Main()
+		end
+	end
+end
+function RFM()
+	RF = gg.multiChoice({
+		"🚨Fast Bullet [Land/EveryMatch] 🚨",
+		"🎡M416 Fast Bullet [Land/EverMatch] 🎡",
+		"🎢Scar Fast Bullet  [Land/EveryMatch] 🎢",
+		"🌅AKM Fast Bullet  [Land/EveryMatch] 🌅",
+		"🌆M16 Fast Bullet  [Land/EveryMatch] 🌆",
+		"🌍AWM Fast Bullet [Land/EveryMatch] 🌍",
+		"🌋98K Fast Bullet   [Land/EveryMatch] 🌋",
+		"💜M24 Fast Bullet  [Land/EveryMatch] 💜",
+		"💝VSS Fast Bullet   [Land/EveryMatch] 💝",
+		"💟All SMG Fast Bullet [Land/EveryMatch] 💟",
+		"💢Fast Arrow [Land/EveryMatch] 💢",
+		"💣Sks Fast Bullet [Land/EveryMatch]  💣",
+		"💥Mini Fast Bullet [Land/EveryMatch] 💥",
+		"💤SubMachine Fast Bullet [Land/EveryMatch] ?? ",
+		"🚨S12k Seconds Kill [Land/EveryMatch] 🚨",
+		"🙋Rifle Speed [Land/EveryMatch] 🙆 ",
+		"🐹Bow Speed [Land/EveryMatch]🐹 ",
+		"🐰Uzi Fire Rate [Land/EveryMatch]🐰 ",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if RF == nil then
+	else
+		if RF[1] == true then
+			FBG()
+		end
+		if RF[2] == true then
+			M4RF()
+		end
+		if RF[3] == true then
+			SCRF()
+		end
+		if RF[4] == true then
+			AKMRF()
+		end
+		if RF[5] == true then
+			M16RF()
+		end
+		if RF[6] == true then
+			AWMRF()
+		end
+		if RF[7] == true then
+			JBKRF()
+		end
+		if RF[8] == true then
+			M24RF()
+		end
+		if RF[9] == true then
+			VSSRF()
+		end
+		if RF[10] == true then
+			CFQRF()
+		end
+		if RF[11] == true then
+			SZRF()
+		end
+		if RF[12] == true then
+			SKS()
+		end
+		if RF[13] == true then
+			Mini()
+		end
+		if RF[14] == true then
+			SubM()
+		end
+		if RF[15] == true then
+			S12k()
+		end
+		if RF[16] == true then
+			RS()
+		end
+		if RF[17] == true then
+			BS()
+		end
+		if RF[18] == true then
+			UF()
+		end
+		if RF[19] == true then
+			Main()
+		end
+	end
+end
+function FBG()
+	gg.clearResults()
+	gg.searchNumber("0.08;0.05;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("0.0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast Bullet Completed")
+end
+function M4RF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("0.04200000272", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function SCRF()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("0.04800000022", gg.TYPE_FLOAT)
+	gg.toast("Scar Fast Bullet Completed")
+end
+function AKMRF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("0.001", gg.TYPE_FLOAT)
+	gg.toast("AKM Fast Bullet Completed")
+end
+function M16RF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("90000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("500000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("M16 Fast Bullet Completed")
+end
+function AWMRF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("500000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AWM Fast Bullet Completed")
+end
+function JBKRF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("500000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("98K Fast Bullet Completed")
+end
+function M24RF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("79000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("500000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("M24 Fast Bullet Completed")
+end
+function VSSRF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("33000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("500000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("VSS Fast Bullet Completed")
+end
+function CFQRF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(800)
+	gg.editAll("500000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("All SMG Fast Bullet Completed")
+end
+function SZRF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("16000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("200000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast Arrow Completed")
+end
+function SKS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("950000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function Mini()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("99000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("950000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function SubM()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(800)
+	gg.editAll("355555", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function S12k()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4.2038954e-45;12.0;18.0;3.5;1.1509145e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("12.0;18.0;3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.39999997616;0.89999997616;2.06999993324;4.0;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.89999997616;2.06999993324;4.0;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.39999997616;1.79999995232::16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("6.2565734e-40", gg.TYPE_FLOAT)
+	gg.toast("Processing")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("35000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1000000", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function RS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("32769;768;-2,134,900,730", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("10000", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function HA()
+	gg.clearResults()
+	gg.searchNumber("3,5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100000)
+	gg.editAll("-1E10", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function HS90()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("141", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("HIGH DAMAGE & HEADSHOT HAS BEEN ACTIVE")
+end
+function HS80()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+	gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", 16)
+	gg.toast("Success")
+end
+function HHv1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-460", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-560", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("500", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function HHv2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-460", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-560", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function Wv1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("90.775703430176;8;27.25;18;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("140", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("1.0e-7;1.0e-7;2;2;1::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function BS()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("16000", 16, false, 536870912, 0, -1)
+	gg.searchNumber("16000", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("100000", 16)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function UF()
+	gg.clearResults()
+	gg.searchNumber("0.04800000042;0.01999999955;3.09999990463", 16, false, 536870912, 0, -1)
+	gg.getResults(99)
+	gg.editAll("0.0458763180", 16)
+	gg.toast("Success")
+end
+function AM()
+	AM1 = gg.choice({
+		"👮Ultra Aimbot [Land/EveryMatch] 👮 ",
+		"😾Medium Aimbot [Land/EveryMatch] 🐹",
+		"💂Micro Aimbot [Land/EveryMatch] 💂  ",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if AM1 == 1 then
+		UAB()
+	end
+	if AM1 == 2 then
+		MAI()
+	end
+	if AM1 == 3 then
+		MAB()
+	end
+	if AM1 == 4 then
+		Main()
+	end
+end
+function UAB()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("30;30;0.3;0.3;80;25;220::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("0.03", gg.TYPE_FLOAT)
+	gg.toast("First Part")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("36;1065353216;50528513;1203982336:", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1065353216", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1,090,519,040", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function MAI()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("0;1.19193046077e-40;1;-9.6172094345093e-05;1.6815581571898e-44::384", 16, false, 536870912, 0, -1)
+	gg.searchNumber("0", 16, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("131,120.0", 16)
+	gg.toast("Success")
+end
+function MAB()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0;1.19193046077e-40;1;-9.6172094345093e-05;1.6815581571898e-44::384",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIEric_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("0", gg.TYPE_DWORD, false, gg.SIEric_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("131120.0", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function SWv2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.searchNumber("90.775703430176;8;27.25;18;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("140", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("1.0e-7;1.0e-7;2;2;1::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(20)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("SuperWallshoot")
+end
+function UGB()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("88.15017700195;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.toast("Processing30%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.toast("Processing70%")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("90.4850692749;27.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("328", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function CTW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("50;5;2;0.5;0.01:: ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("50;5;2;0.5;0.01:: ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("-0.23", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Processing")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"982622900;1956496814;1103626239982622900;1956496814;1103626239::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1956496814", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1091567616", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function NF()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("2D;256D;256D;0.96666663885117;256D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.96666663885117", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("999.9949", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function WC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.clearResults()
+	gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false)
+	gg.searchNumber("100", gg.TYPE_FLOAT, false)
+	gg.getResults(100)
+	gg.editAll("-90", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.toast("Success")
+end
+function AH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("88.15017700195;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1500", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1500", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("90.4850692749;27.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("1500", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function Wv2()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("2.8025969e-45;30;58::10%0", 16, false, 536870912, 0, -1)
+	gg.searchNumber("2.8025969e-45", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.9999997e37", 16)
+	gg.toast("Success")
+end
+function CH()
+	gg.setRanges(32)
+	gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+	gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", 16)
+	gg.toast("Success")
+end
+function MB()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.setVisible(false)
+	gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.searchNumber("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("30", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Processing")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("240", gg.TYPE_FLOAT)
+	gg.searchNumber("30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("240", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function MBv2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("2000000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("88.15017700195;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("400", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("90.4850692749;27.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("180", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function HMB()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("2000000", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function HGH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3.5F;1F;200F;20F::250", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("-999999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function IHR()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("6.7031837463;0;0;0.37999999523;1::", 16, false, 536870912, 0, -1)
+	gg.searchNumber("1", 16, false, 536870912, 0, -1)
+	gg.getResults(5)
+	gg.editAll("2.11", 16)
+	gg.clearResults()
+	gg.toast("First Step")
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.ccsetVisible(false)
+	gg.searchNumber("0.2~0.3;53;30;1::", 16)
+	gg.ccsetVisible(false)
+	gg.searchNumber("0.2~0.3;1::", 16)
+	gg.getResults(200)
+	gg.editAll("1.4012985e-45", 16)
+	gg.toast("Second Step")
+	gg.setRanges(32)
+	gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+	gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", 16)
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("0.83333331347;1;0.83333331347::321", 16, false, 536870912, 0, -1)
+	gg.searchNumber("0.83333331347", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.000001", 16)
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("3.2;1.09375;1::9", 16, false, 536870912, 0, -1)
+	gg.searchNumber("1", 16, false, 536870912, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", 16)
+	gg.toast("Success")
+end
+function QCG()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.83333331347;1;0.83333331347::321", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.83333331347", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.000001", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function NR()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("176293393;8F;9.5F;15F::", gg.TYPE_DWORD)
+	gg.searchNumber("176293393", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("176293392", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function SC()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199::",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("333.0517578125", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function EA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.53446006775", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(150)
+	gg.editAll("-249.999", gg.TYPE_FLOAT)
+	gg.toast("Extended Arms Active")
+end
+function EAC()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("-249.999", gg.TYPE_FLOAT, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.getResults(150)
+	gg.editAll("0.53446006775", gg.TYPE_FLOAT)
+	gg.toast("Extended Arms has been Closed")
+end
+function MBA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(35000, gg.TYPE_FLOAT)
+	gg.searchNumber(35000, gg.TYPE_FLOAT)
+	gg.getResults(20)
+	gg.editAll(800000, gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function RLH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("-300", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function LUH()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("18.38614845276;0.53446006775;-3.4266242981", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Success")
+end
+function PASK()
+	gg.clearResults()
+	gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false)
+	gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function GOD()
+	gg.alert("Activate When Drink Drinks🍾")
+	gg.clearResults()
+	gg.searchNumber("1.0F;0.6;0.1;0.125F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("20", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function UBP()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("70;20;15::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("70", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("99999999", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function BD()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("888", gg.TYPE_FLOAT)
+	gg.toast("Success")
+end
+function NGS()
+	XR = gg.multiChoice({
+		"☔Uzi Skin [Land] ☔",
+		"☔UMP9 Skin [Land] ☔",
+		"☔M416 Skin [Land] ☔",
+		"☔Scar Skin [Land] ☔",
+		"☔Akm Skin [Land] ☔",
+		"☔Kar98k Skin [Land] ☔",
+		"☔AWM Skin [Land] ☔",
+		"☔M164A Skin [Land] ☔",
+		"☔Pan Skin [Land] ☔",
+		"☔M416 Puzzle Skin [Land] ☔",
+		"☔Kar98k Puzzle Skin [Land] ☔",
+		"☔AWM Cherry Blossom Skin [Land] ☔",
+		"☔Mercury Assassin [Land] ☔",
+		"☔Amber Assassin [Land] ☔",
+		"☔Desert Geely [Land] ☔",
+		"☔Green Land [Land] ☔",
+		"☔Golden Dragon Trench Coat [Land] ☔",
+		"☔Akm Red Orange [Land] ☔",
+		"☔Akm Silver [Land] ☔",
+		"☔Akm Black Gold [Land] ☔",
+		"☔Akm White Red [Land] ☔",
+		"☔Scar Fury [Land] ☔",
+		"☔Scar Black Gold [Land] ☔",
+		"☔Scar Red Orange [Land] ☔",
+		"☔Scar White Red [Land] ☔",
+		"☔M416 Red [Land] ☔",
+		"☔M416 Cherry Blossom [Land] ☔",
+		"☔M416 Black Gold [Land] ☔",
+		"☔M416 Colour Mix [Land] ☔",
+		"☔M16 Blue Orange [Land] ☔",
+		"☔M16 Rose [Land] ☔",
+		"☔M16 Fury [Land] ☔",
+		"☔UMP9 Red Orange [Land] ☔",
+		"☔UMP9 Silver Eagle [Land] ☔",
+		"☔UMP9 Cherry Blossom [Land ] ☔",
+		"☔Kar98k Color Matching [Land] ☔",
+		"☔Kar98k Color Mix [Land] ☔",
+		"☔Kar98k Red [Land] ☔",
+		"Back",
+	}, nil, "📛🇹 🇭 🇴 🇷 8055 📛")
+	if XR == nil then
+	else
+		if XR[1] == true then
+			d1()
+		end
+		if XR[2] == true then
+			d2()
+		end
+		if XR[3] == true then
+			d3()
+		end
+		if XR[4] == true then
+			d4()
+		end
+		if XR[5] == true then
+			d5()
+		end
+		if XR[6] == true then
+			d6()
+		end
+		if XR[7] == true then
+			d7()
+		end
+		if XR[8] == true then
+			d8()
+		end
+		if XR[9] == true then
+			d9()
+		end
+		if XR[10] == true then
+			d10()
+		end
+		if XR[11] == true then
+			d11()
+		end
+		if XR[12] == true then
+			d12()
+		end
+		if XR[13] == true then
+			d13()
+		end
+		if XR[14] == true then
+			d14()
+		end
+		if XR[15] == true then
+			d15()
+		end
+		if XR[16] == true then
+			d16()
+		end
+		if XR[17] == true then
+			d17()
+		end
+		if XR[18] == true then
+			d18()
+		end
+		if XR[19] == true then
+			d19()
+		end
+		if XR[20] == true then
+			d20()
+		end
+		if XR[21] == true then
+			d21()
+		end
+		if XR[22] == true then
+			d22()
+		end
+		if XR[23] == true then
+			d23()
+		end
+		if XR[24] == true then
+			d24()
+		end
+		if XR[25] == true then
+			d25()
+		end
+		if XR[26] == true then
+			d26()
+		end
+		if XR[27] == true then
+			d27()
+		end
+		if XR[28] == true then
+			d28()
+		end
+		if XR[29] == true then
+			d29()
+		end
+		if XR[30] == true then
+			d30()
+		end
+		if XR[31] == true then
+			d31()
+		end
+		if XR[32] == true then
+			d32()
+		end
+		if XR[33] == true then
+			d33()
+		end
+		if XR[34] == true then
+			d34()
+		end
+		if XR[35] == true then
+			d35()
+		end
+		if XR[36] == true then
+			d36()
+		end
+		if XR[37] == true then
+			d37()
+		end
+		if XR[38] == true then
+			d38()
+		end
+		if XR[39] == true then
+			Main()
+		end
+	end
+end
+function d1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10200100;102001::20", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10200100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("102001001", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10200200;102002::20", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("102002003", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d3()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100400;101004::20", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("101004001", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100300;101003::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("101003004", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d5()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100100;101001::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("101001004", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d6()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300100;103001::20", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("103001001", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d7()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300300;103003::20", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(2)
+	gg.editAll("103003001", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d8()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100200;101002::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("101002002", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d9()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10800400;108004::30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10800400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(99)
+	gg.editAll("108004004", gg.TYPE_DWORD)
+	gg.toast("Success")
+	gg.clearResults()
+end
+function d10()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101004004", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d11()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("103001003", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d12()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300300;103003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("103003001", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d13()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("403251", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403190", gg.TYPE_DWORD)
+	gg.toast("First Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("404007", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403190", gg.TYPE_DWORD)
+	gg.toast("Second Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403190", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d14()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("403251", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403189", gg.TYPE_DWORD)
+	gg.toast("First Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("404007", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403189", gg.TYPE_DWORD)
+	gg.toast("Second Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403189", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d15()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("403251", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403187", gg.TYPE_DWORD)
+	gg.toast("First step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("404007", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403187", gg.TYPE_DWORD)
+	gg.toast("Second Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403187", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d16()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("403251", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403182", gg.TYPE_DWORD)
+	gg.toast("First step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("404007", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403182", gg.TYPE_DWORD)
+	gg.toast("Second step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403182", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d17()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("403251", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403188", gg.TYPE_DWORD)
+	gg.toast("First Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("404007", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403188", gg.TYPE_DWORD)
+	gg.toast("Second Step")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("403251;404007;405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("405011", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("403188", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d18()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101001001", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d19()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101001002", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d20()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101001003", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d21()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101001004", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d22()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101003001", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d23()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101003002", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d24()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101003003", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d25()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101003004", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d26()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101004003", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d27()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101004001", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d28()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101004002", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d29()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100400;101004", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100400", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101004004", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d30()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100200;101002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101002002", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d31()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100200;101002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101002004", gg.TYPE_DWORD)
+	gg.toast("success")
+end
+function d32()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10100500;101002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("101002006", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d33()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10200200;102002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("102002001", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d34()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10200200;102002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("102002002", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d35()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10200200;102002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10200200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("102002003", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d36()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("103001001", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d37()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("103001003", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function d38()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("103001005", gg.TYPE_DWORD)
+	gg.toast("Success")
+end
+function EXIT()
+	gg.toast("🌀 trOy 🌀")
+	print("🌀🇹 🇭 🇴 🇷 8055 🌀")
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		XCGK = 1
+		gg.setVisible(false)
+	end
+	if XCGK == 1 then
+		Main()
+	end
+end
+--Decrypted by @hohoholol

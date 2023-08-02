@@ -1,0 +1,85 @@
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+
+function main()
+	Menu = gg.choice(
+		{ "Gasoline Hack", "Money Hack", "Fly Hack", "Free Shop", "Exit" },
+		nil,
+		"Hill Climb Racing Script By Luckyday999"
+	)
+
+	if Menu == 1 then
+		F1()
+	end
+	if Menu == 2 then
+		F2()
+	end
+	if Menu == 3 then
+		F3()
+	end
+	if Menu == 4 then
+		F4()
+	end
+	if Menu == 5 then
+		Exit()
+	end
+end
+
+function F1()
+	gg.searchNumber("100", gg.TYPE_FLOAT)
+	gg.getResults(100)
+	gg.editAll("-999999999", gg.TYPE_FLOAT)
+	gg.toast("Gasoline Hack")
+end
+
+function F2()
+	local t = gg.prompt({ "Enter the amount of money you have; if none or under 500 use free shop" })
+
+	if t == nil then
+		os.exit()
+	end
+
+	gg.clearResults(20000)
+	gg.searchNumber(t[1], gg.TYPE_DWORD)
+	gg.getResults(20000)
+	gg.editAll("99999999", gg.TYPE_DWORD)
+	gg.clearResults(20000)
+	gg.toast("Unlimited Money Enabled")
+end
+
+function F3()
+	gg.searchNumber("-10", gg.TYPE_FLOAT)
+	gg.getResults(100)
+	gg.editAll("2", gg.TYPE_FLOAT)
+	gg.toast("Fly Hack ON")
+end
+
+function F4()
+	local n = gg.prompt({ "Enter the price of the car you want" })
+
+	if n == nil then
+		os.exit()
+	end
+
+	gg.clearResults(20000)
+	gg.searchNumber(n[1], gg.TYPE_DWORD)
+	gg.getResults(20000)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.clearResults(20000)
+	gg.toast("Free Shop Enabled")
+end
+
+function Exit()
+	gg.clearResults()
+	os.exit()
+end
+
+main()
+
+while true do
+	while gg.isVisible(true) do
+		gg.setVisible(false)
+		main()
+	end
+end

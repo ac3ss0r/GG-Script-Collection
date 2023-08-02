@@ -1,0 +1,72 @@
+homeMenuOpen = 0
+lang = 0
+function homeMenu()
+	if lang == 0 then
+		homeMenuChoice = gg.choice({ "〘BYPASS〙", "Color Acid Old", "Color Acid New", "⌫EXIT⌦" })
+	end
+	homeMenuCount = 0
+	if homeMenuChoice == 1 then
+		bypass()
+	end
+	if homeMenuChoice == 2 then
+		colorAcidOld()
+	end
+	if homeMenuChoice == 3 then
+		colorAcidNew()
+	end
+	if homeMenuChoice == 4 then
+		exit()
+	end
+end
+
+function colorAcidOld()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("256;8200;16;15", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(180)
+	gg.editAll("6", gg.TYPE_DWORD)
+	gg.toast("Color Acid activated")
+	gg.clearResults()
+end
+
+function colorAcidNew()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("256;8200;16;15", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchAddress("0A0", 0xFFFFFFFF)
+	gg.getResults(180)
+	gg.editAll("6", gg.TYPE_DWORD)
+	gg.toast("Color Acid activated")
+	gg.clearResults()
+end
+
+function bypass()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1D;1F;1E;1Q;1X", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+end
+
+function exit()
+	os.exit()
+end
+
+while true do
+	if gg.isVisible(true) then
+		homeMenuCount = 1
+		gg.setVisible(false)
+	end
+	if homeMenuCount == 1 then
+		homeMenu()
+	end
+	if i == 1 and lang == 0 then
+		lang = 1
+		i = 0
+		homeMenu()
+	end
+	if i == 1 and lang == 1 then
+		lang = 0
+		i = 0
+		homeMenu()
+	end
+end

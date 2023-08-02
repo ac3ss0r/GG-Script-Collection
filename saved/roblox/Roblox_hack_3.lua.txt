@@ -1,0 +1,257 @@
+--Script by joystickplays, if you need some copy from my work, please credit me.--
+gg.setVisible(false)
+gg.alert(
+	"As like every script in the whole universe, there is always bugs, so if you find any, please let me know in the reviews :*"
+)
+::restart::
+gg.toast("Running the scirpt disk rummage.. affecting the absorption of commands.. Script successfully executed!")
+gg.alert(
+	"Update version: 3, Update: Added some future commands, and some easter egg, and fixed the update log. Future updates: see how it works while its editing (Line of codes: 172!) Script written and love made by: JP(Joystickplays). thanks for using my script!"
+)
+::menu::
+input = gg.prompt(
+	{ "Enter a command, start with an -! If the command you typed is not on the list it will open the help dialog." },
+	{ [1] = "-help" },
+	{ [1] = "text" }
+)
+if input == nil then
+	gg.alert("No command inserted, shutting down..")
+	print(
+		"SCRIPT ERROR: Scirpt has shutdown automatically. REASON34: EmptystringatCOMMAND. Script left message when ending:"
+	)
+	os.exit()
+end
+if input[1] == "-help" then
+	goto helpcommand
+end
+if input[1] == "-speedhack" then
+	goto speedhacksmenu
+end
+if input[1] == "-prisonhelp" then
+	goto prisonhelp
+end
+if input[1] == "/AKSevenFourAmmo" then
+	goto AKgun
+end
+if input[1] == "/RemingtonAmmo" then
+	goto Remingtongun
+end
+if input[1] == "/MNineAmmo" then
+	goto mninegun
+end
+if input[1] == "-airjump" then
+	goto ComingSoon
+end
+if input[1] == "-noclip" then
+	goto ComingSoon
+end
+if input[1] == "-restart" then
+	goto restart
+end
+if input[1] == "-moneyeditor" then
+	goto monedit
+end
+if input[1] == "-deleteroblox" then
+	goto easteregg1
+end
+if input[1] == "-hidescript" then
+	goto ComingSoon
+end
+if input[1] == "-dialog" then
+	goto dialogearly
+end
+
+::helpcommand::
+
+gg.alert(
+	"Here are the commands that can be used the prefix is always -, make sure all is - caps sensitive!                                                                                                                                                       -help = shows this dialog                                                                                                                                                      -speedhack = sets your character speed at an amount                                                                                                                                                      -prisonhelp = shows help for prison life hacks                                                                           -noclip = lets you walk through walls, may take a couple of tries                                                                                                                                                      -restart = restarts the scirpt                                                                                                                                                      -moneyeditor = edits a price of an item                                                                                                                                                      -airjump = makes you able to jump in mid-air.                                                                           -hide = hides the script(Coming soon)                                                                           -dialog = shows a list of commands in  a dialog instead inputting commands in the command bar.(EarlyStage)                                                                                                                                                      - But there is still hidden/easter egg commands, try finding in the codes or by other people!"
+)
+goto menu
+
+::ComingSoon::
+gg.alert(
+	"This function is coming soon in the next version! If a function is available on previous version but now is not, it means the function is currently buggy."
+)
+goto menu
+
+::speedhacksmenu::
+menu = gg.choice({ "100", "200", "Custom", "Back" })
+if menu == 1 then
+	goto speed1
+end
+if menu == 2 then
+	goto speed2
+end
+if menu == 3 then
+	goto speedcus
+end
+if menu == 4 then
+	goto menu
+end
+
+::success::
+gg.alert("Command executed! Scripted by joystickplays.")
+goto menu
+
+::speed1::
+gg.toast("Making a fast boot Lv.10.. Please wait!")
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(47)
+gg.editAll("100", gg.TYPE_DOUBLE)
+gg.alert("Make an emote at the game (like sit) apply effects.")
+goto success
+
+::speed2::
+gg.toast("Making a fast boot Lv.20.. Please wait! ")
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(47)
+gg.editAll("200", gg.TYPE_DOUBLE)
+gg.alert("Make an emote at the game (like sit) to apply effects.")
+goto success
+
+::speedcus::
+input = gg.prompt({ "How fast?" }, { [2] = "20" }, { [2] = "slider" })
+gg.toast("Making a fast boot Lv.?.. please wait!")
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(47)
+gg.editAll(input[2], gg.TYPE_DOUBLE)
+gg.alert("Make an emote at the game (like sit) to apply effects.")
+goto success
+
+::prisonhelp::
+gg.alert(
+	"Prison life hacks, prefix is /! |/AKFourSevenAmmo = sets your AK47 to 999999 ammo (Mess your chat bubble) |/RemingtonAmmo = Sets your Remington gun to 999999 ammo (Crashes the game) |/MNineAmmo = sets your M9 gun to 999999 ammo."
+)
+goto menu
+
+::mninegun::
+gg.toast("Making a 999999 slot ammo and 999999 ammo.. please wait!")
+gg.searchNumber("15", gg.TYPE_DOUBLE)
+gg.getResults(45)
+gg.editAll("999999", gg.TYPE_DOUBLE)
+goto success
+
+::AKgun::
+gg.toast("Making an ammo generator.. Please wait!")
+gg.searchNumber("30", gg.TYPE_DOUBLE)
+gg.getResults(95)
+gg.editAll("999999", gg.TYPE_DOUBLE)
+goto success
+
+::Remingtongun::
+gg.toast("Expanding the ammo slot.. please wait!")
+gg.searchNumber("15", gg.TYPE_DOUBLE)
+gg.getResults(45)
+gg.editAll("999999", gg.TYPE_DOUBLE)
+goto success
+
+::airwalkmenu::
+menu = gg.choice({ "On", "Off" })
+if menu == nil then
+	goto menu
+end
+if menu == 1 then
+	gg.toast("Creating a feet booster.. please wait")
+	gg.searchNumber("1.1", gg.TYPE_FLOAT)
+	gg.getResults(226)
+	gg.editAll("10.1.0", gg.TYPE_FLOAT)
+	goto success
+end
+if menu == 2 then
+	gg.toast("Getting your feet booster off.. please wait")
+	gg.searchNumber("10.1.0", gg.TYPE_FLOAT)
+	gg.getResults(224)
+	gg.editAll("1.1", gg.TYPE_FLOAT)
+	goto success
+end
+
+::noclipmenu::
+gg.alert("This needs several shots to able to work.")
+menu = gg.choice({ "On", "Off" })
+if menu == nil then
+	goto menu
+end
+if menu == 1 then
+	gg.toast("Liquifying walls.. please wait")
+	gg.searchNumber("0.80000001192", gg.TYPE_FLOAT)
+	gg.getResults(2)
+	gg.editAll("1.10000002384", gg.TYPE_DOUBLE)
+	goto success
+end
+if menu == 2 then
+	gg.toast("Spraying cement on the walls.. please wait")
+	gg.searchNumber("1.10000002384", gg.TYPE_DOUBLE)
+	gg.getResults(2)
+	gg.editAll("0.80000001192", gg.TYPE_DOUBLE)
+	goto success
+end
+
+::monedit::
+input = gg.prompt({ "Enter the cost of the item" }, { [3] = "20" }, { [3] = "number" })
+gg.toast("Dealing with the seller, please wait")
+gg.searchNumber(input[3])
+gg.getResults(100)
+gg.editAll("-99999999")
+gg.alert("The price has set to -99999999, after buying, you should have a lot of money.")
+goto success
+
+::easteregg1::
+menu = gg.choice({ "Yes", "No" }, label, "Are you sure you want to delete roblox?")
+if menu == 1 then
+	gg.alert(
+		"GAMEGUARDIAN SECURITY ALERT - The script *Roblox Hack* is trying to delete *Roblox*, we blocked the script for your security."
+	)
+	goto menu
+end
+if menu == 2 then
+	goto menu
+end
+
+::dialogearly::
+menu = gg.choice(
+	{ "Yes, show me the early release,", "No, keep using input" },
+	label,
+	"This function is coming soon, but do you wanna see an EARLY stage of this function?"
+)
+if menu == 1 then
+	goto dialog
+end
+if menu == 2 then
+	goto menu
+end
+
+::dialog::
+menu = gg.choice(
+	{ "Speed hack menu", "Air jump", "No clip", "Money editor", "Prison life commands", "Exit" },
+	label,
+	"This is just an early stage, never said to be always working, and after running some commands, they can go back to input mode than dialog mode."
+)
+
+if menu == 1 then
+	goto speedhacksmenu
+end
+if menu == 2 then
+	goto ComingSoon
+end
+if menu == 3 then
+	goto ComingSoon
+end
+if menu == 4 then
+	goto monedit
+end
+if menu == 5 then
+	gg.alert("This is just an early stage, so this is not available now.")
+	goto dialog
+end
+if menu == 6 then
+end
+menu = gg.choice({ "Yes", "No" }, label, "Are you sure you want to switch to input mode back?")
+if menu == nil then
+	goto dialog
+end
+if menu == 1 then
+	goto menu
+end
+if menu == 2 then
+	goto dialog
+end

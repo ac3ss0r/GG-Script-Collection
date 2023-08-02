@@ -1,0 +1,16 @@
+gg.alert("Script Creado Por HerbyKillerYT! Spanish")
+gg.alert("Usa La Version 22.9.1 | Mantente Seguro que este seleccionado tu progreso al cual quieres subir de nivel ")
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(
+	"h F4 0F 1E F8 F3 7B 01 A9 13 79 02 D0 34 57 02 90 68 B2 63 39 94 82 45 F9 C8 00 00 37 20 57 02 90",
+	gg.TYPE_BYTE
+)
+gg.getResults(gg.getResultCount())
+gg.editAll(
+	"h A0 F0 8F D2 C0 03 5F D6 F3 7B 02 A9 B4 F6 01 D0 88 BA 78 39 F3 03 00 AA 28 01 00 37 E0 D3 01 90",
+	gg.TYPE_BYTE
+)
+gg.clearResults()
+gg.alert("Completado! Juega Una Partida, Cualquier duda hablame al zBlueDragon#9049")

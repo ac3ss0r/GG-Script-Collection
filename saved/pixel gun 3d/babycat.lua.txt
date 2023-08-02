@@ -1,0 +1,6 @@
+function cat()
+	gg.copyText("babycat#0001")
+	os.exit()
+end
+
+cat()

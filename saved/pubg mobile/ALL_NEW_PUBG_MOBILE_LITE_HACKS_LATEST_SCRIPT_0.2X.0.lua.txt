@@ -1,0 +1,2241 @@
+gg.alert ('Suscribe To TAMG-GAMING')
+gg.alert ('KEEP FOLLOWING TO TAIEF. I AM NOT RESPONSIBLE FOR GAME CRASH OR BAN . IT IS DEPENDING ON YOUR DEVICE AND USE WISELY')
+gg.alert ('THIS IS THE FIRST SCRIPT THAT IS MADE BY ME And I DONT ALLOW HACKING, THIS IS JUST FOR YOUR EDUCATIONAL PURPOSE')
+﻿              -- Script By TAIEF (YT; TAMG-GAMING) 
+               ---(sorry for some mistake)--
+-- Contact? : gamingtam54@gmail.com --
+             -- Do no be hamperful to other--
+              --ALMOST ALL HACKS ARE HERE --
+           -- This is script special for you--
+      --(Hacks May Not Work For Your Mistakes) --
+function BP()
+gg.toast("Bypass Working...")
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1", gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1", gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1", gg.TYPE_QWORD | gg.TYPE_XOR | gg.TYPE_FLOAT | gg.TYPE_WORD | gg.TYPE_BYTE | gg.TYPE_DOUBLE | gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.toast("Bypass Completed")
+gg.toast("Bypass Successful! - TAM CAN DO")
+end
+function startBypass()
+  gg.setVisible(false)
+  bypassAlert = gg.alert("✨ Welcome To TAIEF'S HACKING CODE✨\n YT-TAMG GAMING \nYou Wanna Bypass?", "🚫 NO", "✔ YES") if bypassAlert == 2 then BP() end
+end
+startBypass()
+      -- Script By TAMG-GAMING --
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+HOME = 1
+function HOME()
+  MN = gg.choice ({
+  	
+  
+    "Bypass Lobby", -- 1
+    "BEST WALL AND COLOR (RECOMMEND ALL SD HACK)", -- 2
+    "TAMG'S VIP", -- 3
+    "TAMG'S SPECIAL", -- 4
+    "TAMG'S Skin", --5
+    "MY Private", -- 6
+    "Anti Report", -- 7
+    "WHAT'S VIP", -- 8
+    "⛔ EXIT ⛔",
+    
+},nil,(os.date("==================\n😎 Welcome to TAMG-GAMING 😎\nYT-TAMG-GAMING  Do Not Be Hamperful To Other Almost All Hacks Are Here . Hack May Not Work For Your Mistake. Some Mistake \nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+ if MN == nil then
+  else
+  if MN == 1 then BYPASS() end
+  if MN == 2 then WH() end
+  if MN == 3 then VIP() end
+  if MN == 4 then MAP() end
+  if MN == 5 then WP() end
+  if MN == 6 then SD() end
+  if MN == 7 then ANTI() end
+  if MN == 8 then IV() end
+  if MN == 9 then CLOSE() 
+     end
+  end
+  PUBGMH = -1
+end
+function WH()
+MN2 = gg.multiChoice({
+" Fix Wallhack Blink V1 (Island)", --1
+"Fix Wallhack Blink V2 (Landing)", --2
+"Wallhack Fix Scope&Blink", --3
+"Wallhack SD400/415", --4
+"Wallhack 425 V1", --5
+"Wallhack 425 V2", --6
+"Wallhack 435 ", --7
+"Wallhack 450 ", --8
+"Wallhack 615 ", --9
+" Wallhack 625 ", --10
+"Wallhack 626 ", --11
+" Wallhack 650 ", --12
+"Wallhack 660 ", --13
+"Wallhack 800/801 ", --14
+"Wallhack 820/821 ", --15
+"🔰 Wallhack 835 V1 ", --16
+"Wallhack 835 V2 ", --17
+"Wallhack 845 V1 ", --18
+"Wallhack 845 V2 ", --19
+"�� Wallhack All Snapdragon", --20
+"Wallhack All Mediatek", --21
+" Colour White Mediatek", --22
+"Colour Black Mediatek", --23
+"Colour Purple HDR", --24
+"Colour Yellow HDR", --25
+"Colour Mix", --26
+"Colour Orange", --27
+"Colour Purple", --28
+"Colour Red V1", --29
+"Colour Red V2", --30
+"Colour Green V1", --31
+" Colour Green V2", --32
+"Colour Yellow V1", --33
+" Colour Yellow V2", --34
+"Colour Blue V1", --35
+"Colour Blue V2", --36
+"Colour SD400 Yellow", --37
+"Colour SD425 Red", --38
+"Colour SD425 Purple", --39
+"Colour SD615 Yellow", --40
+"Colour SD615 Blue", --41
+"Colour SD660 Yellow", --42
+"Colour SD835/845 Green", --43
+"Colour SD845 Yellow", --44
+"Car Colour", --45
+"Black Sky", --46
+"� Black Sky SD400+", --47
+"White Sky", --48
+"� Red Sky", --49
+" Rainbow Sky", --50
+"� Dark Land", --51
+"Snow Land", --52
+" Colour Zombie ", --53
+	"🚫 BACK 🚫", --54
+	  }, nil, (os.date("==================\n😎 Wallhack Fitur 😎\n follow: TAIEF\nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+  if MN2 == nil then
+  else
+  if MN2[1] == true then FWB1() end --1
+  if MN2[2] == true then FWB2() end --2 
+  if MN2[3] == true then WFC01() end --3
+  if MN2[4] == true then WS400() end --4
+  if MN2[5] == true then WS4251() end --5
+  if MN2[6] == true then WS4252() end --6
+  if MN2[7] == true then WS435() end --7
+  if MN2[8] == true then WS450() end --8
+  if MN2[9] == true then WS615() end --9
+  if MN2[10] == true then WS625() end --10 
+  if MN2[11] == true then WS626() end --11
+  if MN2[12] == true then WS650() end --12
+  if MN2[13] == true then WS660() end --13
+  if MN2[14] == true then WS800() end --14
+  if MN2[15] == true then WS820() end --15
+  if MN2[16] == true then WS8351() end --16
+  if MN2[17] == true then WS8352() end --17
+  if MN2[18] == true then WS8451() end--18
+  if MN2[19] == true then WS8452() end --19
+  if MN2[20] == true then WHALLSNAP() end --20
+  if MN2[21] == true then WAMED() end --21
+  if MN2[22] == true then CWM1() end --22
+  if MN2[23] == true then CBM1() end --23
+  if MN2[24] == true then CPHDR() end --24
+  if MN2[25] == true then CYHDR() end --25
+  if MN2[26] == true then CMIX() end --26
+  if MN2[27] == true then CO1() end --27
+  if MN2[28] == true then CP1() end --28
+  if MN2[29] == true then CRED1() end --29
+  if MN2[30] == true then CRED2() end --30
+  if MN2[31] == true then CGR1() end --31
+  if MN2[32] == true then CGR2() end --32
+  if MN2[33] == true then CYE1() end --33
+  if MN2[34] == true then CYE2() end --34
+  if MN2[35] == true then CBL1() end --35
+  if MN2[36] == true then CBL2() end --36
+  if MN2[37] == true then C400Y() end --37
+  if MN2[38] == true then C425R() end --38
+  if MN2[39] == true then C425P() end --39
+  if MN2[40] == true then C615Y() end --41
+  if MN2[41] == true then C615B() end --42
+  if MN2[42] == true then C660Y() end --43
+  if MN2[43] == true then C835G() end --44
+  if MN2[44] == true then C845Y() end --45
+  if MN2[45] == true then CARC() end --46
+  if MN2[46] == true then BSKY() end --47
+  if MN2[47] == true then BSKY400() end --48
+  if MN2[48] == true then WSKY() end --49
+  if MN2[49] == true then RSKY() end --50
+  if MN2[50] == true then RNSKY() end --51
+  if MN2[51] == true then DLAN() end --52
+  if MN2[52] == true then SLAN() end --53
+  if MN2[53] == true then COZZ() end --54
+  if MN2[54] == true then HOME() end --55
+  end
+  PUBGMH = -1
+end
+          
+           
+function COZZ()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("4", gg.TYPE_DWORD)
+gg.toast("Colour - Tam")
+gg.clearResults()
+end
+function SLAN()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("3.75000119209;2;2.00000023842;2.00000047684;2.7506108284;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("417", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Snow Land Active - TAM CAN DO")
+gg.clearResults()
+end
+          -- Script By TAIEF --
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function DLAN()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("3.75000119209;2;2.00000023842;2.00000047684;2.7506108284;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("888", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Dark Land Active - TAIEF")
+gg.clearResults()
+end
+        
+           
+function RNSKY()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8200D;11D;48D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("3", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Red Sky Active - TAIEF")
+gg.clearResults()
+end
+function RSKY()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("671236105;1074792717;8200;1194363663;11::17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("5", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Red Sky Active - TAIEF")
+gg.clearResults()
+end
+function WSKY()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("671236105;1074792717;8200;1194363663;11::17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("1", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("White Sky Active - TAM CAN DO")
+gg.clearResults()
+end
+         
+           
+function BSKY400()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1,120,403,456;0;1,220,861,952::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,120,403,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("-1,027,211,264", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Black Sky SD400+ Active - TAIEF")
+gg.clearResults()
+end
+function BSKY()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("100F;1F;1,008,981,770D:99", gg.TYPE_FLOAT, false)
+gg.searchNumber("100", gg.TYPE_FLOAT, false)
+gg.getResults(100)
+gg.editAll("-90", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Black Sky Active - TAMG")
+gg.clearResults()
+end
+function CARC()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("538968080D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("538968080", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("-999", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Car Colour Active - TAMG")
+gg.clearResults()
+end
+function C835G()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("69,780;147457;69707", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("147457", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("9", gg.TYPE_DWORD)
+gg.toast("Colour SD660 Yellow Active - TAMG")
+gg.clearResults()
+end
+function C660Y()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("3,874;201,851,904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("683128", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber(" 3,846;201,851,904;16", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("201,851,904", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("683128", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour SD660 Yellow Active - TAMG")
+gg.clearResults()
+end
+function C615B()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1D;2D;91D:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1;2;91", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("5", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour SD615 Blue Active - TAMG")
+gg.clearResults()
+end
+function C615Y()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8.201D;8.202D;538.968.081D:29")
+gg.searchNumber("8201;8202;538968081")
+gg.getResults(5)
+gg.editAll("8", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour SD615 Yellow Active - TAMG")
+gg.clearResults()
+end
+function C425B()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)
+gg.editAll("856130", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("196610;1280;196608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("196608", gg.TYPE_DWORD, false)
+gg.getResults(10)
+gg.editAll("9999", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour SD425 Blue Active - TAMG")
+gg.clearResults()
+end
+function C425P()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790,580;856,128;856,130:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("856138", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("856,128;856,130;393,222:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("856138", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("196,610;1,280;196,608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("196,608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("9999", gg.TYPE_DWORD, false, 536870912, 0, -1)
+gg.clearResults()
+gg.toast("Colour SD425 Purple Active - TAMG")
+gg.clearResults()
+end
+function C425R()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("856128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)
+gg.editAll("856140", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("196610;1280;196608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("196608", gg.TYPE_DWORD, false)
+gg.getResults(10)
+gg.editAll("9999", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour SD425 Red Active - Tam")
+gg.clearResults()
+end
+function C400Y()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("790,580;856,128;856,130:17", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("856133", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("856,128;856,130;393,222:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("856,128", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("856133", gg.TYPE_DWORD)
+gg.clearResults()
+gg.searchNumber("196,610;1,280;196,608:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("196,608", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("9999", gg.TYPE_DWORD, false, 536870912, 0, -1)
+gg.clearResults()
+gg.toast("Colour SD400 Yellow Active - Tam")
+gg.clearResults()
+end
+function CBL2()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("8202", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour Blue V2 Active - TAMG")
+gg.clearResults()
+end
+function CBL1()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-2,146,959,358;8200;96", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6666", gg.TYPE_DWORD)
+gg.toast("Colour Blue V1 Active - TAM")
+gg.clearResults()
+end
+function CYE2()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("256;8200;13::150", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour Yellow V2 Active - TAM")
+gg.clearResults()
+end
+function CYE1()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false)
+gg.searchNumber("8200", gg.TYPE_DWORD, false)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.toast("Colour Yellow V1 Active - TAM")
+gg.clearResults()
+end
+function CGR2()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("32769;768;-2134900730", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("32769", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("32781", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour Green V2 Active - TAM")
+gg.clearResults()
+end
+function CGR1()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("69,778;1,669,332,992;11;536,887,297::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("69778;11", gg.TYPE_DWORD, false)
+gg.getResults(4)
+gg.editAll("32777", gg.TYPE_DWORD)
+gg.toast("Colour Green V1 Active -TAM")
+gg.clearResults()
+end
+function CRED2()
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("7", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour Red V2 Active - TAM")
+gg.clearResults()
+end
+function CRED1()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("96D;8200;196,615", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("7", gg.TYPE_DWORD)
+gg.toast("Colour Red V1 Active - TAM")
+gg.clearResults()
+end
+function CP1()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Colour Purple Active - TAM")
+gg.clearResults()
+end
+function CO1()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.1490647e-41;1.0863203e-19::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.0863203e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("1.0863203e-25", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Colour Orange Active - TAM")
+gg.clearResults()
+end
+function CMIX()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3912525e-19F;8200;96", gg.TYPE_DWORD, false)
+gg.searchNumber("8200", gg.TYPE_DWORD, false)
+gg.getResults(10)
+gg.editAll("8205", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour Mix Active - TAM")
+gg.clearResults()
+end
+function CYHDR()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("96;539,246,604;8200;1,194,380,058::13", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.toast("Colour Yellow HDR Active - TAM")
+gg.clearResults()
+end
+function CPHDR()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8,196D; 256D; 8,204D; 256D; 8,200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8,200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(12)
+gg.editAll("16", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Colour Purple HDR Active - TAM")
+gg.clearResults()
+end
+function CBM1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.05499718338;1.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-10", gg.TYPE_FLOAT)
+gg.toast("Colour White Black Active - TAM")
+gg.clearResults()
+end
+function CWM1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("573.70306396484;0.05499718338;1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("15", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Colour White Mediatek Active - Tam")
+gg.clearResults()
+end
+function WAMED()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("10000;0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(true)
+gg.setVisible(false)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("0.5;360;640;1;1;1;-640;360::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("0", gg.TYPE_FLOAT)
+jg=gg.getResults(100)
+sl=gg.getResultCount(jg)
+	 if sl>100 then sl=100 end
+	 for i = 1, sl do
+	 	 dzy=jg[i].address
+	 	 gg.addListItems({[1] = {address = dzy,flags = gg.TYPE_FLOAT,freeze = true,value = 0.5}})
+	 end
+gg.clearResults()
+gg.toast("Wallhack All Mediatek Active - Tam")
+gg.clearResults()
+end
+function WHALLSNAP()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4.7961574e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack All Snapdrgon Active - TAMG")
+gg.clearResults()
+end
+function WS8452()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.3680222e21;1.3312335e-43;1.3912563e-19;2.0;1.6623075e-19::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.201992e21;4.4028356e-29;2.25000452995;2.0;1.6623054e-19::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0;0.24022650719;0.69314718246;0.00999999978::29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3312335e-43F;1.391256e-19F;2.0F;1.6623108e-19F;9.2194229e-41F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3912537e-19F;3.7615819e-37F;2.0F;-1.0F;1.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4.4028356e-29F;2.25000452995F;2.0F;1.6623054e-19F;7.1054282e-15F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("Wallhack 845 V2 Active - Tam")
+gg.clearResults()
+end
+function WS8451()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 845 V1 Active - Tam")
+gg.clearResults()
+end
+function WS8352()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.0;4.7961574e21;4.7408166e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2.0;4.8699472e21;4.8699466e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("50%")
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("Wallhack 835 V2 Active - Tam")
+gg.clearResults()
+end
+function WS8351()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.1097599e21;2.0;1.6623071e-19::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-0.01000213623;2;-1;0;0.04000854492", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 835 V1 Active - TAM")
+gg.clearResults()
+end
+function WS820()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3912552e-19;0;3.7615819e-37;0;0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("350", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("-5.5695588e-40;4.814603e21;0;3.7615819e-37;-0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("350", gg.TYPE_FLOAT)
+gg.toast("Wallhack 820 Active - TAM")
+gg.clearResults()
+end
+function WS800()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 800 Active - TAM")
+end
+function WS660()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4,140D;4.7408166e21;5.6896623e-29;4.7961574e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("200,866D;0.24022650719;0.69314718246;0.00999999978;1;-1;2;-127:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("32,770D;0.01799999923;0.29907226562;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(4)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("50,331,648D;0.01799999923;0.29907226562;0.5869140625;0.11401367188;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("266,400D;0.24022650719;0.69314718246;0.00999999978;1;-1;-127;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("50,331,648D;0.04000854492;0.11999511719;-0.02749633789;-0.57177734375;-1;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("4,140D;4.7408149e21;-5.5695588e-40;4.814603e21;3.7615819e-37;2:", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.toast("Wallhack 650 Active - Tam")
+end
+function WS650()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 650 Active - Tam")
+end
+function FWB1()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Fix Wallhack Blink V1 Active - Tam")
+end
+function FWB2()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("6.50000333786;1.1202013e-19;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("99999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4140D;1.1202011e-19~1.1202013e-19;1.1202015e-19~1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("99999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Fix Wallhack Blink V2 Active - Tam")
+end
+function WFC01()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3312335e-43;120;1.6623075e-19;9.2194229e-41")
+gg.searchNumber("120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4.8146053e21;1.3912556e-19;1.5414283e-44;120;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack Fix Scope&Blink Active - Tam")
+end
+function WS400()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_HEAP)
+gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("1,123,024,896", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_HEAP)
+gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack SD400/415 Active -Tam")
+end
+function WS4251()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("2.9427268e-44;2.0;3.0828566e-44;-1.0;3.2229865e-44;3.3631163e-44;3.643376e-44:97", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("3.1529215e-43;2.0F;3.1669345e-43F;3.1809475e-43:49", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 425 V1 Active - Tam")
+end
+function WS4252()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("228;1,073,741,824;1,073,741,824;229;-1,082,130,432:29", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,073,741,824", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("1,123,024,896", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("3.3631163e-44;2.0;3.5032462e-44;-1.0;3.643376e-44;3.7835059e-44;-1.0;3.9236357e-44;4.0637655e-44;1.0;-127.0:129", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 425 V2 Active - Tam")
+end
+function WS435()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2;3.7615819e-37;4.814603e21;4.7408149e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2;3.7615819e-37;1.3912552e-19;4.9252829e21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 435 Active - Tam")
+end
+function WS450()
+gg.clearResults()
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.1202013e-19;1.1202017e-19;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4.7961574e21;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 450 Active - Tam")
+end
+function WS615()
+gg.setRanges(gg.REGION_C_HEAP)
+gg.searchNumber("3.2229865e-43;2.0;-1.0;-1.0;2.0:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("122", gg.TYPE_FLOAT)
+gg.toast("Wallhack 615 Active - Tam")
+end
+function WS625()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 625 Active - Tam")
+end
+function WS626()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 626 Active - Tam")
+end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function VIP()
+FiturVip = gg.multiChoice({
+"Antena V1 [Game]",
+" Antena V2 [Lobby]",
+"No Recoil [PickGun]",
+" SitScope ON [Game]",
+" SitScope OFF [Game]",
+" Auto Headshot 95% [Lobby]",
+"Magic Bullet Tracking [Lobby]",
+"High Damage [Game]",
+"Sit Stand Scope [Game]",
+"Wallshoot [Game]",
+" Quick Shoot [Game]",
+"Anti Shake [PickGun]",
+" Fast Kill [Game]",
+" Speed Shoot All Weapon [Game]",
+" Quick Change Weapon [Game]",
+"Speed 2.5 [Game]",
+"Wall Jump [Game]",
+" Speed Run No Lag [Game]",
+"Speed Jeep [InVehicle]",
+"Jeep Acceleration [InJeep]",
+"Jeep Fly&Underwater [InJeep]",
+" Long Jump [Game]",
+" Super Jump [Lobby/Game]",
+"No Foot Step [Game]",
+"Fast Parachute [Lobby]",
+	"🚫 BACK 🚫",
+	  }, nil, (os.date("==================\n😎 Vip Fitur 😎\nFollow;  TAIEF\nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+  if FiturVip == nil then
+  else
+  if FiturVip[1] == true then Antena1() end
+  if FiturVip[2] == true then Antena2() end
+  if FiturVip[3] == true then NoRecInGame() end
+  if FiturVip[4] == true then SitScopeOn() end
+  if FiturVip[5] == true then SitScopeOff() end
+  if FiturVip[6] == true then Headshot95() end
+  if FiturVip[7] == true then MagicBullet() end
+  if FiturVip[8] == true then HighDamage() end
+  if FiturVip[9] == true then SitStandScope() end
+  if FiturVip[10] == true then Wallshoot() end
+  if FiturVip[11] == true then QuickShoot() end
+  if FiturVip[12] == true then AntiShake() end
+  if FiturVip[13] == true then FastKill() end
+  if FiturVip[14] == true then SpeedShoot() end
+  if FiturVip[15] == true then QuickChange() end
+  if FiturVip[16] == true then Speed25() end
+  if FiturVip[17] == true then WallJump() end
+  if FiturVip[18] == true then SpeedRun() end
+  if FiturVip[19] == true then JeepSpeed() end
+  if FiturVip[20] == true then JeepAcceleration() end
+  if FiturVip[21] == true then JeepFly() end
+  if FiturVip[22] == true then LongJump() end
+  if FiturVip[23] == true then SuperJump() end
+  if FiturVip[24] == true then NoFoot() end
+  if FiturVip[25] == true then FastPara() end
+  if FiturVip[26] == true then HOME() end
+  end
+  PUBGMH = -1
+end
+function Antena1()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("87.27782440186F;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("87.27782440186F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("888", gg.TYPE_FLOAT)
+gg.searchNumber("888F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.searchNumber("2F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("87.27782440186F;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("87.27782440186F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("888", gg.TYPE_FLOAT)
+gg.searchNumber("888F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.searchNumber("2F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Antena V1 Active - TAM CAN DO")
+end
+function Antena2()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88.50576019287F;87.27782440186F;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(7)
+gg.editAll("1.96875", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("1.96875F;1.96875F;-100.91194152832;1F::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("976", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultCount()
+gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("16000", gg.TYPE_FLOAT)
+gg.toast("Antena V2 Active - TAM CAN DO")
+end
+function NoRecInGame()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+gg.getResults(200)
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("No Recoil Ingame Active - TAM CAN DO")
+end
+function SitScopeOn()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("333.0517578125", gg.TYPE_FLOAT)
+gg.toast("SitScope Active - Tam")
+end
+function JeepFly()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.74509805441", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(9999)
+gg.editAll("99999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("45F;15F;20F;2500F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(999)
+gg.editAll("500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Jeep Fly&Underwater Active - TAIEF")
+end
+function SitScopeOff()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-0.67914116382599;-0.20633073151112;-0.68966287374496;9.49029350281;0.0064272880554199::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("9.49029350281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("333.0517578125", gg.TYPE_FLOAT)
+gg.toast("SitScope Deactive - TAM")
+end
+function FastPara()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.75;150;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("30", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.75;150;30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.75", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Fast Parachute Active - TAM CAN DO")
+end
+function Headshot95()
+gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("240", gg.TYPE_FLOAT)
+  gg.clearResults()
+gg.toast("Auto Headshot 95% Active - TAM")
+end
+function SuperJump()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("3", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("3;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("443", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("2500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("300;300;60000;600;8192;0;2;0;0;2048;0;300;0;0.05::120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0;0.05", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("1000", gg.TYPE_FLOAT)
+gg.toast("Super Jump Active - TAMG GAMING")
+end
+function MagicBullet()
+gg.clearResults()
+  gg.setRanges(gg.REGION_CODE_APP)
+  gg.searchNumber("0.0001;360.0;0.0;1,478,828,416.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Magic Bullet Active - TAMG GAMING")
+end
+												         -- Script By YamrajKaBaap --
+												-- Contact? : t.me/YamrajKaBaap (Telegram) --
+												             -- Don't Selling This Script --
+												    -- This is script special for Vip Member ! --
+function HighDamage()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("High Damage Active - TAIEF")
+end
+function SitStandScope()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("18.38614845276;0.53446006775;-3.4266242981", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.getResults(500)
+gg.editAll("200", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Sit Stand Scope Active - TAM")
+end
+function Wallshoot()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("90.775703430176;8;27.25;18;16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("140", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("1.0e-7;1.0e-7;2;2;1::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("Wallshoot Active - TAM")
+end
+function QuickShoot()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("35000", gg.TYPE_FLOAT)
+gg.searchNumber("35000")
+gg.getResults(20)
+gg.editAll("800000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Quick Shoot Active - TAM")
+end
+function AntiShake()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.clearResults()
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1000)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("Anti Shake Active - Tam")
+end
+function FastKill()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("88.15017700195;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("90.4850692749;27.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1500", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("1,104,805,888D;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(250)
+gg.editAll("100", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("FastKill Active - TAM")
+end
+						          -- Script By Tam--
+						-- Contact? : gamingtam54@gmail.com --
+						             -- Don't Selling This Script --
+						           -- This is script special for you --
+function SpeedShoot()
+gg.searchNumber("0.08;0.05;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99)
+gg.editAll("0.0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.08600000292", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("0.04200000272", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.09600000083", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("0.04800000022", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("30D;10D;0F~1F;257D;3D::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.10000000149", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("0.001", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("90000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("91000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("79000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("33000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("40000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(800)
+gg.editAll("500000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("16000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("200000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Speed Shoot Active -TAM")
+end
+          -- Script By YamrajKaBaap --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function QuickChange()
+gg.searchNumber("0.83333331347;1;0.83333331347::321 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.83333331347", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.000001", gg.TYPE_FLOAT)
+gg.toast("Quick Change Active - Tam")
+end
+function Speed25()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.7", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Speed 2.5 Active - TAM CAN DO")
+end
+function WallJump()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("3.5032462e-44F;10.0F;45.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wall Jump Active - TAM")
+end
+          -- Script By YamrajKaBaap --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function SpeedRun()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1;120;0.5;50;100;60,000.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.setVisible(false)
+gg.clearResults()
+gg.toast("Speed Run Active - TAM")
+end
+          -- Script By YamrajKaBaap --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function JeepSpeed()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("-999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Jeep Speed Active - TAM CAN DO")
+end
+          -- Script By YamrajKaBaap --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function JeepAcceleration()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("-999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Jeep AccelerationActive - TAIEF")
+gg.clearResults()
+end
+          -- Script By YamrajKaBaap --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function LongJump()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("0.6", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("300;300;60000;600;8192;0;2;0;0;2048;0;300;0;0.05::120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0;0.05", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("1000", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Long Jump Active - TAIEF")
+end
+          -- MADE BY TAM--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function NoFoot()
+gg.clearResults()
+  gg.setRanges(gg.REGION_C_ALLOC)
+  gg.searchNumber("2D;20.0E;1,077,149,696D;1.5e-323E::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("20", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("800", gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast("No Foot Step Active - TAM")
+end
+          -- Script By TAIEF--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function MAP()
+MN14 = gg.multiChoice({
+" Less Recoil (Pick Gun)", --1
+" No Recoil 99% (Pick Gun)", --2
+"Less Recoil OneClick (Lobby)", --3
+"No Recoil OneClick (Game)", --4
+" Anti-Shake (Gun)", --5
+"♉ Medium Aimbot (Game)", --6
+" Super Ultra Aimbot (Game)", --7
+" Bullet Headshot (Lobby)", --8
+"Magic Bullet (Game)", --9
+"High Damage++ (Game)", --10
+"Semi Aimlock Head (Game)", --11
+"Super Aimlock+ (Game)", --12
+"X Effect Shoot Kill (Game)", --13
+" Small Crosshair (With gun)", --14
+" Kar98 Burst (With gun)", --15
+"AWM Burst (With gun)", --16
+	"🚫 BACK 🚫", -- Back To Return 
+	  }, nil, (os.date("==================\nOther Fitur\nYT:TAMG GAMING\nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+  if MN14 == nil then
+  else
+  if MN14[1] == true then LRPG() end
+  if MN14[2] == true then NRPG() end
+  if MN14[3] == true then LRLO() end
+  if MN14[4] == true then NRONE() end
+  if MN14[5] == true then ASG() end
+  if MN14[6] == true then MEAG() end
+  if MN14[7] == true then SUAG() end
+  if MN14[8] == true then BHLO() end
+  if MN14[9] == true then MBGA() end
+  if MN14[10] == true then HDGA() end
+  if MN14[11] == true then SAHG() end
+  if MN14[12] == true then SAGA() end
+  if MN14[13] == true then XESK() end
+  if MN14[14] == true then SCWG() end
+  if MN14[15] == true then K98B() end
+  if MN14[16] == true then AWMB() end
+  if MN14[17] == true then HOME() end
+  end
+  PUBGMH = -1
+end
+          -- Script By YamrajKaBaap --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function AWMB()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("91,000.0;2.29999995232;1.79999995232:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2.29999995232;1.79999995232:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("AWM Burst Active -TAM")
+ gg.clearResults()
+ end
+function K98B()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("128D;-1D;1.7;0.3::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.7", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("76000;5D;1.89999997616;0.1::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.89999997616", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Kar98 Burst Active - TAM WAS UNABLE")
+ gg.clearResults()
+ end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function SCWG()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("2~4;1.09375;1;18;3.5::25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2~4;1.09375::5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2~4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(50)
+gg.editAll("-0.5", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Small Crosshair Active - TAM")
+ gg.clearResults()
+ end
+function XESK()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10;45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("X Effect Shoot Active - TAM")
+ gg.clearResults()
+ end
+function SAGA()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT)
+gg.getResultsCount()
+gg.getResults(200)
+gg.editAll("999999999", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Semi Aimlock Active - TAM")
+ gg.clearResults()
+ end
+function SAHG()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0.07", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_DATA)
+gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("9999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("0.0001;360.0;0.0;1,478,828,416.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(2)
+gg.editAll("999", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Semi Aimlock Head Active - TAM")
+ gg.clearResults()
+ end
+          -- Script By TAIEF --
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function HDGA()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("90.775703430176;0;8;15;16;18;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1000", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("High Damage++ Active - TAM CAN DO")
+ gg.clearResults()
+ end
+          -- Script By Taief --
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function MBGA()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1,048,130,372D;16;12.66705417633;1,119,194,409D;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(3)
+gg.editAll("121", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Magic Bullet Active - TAIEF")
+ gg.clearResults()
+end
+          -- Script By TAIEF --
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function BHLO()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10;35;33;69.5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("130", gg.TYPE_FLOAT)
+ gg.toast("Bullet Headshot Active - TAIEF")
+ gg.clearResults()
+end
+          -- Script By gamingtam54@gmail.com --
+-- Contact? : @YamrajGamingYT (Telegram) --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function SUAG()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(600)
+gg.editAll("99999", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-88.82363891602F;15.0F;1", gg.TYPE_FLOAT)
+gg.searchNumber("1", gg.TYPE_FLOAT)
+gg.getResults(2000)
+gg.editAll("20000000000000", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Super Ultra AimBot Active - TAM CAN DO")
+ gg.clearResults()
+end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function ASG()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+gg.getResults(200)
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Anti Shake Active - TAM")
+ gg.clearResults()
+end
+          -- Script By Tam --
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function NRONE()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("50;200;0.5;40.0;0.3:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("300", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1;10000D;100000:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("0.001", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+gg.getResults(200)
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("No Recoil All weapons Active - TAIEF")
+ gg.clearResults()
+end
+          -- Script By Tam --
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function LRLO()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(800)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.clearResults()
+ gg.toast("Less Recoil Lobby Active - TAM")
+ gg.clearResults()
+end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function NRPG()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.setVisible(false)
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+gg.setVisible(false)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+gg.getResults(200)
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+ gg.toast("No Recoil Active - TAIEF")
+ gg.clearResults()
+end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+function LRPG()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("50;200;0.5;40.0;0.3:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("300", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1;10000D;100000:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("0.001", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT)
+gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+gg.getResults(200)
+gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Less Recoil Active - TAM")
+end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function ANTI()
+ANTI14 = gg.multiChoice({
+"> Bypass [Land]", --1
+"> Anti Report [Game]", --2
+" > Antiban 10 Min [Game]", --3
+" > Antiban 10 Min V2 [Game]", --4
+	"🚫 BACK 🚫", --Back To Return
+	  }, nil, (os.date("==================\n😎 Anti Report Fitur 😎\nYT; TAMG GAMING\nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+  if ANTI14 == nil then
+  else
+  if ANTI14[1] == true then RB1() end
+  if ANTI14[2] == true then RB2() end
+  if ANTI14[3] == true then AB1() end
+  if ANTI14[4] == true then AB2() end
+  if ANTI14[5] == true then HOME() end
+  end
+  PUBGMH = -1
+end
+function RB1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.toast("Bypass [Land] Active - TAM")
+end
+          -- Script By Taief --
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function RB2()
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("3.7615819e-37F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("3.7615819e-37F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("3.7615819e-37F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("3.7615819e-37F;2.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("257;2131;0F~99999F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.searchNumber("0F~99999F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber("-1.3068388e21;-9.3858979e22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("-9.3858979e22", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-5112e21", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1.4012985e-45;5.6051939e-45;2.986167e-42::", gg.TYPE_FLOAT)
+gg.searchNumber("2.986167e-42", gg.TYPE_FLOAT)
+gg.getResults(999)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+  gg.toast("Anti Report [Game] Active - Tam")
+end
+          -- Script By TAIEF--
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function RB3()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1954047316;1970037078", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1954047316;1970037078", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(99)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.toast("25%")
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1,953,260,900;1,835,619,425", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1,953,260,900;1,835,619,425", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_DWORD)
+gg.toast("50%")
+gg.clearResults()
+gg.setVisible(false)
+gg.clearResults()
+gg.clearResults()
+gg.searchNumber("909391408;808923191::8", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultCount()
+gg.toast("75%")
+gg.clearResults()
+gg.searchNumber("257D;0~99999F;1D;0D::300", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultCount()
+gg.searchNumber("0~9999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("Successful!")
+  gg.toast("Reduce Risk Ban V3 Active - TAM WAS UNABLE")
+end
+          -- Script By Tam --
+-- Contact? gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function AB1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("16610;8388646;8388805", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("9", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Anti Banned 10 Min V1 Active - Yamraj Ka Baap")
+end
+          -- Script By Taief --
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function AB2()
+gg.alert("Activated when at 20 People left and 7 People left!") 
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("16610;8388646;8388805", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("2", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Anti Banned 10 Min V2 Active - TAIEF")
+end
+          -- Script By Tam --
+-- Contact? : gamingtam54@gmail.com--
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function WP()
+ZOOM14 = gg.multiChoice({
+"AK Skin 2019", --1
+"Scar Skin 2019", --2
+"M416 Skin 2019", --3
+"M16 Skin 2019", --4
+"kar98k Skin 2019", --5
+"AK Red Orange", --6
+"AK Silver", --7
+"AK Black Gold", --8
+"AK White Red", --9
+"�SCAR Fury", --10
+"SCAR Black Gold", --11
+"SCAR Red Orange", --12
+"SCAR White Red", --13
+"M416 Cherry Blossom", --14
+"M416 Black Gold", --15
+"M416 Red Red", --16
+	"🚫 BACK 🚫", -- Back To Neturn
+	  }, nil, (os.date("==================\n😎 Skin Fitur 😎\nYT; TAMG GAMING\nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+  if ZOOM14 == nil then
+  else
+  if ZOOM14[1] == true then AS2019() end
+  if ZOOM14[2] == true then SS2019() end
+  if ZOOM14[3] == true then M41619() end
+  if ZOOM14[4] == true then M1619() end
+  if ZOOM14[5] == true then K9819() end
+  if ZOOM14[6] == true then AKREO() end
+  if ZOOM14[7] == true then AKSR1() end
+  if ZOOM14[8] == true then AKBGO() end
+  if ZOOM14[9] == true then AKWRE() end
+  if ZOOM14[10] == true then SCARF1() end
+  if ZOOM14[11] == true then SCARBG() end
+  if ZOOM14[12] == true then SCARRO() end
+  if ZOOM14[13] == true then SCARWR() end
+  if ZOOM14[14] == true then M416CB() end
+  if ZOOM14[15] == true then M416BG() end
+  if ZOOM14[16] == true then M416RR() end
+  if ZOOM14[17] == true then HOME() end
+  end
+  PUBGMH = -1
+end
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function AKSR1()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("101001001", gg.TYPE_DWORD)
+  gg.toast("M16 Skin 2019 Active - Tam")
+  end
+  
+          -- Script By Tam--
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function AKREO()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10100100;101001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10100100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("101001001", gg.TYPE_DWORD)
+  gg.toast("M16 Skin 2019 Active - TAM")
+  end
+          -- Script By Taief--
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function K9819()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10300100;103001", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10300100", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1103001042", gg.TYPE_DWORD)
+gg.clearResults()
+  gg.toast("M16 Skin 2019 Active - TAM")
+  end
+  
+          -- Script By Taief--
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function M1619()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10100200;101002", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10100200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1101002001", gg.TYPE_DWORD)
+gg.clearResults()
+  gg.toast("M416 Skin 2019 Active - TAM")
+end
+function M41619()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1101003016", gg.TYPE_DWORD)
+gg.clearResults()
+  gg.toast("M416 Skin 2019 Active - TAM")
+end
+function SS2019()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10100300;101003", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10100300", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("1101003016", gg.TYPE_DWORD)
+gg.clearResults()
+  gg.toast("Scar Skin 2019 Active - TAM")
+end
+function AS2019()
+gg.clearResults()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0D;0D;11.02999973297::9", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("11.02999973297", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("7.02999973297", gg.TYPE_FLOAT)
+gg.clearResults()
+  gg.toast("AK Skin 2019 Active - TAM")
+end
+function SD()
+LB1 = gg.multiChoice({
+"🌠 > WH 845 + Yellow Color", --1
+"🌠 > WH 615 + Blue Color", --2
+"🌠 > WH Mediatek + White Colour", --3
+	"🚫 BACK 🚫", --Back To Return
+	  }, nil, (os.date("==================\n😎 Snapdragon Fitur 😎\nYt; TAMG GAMING\nNow Time : [%X]\nNow Date [%x]\nNow Day : [%A]\n==================")))
+  if LB1 == nil then
+  else
+  if LB1[1] == true then Wh845() end
+  if LB1[2] == true then Wh615() end
+  if LB1[3] == true then WhMediatek() end
+  if LB1[4] == true then HOME() end
+  end
+  PUBGMH = -1
+end
+function Wh845()
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("274,677,779D;2.25000452995;2;1.6623054e-19", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(20)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("218D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("95D;2;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(15)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("206D;3.7615819e-37;2;-1;1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("130", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Wallhack 845 Active - TAM")
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1,114,128D;1,661,468,689D;8,200D;1,194,380,054D;41,943,040D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("96D;539,246,604D;8,200D;1,194,380,058D;1,376,273D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("6", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Color Yellow 845 Active - TAM")
+end
+function Wh615()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_HEAP)
+gg.searchNumber("3.2229865e-43F;2.0F;-1.0F;-1.0F;2.0F:145", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(360)
+gg.editAll("150", gg.TYPE_FLOAT)
+gg.clearResults()
+ gg.toast("Wallhack 410 Active - Taief")
+ 
+ gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1D;2D;91D:25", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("1;2;91", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(5)
+gg.editAll("5", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Color Blue 410/615 Active - Tam")
+end
+function WhMediatek()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("1.4061078e-19;8.4077908e-44;4.2038954e-45;1.4012985e-45;5.8294016e-43;1.4012985e-45;2.8025969e-45;0.5;10000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.getResultCount()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("8.4077908e-44;4.2038954e-45;1.4012985e-45;5.8294016e-43;2.8025969e-45;2.7550649e-40;4.5917748e-40;0.5;10000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.getResultCount()
+gg.toast("Wallhack Mediatek Active - Tam")
+gg.clearResults()
+gg.searchNumber("56;64;48::40", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("56", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("55", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("Color Mediatek Active -Tam")
+end
+function CLOSE()
+  print("⚠ Script By TAM")
+  gg.skipRestoreState()
+  os.exit()
+  gg.setVisible(true)
+end
+          -- Script By TamG Gaming--
+-- Contact? : gamingtam54@gmail.com --
+             -- Don't Selling This Script --
+           -- This is script special for you --
+           
+function BYPASS()
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.toast("50%")
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.clearResults()
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.toast("70%")
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC)
+gg.searchNumber("257;2131;0F~99999F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResultsCount()
+gg.searchNumber("0F~99999F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(10)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Bypass Lobby Work - TAM ")
+end
+function IV()
+gg.alert("\n================== \nIndonesia 🇮🇩\nBerikut ini adalah fitur yang akan didapatkan di VIP TAM \n> Aimlock Super \n> Damage++ \n> No Recoil 100% \n> Speed No Lag /n> Sniper No Reload \n \nDan Akan mendapatkan seperti berikut ini \n> Host VIP \n> Trick VIP \n> Script VIP \n> Turtor VIP \n> Anti Detect 95% \n############################ \nEnglish 🇬🇧 \nThe following are the features that will be obtained at VIP Tam \n> Aimlock Super \n> Damage ++ \n> No Recoil 100% \n> Speed No Lag \n> Sniper No Reload \n \nAnd will get like this \n> VIP Host \n> VIP trick \n> VIP Script \n> VIP Turtor \n> Anti Detect 95% ")
+end
+while true do
+  if gg.isVisible(true) then
+    PUBGMH = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if PUBGMH == 1 then
+    HOME()
+  end
+end
+L0_0 = L0_0
+L0_0 = L0_0
+L0_0 = L0_0
+

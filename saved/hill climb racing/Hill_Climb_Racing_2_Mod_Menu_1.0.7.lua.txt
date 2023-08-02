@@ -1,0 +1,349 @@
+if gg.isVisible(false) then
+	gg.toast("[LOADING: 1]")
+	gg.sleep(190)
+	gg.toast("[LOADING: 4]")
+	gg.sleep(190)
+	gg.toast("[LOADING: 12]")
+	gg.toast("[LOADING: 15]")
+	gg.sleep(154)
+	gg.toast("[LOADING: 24]")
+	gg.sleep(234)
+	gg.toast("[LOADING: 26]")
+	gg.sleep(110)
+	gg.toast("[LOADING: 34]")
+	gg.toast("[LOADING: 37]")
+	gg.sleep(160)
+	gg.toast("[LOADING: 42]")
+	gg.sleep(210)
+	gg.toast("[LOADING: 53]")
+	gg.sleep(221)
+	gg.toast("[LOADING: 59]")
+	gg.sleep(299)
+	gg.toast("[LOADING: 66]")
+	gg.sleep(190)
+	gg.toast("[LOADING: 72")
+	gg.sleep(128)
+	gg.toast("[LOADING: 84]")
+	gg.sleep(124)
+	gg.toast("[LOADING: 99]")
+	gg.sleep(480)
+	gg.toast("[LOADING: 100]")
+	gg.sleep(222)
+	gg.alert("✓PREPARED THE SCRIPT✓")
+
+	-----------------------------------------------------------------------------
+
+	gg.alert("Script by MURXENZO")
+	gg.alert("Some values are not mine!")
+	gg.setVisible(false)
+end
+
+------------------------------------------------------------------------------
+
+function main()
+	Menu = gg.choice(
+		{
+			"【🔥】 Hotrod hack",
+			"【⚙️】 Off Hotrod hack",
+			"【💨】 Fly hack",
+			"【⚙️】 Off Fly hack",
+			"【⏩】 Speed hack",
+			"【⚙️】 Off Speed hack",
+			"【🔓】 Unlock Every Vehicle(ONLY BRONZE)",
+			"【🏎】 Downforce hack",
+			"【⚙️】 Off Downforce hack",
+			"【💨】 Fly hack2(Enable after starting race)",
+			"【💨】 Air Drag hack sometimes not work",
+			"【⚙️】 Off Air Drag hack",
+			"【🌟】 FAKE RANK HACK(REACH 480 BRONZE)",
+			"【🌟】 FAKE RANK HACK 2(REACH 960, ENABLE AT RACE THEN EXIT)",
+			"【🏎】 Downforce hack2 (Higher force)",
+			"【⚙️】 Off Downforce hack2",
+			"【🏁】 Autowin hack",
+			"【⚙️】 Off Autowin hack",
+			"[Exit]",
+		},
+		nil,
+		"(More coming soon) -⚠WARNING⚠: DO NOT GET ANY ATTENTION OF OTHER PLAYERS OR DONT JOIN A TEAM AND DONT SHOW UP ON LEADERBOARD IF YOU WANT YOUR ACCOUNT TO LAST LONG"
+	)
+
+	------------------------------------------------------------------------------
+
+	if Menu == 1 then
+		F1()
+	end
+	if Menu == 2 then
+		F2()
+	end
+	if Menu == 3 then
+		FA()
+	end
+	if Menu == 4 then
+		FB()
+	end
+	if Menu == 5 then
+		F69()
+	end
+	if Menu == 6 then
+		F96()
+	end
+	if Menu == 7 then
+		F23()
+	end
+	if Menu == 8 then
+		F0()
+	end
+	if Menu == 9 then
+		F8()
+	end
+	if Menu == 10 then
+		F4()
+	end
+	if Menu == 11 then
+		F7()
+	end
+	if Menu == 12 then
+		F3()
+	end
+	if Menu == 13 then
+		FR()
+	end
+	if Menu == 14 then
+		FR2()
+	end
+	if Menu == 15 then
+		DWN()
+	end
+	if Menu == 16 then
+		DWNO()
+	end
+	if Menu == 17 then
+		AUTO()
+	end
+	if Menu == 18 then
+		NOUTO()
+	end
+	if Menu == 19 then
+		F45()
+	end
+end
+
+------------------------------------------------------------------------------
+
+function F1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("10", gg.TYPE_FLOAT)
+	gg.getResults(46)
+	gg.editAll("50000", gg.TYPE_FLOAT)
+	gg.toast("✓HOTROD HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function F2()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("50000", gg.TYPE_FLOAT)
+	gg.getResults(100)
+	gg.editAll("10", gg.TYPE_FLOAT)
+	gg.toast("×HOTROD HACK DISABLED×")
+end
+
+------------------------------------------------------------------------------
+
+function FA()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+	gg.searchNumber("1.21408491E-11", gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll("9.32067518e-21", gg.TYPE_FLOAT)
+	gg.toast("✓FLY HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function FB()
+	gg.toast("×RESTART GAME×")
+end
+
+------------------------------------------------------------------------------
+
+function F69()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+	gg.searchNumber("-1.13333332539", gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll("-0.97", gg.TYPE_FLOAT)
+	gg.toast("✓SPEED HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function F96()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP | gg.REGION_CODE_SYS)
+	gg.searchNumber("-0.97", gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll("-1.13333332539", gg.TYPE_FLOAT)
+	gg.toast("×SPEED HACK DISABLED×")
+end
+
+------------------------------------------------------------------------------
+
+function F23()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1F~50F;49D::10", gg.TYPE_FLOAT)
+	gg.getResults(1999)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.toast("✓BRONZE UNLOCK ALL ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function F0()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_BSS | gg.REGION_CODE_APP)
+	gg.searchNumber("-10", gg.TYPE_FLOAT)
+	gg.getResults(1999)
+	gg.editAll("-50", gg.TYPE_FLOAT)
+	gg.toast("✓DOWNFORCE HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function F45()
+	gg.toast("Hope you liked it! - by MURXENZO")
+	gg.clearResults()
+	os.exit()
+end
+
+------------------------------------------------------------------------------
+
+function F8()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_BSS | gg.REGION_CODE_APP)
+	gg.searchNumber("-50", gg.TYPE_FLOAT)
+	gg.getResults(1999)
+	gg.editAll("-10", gg.TYPE_FLOAT)
+	gg.toast("×DOWNFORCE HACK DISABLED×")
+end
+
+------------------------------------------------------------------------------
+
+function F4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber(
+		"9.99999982E-14~1,000.0;9.99999996E-13~1,000.0;9.99999982E-14~1,000.0;9.99999982E-14~1,000.0;0.0;0.0~1.0;1.0;0.0::35",
+		gg.TYPE_FLOAT
+	)
+	gg.getResults(9999)
+	gg.refineNumber("0")
+	gg.getResults(5999)
+	gg.editAll("-14.69690036774", gg.TYPE_FLOAT)
+	gg.toast("✓FLY HACK2 ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function F7()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("0.08", gg.TYPE_FLOAT)
+	gg.getResults(100)
+	gg.editAll("-100", gg.TYPE_FLOAT)
+	gg.toast("✓AIR DRAG HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function F3()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("-100", gg.TYPE_FLOAT)
+	gg.getResults(19999)
+	gg.editAll("0.08", gg.TYPE_FLOAT)
+	gg.toast("×AIR DRAG HACK DISABLED×")
+end
+
+------------------------------------------------------------------------------
+
+function FR()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_BSS | gg.REGION_OTHER)
+	gg.searchNumber("0.480", gg.TYPE_FLOAT)
+	gg.getResults(9999)
+	gg.toast("✓GO RACE AGAIN TO GET 960✓")
+end
+
+------------------------------------------------------------------------------
+
+function FR2()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_BSS | gg.REGION_OTHER)
+	gg.refineNumber("0.960", gg.TYPE_FLOAT)
+	gg.getResults(999)
+	gg.editAll("9999999", gg.TYPE_FLOAT)
+	gg.toast("✓RANK HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function DWN()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_BSS | gg.REGION_CODE_APP)
+	gg.searchNumber("-10", gg.TYPE_FLOAT)
+	gg.getResults(1999)
+	gg.editAll("-100", gg.TYPE_FLOAT)
+	gg.toast("✓DOWNFORCE2 HACK ENABLED✓")
+end
+
+------------------------------------------------------------------------------
+
+function DWNO()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_C_BSS | gg.REGION_CODE_APP)
+	gg.searchNumber("-100", gg.TYPE_FLOAT)
+	gg.getResults(1999)
+	gg.editAll("-10", gg.TYPE_FLOAT)
+	gg.toast("×DOWNFORCE2 HACK DISABLED×")
+end
+
+------------------------------------------------------------------------------,
+
+function AUTO()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-6.87475854e-10", gg.TYPE_FLOAT)
+	gg.getResults(9999)
+	gg.editAll("2.52178774e-32", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("-1.25169189e-13", gg.TYPE_FLOAT)
+	gg.getResults(9999)
+	gg.editAll("-1.18067801e-13", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber("7.97954073e-23", gg.TYPE_FLOAT)
+	gg.getResults(9999)
+	gg.editAll("8.06225879e-23", gg.TYPE_FLOAT)
+	gg.toast("✓AUTOWIN HACK ENABLED, USE AUTOCLICK AND SPEEDHACK✓")
+end
+
+------------------------------------------------------------------------------
+
+function NOUTO()
+	gg.toast("×RESTART GAME×")
+end
+
+------------------------------------------------------------------------------
+
+main()
+
+while true do
+	while gg.isVisible(true) do
+		gg.setVisible(false)
+		main()
+	end
+end

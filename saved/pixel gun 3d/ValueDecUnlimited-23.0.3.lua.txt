@@ -1,0 +1,74 @@
+--[[	RandomUser#1734		]]
+
+--search
+sHex = "00 A0 00 91 E1 03 1F AA 1B 36 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 F5 DE 01 D0 B4 BA 01 B0"
+
+--edit
+eHex = "60 E5 A1 D2 C0 03 5F D6 1B 36 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 F5 DE 01 D0 B4 BA 01 B0"
+
+i = 1
+
+--Menu
+function Menu()
+	clear()
+	local me = gg.choice({
+		"Cancel", --[[1]]
+		"VD3 Inf (sure?)",
+	}, --[[2]] {}, "Are you sure to use Unlimited currency?")
+	if me == nil then
+		gg.toast("Canceled")
+	end
+	if me == 1 then
+		os.exit()
+	end
+	if me == 2 then
+		gg.setRanges(gg.REGION_CODE_APP)
+		ValueDec()
+	end
+end
+
+---------------
+function ValueDec()
+	--Start
+	i = 0
+	clear()
+	gg.searchNumber("h" .. sHex, b) -- Search
+	get()
+	check()
+	if check == 0 then
+		os.exit()
+	else
+		gg.editAll("h" .. eHex, b) -- Edit
+		clear() --End 6
+		i = 1
+		--End
+	end
+end
+
+b = 1
+
+---------------
+function clear()
+	gg.getResults(gg.getResultsCount())
+	gg.clearResults()
+end
+function get()
+	gg.getResults(gg.getResultsCount())
+end
+function check()
+	gg.getResults(gg.getResultsCount())
+	local check = gg.getResultsCount()
+	if check == 0 then
+		gg.toast("Results Found 0")
+		E = 0
+	else
+		E = 1
+	end
+	cnt = check
+end
+
+print("")
+print("Script by RandomUser#1734")
+print("")
+
+Menu() -- Start Menu

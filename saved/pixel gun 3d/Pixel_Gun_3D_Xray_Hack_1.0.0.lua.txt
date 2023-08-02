@@ -1,0 +1,164 @@
+function decimalToHex(num) -- From https://stackoverflow.com/questions/37796287/convert-decimal-to-hex-in-lua-4
+	if num == 0 then
+		return "0"
+	end
+	local neg = false
+	if num < 0 then
+		neg = true
+		num = num * -1
+	end
+	local hexstr = "0123456789ABCDEF"
+	local result = ""
+	while num > 0 do
+		local n = (num % 16)
+		result = string.sub(hexstr, n + 1, n + 1) .. result
+		num = math.floor(num / 16)
+	end
+	if neg then
+		result = "-" .. result
+	end
+	return result
+end
+
+function iszoomvalueinlist()
+	listitems = gg.getListItems()
+	for i = 1, #listitems do
+		if listitems[i].name == "Zoom Value" then
+			return true
+		end
+	end
+	return false
+end
+
+function getzoomvalue()
+	gg.setVisible(false)
+	gg.toast("Finding zoom value")
+	--Initalize
+	gg.clearList()
+	--The zoom value is in the same spot as this qword value. Searching 1 (the zoom value) in float will give us tons of results, but searching this big value in qword and getting the float value in the same spot as it will only give us 2 results.
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	--Use a group search to eliminate some results
+	gg.searchNumber("-4,436,591,651,086,925,824Q;1,727,027,215D:9", gg.TYPE_AUTO)
+	gg.refineNumber("-4,436,591,651,086,925,824", gg.TYPE_QWORD)
+	if gg.getResultsCount() == 0 then
+		--If the group search didn't work, settle for the normal one.
+		gg.clearResults()
+		gg.searchNumber("-4,436,591,651,086,925,824", gg.TYPE_QWORD)
+	end
+	foundresults = gg.getResults(gg.getResultsCount())
+	--Check if we got any results - if we didn't, the hack will not work.
+	if #foundresults ~= 0 then
+		--[[ --We get two results. The one that isn't the zoom value is related to the zoom value and it's dword value changes permanently when we edit the zoom value. We take advantage of this by changing both candidates for the zoom value, waiting a second, and changing it back. This causes the false one's dword value to change, helping us find the correct zoom value.
+for i = 1, #foundresults do
+result = foundresults[i]
+-- Get the float value in the same spot as the qword value.
+gg.clearResults()
+gg.searchAddress(decimalToHex(result.address),0xFFFFFFFF,gg.TYPE_FLOAT)
+-- Change the float value - one of these is the zoom value. This will make the dword value of the false one permanently change.
+gg.getResults(gg.getResultsCount())
+gg.editAll(2,gg.TYPE_FLOAT)
+-- Wait a second.
+gg.sleep(100)
+-- Change the value back, so we don't leave the user with a zoomed out game.
+gg.editAll(1,gg.TYPE_FLOAT)
+end
+--Now that we've made it so we can narrow down the possible candidates for the zoom value to only one, let's find it! --]]
+		--Sadly, the trick above didn't work.
+		for i = 1, #foundresults do
+			result = foundresults[i]
+			-- Get the dword value in the same spot as the qword value.
+			gg.clearResults()
+			gg.searchAddress(decimalToHex(result.address), 0xFFFFFFFF, gg.TYPE_DWORD)
+			if gg.getResultsCount() ~= 0 then
+				-- Check if the dword value in the same spot as the qword value is equal to what the dword value in the same spot as the zoom value is. This helps narrow it down.
+				if gg.getResults(1)[1].value == 1065353216 then
+					-- Get the float value in the same spot as the qword value. This is the zoom value!
+					gg.clearResults()
+					gg.searchAddress(decimalToHex(result.address), 0xFFFFFFFF, gg.TYPE_FLOAT)
+					if gg.getResultsCount() ~= 0 then
+						--Add this value to the saved list with the name "Zoom Value".
+						tosave = gg.getResults(1)
+						tosave[1].name = "Zoom Value"
+						gg.addListItems(tosave)
+					end
+				end
+			end
+		end
+		--Zoom value should have been found, but we check just in case.
+		if #gg.getListItems() > 0 then
+		else
+			--We didn't find the zoom value. We got the qword values, but neither of them looked like they had the zoom values in the same spot.
+			print(
+				"Zoom value could not be found. Make sure the game is fully loaded. Are you using a 64bit device? Maybe the script is patched - it was made in version 22.5.0."
+			)
+			gg.setVisible(true)
+			os.exit()
+		end
+	else
+		--We didn't find the zoom value. When we searched for the qword values, nothing was found.
+		print(
+			"Zoom value could not be found. Make sure the game is fully loaded. Try running when the game is between 5-60% loaded. Are you using a 64bit device? Maybe the script is patched - it was made in version 22.5.0."
+		)
+		gg.setVisible(true)
+		os.exit()
+	end
+	gg.toast("Found zoom value")
+end
+
+function togglexray()
+	gg.loadResults(gg.getListItems())
+	resultvalue = gg.getResults(1)[1].value
+	gg.getResults(gg.getResultsCount())
+	if resultvalue == zoom then
+		gg.editAll(1, gg.TYPE_FLOAT)
+		gg.toast("Xray disabled!")
+	else
+		gg.editAll(zoom, gg.TYPE_FLOAT)
+		gg.toast("Xray enabled!")
+	end
+end
+
+gg.setVisible(false)
+if not iszoomvalueinlist() then
+	getzoomvalue()
+end
+gg.setVisible(false)
+gg.loadResults(gg.getListItems())
+gg.getResults(gg.getResultsCount())
+gg.editAll(1, gg.TYPE_FLOAT)
+zoomchoice = gg.alert("PG3D Xray Hack by HorridModz (User123456789#6424). Made with my PG3D Zoom Hack.")
+zoom = 6
+gg.toast(
+	"Click gameguardian icon to toggle xray. Double click gameguardian icon fast (within 2 seconds) to exit script.\nYou must go up to and stare against a wall or object to see through it!"
+)
+gg.setVisible(false)
+toexit = false
+lasttime = 0
+while not toexit do
+	gg.setVisible(false)
+	while not gg.isVisible() do
+		for sleepmultiply = 1, 30 do
+			gg.sleep(100)
+			if gg.isVisible() then
+				break
+			end
+		end
+		gg.toast(
+			"Click gameguardian icon to toggle xray. Double click gameguardian icon fast (within 2 seconds) to exit script.\nYou must go up to and stare against a wall or object to see through it!"
+		)
+	end
+	gg.setVisible(false)
+	if os.time() - lasttime < 2 then
+		gg.loadResults(gg.getListItems())
+		gg.getResults(gg.getResultsCount())
+		gg.editAll(1, gg.TYPE_FLOAT)
+		gg.toast("Xray disabled!")
+		toexit = true
+	else
+		lasttime = os.time()
+		togglexray()
+	end
+end
+gg.setVisible(true)
+os.exit()

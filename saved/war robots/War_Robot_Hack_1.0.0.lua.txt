@@ -1,0 +1,224 @@
+while true do
+	if gg.isVisible(true) then
+		menuk = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+
+	START = 1
+
+	function START()
+		menu = gg.choice(
+			{ "Bullet Traceslowmo", "Brightness Color", "Step Power", "Speedhack(light)", "EXIT" },
+			nil,
+			"test only"
+		)
+
+		if menu == 1 then
+			traceslowmo()
+		end
+		if menu == 2 then
+			clr()
+		end
+		if menu == 3 then
+			steppower()
+		end
+		if menu == 4 then
+			speedhack1()
+		end
+		if menu == 5 then
+			os.exit()
+		end
+		menuk = -1
+	end
+
+	function traceslowmo()
+		trace = gg.multiChoice({ "Activate/Deactivate", "BACK" }, { [1] = true }, "ON /OFF trace")
+
+		if trace == nil then
+			noselect()
+		else
+			if trace[2] == true then
+				START()
+			else
+				if trace[1] == true then
+					traceON()
+				else
+					traceOFF()
+				end
+			end
+		end
+	end
+
+	function traceON()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-1.8331474e27F;-7.1591168e24F;0.05000000075F;100,000.0F;-100,000.0F:17", gg.TYPE_FLOAT)
+		t = gg.getResults(5)
+		t[3].value = "2.5"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function traceOFF()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-1.8331474e27F;-7.1591168e24F;2.5;100,000.0F;-100,000.0F::17", gg.TYPE_FLOAT)
+		t = gg.getResults(5)
+		t[3].value = "0.05"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function clr()
+		color = gg.multiChoice({ "Activate/Deactivate", "BACK" }, { [1] = true }, "ON /OFF color")
+
+		if color == nil then
+			noselect()
+		else
+			if color[2] == true then
+				START()
+			else
+				if color[1] == true then
+					clrON()
+				else
+					clrOFF()
+				end
+			end
+		end
+	end
+
+	function clrON()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("0.04044999927;12.92000007629;0.0549999997;1.05499994755;360::17", gg.TYPE_FLOAT)
+		t = gg.getResults(5)
+		t[3].value = "2.5"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function clrOFF()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("0.04044999927;12.92000007629;2.5;1.05499994755;360::17", gg.TYPE_FLOAT)
+		t = gg.getResults(5)
+		t[3].value = "0.0549999997"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function steppower()
+		steppower = gg.multiChoice({ "Step Power", "BACK" }, { [1] = true }, "ON /OFF steppower")
+
+		if steppower == nil then
+			noselect()
+		else
+			if steppower[2] == true then
+				START()
+			else
+				if steppower[1] == true then
+					steppowerON()
+				else
+					steppowerOFF()
+				end
+			end
+		end
+	end
+
+	function steppowerON()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber(
+			"-2.9687729e21F;-2.9687729e21F;2.0F;-2.0F;-2.0F;-2.0F;-2.0F;2.0F;-2.0F;2.0F;-2.0F;-3.0786996e27F;-1.1274536e31F::93",
+			gg.TYPE_FLOAT
+		)
+		gg.searchNumber("2;-2", gg.TYPE_FLOAT)
+		t = gg.getResults(9)
+		t[1].value = "20"
+		t[2].value = "-20"
+		t[3].value = "-20"
+		t[4].value = "-20"
+		t[5].value = "-20"
+		t[6].value = "20"
+		t[7].value = "-20"
+		t[8].value = "20"
+		t[9].value = "-20"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function steppowerOFF()
+		gg.searchNumber(
+			"-2.9687729e21F;-2.9687729e21F;20F;-20F;-20F;-20F;-20F;20F;-20F;20F;-20F;-3.0786996e27F;-1.1274536e31F::93",
+			gg.TYPE_FLOAT
+		)
+		gg.searchNumber("20;-20", gg.TYPE_FLOAT)
+		t = gg.getResults(9)
+		t[1].value = "2"
+		t[2].value = "-2"
+		t[3].value = "-2"
+		t[4].value = "-2"
+		t[5].value = "-2"
+		t[6].value = "2"
+		t[7].value = "-2"
+		t[8].value = "2"
+		t[9].value = "-2"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function speedhack1()
+		speedhack = gg.multiChoice({ "speedhack", "BACK" }, { [1] = true }, "ON /OFF speed")
+
+		if speedhack == nil then
+			noselect()
+		else
+			if speedhack[2] == true then
+				START()
+			else
+				if speedhack[1] == true then
+					speedhackON()
+				else
+					speedhackOFF()
+				end
+			end
+		end
+	end
+
+	function speedhackON()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-7.1614595e24F;-3.1514847e24F;0.14177720249F;-3.1514847e24F;-0.14177720249F:17", gg.TYPE_FLOAT)
+		t = gg.getResults(9)
+		t[3].value = "0.15177720249"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function speedhackOFF()
+		local old = gg.getRanges()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber("-7.1614595e24F;-3.1514847e24F;0.15177720249F;-3.1514847e24F;-0.14177720249F:17", gg.TYPE_FLOAT)
+		t = gg.getResults(9)
+		t[3].value = "0.14177720249"
+		gg.setValues(t)
+		gg.setRanges(old)
+		gg.clearResults()
+	end
+
+	function noselect()
+		gg.toast("You Not Select Anything")
+	end
+
+	if menuk == 1 then
+		START()
+	end
+end

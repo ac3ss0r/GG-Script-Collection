@@ -1,0 +1,23 @@
+gg.setSpeed(1.1)
+gg.sleep(10)
+gg.setSpeed(1)
+gg.setVisible(false)
+gg.toast("Preparing The Big Kick... •")
+gg.sleep(500)
+gg.toast("Preparing The Big Kick... ••")
+gg.sleep(500)
+gg.toast("Preparing The Big Kick... •••")
+gg.sleep(1000)
+gg.toast("Successfully Prepared: kicklinktx")
+gg.sleep(500)
+gg.alert("Kick All Script made by: CallMe Verza on YouTube | RblxScripter on gameguardian.net")
+menu = gg.choice({ ":kick all" })
+
+if menu == 1 then
+	gg.setVisible(false)
+	gg.setSpeed(10000)
+	gg.alert("You have been kicked by a basic admin. Reason: Being Afk for 20 minutes.")
+	gg.sleep(500)
+	gg.setSpeed(1)
+	gg.toast("LOL EZ")
+end

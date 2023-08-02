@@ -1,0 +1,37 @@
+function edit(value)
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 D4 0A 02 90 88 B6 5E 39 F3 03 00 AA 28 01 00 37 40 E7 01 B0",
+		gg.TYPE_BYTE
+	)
+	if gg.getResultCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 23.1.0? | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	else
+		gg.getResults(8)
+		gg.editAll("h " .. value, gg.TYPE_BYTE)
+		gg.clearResults()
+		gg.alert("process is complete!")
+	end
+end
+
+function main()
+	menu = gg.choice({ "500", "1k", "5k", "10k" })
+
+	if menu == 1 then
+		edit("80 3E 80 D2 C0 03 5F D6") -- 500
+	elseif menu == 2 then
+		edit("00 7D 80 D2 C0 03 5F D6") -- 1k
+	elseif menu == 3 then
+		edit("00 71 82 D2 C0 03 5F D6") -- 5k
+	elseif menu == 4 then
+		edit("00 E2 84 D2 C0 03 5F D6")
+	end -- 10k
+	--this method sucks so I won't put higher values
+end
+
+gg.alert("script by kyh#8317")
+main()

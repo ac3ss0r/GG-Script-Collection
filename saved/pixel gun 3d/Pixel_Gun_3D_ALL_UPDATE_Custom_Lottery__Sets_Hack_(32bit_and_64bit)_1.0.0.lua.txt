@@ -1,0 +1,400 @@
+lasttoast = 0
+function progressalert(message, override)
+	if os.time() - lasttoast > 1 or override then
+		lasttoast = os.time()
+		gg.toast(message)
+	end
+end
+
+function contains(item, list)
+	--Not type-sensitive
+	for index = 1, #list do
+		if tostring(list[index]) == tostring(item) then
+			return true
+		end
+	end
+	return false
+end
+
+function generatedecimalconversionstring(choices, do64bit)
+	--Tool for development purposes, not used in the real script
+	if do64bit == nil then
+		os.exit(print("Error generating decimal conversion string: 64bit or 32bit parameter not defined"))
+	end
+	is64bit = do64bit
+	decimalconversionstring = "{"
+	for choiceindex = 1, #choices do
+		decimalconversionstring = decimalconversionstring
+			.. '\n\t"'
+			.. hextodecimal(armtohex(generateassemblycode(choices[choiceindex])))
+			.. '",'
+	end
+	decimalconversionstring = decimalconversionstring .. "\n\t}"
+	print(decimalconversionstring)
+	os.exit()
+end
+
+function indexof(item, list)
+	--Not type-sensitive
+	for index = 1, #list do
+		if tostring(list[index]) == tostring(item) then
+			return index
+		end
+	end
+	return nil
+end
+
+function int(number)
+	number = tostring(tonumber(number))
+	decimalpointindex = string.find(number, "%.")
+	if decimalpointindex ~= nil then
+		--If there is a decimal point, remove the decimal point and everything after it
+		number = string.sub(number, 1, decimalpointindex - 1)
+	end
+	return (tonumber(number))
+end
+
+function findbestsearch(searches, refine)
+	searchfound = false
+	bestsearch = 0
+	bestsearchresultscount = 9999999999999999999999
+	bestsearchresults = {}
+	for i = 1, #searches do
+		progressalert("Searching", false)
+		thissearch = searches[i]
+		gg.clearResults()
+		gg.searchNumber(thissearch, gg.TYPE_AUTO)
+		gg.refineNumber(refine, gg.TYPE_AUTO)
+		resultscount = gg.getResultsCount()
+		--[[
+		--For testing
+		if resultscount == 0 then
+		gg.alert("Note to author (remove this code later): Search " .. search .. " not found")
+		end
+		--]]
+		if resultscount > 0 then
+			if not searchfound or resultscount < bestsearchresultscount then
+				bestsearch = thissearch
+				bestsearchresults = gg.getResults(resultscount)
+				bestsearchresultscount = resultscount
+				searchfound = true
+				if resultscount == 1 then
+					break
+				end
+			end
+		end
+	end
+	if searchfound then
+		progressalert("Found!", true)
+		gg.loadResults(bestsearchresults)
+		return bestsearchresults
+	else
+		progressalert("Nothing found", true)
+		print(
+			"Error: Nothing found. Make sure you are fully loaded into the game, and you have not used any other lottery / set event scripts in this game session.\nIf you are fully loaded in and you have not used any lottery / set event scripts this game session, the script must have been patched. Please contact User123456789#6424 on discord so I can fix it."
+		)
+		gg.setVisible(true)
+		os.exit()
+	end
+end
+
+function getis64bit()
+	progressalert("Detecting device architecture", true)
+	return gg.getTargetInfo().x64
+end
+
+function chooseedit(choices)
+	--If choices is not specified, it defaults to {"300","1000","10000","25000","40000","45000"}
+	choices = choices or { "300", "1000", "10000", "25000", "40000", "45000" }
+	table.insert(choices, 1, "Custom")
+	editchoice = gg.choice(
+		choices,
+		nil,
+		"What would you like to change the quantities of all lottery and set event rewards to?\n\nNotice: Changing the rewards to a number over 45k and receiving a reward will instantly ban you!"
+	)
+	if editchoice == nil then
+		--User Clicked Cancel
+		os.exit()
+	else
+		if editchoice == 1 then
+			--Custom
+			editvalueprompt = gg.prompt({
+				"What integer value would you like to edit the quantities of all lottery and set event rewards to (the maximum value is 65536)?\n\nNotice: Changing the rewards to a number over 45k and receiving a reward will instantly ban you!",
+			}, { [1] = 45000 }, { [1] = "number" })
+			if editvalueprompt == nil then
+				--User Clicked Cancel
+				os.exit()
+			else
+				choseneditvalue = editvalueprompt[1]
+			end
+		else
+			choseneditvalue = choices[editchoice]
+		end
+	end
+	choseneditvalue = int(choseneditvalue)
+	if is64bit then
+		--armv8 (64bit)
+		if choseneditvalue > 65536 then
+			gg.alert("The maximum value is 65536! Setting to 65536.")
+			choseneditvalue = 65536
+		end
+		--[[if choseneditvalue < -65536 then
+				gg.alert("The minimum value is -65536! Setting to -65536.")
+				choseneditvalue = -65536
+			end--]]
+		if choseneditvalue < 0 then
+			gg.alert("Sorry, but negative numbers are not supported. Setting to 0.")
+			choseneditvalue = 0
+		end
+	else
+		--armv7 (32bit)
+		if choseneditvalue > 65536 then
+			gg.alert("The maximum value is 65536! Setting to 65536.")
+			choseneditvalue = 65536
+		end
+		if choseneditvalue < 0 then
+			gg.alert("Sorry, but negative numbers are not supported. Setting to 0.")
+			choseneditvalue = 0
+		end
+	end
+	if choseneditvalue > 45000 then
+		confirm = gg.choice(
+			{ "Uh-oh, set it to 45k", "Keep it at " .. choseneditvalue .. " (Dangerous)" },
+			nil,
+			"WARNING:\nAre you sure you want to set the quantity to over 45k? If you do this and receive any reward from the lottery or set event, you will be instantly banned."
+		)
+		if confirm == nil or confirm == 1 then
+			--User clicked cancel or "Uh-oh, set it to 45k"
+			choseneditvalue = 45000
+		end
+	end
+	return choseneditvalue
+end
+
+function generateassemblycode(returnvalue)
+	progressalert("Converting edit value", false)
+	if is64bit then
+		--Armv8 (64bit)
+		code = "Mov W0, #" .. returnvalue .. "\nRet"
+		--code = "Mov R0, #" .. returnvalue .. "\nRet"
+	else
+		--Armv7 (32bit)
+		code = "movt r0, #" .. returnvalue .. "\nbx lr"
+	end
+	return code
+end
+
+function armtohex(fullarm)
+	progressalert("Converting edit value", false)
+	fullhex = ""
+	--Thanks to Enyby for the original arm hex converter I used code from:
+	-- https://gameguardian.net/forum/files/file/2004-arm-converter/
+	for arm in string.gmatch(fullarm, "[^\r\n]+") do
+		progressalert("Converting edit value", false)
+		local addr = gg.getRangesList("libc.so")
+		for i, v in ipairs(addr) do
+			if v.type:sub(2, 2) == "w" then
+				addr = { { address = v.start, flags = gg.TYPE_DWORD } }
+			end
+		end
+		if not addr[1].address then
+			print("Error occured converting arm code to hex: Failed to get address ", addr)
+			gg.setVisible(true)
+			os.exit()
+		end
+		if is64bit then
+			--Armv8 (64bit)
+			local old = gg.getValues(addr)
+			addr[1].value = "~A8 " .. arm
+			local ok, err = pcall(gg.setValues, addr)
+			local out
+			if not ok then
+				err = err:gsub("^.* '1': ", ""):gsub("\nlevel = 1.*$", "")
+				print("Error occured converting arm code to hex: " .. err)
+				gg.setVisible(true)
+				os.exit()
+			else
+				out = gg.getValues(addr)
+				out = out[1].value & 0xFFFFFFFF
+				gg.setValues(old)
+				if not hex then
+					out = string.unpack(">I4", string.pack("<I4", out))
+				end
+				out = string.format("%08X", out)
+				fullhex = fullhex .. out
+			end
+		else
+			--Armv7 (32bit)
+			local old = gg.getValues(addr)
+			addr[1].value = "~A " .. arm
+			local ok, err = pcall(gg.setValues, addr)
+			local out
+			if not ok then
+				err = err:gsub("^.* '1': ", ""):gsub("\nlevel = 1.*$", "")
+				print("Error occured converting arm code to hex: " .. err)
+				gg.setVisible(true)
+				os.exit()
+			else
+				out = gg.getValues(addr)
+				out = out[1].value & 0xFFFFFFFF
+				gg.setValues(old)
+				if not hex then
+					out = string.unpack(">I4", string.pack("<I4", out))
+				end
+				out = string.format("%08X", out)
+				fullhex = fullhex .. out
+			end
+		end
+	end
+	return fullhex
+end
+
+function hextodecimal(hex)
+	progressalert("Converting edit value", false)
+	--Remove spaces, then reverse bytes (ex: A1 B1 -> B1A1)
+	oldhex = string.gsub(tostring(hex), " ", "")
+	hex = ""
+	thisbyte = ""
+	for letterindex = 1, #oldhex do
+		thisbyte = thisbyte .. oldhex:sub(letterindex, letterindex)
+		if #thisbyte == 2 then
+			hex = thisbyte .. hex
+			thisbyte = ""
+		end
+	end
+	if not (string.sub(hex, 1, 2) == "0x") then
+		hex = "0x" .. hex
+	end
+	return (tonumber(hex))
+	--[[
+	--thanks to ItsSC for this function (found at https://gameguardian.net/forum/topic/31634-converting-decimal-to-hex/)
+	hex = tonumber(hex)
+	gg.alert(tostring(tonumber(hex >= 0 and string.format("%X", tonumber(hex)) or string.format("%X", (hex~ 0xffffffffffffffff <<((math.floor(math.log(math.abs(hex))/math.log(10)) + 1) *4))),16)))
+	return(tonumber(hex >= 0 and string.format("%X", tonumber(hex)) or string.format("%X", (hex~ 0xffffffffffffffff <<((math.floor(math.log(math.abs(hex))/math.log(10)) + 1) *4))),16))
+	--]]
+end
+
+function generateeditvalue(realeditnumber)
+	progressalert("Converting edit value", true)
+	knowneditvalues = { "300", "1000", "10000", "25000", "40000", "45000" }
+	editvalueconversion64bit = {
+		"-2999674702252726912",
+		"-2999674702252704512",
+		"-2999674702252416512",
+		"-2999674702251936512",
+		"-2999674702251456512",
+		"-2999674702251296512",
+	}
+	editvalueconversion32bit = {
+		"-2220275583143640788",
+		"-2220275583143640088",
+		"-2220275583143508208",
+		"-2220275583143247448",
+		"-2220275583143048128",
+		"-2220275583142981688",
+	}
+	if contains(realeditnumber, knowneditvalues) then
+		if is64bit then
+			--armv8 (64bit)
+			editvalue = editvalueconversion64bit[indexof(realeditnumber, knowneditvalues)]
+		else
+			--armv7 (32bit)
+			editvalue = editvalueconversion32bit[indexof(realeditnumber, knowneditvalues)]
+		end
+	else
+		--[[
+		Algorithm:
+		1. Generate arm (assembly) code
+		2. Convert arm code to hex
+		3. Convert hex to decimal
+		--]]
+		editvalue = hextodecimal(armtohex(generateassemblycode(realeditnumber)))
+	end
+	return editvalue
+end
+
+--generatedecimalconversionstring({"300","1000","10000","25000","40000","45000"},true)
+gg.setVisible(false)
+--Get whether the script is being run on an armv7 (32bit) or armv8 (64bit) device
+is64bit = getis64bit()
+if is64bit then
+	progressalert("armv8 (64bit) device detected", true)
+else
+	progressalert("armv7 (32bit) device detected", true)
+end
+if not is64bit then
+	--Armv7 (32bit)
+	print(
+		"Sorry, armv7 (32bit) devices are not currently supported. I am working on adding support for them, and it should be finished in a couple days."
+	)
+	gg.setVisible(true)
+	os.exit()
+end
+gg.alert(
+	"Pixel Gun 3D Lottery / Set Event Rewards Hacker by HorridModz (User123456789#6424 / User123456789#8073). This scripts should work on armv7 (32bit) and armv8 (64bit) devices, and it should work in future game updates.\n\nI am on a mission to make my own versions of popular PG3D mods like lottery / set event that work on both 32bit and 64bit devices, and for all games versions.\n\nI grinded almost 18 hours straight for this and was up until 5:30 AM. I really hope it was worth it!"
+)
+gg.alert(
+	"DISCLAIMER:\nThis script may be bannable! I advise only opening a few thousand gems worth of chests a day, or your account has a high chance of being banned."
+)
+gg.setRanges(gg.REGION_CODE_APP)
+editrealnumber = tonumber(chooseedit())
+progressalert("Attempting to set lottery and set event rewards to " .. editrealnumber, true)
+--edit = "63758835680239574" -- 64bit 10,000
+edit = generateeditvalue(editrealnumber)
+if is64bit then
+	--Armv8 (64bit)
+	searches = {
+		"-6268641293425916929Q;6052840701400449055Q;922747008D::350",
+		"-6268641293425916929Q;6052840701400449055Q::100",
+		"-6268641293425916929Q;6052840701400449055Q::100",
+		"-6268641293425916929Q;922747008D::100",
+		"-6268641293425916929Q;6052840701400449055Q;922747008D::100",
+		"-6268641293425916929Q;6052840701400449055Q::200",
+		"6268641293425916929Q;922747008D::200",
+		--"-6268641293425916929Q;922747008D::350", -- there's another pesky value that's in range of this one, leading to false positives
+	}
+	refine = "-6268641293425916929"
+else
+	--Armv7 (32bit)
+	searches = {}
+	refine = "0"
+end
+progressalert("Searching", true)
+findbestsearch(searches, refine)
+if gg.getResultsCount() > 100 then
+	confirm = gg.choice(
+		{ "Ignore (Recommended)", "Cancel" },
+		nil,
+		"Warning:\nA lot of values were found. Editing lots of values may cause (usually harmless) glitches or crashes. Would you like to proceed?"
+	)
+	if confirm == nil or confirm == 2 then
+		--User clicked cancel or "Cancel"
+		gg.clearResults()
+		gg.setVisible(true)
+		os.exit()
+	end
+end
+progressalert("Editing to " .. editrealnumber .. "!", true)
+gg.getResults(gg.getResultsCount())
+gg.editAll(edit, gg.TYPE_QWORD)
+gg.clearResults()
+progressalert("Successfully edited to " .. editrealnumber .. "!", true)
+gg.alert(
+	"The quantities of all lottery and set event rewards have been changed to "
+		.. editrealnumber
+		.. ". Enjoy!\nIf you would like to set the rewards back to normal, restart the game.\nDISCLAIMER:\nThis script may be bannable! I advise only opening a few thousand gems worth of chests a day, or your account has a high chance of being banned."
+)
+print(
+	"The quantities of all lottery and set event rewards have been changed to "
+		.. editrealnumber
+		.. ". Enjoy!\nIf you would like to set the rewards back to normal, restart the game.\nDISCLAIMER:\nThis script may be bannable! I advise only opening a few thousand gems worth of chests a day, or your account has a high chance of being banned."
+)
+print("\nSummary:")
+if is64bit then
+	print("Device Architecture Detected:\t armv8 (64bit)")
+else
+	print("Device Architecture Detected:\t armv7 (32bit)")
+end
+print("Search Used:\t" .. bestsearch)
+print("Edit Value:\t" .. editrealnumber)
+print("Converted edit value:\t" .. edit)

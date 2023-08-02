@@ -1,0 +1,282 @@
+gg.toast("happy new year")
+main = gg.choice({
+	"festive charms (g22 pattern needed)",
+	"festive gun skins (fabm waste needed)",
+	"festive knife skins (ump pixel needed)",
+	"festive medals (p90 pilot needed)",
+}, nil, "❄️❄️happy new year❄️❄️")
+if main == 1 then
+	menu = gg.choice({
+		"Halloween spirit",
+		"vampire bat",
+		"reaper scythe",
+		"spooky lantern",
+		"suspicious spider",
+		"horseman head",
+		"brainless",
+		"friendly specter",
+		"scarecrow",
+		"crunch",
+		"meteor",
+		"witchcraft",
+		"crooked broom",
+	}, nil, "g22 pattern needed")
+	if menu == 1 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5040", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 2 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5041", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 3 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5042", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 4 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5043", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 5 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5044", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 6 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5045", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 7 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5046", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 8 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5047", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 9 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5048", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 10 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5049", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 11 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5050", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 12 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5051", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu == 13 then
+		gg.searchNumber("11005", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("5052", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+end
+if main == 2 then
+	menu2 = gg.choice({
+		"M110 flow stattrack",
+		"M16 ironwill stattrack",
+		"MP5 northern Fury stattrack",
+		"MP7 blizzard stattrack",
+		"P350 blizzard stattrack",
+		"P90 ironwill stattrack",
+		"AKR12 flow stattrack",
+		"AWM polarnight stattrack",
+	}, nil, "fabm waste needed")
+	if menu2 == 1 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1095300", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 2 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1094700", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 3 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1093600", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 4 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1093400", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 5 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1093400", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 6 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1093500", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 7 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1094400", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu2 == 8 then
+		gg.searchNumber("86317", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("1095100", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+end
+if main == 3 then
+	menu3 = gg.choice({
+		"bayonet frozen",
+		"butterfly cold flame",
+		"karambit cold flame",
+		"karambit frozen",
+		"karambit snow camo",
+		"kunai cold flame",
+		"kunai snow camo",
+		"scorpion cold flame",
+		"flip knife snow camo",
+		"Jkommando frozen",
+	}, nil, "ump pixel needed")
+	if menu3 == 1 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97100", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 2 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97500", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 3 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97200", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 4 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97201", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 5 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97203", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 6 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97800", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 7 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97801", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 8 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97900", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 9 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97700", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu3 == 10 then
+		gg.searchNumber("32002", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("97300", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+end
+if main == 4 then
+	menu4 = gg.choice({
+		"medal new year 2021 bronze",
+		"medal new year 2021 silver",
+		"medal new year 2021 gold",
+		"medal new year 2021 elite gold",
+		"medal new year 2021 platinum",
+		"medal new year 2021 diamond",
+	}, nil, "p90 pilot needed")
+	if menu4 == 1 then
+		gg.searchNumber("35004", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("140", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu4 == 2 then
+		gg.searchNumber("35004", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("141", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu4 == 3 then
+		gg.searchNumber("35004", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("142", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu4 == 4 then
+		gg.searchNumber("35004", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("143", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu4 == 5 then
+		gg.searchNumber("35004", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("144", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+	if menu4 == 6 then
+		gg.searchNumber("35004", gg.TYPE_DWORD)
+		gg.getResults(500)
+		gg.editAll("145", gg.TYPE_DWORD)
+		gg.clearResults()
+	end
+end

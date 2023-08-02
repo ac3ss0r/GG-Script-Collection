@@ -1,0 +1,14 @@
+menu = gg.choice({ "Execute taskclicker" }, nil, "taskclicker for 23.2.0 made by ! VerifedMatt#0001")
+
+if menu == 1 then
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"h F3 7B BF A9 F3 03 00 AA E7 FF FF 97 E0 00 00 36 60 2A 40 F9 60 01 00 B4 08 00 40 F9 09 85 59 A9",
+		gg.TYPE_BYTE
+	)
+	gg.getResults(8)
+	gg.editAll("h 20 00 80 D2 C0 03 5F D6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.alert("if not working execute for the second time🥶")
+end

@@ -1,8 +1,0 @@
-gg.alert ('xlayon hidden script)
-menu=gg.choice ({'everything in game + Dev console / -1 id'},nil,'restart game after used')
-if menu==1 then
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber ('280',gg.TYPE_FLOAT)
-gg.getResults(100)
-gg.editAll('1',gg.TYPE_FLOAT)
-end

@@ -1,0 +1,468 @@
+gg.alert(
+	"ʏᴏᴜᴛᴜʙᴇ : ᴘʟᴀʏᴇʀs ᴛᴇᴀᴍ ʏᴛ\n\nᴛᴇʟᴇ ᴄʜᴀɴɴᴇʟ : @ᴘʟᴀʏᴇʀs99 2ᴍ\n\nᴛᴇʟᴇ ᴄʜᴀᴛ ɢʀᴘ : @ᴘʟᴀʏᴇʀs 992ᴍ\n\nᴍʏ ᴜsᴇʀ : @ᴘʟᴀʏᴇʀs ᴛᴇᴀᴍ\n\n\nᴄᴏᴘʏʀɪɢʜᴛ© ʙʏ ᴘʟᴀʏᴇʀs ᴛᴇᴀᴍ sᴄʀɪᴘᴛs",
+	"༆sᴛᴀʀᴛ sᴄʀɪᴘᴛ༆"
+)
+gg.sleep(222)
+gg.alert("ᑭᒪᗩYᗴᖇՏ Tᗴᗩᗰ ՏᑕᖇIᑭT", " [sᴛᴀʀᴛ sᴄʀɪᴘᴛ]")
+gg.sleep(111)
+
+function vinoth(b, c, d, e)
+	gg.setRanges(32)
+	gg.searchNumber(b, c)
+	local x = gg.getResults(100)
+	gg.addListItems(x)
+	local x = gg.getListItems(100)
+	x = gg.getValues(x)
+	x[1].address = x[1].address - d
+	x[1].value = e
+	gg.setValues(x)
+	gg.removeListItems(x)
+	local x = gg.getListItems(1)
+	gg.removeListItems(x)
+	gg.clearResults()
+end
+function VinothScript(Lib, Offset, Replaced)
+	local info = gg.getTargetInfo()
+	localpack = info.nativeLibraryDir
+	local t = gg.getRangesList(localpack .. "/" .. Lib)
+	for _, __ in pairs(t) do
+		local t = gg.getValues({
+			{ address = __.start, flags = gg.TYPE_DWORD },
+			{ address = __.start + 0x12, flags = gg.TYPE_WORD },
+		})
+		if t[1].value == 0x464C457F then
+			Offset = __["start"] + Offset
+		end
+		assert(Offset ~= nil, "[rwmem]: error, provided address is nil.")
+		_rw = {}
+		if type(Replaced) == "number" then
+			_ = ""
+			for _ = 1, Replaced do
+				_rw[_] = { address = (Offset - 1) + _, flags = gg.TYPE_BYTE }
+			end
+			for v, __ in ipairs(gg.getValues(_rw)) do
+				_ = _ .. string.format("%02X", __.value & 0xFF)
+			end
+			return _
+		end
+		Byte = {}
+		Replaced:gsub("..", function(x)
+			Byte[#Byte + 1] = x
+			_rw[#Byte] = { address = (Offset - 1) + #Byte, flags = gg.TYPE_BYTE, value = x .. "h" }
+		end)
+		gg.setValues(_rw)
+	end
+end
+
+local memFrom, memTo, lib, num, lim, results, src, ok = 0, -1, nil, 0, 32, {}, nil, false
+function name(n)
+	if lib ~= n then
+		lib = n
+		local ranges = gg.getRangesList(lib)
+		if #ranges == 0 then
+		else
+			memFrom = ranges[1].start
+			memTo = ranges[#ranges]["end"]
+		end
+	end
+end
+function hex2tbl(hex)
+	local ret = {}
+	hex:gsub("%S%S", function(ch)
+		ret[#ret + 1] = ch
+		return ""
+	end)
+	return ret
+end
+function original(orig)
+	local tbl = hex2tbl(orig)
+	local len = #tbl
+	if len == 0 then
+		return
+	end
+	local used = len
+	if len > lim then
+		used = lim
+	end
+	local s = ""
+	for i = 1, used do
+		if i ~= 1 then
+			s = s .. ";"
+		end
+		local v = tbl[i]
+		if v == "??" or v == "**" then
+			v = "0~~0"
+		end
+		s = s .. v .. "r"
+	end
+	s = s .. "::" .. used
+	gg.searchNumber(s, gg.TYPE_BYTE, false, gg.SIGN_EQUAL, memFrom, memTo)
+	if len > used then
+		for i = used + 1, len do
+			local v = tbl[i]
+			if v == "??" or v == "**" then
+				v = 256
+			else
+				v = ("0x" .. v) + 0
+				if v > 127 then
+					v = v - 256
+				end
+			end
+			tbl[i] = v
+		end
+	end
+	local found = gg.getResultCount()
+	results = {}
+	local count = 0
+	local checked = 0
+	while not (found <= checked) do
+		local all = gg.getResults(8)
+		local total = #all
+		local start = checked
+		if total < checked + used then
+			break
+		end
+		for i, v in ipairs(all) do
+			v.address = v.address + myoffset
+		end
+		gg.loadResults(all)
+		while total > start do
+			local good = true
+			local offset = all[1 + start].address - 1
+			if len > used then
+				local get = {}
+				for i = lim + 1, len do
+					get[i - lim] = {
+						address = offset + i,
+						flags = gg.TYPE_BYTE,
+						value = 0,
+					}
+				end
+				get = gg.getValues(get)
+				for i = lim + 1, len do
+					local ch = tbl[i]
+					if ch ~= 256 and get[i - lim].value ~= ch then
+						good = false
+						break
+					end
+				end
+			end
+			if good then
+				count = count + 1
+				results[count] = offset
+				checked = checked + used
+			else
+				local del = {}
+				for i = 1, used do
+					del[i] = all[i + start]
+				end
+				gg.removeResults(del)
+			end
+			start = start + used
+		end
+	end
+end
+function replaced(repl)
+	num = num + 1
+	local tbl = hex2tbl(repl)
+	if src ~= nil then
+		local source = hex2tbl(src)
+		for i, v in ipairs(tbl) do
+			if v ~= "??" and v ~= "**" and v == source[i] then
+				tbl[i] = "**"
+			end
+		end
+		src = nil
+	end
+	local cnt = #tbl
+	local set = {}
+	local s = 0
+	for _, addr in ipairs(results) do
+		for i, v in ipairs(tbl) do
+			if v ~= "??" and v ~= "**" then
+				s = s + 1
+				set[s] = {
+					address = addr + i,
+					value = v .. "r",
+					flags = gg.TYPE_BYTE,
+				}
+			end
+		end
+	end
+	if s ~= 0 then
+		gg.setValues(set)
+	end
+	ok = true
+end
+
+b = [[
+18790
+Var #C43F97F0|c43f97f0|10|43480000|0|0|0|0|r-xp|/data/app/com.dgg.freefireth/lib/libil2cpp.so|28e27f0
+]]
+fileData = gg.EXT_STORAGE .. "/###.dat"
+io.output(fileData):write(b):close()
+gg.loadList(fileData, gg.LOAD_APPEND)
+gg.sleep(50)
+r = gg.getListItems()
+getReset = gg.getValues(r)
+gg.clearList()
+os.remove(fileData)
+gg.setVisible(true)
+
+function STARTHACKS()
+	menu = gg.choice(
+		{
+			ghost .. "▶ɢʜᴏsᴛ ʜᴀᴄᴋ 👻",
+			STONE .. "▶sᴛᴏɴᴇ ʜᴀᴄᴋ 🗿",
+			ghst .. "▶ᴜɴᴅᴇʀɢʀᴏᴜɴᴅ ᴄᴀʀ🚖",
+			gt .. "▶sᴘɪᴅᴇʀ ᴍᴀɴ🚀",
+			lock .. "▶ᴀɪᴍʟᴏᴄᴋ ᴘʀᴏ 🎯",
+			Med .. "▶ᴍᴀɢɪᴄ ʙᴜʟʟᴇᴛᴢ💫",
+			ant2 .. "▶ᴀɴᴛᴇɴɴᴀ ʜᴀɴᴅ 🗼",
+			"❎ Exɪᴛ Sᴄʀɪᴘᴛ ❎",
+		},
+		nil,
+		"👑ᴏᴡɴᴇʀ👑-ᴛᴇᴀᴍ ᴘʟᴀʏᴇʀs\n\n🏅ᴄʀᴇᴀᴛᴏʀ🥇-ᴛᴇᴀᴍ ᴘʟᴀʏᴇʀs ᴏғғɪᴄɪᴀᴍ\n🇧🇷ᴠᴇʀsɪᴏɴ ʟᴀᴛᴇsᴛ🇧🇷✪ ғʀᴇᴇғɪʀᴇ ᴍᴀx 2.6.X"
+	)
+	if menu == nil then
+	else
+		if menu == 1 then
+			A1()
+		end
+		if menu == 2 then
+			A3()
+		end
+		if menu == 3 then
+			A4()
+		end
+		if menu == 4 then
+			TK()
+		end
+		if menu == 5 then
+			A5()
+		end
+		if menu == 6 then
+			A6()
+		end
+		if menu == 7 then
+			Antenna()
+		end
+		if menu == 8 then
+			exit()
+		end
+	end
+	XGCK = -1
+end
+
+ghost = "【 🔴 】"
+function A1()
+	if ghost == "【 🔴 】" then
+		gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
+		name("libil2cpp.so")
+		myoffset = 14782348
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("00000000")
+		gg.clearResults()
+		gg.toast("✅Gʜᴏsᴛ Mᴏᴅᴇ Oɴ✅")
+		ghost = "【 🔵 】"
+	elseif ghost == "【 🔵 】" then
+		gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
+		name("libil2cpp.so")
+		myoffset = 14782348
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("h 00 00 7A 44")
+		gg.clearResults()
+		gg.toast("🚫Gʜᴏsᴛ Mᴏᴅᴇ Oғғ🚫")
+		ghost = "【 🔴 】"
+	end
+end
+
+STONE = "【 🔴 】"
+function A3()
+	if STONE == "【 🔴 】" then
+		VinothScript("libunity.so", "0xADA4F8", "000000000")
+		VinothScript("libunity.so", "0xADA508", "000000000")
+		VinothScript("libunity.so", "0xADA538", "000000000")
+		gg.toast("✅Sᴛᴏɴᴇ Hᴀᴄᴋ Oɴ✅")
+		STONE = "【 🔵 】"
+	elseif STONE == "【 🔵 】" then
+		VinothScript("libunity.so", "0xADA4F8", "57FEFFCA")
+		VinothScript("libunity.so", "0xADA508", "53FEFFCA")
+		VinothScript("libunity.so", "0xADA538", "47FEFFCA")
+		gg.toast("🚫Sᴛᴏɴᴇ Hᴀᴄᴋ Oғғ🚫")
+		STONE = "【 🔴 】"
+	end
+end
+
+ghst = "【 🔴 】"
+function A4()
+	if ghst == "【 🔴 】" then
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 34530704
+		original("h 7F 45 4C 46 01 01 01 00")
+		replaced("h 33 33 13 C0")
+		gg.clearResults()
+		gg.toast("✅Uɴᴅᴇʀ Cᴀʀ Oɴ✅")
+		ghst = "【 🔵 】"
+	elseif ghst == "【 🔵 】" then
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 34530704
+		original("h 7F 45 4C 46 01 01 01 00")
+		replaced("h 17 B7 D1 38")
+		gg.clearResults()
+		gg.toast("🚫Uɴᴅᴇʀ Cᴀʀ Oғғ🚫")
+		ghst = "【 🔴 】"
+	end
+end
+
+gt = "【 🔴 】"
+function TK()
+	if gt == "【 🔴 】" then
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("999", gg.TYPE_FLOAT)
+		gg.getResults(9999)
+		gg.editAll("998", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("0.70710676908;0.07999999821;0.30000001192", gg.TYPE_FLOAT)
+		gg.searchNumber("0.3", gg.TYPE_FLOAT)
+		gg.getResults(7)
+		gg.editAll("999", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.clearList()
+		gg.setVisible(false)
+		gg.toast("✅Sᴘɪᴅᴇʀ Mᴏᴅᴇ Oɴ✅")
+		gt = "【 🔵 】"
+	elseif gt == "【 🔵 】" then
+		gg.setRanges(gg.REGION_C_ALLOC)
+		gg.searchNumber("999", 16)
+		gg.getResults(9999)
+		gg.editAll("0.3", gg.TYPE_FLOAT)
+		gg.clearResults()
+		gg.setVisible(false)
+		gg.toast("🚫Gʜᴏsᴛ Mᴏᴅᴇ Oғғ🚫")
+		gt = "【 🔴 】"
+	end
+end
+
+lock = "【 🔴 】"
+function A5()
+	if lock == "【 🔴 】" then
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 9908104
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("00F020E3")
+		gg.clearResults()
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 9908324
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("00F020E3")
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 12987720
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("01 00 A0  E3 1E FF 2F E1")
+		gg.clearResults()
+		gg.toast("✅Aɪᴍʟᴏᴄᴋ Pʀᴏ Oɴ✅")
+		lock = "【 🔵 】"
+	elseif lock == "【 🔵 】" then
+		gg.setRanges(gg.REGION_CODE_APP)
+		name("libil2cpp.so")
+		myoffset = 12987720
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("10 4C 2D E9 08 B0 8D E2")
+		gg.clearResults()
+		gg.toast("🚫Aɪᴍʟᴏᴄᴋ Pʀᴏ Oғғ🚫")
+		lock = "【 🔴 】"
+	end
+end
+
+Med = "【 🔴 】"
+function A6()
+	if Med == "【 🔴 】" then
+		gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
+		name("libunity.so")
+		myoffset = 6085436
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("00 00 80 3F")
+		gg.clearResults()
+		gg.toast("✅Mᴀɢɪᴄ Bᴜʟʟᴇᴛᴢ Oɴ✅")
+		Med = "【 🔵 】"
+	elseif Med == "【 🔵 】" then
+		gg.setRanges(gg.REGION_CODE_APP | gg.REGION_C_DATA)
+		name("libunity.so")
+		myoffset = 6085436
+		original("7F 45 4C 46 01 01 01 00")
+		replaced("00 00 00 00")
+		gg.clearResults()
+		gg.toast("🚫Mᴀɢɪᴄ Bᴜʟʟᴇᴛᴢ Oғғ🚫")
+		Med = "【 🔴 】"
+	end
+end
+
+ant2 = "【 🔴 】"
+function Antenna()
+	if ant2 == "【 🔴 】" then
+		vinoth(1041699603, 4, 4, 1128792064)
+		vinoth(1056340869, 4, 4, 1128792064)
+		gg.toast("✅Aɴᴛᴇɴɴᴀ Hᴀɴᴅ Oɴ✅")
+		ant2 = "【 🔵 】"
+	elseif ant2 == "【 🔵 】" then
+		vinoth(1041699603, 4, 4, 1065353216)
+		vinoth(1056340869, 4, 4, 1065353216)
+		gg.toast("🚫Aɴᴛᴇɴɴᴀ Hᴀɴᴅ Oғғ🚫")
+		ant2 = "【 🔴 】"
+	end
+end
+
+function exit()
+	gg.alert("ɪ ʜᴏᴘᴇ ʏᴏᴜ ᴇɴᴊᴏʏ ᴛʜɪs sᴄʀɪᴘᴛ ")
+	gg.alert("ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɴᴀᴍᴇ ᴠɪᴘ sᴄʀɪᴘᴛ")
+	gg.toast("🔵 ᴛʜᴀɴᴋ ʏᴏᴜ ᴀɴᴅ ʙʏᴇ ʙʏᴇ ✅")
+	os.exit()
+	STARTHACKS1()
+end
+
+while true do
+	if gg.isVisible(true) then
+		XGCK = 1
+		gg.setVisible(false)
+	end
+	if XGCK == 1 then
+		STARTHACKS()
+	end
+end
+
+nubs = os.time({
+
+	year = 2023,
+
+	month = 08,
+
+	day = 28,
+
+	hour = 18,
+}) > os.time() or (function()
+	gg.alert(" ⚠️SCRIPT EXPIRED⚠️ ", "Okey")
+	while true do
+		os.exit()
+	end
+end)()
+
+while true do
+	if gg.isVisible(true) then
+		lua = 1
+		gg.setVisible(false)
+	end
+
+	if lua == 1 then
+		STARTHACKS()
+	end
+end

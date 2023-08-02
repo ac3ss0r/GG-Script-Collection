@@ -1,0 +1,172 @@
+gg.clearResults()
+menu = gg.choice({
+	"Superchest mod",
+	"extremely high value (ban)",
+	"50k",
+	"40k",
+	"30k",
+	"20k",
+	"10k",
+	"5k",
+	"2.5k",
+	"1k",
+	"500",
+	"Revert",
+}, nil, "Script Made by YeetDisDude#0001! | Arm64 | 22.5.1 | Changes values in lottery and sets")
+
+local hex =
+	"h FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 14 F6 01 90 88 B6 4F 39 F3 03 00 AA 28 01 00 37 40 D3 01 F0 00 BC 47 F9 DB 22 97 97 00 D5 01 F0 00 38 47 F9 D8 22 97 97 28 00 80 52 88 B6 0F 39 FF 07 00 F9"
+local superchest = "h 00 A0 00 91 E1 03 1F AA 16 AF 33 14 00 1C 40 F9 C0 03 5F D6 01 1C 00 F9 C0 03 5F D6 00 40 40 B9"
+if menu == 1 then -- superchest
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(superchest, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 40 00 80 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | Superchest Mod")
+end
+
+if menu == 2 then -- high value
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | Extremely High Value")
+end
+
+if menu == 3 then -- 50k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 9D 98 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 50k")
+end
+
+if menu == 4 then -- 40k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 BB 93 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 40k")
+end
+
+if menu == 5 then -- 30k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 D9 8E 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 30k")
+end
+
+if menu == 6 then -- 20k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 F7 89 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 20k")
+end
+
+if menu == 7 then -- 10k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 15 85 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 10k")
+end
+
+if menu == 8 then -- 5k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 A4 82 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 5k")
+end
+
+if menu == 9 then -- 2.5k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h E0 39 81 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 2.5k")
+end
+
+if menu == 10 then -- 1k
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h 60 7E 80 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 1k")
+end
+
+if menu == 11 then -- 500
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(hex, gg.TYPE_BYTE)
+	gg.getResults(100)
+	gg.editAll("h E0 3F 80 52 C0 03 5F D6", gg.TYPE_BYTE)
+	if gg.getResultsCount() == 0 then
+		gg.alert(
+			"You got no results. Here are things to check for. | Is your device Arm64? | Are you on 22.4.3 | Did you select pg3d's process? | Have you ran the script twice?"
+		)
+	end
+	gg.clearResults()
+	print("Done! | 500")
+end

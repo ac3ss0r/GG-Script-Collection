@@ -1,0 +1,224 @@
+-- :)
+-- hello
+local MemRange = gg.REGION_C_DATA
+local ScriptSpeed = 10
+if gg.BUILD < 14833 then
+	print("You need latest version of GameGuardian to run this script Minimum GG v.78.0")
+	os.exit()
+end
+Hack = {
+	["COINS"] = { Name = " Coins " }, -- C++: Bss
+	["GEMS"] = { Name = " Gems " }, -- C++: Bss
+	["FUEL"] = { Name = " Unlimited Fuel ", Switch = false, ["ON"] = 0xF3, Type = gg.TYPE_BYTE },
+} -- Xa: code app
+function PopupBox(Caption, Text)
+	if Text == nil then
+		Text = ""
+	end
+	gg.alert(Caption .. "\n" .. Text)
+end
+function SwitchZ1(On_Off)
+	if not On_Off then
+		return "OFF"
+	end
+	return "ON"
+end
+Killgame = function()
+	gg.processKill()
+end
+function CheatHandler(Hack)
+	if Hack.Address ~= nil then
+		if Hack.Desc ~= nil and Hack.Desc ~= 1 then
+			PopupBox("Notice: " .. Hack.Name, Hack.Desc)
+			Hack.Desc = 1
+		end
+		if Hack.Exec ~= nil then
+			Hack.Exec()
+		end
+		if Hack.Type ~= nil and Hack["OFF"] == nil then
+			Hack["OFF"] = rpm(Hack.Address, Hack.Type)
+		end
+		Hack.Switch = not Hack.Switch
+		if Hack.Type ~= nil then
+			wpm(Hack.Address, Hack.Type, Hack[SwitchZ1(Hack.Switch)])
+			gg.toast("Toggle: " .. Hack.Name .. " -> " .. SwitchZ1(Hack.Switch))
+			return true
+		end
+	end
+	PopupBox("Error toggling !", Hack.Name .. " is outdated and disabled.")
+	return false
+end
+function isAddrValid(Address)
+	if Address ~= nil and Address ~= 0 or Address then
+		return true
+	end
+	return false
+end
+function tohex(Data)
+	return Data:gsub(".", function(a)
+		return string.format("%02X", (string.byte(a)))
+	end):gsub(" ", "")
+end
+function wpm(Address, ggtype, data)
+	if gg.setValues({ { address = Address, flags = ggtype, value = data } }) then
+		return true
+	else
+		return false
+	end
+end
+function rpm(Address, ggtype)
+	res = gg.getValues({ { address = Address, flags = ggtype } })
+	if type(res) ~= "string" then
+		if ggtype == gg.TYPE_BYTE then
+			result = res[1].value & 0xFF
+		elseif ggtype == gg.TYPE_WORD then
+			result = res[1].value & 0xFFFF
+		elseif ggtype == gg.TYPE_DWORD then
+			result = res[1].value & 0xFFFFFFFF
+		elseif ggtype == gg.TYPE_QWORD then
+			result = res[1].value & 0xFFFFFFFFFFFFFFFF
+		elseif ggtype == gg.TYPE_XOR then
+			result = res[1].value & 0xFFFFFFFF
+		else
+			result = res[1].value
+		end
+		return result
+	else
+		return false
+	end
+end
+function rwmem(Address, SizeOrBuffer)
+	_rw = {}
+	if type(SizeOrBuffer) == "number" then
+		_ = ""
+		for _ = 1, SizeOrBuffer do
+			_rw[_] = { address = (Address - 1) + _, flags = gg.TYPE_BYTE }
+		end
+		for v, __ in ipairs(gg.getValues(_rw)) do
+			_ = _ .. string.format("%02X", __.value & 0xFF)
+		end
+		return _
+	end
+	Byte = {}
+	SizeOrBuffer:gsub("..", function(x)
+		Byte[#Byte + 1] = x
+		_rw[#Byte] = { address = (Address - 1) + #Byte, flags = gg.TYPE_BYTE, value = x .. "h" }
+	end)
+	gg.setValues(_rw)
+end
+function GetLibraryTextBase_CB(lib)
+	for _, __ in pairs(gg.getRangesList(lib)) do
+		if __["state"] == "Cb" then
+			return __["start"], __["end"]
+		end
+	end
+	return nil
+end
+function GetLibraryTextBase_XA(lib)
+	for _, __ in pairs(gg.getRangesList(lib)) do
+		if __["state"] == "Xa" then
+			return __["start"], __["end"]
+		end
+	end
+	return nil
+end
+gg.setVisible(false)
+gg.toast("⚙️ Initializing ...", true)
+BaseAddress_CB = GetLibraryTextBase_CB("libgame.so")
+if not isAddrValid(BaseAddress_CB) then
+	PopupBox("Script Error:", "This script not compatible with this application")
+	print([[Script Error: Try again]])
+	os.exit()
+end
+BaseAddress_XA = GetLibraryTextBase_XA("libgame.so")
+if not isAddrValid(BaseAddress_XA) then
+	os.exit()
+end
+Hack["COINS"].Address = BaseAddress_CB + 0x4d38
+Hack["GEMS"].Address = BaseAddress_CB + 0x4c98
+Hack["FUEL"].Address = BaseAddress_XA + 0x9ec84
+function Set_COINS(Hack)
+	nCOINS = gg.prompt({ "💰 Max Coins (2,147,483,647)\n\nSet Coins: " }, { cCOINS }, { "number" })
+	if nCOINS ~= nil then
+		wpm(Hack.Address, gg.TYPE_DWORD, nCOINS[1])
+		gg.toast(cCOINS .. " -> " .. nCOINS[1])
+	end
+end
+function Set_GEMS(Hack)
+	nGEMS = gg.prompt({ "💎 Max Gems (2,147,483,647)\n\nSet Gems: " }, { cGEMS }, { "number" })
+	if nGEMS ~= nil then
+		wpm(Hack.Address, gg.TYPE_DWORD, nGEMS[1])
+		gg.toast(cGEMS .. " -> " .. nGEMS[1])
+	end
+end
+function goto_Killgame(x)
+	gg.setVisible(false)
+	o = gg.alert("Are You Sure To Restart the game?", "Yes", "No")
+	if o == 1 then
+		Killgame()
+	end
+	if o == 2 then
+		gg.setVisible(true)
+	end
+end
+gg.setVisible(false)
+gg.setRanges(MemRange)
+gg.toast("⚙️ Initializing ... =￣ω￣=", true)
+
+gg.setVisible(true)
+while true do
+	if gg.isVisible(true) then
+		gg.setVisible(false)
+		-- :)
+		-- Made by Zig
+		cCOINS = rpm(Hack["COINS"].Address, gg.TYPE_DWORD)
+		cGEMS = rpm(Hack["GEMS"].Address, gg.TYPE_DWORD)
+		i = gg.prompt({
+			"⬇️ Hill Climb Racing 1.42.1 ⬇️",
+			"💰 Coins (Current: " .. cCOINS .. ") ",
+			"💎 Gems (Current: " .. cGEMS .. ") ",
+			"⛽ Turn " .. SwitchZ1(not Hack["FUEL"].Switch) .. " Unlimited Fuel",
+			"🎮 Restart the game",
+			"🚪 Exit",
+		}, { "Made_By_Zig_V1.3" }, {
+			"number",
+			"checkbox",
+			"checkbox",
+			"checkbox",
+			"checkbox",
+			"checkbox",
+		})
+		if i ~= nil then
+			if i[1] then
+				gg.setVisible(false)
+				gg.toast("Hello")
+				gg.setVisible(true)
+			end
+			if i[2] then
+				gg.setVisible(false)
+				Set_COINS(Hack["COINS"])
+				gg.setVisible(false)
+			end
+			if i[3] then
+				gg.setVisible(false)
+				Set_GEMS(Hack["GEMS"])
+				gg.setVisible(false)
+			end
+			if i[4] then
+				gg.setVisible(false)
+				CheatHandler(Hack["FUEL"])
+				gg.setVisible(false)
+			end
+			if i[5] then
+				goto_Killgame(x)
+			end
+			if i[6] then
+				break
+			end
+		end
+	end
+	gg.sleep(ScriptSpeed)
+end
+print([[
+Thank you for using script 
+]])

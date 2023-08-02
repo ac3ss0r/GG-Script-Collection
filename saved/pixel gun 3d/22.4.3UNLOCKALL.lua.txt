@@ -1,0 +1,8 @@
+gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+gg.clearResults()
+gg.searchNumber(
+	"h F4 4F BE A9 FD 7B 01 A9 FD 43 00 91 F4 CB 01 90 88 76 68 39 F3 03 00 AA E8 00 00 37 68 A0 01 F0 08 0D 45 F9",
+	gg.TYPE_BYTE
+)
+gg.getResults(8)
+gg.editAll("h C0 03 5F D6", gg.TYPE_BYTE)

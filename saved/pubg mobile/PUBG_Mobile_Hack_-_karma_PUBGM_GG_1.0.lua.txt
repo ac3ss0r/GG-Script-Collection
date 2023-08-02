@@ -1,0 +1,1132 @@
+﻿gg.alert('\n\| | 🇰﻿🇦﻿🇷﻿🇲﻿🇦﻿ | |\n\nPUBG Mobile Game Guardian Script!\n\nFor 0.7 PUBG MOBILE MODDED APK!\n\nDO-NOT! USE THE ORIGINAL APK!')
+
+HOME = 1
+::Main_Screen::
+function HOME()
+  KZ = gg.choice({
+   "🔓 [Bypass Detection!] (Open At Tencent Logo)",
+   "📱 [Mobile!] ",
+   "💻 [Emulator!] ",
+   "____________||❌EXIT❌||____________",
+  }, nil, "|| PUBG Mobile Game Guardian Script! ||\n|| MADE BY KARMA! ||\n|| For 0.7 PUBG MOBILE MODDED APK! ||\n|| DO-NOT! USE THE ORIGINAL APK! ||")
+  if KZ == 1 then
+    BYPAS()
+  end
+  if KZ == 2 then
+    mobile()
+  end
+  if KZ == 3 then
+    emulator()
+  end
+  if KZ == 4 then
+    EXIT()
+  end
+  HOMEDM = -1
+end
+
+::Bypass_Tencent_Logo::
+function BYPAS()
+  gg.toast("Bypassing...")
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults(850)
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults(850)
+  gg.alert("🎆 Successfully Bypassed! 🎆")
+end
+
+::If_Device_Mobile::
+function mobile()
+  mob = gg.choice({
+   " [Lobby Functions!] ",
+   " [Landing Functions!] ",
+   "_____↩Back↩_____"
+  }, nil, "📱 || Mobile Functions ||")
+  if mob == 1 then
+    moblobbyfunc()
+  end
+  if mob == 2 then
+    moblanding()
+  end
+  if mob == 3 then
+    HOME()
+  end
+  HOMEDM = -1
+end
+function moblobbyfunc()
+moblobby = gg.multiChoice({
+    "[1] Ultra AimBot",
+	"[2] Medium AimBot",
+    "[3] No Recoil",
+	"[4] White (All Device)",
+    "[5] Black (All Device)",
+	"[6] RED",
+    "_____↩Back↩_____"
+  }, nil, "📱 [Lobby Functions!]")
+  if moblobby == nil then
+  else
+    if moblobby[1] == true then
+      UAI()
+    end
+	if moblobby[2] == true then
+      MAI()
+    end
+    if moblobby[3] == true then
+      RC()
+    end
+	if moblobby[4] == true then
+      CW()
+    end
+    if moblobby[5] == true then
+      CL()
+    end
+	if moblobby[6] == true then
+      CR()
+    end
+    if moblobby[7] == true then
+      mobile()
+    end
+  end
+  HELOS = -1
+end
+function moblanding()
+  mobland = gg.choice({
+   " [Weapon Functions!]",
+   " [Player Functions!]",
+   " [Object Functions!]",
+   " [Antenna Functions!]",
+   " [View Functions!]",
+   " [Vehicle Functions!] ",
+   " [Misc Functions!]",
+   "_____↩Back↩_____",
+  }, nil, "📱 [Landing Functions!]")
+  if mobland == 1 then
+    mobwepfunctions()
+  end
+  if mobland == 2 then
+    mobplafunctions()
+  end
+  if mobland == 3 then
+    mobobjfunctions()
+  end
+  if mobland == 4 then
+    mobantfunctions()
+  end
+  if mobland == 5 then
+    mobviewfunctions()
+  end
+  if mobland == 6 then
+    vehicle()
+  end
+  if mobland == 7 then
+    mobmiscfunctions()
+  end
+  if mobland == 8 then
+    mobile()
+  end
+  HOMEDM = -1
+end
+function mobwepfunctions()
+mobwepfunc = gg.multiChoice({
+	"[1] Magic Bullet [FIXED]",
+	"[2] Bullet Track",
+    "[3] Mini WallShot",
+    "[4] HeadShot Only",
+    "[5] Bullet Through Wall",
+    "[6] Range Damage",
+    "_____↩Back↩_____"
+  }, nil, "📱 [Weapon Functions!]")
+  if mobwepfunc == nil then
+  else
+    if mobwepfunc[1] == true then
+      magic_bullet()
+    end
+	if mobwepfunc[2] == true then
+      BT()
+    end
+	if mobwepfunc[3] == true then
+      WS()
+    end
+	if mobwepfunc[4] == true then
+      TW()
+    end
+    if mobwepfunc[5] == true then
+      HOL()
+    end
+    if mobwepfunc[6] == true then
+      DM()
+    end
+	if mobwepfunc[7] == true then
+      moblanding()
+    end
+  end
+  HELOS = -1
+end
+function mobplafunctions()
+mobplafunc = gg.multiChoice({
+	"[1] SpeedHack",
+	"[2] LongJump",
+	"[3] BIG Head",
+	"[4] Player Fly Mode",
+	"[5] Player Crosshair",
+	"[6] Lift Sit Down Aim",
+    "_____↩Back↩_____"
+  }, nil, "📱 [Player Functions!]")
+  if mobplafunc == nil then
+  else
+    if mobplafunc[1] == true then
+      pla_speedhack()
+    end
+	if mobplafunc[2] == true then
+      pla_longjump()
+    end
+	if mobplafunc[3] == true then
+      pla_bighead()
+    end
+	if mobplafunc[4] == true then
+      pla_flymode()
+    end
+	if mobplafunc[5] == true then
+      pla_crosshair()
+    end
+	if mobplafunc[6] == true then
+      scope()
+    end
+	if mobplafunc[7] == true then
+      moblanding()
+    end
+  end
+  HELOS = -1
+end
+function mobobjfunctions()
+mobobjfunc = gg.multiChoice({
+	"[1] No Grass",
+	"[2] No Grass+Trees",
+	"[3] No Grass+Trees+Houses+Textures",
+    "_____↩Back↩_____"
+  }, nil, "📱 [Object Functions!]")
+  if mobobjfunc == nil then
+  else
+    if mobobjfunc[1] == true then
+      nograss()
+    end
+	if mobobjfunc[2] == true then
+      no_grass_no_trees()
+    end
+	if mobobjfunc[3] == true then
+      no_textures()
+    end
+	if mobobjfunc[4] == true then
+      moblanding()
+    end
+  end
+  HELOS = -1
+end
+function mobantfunctions()
+mobantfunc = gg.multiChoice({
+	"[1] Antenna Run Side",
+	"[2] Antenna Backpack",
+	"[3] Antenna Head Only",
+	"[4] Antenna Always",
+	"[5] Equipment Items Antenna",
+    "_____↩Back↩_____"
+  }, nil, "📱 [Antenna Functions!]")
+  if mobantfunc == nil then
+  else
+    if mobantfunc[1] == true then
+      ATRS()
+    end
+	if mobantfunc[2] == true then
+      ATBP()
+    end
+    if mobantfunc[3] == true then
+      ATH()
+    end
+    if mobantfunc[4] == true then
+      AT2()
+    end
+	if mobantfunc[5] == true then
+      EIA()
+    end
+	if mobantfunc[6] == true then
+      moblanding()
+    end
+  end
+  HELOS = -1
+end
+function mobviewfunctions()
+mobviewfunc = gg.multiChoice({
+	"[1] Vision Extend",
+    "_____↩Back↩_____"
+  }, nil, "📱 [View Functions!]")
+  if mobviewfunc == nil then
+  else
+    if mobviewfunc[1] == true then
+      VEX()
+    end
+	if mobviewfunc[2] == true then
+      moblanding()
+    end
+  end
+  HELOS = -1
+end
+function mobmiscfunctions()
+mobmiscfunc = gg.multiChoice({
+	"[1] Superfast",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Misc Functions!]")
+  if mobmiscfunc == nil then
+  else
+    if mobmiscfunc[1] == true then
+      supfast()
+    end
+	if mobmiscfunc[2] == true then
+      moblanding()
+    end
+  end
+  HELOS = -1
+end
+
+::If_Device_Emulator::
+function emulator()
+  emu = gg.choice({
+   " [Lobby Functions!] ",
+   " [Landing Functions!] ",
+   "_____↩Back↩_____"
+  }, nil, "💻 || Emulator Functions ||")
+  if emu == 1 then
+    emulobbyfunc()
+  end
+  if emu == 2 then
+    emulanding()
+  end
+  if emu == 3 then
+    HOME()
+  end
+  HOMEDM = -1
+end
+function emulobbyfunc()
+emulobby = gg.multiChoice({
+    "[1] Ultra AimBot",
+	"[2] Medium AimBot",
+    "[3] No Recoil",
+	"[4] White (All Device)",
+    "[5] Black (All Device)",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Lobby Functions!]")
+  if emulobby == nil then
+  else
+    if emulobby[1] == true then
+      UAI()
+    end
+	if emulobby[2] == true then
+      MAI()
+    end
+    if emulobby[3] == true then
+      RC()
+    end
+	if emulobby[4] == true then
+      CW()
+    end
+    if emulobby[5] == true then
+      CL()
+    end
+    if emulobby[6] == true then
+      emulator()
+    end
+  end
+  HELOS = -1
+end
+function emulanding()
+  emuland = gg.choice({
+   " [Weapon Functions!]",
+   " [Player Functions!]",
+   " [Object Functions!]",
+   " [Antenna Functions!]",
+   " [View Functions!]",
+   " [Vehicle Functions!] ",
+   " [Misc Functions!]",
+   "_____↩Back↩_____",
+  }, nil, "💻 [Landing Functions!]")
+  if emuland == 1 then
+    emuwepfunctions()
+  end
+  if emuland == 2 then
+    emuplafunctions()
+  end
+  if emuland == 3 then
+    emuobjfunctions()
+  end
+  if emuland == 4 then
+    emuantfunctions()
+  end
+  if emuland == 5 then
+    emuviewfunctions()
+  end
+  if emuland == 6 then
+    vehicle()
+  end
+  if emuland == 7 then
+    emumiscfunctions()
+  end
+  if emuland == 8 then
+    emulator()
+  end
+  HOMEDM = -1
+end
+function emuwepfunctions()
+emuwepfunc = gg.multiChoice({
+	"[1] Magic Bullet [FIXED]",
+	"[2] Bullet Track",
+    "[3] Mini WallShot",
+    "[4] HeadShot Only",
+    "[5] Bullet Through Wall",
+    "[6] Range Damage",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Weapon Functions!]")
+  if emuwepfunc == nil then
+  else
+    if emuwepfunc[1] == true then
+      magic_bullet()
+    end
+	if emuwepfunc[2] == true then
+      BT()
+    end
+	if emuwepfunc[3] == true then
+      WS()
+    end
+	if emuwepfunc[4] == true then
+      TW()
+    end
+    if emuwepfunc[5] == true then
+      HOL()
+    end
+    if emuwepfunc[6] == true then
+      DM()
+    end
+	if emuwepfunc[7] == true then
+      emulanding()
+    end
+  end
+  HELOS = -1
+end
+function emuplafunctions()
+emuplafunc = gg.multiChoice({
+	"[1] SpeedHack",
+	"[2] LongJump",
+	"[3] BIG Head",
+	"[4] Player Fly Mode",
+	"[5] Player Crosshair",
+	"[6] Lift Sit Down Aim",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Player Functions!]")
+  if emuplafunc == nil then
+  else
+    if emuplafunc[1] == true then
+      pla_speedhack()
+    end
+	if emuplafunc[2] == true then
+      pla_longjump()
+    end
+	if emuplafunc[3] == true then
+      pla_bighead()
+    end
+	if emuplafunc[4] == true then
+      pla_flymode()
+    end
+	if emuplafunc[5] == true then
+      pla_crosshair()
+    end
+	if emuplafunc[6] == true then
+      scope()
+    end
+	if emuplafunc[7] == true then
+      emulanding()
+    end
+  end
+  HELOS = -1
+end
+function emuobjfunctions()
+emuobjfunc = gg.multiChoice({
+	"[1] No Grass",
+	"[2] No Grass+Trees",
+	"[3] No Grass+Trees+Houses+Textures",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Object Functions!]")
+  if emuobjfunc == nil then
+  else
+    if emuobjfunc[1] == true then
+      nograss()
+    end
+	if emuobjfunc[2] == true then
+      no_grass_no_trees()
+    end
+	if emuobjfunc[3] == true then
+      no_textures()
+    end
+	if emuobjfunc[4] == true then
+      emulanding()
+    end
+  end
+  HELOS = -1
+end
+function emuantfunctions()
+emuantfunc = gg.multiChoice({
+	"[1] Antenna Run Side",
+	"[2] Antenna Backpack",
+	"[3] Antenna Head Only",
+	"[4] Antenna Always",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Antenna Functions!]")
+  if emuantfunc == nil then
+  else
+    if emuantfunc[1] == true then
+      ATRS()
+    end
+	if emuantfunc[2] == true then
+      ATBP()
+    end
+    if emuantfunc[3] == true then
+      ATH()
+    end
+    if emuantfunc[4] == true then
+      AT2()
+    end
+	if emuantfunc[5] == true then
+      emulanding()
+    end
+  end
+  HELOS = -1
+end
+function emuviewfunctions()
+emuviewfunc = gg.multiChoice({
+	"[1] Vision Extend",
+    "_____↩Back↩_____"
+  }, nil, "💻 [View Functions!]")
+  if emuviewfunc == nil then
+  else
+    if emuviewfunc[1] == true then
+      VEX()
+    end
+	if emuviewfunc[2] == true then
+      emulanding()
+    end
+  end
+  HELOS = -1
+end
+function emumiscfunctions()
+miscfunc = gg.multiChoice({
+	"[1] Superfast",
+    "_____↩Back↩_____"
+  }, nil, "💻 [Misc Functions!]")
+  if miscfunc == nil then
+  else
+    if miscfunc[1] == true then
+      supfast()
+    end
+	if miscfunc[2] == true then
+      emulanding()
+    end
+  end
+  HELOS = -1
+end
+
+::Close_Script::
+function EXIT()
+  print(os.date("|| MADE BY KARMA! ||"))
+  HS = print("|| PUBG Mobile Game Guardian Script! ||")
+  print("|| For 0.7 PUBG MOBILE MODDED APK! ||")
+  print("|| Script has ended successfully! ||")
+  os.exit()
+end
+
+
+function HOL()
+gg.toast("Activating...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("460", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-88.73961639404;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("560", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function WS()
+  gg.clearResults()
+  gg.toast("Activating...")
+  gg.searchNumber("869,711,765D;2;1::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(2)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function TW()
+  gg.clearResults()
+  gg.toast("Activating...")
+  gg.searchNumber("30;58::10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+  gg.clearResults(850)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+
+::Global_Lobby_No_Recoil_Function::
+function RC()
+  gg.clearResults()
+  gg.toast("Activating No Recoil...")
+  gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000)
+  gg.editAll("1868756421", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000)
+  gg.editAll("100000", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("🎆 No Recoil - Successfully Activated!")
+end
+
+function UAI()
+  gg.clearResults()
+  gg.toast("Activating Ultra AimBot...")
+  gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.5;1;200;20::959", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-9999999999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Ultra AimBot - Successfully Activated!")
+end
+function MAI()
+  gg.toast("Activating Medium AimBot...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5F;1F;1F;1F;200F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.searchNumber("200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  gg.editAll("9999", gg.TYPE_FLOAT)
+
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5F;1F;1F;1F;9999F;20F:512", gg.TYPE_DWORD, false, gg.SING_EQUAL, 0, -1)
+  gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  gg.editAll("-9999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Medium AimBot - Successfully Activated!")
+end
+function BT()
+  gg.clearResults()
+  gg.toast("Activating...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("88.15017700195;15:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("95", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("-88.66608428955;26:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("26", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("66", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("90.4850692749;27.25;28:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("27.25;28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("87", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("1,104,805,888D;18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("18", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(250)
+  gg.editAll("90", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+
+::Global_Weapon_Functions::
+function magic_bullet()
+  gg.clearResults()
+  gg.toast("Activating Magic Bullet...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.searchNumber("90.77570343018F;8.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Magic Bullet - Successfully Activated!")
+end
+function DM()
+  gg.clearResults()
+  gg.toast("Activating...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("15.0F;28.0F;16.0F;26.0F;8.0F;18.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("80", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function K98()
+  gg.clearResults()
+  gg.toast("Activating...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("76000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("500000", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+
+::Global_Player_Functions::
+function pla_speedhack()
+  gg.clearResults()
+  gg.toast("Activating SpeedHack...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("1.07", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 SpeedHack - Successfully Activated!")
+end
+function pla_longjump()
+  gg.clearResults()
+  gg.toast("Activating LongJump...")
+  gg.searchNumber("-980.0F;0.30000001192F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-980", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("-550", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 LongJump - Successfully Activated!")
+end
+function pla_bighead()
+  gg.toast("Activating BIG Head...")
+  gg.clearResults()
+  gg.searchNumber('88.50576019287;87.27782440186;1::50',gg.TYPE_FLOAT,false, gg.SIGN_EQUAL,0, -1)
+  gg.getResults(100)
+  gg.editAll('3', gg.TYPE_FLOAT)
+  gg.toast("🎆 BIG Head - Successfully Activated!")
+end
+function pla_flymode()
+  gg.toast("Activating Player Fly Mode...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults() 
+  gg.searchNumber("-0.70710676908;0.70710670948;64;128D;1D::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("3", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("🎆 Player Fly Mode - Successfully Activated!")
+  gg.alert('\n\|| Press Jump-Button multi-times to activate. ||')
+end
+function pla_crosshair()
+  gg.toast("Activating Player Crosshair Mode...")
+  gg.setRanges(32)
+  gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+  gg.searchNumber("3.20000004768;1.09375", 16, false, 536870912, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0", 16)
+  gg.toast("🎆 Player Crosshair - Successfully Activated!")
+end
+
+::Global_Antenna_Functions::
+function ATRS()
+  gg.clearResults()
+  gg.toast("Activating Antenna Run Side...")
+  gg.setRanges(32)
+  gg.searchNumber("18.38613319397F;0.53447723389F;3.42665576935F", 16, false, 536870912, 0, -1)
+  gg.searchNumber("18.38613319397;0.53447723389;3.42665576935", 16, false, 536870912, 0, -1)
+  gg.getResults(3)
+  gg.editAll("99999", 16)
+  gg.clearResults()
+  gg.toast("🎆 Antenna Run Side - Successfully Activated!")
+end
+function ATBP()
+  gg.alert('It is better to activate without picking-up any backpack!')
+  gg.toast("Activating Antenna Backpack...")
+  gg.clearResults(850)
+  gg.searchNumber("0.9378669858F;1.0F;0.61365610361F::55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  print("Replaced: ", gg.editAll("9999", gg.TYPE_FLOAT))
+  gg.clearResults()
+  gg.toast("🎆 Antenna Backpack - Successfully Activated!")
+end
+function ATH()
+  gg.toast("Activating Antenna Head Only...")
+  gg.clearResults(850)
+  gg.searchNumber("-0.08587168157F;7.13142681122F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("7.13142681122", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(850)
+  print("Replaced: ", gg.editAll("9999", gg.TYPE_FLOAT))
+  gg.clearResults()
+  gg.toast("🎆 Antenna Head Only - Successfully Activated!")
+end
+function AT2()
+  gg.clearResults()
+  gg.toast("Activating Antenna Always...")
+  gg.searchNumber("7.13142681122;0.53447723389;22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("22.6400718689", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("9621", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("-1.68741035461", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1995)
+  gg.editAll("19995", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("18.38612365723F;0.54026412964F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1995)
+  gg.editAll("19995", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Antenna Always - Successfully Activated!")
+end
+function EIA()
+  gg.clearResults()
+  gg.toast("Activating Equipment Items Antenna...")
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("7.1689529418945", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("999999999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("3.4779739379883;2.8345839977264;3.1967880725861;3.8841888904572;3.1528658866882::208", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.4779739379883", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("003,005,0", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("7.4993133544922", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("0.73620933294296", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(3)
+  gg.editAll("999999999", gg.TYPE_FLOAT)
+  gg.toast("🎆 Equipment Items Antenna - Successfully Activated!")
+end
+
+::Global_Vision_Extender::
+function VEX()
+  gg.toast("Activating Vision Extend...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("1200", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Vision Extend - Successfully Activated!")
+end
+
+::Global_Lift_Sit_Down::
+function scope()
+  gg.clearResults()
+  gg.toast("Activating...")
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1,136,081,726", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+
+function CW()
+  gg.toast("Activating Color White...")
+  gg.searchNumber(" 573.70306396484;0.05499718338;1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(5000)
+  gg.editAll("999", gg.TYPE_FLOAT)
+  gg.clearResults(5000)
+  gg.clearResults()
+  gg.toast("🎆 Color White - Successfully Activated!")
+end
+function CL()
+  gg.toast("Activating Color Black...")
+  gg.clearResults()
+  gg.searchNumber(" 573.70306396484;0.05499718338;1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(" 1.0 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1200)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults(1200)
+  gg.clearResults()
+  gg.toast("🎆 Color Black - Successfully Activated!")
+end
+function CR()
+  gg.toast("Activating Color Red...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("1.4012985e-45;1.0863213e-19;1.4012985e-44 000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1.4012985e-44", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("32,768;-2,134,900,722", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("32768", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("32777", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("🎆 Color Red - Successfully Activated!")
+end
+function ab()
+  gg.clearResults()
+  gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("3.5;1;200;20::999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("3.5;1;200;20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("-1.0e10", gg.TYPE_FLOAT)
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function lift()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("1,136,081,726", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function rec()
+  gg.clearResults()
+  gg.searchNumber("1868784978;1850305641;28518", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1868784978", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000)
+  gg.editAll("1868756421", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1750294898;1415932769;1819307365", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(1000)
+  gg.editAll("100000", gg.TYPE_DWORD)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function blue()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.clearResults()
+  gg.searchNumber("589826", gg.TYPE_DWORD, false)
+  gg.getResults(20050309)
+  gg.editAll("666666", gg.TYPE_DWORD)
+   gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function mb()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("90.77570343018F;8.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(500)
+  gg.editAll("100", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+function wall()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("5.1097599e21;2.0;1.6623071e-19;3.6734297e-39;1.66433e10::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("200", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.searchNumber("-5.5693206e-40;4.814603e21;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("120", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_BAD)
+  gg.searchNumber("2.0;-1.0;0.0;1.0;-127.0::17", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(30)
+  gg.editAll("200", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Successfully Activated!")
+end
+
+::Global_Vehicle_Functions::
+function vehicle()
+veh = gg.multiChoice({
+	"[1] Jeep SpeedHack",
+	"[2] Jeep Underwater",
+	"[3] Jeep SpeedHack+Underwater [BOTH]",
+	"[4] Restore Jeep Speed",
+    "_____↩Back↩_____"
+  }, nil, "🆕 [Landing Functions!]\n|| MADE BY KARMA ||")
+  if veh == nil then
+  else
+    if veh[1] == true then
+      JSH()
+    end
+	if veh[2] == true then
+      JUW()
+    end
+	if veh[3] == true then
+      JSHUW()
+    end
+	if veh[4] == true then
+      REJS()
+    end
+	if veh[5] == true then
+      HOME()
+    end
+  end
+  HELOS = -1
+end
+
+::Vehicle_Functions::
+function JSH()
+  gg.toast("Activating Jeep SpeedHack...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Jeep SpeedHack - Successfully Activated!")
+end
+function JUW()
+  gg.toast("Activating Jeep Underwater...")
+  gg.clearResults()
+  gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.searchNumber(45, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.getResults(100)
+  gg.getResults(100)
+  gg.editAll("99996", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Jeep Underwater - Successfully Activated!")
+end
+function JSHUW()
+  gg.toast("Activating Jeep Hacks...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("0.647058857", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("-999", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.clearResults()
+  gg.searchNumber("150;85;45;-129;-85", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.searchNumber(45, gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResultCount()
+  gg.getResults(100)
+  gg.getResults(100)
+  gg.editAll("99996", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Jeep SpeedHack+Underwater - Successfully Activated!")
+end
+function REJS()
+  gg.toast("Restoring Jeep Speed...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("-999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(10)
+  gg.editAll("0.647058857", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Jeep Speed - Successfully Restored!")
+end
+
+::Grass_Tree_Houses_Textures::
+function nograss()
+  gg.toast("Removing Grass...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber("8.0F;1.20000004768F;0.80000001192F;1.5F;0.80000001192F;1.5F::512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("8.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("0", gg.TYPE_FLOAT)
+  gg.toast("🎆 Grass - Successfully Removed!")
+end
+function no_grass_no_trees()
+  gg.toast("Removing Grass and Trees...")
+  gg.clearResults()
+  gg.setRanges(gg.REGION_C_BSS)
+  gg.searchNumber("2048D;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(100)
+  gg.editAll("0.07", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Grass and Trees - Successfully Removed!")
+end
+function no_textures()
+  gg.toast("Removing Grass,Trees,Houses and Textures...")
+    gg.clearResults()
+    gg.setRanges (gg.REGION_C_BSS)
+    gg.searchNumber('2048D;1F', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('1', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('0.07', gg.TYPE_FLOAT)
+    gg.clearResults()
+  gg.toast("🎆 Grass,Trees,Houses and Textures - Successfully Removed!")
+end
+
+::Superfast_Mode::
+function supfast()
+  gg.toast("Activating Superfast Mode...")
+  gg.clearResults()
+  gg.searchNumber("999", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.clearResults()
+  gg.setRanges(gg.REGION_CODE_APP)
+  gg.searchNumber("10.90734863281;0.00999999978", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber("10.9073486328", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(300)
+  gg.editAll("10.001", gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast("🎆 Superfast Mode - Successfully Activated!")
+end
+while true do
+  if gg.isVisible(true) then
+    HOMEDM = 1
+    gg.setVisible(false)
+  end
+  if HOMEDM == 1 then
+    HOME()
+  end
+end

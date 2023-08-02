@@ -1,0 +1,189 @@
+lib_size = 0
+lib_index = ""
+
+BASEADDR = gg.getRangesList("libcocos2dcpp.so")[1].start
+arch = gg.getTargetInfo()
+
+armEditTable = {
+	ARM7 = {
+		offset = 0X9FCB18,
+		value = "70470000r",
+	},
+	ARM8 = {
+		offset = 0X73DEFC,
+		value = "08008052r",
+	},
+}
+offsetsTable = {
+	ARM7 = {
+		One = 0X44,
+		Two = 0X2A4,
+		Three = 0X8,
+		Four = 0X28,
+	},
+	ARM8 = {
+		One = 0X68,
+		Two = 0X3A0,
+		Three = 0X10,
+		Four = 0X30,
+	},
+}
+pointerType = gg.TYPE_DWORD
+if arch.x64 then
+	armEditTable = armEditTable["ARM8"]
+	offsetsTable = offsetsTable["ARM8"]
+	pointerType = gg.TYPE_QWORD
+else
+	armEditTable = armEditTable["ARM7"]
+	offsetsTable = offsetsTable["ARM7"]
+	pointerType = gg.TYPE_DWORD
+end
+
+function unlockVIP()
+	local expireTimeStamp = os.time(os.date("!*t"))
+	local length = 31536000 * math.random(20, 25)
+	local lengthMenu = gg.prompt({ "Number of days to give. (cancel for unlimited) [1;30]" }, { 7 }, { "number" })
+	if lengthMenu ~= nil then
+		length = 86400 * tonumber(lengthMenu[1])
+	end
+	local armEdit = {
+		{
+			address = armEditTable.offset + BASEADDR,
+			flags = gg.TYPE_DWORD,
+			value = armEditTable.value,
+		},
+	}
+	gg.setValues(armEdit)
+
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_ANONYMOUS | gg.REGION_OTHER)
+	gg.searchNumber("1;1;65,792;0;1472367388~1772367388::21", gg.TYPE_DWORD)
+	gg.refineNumber("65792", gg.TYPE_DWORD)
+	local result = gg.getResults(1)
+	local getFirstPointer = {
+		{
+			address = result[1].address + offsetsTable.One,
+			flags = pointerType,
+		},
+	}
+	getFirstPointer = gg.getValues(getFirstPointer)
+	local getSecondPointer = {
+		{
+			address = getFirstPointer[1].value + offsetsTable.Two,
+			flags = pointerType,
+		},
+	}
+	getSecondPointer = gg.getValues(getSecondPointer)
+	local groupEditStart = getSecondPointer[1].value + offsetsTable.Three
+	local groupEditOne = {
+		{
+			address = groupEditStart,
+			flags = gg.TYPE_DWORD,
+			value = 130559,
+		},
+		{
+			address = groupEditStart + 4,
+			flags = gg.TYPE_DWORD,
+			value = 81,
+		},
+		{
+			address = groupEditStart + 8,
+			flags = gg.TYPE_DWORD,
+			value = expireTimeStamp + length,
+		},
+		{
+			address = groupEditStart + 12,
+			flags = gg.TYPE_DWORD,
+			value = 6,
+		},
+		{
+			address = groupEditStart + 16,
+			flags = gg.TYPE_DWORD,
+			value = expireTimeStamp,
+		},
+		{
+			address = groupEditStart + 20,
+			flags = gg.TYPE_DWORD,
+			value = expireTimeStamp,
+		},
+		{
+			address = groupEditStart + 24,
+			flags = gg.TYPE_DWORD,
+			value = expireTimeStamp,
+		},
+		{
+			address = groupEditStart + 28,
+			flags = gg.TYPE_DWORD,
+			value = 65793,
+		},
+	}
+	groupEditOne = gg.setValues(groupEditOne)
+	local pointerToChangeAddress = getSecondPointer[1].value + offsetsTable.Four
+	local newLocation = gg.allocatePage(gg.PROT_READ | gg.PROT_WRITE)
+	local groupEditTwo = {
+		{
+			address = newLocation,
+			flags = gg.TYPE_DWORD,
+			value = 1852796198,
+		},
+		{
+			address = newLocation + 4,
+			flags = gg.TYPE_DWORD,
+			value = 2037147764,
+		},
+		{
+			address = newLocation + 8,
+			flags = gg.TYPE_DWORD,
+			value = 1651864415,
+		},
+		{
+			address = newLocation + 12,
+			flags = gg.TYPE_DWORD,
+			value = 1601138271,
+		},
+		{
+			address = newLocation + 16,
+			flags = gg.TYPE_DWORD,
+			value = 1936549223,
+		},
+	}
+	groupEditTwo = gg.setValues(groupEditTwo)
+	local setPointer = {
+		{
+			address = pointerToChangeAddress,
+			flags = pointerType,
+			value = newLocation,
+		},
+	}
+	setPointer = gg.setValues(setPointer)
+	gg.alert("✅ VIP Is Unlocked ✅\nNow open a free/video chest.")
+end
+
+function home()
+	local menu = gg.choice({ "🔓 Unlock VIP", "❌ Exit" }, nil, "HCR 2 VIP Hack by NoFear and BadCase")
+	if menu ~= nil then
+		if menu == 1 then
+			local ready = gg.choice(
+				{ "✅ Yes I Am Ready", "❌ No I Am Not Ready" },
+				nil,
+				"Go to the shops Chests tab and have a free/video chest ready to open or you will lose your first VIP chest."
+			)
+			if ready ~= nil then
+				if ready == 1 then
+					unlockVIP()
+				end
+			end
+		end
+		if menu == 2 then
+			os.exit()
+		end
+	end
+end
+
+while true do
+	if gg.isVisible() then
+		gg.setVisible(false)
+		home()
+	end
+	gg.sleep(100)
+end

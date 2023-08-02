@@ -1,0 +1,172 @@
+--© 2020 Scrybbs. All rights reserved.
+
+gg.clearResults()
+gg.clearList()
+gg.setRanges(gg.REGION_C_ALLOC)
+
+--Main Menu
+function main()
+	menu = gg.choice({ "Coin Hack", "Diamond Hack", "Help", "Contact", "Exit" }, nil, "© 2020 Scrybbs")
+	if menu == 1 then
+		coinhack1()
+	end
+	if menu == 2 then
+		diamondhack1()
+	end
+	if menu == 3 then
+		help()
+	end
+	if menu == 4 then
+		contact()
+	end
+	if menu == 5 then
+		exit()
+	end
+end
+
+--Coin Hack
+function coinhack1()
+	input = gg.prompt({ "Coin Hack Step 1\n\nPut in your current amount of coins +1:" }, { 0 }, { "number" })
+	if input == nil then
+		main()
+	else
+		gg.setVisible(false)
+		gg.searchNumber(input[1], gg.TYPE_DWORD)
+		gg.getResults(100000)
+		gg.alert(
+			"After you click on OK you have 10 seconds to increase or decrease your amount of coins. After these 10 seconds a new window will appear."
+		)
+		gg.sleep(10000)
+		coinhack2()
+	end
+end
+
+function coinhack2()
+	input = gg.prompt(
+		{ "Coin Hack Step 2\n\nPut in your updated amount of coins +1:", "Set new amount of coins: [1; 10000000]" },
+		{ 0, 1000000 },
+		{ "number", "number" }
+	)
+	if input == nil then
+		main()
+	else
+		gg.setVisible(false)
+		gg.refineNumber(input[1], gg.TYPE_DWORD)
+		gg.getResults(100000)
+		gg.editAll(input[2], gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("Amount of coins succesfully set to " .. input[2])
+	end
+end
+
+--Diamond Hack
+function diamondhack1()
+	input = gg.prompt({ "Diamond Hack Step 1\n\nPut in your current amount of diamonds +1:" }, { 0 }, { "number" })
+	if input == nil then
+		main()
+	else
+		gg.setVisible(false)
+		gg.searchNumber(input[1], gg.TYPE_DWORD)
+		gg.getResults(100000)
+		gg.alert(
+			"After you click on OK you have 10 seconds to increase or decrease your amount of diamonds. After these 10 seconds a new window will appear."
+		)
+		gg.sleep(10000)
+		diamondhack2()
+	end
+end
+
+function diamondhack2()
+	input = gg.prompt({
+		"Diamond Hack Step 2\n\nPut in your updated amount of diamonds +1:",
+		"Set new amount of diamonds: [1; 1000000]",
+	}, { 0, 100000 }, { "number", "number" })
+	if input == nil then
+		main()
+	else
+		gg.setVisible(false)
+		gg.refineNumber(input[1], gg.TYPE_DWORD)
+		gg.getResults(100000)
+		gg.editAll(input[2], gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("Amount of diamonds succesfully set to " .. input[2])
+	end
+end
+
+--Help
+function help()
+	menu = gg.choice(
+		{ "What do you mean with coins/diamonds +1?", "Is there a ban risk?", "Is a ban avoidable?", "Back" },
+		nil,
+		"What's the problem?"
+	)
+	if menu == 1 then
+		cdhh()
+	end
+	if menu == 2 then
+		banrisk()
+	end
+	if menu == 3 then
+		avoidban()
+	end
+	if menu == 4 then
+		main()
+	end
+	if menu == nil then
+		main()
+	end
+end
+
+function cdhh()
+	gg.alert(
+		"Let's say you have 10789 coins and 563 diamonds. Coins/diamonds +1 means you have to add 1 coin/diamond to the amount of coins/diamonds you have. So if you have 10789 coins you have to type in 10790. If you have 563 diamonds you type in 564."
+	)
+	help()
+end
+
+function banrisk()
+	gg.alert("Yes, there is a ban risk.\nThat's why I highly recommend not using these hacks on your main account.")
+	help()
+end
+
+function avoidban()
+	gg.alert(
+		"No, a ban is unavoidable.\nBut you can decrease the chance of getting banned.\nHere are 3 tips:\n>>don't hack yourself too much ressources\n>>don't pay too much coins at once\n>>don't buy too much chests at once"
+	)
+	help()
+end
+
+--Contact
+function contact()
+	alert = gg.alert(
+		[[
+You have an issue with a script? You have a general question about Game Guardian? Join my Discord Server and I will help you with whatever the problem is!
+]],
+		"Copy Link",
+		"Back"
+	)
+	if alert == 1 then
+		gg.copyText("https://discord.gg/nFgn89P")
+		gg.toast("Link copied")
+	end
+	if alert == 2 then
+		main()
+	end
+end
+
+--Exit
+function exit()
+	gg.clearResults()
+	gg.clearList()
+	gg.setVisible(true)
+	print("© 2020 Scrybbs. All rights reserved.")
+	os.exit()
+end
+
+gg.setVisible(true)
+while true do
+	if gg.isVisible() then
+		gg.setVisible(false)
+		main()
+	end
+end

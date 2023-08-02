@@ -1,0 +1,11 @@
+gg.setRanges(gg.REGION_CODE_APP) -- offset 0x3EC5F24 edited to 1000
+gg.searchNumber(
+	"h F3 7B BF A9 F3 03 00 AA 00 04 40 B9 E1 03 1F AA EC CC F3 97 69 22 40 29 08 01 00 4A 00 01 09 4A",
+	gg.TYPE_BYTE
+)
+gg.getResults(8)
+gg.editAll(
+	"h 00 7D 80 52 C0 03 5F D6 00 04 40 B9 E1 03 1F AA EC CC F3 97 69 22 40 29 08 01 00 4A 00 01 09 4A",
+	gg.TYPE_BYTE
+)
+gg.clearResults()

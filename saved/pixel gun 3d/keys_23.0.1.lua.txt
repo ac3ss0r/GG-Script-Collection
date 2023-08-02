@@ -1,0 +1,22 @@
+gg.setRanges(gg.REGION_CODE_APP)
+X = gg.TYPE_BYTE
+gg.setVisible(false)
+gg.alert("PixelGun3d Lottery sets key modification by (RandomUser#1734) for more info just dm me")
+function clear()
+	a = gg.clearResults()
+end
+local menu = gg.choice({ "Start" }, nil, "PG3D.lua Script (RandomUser#1734)")
+hex = "00 08 40 F9 60 00 00 B4 E1 03 1F AA 3A 12 71 14 C0 03 5F D6 00 14 40 F9 60 00 00 B4 E1 03 1F AA"
+hexe = "00 00 80 D2 C0 03 5F D6 E1 03 1F AA 3A 12 71 14 C0 03 5F D6 00 14 40 F9 60 00 00 B4 E1 03 1F AA"
+function bpx()
+	clear()
+	gg.searchNumber("h" .. hex, X)
+	gg.getResults(999)
+	gg.editAll("h" .. hexe, X)
+	gg.alert("Script finished go to lottery and then buy a chest")
+	clear()
+end
+if menu == 1 then
+	bpx()
+end
+--

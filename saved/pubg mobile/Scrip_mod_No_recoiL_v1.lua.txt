@@ -1,0 +1,129 @@
+﻿
+function Main()
+  SN = gg.choice({
+  "No recoil🌴",
+  "anti-vibration🌴",
+  "Anti-vibration hand🌴",
+"Exit❌"
+ }, nil, "ổn định và không bị hạn chế")
+  if SN == 1 then
+    a()
+  end
+  if SN == 2 then
+   b()
+  end
+  if SN == 3 then
+   c()
+  end
+  if SN == 4 then
+   Exit()
+  end
+  XGCK = -1
+end
+
+
+
+
+
+
+function a()
+gg.clearResults()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("-1.0;-1.4012985e30~-1.4012985e-45;1.4012985e-45;1.4012985e-45;5.0;1.2520827e-32;1.4012985e-45;0.64999997616;2~20::181", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+local css = gg.getResults(1)
+if css[1] == nil then
+gg.alert("Tìm kiếm thất bại")
+
+-- Nếu kết quả không bằng chu kỳ thực hiện sai
+
+else
+
+gg.searchNumber("-1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+
+n=gg.getResultCount()
+ jz=gg.getResults(n)
+
+end  -- Tìm kiếm không tìm thấy chữ ký đầu tiên
+
+for i=1, n do
+
+ppp={}
+ddd={}
+ppp[1]={address = jz[i].address+12,flags = 16}
+whzs=gg.getValues({[1]=ppp[1]})
+whz1=whzs[1].value
+gg.copyText(whz1)
+gg.clearResults()
+gg.searchNumber("0D;2.4e-42~2.4E-38;"..whz1.."::9",16)
+
+local fd=gg.getResults(3)
+if fd[1]==nil then
+gg.alert("Tìm kiếm thất bại")
+else
+
+gg.setValues({[1]={address = fd[3].address,flags = 16,value = 0}})
+
+end   -- Xác định nếu có một nhóm chống rung được tìm thấy
+end    -- Kết thúc chu kỳ
+
+end     --Chương trình con kết thúc
+
+
+
+function b()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber('3.9244102e12;7.3983547e31::', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber('3.9244102e12', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(11)
+  gg.editAll('3.9244102e11',gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast('No recoil ')  
+end
+
+
+
+function c()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS)
+  gg.searchNumber('7.0062189E22;3.9928675E24;3.9413961E12::', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber('7.0062189e22', gg.TYPE_FLOAT,false,gg.SIGN_EQUAL, 0, -1)
+  gg.getResults(111)
+  gg.editAll('0',gg.TYPE_FLOAT)
+  gg.clearResults()
+  gg.toast('anti - recoil')end
+
+
+
+
+
+
+function Exit()
+gg.alert("Good bye mod by yiu a")
+  
+  os.exit()
+end
+cs = "3197302421"
+
+
+
+while true do
+  if gg.isVisible(true) then
+    XGCK = 1
+    gg.setVisible(false)
+  end
+  gg.clearResults()
+  if XGCK == 1 then
+    Main()
+  end
+end
+
+
+
+
+
+
+
+
+

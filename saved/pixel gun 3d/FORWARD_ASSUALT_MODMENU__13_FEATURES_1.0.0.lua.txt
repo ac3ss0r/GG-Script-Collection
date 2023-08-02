@@ -1,0 +1,312 @@
+gg.toast("FORWARD ASSUALT LUA MODMENU[VIP]")
+print("CREATED BY XxNiGxX & CHIKRI")
+
+if gg.BUILD < 5511 then
+	gg.alert("You Need Latest Version Of GG to Run This Script. Minimum GG v.8.30.0.")
+	gg.toast("isix.cf")
+end
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+
+::Mainmenu::
+
+menu = gg.choice({
+	"WallHack(Motel Map)",
+	"MegaJump(Press Crouch)",
+	"Invisible Hack",
+	"Max Firerate AK47",
+	"AK47 Multi Hack",
+	"Speed Hack 4x(Press Jump While Running)",
+	"Fly Hack[Pause Game Before]",
+	"Player RagDoll Effect",
+	"Underground Player(Press Crouch)",
+	"> Gun Converter(Infected) <",
+	"Exit | AntiBan",
+}, nil, "CREATED BY XxNiGxX & Chikri")
+if menu == 2 then
+	goto jumper
+end
+if menu == 3 then
+	goto invis
+end
+if menu == 1 then
+	goto bigshell
+end
+if menu == 4 then
+	goto firerateak
+end
+if menu == 5 then
+	goto akmulti
+end
+if menu == 6 then
+	goto boobs
+end
+if menu == 7 then
+	goto pussy
+end
+if menu == 8 then
+	goto sexy
+end
+if menu == 9 then
+	goto porn
+end
+if menu == 10 then
+	goto submenu
+end
+if menu == nil then
+	gg.alert(" You Not Select  Anything")
+end
+goto credit
+
+::submenu::
+gg.clearResults()
+
+submenu = gg.choice({
+	"> MP7 Gun",
+	"Disable",
+	"> M1014 Gun",
+	"Disable",
+	"> M4A1 Gun",
+	"Disable",
+	"> AK47 Gun",
+	"Disable",
+	"> Famas Gun",
+	"Disable",
+	"> RFB Gun",
+	"Disable",
+	"> CX70 Gun",
+	"Disable",
+}, nil, "You Must Be Infected And Have Equiped Knife Before Using Cheat !")
+if submenu == 1 then
+	goto mp7dh
+end
+if submenu == 2 then
+	goto mp7dhr
+end
+if submenu == 3 then
+	goto m4a1dh
+end
+if submenu == 4 then
+	goto m4a1dhr
+end
+if submenu == 5 then
+	goto uzidh
+end
+if submenu == 6 then
+	goto uzidhr
+end
+if submenu == 7 then
+	goto ak47dh
+end
+if submenu == 8 then
+	goto ak47dhr
+end
+if submenu == 9 then
+	goto famas
+end
+if submenu == 10 then
+	goto famasdis
+end
+if submenu == 11 then
+	goto rfb
+end
+if submenu == 12 then
+	goto rfbdis
+end
+if submenu == 13 then
+	goto cx
+end
+if submenu == 14 then
+	goto cxdis
+end
+if menu == nil then
+	gg.alert(" You Not Select  Anything")
+end
+goto credit
+
+::cx::
+gg.clearResults()
+gg.searchNumber("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("923417", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Enabled")
+goto submenu
+
+::cxdis::
+gg.clearResults()
+gg.searchNumber("923417", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::rfb::
+gg.clearResults()
+gg.searchNumber("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("923417", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Enabled")
+goto submenu
+
+::rfbdis::
+gg.clearResults()
+gg.searchNumber("923417", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::famas::
+gg.clearResults()
+gg.searchNumber("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("918276", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Enabled")
+goto submenu
+
+::famasdis::
+gg.clearResults()
+gg.searchNumber("918276", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::mp7dh::
+gg.clearResults()
+gg.searchNumber("780;30;9999999F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::mp7dhr::
+gg.clearResults()
+gg.searchNumber("780;30;9999999F", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("29", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::m4a1dh::
+gg.clearResults()
+gg.searchNumber("924160", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("918296", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Enabled")
+goto submenu
+
+::m4a1dhr::
+gg.clearResults()
+gg.searchNumber("918296", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("924160", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::uzidh::
+gg.clearResults()
+gg.searchNumber("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("919557", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Enabled")
+goto submenu
+
+::uzidhr::
+gg.clearResults()
+gg.searchNumber("919557", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("917504", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::ak47dh::
+gg.clearResults()
+gg.searchNumber("600;36F;30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("6000", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Enabled")
+goto submenu
+
+::ak47dhr::
+gg.clearResults()
+gg.searchNumber("600;6000F;30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("36F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("Disabled")
+goto submenu
+
+::porn::
+gg.searchNumber("1.4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(200)
+print("Replaced: ", gg.editAll("0.00001", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("Mega Crouch Hack(Simply Stays Leaned On Ground !)")
+goto credit
+
+::sexy::
+gg.searchNumber("0.75~0.8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(200)
+print("Replaced: ", gg.editAll("-0.01", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("Player RagDoll Effect")
+goto credit
+
+::pussy::
+gg.searchNumber("0.55", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(400)
+print("Replaced: ", gg.editAll("10.0", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("Fly Hack Activated")
+goto credit
+
+::bigshell::
+gg.searchNumber("1.0E-6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(4500)
+print("Replaced: ", gg.editAll("-11", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("No Clip Activated")
+goto credit
+
+::jumper::
+gg.searchNumber("1.4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(100)
+print("Replaced: ", gg.editAll("-12", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("MegaJump Activated")
+goto credit
+
+::boobs::
+gg.searchNumber("1.7", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(400)
+print("Replaced: ", gg.editAll("2.0", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("Speed Hack 4x")
+goto credit
+
+::invis::
+gg.searchNumber("1000.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(100)
+print("Replaced: ", gg.editAll("0.0", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("Invisible Man Hack")
+goto credit
+
+::firerateak::
+gg.searchNumber("60", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(100)
+print("Replaced: ", gg.editAll("0", gg.TYPE_FLOAT))
+gg.clearResults()
+gg.alert("Firerate Increased")
+goto credit
+
+::akmulti::
+gg.searchNumber("600;36F;30", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 1.0E-6)
+gg.getResults(50)
+print("Replaced: ", gg.editAll("99999", gg.TYPE_FLOAT))
+gg.alert("AK Multi Hack Enabled")
+
+::credit::
+gg.alert("CREATED BY XxNiGxX & CHIKRI")
+print("PLZ LIKE AND SUBSCRIBE OUR CHANNEL FOR MORE HACKS AND MODS")

@@ -1,0 +1,7 @@
+-- // Kri1x#0001
+
+gg.searchNumber("2", 16)
+Res = gg.getResults(48500)
+gg.removeResults(Res)
+gg.getResults(5000)
+gg.editAll("5", 16)

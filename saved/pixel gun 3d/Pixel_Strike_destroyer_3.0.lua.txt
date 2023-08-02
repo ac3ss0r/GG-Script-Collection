@@ -1,0 +1,108 @@
+if gg.isVisible(true) then -- check if the gameguardian is open
+	gg.setVisible(false) -- true for open, false for hide
+	goto START -- goto the next step
+end -- end the step
+
+::START:: -- for continous the step
+cak = gg.choice({
+	"NoRecoil",
+	"One hit (Patched)",
+	"NoSpread",
+	"Reduced respawn time",
+	"Inf Ammo",
+	"Magic bullets",
+	"RapidFire",
+	"Exit",
+}) -- display the selection dialog from the list
+if cak == 1 then
+	goto cak1
+end
+if cak == 2 then
+	goto cak2
+end -- this all for continous ur step, if u choose the label
+if cak == 3 then
+	goto cak3
+end
+if cak == 4 then
+	goto cak4
+end
+if cak == 5 then
+	goto cak5
+end
+if cak == 6 then
+	goto cak6
+end
+if cak == 7 then
+	goto cak7
+end
+if cak == nil then
+end
+
+::cak1::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(9999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("This is just a test")
+gg.clearResults()
+goto cak8
+
+::cak2::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.alert("Vulcron patched it sorry.")
+goto START
+
+::cak3::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("8", gg.TYPE_FLOAT)
+gg.getResults(9999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("This is just a test")
+gg.clearResults()
+goto cak8
+
+::cak4::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(9999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("This is just a test")
+gg.clearResults()
+goto cak8
+
+::cak5::
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("30;60::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("30;60::5", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(9999)
+gg.editAll("95743264", gg.TYPE_DWORD)
+gg.toast("This is just a test")
+gg.clearResults()
+goto cak8
+
+::cak6::
+gg.setRanges(gg.REGION_C_BSS)
+gg.searchNumber("9.9999997e-10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(999)
+gg.editAll("900.355145", gg.TYPE_FLOAT)
+gg.clearResults()
+goto cak8
+
+::cak7::
+gg.alert("Enable unlimited ammo and magic bullets before using this")
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("0.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(9999)
+gg.editAll("0", gg.TYPE_FLOAT)
+gg.toast("This is just a test")
+gg.clearResults()
+goto cak8
+
+::cak8::
+os.exit() -- for end ur step
+
+-- ill end this video, and give u this script for example...
+-- wait for next video, cyaaa

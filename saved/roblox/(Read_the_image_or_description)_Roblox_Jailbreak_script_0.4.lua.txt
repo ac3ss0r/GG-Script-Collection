@@ -1,0 +1,121 @@
+if gg.isVisible(true) then -- check if the gameguardian is open
+	gg.setVisible(false) -- true for open, false for hide
+	goto START -- goto the next step
+end -- end the step
+
+::START:: -- for continous the step
+cak = gg.choice({
+	"Walkspeed 100",
+	"Disable 100 walkspeed",
+	"Walkspeed 200",
+	"disable 200 walkspeed",
+	"Inf Jump/air walk",
+	"Ammo editor [doesnt work on grenades]",
+	"Noclip",
+	"Aimbot/freeze kill",
+	"Oof exit script",
+}) -- display the selection dialog from the list
+if cak == 1 then
+	goto cak1
+end
+if cak == 2 then
+	goto cak2
+end -- this all for continous ur step, if u choose the label
+if cak == 3 then
+	goto cak3
+end
+if cak == 4 then
+	goto cak4
+end
+if cak == 5 then
+	goto cak5
+end
+if cak == 6 then
+	goto cak6
+end
+if cak == 6 then
+	goto cak7
+end
+if cak == 6 then
+	goto cak8
+end
+if cak == nil then
+end
+
+::cak1::
+gg.alert("if it crashes Rejoin jailbreak and try again") -- this is like notif
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("100", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak2::
+gg.searchNumber("100", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("16", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak3::
+gg.alert("Idk what to put here lol") -- this is like notif
+gg.searchNumber("16", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("200", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak4::
+gg.searchNumber("200", gg.TYPE_DOUBLE)
+gg.getResults(1500)
+gg.editAll("16", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak5::
+gg.alert("It might glitch or corrupt and stretch object textures") -- this is like notif
+gg.searchNumber("1.1", gg.TYPE_FLOAT)
+gg.getResults(9999)
+gg.editAll("100", gg.TYPE_FLOAT)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak6::
+gg.alert("Have EXACTLY 5 bullets") -- this is like notif
+gg.searchNumber("4", gg.TYPE_DOUBLE)
+gg.getResults(9999)
+gg.editAll("1000", gg.TYPE_DOUBLE)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak7::
+gg.alert("You can walk through walls but you might glitch through the ground") -- this is like notif
+gg.searchNumber("0.8", gg.TYPE_FLOAT)
+gg.getResults(9999)
+gg.editAll("3", gg.TYPE_FLOAT)
+gg.toast("??done??")
+gg.clearResults()
+goto cak9
+
+::cak8::
+gg.alert(
+	"this acts like aimbot but the players are frozen for 3-5 seconds aka soft server lag SIDE NOTE: This is useful for run away criminals ??"
+)
+gg.searchNumber(0.13, gg.TYPE_FLOAT)
+gg.getResults(150)
+gg.editAll(58, gg.TYPE_FLOAT)
+gg.clearResults()
+gg.alert("Credits to DarkLord and BendyHacks for the script!")
+goto cak9
+
+::cak9::
+os.exit() -- for end ur step
+
+-- ill end this video, and give u this script for example...
+-- wait for next video, cyaaa

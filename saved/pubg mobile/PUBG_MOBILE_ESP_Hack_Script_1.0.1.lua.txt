@@ -1,0 +1,62 @@
+gg.alert("🎀 Script Made By GAMING Master King 🎀")
+
+function TLC()
+	menu = gg.choice({
+		"🤖ESP [On]\n[Game]",
+		"🤖ESP [Off]\n[Game]",
+		"☠️ Exit",
+	}, nil, "🎀 Made By @GMKYT🎀")
+
+	if menu == 1 then
+		on()
+	end
+	if menu == 2 then
+		off()
+	end
+	if menu == 3 then
+		exit()
+	end
+	SUDZY = -1
+end
+
+function exit()
+	print("🎀 Script Made By @GMKYT 🎀")
+	print("🎀 Values By @GMKYT")
+	os.exit()
+end
+
+function on()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("-1,901,891,198,734,303,227", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	lol = gg.getResultsCount()
+	if lol == 1 then
+		gg.toast("Value Finded Editing Now")
+		gg.getResults(1)
+		gg.editAll("-1,901,891,198,902,075,392", gg.TYPE_QWORD)
+		gg.clearResults()
+	end
+end
+
+function off()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("-1,901,891,198,902,075,392", gg.TYPE_QWORD, false, gg.SIGN_EQUAL, 0, -1)
+	lol = gg.getResultsCount()
+	if lol == 1 then
+		gg.toast("Value Finded Editing Now")
+		gg.getResults(1)
+		gg.editAll("-1,901,891,198,734,303,227", gg.TYPE_QWORD)
+		gg.clearResults()
+	end
+end
+
+while true do
+	if gg.isVisible(true) then
+		SUDZY = 1
+		gg.setVisible(false)
+	end
+	if SUDZY == 1 then
+		TLC()
+	end
+end

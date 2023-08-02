@@ -1,0 +1,53 @@
+-- MADE BY NOTHEXCODEHK
+
+function wait_for_action()
+	gg.setVisible(false)
+	while true do
+		if gg.isVisible() then
+			break
+		end
+
+		gg.sleep(300)
+	end
+end
+
+gg.alert("Newbie Armor Unlocker by NOTHEXCODEHK", "start")
+
+if menu == nil then
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.setVisible(false)
+	gg.searchNumber(
+		"h 00 D6 40 91 E1 B3 1F AA 17 96 91 14 F3 7B BF A9 F3 03 00 BA E0 03 01 2A E1 03 1F AA 29 97 41 94 60 42 03 F8 F3 7B C1 A8 C0 03 5F D6 F4 0F 1E ",
+		gg.TYPE_BYTE
+	)
+	gg.setVisible(false)
+	gg.getResults(8)
+	gg.setVisible(false)
+	gg.editAll("h 1F AA 29 97 41 94 60 42 03 F8 1E F8 F3 7B 01 A9 F4 03 01 AA E1 03 1F AA F3 03 00 AA", gg.TYPE_BYTE) --Spawn armor hex
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.alert(" Go to armor section then click gg icon")
+	wait_for_action()
+	gg.setVisible(false)
+	gg.searchNumber(
+		"h  B9 A9 F3 63 00 CA E0 53 01 2A E1 03 FF AA 29 99 41 94 60 42 03 F8 F3 7B C1 A8 C0 03 5F D6 F4 0F 1E ",
+		gg.TYPE_BYTE
+	)
+	gg.setVisible(false)
+	gg.getResults(200)
+	gg.setVisible(false)
+	gg.editAll("h 60 42 03 F8 1E F8 F3 7B 01 A9 F4 03 01 AA E1 03 1F AA F3 03 00 AA", gg.TYPE_BYTE)
+	gg.setVisible(false)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.setVisible(false)
+	gg.alert("refresh armor section then click again gg icon")
+	gg.setVisible(false)
+	wait_for_action()
+	gg.setVisible(false)
+	gg.searchNumber("1150935040", gg.TYPE_DWORD)
+	gg.setVisible(false)
+	gg.getResults(9999)
+	gg.setVisible(false)
+	gg.editAll("1", gg.TYPE_DWORD)
+	gg.alert("armor unlocked, you can now buy it!")
+end

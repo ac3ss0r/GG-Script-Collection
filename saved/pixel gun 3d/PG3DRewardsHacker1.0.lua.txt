@@ -1,0 +1,309 @@
+function wait_for_action()
+	gg.setVisible(false)
+	while true do
+		gg.sleep(700)
+		if gg.isVisible() then
+			break
+		end
+	end
+	gg.setVisible(false)
+end
+
+function search(xp, gold, crowns)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.setVisible(false)
+	build = tostring(xp)
+	build = build .. ";"
+	build = build .. tostring(gold)
+	build = build .. ";"
+	build = build .. tostring(crowns)
+	gg.searchNumber(build, gg.TYPE_DWORD)
+end
+
+function checkresults()
+	if gg.getResultsCount() < 8 then
+		gg.alert("Error! Did you make a mistake following directions? Check out the troubleshooting menu!")
+		gg.clearResults()
+		gg.setVisible(true)
+		os.exit()
+	end
+	done = gg.getResultsCount() < 21
+end
+
+function edit(valuewanted, new)
+	values = gg.getResults(100000)
+	i = 0
+	while i < #values do
+		i = i + 1
+		if values[i].value == valuewanted then
+			values[i].value = new
+			values[i].freeze = true
+		end
+	end
+	gg.setValues(values)
+	t = gg.getResults(9999999)
+	i = 0
+	while i < #t do
+		i = i + 1
+		t[i].freeze = true
+		gg.addListItems(t)
+	end
+end
+
+function editrewards()
+	again = 0
+	if rewards[1] == rewards[2] then
+		menu = gg.multiChoice(
+			{ "I'm fine, let's edit anyway!", "Ugh, I'll iterate one more time…" },
+			nil,
+			"Uh-oh, looks like your xp and gold rewards are the same! This means you cannot edit your gold higher than the xp max (150) because we do not know which is gold and which is xp. You can choose to accept this, or iterate the proccess 1 more time and this time make sure your xp and gold rewards are different."
+		)
+		if menu == nil then
+			again = 1
+		else
+			if menu[1] then
+				again = 0
+			end
+			if menu[2] then
+				again = 1
+			end
+		end
+	end
+	if again == 0 then
+		if rewards[1] == rewards[3] then
+			menu = gg.multiChoice(
+				{ "I'm fine, let's edit anyway!", "Ugh, I'll iterate one more time…" },
+				nil,
+				"Uh-oh, looks like your xp and crowns rewards are the same! This means you cannot edit your crowns higher than the xp max (150) because we do not know which is crowns and which is xp. You can choose to accept this, or iterate the proccess 1 more time and this time make sure your xp and crown rewards are different."
+			)
+			if menu == nil then
+				again = 1
+			else
+				if menu[1] then
+					again = 0
+				end
+				if menu[2] then
+					again = 1
+				end
+			end
+		end
+	end
+	if again == 0 then
+		if rewards[2] == rewards[3] then
+			menu = gg.multiChoice(
+				{ "I'm fine, let's edit anyway!", "Ugh, I'll iterate one more time…" },
+				nil,
+				"Uh-oh, looks like your gold and crowns rewards are the same! This means you cannot edit your crowns higher than the gold max (44950) because we do not know which is crowns and which is gold. You can choose to accept this, or iterate the proccess 1 more time and this time make sure your gold and crown rewards are different."
+			)
+			if menu == nil then
+				again = 1
+			else
+				if menu[1] then
+					again = 0
+				end
+				if menu[2] then
+					again = 1
+				end
+			end
+		end
+	end
+	if again == 0 then
+		if rewards[1] == rewards[2] then
+			new = gg.prompt({
+				[1] = "How much XP do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded xp, toggle wifi off and back on to disconnect and reconnect.[0; 150]",
+				[2] = "How much GOLD do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded gold, toggle wifi off and back on to disconnect and reconnect.[0; 150]",
+				[3] = "How many PIXEL PASS CROWNS do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded pixel pass crowns, toggle wifi off and back on to disconnect and reconnect.[0; 1000000]",
+			}, { [1] = "150", [2] = "150", [3] = "1000000" }, { [1] = "number", [2] = "number", [3] = "number" })
+		else
+			if rewards[1] == rewards[3] then
+				new = gg.prompt({
+					[1] = "How much XP do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded xp, toggle wifi off and back on to disconnect and reconnect.[0; 150]",
+					[2] = "How much GOLD do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded gold, toggle wifi off and back on to disconnect and reconnect.[0; 44950]",
+					[3] = "How many PIXEL PASS CROWNS do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded pixel pass crowns, toggle wifi off and back on to disconnect and reconnect.[0; 150]",
+				}, { [1] = "150", [2] = "44950", [3] = "150" }, { [1] = "number", [2] = "number", [3] = "number" })
+			else
+				if rewards[2] == rewards[3] then
+					new = gg.prompt(
+						{
+							[1] = "How much XP do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded xp, toggle wifi off and back on to disconnect and reconnect.[0; 150]",
+							[2] = "How much GOLD do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded gold, toggle wifi off and back on to disconnect and reconnect.[0; 44950]",
+							[3] = "How many PIXEL PASS CROWNS do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded pixel pass crowns, toggle wifi off and back on to disconnect and reconnect.[0; 44950]",
+						},
+						{ [1] = "150", [2] = "44950", [3] = "44950" },
+						{ [1] = "number", [2] = "number", [3] = "number" }
+					)
+				else
+					new = gg.prompt(
+						{
+							[1] = "How much XP do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded xp, toggle wifi off and back on to disconnect and reconnect.[0; 150]",
+							[2] = "How much GOLD do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded gold, toggle wifi off and back on to disconnect and reconnect.[0; 44950]",
+							[3] = "How many PIXEL PASS CROWNS do you want to make the match rewards give? Note that this will be permanent until you change room! To disable the modded pixel pass crowns, toggle wifi off and back on to disconnect and reconnect.[0; 1000000]",
+						},
+						{ [1] = "150", [2] = "44950", [3] = "1000000" },
+						{ [1] = "number", [2] = "number", [3] = "number" }
+					)
+				end
+			end
+		end
+		edit(rewards[1], new[1])
+		edit(rewards[2], new[2])
+		edit(rewards[3], new[3])
+	end
+end
+
+function searchrewards()
+	gg.setVisible(false)
+	rewards = gg.prompt({
+		[1] = "How much XP do your match rewards give (before vip and first match bonus)?",
+		[2] = "How much GOLD do your match rewards give (before vip and first match bonus)?",
+		[3] = "How many PIXEL PASS CROWNS do your match rewards give (before vip and first match bonus)?",
+	})
+	search(rewards[1], rewards[2], rewards[3])
+	checkresults()
+	gg.setVisible(false)
+end
+
+function start()
+	gg.clearResults()
+	gg.clearList()
+	gg.setVisible(false)
+	gg.alert(
+		"Script made by User123456789#6424, with lots of credit to (guy) for finding and teaching me this trick. Mistakes in direction following may ressult in a ban, so be careful and use at your own risk!"
+	)
+	gg.alert(
+		"I hope you read the instructions ;). If you experience difficulties, look at the troubleshooting page, or contact me on discord: User123456789#6424"
+	)
+	gg.setVisible(false)
+	gg.alert(
+		"First, join into an active game of team fight, deathmatch, point capture or flag capture (only these modes work). If you find a bot lobby or empty lobby, go back to the menu and try again. Once you are in an active lobby, click the gameguardian icon."
+	)
+	wait_for_action()
+	gg.setVisible(false)
+	gg.alert(
+		"Now play the match until it ends. When the match finishes, observere your match rewards (before VIP or first match bonus!!!), and make sure you do NOT claim them yet! Then, click the gameguardian icon."
+	)
+	wait_for_action()
+	gg.setVisible(false)
+	searchrewards()
+	gg.alert(
+		"Now claim your rewards and play the match again. Then oberve your match rewards (before VIP or first match bonus!!!), and make sure you do NOT claim them. Then, click the gameguardian icon."
+	)
+	gg.alert(
+		"Make sure you are getting different rewards (try getting first or second place, then last, then first or second again)."
+	)
+	gg.alert(
+		"REMEMBER: You MUST stay in the room! If you get transferred either due to there not being enough players or you clicking a different map / leave the game, you leave the room. You also can't lose connection and reconnect. If any of this happens (basically, if you see a loading screen of any type), you MUST stop and restart the script, or it will not work, and possibly (in rare and unlucky conditions) get you banned."
+	)
+	wait_for_action()
+	gg.setVisible(false)
+	searchrewards()
+	i = 0
+	while done == false do
+		if i == 0 then
+			gg.alert(
+				"Getting close! We just need to repeat this 1 or 2 more times. Claim your rewards and play the match again. Then oberve your match rewards (before VIP or first match bonus!!!), and make sure you do NOT claim them. Then, click the gameguardian icon."
+			)
+		else
+			gg.alert(
+				"Keep going! We just need to repeat this 1 or 2 more times. Claim your rewards and play the match again. Then oberve your match rewards (before VIP or first match bonus!!!), and make sure you do NOT claim them. Then, click the gameguardian icon."
+			)
+		end
+		gg.alert(
+			"REMEMBER: You MUST stay in the room! If you get transferred either due to there not being enough players or you clicking a different map / leave the game, you leave the room. You also can't lose connection and reconnect. If any of this happens (basically, if you see a loading screen of any type), you MUST stop and restart the script, or it will not work, and possibly (in rare and unlucky conditions) get you banned."
+		)
+		wait_for_action()
+		searchrewards()
+		i = i + 1
+		if i > 2 then
+			gg.alert(
+				"Make sure you are getting different rewards (try getting first or second place, then last, then first or second again)."
+			)
+		end
+	end
+	gg.alert("Values found! Now you can finally hack them!")
+	editrewards()
+	while again == 1 do
+		gg.alert(
+			"You know the drill. Claim your rewards and play the match again. Then oberve your match rewards (before VIP or first match bonus!!!), and make sure you do NOTE claim them. Then, click the gameguardian icon."
+		)
+		wait_for_action()
+		gg.setVisible(false)
+		searchrewards()
+		editrewards()
+	end
+	gg.alert(
+		"Match rewards have been modified! To disable modified rewards, toggle wifi off and back on (to disconnect and reconnect)."
+	)
+end
+
+function instructions()
+	gg.alert(
+		"I tried to make this script as easy to use as possible. But due to pixel gun being pixel gun, nothing is ever easy. Click Let's Go and try your best to read everything and follow what it says. Troubleshooting has some things to try if this isn't working for you, but if you still can't figure it out, you can reach out to me on discord at User123456789#6424. There are lots of things to keep in mind when using this script. Make sure you search for the rewards you get before vip and/or first match bonus. Make sure you do not leave the room (due to there not being enough players, you changing maps or leaving the game, or you losing wifi and reconnecting). Basically, if you see a loading screen, interrupt the script and try again. Once you get to the part where you get to hack the rewards, the rewards have limits because the game bans you with anything higher. If the script tells you two rewards"
+	)
+end
+
+function credits()
+	gg.alert(
+		"-Script made by User123456789#6424 - this script took lots of time to make, so I hope you enjoy it!                                                                                                                                     -Thanks to @Rey Aguilar#5531 for finding this exploit! None of this would be possible without him!                                                                                                                                        -Thanks to me and the people in my discord server for finding out many limitations and tricks for this hack, to make it even more op yet even less bannable. To join my server, just friend User123456789#6424.                                                                                                                                                           -Thanks to @MonkeySAN and @MAARS on the gameguardian.net forums for helping fix a small bug!"
+	)
+end
+
+function troubleshooting()
+	gg.alert(
+		"-Reread the instructions thouroughly! This never hurts to do!                                                                                                                                                                                                                                                                                         -Select all memory ranges in gameguardian (go to the settings tab then click select memory ranges                                                              -Preferably, use noxplayer 32bit android 7 samsung note 10 as this is the exact device I made the script on                                                              -Try again a few times                                                              -Try without vip or first match rewards                                                               -Make sure you are getting different rewards (try getting first or second place, then last, then first or second again).                                                                     -If you get kicked or banned, set the match rewards lower. Try a simple 10 of all rewards and see if it works                                                              -Don't click cancel on anything or you'll get a script error. Instead, click ok                                                                                                                            -If you are still having difficulties, ask for help at User123456789#6424."
+	)
+end
+
+function tipsandtricks()
+	gg.alert(
+		"-Play in flag capture mode so you never get transferred to a new room.                                                                                               -Use an autoclicker to claim 45k gold every four minutes (play on flag capture so you don't change rooms, and with xp set to 0 so leveling up doesn't make the autoclicker get stuck).                                                                                                                                                                                                                                                                                              -Set your xp to 0 so you don't have to level up or open veteran chests if it is annoying for you.                                                                                                                                                                                              -Try getting first or second place, then last, then first or second again so your rewards change and you can find the values quicker.                                                                                                              -Get a ton of pixel crowns, then use an autoclicker to open skin chests overnight! You will get lots of gems, coins, pixel pass tickets, and keys!"
+	)
+end
+
+function startmenu()
+	gg.setVisible(false)
+	menu = gg.multiChoice(
+		{ "Let's go!", "Instructions", "Credits", "Troubleshooting", "Tips and tricks", "Exit" },
+		nil,
+		"PG3D Match Reward Hacker V1.0 By Horridmodz - User123456789#6424"
+	)
+	if menu == nil then
+		gg.clearResults()
+		gg.setVisible(true)
+		os.exit()
+	else
+		if menu[6] then
+			gg.clearResults()
+			gg.setVisible(true)
+			os.exit()
+		else
+			if menu[1] then
+				start()
+				gg.clearResults()
+				gg.setVisible(true)
+				os.exit()
+			else
+				if menu[2] then
+					instructions()
+				else
+					if menu[3] then
+						credits()
+					else
+						if menu[4] then
+							troubleshooting()
+						else
+							if menu[5] then
+								tipsandtricks()
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+gg.alert("ATTENTION: THIS SCRIPT IS BANNABLE! MAKE SURE YOU FOLLOW DIRECTIONS! USE AT YOUR OWN RISK!")
+while true do
+	startmenu()
+end

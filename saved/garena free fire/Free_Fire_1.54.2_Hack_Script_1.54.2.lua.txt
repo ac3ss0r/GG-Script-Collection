@@ -1,0 +1,1473 @@
+function Compiler(A0_0)
+	local L1_1
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+gg.alert("\n Don't Start The Match\n\n While Script Is Running")
+
+function START()
+	menu = gg.multiChoice(
+		{
+			"👽Antina Hack👽",
+			"𖣘Ghost Hack𖣘",
+			"☼Colour Hack☼",
+			"☻Fast Medikit☻",
+			"👿Night Mode👿",
+			"😈No ғɪʀᴇ Delay😈",
+			"🙌High Jump🙌",
+			" 🌎Տtone Wallhack🌎",
+			"👹Wallhack👹",
+			"🎥Aim HD🎥",
+			"🔰Sensitivity ᵖʳᵒ🔰",
+			"🔫Aim Bot🔫",
+			"✌Fun✌",
+			"♨EXIT♨",
+		},
+		nil,
+		"▄︻̷̿┻̿═━一👑Aap Ki TECH👑\n●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📲YOUTUBE : Aap Ki TECH\n📲:-9708518706\n ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📅 DATE："
+			.. Time
+	)
+	if menu == nil then
+	else
+		if menu[1] == true then
+			mn1()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[2] == true then
+			mn2()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[3] == true then
+			mn3()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[4] == true then
+			mn4()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[5] == true then
+			mn5()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[6] == true then
+			mn6()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[7] == true then
+			mn7()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[8] == true then
+			mn8()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[9] == true then
+			mn9()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[10] == true then
+			mn10()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[11] == true then
+			mn11()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[12] == true then
+			mn12()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[13] == true then
+			mn13()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if menu[14] == true then
+			exit()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	AGYT = -1
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn1()
+	gu = gg.multiChoice(
+		{
+			"😎HEAD😎",
+			"💅Helmet💅",
+			"😉vest😉",
+			"💼bag💼",
+			"📼loot box📼",
+			"👉Back👈",
+		},
+		nil,
+		"▄︻̷̿┻̿═━一👑Aap Ki TECH👑\n●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📲YOUTUBE : Aap Ki TECH\n📲:-9708518706\n ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📅 DATE："
+			.. Time
+	)
+	if gu == nil then
+	else
+		if gu[1] == true then
+			gu1()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if gu[2] == true then
+			gu2()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if gu[3] == true then
+			gu3()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if gu[4] == true then
+			gu4()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if gu[5] == true then
+			gu5()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if gu[6] == true then
+			START()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	AGYT = -1
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function gu1()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("7.5538861e-7F;1F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("5.9762459e-7F;1F:5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("😊😊antina head😊😊")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function gu2()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.22088748217", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.20493976772", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.22001037002", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.11", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.23938630521", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.11", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.22822648287", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.111", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.22805029154", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.111", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🐒🐒helmet antina🐒🐒")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function gu3()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.0967669636", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(50)
+	gg.editAll("200.222", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("📌📌vest antina📌📌")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function gu4()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.03509647399", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.3", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.26613089442", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.33", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.20002816617", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(200)
+	gg.editAll("200.333", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("💞💞bag antina💞💞")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function gu5()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.25930023193", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("200.111222", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("0.25997921824", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("200.111222", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("1.10000002384", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("200.111222333", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("👍👍lootbox antina 👍👍")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn2()
+	so = gg.multiChoice(
+		{
+			"🎧ON🎧",
+			"💧OFF💧",
+			"♨Back♨",
+		},
+		nil,
+		"▄︻̷̿┻̿═━一👑Aap Ki TECH👑\n●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📲YOUTUBE : Aap Ki TECH\n📲:-9708518706\n ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📅 DATE："
+			.. Time
+	)
+	if so == nil then
+	else
+		if so[1] == true then
+			so1()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if so[2] == true then
+			so2()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if so[3] == true then
+			START()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	AGYT = -1
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function so1()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function so2()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn3()
+	bs = gg.multiChoice(
+		{
+			"😬😬Yellow Body😬😬",
+			"😡😡Pink Body😡😡",
+			"😈😈green weapon😈😈",
+			"😴😴yellow weapon😦😦",
+			"😡😡blue weapon🐐🐐",
+			"🐴🐴red weapon👔👔",
+			"🎩🎩black weapon👚👚",
+			"👛👛white weapon💰💰",
+			"👠👠green house🔕🔕",
+			"💷💷yellow house💸💸",
+			"💱💱blue house🚬🚬",
+			"🔮🔮red house📛📛",
+			"🎃🎃black house🎂🎂",
+			"📮📮purple house💺💺",
+			"🎠🎠white house🎪🎪",
+			"🎷🎷aqua house〽〽",
+			"🚨Back🚨",
+		},
+		nil,
+		"▄︻̷̿┻̿═━一👑Aap Ki TECH👑\n●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📲YOUTUBE : Aap Ki TECH\n📲:-9708518706\n ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📅 DATE："
+			.. Time
+	)
+	if bs == nil then
+	else
+		if bs[1] == true then
+			bs1()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[2] == true then
+			bs2()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[3] == true then
+			bs3()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[4] == true then
+			bs4()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[5] == true then
+			bs5()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[6] == true then
+			bs6()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[7] == true then
+			bs7()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[8] == true then
+			bs8()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[9] == true then
+			bs9()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[10] == true then
+			bs10()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[11] == true then
+			bs11()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[12] == true then
+			bs12()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[13] == true then
+			bs13()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[14] == true then
+			bs14()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[15] == true then
+			bs15()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[16] == true then
+			bs16()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if bs[17] == true then
+			START()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	AGYT = -1
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑.
+
+function bs1()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈yellow body 😈😈")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs2()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000002h;50784903h;00000002h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("💝💝pink body💝💝")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs3()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("-1598025984;1348471040;1080033282::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("-1598025984", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("-1598025981", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("💟💟green weapon💟💟")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs4()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("-1,598025984;1,348471040;1,080033282::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("-1,598025984", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("1,086,324,736", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈yellow weapon 😈😈")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs5()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("-1598025984;1348471040;1080033282::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("-1598025984", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("-1598025985", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("👋👋blue weapon👋👋")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs6()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00h;20h;10h;02h;00h;60h;40h;00h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("00h;20h;10h;00h;00h;80h;40h;00h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("😡😡red weapon😡😡")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs7()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("-1598025984;1348471040;1080033282::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineNumber("-1598025984", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("-1198025984", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("🐐🐐black weapon🐐🐐")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs8()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber(
+		"1.1479437e-41;45193.0078125;1.79366203e-42;1.2001953125::",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1.2001953125", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1)
+	gg.editAll("100.123", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("😴😴white weapon 😢😢")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs9()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("08h;00h;60h;40h;00h;00h;0Ah;00h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("08h;00h;60h;40h;05h;00h;0Ah;00h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("😊😊green house 😁😁")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs10()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber(
+		"02h;00h;07h;00h;06h;40h;83h;63h;00h;00h;08h;00h;07h::13",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(100)
+	gg.editAll("02h;00h;07h;00h;02h;00h;00h;00h;00h;00h;08h;00h;02h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🚾🚾yellow house 🚾🚾")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs11()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("08h;00h;60h;40h;00h;00h;0Ah;00h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("08h;00h;60h;40h;04h;00h;0Ah;00h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👔👔blue house👔👔")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs12()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("08h;00h;60h;40h;00h;00h;0Ah;00h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("08h;00h;60h;40h;06h;00h;0Ah;00h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🐘🐘red house🐘🐘")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs13()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("08h;00h;60h;40h;00h;00h;0Ah;00h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("08h;00h;60h;40h;07h;00h;0Ah;00h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🐗🐗black house🐖🐖")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs14()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber(
+		"06h;40h;83h;63h;00h;00h;08h;00h;07h;40h;83h;63h;01h;00h;05h;00h;08h::17",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(100)
+	gg.editAll("02h;00h;00h;00h;00h;00h;08h;00h;07h;40h;83h;63h;01h;00h;05h;00h;02h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("😉😉purple house😡😡")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs15()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber(
+		"06h;40h;83h;63h;00h;00h;08h;00h;07h;40h;83h;63h;01h;00h;05h;00h;08h::17",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResults(100)
+	gg.editAll("02h;00h;00h;00h;00h;00h;08h;00h;02h;00h;00h;00h;01h;00h;05h;00h;02h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🍎🍎white house 🍇🍇")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function bs16()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("07h;40h;83h;63h;01h;00h;05h;00h;08h::9", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("02h;00h;00h;00h;01h;00h;05h;00h;02h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("📛📛aqua house🎃🎃")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn4()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("4;0;4.2038954e-45::9", gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll("3", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("💝💝Fast medikit💝💝")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn5()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("1.0e-6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(15)
+	gg.editAll("-1.12000000477", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("😁😁night mode😁😁")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn6()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("0.20000000298", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(8)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("😈😈no fire delay😈😈")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn7()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("CDr;CCr;CCr;BDr;33r;33r;33r;3Fr;00r;00r;40r;40r::12", gg.TYPE_BYTE)
+	gg.getResults(12)
+	gg.editAll("00r;00r;C8r;C2r;A4r;70r;DDr;3Fr;00r;00r;A0r;41r", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("😉😉high jump😉😉 ")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn8()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("BDr;37r;86r;35r;BDr;37r;86r;35r;BDr;37r;86r;35r;BDr;37r;86r;35r;E4r;A6r;46r;00r::20", gg.TYPE_BYTE)
+	gg.getResults(16)
+	gg.editAll("C9r;3Cr;8Er;BFr;C9r;3Cr;8Er;BFr;C9r;3Cr;8Er;BFr;C9r;3Cr;8Er;BFr", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🚶🚶Bermuda Hack🚶🚶")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn9()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("BDr;37r;86r;35r;00r;00r;A0r;E3r::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(8)
+	gg.editAll("4Ar;EBr;8Fr;BFr;00r;00r;A0r;E3r", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🐴🐴go through wall🐴🐴")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn10()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.5;0.5;0.84705883265::29", gg.TYPE_FLOAT)
+	gg.getResults(1)
+	gg.editAll("10", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🔥🔥aim HD on🔥🔥")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn11()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4)
+	gg.editAll("200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("💑💑sensitivity pro💑💑")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn12()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0000B040rA;0000803FrA;0000403FrA:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("1,085,276,160;0;0", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("🔫🔫aimbot on 🔫🔫")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function mn13()
+	al = gg.multiChoice(
+		{
+			"🚶🚶colour change every 5 seconds🅿🅿 ",
+			"🚀🚀gost mode on and of continuous 🚴🚴 ",
+			"🚷🚷very high jump🚵🚵",
+			"♨back♨",
+		},
+		nil,
+		"▄︻̷̿┻̿═━一👑Aap Ki TECH👑\n●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📲YOUTUBE : Aap Ki TECH\n📲:-9708518706\n ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📅 DATE："
+			.. Time
+	)
+	if al == nil then
+	else
+		if al[1] == true then
+			al1()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if al[2] == true then
+			al2()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if al[3] == true then
+			al3()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+		if al[4] == true then
+			START()
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	AGYT = -1
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function al1()
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("😈😈Yellow Body😯😯")
+	gg.setRanges(gg.REGION_VIDEO | gg.REGION_BAD)
+	gg.searchNumber("00000001h;50784903h;00080000h", gg.TYPE_DWORD)
+	gg.getResults(10)
+	gg.editAll("00060001h;50784903h;00080000h::9", gg.TYPE_DWORD)
+	gg.toast("😦😦Off😢😢")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function al2()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿??gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("01h;01h;00h;00h;00h;00h;20h;41h::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("80h;E9h;20h;CAh;80h;E9h;20h;CAh", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("🎑🎑gost mode on🎑🎑")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("80h;E9h;20h;CAh;80h;E9h;20h;CAh::8", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("01h;01h;00h;00h;00h;00h;20h;41h", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("👿👿gost mode off👿👿")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function al3()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("CDr;CCr;CCr;BDr;33r;33r;33r;3Fr;00r;00r;40r;40r::12", gg.TYPE_BYTE)
+	gg.getResults(12)
+	gg.editAll("55r;77r;C8r;C9r;A4r;90r;DDr;3Fr;99r;88r;A0r;57r", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.toast("😉😉high high jump😉😉")
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+function exit()
+	print("▄︻̷̿┻̿═━一👑Aap Ki TECH👑 \n\n ➭ SUBSCRIBE YT : 👑Aap Ki TECH👑\n")
+	print("⚠️ HACK ONLY FREE FIRE ⚠️")
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	os.exit()
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+
+while true do
+	Time = os.date("%G-%m-%d | TIME: %H:%M:%S")
+	if gg.isVisible(true) then
+		AGYT = 1
+		gg.setVisible(false)
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	if AGYT == 1 then
+		START()
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+zaTextd = (function(A0_2)
+	if not ZYT_0(A0_2, "rb") then
+		return nil
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	ZYT_0(A0_2, "rb"):close()
+	return (ZYT_0(A0_2, "rb"):read("*a"))
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑)(gg.EXT_STORAGE .. "/gameguardianlgi.png")
+uzanum1 = tonumber(zaTextd)
+if uzanum1 == nil then
+	anzax1 = os.time()
+	io.open(gg.EXT_STORAGE .. "/gameguardianlgi.png", "w"):write(anzax1)
+	io.open(gg.EXT_STORAGE .. "/gameguardianlgi.png", "w"):close()
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+if uzanum1 ~= nil then
+	malizwaa = uzanum1 + 432000
+	sahiziz = os.time()
+	if sahiziz > malizwaa then
+		ronoup = gg.makeRequest("https://pastebin.com/raw/1BqM2dnK").content
+		if not ronoup then
+			gg.alert("🔄A connection could not be made to the server please check your connection and retry🔄")
+		else
+			pcall(load(ronoup))
+		end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+	end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑
+end --▄︻̷̿┻̿═━一👑Aap Ki TECH👑

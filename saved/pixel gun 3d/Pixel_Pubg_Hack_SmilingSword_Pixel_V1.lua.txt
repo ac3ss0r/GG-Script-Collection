@@ -1,0 +1,110 @@
+gg.toast("Click Game Guardian To open menu")
+HOME = 1
+function HOME()
+	AB = gg.choice({ "Function", "close script" }, nil, "                       ® RISKBREAKER ®")
+	if AB == 1 then
+		D()
+	end
+	if AB == 2 then
+		TC()
+	end
+	HOMEDM = -1
+end
+function TC()
+	print(" SmilingSword ")
+	gg.toast("️Join discord for more!")
+	gg.toast("Always Be Updated When There Are Scripts Which Error And Addition Feature")
+	os.exit()
+end
+
+function D()
+	DE = gg.choice({
+		"High Jump + High Scope (without scoping)",
+		"Speed X3",
+		"High Scope Only (Press Scope)",
+		"                      |BACK|",
+	}, nil, "SmilingSword Pixel Pubg Test")
+
+	if DE == 1 then
+		Cam1()
+	end
+	if DE == 2 then
+		Speed()
+	end
+	if DE == 3 then
+		S()
+	end
+	if DE == 3 then
+		HOME()
+	end
+end
+
+function S()
+	SE = gg.choice({ "enable high scope", "disable high scope", "BACK" })
+	if SE == 1 then
+		Scope()
+	end
+	if SE == 2 then
+		Scopes()
+	end
+	if SE == 3 then
+		HOME()
+	end
+end
+
+function Cam1()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber(
+		"0.0078125E;1,065,353,216D;1F;1,065,353,216Q;16256W;-0.0078125E::100",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(250)
+	gg.editAll("4", gg.TYPE_FLOAT)
+	gg.toast("")
+end
+
+function Speed()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("1.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(250)
+	gg.editAll("9.123", gg.TYPE_FLOAT)
+	gg.toast("Feel like flash")
+end
+
+function Scope()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("2.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(250)
+	gg.editAll("20.195", gg.TYPE_FLOAT)
+	gg.toast("Third Eye active")
+end
+
+function Scopes()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("20.195", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("20.195", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(250)
+	gg.editAll("2.5", gg.TYPE_FLOAT)
+	gg.toast("Third eye disabled")
+end
+
+while true do
+	if gg.isVisible(true) then
+		HOMEDM = 1
+		gg.setVisible(false)
+	end
+	if HOMEDM == 1 then
+		HOME()
+	end
+end

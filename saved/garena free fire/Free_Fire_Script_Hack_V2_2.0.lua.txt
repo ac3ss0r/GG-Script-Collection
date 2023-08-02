@@ -1,0 +1,129 @@
+gg.toast("CHEAT FREE FIRE BY GAMERS MISTERIUS")
+print("CHEAT FREE FIRE BY GAMERS MISTERIUS")
+--Game guardian detection
+if gg.BUILD < 5511 then
+	print("PERLU GAME GUARDIAN VERSI TERBARU MINIMAL VERSI 8.30.0.")
+	goto update
+end
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+gg.clearResults()
+goto START
+::START::
+menu = gg.choice({ "XRAY MODE (WH)", "FLYINGMODE (FLY)", "EXIT (KELUAR)" }, nil, "FREE FIRE CHEAT BY GAMERS MISTERIUS")
+if menu == 1 then
+	goto XRAYMODE
+end
+if menu == 2 then
+	goto FLYINGMODE
+end
+if menu == 3 then
+	goto EXIT
+end
+if menu == nil then
+	print("EzGames Or Toby in here!!")
+end
+
+goto noselect
+
+::EXIT::
+print("FREE FIRE SCRIPT HACK VERSI 2 BY GAMERS MISTERIUS")
+print("SCRIPT BY TOBY OR GAMERS MISTERIUS")
+gg.toast("SCRIPT BY GAMERS MISTERIUS")
+os.exit()
+
+::FLYINGMODE::
+gg.alert("PILIH FLIYING MODE HACK SESUAI YANG KAMU MAU!!")
+Cmenu = gg.choice({ "EASY", "NORMAL", "HARD" }, Lastt, "THX FOR USING MY SCRIPT :)")
+if Cmenu == 1 then
+	goto Easy
+end
+if Cmenu == 2 then
+	goto Normal
+end
+if Cmenu == 3 then
+	goto Hard
+end
+if Cmenu == Lastt then
+	goto START
+end
+goto START
+
+::Easy::
+gg.clearResults()
+gg.searchNumber("1.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(200)
+gg.editAll("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("CHEAT FLYING TYPE EASY AKTIF")
+goto START
+
+::Normal::
+gg.clearResults()
+gg.searchNumber("1.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("CHEAT FLYING TYPE NORMAL AKTIF")
+goto START
+
+::Hard::
+gg.clearResults()
+gg.searchNumber("1.1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("CHEAT FLYING TYPE HARD AKTIF")
+goto START
+
+::XRAYMODE::
+gg.alert("PILIH XRAYMODE SESUAI YANG KALIAN MAU!!")
+Cmenu = gg.choice({ "EASY", "NORMAL", "HARD" }, Lastt, 'Thx For Using My Script!!"')
+if Cmenu == 1 then
+	goto EasyXray
+end
+if Cmenu == 2 then
+	goto NormalXray
+end
+if Cmenu == 3 then
+	goto HardXray
+end
+if Cmenu == Lastt then
+	goto START
+end
+goto START
+
+::EasyXray::
+gg.clearResults()
+gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("CHEAR XRAYMODE TYPE EASY AKTIF")
+goto START
+
+::NormalXray::
+gg.clearResults()
+gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(500)
+gg.editAll("100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("CHEAT XRAYMODE TYPE NORMAL AKTIF")
+goto START
+
+::HardXray::
+gg.clearResults()
+gg.searchNumber("3.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(100)
+gg.editAll("-100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.toast("CHEAT XRAYMODE TYPE HARD AKTIF")
+goto START
+
+::sdone::
+print("CHEAT AKTIF")
+gg.toast("CHEAT BY GAMERS MISTERIUS")
+os.exit()
+
+::noselect::
+print("SCRIPT BY ALPA OR GAMERS MISTERIUS")
+gg.toast("SCRIPT BY ALPA OR GAMERS MISTERIUS")
+
+::update::
+print("DONT FORGET TO SUBSCRIBE : MISTERIUS")
+gg.toast("DONT FORGET TO SUBSCRIBE : MISTERIUS")

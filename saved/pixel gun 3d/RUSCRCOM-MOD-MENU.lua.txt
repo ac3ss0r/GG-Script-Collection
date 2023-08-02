@@ -1,0 +1,480 @@
+gg.alert("🎃Mod menu with script from discord server by 2lJuggerl2#0737🎃 MOD MENU VER. 1.1")
+
+menu = gg.choice({
+	"🎟Task/reward clicker",
+	"🎟weapon unlocker",
+	"🎟semi-all unlocker",
+	"🎟65 lvl",
+	"❌Exit",
+	"❓Tutorials",
+}, nil, "PG3D RU SCRIPTING COMMUNITY")
+
+if menu == 6 then
+	tutor = gg.choice({ "task/reward clicker", "weapon unlocker", "65 lvl" }, nil, "Choose script")
+
+	if tutor == 1 then
+		gg.alert("if u use bluestacks u need to execute script in 75-80% 2 times, vphonegaga: 1 time in lobby")
+	end
+
+	if tutor == 2 then
+		gg.alert("enter weapon id and be carefull")
+	end
+
+	if tutor == 3 then
+		gg.alert(
+			"if u use bluestacks u need to execute 1 time in lobby then go to any game and execute 1 time in game, if u use vphonegaga just execute 1 time in lobby"
+		)
+	end
+end
+
+if menu == 5 then
+end
+
+if menu == 4 then
+	gg.alert("check Tutorials if u dont know how to use")
+	local v0 = string.char
+	local v1 = string.byte
+	local v2 = string.sub
+	local v3 = bit32 or bit
+	local v4 = v3.bxor
+	local v5 = table.concat
+	local v6 = table.insert
+	local function v7(v8, v9)
+		local v10 = {}
+		for v11 = (1 - 0) + (0 - 0), #v8 do
+			v6(
+				v10,
+				v0(
+					v4(
+						v1(v2(v8, v11, v11 + ((1 + 0) - (1774 - (1744 + 30))))),
+						v1(
+							v2(
+								v9,
+								1 + ((v11 - 1) % #v9),
+								1 + ((v11 - ((2 + 1) - (1899 - (1597 + 300)))) % #v9) + 1 + (126 - (93 + 33))
+							)
+						)
+					) % (377 - 121)
+				)
+			)
+		end
+		return v5(v10)
+	end
+	gg.setVisible(false)
+	gg.alert(
+		v7("\233\228\171\215\203\161\154\229\160\158\255\180\200\238\250\143\136\230\137", "\186\135\217\190\187\213")
+	)
+	gg.alert(
+		"• Use version 23.1.0\n• Make sure you select Pixel Gun 3D process\n• Run the script and then play a game"
+	)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		v7(
+			"\122\243\15\208\50\227\15\196\35\150\105\162\42\243\15\215\50\228\11\196\34\226\105\165\43\243\124\215\50\228\12\196\34\225\105\221\34\243\120\208\50\230\127\196\34\225\105\162\34\243\127\220\50\224\123\196\37\146\105\215\43\243\112\208\50\231\123\196\38\224\105\162\43\243\10\220\50\227\121\196\34\227\105\215\37\243\121\212\50\230\127\196\34\225\105\162\34",
+			"\18\211\73\228"
+		),
+		gg.TYPE_BYTE
+	)
+	gg.getResults((1924 - (135 + 1788)) + 7)
+	gg.editAll(
+		v7("\171\211\172\232\220\251\212\216\156\175\243\162\175\155\170\135\164", "\195\146\156\174\236"),
+		gg.TYPE_BYTE
+	)
+	gg.clearResults()
+	gg.toast("Complete! ♥️")
+end
+
+if menu == 3 then
+	gg.toast("ONLY FOR VPHONEGAGA")
+	local v0 = string.char
+	local v1 = string.byte
+	local v2 = string.sub
+	local v3 = bit32 or bit
+	local v4 = v3.bxor
+	local v5 = table.concat
+	local v6 = table.insert
+	local function v7(v8, v9)
+		local v10 = {}
+		for v11 = (1446 - (133 + 1310)) - 2, #v8 do
+			v6(
+				v10,
+				v0(
+					v4(
+						v1(v2(v8, v11, v11 + 1 + 0)),
+						v1(v2(v9, 1 + ((v11 - (1 + 0)) % #v9), 1 + ((v11 - ((9 - 7) - 1)) % #v9) + 1))
+					) % (1485 - (44 + 1185))
+				)
+			)
+		end
+		return v5(v10)
+	end
+	gg.setVisible(false)
+	gg.alert(
+		v7(
+			"\232\207\238\149\246\79\13\5\208\201\228\130\164\58\1\16\159\238\238\149\191\57\82\90\140\153\175\188\160\40\80\71\142\132\191\186",
+			"\191\170\143\231\214\26\99\105"
+		)
+	)
+	gg.clearResults()
+	gg.clearList()
+	gg.setVisible(false)
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		v7(
+			"\227\109\1\71\237\190\126\103\48\136\171\12\126\82\139\184\109\112\48\237\187\124\103\51\244\171\120\115\82\249\205\109\119\64\237\178\125\103\67\248\171\127\126\82\253\185\109\5\66\237\179\117\103\54\140\171\121\114\82\254\178\109\5\71\237\190\12\103\70\255\171\11\126\82\139\184\109\119\65\237\187\125\103\51\140\171\127\127\82\253\186\109\119\66\237\184\122",
+			"\139\77\71\114\205"
+		),
+		gg.TYPE_BYTE
+	)
+	gg.getResults(8)
+	gg.editAll(
+		v7(
+			"\238\89\181\241\112\40\140\166\65\189\225\101\40\153\197\73\173\241\99\58\140\192\89\201\247",
+			"\134\121\141\193\80\26\185"
+		),
+		gg.TYPE_BYTE
+	)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		v7(
+			"\34\11\245\241\106\31\128\151\122\26\147\243\123\11\245\129\106\26\128\151\122\27\147\241\115\11\245\130\106\30\128\151\122\24\147\246\115\11\245\132\106\28\241\151\122\31\147\246\115\11\134\130\106\24\247\151\122\25\147\243\122\11\241\129\106\26\242\151\122\25\147\245\122\11\242\143\106\18\242\151\124\25\147\132\115\11\247\129\106\105\129\151\126\31\147\241\115",
+			"\74\43\179\183"
+		),
+		gg.TYPE_BYTE
+	)
+	skins = gg.getResults((105 - 81) - 16)
+	gg.addListItems(skins)
+	gg.editAll(
+		v7(
+			"\181\173\115\159\96\138\64\253\181\6\143\117\128\86\158\189\22\159\115\146\67\155\173\114\153",
+			"\221\141\54\175\64\178\118"
+		),
+		gg.TYPE_BYTE
+	)
+	gg.clearResults()
+	gg.toast(v7("\138\51\27\31\161\200\114\177\57\25\6\228\249\61", "\221\86\122\109\129\157\28"))
+end
+
+if menu == 2 then
+	gg.alert("Weapon unlocker by 2lJuggerl2#0737/pg3d ru scripting community")
+
+	menu12 = gg.choice({ "Unlock something", "exit" }, nil, "PG3D RU SCRIPTING CUMMUNITY")
+
+	if menu12 == 2 then
+	end
+
+	if menu12 == 1 then
+		choice1 = gg.choice({ "weaponhackz", "exit" }, nil, "PG3D RU SCRIPTING COMMUNITY")
+	end
+	if choice1 == 2 then
+	end
+
+	if choice1 == 1 then
+		prompt1 = gg.prompt({ "type weapon id" }, nil, { [1] = "number" })
+		gg.searchNumber(prompt1[1], gg.TYPE_DWORD)
+		gg.getResults(4)
+		gg.editAll("1", gg.TYPE_DWORD)
+	end
+end
+
+if menu == 1 then
+	menu3 = gg.choice({ "Tutorial", "lessgoo" }, nil, "PG3D RU SCRIPTING COMMUNITY")
+
+	if menu3 == 1 then
+		gg.alert(
+			"if u on bluestacks u need to stop game on 75-79% and execute script 2 times, if on vphonegaga just in lobby"
+		)
+	end
+
+	if menu3 == 2 then
+		local v0 = string.char
+		local v1 = string.byte
+		local v2 = string.sub
+		local v3 = bit32 or bit
+		local v4 = v3.bxor
+		local v5 = table.concat
+		local v6 = table.insert
+		local function v7(v8, v9)
+			local v10 = 0
+			local v11
+			local v12
+			local v13
+			local v14
+			while true do
+				if v10 == 0 then
+					v11 = 0
+					v12 = nil
+					v10 = 1
+				end
+				if v10 == 1 then
+					v13 = nil
+					v14 = nil
+					v10 = 2
+				end
+				if v10 == 2 then
+					while true do
+						if v11 == 1 then
+							v14 = nil
+							while true do
+								if v12 == (0 + 0) then
+									local v15 = 0 - 0
+									while true do
+										if 1 == v15 then
+											v12 = 1 + 0
+											break
+										end
+										if v15 == 0 then
+											v13 = 0 + (0 - 0)
+											v14 = nil
+											v15 = 1555 - (1299 + 255)
+										end
+									end
+								end
+								if (1 + 0) == v12 then
+									while true do
+										local v16 = 0
+										local v17
+										while true do
+											if v16 == (781 - (287 + 494)) then
+												v17 = 0 - 0
+												while true do
+													if v17 == 0 then
+														if
+															v13
+															== (
+																((2437 - (602 + 618)) - (362 - 89))
+																- ((1650 - ((1063 - (596 + 227)) + 664)) + 29 + 169)
+															)
+														then
+															local v18 = 137 - (64 + 73)
+															local v19
+															while true do
+																if v18 == ((334 - (290 + 44)) - 0) then
+																	v19 = 1866 - (192 + 877 + 797)
+																	while true do
+																		if v19 == ((1 + 0) - 0) then
+																			v13 = 1
+																				+ 0
+																				+ (1764 - (861 + 903))
+																				+ (962 - (182 + 780))
+																			break
+																		end
+																		if v19 == (0 + 0) then
+																			local v20 = 0 + 0
+																			while true do
+																				if v20 == 0 then
+																					v14 = {}
+																					for v21 = 1 + 0 + (209 - (202 + 7)), #v8 do
+																						v6(
+																							v14,
+																							v0(
+																								v4(
+																									v1(
+																										v2(
+																											v8,
+																											v21,
+																											v21
+																												+ 1
+																												+ (
+																													0
+																													- 0
+																												)
+																										)
+																									),
+																									v1(
+																										v2(
+																											v9,
+																											(
+																												(
+																													777
+																													- 214
+																												)
+																												- (
+																													427
+																													+ 135
+																												)
+																											)
+																												+ (
+																													(
+																														v21
+																														- (
+																															1
+																															+ 0
+																															+ ((0 - 0) - (648 - (526 + 122)))
+																															+ 0
+																														)
+																													)
+																													% #v9
+																												),
+																											(
+																												(
+																													3
+																													+ 0
+																													+ 0
+																													+ 0
+																												)
+																												- (
+																													4
+																													- (
+																														(
+																															4
+																															- 3
+																														)
+																														+ 1
+																													)
+																												)
+																											)
+																												+ ((v21 - (((1126 + 550) - ((2898 - (1741 + 92)) + (2482 - (1120 + 752)))) + (370 - (244 + 126)))) % #v9)
+																												+ ((3481 - 2518) - ((175 - (102 + 22)) + (2051 - (120 + 1020))))
+																												+ 0
+																												+ (
+																													(
+																														0
+																														- 0
+																													)
+																													- 0
+																												)
+																										)
+																									)
+																								)
+																									% (
+																										(
+																											(891 + 79)
+																											- (
+																												(
+																													1247
+																													- 818
+																												)
+																												+ (
+																													466
+																													- 179
+																												)
+																											)
+																										)
+																										+ (
+																											(
+																												(
+																													493
+																													+ 198
+																												)
+																												- 409
+																											)
+																											- (
+																												(
+																													(
+																														571
+																														+ 177
+																													)
+																													- (
+																														25
+																														+ (
+																															1747
+																															- (
+																																540
+																																+ 672
+																															)
+																														)
+																													)
+																												)
+																												+ 92
+																											)
+																										)
+																									)
+																							)
+																						)
+																					end
+																					v20 = 1
+																				end
+																				if v20 == 1 then
+																					v19 = 459 - (313 + 145)
+																					break
+																				end
+																			end
+																		end
+																	end
+																	break
+																end
+															end
+														end
+														if ((4974 - 3243) - ((5215 - 3615) + 130)) == v13 then
+															return v5(v14)
+														end
+														break
+													end
+												end
+												break
+											end
+										end
+									end
+									break
+								end
+							end
+							break
+						end
+						if v11 == (0 - 0) then
+							v12 = (0 + 0) - (404 - (229 + 175))
+							v13 = nil
+							v11 = 120 - (38 + 81)
+						end
+					end
+					break
+				end
+			end
+		end
+		gg.setVisible(false)
+		gg.alert(
+			v7(
+				"\33\91\249\242\179\153\187\39\95\253\248\225\219\232\85\121\230\240\240\212\254\7\26\232\224\179\251\250\7\83\169\168\160\140\168\85\97\252\171\160\145\170\91\10\215",
+				"\117\58\138\153\147\191\155"
+			)
+		)
+		gg.clearResults()
+		gg.setVisible(false)
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber(
+			v7(
+				"\6\175\150\134\78\184\146\149\44\201\240\244\87\175\150\134\78\191\227\149\94\191\240\244\47\175\149\130\78\201\150\149\40\201\240\140\89\175\149\133\78\191\224\149\94\191\240\134\88\175\230\133\78\189\145\149\90\191\240\243\87\175\230\133\78\191\225\149\94\191\240\247\90\175\224\141\78\191\224\149\90\191\240\243\87\175\224\140\78\183\229\149\91\182\240\244\87",
+				"\110\143\208\181"
+			),
+			gg.TYPE_BYTE
+		)
+		gg.getResults(
+			((2687 - (95 + 626)) - (1795 + (1136 - (903 + 75))))
+				- ((((6919 - 3568) - (98 + 1593)) - (12 + 1258 + 301 + 72)) - (678 - ((652 - 372) + (674 - 288))))
+		)
+		gg.editAll(
+			v7(
+				"\41\176\254\160\232\113\136\137\121\160\236\212\250\97\251\153\97\160\255\176\253\7\152\237\119",
+				"\65\144\204\144\200\65\184\169"
+			),
+			gg.TYPE_BYTE
+		)
+		gg.clearResults()
+		gg.setRanges(gg.REGION_CODE_APP)
+		gg.searchNumber(
+			v7(
+				"\91\228\224\78\180\98\0\228\228\62\180\22\10\228\224\72\180\96\113\228\150\74\180\22\10\228\228\78\180\21\10\228\150\73\180\17\3\228\231\67\180\17\114\228\147\79\180\100\10\228\224\72\180\103\0\228\150\74\180\101\114\228\224\79\180\103\0\228\150\75\180\22\114\228\229\67\180\103\3\228\150\75\180\100\4\228\231\75\180\110\5\228\150\73\180\110\3",
+				"\51\196\166\123\148\87"
+			),
+			gg.TYPE_BYTE
+		)
+		gg.getResults(
+			(((17 - 3) - 8) + (((33 + 23) - (89 - 56)) - ((7 + 18) - 12)))
+				- (
+					((117 - (356 - (310 + 18))) - (12 + (1336 - ((2419 - 1535) + (667 - 270)))))
+					- ((22 + 11) - (7 + 12))
+				)
+		)
+		gg.editAll(
+			v7(
+				"\20\30\166\99\92\14\166\115\68\14\182\102\78\30\213\99\92\14\165\115\73\120\182\23\74",
+				"\124\62\150\83"
+			),
+			gg.TYPE_BYTE
+		)
+		gg.clearResults()
+		gg.toast(v7("\173\184\139\32\47\146\168\182\223\32\44\215\202\135\202\39\51\147", "\234\215\171\84\64\178"))
+	end
+end

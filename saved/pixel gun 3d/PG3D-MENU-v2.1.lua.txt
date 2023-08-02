@@ -1,0 +1,2214 @@
+--[[
+
+  ______          _ _   _     
+ |___  /         (_) | | |    
+    / / ___ _ __  _| |_| |__  
+   / / / _ \ '_ \| | __| '_ \ 
+  / /_|  __/ | | | | |_| | | |
+ /_____\___|_| |_|_|\__|_| |_|
+                              
+                              
+--]]
+
+local v0 = string.char
+local v1 = string.byte
+local v2 = string.sub
+local v3 = bit32 or bit
+local v4 = v3.bxor
+local v5 = table.concat
+local v6 = table.insert
+local function v7(v47, v48)
+	local v49 = {}
+	for v89 = 1, #v47 do
+		v6(v49, v0(v4(v1(v2(v47, v89, v89 + 1)), v1(v2(v48, 1 + (v89 % #v48), 1 + (v89 % #v48) + 1))) % 256))
+	end
+	return v5(v49)
+end
+PN = v7("\210\204\214\107\246\178\223\27\221\141\220\48\232\232\195", "\126\177\163\187\69\134\219\167")
+GN = v7("\19\196\50\192\240\4\216\36\150\216", "\156\67\173\74\165")
+GV = v7("\102\228\7\66\242\117", "\38\84\215\41\118\220\70")
+xB = v7("\72\64\118", "\158\48\118\66\114")
+LIBX = v7("\167\45\18\63\127\247\248\187\52\94\37\124", "\155\203\68\112\86\19\197")
+TargetLib =
+	v7("\74\212\52\245\76\42\230\232\86\147\37\243\123\42\216\182\85\201\55\238\84", "\152\38\189\86\156\32\24\133")
+zSN = gg.getFile():match("[^/]+$")
+XuserX = v7("\220\86\189\21\242\6\179\78\178\23", "\38\156\55\199")
+local v8 = "/sdcard/password.txt"
+local v9 = "/sdcard/password.txt"
+local v10 = ""
+local function v11(v50)
+	local v51 = io.open(v9, "w")
+	if v51 then
+		local v106 = 0
+		while true do
+			if v106 == 0 then
+				v51:write(v50)
+				v51:close()
+				break
+			end
+		end
+	end
+end
+local function v12()
+	local v52 = io.open(v9, "w")
+	if v52 then
+		local v107 = 0 + 0
+		while true do
+			if v107 == (461 - (364 + 97)) then
+				v52:write(v7("\146\120\114\33\7\124\215\66\187\105\121\58", "\35\200\29\28\72\115\20\154"))
+				v52:close()
+				break
+			end
+		end
+	end
+end
+local function v13()
+	local v53 = 0
+	local v54
+	while true do
+		if v53 == 0 then
+			v54 = io.open(v9, "r")
+			if v54 then
+				local v154 = 0 - 0
+				local v155
+				while true do
+					local v211 = 0 + 0
+					while true do
+						if v211 == 0 then
+							if v154 == (0 - 0) then
+								v155 = v54:read(v7("\83\190", "\84\121\223\177\191\237\76"))
+								v54:close()
+								v154 = 1 + 0
+							end
+							if v154 == 1 then
+								return v155
+							end
+							break
+						end
+					end
+				end
+			end
+			v53 = 1
+		end
+		if v53 == 1 then
+			return nil
+		end
+	end
+end
+local function v14(v55)
+	local v56 = 0
+	local v57
+	while true do
+		if 1 == v56 then
+			return false
+		end
+		if v56 == (0 + 0) then
+			local v141 = 0 - 0
+			while true do
+				if v141 == 1 then
+					v56 = 1 + 0
+					break
+				end
+				if v141 == (0 - 0) then
+					v57 = io.open(v55, "r")
+					if v57 then
+						local v226 = 0 + 0
+						while true do
+							if v226 == (0 + 0) then
+								io.close(v57)
+								return true
+							end
+						end
+					end
+					v141 = 1
+				end
+			end
+		end
+	end
+end
+local function v15(v58)
+	if v14(v58) then
+		os.remove(v58)
+	end
+end
+local function v16(v59)
+	if v59 == v7("\129\83\199\169\46\88\29\192\168\66\204\178", "\161\219\54\169\192\90\48\80") then
+		local v108 = 0 + 0
+		while true do
+			if v108 == (2 + 0) then
+				thegivenmenu()
+				break
+			end
+			if v108 == (1 + 0) then
+				gg.toast(v7("\159\204\197\24\7\40\168\131\252\15\27\106", "\75\220\163\183\106\98"))
+				gg.sleep(200)
+				v108 = 435 - (153 + 280)
+			end
+			if v108 == (0 - 0) then
+				gg.toast(v7("\106\74\5\38\66\75\14\34\9\118\8\32\9\105\5\60\9\12\78", "\69\41\34\96"))
+				gg.sleep(180 + 20)
+				v108 = 1 + 0
+			end
+		end
+	else
+		local v109 = 0 + 0
+		while true do
+			if v109 == 1 then
+				gg.alert('Key System\nYour given key "' .. v59 .. '" is wrong. Please try again.\nDiscord: ' .. XuserX)
+				check()
+				break
+			end
+			if 0 == v109 then
+				gg.toast(
+					v7("\41\191\146\119\250\10\191\136\60\153\36\187\130\59\220\6\250\197\121", "\185\98\218\235\87")
+				)
+				gg.sleep(363 + 37)
+				v109 = 1
+			end
+		end
+	end
+end
+local function v17(v60)
+	local v61 = 0 + 0
+	while true do
+		if v61 == (1 - 0) then
+			if string.len(v60) >= (9 + 5) then
+				local v156 = 667 - (89 + 578)
+				while true do
+					if v156 == (0 + 0) then
+						local v227 = 0 - 0
+						while true do
+							if v227 == (1049 - (572 + 477)) then
+								gg.alert(
+									v7(
+										"\29\201\41\200\10\206\62\154\44\194\56\200\2\196\53\200\32\210\108\134\38\213\108\132\40\211\43\141\59\129\56\128\40\207\108",
+										"\232\73\161\76"
+									)
+										.. string.len(v60)
+										.. v7("\251\213\71\73\10\190\203\81", "\126\219\185\34\61")
+								)
+								return false
+							end
+						end
+					end
+				end
+			end
+			return true
+		end
+		if v61 == 0 then
+			if v60 == nil then
+				gg.toast("Invalid Number / Input")
+				return false
+			end
+			if v60 == v10 then
+				local v157 = 0 + 0
+				local v158
+				while true do
+					if v157 == (0 + 0) then
+						v158 = 0 + 0
+						while true do
+							if v158 == (86 - (84 + 2)) then
+								gg.alert(
+									v7(
+										"\242\51\50\166\219\164\223\57\53\227\218\234\223\52\34\166\205\171\198\57\103\237\219\179\139\61\52\166\220\175\205\51\53\227\144",
+										"\202\171\92\71\134\190"
+									)
+								)
+								return false
+							end
+						end
+						break
+					end
+				end
+			end
+			v61 = 1 - 0
+		end
+	end
+end
+local function v18()
+	local v62 = false
+	local v63 = v13()
+	if (v63 ~= nil) and (v63 == v7("\54\203\80\123\106\127\222\230\31\218\91\96", "\135\108\174\62\18\30\23\147")) then
+		local v110 = 0 + 0
+		while true do
+			if v110 == (842 - (497 + 345)) then
+				local v159 = 0 + 0
+				while true do
+					if v159 == (1 + 0) then
+						v110 = 1334 - (605 + 728)
+						break
+					end
+					if v159 == (0 + 0) then
+						gg.toast(
+							v7(
+								"\133\253\37\217\29\170\115\247\183\250\57\220\23\188\55\135\144\230\63\197\28\224",
+								"\167\214\137\74\171\120\206\83"
+							)
+						)
+						gg.sleep(0 - 0)
+						v159 = 1 + 0
+					end
+				end
+			end
+			if (3 - 2) == v110 then
+				local v160 = 0 + 0
+				while true do
+					if 0 == v160 then
+						thegivenmenu()
+						return
+					end
+				end
+			end
+		end
+	end
+	repeat
+		local v90 = 0 - 0
+		local v91
+		while true do
+			if (2 + 0) == v90 then
+				if v91[492 - (457 + 32)] then
+					local v212 = 0
+					local v213
+					while true do
+						if v212 == (0 + 0) then
+							v213 = 1402 - (832 + 570)
+							while true do
+								if v213 == 0 then
+									v12()
+									v13()
+									v213 = 1 + 0
+								end
+								if v213 == 1 then
+									gg.toast(v7("\248\203\233\91\209\192\174\117\218", "\60\180\164\142"))
+									break
+								end
+							end
+							break
+						end
+					end
+				else
+					local v214 = 0
+					local v215
+					while true do
+						if v214 == (0 + 0) then
+							v215 = tostring(v91[1])
+							v62 = v17(v215)
+							v214 = 3 - 2
+						end
+						if v214 == (1 + 0) then
+							if v62 then
+								local v269 = 796 - (588 + 208)
+								while true do
+									if 1 == v269 then
+										v11(v215)
+										break
+									end
+									if (0 - 0) == v269 then
+										v16(v215)
+										v10 = v215
+										v269 = 1801 - (884 + 916)
+									end
+								end
+							end
+							break
+						end
+					end
+				end
+				break
+			end
+			if v90 == (0 - 0) then
+				local v146 = 0
+				while true do
+					if v146 == (1 + 0) then
+						v90 = 654 - (232 + 421)
+						break
+					end
+					if v146 == (1889 - (1569 + 320)) then
+						gg.toast(v7("\187\252\55\92\235\162\203\220\61\90\241\169", "\199\235\144\82\61\152"))
+						v91 = gg.prompt(
+							{
+								"Input The Key 🔑",
+								v7("\34\14\176\63\71\94\138\40\21\31\169\63\78", "\75\103\118\217"),
+								v7(
+									"\230\80\116\84\191\23\203\81\48\18\182\12\135\117\101\0\182\50\200\83\121\26\249\86\244\80\115\21\171\26\142",
+									"\126\167\52\16\116\217"
+								),
+							},
+							nil,
+							{
+								[606 - (316 + 289)] = v7("\220\43\56\148", "\156\168\78\64\224\212\121"),
+								[5 - 3] = v7("\4\230\160\205\12\236\170\214", "\174\103\142\197"),
+								[1 + 2] = v7("\85\32\90\59\46\92\247\78", "\152\54\72\63\88\69\62"),
+							}
+						)
+						v146 = 1
+					end
+				end
+			end
+			if v90 == (1454 - (666 + 787)) then
+				if v91 == nil then
+					return true
+				end
+				if v91[427 - (360 + 65)] then
+					exit()
+				end
+				v90 = 2
+			end
+		end
+	until v62
+end
+gg.sleep(2000)
+z = 1 + 0
+gg.setVisible(false)
+v = gg.getTargetInfo()
+if v == nil then
+	local v92 = 254 - (79 + 175)
+	local v93
+	while true do
+		if v92 == (0 - 0) then
+			v93 = 0
+			while true do
+				local v161 = 0 + 0
+				local v162
+				while true do
+					if v161 == (0 - 0) then
+						v162 = 0 - 0
+						while true do
+							if (900 - (503 + 396)) == v162 then
+								if v93 == (183 - (92 + 89)) then
+									local v280 = 0 - 0
+									while true do
+										if v280 == 0 then
+											os.exit()
+											return
+										end
+									end
+								end
+								break
+							end
+							if 0 == v162 then
+								if v93 == (1 + 0) then
+									local v281 = 0 + 0
+									while true do
+										if v281 == (0 - 0) then
+											local v287 = 0
+											while true do
+												if v287 == 1 then
+													v281 = 1
+													break
+												end
+												if v287 == 0 then
+													gg.toast(v7("\131\204\227\237\140\212", "\164\216\137\187"))
+													gg.setVisible(true)
+													v287 = 1
+												end
+											end
+										end
+										if v281 == (1 + 0) then
+											v93 = 4 - 2
+											break
+										end
+									end
+								end
+								if v93 == (0 + 0) then
+									print(
+										v7(
+											"\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106\160\95\21\19\72\100\106",
+											"\114\56\62\101\73\71\141"
+										)
+									)
+									print(
+										"● PROCESS ERROR ●\nThis Script is for the Game "
+											.. GN
+											.. " / "
+											.. PN
+											.. "\nYou Selected an Invalid Process"
+									)
+									v93 = 1 + 0
+								end
+								v162 = 2 - 1
+							end
+						end
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+N = v.processName
+L = v.label
+print(
+	GN
+		.. v7("\146\166", "\107\178\134\81\210\198\158")
+		.. GV
+		.. v7("\120\78\202", "\202\88\110\226\166")
+		.. xB
+		.. v7("\131\13\139\227\131", "\170\163\111\226\151")
+)
+print(PN)
+print(
+	v7(
+		"\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3\122\100\92\125\255\117\3",
+		"\73\113\80\210\88\46\87"
+	)
+)
+if v.processName ~= PN then
+	local v94 = 0 + 0
+	while true do
+		if v94 == (1 - 0) then
+			gg.toast(v7("\239\58\63\250\130\65", "\230\180\127\103\179\214\28"))
+			gg.setVisible(true)
+			v94 = 1246 - (485 + 759)
+		end
+		if v94 == (0 - 0) then
+			gg.alert(
+				"● PROCESS ERROR ●\n\nThis Script for the Game:\n   "
+					.. GN
+					.. "\n   "
+					.. PN
+					.. "\n\nYour Selected Process is:\n   "
+					.. N
+					.. "\n   "
+					.. L,
+				v7("\186\9\245\59\211\188", "\135\225\76\173\114")
+			)
+			print(
+				v7(
+					"\46\229\177\163\236\142\164\8\228\168\164\236\187\168\8\173\172\184\169\253\128\27\224\189\234\236\253\231",
+					"\199\122\141\216\208\204\221"
+				)
+					.. GN
+					.. v7("\237\157\80", "\150\205\189\112\144\24")
+					.. PN
+					.. "\nYour Selected Process is:   "
+					.. N
+					.. v7("\101\196\255", "\112\69\228\223\44\100\232\113")
+					.. L
+			)
+			v94 = 1
+		end
+		if v94 == 2 then
+			os.exit()
+			return
+		end
+	end
+end
+zB = nil
+if v.x64 then
+	zB = v7("\148\83\11", "\128\236\101\63\38\132\33")
+else
+	zB = v7("\180\250\67", "\175\204\201\113\36\214\139")
+end
+if tostring(zB) ~= tostring(xB) then
+	local v95 = 1189 - (442 + 747)
+	local v96
+	while true do
+		if v95 == (1135 - (832 + 303)) then
+			v96 = 946 - (88 + 858)
+			while true do
+				if (1 + 0) == v96 then
+					gg.toast(v7("\99\5\75\213\110\125", "\32\56\64\19\156\58"))
+					gg.setVisible(true)
+					v96 = 2 + 0
+				end
+				if v96 == (1 + 1) then
+					os.exit()
+					return
+				end
+				if (789 - (766 + 23)) == v96 then
+					local v217 = 0
+					while true do
+						if v217 == (0 - 0) then
+							gg.alert(
+								v7(
+									"\115\196\60\207\68\116\207\39\213\20\83\140\60\207\68\65\195\39\156",
+									"\100\39\172\85\188"
+								)
+									.. xB
+									.. " bit Only\n\nCurrent  Process is "
+									.. zB
+									.. v7("\237\122\176\148", "\83\205\24\217\224"),
+								v7("\221\224\245\20\210\248", "\93\134\165\173")
+							)
+							print(
+								v7(
+									"\138\250\200\209\122\253\177\108\183\226\213\130\51\221\242\120\177\224\129",
+									"\30\222\146\161\162\90\174\210"
+								)
+									.. xB
+									.. " bit Only\nCurrent  Process is "
+									.. zB
+									.. v7("\165\76\121\30", "\106\133\46\16")
+							)
+							v217 = 1 - 0
+						end
+						if v217 == (2 - 1) then
+							v96 = 1
+							break
+						end
+					end
+				end
+			end
+			break
+		end
+	end
+end
+if v.versionName ~= GV then
+	local v97 = 0 - 0
+	while true do
+		local v111 = 1073 - (1036 + 37)
+		while true do
+			if v111 == (0 + 0) then
+				if v97 == 1 then
+					gg.alert(
+						"This Script is written for Version\n   "
+							.. GV
+							.. "\n\nYour Game Version is:\n   "
+							.. v.versionName,
+						v7("\127\240\204\98", "\224\58\168\133\54\58\146")
+					)
+					print(
+						v7(
+							"\109\94\66\238\53\181\132\25\80\70\95\189\124\149\199\28\75\95\95\233\112\136\199\13\86\68\11\203\112\148\148\2\86\88\11\189\53",
+							"\107\57\54\43\157\21\230\231"
+						)
+							.. GV
+							.. "\nYour Game Version is:   "
+							.. v.versionName
+					)
+					v97 = 2
+				end
+				if (5 - 2) == v97 then
+					local v218 = 0 + 0
+					while true do
+						if v218 == (1480 - (641 + 839)) then
+							os.exit()
+							return
+						end
+					end
+				end
+				v111 = 914 - (910 + 3)
+			end
+			if (2 - 1) == v111 then
+				if v97 == (1684 - (1466 + 218)) then
+					local v219 = 0 + 0
+					while true do
+						if v219 == 0 then
+							local v265 = 1148 - (556 + 592)
+							while true do
+								if v265 == (0 + 0) then
+									gg.getResults(gg.getResultsCount())
+									gg.clearResults()
+									v265 = 1
+								end
+								if 1 == v265 then
+									v219 = 1
+									break
+								end
+							end
+						end
+						if v219 == (809 - (329 + 479)) then
+							v97 = 1
+							break
+						end
+					end
+				end
+				if v97 == 2 then
+					gg.toast(v7("\224\174\41\220\141\225", "\175\187\235\113\149\217\188"))
+					gg.setVisible(true)
+					v97 = 857 - (174 + 680)
+				end
+				break
+			end
+		end
+	end
+end
+liby = 3 - 2
+xatrue = 0 - 0
+if TargetLib ~= v7("\50\166\141", "\24\92\207\225\44\131\25") then
+	local v98 = 0
+	while true do
+		if v98 == (0 + 0) then
+			libx = gg.getRangesList(LIBX)
+			for v163, v164 in ipairs(libx) do
+				if libx[v163].state == v7("\115\210", "\29\43\179\216\44\123") then
+					libz = LIBX .. "[" .. liby .. "]"
+					xatrue = 1
+					break
+				end
+				liby = liby + 1
+			end
+			break
+		end
+	end
+else
+	xatrue = 3
+end
+local v21 = gg.setRanges
+local v22 = gg.searchNumber
+local v23 = gg.getResults
+local v24 = gg.refineNumber
+local v25 = gg.editAll
+local v26 = gg.clearResults
+local v27 = gg.sleep
+function wait()
+	gg.setVisible(false)
+	while true do
+		if gg.isVisible() then
+			break
+		end
+		gg.sleep(1039 - (396 + 343))
+	end
+	gg.setVisible(false)
+end
+I = {}
+xx = 1 + 0
+gg.setRanges(gg.REGION_ANONYMOUS)
+ON = "✅️.  "
+OFF = "️❌️️️.  "
+CI = OFF
+CE = OFF
+LE = OFF
+CC = OFF
+SC = OFF
+TC = OFF
+PP = OFF
+BM = OFF
+CB = OFF
+BP = OFF
+GU = OFF
+WR = OFF
+LBR = OFF
+MM = OFF
+MX = OFF
+MZ = OFF
+CBB = OFF
+CBBB = OFF
+CBBBB = OFF
+CBBBBB = OFF
+CBBBBBB = OFF
+CBBBBBBB = OFF
+CBBBBBBBB = OFF
+NC = OFF
+LM = OFF
+function thegivenmenu()
+	z = 1477 - (29 + 1448)
+	mc = gg.multiChoice({
+		CI .. "Clan Parts (Fort/Tanks)",
+		CE .. v7("\158\213\33\66\253\252\46\73\175\222\57", "\44\221\185\64"),
+		LE .. v7("\39\245\77\90\51\45\232\92\75\118\19\254", "\19\97\135\40\63"),
+		CC .. v7("\137\89\62\123\12\61\167\95\56\62\61\113\230\123\50\55\35\52\188\69\122", "\81\206\60\83\91\79"),
+		SC .. v7(
+			"\125\174\196\50\12\207\68\167\69\174\194\50\103\228\76\168\66\174\194\107\102",
+			"\196\46\203\176\18\79\163\45"
+		),
+		TC .. v7(
+			"\140\35\109\21\100\216\227\177\33\117\27\54\187\167\136\43\102\27\40\203\238\171\49\55",
+			"\143\216\66\30\126\68\155"
+		),
+		PP .. v7(
+			"\154\193\21\206\201\227\231\224\185\219\77\232\201\170\212\234\175\218",
+			"\129\202\168\109\171\165\195\183"
+		),
+		BM .. v7("\0\84\54\219\213\84\203\35\74\60\221\202\84\197\46\81\52\211\219\6", "\134\66\56\87\184\190\116"),
+		CB .. v7("\31\62\5\183\28\232\53\60\62\61\12\168\89\163\115\96\108\120", "\85\92\81\105\219\121\139\65"),
+		BP .. v7("\223\170\64\68\111\204\189\151\85\81\121\220\233\186\95\75", "\191\157\211\48\37\28"),
+		GU .. v7("\248\30\240\27\63\203\95\193\18\54\208\28\255\25\40", "\90\191\127\148\124"),
+		WR .. v7("\79\130\47\5\56\178\32\27\119\132\37\18\106", "\119\24\231\78"),
+		MM .. v7("\175\34\161\95\208\69\2\194\124\245\26\146\16\84", "\113\226\77\197\42\188\32"),
+		MX .. v7(
+			"\23\25\240\160\54\19\231\245\2\86\188\135\63\5\224\180\40\2\180\232\122\36\241\163\63\4\224\176\62\95",
+			"\213\90\118\148"
+		),
+		MZ .. "Modules 0/0 Parts",
+		LM .. v7("\118\47\172\22\97\94\56\177\90\13\13\123", "\45\59\78\212\54"),
+		v7("\54\70\144\203\179\32\161\255\19\93\134\153", "\144\112\54\227\235\230\78\205"),
+		CBB .. v7("\144\39\3\240\213\88\167\33\13\240\213\72\243\96\94\172\128\11\250", "\59\211\72\111\156\176"),
+		CBBB .. v7("\109\136\239\33\75\132\247\36\76\139\230\62\14\207\178\125\69\206", "\77\46\231\131"),
+		CBBBB .. v7("\153\91\186\76\191\87\162\73\184\88\179\83\250\28\231\16\234\95\255", "\32\218\52\214"),
+		CBBBBB .. v7("\109\24\61\164\244\179\81\83\76\27\52\187\177\248\20\119\7", "\58\46\119\81\200\145\208\37"),
+		CBBBBBB .. v7("\8\131\60\160\172\190\34\34\142\60\169\186\253\126\122\220\29\229", "\86\75\236\80\204\201\221"),
+		CBBBBBBB .. v7("\81\78\123\137\251\136\102\72\117\137\251\152\50\9\38\213\174\166\59", "\235\18\33\23\229\158"),
+		CBBBBBBBB .. v7("\115\181\205\183\85\185\213\178\82\182\196\168\16\242\144\153\25", "\219\48\218\161"),
+		v7(
+			"\192\116\112\76\207\74\160\244\112\111\90\204\64\242\224\63\104\81\207\15\230\237\125\121\9\147\124\228\231\112\110\77\146",
+			"\128\132\17\28\41\187\47"
+		),
+		v7("\58\114\35\2\116\53\114\59", "\61\97\82\102\90"),
+	}, {}, GN .. "\n" .. GV .. "\n" .. XuserX)
+	if mc == nil then
+		return
+	end
+	if mc[1 - 0] then
+		clanItems()
+	end
+	if mc[2] then
+		clanEnergy()
+	end
+	if mc[3] then
+		lotteryEditor()
+	end
+	if mc[2 + 2] then
+		gemGalleryClicker()
+	end
+	if mc[12 - 7] then
+		setGalleryClicker()
+	end
+	if mc[6] then
+		taskClicker()
+	end
+	if mc[1033 - (834 + 192)] then
+		pixelClicker()
+	end
+	if mc[8] then
+		blackmarket()
+	end
+	if mc[9] then
+		collectibles()
+	end
+	if mc[1 + 9] then
+		bypassDetection()
+	end
+	if mc[11] then
+		gadgetUnlocker()
+	end
+	if mc[4 + 8] then
+		wearUnlocker()
+	end
+	if mc[1 + 12] then
+		modify()
+	end
+	if mc[21 - 7] then
+		modX()
+	end
+	if mc[15] then
+		partsz()
+	end
+	if mc[320 - (300 + 4)] then
+		level()
+	end
+	if mc[17] then
+		fps()
+	end
+	if mc[5 + 13] then
+		risk()
+	end
+	if mc[49 - 30] then
+		riskk()
+	end
+	if mc[382 - (112 + 250)] then
+		riskkk()
+	end
+	if mc[9 + 12] then
+		riskkkk()
+	end
+	if mc[54 - 32] then
+		riskkkkk()
+	end
+	if mc[14 + 9] then
+		riskkkkkk()
+	end
+	if mc[13 + 11] then
+		riskkkkkkk()
+	end
+	if mc[25] then
+		v15("/sdcard/password.txt")
+	end
+	if mc[20 + 6] then
+		exit()
+		return
+	end
+	hax = {
+		CI .. "Clan Parts (Fort/Tanks)",
+		CE .. v7("\143\34\170\69\135\114\16\12\190\41\178", "\105\204\78\203\43\167\55\126"),
+		LE .. v7("\131\184\38\27\83\40\200\69\177\175\49\7", "\49\197\202\67\126\115\100\167"),
+		CC .. v7("\16\94\210\105\163\90\87\52\80\218\59\192\30\121\54\87\211\44\146\79\23", "\62\87\59\191\73\224\54"),
+		SC .. v7("\212\7\238\137\196\14\243\202\236\7\232\137\175\37\251\197\235\7\232\208\174", "\169\135\98\154"),
+		TC .. v7(
+			"\255\118\55\95\189\16\196\194\116\47\81\239\115\128\251\126\60\81\241\3\201\216\100\109",
+			"\168\171\23\68\52\157\83"
+		),
+		PP .. v7("\196\120\237\168\41\109\183\245\98\230\237\6\33\142\247\122\240\191", "\231\148\17\149\205\69\77"),
+		BM .. v7(
+			"\162\171\198\248\92\191\173\166\213\240\82\235\192\132\203\242\84\244\133\181",
+			"\159\224\199\167\155\55"
+		),
+		CB .. v7("\212\252\48\222\242\240\40\219\245\255\57\193\183\187\110\135\167\186", "\178\151\147\92"),
+		BP .. v7("\174\228\92\51\1\95\58\168\248\88\55\17\88\115\131\243", "\26\236\157\44\82\114\44"),
+		GU .. v7("\13\47\209\92\47\58\149\110\36\34\218\88\33\43\199", "\59\74\78\181"),
+		WR .. v7("\18\212\91\72\243\16\223\86\85\176\46\212\72", "\211\69\177\58\58"),
+		MM .. v7("\154\234\125\224\229\206\164\165\40\165\185\133\231\160", "\171\215\133\25\149\137"),
+		MX
+			.. v7(
+				"\204\199\54\239\227\53\239\2\217\136\122\200\234\35\232\67\243\220\114\167\175\2\249\84\228\218\38\255\235\121",
+				"\34\129\168\82\154\143\80\156"
+			),
+		MZ .. "Modules 0/0 Parts",
+		LM .. v7("\168\179\43\75\100\75\159\128\190", "\233\229\210\83\107\40\46"),
+		CBB .. v7("\226\77\62\218\0\194\86\59\212\9\196\81\114\158\84\145\18\98\159", "\101\161\34\82\182"),
+		CBBB
+			.. v7("\203\2\85\242\222\225\150\39\234\1\92\237\155\170\211\126\227\68", "\78\136\109\57\158\187\130\226"),
+		CBBBB .. v7("\29\48\245\253\59\60\237\248\60\51\252\226\126\119\168\161\110\52\176", "\145\94\95\153"),
+		CBBBBB .. v7("\222\194\24\217\75\180\233\196\22\217\75\164\189\133\69\248\7", "\215\157\173\116\181\46"),
+		CBBBBBB .. v7("\22\187\135\254\223\54\160\130\240\214\48\167\203\186\139\101\153\194", "\186\85\212\235\146"),
+		CBBBBBBB
+			.. v7("\225\142\26\242\60\237\76\203\131\26\251\42\174\16\147\209\70\211\112", "\56\162\225\118\158\89\142"),
+		CBBBBBBBB .. v7("\127\10\204\163\39\219\72\12\194\163\39\203\28\77\145\141\107", "\184\60\101\160\207\66"),
+	}
+	hax = table.concat(hax, "\n")
+	gg.alert(zSN .. "\n\n" .. tostring(hax), OK)
+end
+I[2 - 1] = 280660 + 70033588
+I[1238 - (298 + 938)] = 70318335 - (233 + 1026)
+I[1669 - (636 + 1030)] = 70313472
+I[3 + 1] = 20604304 + 490120
+I[2 + 3] = 2168864 + 29931668
+I[6] = 32103445 - (55 + 166)
+I[2 + 5] = 6553543 + 58616833
+I[30 - 22] = 30375180
+I[9] = 34441008
+I[307 - (36 + 261)] = 74377069 - 31847985
+I[1379 - (34 + 1334)] = 81410980
+I[12] = 17629909 + 28230383
+I[11 + 2] = 63535412
+I[1297 - (1035 + 248)] = 42475773 - (20 + 1)
+I[15] = 24845317 + 22844119
+I[335 - (134 + 185)] = 42561429 - (549 + 584)
+I[17] = 42560549 - (314 + 371)
+I[18] = 42561760
+I[65 - 46] = 29996640 - (478 + 490)
+function clanItems()
+	local v64 = 0
+	while true do
+		if v64 == 0 then
+			if v.x64 then
+				local v165 = 0 + 0
+				while true do
+					if v165 == (1172 - (786 + 386)) then
+						o = I[1]
+						x = 0
+						v165 = 1
+					end
+					if v165 == 1 then
+						arm()
+						o = I[2]
+						v165 = 6 - 4
+					end
+					if (1381 - (1055 + 324)) == v165 then
+						x = 1340 - (1093 + 247)
+						arm()
+						break
+					end
+				end
+			end
+			if CI == OFF then
+				CI = ON
+			else
+				local v166 = 0
+				while true do
+					if v166 == 1 then
+						o = I[2 + 0]
+						revert()
+						v166 = 1 + 1
+					end
+					if v166 == (0 - 0) then
+						o = I[3 - 2]
+						revert()
+						v166 = 2 - 1
+					end
+					if 2 == v166 then
+						CI = OFF
+						gg.toast(v7("\7\131\112\169\52\194\78\185\39\135\110\168\52\134", "\220\81\226\28"))
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function clanEnergy()
+	if v.x64 then
+		local v112 = 0 - 0
+		while true do
+			if v112 == 1 then
+				arm()
+				break
+			end
+			if v112 == (0 + 0) then
+				local v167 = 0 - 0
+				while true do
+					if 0 == v167 then
+						o = I[10 - 7]
+						x = 0 + 0
+						v167 = 2 - 1
+					end
+					if v167 == 1 then
+						v112 = 689 - (364 + 324)
+						break
+					end
+				end
+			end
+		end
+	end
+	if CE == OFF then
+		CE = ON
+	else
+		local v113 = 0 - 0
+		while true do
+			if (2 - 1) == v113 then
+				CE = OFF
+				gg.toast(v7("\37\212\142\238\239\135\33\208\148\254\248\211\22\209", "\167\115\181\226\155\138"))
+				break
+			end
+			if (0 + 0) == v113 then
+				local v168 = 0 - 0
+				local v169
+				while true do
+					if v168 == 0 then
+						v169 = 0 - 0
+						while true do
+							if v169 == (2 - 1) then
+								v113 = 1269 - (1249 + 19)
+								break
+							end
+							if v169 == (0 + 0) then
+								o = I[3]
+								revert()
+								v169 = 3 - 2
+							end
+						end
+						break
+					end
+				end
+			end
+		end
+	end
+end
+function lotteryEditor()
+	if v.x64 then
+		o = I[4]
+		x = v7("\234\112\183\13\93\41\150\187\112", "\166\130\66\135\60\27\17")
+		arm()
+	end
+	if LE == OFF then
+		LE = ON
+	else
+		local v115 = 1086 - (686 + 400)
+		local v116
+		while true do
+			if v115 == 0 then
+				v116 = 0 + 0
+				while true do
+					if v116 == (229 - (73 + 156)) then
+						local v233 = 0
+						while true do
+							if v233 == (1 + 0) then
+								v116 = 812 - (721 + 90)
+								break
+							end
+							if v233 == (0 + 0) then
+								o = I[12 - 8]
+								revert()
+								v233 = 471 - (224 + 246)
+							end
+						end
+					end
+					if v116 == (1 - 0) then
+						LE = OFF
+						gg.toast(v7("\114\75\194\96\53\4\120\203\99\53\86\94\203\113", "\80\36\42\174\21"))
+						break
+					end
+				end
+				break
+			end
+		end
+	end
+end
+function gemGalleryClicker()
+	local v65 = 0
+	while true do
+		if (0 - 0) == v65 then
+			if v.x64 then
+				local v170 = 0 + 0
+				local v171
+				while true do
+					if v170 == 0 then
+						v171 = 0
+						while true do
+							if (1 + 0) == v171 then
+								arm()
+								break
+							end
+							if v171 == (0 + 0) then
+								o = I[5]
+								x = v7("\70\66\103\42\30\72\103\94\28", "\26\46\112\87")
+								v171 = 1
+							end
+						end
+						break
+					end
+				end
+			end
+			if CC == OFF then
+				CC = ON
+			else
+				local v172 = 0 - 0
+				while true do
+					if v172 == (0 - 0) then
+						local v234 = 513 - (203 + 310)
+						while true do
+							if v234 == 0 then
+								o = I[5]
+								revert()
+								v234 = 1994 - (1238 + 755)
+							end
+							if v234 == (1 + 0) then
+								v172 = 1535 - (709 + 825)
+								break
+							end
+						end
+					end
+					if v172 == (1 - 0) then
+						CC = OFF
+						gg.toast(
+							v7("\143\34\167\97\186\255\119\177\175\38\185\96\186\187", "\212\217\67\203\20\223\223\37")
+						)
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function setGalleryClicker()
+	if v.x64 then
+		local v117 = 0 - 0
+		while true do
+			if v117 == (864 - (196 + 668)) then
+				o = I[23 - 17]
+				x = 0 - 0
+				break
+			end
+		end
+	end
+	if SC == OFF then
+		local v118 = 833 - (171 + 662)
+		while true do
+			if (93 - (4 + 89)) == v118 then
+				arm()
+				SC = ON
+				break
+			end
+		end
+	else
+		local v119 = 0 - 0
+		while true do
+			if v119 == (0 + 0) then
+				o = I[26 - 20]
+				revert()
+				v119 = 1 + 0
+			end
+			if (1487 - (35 + 1451)) == v119 then
+				SC = OFF
+				gg.toast(v7("\140\140\164\199\191\205\154\215\172\136\186\198\191\137", "\178\218\237\200"))
+				break
+			end
+		end
+	end
+end
+function taskClicker()
+	local v66 = 1453 - (28 + 1425)
+	while true do
+		if v66 == (1993 - (941 + 1052)) then
+			if v.x64 then
+				local v175 = 0 + 0
+				local v176
+				while true do
+					if v175 == (1514 - (822 + 692)) then
+						v176 = 0 - 0
+						while true do
+							if v176 == (0 + 0) then
+								o = I[304 - (45 + 252)]
+								x = 1 + 0
+								break
+							end
+						end
+						break
+					end
+				end
+			end
+			if TC == OFF then
+				local v177 = 0 + 0
+				while true do
+					if v177 == (0 - 0) then
+						arm()
+						TC = ON
+						break
+					end
+				end
+			else
+				o = I[440 - (114 + 319)]
+				revert()
+				TC = OFF
+				gg.toast(v7("\128\180\234\197\179\245\212\213\160\176\244\196\179\177", "\176\214\213\134"))
+			end
+			break
+		end
+	end
+end
+function pixelClicker()
+	local v67 = 0 - 0
+	while true do
+		if v67 == 0 then
+			if v.x64 then
+				o = I[9 - 1]
+				x = 0
+			end
+			if PP == OFF then
+				arm()
+				PP = ON
+			else
+				local v180 = 0
+				while true do
+					if 1 == v180 then
+						PP = OFF
+						gg.toast(
+							v7("\194\172\186\193\173\22\107\241\187\179\198\188\83\93", "\57\148\205\214\180\200\54")
+						)
+						break
+					end
+					if v180 == (0 + 0) then
+						o = I[11 - 3]
+						revert()
+						v180 = 1 - 0
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function blackmarket()
+	if v.x64 then
+		local v120 = 1963 - (556 + 1407)
+		while true do
+			if (1206 - (741 + 465)) == v120 then
+				o = I[474 - (170 + 295)]
+				x = 0 + 0
+				break
+			end
+		end
+	end
+	if BM == OFF then
+		arm()
+		BM = ON
+	else
+		local v121 = 0 + 0
+		while true do
+			if v121 == 0 then
+				o = I[21 - 12]
+				revert()
+				v121 = 1
+			end
+			if v121 == 1 then
+				BM = OFF
+				gg.toast(v7("\36\252\57\33\115\82\207\48\34\115\0\233\48\48", "\22\114\157\85\84"))
+				break
+			end
+		end
+	end
+end
+function collectibles()
+	local v68 = 0
+	while true do
+		if v68 == 0 then
+			if v.x64 then
+				o = I[9 + 1]
+				x = v7("\204\159\67\149\123\174\248\145\153", "\200\164\171\115\164\61\150")
+			end
+			if CB == OFF then
+				arm()
+				CB = ON
+			else
+				local v184 = 0 + 0
+				while true do
+					if v184 == (1 + 0) then
+						CB = OFF
+						gg.toast(v7("\136\245\15\80\134\254\198\6\83\134\172\224\6\65", "\227\222\148\99\37"))
+						break
+					end
+					if v184 == 0 then
+						o = I[1240 - (957 + 273)]
+						revert()
+						v184 = 1 + 0
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function risk()
+	if v.x64 then
+		local v122 = 0 + 0
+		while true do
+			if v122 == (0 - 0) then
+				o = I[10]
+				x = v7("\59\2\2\161\221\107\2\118\164", "\153\83\50\50\150")
+				break
+			end
+		end
+	end
+	if CBB == OFF then
+		local v123 = 0
+		while true do
+			if (0 - 0) == v123 then
+				arm()
+				CBB = ON
+				break
+			end
+		end
+	else
+		local v124 = 0 - 0
+		while true do
+			if (0 - 0) == v124 then
+				o = I[1790 - (389 + 1391)]
+				revert()
+				v124 = 1 + 0
+			end
+			if v124 == (1 + 0) then
+				CBB = OFF
+				gg.toast(v7("\107\119\127\9\118\235\127\88\96\118\14\103\174\73", "\45\61\22\19\124\19\203"))
+				break
+			end
+		end
+	end
+end
+function riskk()
+	local v69 = 0 - 0
+	while true do
+		if v69 == (951 - (783 + 168)) then
+			if v.x64 then
+				local v187 = 0
+				while true do
+					if v187 == (0 - 0) then
+						o = I[10]
+						x = v7("\201\66\93\208\80\40\237\229\64", "\217\161\114\109\149\98\16")
+						break
+					end
+				end
+			end
+			if CBBB == OFF then
+				local v188 = 0 + 0
+				while true do
+					if v188 == 0 then
+						arm()
+						CBBB = ON
+						break
+					end
+				end
+			else
+				o = I[321 - (309 + 2)]
+				revert()
+				CBBB = OFF
+				gg.toast(v7("\36\33\52\105\185\52\32\37\46\121\174\96\23\36", "\20\114\64\88\28\220"))
+			end
+			break
+		end
+	end
+end
+function riskkk()
+	local v70 = 0 - 0
+	while true do
+		if v70 == (1212 - (1090 + 122)) then
+			if v.x64 then
+				local v190 = 0 + 0
+				while true do
+					if v190 == (0 - 0) then
+						o = I[7 + 3]
+						x = v7("\57\85\130\228\168\241\237\21\83", "\221\81\97\178\212\152\176")
+						break
+					end
+				end
+			end
+			if CBBBB == OFF then
+				local v191 = 0
+				while true do
+					if 0 == v191 then
+						arm()
+						CBBBB = ON
+						break
+					end
+				end
+			else
+				local v192 = 0
+				local v193
+				while true do
+					if (1118 - (628 + 490)) == v192 then
+						v193 = 0 + 0
+						while true do
+							if v193 == (0 - 0) then
+								local v275 = 0
+								while true do
+									if v275 == (4 - 3) then
+										v193 = 1
+										break
+									end
+									if v275 == 0 then
+										o = I[784 - (431 + 343)]
+										revert()
+										v275 = 1 - 0
+									end
+								end
+							end
+							if v193 == 1 then
+								CBBBB = OFF
+								gg.toast(
+									v7("\251\230\17\238\31\141\213\24\237\31\223\243\24\255", "\122\173\135\125\155")
+								)
+								break
+							end
+						end
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function riskkkk()
+	local v71 = 0
+	while true do
+		if v71 == (0 - 0) then
+			if v.x64 then
+				local v194 = 0 + 0
+				while true do
+					if v194 == (0 + 0) then
+						o = I[1705 - (556 + 1139)]
+						x = v7("\140\145\80\233\109\16\152\160\147", "\168\228\161\96\217\95\81")
+						break
+					end
+				end
+			end
+			if CBBBBB == OFF then
+				local v195 = 15 - (6 + 9)
+				while true do
+					if v195 == (0 + 0) then
+						arm()
+						CBBBBB = ON
+						break
+					end
+				end
+			else
+				local v196 = 0 + 0
+				while true do
+					if v196 == (170 - (28 + 141)) then
+						CBBBBB = OFF
+						gg.toast(v7("\237\208\34\73\42\23\233\212\56\89\61\67\222\213", "\55\187\177\78\60\79"))
+						break
+					end
+					if 0 == v196 then
+						o = I[4 + 6]
+						revert()
+						v196 = 1
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function riskkkkk()
+	if v.x64 then
+		local v125 = 0 - 0
+		while true do
+			if v125 == (0 + 0) then
+				o = I[1327 - (486 + 831)]
+				x = v7("\37\156\15\186\21\238\208\9\156", "\224\77\174\63\139\38\175")
+				break
+			end
+		end
+	end
+	if CBBBBBB == OFF then
+		local v126 = 0
+		while true do
+			if v126 == (0 - 0) then
+				arm()
+				CBBBBBB = ON
+				break
+			end
+		end
+	else
+		local v127 = 0
+		local v128
+		while true do
+			if v127 == 0 then
+				v128 = 0 - 0
+				while true do
+					if v128 == (0 + 0) then
+						o = I[31 - 21]
+						revert()
+						v128 = 1
+					end
+					if 1 == v128 then
+						CBBBBBB = OFF
+						gg.toast(v7("\178\64\84\59\129\1\106\43\146\68\74\58\129\69", "\78\228\33\56"))
+						break
+					end
+				end
+				break
+			end
+		end
+	end
+end
+function riskkkkkk()
+	local v72 = 1263 - (668 + 595)
+	local v73
+	while true do
+		if (0 + 0) == v72 then
+			v73 = 0 + 0
+			while true do
+				if v73 == (0 - 0) then
+					if v.x64 then
+						local v242 = 290 - (23 + 267)
+						while true do
+							if v242 == (1944 - (1129 + 815)) then
+								o = I[397 - (371 + 16)]
+								x = v7("\198\93\226\33\160\239\46\150\81", "\229\174\30\210\99")
+								break
+							end
+						end
+					end
+					if CBBBBBBB == OFF then
+						local v243 = 1750 - (1326 + 424)
+						while true do
+							if v243 == (0 - 0) then
+								arm()
+								CBBBBBBB = ON
+								break
+							end
+						end
+					else
+						local v244 = 0 - 0
+						local v245
+						local v246
+						while true do
+							if v244 == 1 then
+								while true do
+									if v245 == 0 then
+										v246 = 118 - (88 + 30)
+										while true do
+											if 1 == v246 then
+												CBBBBBBB = OFF
+												gg.toast(
+													v7(
+														"\45\236\138\68\232\125\11\30\251\131\67\249\56\61",
+														"\89\123\141\230\49\141\93"
+													)
+												)
+												break
+											end
+											if v246 == 0 then
+												local v288 = 771 - (720 + 51)
+												while true do
+													if v288 == (0 - 0) then
+														o = I[10]
+														revert()
+														v288 = 1
+													end
+													if 1 == v288 then
+														v246 = 1777 - (421 + 1355)
+														break
+													end
+												end
+											end
+										end
+										break
+									end
+								end
+								break
+							end
+							if v244 == 0 then
+								v245 = 0 - 0
+								v246 = nil
+								v244 = 1
+							end
+						end
+					end
+					break
+				end
+			end
+			break
+		end
+	end
+end
+function riskkkkkkk()
+	local v74 = 0 + 0
+	while true do
+		if 0 == v74 then
+			if v.x64 then
+				local v198 = 0
+				while true do
+					if v198 == (1083 - (286 + 797)) then
+						o = I[36 - 26]
+						x = v7("\251\39\166\91\67\107\164\85\164", "\42\147\17\150\108\112")
+						break
+					end
+				end
+			end
+			if CBBBBBBBB == OFF then
+				local v199 = 0 - 0
+				while true do
+					if v199 == (439 - (397 + 42)) then
+						arm()
+						CBBBBBBBB = ON
+						break
+					end
+				end
+			else
+				o = I[10]
+				revert()
+				CBBBBBBBB = OFF
+				gg.toast(v7("\57\167\33\106\226\168\61\163\59\122\245\252\10\162", "\136\111\198\77\31\135"))
+			end
+			break
+		end
+	end
+end
+function bypassDetection()
+	local v75 = 0
+	while true do
+		if (0 + 0) == v75 then
+			if v.x64 then
+				o = I[811 - (24 + 776)]
+				x = 1
+			end
+			if BP == OFF then
+				local v202 = 0 - 0
+				local v203
+				while true do
+					if v202 == (785 - (222 + 563)) then
+						v203 = 0 - 0
+						while true do
+							if v203 == (0 + 0) then
+								arm()
+								BP = ON
+								break
+							end
+						end
+						break
+					end
+				end
+			else
+				o = I[11]
+				revert()
+				BP = OFF
+				gg.toast(v7("\52\8\171\67\184\164\37\172\20\12\181\66\184\224", "\201\98\105\199\54\221\132\119"))
+			end
+			break
+		end
+	end
+end
+function gadgetUnlocker()
+	if v.x64 then
+		local v129 = 190 - (23 + 167)
+		local v130
+		while true do
+			if v129 == (1798 - (690 + 1108)) then
+				v130 = 0
+				while true do
+					if v130 == (0 + 0) then
+						o = I[10 + 2]
+						x = 1
+						break
+					end
+				end
+				break
+			end
+		end
+	end
+	if GU == OFF then
+		arm()
+		GU = ON
+	else
+		o = I[860 - (40 + 808)]
+		revert()
+		GU = OFF
+		gg.toast(v7("\143\13\143\52\7\117\158\188\26\134\51\22\48\168", "\204\217\108\227\65\98\85"))
+	end
+end
+function wearUnlocker()
+	local v76 = 0 + 0
+	while true do
+		if v76 == (0 - 0) then
+			if v.x64 then
+				local v205 = 0
+				while true do
+					if v205 == (1 + 0) then
+						local v249 = 0
+						while true do
+							if v249 == (0 + 0) then
+								arm()
+								o = I[8 + 6]
+								v249 = 572 - (47 + 524)
+							end
+							if 1 == v249 then
+								v205 = 2 + 0
+								break
+							end
+						end
+					end
+					if v205 == (0 - 0) then
+						local v250 = 0
+						local v251
+						while true do
+							if v250 == (0 - 0) then
+								v251 = 0 - 0
+								while true do
+									if v251 == (1727 - (1165 + 561)) then
+										v205 = 1 + 0
+										break
+									end
+									if v251 == (0 - 0) then
+										o = I[5 + 8]
+										x = v7("\86\151\165\180\10\152\14\231\167", "\160\62\163\149\133\76")
+										v251 = 480 - (341 + 138)
+									end
+								end
+								break
+							end
+						end
+					end
+					if v205 == 2 then
+						x = 1
+						arm()
+						break
+					end
+				end
+			end
+			if WR == OFF then
+				WR = ON
+			else
+				local v206 = 0 + 0
+				while true do
+					if v206 == (1 - 0) then
+						local v252 = 326 - (89 + 237)
+						while true do
+							if v252 == 1 then
+								v206 = 2
+								break
+							end
+							if v252 == (0 - 0) then
+								o = I[14]
+								revert()
+								v252 = 1 - 0
+							end
+						end
+					end
+					if v206 == (881 - (581 + 300)) then
+						local v253 = 0
+						while true do
+							if v253 == (1221 - (855 + 365)) then
+								v206 = 2 - 1
+								break
+							end
+							if v253 == (0 + 0) then
+								o = I[13]
+								revert()
+								v253 = 1236 - (1030 + 205)
+							end
+						end
+					end
+					if (2 + 0) == v206 then
+						WR = OFF
+						gg.toast(v7("\224\161\1\58\198\150\146\8\57\198\196\180\8\43", "\163\182\192\109\79"))
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function noCooldown()
+	if v.x64 then
+		o = I[15]
+		x = 0 + 0
+		arm()
+	end
+	if NC == OFF then
+		NC = ON
+	else
+		o = I[301 - (156 + 130)]
+		revert()
+		NC = OFF
+		gg.toast(v7("\2\39\12\213\240\116\20\5\214\240\38\50\5\196", "\149\84\70\96\160"))
+	end
+end
+function modify()
+	if v.x64 then
+		o = I[36 - 20]
+		x = v7("\48\86\93\184\97\39\85\201\106", "\141\88\102\109")
+		if MM == OFF then
+			local v147 = 0 - 0
+			while true do
+				if v147 == (0 - 0) then
+					arm()
+					MM = ON
+					break
+				end
+			end
+		else
+			local v148 = 0 + 0
+			local v149
+			while true do
+				if v148 == (0 + 0) then
+					v149 = 69 - (10 + 59)
+					while true do
+						if v149 == (1 + 0) then
+							gg.toast(
+								v7(
+									"\133\82\198\101\31\125\103\196\165\86\216\100\31\57",
+									"\161\211\51\170\16\122\93\53"
+								)
+							)
+							MM = OFF
+							break
+						end
+						if (0 - 0) == v149 then
+							o = I[1179 - (671 + 492)]
+							revert()
+							v149 = 1 + 0
+						end
+					end
+					break
+				end
+			end
+		end
+	end
+end
+function modX()
+	if v.x64 then
+		local v135 = 1215 - (369 + 846)
+		while true do
+			if v135 == (1 + 0) then
+				if MX == OFF then
+					arm()
+					MX = ON
+				else
+					local v220 = 0 + 0
+					while true do
+						if v220 == 1 then
+							gg.toast(v7("\112\123\88\27\54\6\72\81\24\54\84\110\81\10", "\83\38\26\52\110"))
+							MX = OFF
+							break
+						end
+						if v220 == (1945 - (1036 + 909)) then
+							o = I[17]
+							revert()
+							v220 = 1
+						end
+					end
+				end
+				break
+			end
+			if v135 == (0 + 0) then
+				o = I[27 - 10]
+				x = v7("\243\250\226\120\170\246\226\12\169", "\72\155\206\210")
+				v135 = 204 - (11 + 192)
+			end
+		end
+	end
+end
+function partsz()
+	if v.x64 then
+		local v136 = 0 + 0
+		while true do
+			if v136 == (176 - (135 + 40)) then
+				if MZ == OFF then
+					arm()
+					MZ = ON
+				else
+					local v221 = 0 - 0
+					while true do
+						if v221 == 1 then
+							gg.toast(v7("\197\238\84\195\32\22\193\234\78\211\55\66\246\235", "\54\147\143\56\182\69"))
+							MZ = OFF
+							break
+						end
+						if 0 == v221 then
+							o = I[11 + 7]
+							revert()
+							v221 = 1
+						end
+					end
+				end
+				break
+			end
+			if v136 == (0 - 0) then
+				local v208 = 0 - 0
+				while true do
+					if v208 == 1 then
+						v136 = 1
+						break
+					end
+					if v208 == 0 then
+						o = I[18]
+						x = v7("\80\71\119\22\8\79\119\98\10", "\38\56\119\71")
+						v208 = 177 - (50 + 126)
+					end
+				end
+			end
+		end
+	end
+end
+function level()
+	if v.x64 then
+		o = I[19]
+		x = v7("\222\160\175\111\143\142\167\219\27", "\191\182\225\159\41")
+		arm()
+		if LM == OFF then
+			LM = ON
+		else
+			local v150 = 0 - 0
+			while true do
+				if (1 + 0) == v150 then
+					gg.toast(v7("\29\19\36\64\142\199\240\46\4\45\71\159\130\198", "\162\75\114\72\53\235\231"))
+					LM = OFF
+					break
+				end
+				if v150 == (1413 - (1233 + 180)) then
+					o = I[988 - (522 + 447)]
+					revert()
+					v150 = 1422 - (107 + 1314)
+				end
+			end
+		end
+	end
+end
+function offset()
+	gg.getResults(gg.getResultsCount())
+	local v77 = gg.getResults(gg.getResultsCount())
+	for v99, v100 in ipairs(v77) do
+		v77[v99].address = v77[v99].address + o
+		v77[v99].flags = t
+	end
+	gg.loadResults(v77)
+	gg.getResults(gg.getResultsCount())
+end
+function fal()
+	gg.setVisible(false)
+end
+function fps()
+	local v78 = 0
+	while true do
+		if v78 == (1 + 0) then
+			fal()
+			gg.getResults(gg.getResultsCount())
+			fal()
+			v78 = 5 - 3
+		end
+		if v78 == (0 + 0) then
+			local v142 = 0 - 0
+			while true do
+				if v142 == (3 - 2) then
+					gg.searchNumber(
+						v7("\216\105\20\187\4\83\217\106\18\180\6\84", "\98\236\92\36\130\51"),
+						1942 - (716 + 1194)
+					)
+					v78 = 1 + 0
+					break
+				end
+				if v142 == (0 + 0) then
+					gg.setRanges(gg.REGION_C_DATA)
+					fal()
+					v142 = 1
+				end
+			end
+		end
+		if (507 - (74 + 429)) == v78 then
+			gg.getResults(gg.getResultsCount())
+			fal()
+			gg.clearResults()
+			v78 = 9 - 4
+		end
+		if v78 == (2 + 1) then
+			fal()
+			gg.editAll(v7("\246\73\92\234\21\248\229\96\244\73", "\80\196\121\108\218\37\200\213"), 4)
+			fal()
+			v78 = 8 - 4
+		end
+		if v78 == (4 + 1) then
+			fal()
+			gg.toast("Fps Unlocked [√]")
+			break
+		end
+		if v78 == (5 - 3) then
+			local v143 = 0 - 0
+			local v144
+			while true do
+				if v143 == 0 then
+					v144 = 433 - (279 + 154)
+					while true do
+						if v144 == (779 - (454 + 324)) then
+							offset()
+							v78 = 3 + 0
+							break
+						end
+						if v144 == 0 then
+							o = 116
+							t = 21 - (12 + 5)
+							v144 = 1 + 0
+						end
+					end
+					break
+				end
+			end
+		end
+	end
+end
+function exit()
+	local v79 = 0
+	while true do
+		if v79 == 3 then
+			return
+		end
+		if v79 == (2 - 1) then
+			gg.clearList()
+			gg.clearResults()
+			v79 = 1 + 1
+		end
+		if (1095 - (277 + 816)) == v79 then
+			gg.setVisible(true)
+			os.exit()
+			v79 = 3
+		end
+		if v79 == 0 then
+			local v145 = 0 - 0
+			while true do
+				if v145 == (1183 - (1058 + 125)) then
+					local v216 = 0 + 0
+					while true do
+						if v216 == (975 - (815 + 160)) then
+							gg.processResume()
+							gg.getListItems()
+							v216 = 1
+						end
+						if v216 == (4 - 3) then
+							v145 = 2 - 1
+							break
+						end
+					end
+				end
+				if v145 == (1 + 0) then
+					v79 = 2 - 1
+					break
+				end
+			end
+		end
+	end
+end
+function revert()
+	local v80 = 1898 - (41 + 1857)
+	while true do
+		if v80 == (1893 - (1222 + 671)) then
+			xxx = 1
+			o = o + xdatax
+			v80 = 2 - 1
+		end
+		if v80 == (1 - 0) then
+			for v151, v152 in ipairs(OG) do
+				local v153 = 0
+				while true do
+					if 0 == v153 then
+						if OG[v151].address == o then
+							xrev = nil
+							xrev = {}
+							xrev[1183 - (229 + 953)] = {}
+							xrev[2] = {}
+							xrev[1].address = OG[xxx].address
+							xrev[1].flags = 1778 - (1111 + 663)
+							xrev[1580 - (874 + 705)].value = OG[xxx].value
+							xxx = xxx + 1 + 0
+							xrev[2].address = OG[xxx].address
+							xrev[2].flags = 3 + 1
+							xrev[3 - 1].value = OG[xxx].value
+							gg.setValues(xrev)
+						end
+						xxx = xxx + 1 + 0
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+function arm()
+	o = tonumber(o)
+	xdump = nil
+	xdump = {}
+	xdump[680 - (642 + 37)] = {}
+	xdump[1 + 1] = {}
+	xdump[1].address = xdatax + o
+	xdump[1].flags = 4
+	if x == 0 then
+		xdump[1 + 0].value = xfalse
+	end
+	if x == (2 - 1) then
+		xdump[455 - (233 + 221)].value = xtrue
+	end
+	if (x ~= (0 - 0)) and (x ~= (1 + 0)) then
+		xdump[1].value = x
+	end
+	xdump[1543 - (718 + 823)].address = xdatax + o + 3 + 1
+	xdump[807 - (266 + 539)].flags = 4
+	xdump[5 - 3].value = xEND
+	gg.setValues(xdump)
+end
+if v.x64 then
+	xtrue = v7("\8\33\82\47\27\86\218\36\33", "\234\96\19\98\31\43\110")
+	xfalse = v7("\14\79\2\151\252\42\219\34\77", "\235\102\127\50\167\204\18")
+	xEND = v7("\88\130\165\115\23\123\118\133\163", "\78\48\193\149\67\36")
+end
+if xatrue == (1226 - (636 + 589)) then
+	xdatax = gg.getRangesList(LIBX)[liby].start
+end
+if xatrue == (2 - 1) then
+	local v104 = 0 - 0
+	local v105
+	while true do
+		if v104 == 0 then
+			v105 = 0 + 0
+			while true do
+				if v105 == 0 then
+					local v223 = 0 + 0
+					while true do
+						if v223 == 0 then
+							OG = {}
+							xxx = 1
+							v223 = 1
+						end
+						if v223 == (1016 - (657 + 358)) then
+							v105 = 1
+							break
+						end
+					end
+				end
+				if v105 == (4 - 2) then
+					xxx = nil
+					OGV = nil
+					break
+				end
+				if v105 == (2 - 1) then
+					local v224 = 1187 - (1151 + 36)
+					local v225
+					while true do
+						if 0 == v224 then
+							v225 = 0 + 0
+							while true do
+								if v225 == (1 + 0) then
+									v105 = 2
+									break
+								end
+								if v225 == 0 then
+									OGV = {}
+									for v284, v285 in ipairs(I) do
+										local v286 = 0
+										while true do
+											if v286 == (5 - 3) then
+												local v289 = 0
+												while true do
+													if v289 == (1833 - (1552 + 280)) then
+														OG[xxx].address = xdatax
+															+ tonumber(I[v284])
+															+ (838 - (64 + 770))
+														v286 = 3 + 0
+														break
+													end
+													if v289 == 0 then
+														xxx = xxx + 1
+														OG[xxx] = {}
+														v289 = 2 - 1
+													end
+												end
+											end
+											if v286 == 0 then
+												OG[xxx] = {}
+												OG[xxx].address = xdatax + tonumber(I[v284])
+												OG[xxx].flags = 1 + 3
+												v286 = 1
+											end
+											if v286 == 4 then
+												OG[xxx].value = OGV[xxx].value
+												xxx = xxx + (1244 - (157 + 1086))
+												break
+											end
+											if v286 == 1 then
+												OGV = nil
+												OGV = gg.getValues(OG)
+												OG[xxx].value = OGV[xxx].value
+												v286 = 3 - 1
+											end
+											if v286 == (13 - 10) then
+												local v297 = 0 - 0
+												while true do
+													if v297 == (0 - 0) then
+														OG[xxx].flags = 823 - (599 + 220)
+														OGV = nil
+														v297 = 1 - 0
+													end
+													if (1932 - (1813 + 118)) == v297 then
+														OGV = gg.getValues(OG)
+														v286 = 3 + 1
+														break
+													end
+												end
+											end
+										end
+									end
+									v225 = 1218 - (841 + 376)
+								end
+							end
+							break
+						end
+					end
+				end
+			end
+			break
+		end
+	end
+end
+while true do
+	local v88 = 0 - 0
+	while true do
+		if 0 == v88 then
+			if gg.isVisible() then
+				local v209 = 0
+				while true do
+					if v209 == (0 + 0) then
+						z = 2 - 1
+						gg.setVisible(false)
+						break
+					end
+				end
+			end
+			if z == (860 - (464 + 395)) then
+				local v210 = 0
+				while true do
+					if v210 == 0 then
+						gg.sleep(0 - 0)
+						v18()
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end

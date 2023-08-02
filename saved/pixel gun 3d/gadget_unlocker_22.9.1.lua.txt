@@ -1,0 +1,10 @@
+gg.setRanges(gg.REGION_CODE_APP)
+gg.searchNumber(
+	"h F4 0F 1E F8 F3 7B 01 A9 74 F8 01 B0 88 8E 46 39 F3 03 00 AA 88 01 00 37 20 D7 01 D0 00 6C 43 F9",
+	gg.TYPE_BYTE
+)
+gg.getResults(100)
+gg.editAll(
+	"h 20 00 80 52 C0 03 5F D6 74 F8 01 B0 88 8E 46 39 F3 03 00 AA 88 01 00 37 20 D7 01 D0 00 6C 43 F9",
+	gg.TYPE_BYTE
+)

@@ -1,0 +1,117 @@
+function Main0()
+	SN = gg.choice({
+		"Activate the menu",
+	}, nil, "")
+	if SN == 1 then
+		Main1()
+	end
+	FX1 = 0
+end
+
+function Main1()
+	SN = gg.choice({
+		"Godmode",
+		"Vip",
+		"Ammo",
+		"Damage",
+		"Disable kill Barriers",
+		"Disable client kicking",
+	}, nil, "Dude imagine spending money to win lmao")
+	if SN == 1 then
+		HS4()
+	end
+	if SN == 2 then
+		HS8()
+	end
+	if SN == 3 then
+		HS9()
+	end
+	if SN == 4 then
+		HS10()
+	end
+	if SN == 5 then
+		HS11()
+	end
+	if SN == 6 then
+		HS12()
+	end
+	FX1 = 0
+end
+
+function HS4()
+	gg.clearResults()
+	gg.setRanges(16384)
+	gg.searchNumber(
+		"hFF 43 03 D1 EF 3B 03 6D ED 33 04 6D EB 2B 05 6D E9 23 06 6D",
+		gg.TYPE_BYTE,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("h20 00 80 D2 C0 03 5F D6 ED 33 04 6D EB 2B 05 6D E9 23 06 6D", gg.TYPE_BYTE)
+	gg.toast("Godmode enabled!")
+	gg.clearResults()
+end
+
+function HS8()
+	gg.clearResults()
+	gg.setRanges(16384)
+	gg.searchNumber("hFD 7B BF A9 FD 03 00 91 12 FF FF 97 1F 00 00 71", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("h20 00 80 D2 C0 03 5F D6 12 FF FF 97 1F 00 00 71", gg.TYPE_BYTE)
+	gg.toast("")
+	gg.clearResults()
+end
+
+function HS9()
+	gg.clearResults()
+	gg.setRanges(16384)
+	gg.searchNumber("h00 70 00 91 E1 03 1F AA 92 D7 10 14 FF C3 00 D1", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("", gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("h00 71 82 D2 C0 03 5F D6 92 D7 10 14 FF C3 00 D1", gg.TYPE_BYTE)
+	gg.toast("")
+	gg.clearResults()
+end
+
+function HS10()
+	gg.clearResults()
+	gg.setRanges(16384)
+	gg.searchNumber("0.050", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10000)
+	gg.editAll("0.500", gg.TYPE_FLOAT)
+	gg.toast("")
+	gg.clearResults()
+end
+
+function HS11()
+	gg.clearResults()
+	gg.setRanges(16384)
+	gg.searchNumber("hFF 83 01 D1 EA 0B 00 FD E9 23 02 6D F6 57 03 A9", gg.TYPE_BYTE)
+	gg.getResults(9999)
+	gg.editAll("h00 00 80 D2 C0 03 5F D6 E9 23 02 6D F6 57 03 A9", gg.TYPE_BYTE)
+	gg.clearResults()
+end
+
+function HS12()
+	gg.alert("you have to enable before a match and then once you join, revert it")
+	gg.setRanges(16384)
+	gg.searchNumber("hFC 6F BA A9 FA 67 01 A9 F8 5F 02 A9 F6 57 03 A9", gg.TYPE_BYTE)
+	gg.getResults(9999)
+	gg.editAll("h00 00 80 D2 C0 03 5F D6 F8 5F 02 A9 F6 57 03 A9", gg.TYPE_BYTE)
+end
+
+while true do
+	if gg.isVisible(true) then
+		FX1 = nil
+		gg.setVisible(false)
+	end
+	if FX1 == nil then
+		Main0()
+	end
+end

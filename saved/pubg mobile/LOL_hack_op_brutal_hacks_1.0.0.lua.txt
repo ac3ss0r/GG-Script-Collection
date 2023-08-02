@@ -1,0 +1,456 @@
+--Created By Lua Library Tool
+--Lua Library Tool By CyraX Gaming
+
+gg.alert("WELCOME TO LOL HACK brutal script") --Alert Massage
+gg.toast(
+	"LOL HACK COMMUNITY WILL NOT BE RESPONSIBLE FOR ANY BAN CAUSED BY OUR CHEAT SCRIPT THAT WE MADE . USE A GOOD BYPASS"
+) --Toast Massage
+gg.setVisible(true)
+LuaLibrary = -1
+function HOME()
+	MENU = gg.multiChoice({
+		"1🚗Speed all cars", --multiChoice
+		"2➰magic bullet", --multiChoice
+		"3🔰No recoil🔰", --multiChoice
+		"4🔫Fast reload all gun", --multiChoice
+		"5🔱Clear logs (GL)", --multichoice
+		"6🔱clear logs(Kr)", --multichoice
+		"7🔱clear logs(VN)", --multichoice
+		"8📶 Antenna (Lobby)", --multichoice
+		"9🎦wide view(Game)", --multichoice
+		"10🚮Remove report", --multichoice
+		"11⏏️Drone view(High)", --multichoice
+		"12⏫High jump", --multichoice
+		"13⏭️Long jump", --multichoice
+		"14🏢 invisible building", --multichoice
+		"15🛑Hide foot steps", --multichoice
+		"📛EXIT📛", --EndScript
+	}, nil, "LOL HACK BRUTAL SCRIPT( USE GOOD BYPASS) no data on ,off📶")
+	if MENU == nil then
+	else
+		if MENU[1] == true then --multiChoice
+			MENU1()
+		end
+		if MENU[2] == true then --multiChoice
+			MENU2()
+		end
+		if MENU[3] == true then --multiChoice
+			MENU3()
+		end
+		if MENU[4] == true then --multiChoice
+			MENU4()
+		end
+		if MENU[5] == true then --multiChoice
+			MENU5()
+		end
+		if MENU[6] == true then --multiChoice
+			MENU6()
+		end
+		if MENU[7] == true then --multiChoice
+			MENU7()
+		end
+		if MENU[8] == true then --multiChoice
+			MENU8()
+		end
+		if MENU[9] == true then --multiChoice
+			MENU9()
+		end
+		if MENU[10] == true then --multiChoice
+			MENU10()
+		end
+		if MENU[11] == true then --multiChoice
+			MENU11()
+		end
+		if MENU[12] == true then --multiChoice
+			MENU12()
+		end
+		if MENU[13] == true then --multiChoice
+			MENU13()
+		end
+		if MENU[14] == true then --multiChoice
+			MENU14()
+		end
+		if MENU[15] == true then --multiChoice
+			MENU15()
+		end
+		if MENU[16] == true then --EndScript
+			LOBBY()
+		end
+	end
+	LuaLibraryTool = -1
+end
+
+function MENU1() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Speed All Car Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1000;10;4D;4D;50;5;2;0.01::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(280)
+	gg.editAll("-0.23", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("speed all car executed")
+end
+
+function MENU2() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Magic Bullet Ultra v2 99% Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1F;-8.6457681e12F;15F;28F;16F;26F;8F;18F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("15.0F;28.0F;16.0F;26.0F;8.0F;18.0F:512", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("95", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("magic bullet Executed,use safely very powerful magic")
+end
+
+function MENU3() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Remove Recoil Ultra v2 99% (No Recoil) Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(800)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("No recoil executed")
+end
+
+function MENU4() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Fast Reload All Guns Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber(
+		"-2.02910614e20;-9.3991982e20;-7.16031585e24;1.98768461e-36;-1.30928164e25:17",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-2.02910614e20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6281913639784)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Fast reload executed")
+end
+
+function MENU5() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Clear Logs GL _ Use Any Time
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/tbslog")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json")
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache")
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.13.0.11098_20190617165748_1981158817_cures.ifs.res"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir"
+	)
+	os.remove("/data/data/com.tencent.ig/app_appcache")
+	os.remove("/data/data/com.tencent.ig/app_bugly")
+	os.remove("/data/data/com.tencent.ig/app_crashrecord")
+	os.remove("/data/data/com.tencent.ig/cache")
+	os.remove("/data/data/com.tencent.ig/code_cache")
+end
+
+function MENU6() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Clear Logs KR _ Use Any Time
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache")
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/tbslog")
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/ca-bundle.pem")
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/cacheFile.txt")
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/login-identifier.txt")
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/vmpcloudconfig.json")
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/files/ProgramBinaryCache")
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.13.0.11098_20190617165748_1981158817_cures.ifs.res"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir"
+	)
+	os.remove("/data/data/com.pubg.krmobile/app_appcache")
+	os.remove("/data/data/com.pubg.krmobile/app_bugly")
+	os.remove("/data/data/com.pubg.krmobile/app_crashrecord")
+	os.remove("/data/data/com.pubg.krmobile/cache")
+	os.remove("/data/data/com.pubg.krmobile/code_cache")
+end
+
+function MENU7() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Clear Logs VN _ Use Any Time
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache")
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/tbslog")
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/ca-bundle.pem")
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/cacheFile.txt")
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/login-identifier.txt")
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/vmpcloudconfig.json")
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/files/ProgramBinaryCache")
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_temp"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.13.0.11098_20190617165748_1981158817_cures.ifs.res"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora"
+	)
+	os.remove(
+		"/storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir"
+	)
+	os.remove("/data/data/com.vng.pubgmobile/app_appcache")
+	os.remove("/data/data/com.vng.pubgmobile/app_bugly")
+	os.remove("/data/data/com.vng.pubgmobile/app_crashrecord")
+	os.remove("/data/data/com.vng.pubgmobile/cache")
+	os.remove("/data/data/com.vng.pubgmobile/code_cache")
+end
+
+function MENU8() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Antenna Long Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"88.50576019287F;87.27782440186F;-100.91194152832F;1F::13",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6)
+	gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"88.50576019287F;87.27782440186F;-100.91194152832F;1F::13",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("88.50576019287F;87.27782440186F;1F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6)
+	gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Antenna executed")
+end
+
+function MENU9() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Wide View Game
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("220;178;15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("438", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("wide view executed")
+end
+
+function MENU10() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Remove Reports in match
+	gg.clearResults()
+	gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("257;2131;0F~99999F;0::50", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResultCount()
+	gg.searchNumber("0F~99999F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("0", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("reports removed by LOL HACK OP, ENJOY")
+end
+
+function MENU11() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Drone View 6x High Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.clearResults()
+	gg.searchNumber("220;178;15 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("220", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1200", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("DRONE VIEW EXECUTED BY LOL HACK OP")
+end
+
+function MENU12() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Super High Jump Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("3", gg.TYPE_FLOAT)
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3;35;443;55;0.57357645035", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("443", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(500)
+	gg.editAll("2500", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("High jump executed")
+end
+
+function MENU13() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Super Long Jump Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber(
+		"-2.83335944e28;-5.73426691e27;-1.99678278e28;-1.32431779e28;-5.80435509e27;-5.84545857e27:21",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("-2.83335944e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6281913639784)
+	gg.editAll("-2.83335992e28", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Long jump executed")
+end
+
+function MENU14() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Invisible Buildings Game
+	gg.clearResults(6281913639784)
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.searchNumber("-2,097,152.5;-2.80825912e28:39784", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.refineAddress("D98", -1, gg.TYPE_FLOAT, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(6281913639784)
+	gg.editAll("2.80825912e28;2.80825912e28;6281913639784;6281913639784", gg.TYPE_FLOAT)
+	gg.clearResults(6281913639784)
+	gg.toast("invisible building executed")
+end
+
+function MENU15() --multiChoice
+	--Input Values--
+	--Code by CyraX Gaming
+	--Hide Foot Steps v2 Game
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.setVisible(false)
+	gg.searchNumber("2D;256D;256D;0.96666663885117;256D", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.setVisible(false)
+	gg.searchNumber("0.96666663885117", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("999.9949", gg.TYPE_FLOAT)
+	gg.toast("Hided footsteps")
+end
+
+function LOBBY() --End Script
+	gg.alert("thanks for using our script") --Alert Massage
+	gg.toast(
+		"LOL HACK COMMUNITY WILL NOT BE RESPONSIBLE FOR ANY BAN CAUSED BY OUR CHEAT SCRIPT THAT WE MADE . USE A GOOD BYPASS"
+	) --Toast Massage
+	print("Created By stârlegit")
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		LuaLibraryTool = 1
+		gg.setVisible(false)
+	end
+	if LuaLibraryTool == 1 then
+		HOME()
+	end
+end
+
+--Created By Lua Library Tool
+--Lua Library Tool By CyraX Gaming

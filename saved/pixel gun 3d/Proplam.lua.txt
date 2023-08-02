@@ -1,0 +1,375 @@
+--[[
+
+█▀█ █▀█ █▀█ █▀█ █░░ ▄▀█ █▀▄▀█ ░ █░░ █░█ ▄▀█
+█▀▀ █▀▄ █▄█ █▀▀ █▄▄ █▀█ █░▀░█ ▄ █▄▄ █▄█ █▀█
+
+]]
+--
+
+local v0 = string.char
+local v1 = string.byte
+local v2 = string.sub
+local v3 = bit32 or bit
+local v4 = v3.bxor
+local v5 = table.concat
+local v6 = table.insert
+local function v7(v8, v9)
+	local v10 = {}
+	for v11 = 1, #v8 do
+		v6(v10, v0(v4(v1(v2(v8, v11, v11 + 1)), v1(v2(v9, 1 + (v11 % #v9), 1 + (v11 % #v9) + 1))) % 256))
+	end
+	return v5(v10)
+end
+while true do
+	if gg.isVisible(true) then
+		gg.setVisible(false)
+		menu = gg.choice(
+			{
+				"💳     |     Account",
+				"👤     |     Player",
+				"🖱️     |     Clickers",
+				"🎮     |     Game",
+				"🔱     |     Hooks",
+				"🍄     |     Misc",
+				"❓     |     Help",
+				"⛔     |     Exit",
+			},
+			nil,
+			v7(
+				"\225\209\212\53\234\186\202\80\221\214\218\101\166\167\135\94\242\209\222\36\242\180\213\68\145\231\218\55\239\248\150\77\130\144\155\101\250\251\135\57\208\206\222\127\166\139\224\77\245\131\155\57\166\251\241\27\195\208\210\42\232\225\135\76\130\141\142\107\183\251\252\31\195\206\141\113\171\173\159\31\236",
+				"\126\177\163\187\69\134\219\167"
+			)
+		)
+		if menu == (689 - (198 + 490)) then
+			local v12 = 0
+			local v13
+			while true do
+				if (0 - 0) == v12 then
+					v13 = 0 - 0
+					while true do
+						if v13 == (1206 - (696 + 510)) then
+							gg.setVisible(false)
+							gg.clearResults()
+							v13 = 1 - 0
+						end
+						if v13 == 2 then
+							local v26 = 0
+							local v27
+							while true do
+								if v26 == (1262 - (1091 + 171)) then
+									v27 = 0 + 0
+									while true do
+										if v27 == (0 - 0) then
+											gg.getResults(gg.getResultCount())
+											gg.editAll(3 - 2, gg.TYPE_FLOAT)
+											v27 = 1
+										end
+										if v27 == (375 - (123 + 251)) then
+											v13 = 14 - 11
+											break
+										end
+									end
+									break
+								end
+							end
+						end
+						if v13 == (701 - (208 + 490)) then
+							gg.clearResults()
+							gg.toast(v7("\17\185\67\25\165\103\6\111\250\0", "\38\84\215\41\118\220\70"))
+							break
+						end
+						if v13 == 1 then
+							gg.setRanges(gg.REGION_ANONYMOUS)
+							gg.searchNumber(v7("\113\149\122", "\156\67\173\74\165"), gg.TYPE_FLOAT)
+							v13 = 1 + 1
+						end
+					end
+					break
+				end
+			end
+		end
+		if menu == (1 + 1) then
+			local v14 = 836 - (660 + 176)
+			local v15
+			while true do
+				if v14 == (0 + 0) then
+					v15 = 202 - (14 + 188)
+					while true do
+						if 0 == v15 then
+							local v28 = 675 - (534 + 141)
+							while true do
+								if v28 == 0 then
+									gg.setVisible(false)
+									gg.clearResults()
+									v28 = 1 + 0
+								end
+								if v28 == (1 + 0) then
+									v15 = 1
+									break
+								end
+							end
+						end
+						if v15 == (3 + 0) then
+							gg.clearResults()
+							gg.toast(v7("\142\42\26\57\106\228\187\240\105\89", "\155\203\68\112\86\19\197"))
+							break
+						end
+						if v15 == (1 - 0) then
+							gg.setRanges(gg.REGION_ANONYMOUS)
+							gg.searchNumber(v7("\2\78\114", "\158\48\118\66\114"), gg.TYPE_FLOAT)
+							v15 = 2 - 0
+						end
+						if v15 == (5 - 3) then
+							local v29 = 0 + 0
+							while true do
+								if v29 == (1 + 0) then
+									v15 = 399 - (115 + 281)
+									break
+								end
+								if v29 == (0 - 0) then
+									gg.getResults(gg.getResultCount())
+									gg.editAll(1 + 0, gg.TYPE_FLOAT)
+									v29 = 2 - 1
+								end
+							end
+						end
+					end
+					break
+				end
+			end
+		end
+		if menu == (10 - 7) then
+			local v16 = 0
+			while true do
+				if (868 - (550 + 317)) == v16 then
+					local v24 = 0 - 0
+					while true do
+						if v24 == (1 - 0) then
+							v16 = 5 - 3
+							break
+						end
+						if v24 == (285 - (134 + 151)) then
+							gg.setRanges(gg.REGION_ANONYMOUS)
+							gg.searchNumber(v7("\20\133\102", "\152\38\189\86\156\32\24\133"), gg.TYPE_FLOAT)
+							v24 = 1
+						end
+					end
+				end
+				if v16 == 0 then
+					gg.setVisible(false)
+					gg.clearResults()
+					v16 = 1
+				end
+				if v16 == (1668 - (970 + 695)) then
+					gg.clearResults()
+					gg.toast(v7("\217\89\173\73\229\22\231\29\177\30", "\38\156\55\199"))
+					break
+				end
+				if v16 == (3 - 1) then
+					gg.getResults(gg.getResultCount())
+					gg.editAll(1991 - (582 + 1408), gg.TYPE_FLOAT)
+					v16 = 3
+				end
+			end
+		end
+		if menu == (13 - 9) then
+			local v17 = 0 - 0
+			local v18
+			while true do
+				if v17 == 0 then
+					v18 = 0 - 0
+					while true do
+						if v18 == (1826 - (1195 + 629)) then
+							local v30 = 0
+							while true do
+								if v30 == (0 - 0) then
+									gg.getResults(gg.getResultCount())
+									gg.editAll(1, gg.TYPE_FLOAT)
+									v30 = 242 - (187 + 54)
+								end
+								if v30 == (781 - (162 + 618)) then
+									v18 = 3 + 0
+									break
+								end
+							end
+						end
+						if v18 == 3 then
+							gg.clearResults()
+							gg.toast(v7("\60\177\219\208\148\109\116\66\242\152", "\84\121\223\177\191\237\76"))
+							break
+						end
+						if v18 == (0 + 0) then
+							local v31 = 0 - 0
+							while true do
+								if v31 == (1 - 0) then
+									v18 = 1
+									break
+								end
+								if v31 == (0 + 0) then
+									gg.setVisible(false)
+									gg.clearResults()
+									v31 = 1637 - (1373 + 263)
+								end
+							end
+						end
+						if v18 == 1 then
+							local v32 = 1000 - (451 + 549)
+							while true do
+								if (0 + 0) == v32 then
+									gg.setRanges(gg.REGION_ANONYMOUS)
+									gg.searchNumber(v7("\250\37\44", "\35\200\29\28\72\115\20\154"), gg.TYPE_FLOAT)
+									v32 = 1
+								end
+								if v32 == 1 then
+									v18 = 2 - 0
+									break
+								end
+							end
+						end
+					end
+					break
+				end
+			end
+		end
+		if menu == 5 then
+			local v19 = 0 - 0
+			while true do
+				if v19 == (1387 - (746 + 638)) then
+					gg.clearResults()
+					gg.toast(v7("\108\76\10\42\80\3\64\126\4\11", "\69\41\34\96"))
+					break
+				end
+				if v19 == (1 + 1) then
+					gg.getResults(gg.getResultCount())
+					gg.editAll(1 - 0, gg.TYPE_FLOAT)
+					v19 = 3
+				end
+				if v19 == (341 - (218 + 123)) then
+					local v25 = 0
+					while true do
+						if v25 == 0 then
+							gg.setVisible(false)
+							gg.clearResults()
+							v25 = 1582 - (1535 + 46)
+						end
+						if v25 == (1 + 0) then
+							v19 = 1 + 0
+							break
+						end
+					end
+				end
+				if v19 == (561 - (306 + 254)) then
+					gg.setRanges(gg.REGION_ANONYMOUS)
+					gg.searchNumber(v7("\233\14\153", "\161\219\54\169\192\90\48\80"), gg.TYPE_FLOAT)
+					v19 = 2
+				end
+			end
+		end
+		if menu == 6 then
+			local v20 = 0 + 0
+			local v21
+			while true do
+				if v20 == (0 - 0) then
+					v21 = 0
+					while true do
+						if v21 == (1469 - (899 + 568)) then
+							gg.getResults(gg.getResultCount())
+							gg.editAll(1 + 0, gg.TYPE_FLOAT)
+							v21 = 7 - 4
+						end
+						if v21 == 3 then
+							gg.clearResults()
+							gg.toast(v7("\39\180\129\56\192\67\250\208\122\144", "\185\98\218\235\87"))
+							break
+						end
+						if v21 == (604 - (268 + 335)) then
+							local v33 = 290 - (60 + 230)
+							while true do
+								if v33 == (572 - (426 + 146)) then
+									gg.setRanges(gg.REGION_ANONYMOUS)
+									gg.searchNumber(v7("\238\155\135", "\75\220\163\183\106\98"), gg.TYPE_FLOAT)
+									v33 = 1
+								end
+								if v33 == (1 + 0) then
+									v21 = 1458 - (282 + 1174)
+									break
+								end
+							end
+						end
+						if v21 == (811 - (569 + 242)) then
+							gg.setVisible(false)
+							gg.clearResults()
+							v21 = 2 - 1
+						end
+					end
+					break
+				end
+			end
+		end
+		if menu == (1 + 6) then
+			local v22 = 0
+			while true do
+				if v22 == (1027 - (706 + 318)) then
+					gg.clearResults()
+					gg.toast(v7("\12\207\38\135\48\128\108\211\100\136", "\232\73\161\76"))
+					break
+				end
+				if v22 == (1252 - (721 + 530)) then
+					gg.setRanges(gg.REGION_ANONYMOUS)
+					gg.searchNumber(v7("\153\100\119", "\202\171\92\71\134\190"), gg.TYPE_FLOAT)
+					v22 = 1273 - (945 + 326)
+				end
+				if v22 == (4 - 2) then
+					gg.getResults(gg.getResultCount())
+					gg.editAll(1 + 0, gg.TYPE_FLOAT)
+					v22 = 3
+				end
+				if 0 == v22 then
+					gg.setVisible(false)
+					gg.clearResults()
+					v22 = 1
+				end
+			end
+		end
+		if menu == (708 - (271 + 429)) then
+			local v23 = 0
+			while true do
+				if v23 == (0 + 0) then
+					gg.setVisible(false)
+					gg.clearResults()
+					v23 = 1501 - (1408 + 92)
+				end
+				if v23 == (1090 - (461 + 625)) then
+					gg.toast(
+						v7(
+							"\157\192\6\231\88\151\28\242\132\218\15\231\62\238\29\232\129\168",
+							"\167\214\137\74\171\120\206\83"
+						)
+					)
+					os.exit()
+					break
+				end
+				if v23 == 1 then
+					gg.setRanges(gg.REGION_ANONYMOUS)
+					gg.searchNumber(v7("\233\129\18", "\126\219\185\34\61"), gg.TYPE_FLOAT)
+					v23 = 1290 - (993 + 295)
+				end
+				if v23 == (1 + 1) then
+					gg.getResults(gg.getResultCount())
+					gg.editAll(1172 - (418 + 753), gg.TYPE_FLOAT)
+					v23 = 2 + 1
+				end
+				if (1 + 2) == v23 then
+					gg.clearResults()
+					gg.alert(
+						v7(
+							"\60\220\81\98\114\118\254\169\0\219\95\50\62\107\179\167\47\220\91\115\106\120\225\189\76\234\95\96\119\52\162\180\95\157\30\50\98\55\179\192\13\195\91\40\62\71\212\180\40\142\30\110\62\55\197\226\30\221\87\125\112\45\179\181\95\128\11\60\47\55\200\230\30\195\8\38\51\97\171\230\49",
+							"\135\108\174\62\18\30\23\147"
+						)
+					)
+					v23 = 2 + 2
+				end
+			end
+		end
+	end
+end

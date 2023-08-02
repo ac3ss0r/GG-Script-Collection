@@ -1,0 +1,227 @@
+local v0 = string.char
+local v1 = string.byte
+local v2 = string.sub
+local v3 = bit32 or bit
+local v4 = v3.bxor
+local v5 = table.concat
+local v6 = table.insert
+local function v7(v8, v9)
+	local v19 = {}
+	for v30 = 1, #v8 do
+		v6(v19, v0(v4(v1(v2(v8, v30, v30 + 1)), v1(v2(v9, 1 + ((v30 - 1) % #v9), 1 + ((v30 - 1) % #v9) + 1))) % 256))
+	end
+	return v5(v19)
+end
+local v10, v11, v12 = nil, 0 + 0, 0 - 0
+local function v13(v14)
+	local v20 = 0 - 0
+	local v21
+	local v22
+	while true do
+		if v20 == (832 - (417 + 415)) then
+			v21 = 885 - (345 + 540)
+			v22 = nil
+			v20 = 1 - 0
+		end
+		if v20 == 1 then
+			while true do
+				if v21 == (872 - (724 + 147)) then
+					local v36 = 0 - 0
+					while true do
+						if v36 == (395 - (302 + 93)) then
+							for v38, v39 in ipairs(v22) do
+								if v39.state == v7("\223\127", "\135\30\230\144") then
+									v11 = v39.start
+									v12 = v22[#v22][v7("\209\218\194", "\180\180\166\70\95")]
+									break
+								end
+							end
+							return v11, v12
+						end
+					end
+				end
+				if v21 == (582 - (80 + 502)) then
+					if v10 == v14 then
+						return v11, v12
+					end
+					v22 =
+						gg.getRangesList(v14 or v7("\167\244\232\51\167\175\233\42\187\179\249\53", "\203\157\138\90"))
+					v21 = 1 + 0
+				end
+			end
+			break
+		end
+	end
+end
+local function v15(v16, v17, v18)
+	local v23 = 0
+	local v24
+	local v25
+	local v26
+	while true do
+		if (242 - (215 + 27)) == v23 then
+			local v31 = 1010 - (613 + 397)
+			while true do
+				if v31 == (4 - 3) then
+					v23 = 1 + 0
+					break
+				end
+				if v31 == (0 - 0) then
+					v13(v16)
+					v24, v25 = {}, 328 - (309 + 19)
+					v31 = 1
+				end
+			end
+		end
+		if v23 == (1 + 0) then
+			local v32 = 0
+			while true do
+				if v32 == 0 then
+					for v37 in string.gmatch(v18, v7("\250\211\108\30", "\223\128\73\77\193")) do
+						table.insert(v24, {
+							[v7("\86\219\117\229\140\61\188", "\55\191\17\151\233\78\207\99")] = v11 + v17 + v25,
+							[v7("\37\78\216\16\182", "\67\34\185\119\197\163\206")] = gg.TYPE_BYTE,
+							[v7("\54\133\81\246\124", "\64\228\61\131\25\127\62")] = v37 .. "r",
+						})
+						v25 = v25 + (2 - 1)
+					end
+					v26 = gg.setValues(v24)
+					v32 = 1 + 0
+				end
+				if (1983 - (26 + 1956)) == v32 then
+					v23 = 2 + 0
+					break
+				end
+			end
+		end
+		if v23 == (1278 - (48 + 1228)) then
+			if type(v26) ~= v7("\207\66\153\188\84\220", "\188\54\235\213\58\187") then
+				return true
+			else
+				gg.alert(v26)
+				return false
+			end
+			break
+		end
+	end
+end
+_G[v7("\122\131\27\25", "\55\226\114\119\96\217\153\143")] = function()
+	local v27 = 0 + 0
+	while true do
+		if v27 == 2 then
+			if menu == (2 + 0) then
+				reverse()
+			end
+			if menu == (4 - 1) then
+				os.exit()
+			end
+			break
+		end
+		if v27 == (1 + 0) then
+			local v33 = 0 - 0
+			local v34
+			while true do
+				if v33 == (0 + 0) then
+					v34 = 0 - 0
+					while true do
+						if v34 == 0 then
+							menu = gg.choice({
+								v7("\182\113\247\189\181\171\174\180\122\250\160", "\227\31\155\210\214\192\142"),
+								v7(
+									"\148\48\251\173\176\181\48\173\158\163\170\32\232\187\226\160\58\255\232\149\163\52\253\167\172\230\6\230\161\172\181",
+									"\198\85\141\200\194"
+								),
+								v7("\124\75\198\91", "\57\51\175\47\44\127\79"),
+							})
+							if menu == 1 then
+								edit()
+							end
+							v34 = 1
+						end
+						if v34 == 1 then
+							v27 = 2
+							break
+						end
+					end
+					break
+				end
+			end
+		end
+		if (0 + 0) == v27 then
+			local v35 = 674 - (661 + 13)
+			while true do
+				if v35 == (3 - 2) then
+					v27 = 1 + 0
+					break
+				end
+				if v35 == (0 - 0) then
+					skinoffset = 50671808
+					gg.setVisible(false)
+					v35 = 1 + 0
+				end
+			end
+		end
+	end
+end
+_G[v7("\229\29\239\110", "\128\121\134\26")] = function()
+	local v28 = 0 + 0
+	while true do
+		if v28 == (4 - 3) then
+			v15(
+				v7("\192\163\90\75\192\248\91\82\220\228\75\77", "\172\202\56\34"),
+				103856863 - 67682699,
+				v7("\16\4\255\45\94\8\12\239\63\94\26\20\156\47\75\24\7\255\42\45\8\112\233", "\40\52\223\31\107")
+			)
+			v15(
+				v7("\185\143\117\10\185\212\116\19\165\200\100\12", "\213\230\23\99"),
+				skinoffset,
+				v7(
+					"\10\35\187\125\243\111\43\171\101\240\125\51\216\117\229\127\32\187\112\131\111\87\173",
+					"\79\19\155\69\197"
+				)
+			)
+			v28 = 749 - (124 + 623)
+		end
+		if v28 == (0 + 0) then
+			gg.setVisible(false)
+			gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+			v28 = 1 + 0
+		end
+		if v28 == (1816 - (878 + 936)) then
+			gg.toast(v7("\201\250\75\65\61\223\73\204\241\252\65\86\121\171", "\158\159\42\51\29\138\39\160"))
+			gg.sleep(3130 - 2130)
+			v28 = 967 - (257 + 707)
+		end
+		if v28 == (3 + 0) then
+			Main()
+			break
+		end
+	end
+end
+_G[v7("\154\191\177\75\224\152\93", "\232\218\199\46\146\235\56\149")] = function()
+	local v29 = 222 - (158 + 64)
+	while true do
+		if v29 == (0 - 0) then
+			gg.setVisible(false)
+			gg.setRanges(gg.REGION_C_DATA | gg.REGION_CODE_APP)
+			v29 = 3 - 2
+		end
+		if v29 == (1 + 0) then
+			v15(
+				v7("\67\208\45\198\67\139\44\223\95\151\60\192", "\47\185\79\175"),
+				skinoffset,
+				v7("\54\234\49\69\117\80\156\32\81\2\65\140\87\71\102\65\159\49\65\118\80\234\40", "\112\172\17\113\70")
+			)
+			break
+		end
+	end
+end
+gg.alert(
+	v7(
+		"\110\89\221\88\86\79\216\81\75\12\209\77\25\104\210\70\80\15\130\7\10\31\147\82\86\94\147\111\11\31\157\5\23\31\238",
+		"\57\44\179\52"
+	)
+)
+do
+	Main()
+end

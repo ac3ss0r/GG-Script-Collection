@@ -1,0 +1,4 @@
+gg.alert("get fucked skid")
+gg.searchNumber(280, gg.TYPE_FLOAT)
+gg.getResults(1000)
+gg.editAll(1)

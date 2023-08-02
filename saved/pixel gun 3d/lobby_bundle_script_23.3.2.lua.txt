@@ -1,0 +1,17 @@
+B = gg.TYPE_BYTE
+gg.alert("Create At 2023/6/2")
+gg.searchNumber("hF7 5B BD A9 F5 53 01 A9 F3 7B 02 A9 34 CF 01 B0 88 FE 48 39 F3 03 00 AA E8 01 00 37 80 AA 01 F0" , B)
+gg.getResults(8)
+gg.editAll("h00008052C0035FD6" , B)
+
+gg.searchNumber("h FE 0F 1F F8 E1 00 00 B4 28 30 40 F9 01 10 40 F9 E2 03 1F AA E0 03 08 AA FE 07 41 F8 9B 8A 42 14" , B/
+gg.getResults(8)
+gg.editAll("h00008052C0035FD6" , B)
+
+gg.searchNumber("h FE 0F 1F F8 E1 00 00 B4 28 30 40 F9 01 10 40 F9 E2 03 1F AA E0 03 08 AA FE 07 41 F8 92 8A /42 14" , B)
+gg.getResults(8)
+gg.editAll("h20008052C0035FD6", B)
+
+gg.alert("done check the bundle ✅")
+gg.clearResults()
+end

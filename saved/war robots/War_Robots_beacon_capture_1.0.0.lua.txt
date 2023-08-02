@@ -1,0 +1,36 @@
+function beaconCaptureAndLock()
+	local offset = nil
+
+	local revert = gg.prompt({ "Offset" }, { "0x" })
+
+	if revert ~= nil and revert[1] ~= nil then
+		offset = tonumber(revert[1])
+	end
+
+	revert = gg.getRangesList("libil2cpp.so")
+
+	local libstart = nil
+
+	local i = 1
+	repeat
+		if revert[i].state == "Xa" then
+			libstart = revert[i].start
+		else
+			i = i + 1
+		end
+	until libstart ~= nil
+
+	revert = libstart + offset
+
+	revert = {
+		address = revert,
+		-- value = '~A MOV PC, LR', -- arm32
+		-- flags = gg.TYPE_DWORD
+		value = "~A8 RET", -- arm64
+		flags = gg.TYPE_QWORD,
+	}
+
+	gg.setValues({ revert })
+end
+
+beaconCaptureAndLock()

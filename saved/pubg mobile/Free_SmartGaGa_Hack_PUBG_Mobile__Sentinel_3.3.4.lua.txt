@@ -1,0 +1,486 @@
+function Main()
+	SN = gg.multiChoice({
+		"防闪退",
+		"透视上色",
+		"全局午后",
+		"强力自瞄",
+		"人物微加速",
+		"超大范围",
+		"持枪午后",
+		"持枪防抖",
+		"人物翻墙",
+		"裸奔天线",
+		"范围除草",
+		"站立路飞",
+		"下蹲路飞",
+		"踏空防摔",
+		"透视防闪",
+		"退出脚本",
+	}, nil, "这里可以填写你的QQ")
+	if SN == nil then
+	else
+		if SN[1] == true then
+			a()
+			gg.setRanges(32)
+			gg.searchNumber(
+				"1",
+				gg.TYPE_QWORD
+					| gg.TYPE_XOR
+					| gg.TYPE_FLOAT
+					| gg.TYPE_WORD
+					| gg.TYPE_BYTE
+					| gg.TYPE_DOUBLE
+					| gg.TYPE_DWORD,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.setRanges(32)
+			gg.searchNumber(
+				"1",
+				gg.TYPE_QWORD
+					| gg.TYPE_XOR
+					| gg.TYPE_FLOAT
+					| gg.TYPE_WORD
+					| gg.TYPE_BYTE
+					| gg.TYPE_DOUBLE
+					| gg.TYPE_DWORD,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.setRanges(32)
+			gg.searchNumber(
+				"1",
+				gg.TYPE_QWORD
+					| gg.TYPE_XOR
+					| gg.TYPE_FLOAT
+					| gg.TYPE_WORD
+					| gg.TYPE_BYTE
+					| gg.TYPE_DOUBLE
+					| gg.TYPE_DWORD,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.toast("防止游戏闪退崩溃完成")
+		end
+		if SN[2] == true then
+			b()
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("-8.3252823e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(gg.getResultCount())
+			gg.editAll("4444", gg.TYPE_FLOAT)
+			gg.toast("第一步成功")
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("-3.5875931e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(gg.getResultCount())
+			gg.editAll("4444", gg.TYPE_FLOAT)
+			gg.toast("第二步成功")
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("-3.4039221e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(gg.getResultCount())
+			gg.editAll("4444", gg.TYPE_FLOAT)
+			gg.toast("第三步成功")
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("-1.0161992e-39", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(gg.getResultCount())
+			gg.editAll("4444", gg.TYPE_FLOAT)
+			gg.toast("第四步成功")
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("-8.3246237e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(gg.getResultCount())
+			gg.editAll("4444", gg.TYPE_FLOAT)
+			gg.toast("第五步成功")
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("-5.5695588e-40", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(gg.getResultCount())
+			gg.editAll("4444", gg.TYPE_FLOAT)
+			gg.toast("完美新透开启成功")
+			gg.clearResults()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("69,778D;1,669,332,992D;11D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("11", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("32777", gg.TYPE_DWORD)
+			gg.toast("新版彩绿开启成功")
+		end
+		if SN[3] == true then
+			c()
+			gg.setRanges(32)
+			gg.searchNumber("176293393;8F;9.5F;15F::", gg.TYPE_DWORD)
+			gg.searchNumber("176293393", gg.TYPE_DWORD)
+			gg.getResults(10)
+			gg.editAll("176293392", gg.TYPE_DWORD)
+			gg.toast("全枪无后开启成功")
+			gg.toast("正在开启倍镜防抖准星")
+			gg.setRanges(32)
+			gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("3.20000004768;1.09375", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("0", gg.TYPE_FLOAT)
+			gg.setRanges(32)
+			gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false)
+			gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT, false)
+			gg.getResults(200)
+			gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+			gg.toast("防抖开启成功")
+		end
+		if SN[4] == true then
+			d()
+			gg.setRanges(16384)
+			gg.searchNumber("0.0001;360.0;0.0;1,478,828,416.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(2)
+			gg.editAll("999", gg.TYPE_FLOAT)
+			gg.toast("强力自瞄开启成功速度去虐人")
+		end
+		if SN[5] == true then
+			e()
+			gg.setRanges(32)
+			gg.searchNumber(
+				"0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88",
+				gg.TYPE_FLOAT,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("1.5", gg.TYPE_FLOAT)
+			gg.setRanges(32)
+			gg.searchNumber(
+				"30.0F;7.0064923e-45F;1.0F;100.0F;1.0F;2,500,000,000.0F;0.10000000149F;88.0F:512",
+				gg.TYPE_FLOAT,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(15)
+			gg.editAll("3", gg.TYPE_FLOAT)
+			gg.setRanges(131072)
+			gg.searchNumber("479.5;1.0;3,600,000,000.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("479.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("999", gg.TYPE_FLOAT)
+			gg.toast("人物微加速无拉回")
+		end
+		if SN[6] == true then
+			f()
+			gg.setRanges(32)
+			gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(10)
+			gg.editAll("295", gg.TYPE_FLOAT)
+			gg.toast("范围伤害开启成功")
+		end
+		if SN[7] == true then
+			g()
+			gg.clearResults()
+			gg.setRanges(gg.REGION_CODE_APP)
+			gg.searchNumber("8.0814659e-28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("8.0814659e-28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(1)
+			gg.editAll("-8.0814659e-28", gg.TYPE_FLOAT)
+			gg.clearResults()
+			gg.setRanges(gg.REGION_CODE_APP)
+			gg.searchNumber("3.8126822e-21;8.4988737e-21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("3.8126822e-21", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(1)
+			gg.editAll("-3.8126822e-21", gg.TYPE_FLOAT)
+			gg.toast("土地爷提示 全枪无后开启成功")
+		end
+		if SN[8] == true then
+			h()
+			gg.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber("9.5~10;15;20000;0.2~0.3;53;30;0~1::350", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("0.2~0.3;0~1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("0", gg.TYPE_FLOAT)
+			gg.toast("持枪防抖开启成功")
+		end
+		if SN[9] == true then
+			i()
+			gg.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber("1.793662e-43F;10.0F;45.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("999999", gg.TYPE_FLOAT)
+			gg.toast("翻墙开启")
+		end
+		if SN[10] == true then
+			j()
+			gg.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber("0.99626296759", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(400)
+			gg.editAll("866", gg.TYPE_FLOAT)
+			gg.toast("新版天线开启成功")
+			gg.toast("稳定")
+		end
+		if SN[11] == true then
+			k()
+			gg.setRanges(gg.REGION_BAD)
+			gg.searchNumber("2;-1;1;10000;-127::32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(10)
+			gg.editAll("0", gg.TYPE_FLOAT)
+			gg.toast("范围除草开启成功")
+		end
+		if SN[12] == true then
+			l()
+			g.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber("18.38614845276;0.53446006775;-3.4266242981", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(500)
+			gg.editAll("200", gg.TYPE_FLOAT)
+			gg.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber("0.53446006775F;-1.68741035461F:501", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(10)
+			gg.editAll("-250", gg.TYPE_FLOAT)
+			gg.toast("站立路飞开启成功")
+		end
+		if SN[13] == true then
+			m()
+			gg.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber("1,092,081,726;1,003,658,240;923,795,456", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("1,092,081,726", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(100)
+			gg.editAll("1,135,099,726", gg.TYPE_DWORD)
+			gg.toast("蹲下路飞开启成功")
+		end
+		if SN[14] == true then
+			n()
+			gg.searchNumber("1;20;30;40::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("20", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(30)
+			gg.editAll("20", gg.TYPE_FLOAT)
+			gg.setRanges(gg.REGION_CODE_APP)
+			gg.searchNumber("10.90734863281;0.00999999978::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("10.90734863281", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(30)
+			gg.editAll("10", gg.TYPE_FLOAT)
+			gg.toast("全局加速已开启")
+			gg.setRanges(gg.REGION_ANONYMOUS)
+			gg.searchNumber(
+				"1;-0.70710676908;0.70710670948;64;1.793662e-43;1.4012985e-45;1D;1D::,",
+				gg.TYPE_FLOAT,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.searchNumber("1.4012985e-45", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(9999)
+			gg.editAll("999", gg.TYPE_FLOAT)
+			gg.toast("人物踏空已开启")
+			gg.searchNumber("715E;1,068,893,208D;1::", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(10)
+			gg.editAll("11", gg.TYPE_DOUBLE)
+			gg.toast("掉落锁血已开启")
+		end
+		if SN[15] == true then
+			o()
+			gg.setRanges(131072)
+			gg.searchNumber("5.2806111e-40;6.50000333786;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(20)
+			gg.editAll("9999", gg.TYPE_FLOAT)
+			gg.setRanges(131072)
+			gg.searchNumber(
+				"1.1202011e-19;1.1202015e-19;3.7615819e-37;255.0;2",
+				gg.TYPE_FLOAT,
+				false,
+				gg.SIGN_EQUAL,
+				0,
+				-1
+			)
+			gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+			gg.getResults(20)
+			gg.editAll("9999", gg.TYPE_FLOAT)
+			gg.toast("透视防闪开启成功")
+		end
+		if SN[16] == true then
+			Exit()
+		end
+	end
+	XGCK = -1
+end
+
+function a()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function b()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function c()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function d()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function e()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function f()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function g()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function h()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function i()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function j()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function k()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function l()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function m()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function n()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function o()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_BAD)
+	gg.searchNumber("搜索数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("改善数值", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("修改数值", gg.TYPE_FLOAT)
+	gg.toast("开启成功")
+end
+
+function Exit()
+	print("这里是退出脚本后的提示文字")
+	os.exit()
+end
+cs = "这里可以改成你的QQ"
+
+while true do
+	if gg.isVisible(true) then
+		XGCK = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if XGCK == 1 then
+		Main()
+	end
+end

@@ -1,0 +1,681 @@
+function HOME()
+	MN = gg.choice({
+		"Gunship Weapons",
+		"Troop HP",
+		"Supplies And Metal",
+		"Exit",
+	}, nil, "  ")
+	if MN == nil then
+	else
+		if MN == 1 then
+			GUNSHIPWEAP()
+		end
+		if MN == 2 then
+			TROOPHP()
+		end
+		if MN == 3 then
+			SMR()
+		end
+		if MN == 4 then
+			print("  ")
+			gg.skipRestoreState()
+			gg.setVisible(true)
+			os.exit()
+		end
+		while true do
+			if gg.isVisible(true) then
+				ZGSM = 1
+				gg.setVisible(false)
+			end
+			if ZGSM == 1 then
+				HOME()
+			end
+		end
+	end
+	ZGSM = -1
+end
+
+function GUNSHIPWEAP()
+	GWEAP = gg.multiChoice({
+		"MG 5.56",
+		"MG 7.62",
+		"AC 20",
+		"AC 25",
+		"AC 30",
+		"CAN 30",
+		"CAN 40MM/60",
+		"CAN 40MM/70",
+		"CAN 50",
+		"HCAN 90",
+		"HCAN 100",
+		"HCAN 105",
+		"MSL AGM114",
+		"MSL AGM176",
+		"RKT 40",
+		"RKT 68",
+		"RKT 80",
+		"RKT 100",
+		"RKT 120",
+		"SNPR 20",
+		"SNPR 25",
+		"BACK",
+	}, nil, "  ")
+	if GWEAP == nil then
+	else
+		if GWEAP[1] == true then
+			MG556()
+		end
+		if GWEAP[2] == true then
+			MG762()
+		end
+		if GWEAP[3] == true then
+			AC20()
+		end
+		if GWEAP[4] == true then
+			AC25()
+		end
+		if GWEAP[5] == true then
+			AC30()
+		end
+		if GWEAP[6] == true then
+			CAN30()
+		end
+		if GWEAP[7] == true then
+			CAN60()
+		end
+		if GWEAP[8] == true then
+			CAN70()
+		end
+		if GWEAP[9] == true then
+			CAN50()
+		end
+		if GWEAP[10] == true then
+			HCAN90()
+		end
+		if GWEAP[11] == true then
+			HCAN100()
+		end
+		if GWEAP[12] == true then
+			HCAN105()
+		end
+		if GWEAP[13] == true then
+			AGM114()
+		end
+		if GWEAP[14] == true then
+			AGM176()
+		end
+		if GWEAP[15] == true then
+			RKT40()
+		end
+		if GWEAP[16] == true then
+			RKT68()
+		end
+		if GWEAP[17] == true then
+			RKT80()
+		end
+		if GWEAP[18] == true then
+			RKT100()
+		end
+		if GWEAP[19] == true then
+			RKT120()
+		end
+		if GWEAP[20] == true then
+			SNPR20()
+		end
+		if GWEAP[21] == true then
+			SNPR25()
+		end
+		if GWEAP[22] == true then
+			HOME()
+		end
+	end
+	ZGSM = -1
+end
+
+function MG556()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.08;0.5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.08", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("MG 5.56 Firerate")
+end
+
+function MG762()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.08;0.35::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.08", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("MG 7.62 Firerate")
+end
+
+function AC20()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.07;0.35::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.07", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AC20 Firerate")
+end
+
+function AC25()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.07;0.5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.07", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AC25 Firerate")
+end
+
+function AC30()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.08;0.35::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.08", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AC30 Firerate")
+end
+
+function CAN30()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.4;1;3::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.4;3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("0.01;1;0.01;4;5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("CAN30 Firerate")
+end
+
+function CAN60()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.9;1.6;8::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.9;8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("0.01;1.6;0.01;4;3::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("3", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("CAN 40MM/60 Firerate")
+end
+
+function CAN70()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.8;1.3;8::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.8;8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("CAN 40MM/70 Firerate")
+end
+
+function CAN50()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("0.7;1.4;5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.7;5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("0.01;1.4;0.01;3;4::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("4", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("CAN50 Firerate")
+end
+
+function HCAN90()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("8;1.65;8::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("8", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("0.01;1.65;0.01;4;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("HCAN90 Firerate")
+end
+
+function HCAN100()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("16;2.25;16::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("16", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("0.01;2.25;0.01;3;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("HCAN100 Firerate")
+end
+
+function HCAN105()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("23;2.75;23::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("23", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("0.01;2.75;0.01;2;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("HCAN105 Firerate")
+end
+
+function AGM114()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.5;10::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("1.5;10;5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AGM114 Firerate")
+end
+
+function AGM176()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3;6::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.searchNumber("3;0.01;6::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AGM176 Firerate")
+end
+
+function RKT40()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.56;2.75::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("2.75", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RKT 40 Firerate")
+end
+
+function RKT68()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("2.46;11::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("11", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RKT 68 Firerate")
+end
+
+function RKT80()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.44;7::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("7", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RKT 80 Firerate")
+end
+
+function RKT100()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.2;10::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("10", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RKT 100 Firerate")
+end
+
+function RKT120()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.5;5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RKT 120 Firerate")
+end
+
+function SNPR20()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1.5;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("SNPR 20 Firerate")
+end
+
+function SNPR25()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("2.5;1.5::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("0.01", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("SNPR 25 Firerate")
+end
+
+function TROOPHP()
+	THP = gg.multiChoice({
+		"MP5",
+		"G36",
+		"RPG-RU",
+		"RPG-US",
+		"MKS MS",
+		"I37",
+		"M40",
+		"WLSN",
+		"M82",
+		"R870",
+		"AK-47",
+		"SMAW",
+		"M4A1",
+		"RL AT4",
+		"M249",
+		"BACK",
+	}, nil, "")
+	if THP == nil then
+	else
+		if THP[1] == true then
+			MP5()
+		end
+		if THP[2] == true then
+			G36()
+		end
+		if THP[3] == true then
+			RPGRU()
+		end
+		if THP[4] == true then
+			RPGUS()
+		end
+		if THP[5] == true then
+			MKSMS()
+		end
+		if THP[6] == true then
+			I37()
+		end
+		if THP[7] == true then
+			M40()
+		end
+		if THP[8] == true then
+			WLSN()
+		end
+		if THP[9] == true then
+			M82()
+		end
+		if THP[10] == true then
+			R870()
+		end
+		if THP[11] == true then
+			AK47()
+		end
+		if THP[12] == true then
+			SMAW()
+		end
+		if THP[13] == true then
+			M4A1()
+		end
+		if THP[14] == true then
+			RLAT4()
+		end
+		if THP[15] == true then
+			M249()
+		end
+		if THP[16] == true then
+			HOME()
+		end
+	end
+	ZGSM = -1
+end
+
+function MP5()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3;5;6;8;13::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("MP5 Troop Health")
+end
+
+function G36()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3;5;8;13;18::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("G36 Troop Health")
+end
+
+function RPGRU()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("3;5;10;13;18::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RPG-RU Troop Health")
+end
+
+function RPGUS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;10;13;18;25::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RPG-US Troop Health")
+end
+
+function MKSMS()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;10;13;18;26::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("MKS MS Troop Health")
+end
+
+function I37()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;10;13;18;26::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("I37 Troop Health")
+end
+
+function M40()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;10;15;20;26::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("M40 Troop Health")
+end
+
+function WLSN()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;10;15;21;27;36::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("WLSN Troop Health")
+end
+
+function M82()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;10;15;23;31::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("M82 Troop Health")
+end
+
+function R870()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("5;11;16;23;32;41::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("R870 Troop Health")
+end
+
+function AK47()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("7;13;18;27;37::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("AK-47 Troop Health")
+end
+
+function SMAW()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("8;18;26;36;47::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("SMAW Troop Health")
+end
+
+function M4A1()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("21;44;59;82;107::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("M4A1 Troop Health")
+end
+
+function RLAT4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("32;62;87;112;157::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("RLAT4 Troop Health")
+end
+
+function M249()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("132;265;350;510;660::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("133769420", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("M249 Troop Health")
+end
+
+function SMR()
+	SUMER = gg.multiChoice({
+		"Enter Supplies And Metal",
+		"Read Me",
+		"Back",
+	}, nil, "")
+	if SUMER == nil then
+	else
+		if SUMER[1] == true then
+			SMSET()
+		end
+		if SUMER[2] == true then
+			SMREAD()
+		end
+		if SUMER[3] == true then
+			HOME()
+		end
+	end
+	ZGSM = -1
+end
+
+function SMSET()
+	data = gg.prompt(
+		{ [1] = "Enter Lootable Metal", [2] = "Enter Lootable Supplies", [3] = "Enter Desired Loot" },
+		{ [1] = "340", [2] = "170", [3] = "25000" }
+	)
+	gsearch = data[1] .. ";" .. data[2]
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber(gsearch, gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(4000)
+	gg.editAll(data[3], gg.TYPE_DWORD)
+	gg.toast("Loot Set To " .. data[3])
+end
+
+function SMREAD()
+	gg.toast("You must search values of a lootable building while in a mission")
+end
+
+StartBypass = gg.alert("Welcome to ZG Survival", "[EXIT]", "[NEXT]")
+if StartBypass == 1 then
+	gg.setVisible(true)
+	print(" Script Ended ")
+	os.exit()
+end
+if StartBypass == 2 then
+	HOME()
+end
+
+function EXIT()
+	print(" Bye")
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	os.exit()
+end
+while true do
+	if gg.isVisible(true) then
+		ZGSM = 1
+		gg.setVisible(false)
+	end
+	if ZGSM == 1 then
+		HOME()
+	end
+end

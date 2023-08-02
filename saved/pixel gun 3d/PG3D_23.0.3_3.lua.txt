@@ -1,0 +1,250 @@
+--[[	RandomUser#1734		]]
+vg = "23.0.3"
+data = 1
+v = gg.getTargetInfo()
+B64 = "x64"
+if v.x64 then
+	B32 = "x64"
+else
+	B32 = "x32"
+end
+------------------------------
+
+if tostring(B32) ~= tostring(B64) then
+	gg.alert("This Script is made for " .. B64 .. "Bit\nYou have " .. B32 .. "Bit")
+end
+
+------------------------------
+if v.versionName ~= vg then
+	gg.setVisible(false)
+	wrn =
+		gg.alert("Script is for version 23.0.3\nContact Owner or download latest Script.", "OK", nil, "Please Update.")
+	if wrn == 0 then
+		return
+	end
+	if wrn >= 2 then
+		os.exit()
+	end
+	if wrn == 1 then
+		cpy = gg.alert("RandomUser#1734", "OK", "NO", "COPY?")
+		if cpy == 1 then
+			gg.copyText("RandomUser#1734")
+			gg.toast("Dm The copied user for update")
+			os.exit()
+		else
+			os.exit()
+		end
+	end
+end
+
+------------------------------
+
+On = "✓	"
+Off = "×	"
+IS = Off
+VD = Off
+XS = Off
+
+function HOME()
+	data = 0
+	local menu = gg.choice({
+		"Cancel", --[[1]]
+		IS .. "Change ID (-1)", --[[2]]
+		VD .. "Value Decrypter [x64]", --[[3]]
+		XS .. "Xp Spoofer 65 [x64]",
+	}, --[[4]] nil, "PG3D Script 23.0.3\nRandomUser#1734")
+	if menu == nil then
+		return gg.toast("Canceled")
+	end
+	if menu == 1 then
+		gg.toast("Script Canceled")
+		clear()
+		os.exit()
+	end
+	if menu == 2 then
+		IDs()
+	end
+	if menu == 3 then
+		ValDec()
+	end
+	if menu == 4 then
+		XpDpoofer()
+	end
+end
+
+------------------------------
+
+-- ID -1
+function IDs()
+	IS = Off
+	if v.x64 then
+		i = 1
+		clear()
+		rangeA()
+		prompt()
+		zsearch()
+		fals()
+		result()
+		check()
+		if check == 0 then
+			gg.alert("Results found: 0")
+			os.exit()
+		else
+			x = "-1"
+			t = w
+			fals()
+			edit()
+			clear()
+			i = 1
+			IS = On
+		end -- End
+	end
+end
+
+--Value Decrypter [64]
+function ValDec()
+	VD = Off
+	if v.x64 then
+		i = 1
+		clear()
+		rangeXA()
+		s = "h 00 A0 00 91 E1 03 1F AA 1B 36 3D 14 FF C3 00 D1 F5 53 01 A9 F3 7B 02 A9 F5 DE 01 D0 B4 BA 01 B0"
+		t = b
+		search()
+		fals()
+		res()
+		check()
+		if check == 0 then
+			gg.alert("Results found: 0")
+			os.exit()
+		else
+			x = "h 00 7D 80 D2 C0 03 5F D6"
+			fals()
+			t = b
+			edit()
+			clear()
+			gg.alert("Value Decrypter is setted to 1000 because /> Cause /> % For ban")
+			VD = On
+		end -- Arm64
+	end -- End
+end
+
+--XpSpoofer [64]
+function XpDpoofer()
+	XS = Off
+	if v.x64 then
+		i = 1
+		clear()
+		rangeXA()
+		s = "h F4 0F 1E F8 F3 7B 01 A9 13 7A 02 B0 B4 53 02 D0 68 72 4A 39 94 4E 46 F9 C8 00 00 37 A0 53 02 D0"
+		t = b
+		search()
+		fals()
+		res()
+		check()
+		if check == 0 then
+			gg.alert("Results found: 0")
+			os.exit()
+		else
+			x = "h 80 F7 8F 52 C0 03 5F D6"
+			fals()
+			t = b
+			edit()
+			clear()
+			gg.alert(
+				"~ XpSpoofer Lvl 65 ~\nYou Must:\n(1) Click Battle\n(2) Click Fight\n(3) If Freeze = Work\n\nDONE!"
+			)
+			XS = On
+		end -- Arm64
+	end -- End
+end
+
+------------------------------
+function rangeA()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+end
+function rangeXA()
+	gg.setRanges(gg.REGION_CODE_APP)
+end
+------------------------------
+i = 0
+b = 1
+d = 4
+f = 16
+w = 2
+q = 32
+------------------------------
+function wait()
+	gg.toast("Please wait...")
+end
+------------------------------
+function search()
+	gg.searchNumber(s, t)
+end
+------------------------------
+function result()
+	gg.getResults(1000)
+end
+------------------------------
+function check()
+	gg.getResults(gg.getResultsCount())
+	local check = gg.getResultsCount()
+	if check == 0 then
+		gg.toast("No Results Found.")
+		E = 0
+	else
+		E = 1
+	end
+	cnt = check
+end
+------------------------------
+function res()
+	gg.getResults(8)
+end
+------------------------------
+function prompt()
+	local q = gg.prompt({ "Input Your ID" }, nil, { "number" })
+end
+function zsearch()
+	gg.searchNumber(";" .. q, gg.TYPE_WORD)
+end
+------------------------------
+function refine()
+	gg.refineNumber(r, t)
+end
+------------------------------
+function fals()
+	gg.setVisible(false)
+end
+function trus()
+	gg.setVisible(true)
+end
+------------------------------
+function clear()
+	gg.clearResults()
+end
+------------------------------
+function remov()
+	gg.removeResults()
+end
+------------------------------
+function clearall()
+	gg.getResults(gg.getResultsCount())
+	gg.clearResults()
+	gg.clearList()
+end
+------------------------------
+function edit()
+	gg.setVisible(false)
+	gg.editAll(x, t)
+end
+------------------------------
+while true do
+	if gg.isVisible(true) then
+		data = 1
+		gg.setVisible(false)
+	end
+	if data == 1 then
+		HOME()
+	end
+end

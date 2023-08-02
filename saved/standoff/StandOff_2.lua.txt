@@ -1,0 +1,67 @@
+gg.toast("✖Standoff2 Hack✖")
+gg.toast("made by NXTMOMODZ[YouTube]")
+--Game guardian detection
+if gg.isVisible(true) then
+	gg.setVisible(false)
+end
+gg.clearResults()
+kele0 = 0
+Qjctx = 1
+function main()
+	menu = gg.choice({ "Speed Crawl", "Exit" }, Lasttl, "Made by NxtmoModz[youtube]")
+	if menu == 1 then
+		SM(K)
+	end
+	if menu == 2 then
+		SM4(K)
+	end
+	Qjctx = -1
+end
+
+function SM(K)
+	menu = gg.choice({ "On", "Off" }, nil, "select one")
+	if menu == 1 then
+		SM2(K)
+	end
+	if menu == 2 then
+		SM3(K)
+	end
+	if menu == nil then
+	end
+end
+
+function SM2(K)
+	gg.searchNumber(" 0.4 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(400)
+	gg.editAll("2.1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("ON")
+end
+
+function SM3(K)
+	gg.searchNumber(" 2.1 ", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(400)
+	gg.editAll("0.4", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Off")
+end
+
+function SM4(K)
+	print("▶Hack script by NXTMOMODZ[youtube]◀")
+	gg.toast("▶Hack script by NXTMOMODZ[youtube]◀")
+	gg.toast("▶Hack script by NXTMOMODZ[youtube]◀")
+	os.exit()
+end
+
+while true do
+	--gg.sleep(999999999999999990)
+	--Game guardian detection
+	if gg.isVisible(true) then
+		Qjctx = 1
+		gg.setVisible(false)
+	end
+	gg.clearResults()
+	if Qjctx == 1 then
+		main()
+	end
+end

@@ -1,0 +1,2277 @@
+--Decypted by Unknown
+--Use this script :)
+
+ids = os.date([[
+Knifes:
+Karambit Claw = 72002
+Karambit Gold = 72003
+Karambit IceDragon = 72004
+Karambit Scratch = 72006
+Karambit Universe = 72007
+
+Butterfly DragonGlass = 47503
+Butterfly Gold = 47502
+Butterfly New1 = 57501
+Butterfly Red = 47504
+Butterfly Starfall = 47505
+
+Kunai Bone = 77813
+Kunai Luxury = 77814
+Kunai Poison = 77815
+Kunai Radiation = 77816
+Kunai Reaper = 77817
+
+M9Bayonet Ancient = 71002
+M9Bayonet BlueBlood = 71001
+M9Bayonet Scratch = 71003
+M9Bayonet Universe = 71004
+M9Bayonet DragonGlass = 71005
+
+Scorpion Camouflage = 87919
+Scorpion Green = 87920
+Scorpion Scratch = 87921
+Scorpion Sky = 87922
+
+jKommando Ancient = 73002
+jKommando Floral = 73004
+jKommando Luxury = 73006
+jKommando Reaper = 73003
+
+FlipKnife New1 = 67701
+FlipKnife New2 = 67702
+FlipKnife New3 = 67703
+FlipKnife New4 = 67704
+FlipKnife New5 = 67705
+
+Skins:
+AKR12 Aurora = 45004
+AKR12 Mechanic = 45003
+AKR12 PixelCamouflage = 45002
+AKR12 PixelCamouflageStatTrack = 1045002
+AKR12 Railgun = 45001
+AKR12 RailgunStatTrack = 1045001
+AKR12 Carbon = 84500
+AKR12 Carbon StatTrack = 1084500
+AKR12 Spring = 84501
+
+AKR Carbon = 44006
+AKR CarbonStatTrack = 1044006
+AKR Necromancer = 44005
+AKR NecromancerStatTrack = 1044005
+AKR Sport = 44004
+AKR SportStatTrack = 1044004
+AKR Tiger = 44003
+AKR TreasureHunter = 44002
+AKR TreasureHunterStatTrack = 1044002
+AKR 2Years = 44007
+AKR Dragon = 84402
+AKR Dragon StatTrack = 1084402
+AKR Nano = 84403
+AKR Nano StatTrack = 1084403
+AKR New2 = 54401
+AKR Worm = 44401
+AMW New1 = 65101
+AMW New1 StatTrack = 1065101
+
+AWM Gear = 51003
+AWM GearStatTrack = 1051003
+AWM Genesis = 51007
+AWM GenesisStatTrack = 1051007
+AWM Phoenix = 51002
+AWM PhoenixStatTrack = 1051002
+AWM Scratch = 51004
+AWM ScratchStatTrack = 1051004
+AWM Sport = 51001
+AWM SportV2 = 51006
+AWM  2YearsRed = 51008
+AWM  Dragon = 85127
+AWM  Dragon StatTrack = 1085127
+AWM  TreasureHunter = 85104
+
+Deagle Blood = 15002
+Deagle CaptainMorgan = 15001
+Deagle DragonGlass = 15006
+Deagle DragonGlassStatTrack = 1015006
+Deagle Predator = 15003
+Deagle PredatorStatTrack = 1015003
+Deagle RedDragon = 15004
+Deagle RedDragonStatTrack = 1015004
+Deagle Thunder = 15007
+Deagle Winner = 15005
+Deagle Ace = 41502
+Deagle Ace StatTrack = 1041502
+Deagle Pro = 81505
+
+FabM Green = 86317
+FabM Parrot = 86318
+FabM Parrot StatTrack = 1086318
+FabM Reactor = 76218
+FabM Reactor StatTrack = 1076218
+
+FAMAS Monster = 74800
+FAMAS Monster StatTrack = 1074800
+Famas Beagle = 48001
+Famas BeagleStatTrack = 1048001
+Famas Fury = 48002
+Famas FuryStatTrack = 1048002
+Famas Hull = 48003
+Famas Hull StatTrack = 1048003
+
+FiveSeven New2 = 51701
+FiveSeven Poison = 71701
+FiveSeven Poison StatTrack = 1071701
+FiveSeven SightGrey = 81726
+FiveSeven SightGrey StatTrack = 1081726
+FiveSeven SightRed = 81725
+FiveSeven Tactical = 41703
+FiveSeven Tactical StatTrack = 1041703
+FiveSeven Venom = 41701
+FiveSeven Venom StatTrack = 1041701
+FiveSeven Zone = 71702
+FiveSeven Zone StatTrack = 1071702
+
+FnFAL AcidCarbon = 44902
+FnFAL Leather = 44901
+FnFAL Tactical = 44903
+FnFAL Tactical StatTrack = 1044903
+FnFal Green = 84906
+
+G22 FrostWyrm = 11008
+G22 FrostWyrm StatTrack = 1011008
+G22 Inferno = 11006
+G22 Nest = 11002
+G22 NestStatTrack = 1011002
+G22 Pattern = 11005
+G22 PixelCamouflage = 11001
+G22 Carbon = 81107
+G22 Carbon StatTrack = 1081107
+G22 Monster = 71103
+G22 Monster StatTrack = 1071103
+G22 New1 = 61101
+G22 New1 StatTrack = 1061101
+G22 Relic = 41101
+G22 Starfall = 41102
+G22 Starfall StatTrack = 1041102
+G22 WhiteCarbon = 71104
+G22 WhiteCarbon StatTrack = 1071104
+G22 YellowLine = 81108
+
+M110 Cyber = 45301
+M110 Cyber StatTrack = 1045301
+
+M16Camouflage = 47001
+M16Facet = 47003
+M16Winged = 47002
+M16WingedStatTrack = 1047002
+
+M40 Beagle = 52003
+M40 BeagleStatTrack = 1052003
+M40 Pro = 52002
+M40 Quake = 52001
+M40 QuakeStatTrack = 1052001
+M40 Monster = 75205
+M40 Monster StatTrack = 1075205
+M40 New1 = 65201
+M40 New1 StatTrack = 1065201
+M40 New2 = 65202
+M40 New2 StatTrack = 1065202
+
+M4 GrandPrix = 46007
+M4 GrandPrixStatTrack = 1046007
+M4 Necromancer = 46002
+M4 NecromancerStatTrack = 1046002
+M4 Predator = 46001
+M4 Pro = 46006
+M4 ProStatTrack = 1046006
+M4 Tiger = 46003
+M4 Lizard = 44601
+M4 Lizard StatTrack = 1044601
+M4 New2 = 54601
+M4 Samurai = 44603
+M4 Samurai StatTrack = 1044603
+M4 Wolf = 84624
+M4 Wolf StatTrack = 1084624
+
+MP5 ProjectZ9 = 73610
+MP5 ProjectZ9 StatTrack = 1073610
+MP5 Reactor = 73611
+MP5 Reactor StatTrack = 1073611
+MP5 Zone = 73612
+MP5 Zone StatTrack = 1073612
+
+MP7 Arcade = 34002
+MP7 ArcadeStatTrack = 1034002
+MP7 Offroad = 34001
+MP7 OffroadStatTrack = 1034001
+MP7 2Years = 34003
+MP7 2YearsRed = 34004
+MP7 Girl = 83409
+MP7 Graffity = 83410
+MP7 Graffity StatTrack = 1083410
+MP7 Lich = 43402
+MP7 Lich StatTrack = 1043402
+MP7 Monkey = 83411
+MP7 Monkey StatTrack = 1083411
+MP7 New1 = 63401
+MP7 New1 StatTrack = 1063401
+MP7 Thorn = 43401
+
+ProjectZ9 Brilliant = 133
+ProjectZ9 Bronze = 129
+ProjectZ9 Gold = 131
+ProjectZ9 GoldPass = 603
+ProjectZ9 Platinum = 132
+ProjectZ9 Silver = 130
+Medal 2Years Gold = 114
+Medal 2Years Silver = 113
+Medal Assistance Brilliant = 104
+Medal Assistance Bronze = 100
+Medal Assistance Gold = 102
+Medal Assistance Platinum = 103
+Medal Assistance Silver = 101
+Medal Competitive Brilliant = 119
+Medal Competitive Bronze = 115
+Medal Competitive Gold = 117
+Medal Competitive Platinum = 118
+Medal Competitive Silver = 116
+Medal NewYearMadness 2020 Brilliant = 124
+Medal NewYearMadness 2020 Bronze = 120
+Medal NewYearMadness 2020 Gold = 122
+Medal NewYearMadness 2020 Platinum = 123
+Medal NewYearMadness 2020 Silver = 121
+Medal Veteran 2018 Bronze = 105
+Medal Veteran 2018 Gold = 107
+Medal Veteran 2018 Platinum = 108
+Medal Veteran 2018 Silver = 106
+Medal Veteran 2019 Bronze = 109
+Medal Veteran 2019 Gold = 111
+Medal Veteran 2019 Platinum = 112
+Medal Veteran 2019 Silver = 110
+Medal Veteran 2020 Bronze = 125
+Medal Veteran 2020 Gold = 127
+Medal Veteran 2020 Platinum = 128
+Medal Veteran 2020 Silver = 126
+
+P350 Cyber = 13001
+P350 Cyber StatTrack = 1013001
+P350 ForestSpirit = 13003
+P350 ForestSpirit StatTrack = 1013003
+P350 Rally = 13004
+P350 Rally StatTrack = 1013004
+P350 Savannah = 13002
+P350 Skull = 13005
+P350 Nano = 81323
+P350 Poison = 71306
+P350 Poison StatTrack = 1071306
+
+P90 Fury = 35003
+P90 Ghoul = 35002
+P90 GhoulStatTrack = 1035002
+P90 Pilot = 35004
+P90 Radiation = 35001
+P90 Jungle = 43502
+P90 Samurai = 83512
+P90 Samurai StatTrack = 1083512
+
+SM1014 Branches = 62006
+SM1014 Facet = 62001
+SM1014 Necromancer = 62003
+SM1014 NecromancerStatTrack = 1062003
+SM1014 NorthernCamouflage = 62004
+SM1014 Pathfinder = 62002
+SM1014 PathfinderStatTrack = 1062002
+SM1014 Quake = 62005
+SM1014 Blaster = 45302
+SM1014 New1 = 66201
+SM1014 New1 StatTrack = 1066201
+SM1014 Shark = 86216
+SM1014 Shark StatTrack = 1086216
+
+Tec9 Aurora = 41601
+Tec9 Fable = 41605
+Tec9 Fable StatTrack = 1041605
+Tec9 New1 = 61601
+Tec9 New1 StatTrack = 1061601
+Tec9 New3 = 51601
+Tec9 Reactor = 71607
+Tec9 Reactor StatTrack = 1071607
+Tec9 Spot = 81613
+
+UMP45 Beast = 32005
+UMP45 Beast StatTrack = 1032005
+UMP45 Cyberpunk = 32001
+UMP45 Cyberpunk StatTrack = 1032001
+UMP45 Iron = 32006
+UMP45 Pixel = 32002
+UMP45 Shark = 32003
+UMP45 Shark StatTrack = 1032003
+UMP45 Winged = 32004
+UMP45 Winged StatTrack = 1032004
+UMP45 Cerberus = 43202
+UMP45 Cerberus StatTrack = 1043202
+UMP45 Gas = 73208
+UMP45 Gas StatTrack = 1073208
+UMP45 PixelV2 = 43201
+UMP45 WhiteCarbon = 73209
+UMP45 WhiteCarbon StatTrack = 1073209
+
+USP Genesis = 12001
+USP 2Years = 12002
+USP 2YearsRed = 12003
+USP Fiend = 41201
+USP Line = 81214
+USP New1 = 61201
+USP New1 StatTrack = 1061201
+USP Pisces = 41212
+USP Pisces StatTrack = 1041212
+USP Yellow = 81215
+
+Stickers:
+Sticker AWPMaster = 1201
+Sticker AWPMasterColor = 1202
+Sticker Biohazard = 1133
+Sticker Danger = 1134
+Sticker DangerZone = 1135
+Sticker DeagleMaster = 1216
+Sticker DeagleMasterColor = 1217
+Sticker Dragon = 1203
+Sticker DropTheBomb = 1136
+Sticker EntryKill = 1204
+Sticker GasMask = 1137
+Sticker GrenadeWithLove = 1205
+Sticker HeadshotZone = 1206
+Sticker King = 1207
+Sticker LuckyStar = 1218
+Sticker Minus28 = 1200
+Sticker Murder = 1140
+Sticker New1 = 1121
+Sticker New10 = 1130
+Sticker New11 = 1131
+Sticker New12 = 1132
+Sticker New2 = 1122
+Sticker New3 = 1123
+Sticker New4 = 1124
+Sticker New5 = 1125
+Sticker New6 = 1126
+Sticker New7 = 1127
+Sticker New8 = 1128
+Sticker New9 = 1129
+Sticker NiceSkill = 1208
+Sticker NiceSkillColor = 1209
+Sticker Pro = 1210
+Sticker RadiateHeat = 1141
+Sticker Radiation = 1142
+Sticker Samurai = 1211
+Sticker SmokeGrenade = 1143
+Sticker SpareGold = 1212
+Sticker StrikeColor = 1213
+Sticker Toxic = 1144
+Sticker ToxicColor = 1145
+Sticker V2 = 1214
+Sticker V2Pro = 1215
+Sticker Z9Mask = 1138
+Sticker Z9MaskColor = 1139
+Sticker Z9Project = 1146
+Sticker Z9ProjectGold = 1147
+Feed = 1111
+Zombie = 1119
+Anticamper = 1112
+Batrider = 1106
+BloodyClown = 1114
+Devilish = 1109
+Dracula = 1120
+EvilPumpkin = 1118
+GangstaPumpkin = 1107
+Ghosty = 1115
+Ghoul = 1105
+GiftNewYear2019 = 501
+GoldSkull = 1101
+Halloween2019StickersPack = 701
+HurryGhost = 1110
+InfernalSkull = 1104
+MadBat = 1103
+Mummy = 1116
+Punisher = 1102
+Rush = 1117
+S1001 = 1113
+Snot = 1108
+Zombie = 1119
+
+Boxes:
+FableBox = 404
+FableCase = 304
+
+OriginCase = 301
+FuriousCase = 302
+
+RivalCase = 303
+FableCase = 304
+
+OriginBox = 401
+FuriousBox = 402
+
+RivalBox = 403
+FableBox = 404
+
+XP:
+ProjectZ9 1000Xp = 802
+ProjectZ9 500Xp = 801
+
+GoldPass:
+TwoYearsEventGoldPass = 601
+NewYearMadness2020GoldPass = 602
+ProjectZ9GoldPass = 603
+
+StickerPacks:
+RainbowStickerPack = 702
+Halloween2019StickersPack = 701
+
+Gifts:
+GiftNewYear2019 = 501]])
+gg.toast("║▓░░░░░░░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓░░░░░░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓░░░░░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓░░░░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓░░░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓░░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓░░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓░░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓░░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓▓░░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓▓▓░░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓▓▓▓░░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓▓▓▓▓░░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓▓▓▓▓▓░║")
+gg.sleep(100)
+gg.toast("║▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓║")
+gg.sleep(100)
+gg.toast("✨Приятной игры✨")
+gg.toast("🤡By ᖴᖇᗩՏᕼKᗴᘜ 🇸 🇫 🇳 🤡")
+mes = os.date(
+	"Standoff 2 0.13.6 Srcipt By 🇫 🇷 🇦 🇸 🇭 🇰 🇪 🇭🇾 🤡\n\n⌛ Последнее обновление: 17.08.2020\n⏳ Сегодняшняя дата: %d.%m.%Y\n🔄 Обновления будут выходить тут ---> @frashkey1337 и @officialfrashkey в телеграме.\n\n🆙️ Update log:\n     - Добавлена функция TextChanger\n     - Добавлена функция VersionChanger\n     - Добавлена функция Id list\n     - Добавлен Player Menu.\n     - Добавлена функция Antenna\n     - Добавлена функция NoHud\n     - Добавлена функция Chams\n     - Пофикшены баги."
+)
+smes = gg.alert(mes, "❇ 𝙎𝙏𝘼𝙍𝙏 𝙎𝘾𝙍𝙄𝙋𝙏", "✴ 𝙀𝙓𝙄𝙏")
+if smes == 2 then
+	gg.alert("👑GOODBYE👑")
+	print("❤️Thanks for using our hacks.❤️\n 👑 👑")
+	gg.skipRestoreState()
+	os.exit()
+end
+gg.sleep(410)
+function HOME2()
+	MN = gg.choice({
+		"🔥Changer Menu🔥",
+		"🔥Game Menu🔥",
+		"🔥Player Menu🔥",
+		"🔥Weapon Menu🔥",
+		"🔥Private Menu🔥",
+		"🔥Author🔥",
+		"🔥Exit🔥",
+	}, nil, "🔥Creator:-🤡FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN == nil then
+	else
+		if MN == 1 then
+			MEN1()
+		end
+		if MN == 2 then
+			MEN()
+		end
+		if MN == 3 then
+			PM()
+		end
+		if MN == 4 then
+			MEN2()
+		end
+		if MN == 5 then
+			PRIVATE()
+		end
+		if MN == 6 then
+			AUTOR()
+		end
+		if MN == 7 then
+			CLOSE()
+		end
+	end
+	TEMP = -1
+end
+
+function PRIVATE()
+	if not gg.prompt({
+		"Введите пароль:",
+	}, nil, { "text" }) then
+		return
+	end
+	for i, i in pairs({ "SfnTeamtop" }) do
+		if gg.prompt({
+			"Введите пароль:",
+		}, nil, { "text" })[1] == i then
+			A = true
+		end
+	end
+	if A ~= true then
+		gg.alert("⚠ Неверный пароль⚠ ")
+		HOME2()
+		do
+			return
+		end
+		return
+	end
+	gg.toast("✅ Correct Password !")
+	PM2 = gg.choice({
+		"🔥Respawn in defuse mode🔥",
+		"🔥Team hack🔥",
+		"🔥Back🔥",
+	}, nil, "✨Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if PM2 == nil then
+	else
+		if PM2 == 1 then
+			respawn()
+		end
+		if PM2 == 2 then
+			teamhack()
+		end
+		if PM2 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function respawn()
+	io.open(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", "w+")
+		:write([[
+18138
+Var #CC7293AC|cc7293ac|10|e3a00001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-3P9DoffWJDZZD0G7beiX3g==/lib/arm/libil2cpp.so|130f3ac
+Var #CC7293B0|cc7293b0|10|e12fff1e|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-3P9DoffWJDZZD0G7beiX3g==/lib/arm/libil2cpp.so|130f3b0
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", "w+"):write(""):close()
+	gg.toast("🔥Activated🔥")
+end
+
+function PM()
+	PM1 = gg.choice({
+		"🔥Chams🔥",
+		"🔥Back🔥",
+	}, nil, "✨Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if PM1 == nil then
+	else
+		if PM1 == 1 then
+			chamsm()
+		end
+		if PM1 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function chamsm()
+	CM = gg.choice({
+		"🔥White Chams🔥",
+		"🔥Back🔥",
+	}, nil, "✨Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if CM == nil then
+	else
+		if CM == 1 then
+			wchams()
+		end
+		if CM == 2 then
+			PM()
+		end
+	end
+	TEMP = -1
+end
+
+function wchams()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("1F;16777217D:33", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1;1::5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(5000)
+	gg.setVisible(false)
+	gg.editAll(5, gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("✨Успешно✨")
+end
+
+function MEN1()
+	MN1 = gg.choice({
+		"🔥ID Changer🔥",
+		"🔥Skinchager🔥",
+		"🔥Textchager🔥",
+		"🔥Versionchager🔥",
+		"🔥Back🔥",
+	}, nil, "✨Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN1 == nil then
+	else
+		if MN1 == 1 then
+			id()
+		end
+		if MN1 == 2 then
+			Skin()
+		end
+		if MN1 == 3 then
+			Text()
+		end
+		if MN1 == 4 then
+			Version()
+		end
+		if MN1 == 5 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function id()
+	si = gg.prompt({
+		"Введи свой ID:",
+	}, {}, { "text" })
+	if si == nil then
+		do
+			return HOME2()
+		end
+		return
+	end
+	gg.searchNumber(";" .. si[1], gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(9999999)
+	repeat
+		repeat
+			smm = gg.choice(
+				{
+					"✨Выбрать ID✨",
+					"✨Jumper✨",
+					"✨FrashKey✨",
+				},
+				nil,
+				"✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥"
+			)
+		until smm ~= nil
+		if smm ~= 1 then
+			break
+		end
+		smmp = gg.prompt({
+			"✨ Введи ID: ✨",
+		}, {}, { "text" })
+	until smmp ~= nil
+	gg.editAll(";" .. smmp[1], gg.TYPE_WORD)
+	gg.clearResults()
+	gg.toast("✨ID ON✨")
+	do
+		return HOME2()
+	end
+	if smm == 2 then
+		gg.editAll(";Jumper", gg.TYPE_WORD)
+		gg.clearResults()
+		gg.toast("✨Jumper ON✨")
+		return HOME2()
+	end
+	if smm == 3 then
+		gg.editAll(";FrashKey", gg.TYPE_WORD)
+		gg.clearResults()
+		gg.toast("✨FrashKey ON✨")
+		return HOME2()
+	end
+end
+
+function Version()
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	si = gg.prompt({
+		"Your version:",
+	}, {}, { "text" })
+	if si == nil then
+		do
+			return MEN1()
+		end
+		return
+	end
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	gg.searchNumber(":" .. si[1], gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(9999999)
+	repeat
+		smmp = gg.prompt({ "Edit:" }, {}, { "text" })
+	until smmp ~= nil
+	gg.editAll(":" .. smmp[1], gg.TYPE_BYTE)
+	gg.clearResults()
+end
+
+function Text()
+	changers = gg.choice({
+		"✨UTF-8✨",
+		"✨UTF-16LE✨",
+		"✨UTF-8 & UTF-16LE✨",
+		"✨Back✨",
+	}, nil, "✨Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if changers == nil then
+	else
+		if changers == 1 then
+			utfq()
+		end
+		if changers == 2 then
+			utfw()
+		end
+		if changers == 3 then
+			utfqe()
+		end
+		if changers == 4 then
+			MEN1()
+		end
+	end
+	TEMP = -1
+end
+
+function utfq()
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	vid = gg.prompt({ "Search", "Edit" }, nil, { "text", "text" })
+	if vid == nil then
+		gg.alert("✨Вы ничего не выбрали!✨")
+	else
+		gg.searchNumber(":" .. vid[1], gg.TYPE_WORD)
+		gg.getResults(300000)
+		gg.editAll(":" .. vid[2], gg.TYPE_WORD)
+		gg.clearResults()
+		gg.toast("✨Успешно✨")
+	end
+end
+
+function utfw()
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	id = gg.prompt({ "Search", "Edit" }, nil, { "text", "text" })
+	if id == nil then
+		gg.alert("✨Вы ничего не выбрали!✨")
+	else
+		gg.searchNumber(";" .. id[1], gg.TYPE_WORD)
+		gg.getResults(300000)
+		gg.editAll(";" .. id[2], gg.TYPE_WORD)
+		gg.clearResults()
+		gg.toast("✨Успешно✨")
+	end
+end
+
+function utfqe()
+	gg.setRanges(
+		gg.REGION_JAVA_HEAP
+			| gg.REGION_C_HEAP
+			| gg.REGION_C_ALLOC
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_ANONYMOUS
+	)
+	id = gg.prompt({ "Search", "Edit" }, nil, { "text", "text" })
+	if id == nil then
+		gg.alert("✨Вы ничего не выбрали!✨")
+	else
+		gg.searchNumber(";" .. id[1], gg.TYPE_WORD)
+		gg.getResults(300000)
+		gg.editAll(";" .. id[2], gg.TYPE_WORD)
+		gg.searchNumber(":" .. id[1], gg.TYPE_WORD)
+		gg.getResults(300000)
+		gg.editAll(":" .. id[2], gg.TYPE_WORD)
+		gg.clearResults()
+		gg.toast("✨Успешно✨")
+	end
+end
+
+function Skin()
+	MN15 = gg.choice({
+		"✨Id list✨",
+		"✨SkinChanger Any Skin✨",
+		"✨Weapon changer ✨",
+		"✨Medal changer✨",
+		"✨Knife changer✨",
+		"✨Black✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN15 == nil then
+	else
+		if MN15 == 1 then
+			idlist()
+		end
+		if MN15 == 2 then
+			anyskin()
+		end
+		if MN15 == 3 then
+			wepon()
+		end
+		if MN15 == 4 then
+			medal()
+		end
+		if MN15 == 5 then
+			anger()
+		end
+		if MN15 == 6 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function idlist()
+	gg.alert(ids, "⬅️ back")
+end
+
+function anyskin()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	vid = gg.prompt({
+		"🤖Введи айди скина с которого будет производиться замена!",
+		"Введи айди скина который хочешь!",
+	}, nil, { "text", "text" })
+	if vid == nil then
+		gg.alert("By Acho")
+	else
+		gg.searchNumber(vid[1], gg.TYPE_DWORD)
+		gg.getResults(300000)
+		gg.editAll(vid[2], gg.TYPE_DWORD)
+		gg.clearResults()
+		gg.toast("✨Успешно✨")
+	end
+end
+
+function wepon()
+	gg.toast("🗡️🗡️🗡️🔥🔥🔥✨✨✨")
+	MN16 = gg.choice({
+		"✨AWM✨",
+		"✨AKR✨",
+		"✨M4✨",
+		"✨USP✨",
+		"✨F/S✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN16 == nil then
+	else
+		if MN16 == 1 then
+			AWM()
+		end
+		if MN16 == 2 then
+			AKR()
+		end
+		if MN16 == 3 then
+			M4()
+		end
+		if MN16 == 4 then
+			USP()
+		end
+		if MN16 == 5 then
+			FS()
+		end
+		if MN16 == 4 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function AWM()
+	menufs = gg.choice({
+		"✨Deagle Thunder -> AWM Genesis StatTrack✨",
+		"✨Deagle Thunder -> AWM 2 Years Red✨",
+		"✨Deagle Thunder -> AWM Sport V2✨",
+		"✨Deagle Thunder -> AWM TreasureHunter✨",
+		"✨Deagle Thunder -> AWM Dragon StatTrack✨",
+		"✨Назад✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menufs == 1 then
+		awmgenst()
+	end
+	if menufs == 2 then
+		awm2yred()
+	end
+	if menufs == 3 then
+		awmsportv2()
+	end
+	if menufs == 4 then
+		awmth()
+	end
+	if menufs == 5 then
+		awmdragonst()
+	end
+	if menufs == 6 then
+		HOME2()
+	end
+	TEMP = -1
+end
+
+function awmgenst()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1051007", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AWM Genesis StatTrack")
+end
+
+function awm2yred()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("51008", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AWM 2 Years Red")
+end
+
+function awmsportv2()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("51006", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AWM Sport V2")
+end
+
+function awmth()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("85104", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AWM TreasureHunter")
+end
+
+function awmdragonst()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1085127", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AWM Dragon StatTrack")
+end
+
+function AKR()
+	menuakr = gg.choice({
+		"✨AKR Tiger -> AKR TreasureHunter StatTrack✨",
+		"✨AKR Tiger -> AKR 2 Years✨",
+		"✨AKR Tiger -> AKR Dragon StatTrack✨",
+		"✨AKR Tiger -> AKR Fabric Storm✨",
+		"✨Назад✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menuakr == 1 then
+		akrthst()
+	end
+	if menuakr == 2 then
+		akrtwoy()
+	end
+	if menuakr == 3 then
+		akrdrst()
+	end
+	if menuakr == 4 then
+		akrfabrstorm()
+	end
+	if menuakr == 5 then
+		mskins()
+	end
+	TEMP = -1
+end
+
+function akrfabrstorm()
+	gg.searchNumber("44003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("54401", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AKR Fabric Storm")
+end
+
+function akrthst()
+	gg.searchNumber("44003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1044002", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AKR TreasureHunter StatTrack")
+end
+
+function akrtwoy()
+	gg.searchNumber("44003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("44007", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AKR 2 Years")
+end
+
+function akrdrst()
+	gg.searchNumber("44003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1084402", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("AKR Dragon StatTrack")
+end
+
+function M4()
+	menum4 = gg.choice({
+		"✨M4 Tiger -> M4 Samurai StatTrack✨",
+		"✨M4 Tiger -> M4 Wolf StatTrack✨",
+		"✨M4 Tiger -> M4 Necromancer StatTrack✨",
+		"✨M4 Tiger -> M4 Pixel Storm✨",
+		"✨Назад✨",
+	}, nil, "✨Creator:- 🤡FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menum4 == 1 then
+		m4samst()
+	end
+	if menum4 == 2 then
+		m4wolfst()
+	end
+	if menum4 == 3 then
+		m4necrst()
+	end
+	if menum4 == 4 then
+		m4pixstorm()
+	end
+	if menum4 == 5 then
+		mskins()
+	end
+	TEMP = -1
+end
+
+function m4pixstorm()
+	gg.searchNumber("46003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("54601", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("M4 Pixel Storm")
+end
+
+function m4samst()
+	gg.searchNumber("46003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1044603", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("M4 Samurai StatTrack")
+end
+
+function m4wolfst()
+	gg.searchNumber("46003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1084624", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("M4 Wolf StatTrack")
+end
+
+function m4necrst()
+	gg.searchNumber("46003", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1046002", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("M4 Necromancer StatTrack")
+end
+
+function USP()
+	menuusp = gg.choice({
+		"✨USP Line -> USP Genesis✨",
+		"✨USP Line -> USP 2 Years Red✨",
+		"✨Назад✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menuusp == 1 then
+		uspgen()
+	end
+	if menuusp == 2 then
+		usptwoy()
+	end
+	if menuusp == 3 then
+		mskins()
+	end
+	TEMP = -1
+end
+
+function uspgen()
+	gg.searchNumber("81214", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("12001", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("USP Genesis")
+end
+
+function usptwoy()
+	gg.searchNumber("81214", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("12003", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("USP 2 Years Red")
+end
+
+function FS()
+	menufs = gg.choice({
+		"✨Deagle Thunder -> F/S Venom StatTrack✨",
+		"✨Deagle Thunder -> F/S Camo Storm✨",
+		"✨Deagle Thunder -> F/S Poison StatTrack✨",
+		"✨Назад✨",
+	}, nil, "✨Creator:- ✨\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menufs == 1 then
+		fsvenomst()
+	end
+	if menufs == 2 then
+		fscamostorm()
+	end
+	if menufs == 3 then
+		fspoisonst()
+	end
+	if menufs == 4 then
+		mskins()
+	end
+	TEMP = -1
+end
+
+function fsvenomst()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1041701", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("F/S Venom StatTrack")
+end
+
+function fscamostorm()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("51701", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("F/S Camo Storm")
+end
+
+function fspoisonst()
+	gg.searchNumber("15007", gg.TYPE_DWORD)
+	gg.getResults(55555)
+	gg.editAll("1071701", gg.TYPE_DWORD)
+	gg.clearResults(true)
+	gg.toast("F/S Poison StatTrack")
+end
+
+function medal()
+	gg.toast("✨✨")
+	gg.sleep(200)
+	gg.alert("✨ To replace inventory you need to have UMP-Pixel✨")
+	medal = gg.choice({
+		"✨ 2 Years - Silver✨",
+		"✨ 2 Years - Gold✨",
+		"✨ Veteran 2018 - Gold✨",
+		"✨ Veteran 2018 - Platinum✨",
+		"✨ Veteran 2019 - Gold✨",
+		"✨ Veteran 2019 - Platinum✨",
+		"✨ Assistance - Gold✨",
+		"✨ Assistance - Platinum✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if medal == nil then
+	else
+		if medal == 1 then
+			YearsSilver()
+		end
+		if medal == 2 then
+			YearsGold()
+		end
+		if medal == 3 then
+			Gold2018()
+		end
+		if medal == 4 then
+			Platinum2018()
+		end
+		if medal == 5 then
+			Gold2019()
+		end
+		if medal == 6 then
+			Platinum2019()
+		end
+		if medal == 7 then
+			AssistanceGold()
+		end
+		if medal == 8 then
+			AssistancePlatinum()
+		end
+		if medal == 9 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function YearsSilver()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("113", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function YearsGold()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("114", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function Gold2018()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("107", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function Platinum2018()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("108", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function Gold2019()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("111", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function Platinum2019()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("112", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function AssistanceGold()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("107", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function AssistancePlatinum()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("32002", gg.TYPE_DWORD)
+	gg.getResults(45000)
+	gg.editAll("108", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("✨Active✨")
+end
+
+function anger()
+	gg.alert("✨To replace inventory you need to have UMP-Pixel✨")
+	mg = gg.choice({
+		"✨Butterfly✨",
+		"✨Kerambit✨",
+		"✨Kunai✨",
+		"✨M9✨",
+		"✨JCOMANDO✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if mg == 1 then
+		FN()
+	end
+	if mg == 2 then
+		FN1()
+	end
+	if mg == 3 then
+		FN3()
+	end
+	if mg == 4 then
+		FN4()
+	end
+	if mg == 5 then
+		FN5()
+	end
+	if mg == 6 then
+		HOME2()
+	end
+	TEMP = -1
+end
+
+function FN()
+	menu1 = gg.choice({
+		"✨Butterfly Starfall✨",
+		"✨Butterfly Legacy✨",
+		"✨Butterfly Black Widow✨",
+		"✨Butterfly Dragon Glass✨",
+		"✨Butterfly Fire Storm✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menu1 == 1 then
+		starfall()
+	end
+	if menu1 == 2 then
+		legacy()
+	end
+	if menu1 == 3 then
+		widow()
+	end
+	if menu1 == 4 then
+		dglass()
+	end
+	if menu1 == 5 then
+		firestormbutterfly()
+	end
+	if menu1 == 6 then
+		HOME2()
+	end
+	TEMP = -1
+end
+
+function starfall()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("47505", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Butterfly Starfall")
+end
+
+function firestormbutterfly()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("57501", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Butterfly Fire Storm")
+end
+
+function legacy()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("47502", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Butterfly Legacy")
+end
+
+function widow()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("47504", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Butterfly Black Widow")
+end
+
+function dglass()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("47503", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Butterfly Dragon Glass")
+end
+
+function FN1()
+	menu2 = gg.choice({
+		"✨KARAMBIT Gold✨",
+		"✨KARAMBIT Claw✨",
+		"✨KARAMBIT Dragon Glass✨",
+		"✨KARAMBIT Scratch✨",
+		"✨KARAMBIT Universe✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menu2 == 1 then
+		gold()
+	end
+	if menu2 == 2 then
+		claw()
+	end
+	if menu2 == 3 then
+		drglass()
+	end
+	if menu2 == 4 then
+		karscratch()
+	end
+	if menu2 == 5 then
+		kar()
+	end
+	if menu2 == 6 then
+		HOME2()
+	end
+	TEMP = -1
+end
+
+function gold()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("72003", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("KARAMBIT Gold")
+end
+
+function karscratch()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("72006", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("KARAMBIT Scratch")
+end
+
+function kar()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("72007", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("KARAMBIT Universe")
+end
+
+function claw()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("72002", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("KARAMBIT Claw")
+end
+
+function drglass()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("72004", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("KARAMBIT Dragon Glass")
+end
+
+function FN3()
+	menu3 = gg.choice({
+		"✨Kunai Luxury✨",
+		"✨Kunai Bone✨",
+		"✨Kunai Poison✨",
+		"✨Kunai Radiation✨",
+		"✨Kunai Reaper✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if menu3 == 1 then
+		luxury()
+	end
+	if menu3 == 2 then
+		bones()
+	end
+	if menu3 == 3 then
+		poison()
+	end
+	if menu3 == 4 then
+		radiation()
+	end
+	if menu3 == 5 then
+		reaper()
+	end
+	if menu3 == 6 then
+		HOME2()
+	end
+	TEMP = -1
+end
+
+function luxury()
+	gg.setRanges(no)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("77814", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Kunai Luxury")
+end
+
+function bones()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("77813", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Kunai Bone")
+end
+
+function poison()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("77815", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Kunai Poison")
+end
+
+function radiation()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("77816", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Kunai Radiation")
+end
+
+function reaper()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("77817", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("Kunai Reaper")
+end
+
+function FN4()
+	menu4 = gg.choice({
+		"✨DRAGON GLASSE✨",
+		"✨BLUE BLADE✨",
+		"✨UNIVERSE✨",
+	}, nil, "🔥 THIS CHANGER ON UMP PIXEL🔥")
+	if menu4 == 1 then
+		drgglas()
+	end
+	if menu4 == 2 then
+		blublad()
+	end
+	if menu4 == 3 then
+		universe()
+	end
+	if menu4 == nil then
+	end
+	TEMP = -1
+end
+
+function blublad()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("71001", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("M9 BLUE BLADE ON")
+end
+
+function drgglas()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("71005", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("M9 DRAGON GLASS ON")
+end
+
+function universe()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("71004", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("M9 UNIVERSE ON")
+end
+
+function FN5()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(" 32002 ", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0.6)
+	gg.getResults(150)
+	gg.editAll("73004", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("JCOMANDO FLORAL ON")
+end
+
+function MEN()
+	gg.alert("✨Помог с некоторыми функциями KRA KEN🗡️")
+	MN2 = gg.choice({
+		"🔥Good Fov🔥",
+		"🔥Anti smock🔥",
+		"🔥Screen Game🔥",
+		"🔥Big Smock🔥",
+		"🔥Good Jump🔥",
+		"🔥Good Speed🔥",
+		"🔥Black Sky🔥",
+		"🔥Wallhack🔥",
+		"🔥Fly🔥",
+		"🔥Antenna🔥",
+		"🔥Nohud🔥",
+		"🔥Back🔥",
+	}, nil, "✨Creator:-FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN2 == nil then
+	else
+		if MN2 == 1 then
+			fov()
+		end
+		if MN2 == 2 then
+			Antis()
+		end
+		if MN2 == 3 then
+			screen()
+		end
+		if MN2 == 4 then
+			BIG()
+		end
+		if MN2 == 5 then
+			jump()
+		end
+		if MN2 == 6 then
+			speed()
+		end
+		if MN2 == 7 then
+			sky()
+		end
+		if MN2 == 8 then
+			wh()
+		end
+		if MN2 == 9 then
+			fly()
+		end
+		if MN2 == 10 then
+			Antenna()
+		end
+		if MN2 == 11 then
+			nohud()
+		end
+	end
+	TEMP = -1
+end
+
+function nohud()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	gg.refineNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	revert = gg.getResults(2500, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🔥Activated🔥")
+end
+
+function Antenna()
+	gg.setRanges(
+		gg.REGION_ANONYMOUS
+			| gg.REGION_C_HEAP
+			| gg.REGION_JAVA_HEAP
+			| gg.REGION_C_DATA
+			| gg.REGION_C_BSS
+			| gg.REGION_PPSSPP
+			| gg.REGION_C_ALLOC
+	)
+	gg.clearResults()
+	gg.searchNumber("0.94999998808;0.05::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0)
+	gg.searchNumber("0.05", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0)
+	gg.getResults(1000)
+	gg.editAll("86", gg.TYPE_FLOAT)
+	gg.setVisible(false)
+	gg.clearResults()
+	gg.toast("🔥Activated🔥")
+end
+
+function fov()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+ 
+27481
+Acho|d52bb818|10|437a0000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|3ea818
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("🔥Activated🔥")
+end
+
+function Antis()
+	io.open(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", "w+")
+		:write([[
+18705
+Var #D531DF3C|d531df3c|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44cf3c
+Var #D531E9F0|d531e9f0|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44d9f0
+Var #D531E9F4|d531e9f4|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44d9f4
+Var #D531E9F8|d531e9f8|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44d9f8
+Var #D531E9FC|d531e9fc|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44d9fc
+Var #D531F3C0|d531f3c0|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44e3c0
+Var #D531F3C4|d531f3c4|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44e3c4
+Var #D531F3C8|d531f3c8|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44e3c8
+Var #D531F3CC|d531f3cc|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|44e3cc
+Var #D5326370|d5326370|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|455370
+Var #D5326374|d5326374|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|455374
+Var #D5326378|d5326378|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|455378
+Var #D532637C|d532637c|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|45537c
+Var #D5326550|d5326550|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|455550
+Var #D5326554|d5326554|10|c1000000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|455554
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", "w+"):write(""):close()
+	gg.toast("🔥Activated🔥")
+end
+
+function screen()
+	gg.setRanges(gg.REGION_C_ALLOC)
+	gg.searchNumber("15", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.processResume()
+	revert = gg.getResults(2500, nil, nil, nil, nil, nil, nil, nil, nil)
+	gg.editAll("16", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🔥Activated🔥")
+end
+
+function BIG()
+	io.open(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", "w+")
+		:write([[
+18705
+Var #D5338184|d5338184|10|440ac000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|467184
+Var #D5338188|d5338188|10|440ac000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|467188
+Var #D533818C|d533818c|10|440ac000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|46718c
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/AntiLog Sorry.cfg", "w+"):write(""):close()
+	gg.toast("🔥Activated🔥")
+end
+
+function jump()
+	MN8 = gg.choice({
+		"🔥On🔥",
+		"🔥Off🔥",
+		"🔥Home🔥",
+	}, nil, "✨Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN8 == nil then
+	else
+		if MN8 == 1 then
+			off4()
+		end
+		if MN8 == 2 then
+			on4()
+		end
+		if MN8 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function off4()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("2.5", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+	gg.alert("JUMP ON")
+end
+
+function on4()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("3.0", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+	gg.alert("JUMP OFF")
+end
+
+function speed()
+	MN7 = gg.choice({
+		"🔥On🔥",
+		"🔥Off🔥",
+		"🔥Home🔥",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN7 == nil then
+	else
+		if MN7 == 1 then
+			off2()
+		end
+		if MN7 == 2 then
+			on2()
+		end
+		if MN7 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function off2()
+	gg.setSpeed(3)
+	gg.toast("ON✅")
+	gg.sleep(150)
+end
+
+function on2()
+	gg.setSpeed(1)
+	gg.toast("OFF✅")
+	gg.sleep(150)
+end
+
+function sky()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+ 
+1434
+Var #D1055CF4|d1055cf4|10|bf800000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|389cf4
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("🔥Activated🔥")
+end
+
+function wh()
+	LB = gg.multiChoice({
+		"✨ON✨",
+		"✨OFF✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if LB == nil then
+	else
+		if LB[1] == true then
+			WHPRO()
+		end
+		if LB[2] == true then
+			WHPRO2()
+		end
+		if LB[3] == true then
+			HOME2()
+		end
+	end
+end
+
+function WHPRO()
+	io.open(gg.EXT_CACHE_DIR .. "/.cfg", "w+")
+		:write([[
+ 
+14076
+Var #C69576D4|c69576d4|10|9fec1e4a|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|98b6d4
+
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/.cfg", "w+"):write(""):close()
+	gg.toast("✨ON✨")
+end
+
+function WHPRO2()
+	io.open(gg.EXT_CACHE_DIR .. "/.cfg", "w+")
+		:write([[
+ 
+312
+Var #C7E976D4|c7e976d4|10|3f800000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|98b6d4
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/.cfg", "w+"):write(""):close()
+	gg.toast("✨OFF✨")
+end
+
+function fly()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1.40129846e-42;1.40129846e-45;3.58732407e-43;1.40129846e-45;0.0;1.0;0.0;0.0",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.refineNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(1000)
+	gg.editAll("-0.5", gg.TYPE_FLOAT)
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.sleep(950)
+	gg.toast("✨Fly✨")
+	gg.editAll("1", gg.TYPE_FLOAT)
+	gg.clearList()
+	gg.clearResults()
+	gg.toast("✨Flight completed✨")
+end
+
+function MEN2()
+	MN = gg.choice({
+		"🔥No Recoil🔥",
+		"🔥Damage hack🔥",
+		"🔥Drop menu🔥",
+		"🔥Back🔥",
+	}, nil, "🔥Creator:-🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN == nil then
+	else
+		if MN == 1 then
+			nor()
+		end
+		if MN == 2 then
+			aim()
+		end
+		if MN == 3 then
+			drop()
+		end
+		if MN == 4 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function nor()
+	io.open(gg.EXT_CACHE_DIR .. "/.cfg", "w+")
+		:write([[
+ 
+24182
+Var #C7A3C9F0|c7a3c9f0|4|73630800|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libunity.so|2789f0
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/.cfg", "w+"):write(""):close()
+	gg.toast("✨No recoil active✨")
+end
+
+function aim()
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"925,353,388;-382,908,368;-498,216,936;-509,587,456;-509,591,551;-443,219,932::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("925,353,388", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.addListItems(gg.getResults(35))
+	gg.editAll("925,353,389", gg.TYPE_DWORD)
+	gg.setRanges(gg.REGION_CODE_APP)
+	gg.searchNumber(
+		"925,353,388;-382,908,368;-498,216,936;-509,587,456;-509,591,551;-443,219,932::",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("925,353,388", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.addListItems(gg.getResults(75))
+	gg.editAll("1,043,000,000", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("🔥Activated🔥")
+end
+
+function drop()
+	MN9 = gg.choice({
+		"✨Drop knife✨",
+		"✨Dont drop weapon✨",
+		"✨Drop grenade✨",
+		"✨Back✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN9 == nil then
+	else
+		if MN9 == 1 then
+			DRK()
+		end
+		if MN9 == 2 then
+			DRW()
+		end
+		if MN9 == 3 then
+			DRG()
+		end
+		if MN9 == 4 then
+			MEN2()
+		end
+	end
+	TEMP = -1
+end
+
+function DRK()
+	MN11 = gg.choice({
+		"✨On✨",
+		"✨Off✨",
+		"✨Home✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN11 == nil then
+	else
+		if MN11 == 1 then
+			off6()
+		end
+		if MN11 == 2 then
+			on6()
+		end
+		if MN11 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function off6()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+        20229
+        Dropknife|991a6a10|4|e3a00001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|1409a10
+        7854
+        Dropknife|7651a61c48|10|320003e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|1981c48
+        Dropknife|7651a61c50|10|320003e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|1981c50
+  ]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("🔪DropKnife On")
+end
+
+function on6()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+        20229
+        Dropknife|991a6a10|4|e3a00000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|1409a10
+        7854
+        dropknife|7e7a24dc48|10|2a1f03e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|1981c48
+        dropknife|7e7a24dc50|10|2a1f03e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|1981c50
+
+  ]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("🔪 DROP KNIFE OFF")
+end
+
+function DRW()
+	MN12 = gg.choice({
+		"✨On✨",
+		"✨Off✨",
+		"✨Home✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN12 == nil then
+	else
+		if MN12 == 1 then
+			off7()
+		end
+		if MN12 == 2 then
+			on7()
+		end
+		if MN12 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function off7()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+19075
+dontdropweapon|7e7a0593ec|10|2a1f03e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|19883ec
+Dontdropweapon|7e7a0593f4|10|2a1f03e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|19883f4
+21403
+dontdropweaponoff|dd9aed50|10|e3a00000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|1411d50
+dontdropweaponoff|dd9aed58|10|e3a00000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|1411d58
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("'🧹DONT DROP WEAPON ON")
+end
+
+function on7()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+ 
+19075
+dontdropweapon|7e7a0593ec|10|320003e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|19883ec
+Dontdropweapon|7e7a0593f4|10|320003e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|19883f4
+21403
+dontdropweaponoff|dd9aed50|10|e3a00001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|1411d50
+dontdropweaponoff|dd9aed58|10|e3a00001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|1411d58
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("'🧹DONT DROP WEAPON OFF")
+end
+
+function DRG()
+	MN13 = gg.choice({
+		"✨On✨",
+		"✨Off✨",
+		"✨Home✨",
+	}, nil, "✨Creator:- 🤡By FrashKey🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥")
+	if MN13 == nil then
+	else
+		if MN13 == 1 then
+			off9()
+		end
+		if MN13 == 2 then
+			on9()
+		end
+		if MN13 == 3 then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end
+
+function off9()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+17920
+graneds|9b64179c|4|e3a00001|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|62479c
+29426
+graneds|7e796bd244|10|320003e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|df1244
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("💣 DROP GRENADE ON")
+end
+
+function on9()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+")
+		:write([[
+ 
+17920
+graneds|9b64179c|4|e3a00000|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm/libil2cpp.so|62479c
+29426
+graneds|7e796bd244|10|2a1f03e0|0|0|0|0|r-xp|/data/app/com.axlebolt.standoff2-1/lib/arm64/libil2cpp.so|df1244
+
+]])
+		:close()
+	gg.loadList(gg.EXT_CACHE_DIR .. "/Acho.cfg", gg.LOAD_VALUES_FREEZE)
+	gg.clearList()
+	io.open(gg.EXT_CACHE_DIR .. "/Acho.cfg", "w+"):write(""):close()
+	gg.toast("💣DROP GRENADE OFF")
+end
+
+function AUTOR()
+	MN20 = gg.multiChoice(
+		{
+			"👑🇸 🇫 🇳 𝓽ꫀꪖꪑ👑",
+			"👑ᠻ𝘳ꪖ𝘴ꫝ𝘬ꫀꪗ👑",
+			"👑Back👑",
+		},
+		nil,
+		"✨Creator:- 🤡By ᠻ𝘳ꪖ𝘴ꫝ𝘬ꫀꪗ🤡\n✴️Version Game 0.13.6✴️\n 🔥Game Name :- Standoff2🔥"
+	)
+	if MN20 == nil then
+	else
+		if MN20[1] == true then
+			TLG()
+		end
+		if MN20[2] == true then
+			TLC() --Unknown
+		end
+		if MN20[3] == true then
+			HOME2()
+		end
+	end
+	TEMP = -1
+end --Unknown
+
+function TLC()
+	gg.copyText("@officialfrashkey")
+	gg.alert("✅You copied the link to our telegram ✅")
+end
+
+function TLG()
+	gg.copyText("@officialfrashkey")
+	gg.alert("✅You copied the link to our telegram ✅")
+end
+
+function CLOSE()
+	gg.alert("👑GOODBYE👑")
+	print("❤️Thanks for using our hacks.❤️\n 👑 👑")
+	gg.skipRestoreState()
+	os.exit() --Unknown
+	gg.setVisible(true) --Unknown
+end
+
+while true do
+	if gg.isVisible(true) then
+		TEMP = 1
+		gg.setVisible(false)
+	end
+	if TEMP == 1 then
+		HOME2()
+	end
+end

@@ -1,0 +1,379 @@
+gg.toast("■□□□□□□10%  ")
+gg.sleep(300)
+gg.toast("■■□□□□□20%  ")
+gg.sleep(300)
+gg.toast("■■■□□□□40%  ")
+gg.sleep(300)
+gg.toast("■■■■□□□60%  ")
+gg.sleep(300)
+gg.toast("■■■■■□□80%  ")
+gg.sleep(300)
+gg.toast("■■■■■■□90%  ")
+gg.sleep(300)
+gg.toast("■■■■■■■100%")
+gg.sleep(600)
+gg.alert("SCRIPT EXPIRED = (30/08/2020)")
+gg.alert("ONLY USE \n 🥰ＯＳＡＭＡ๛🥰")
+function HOME()
+	MN = gg.multiChoice(
+		{
+			"🔱 HEADSHOT 💯(ISLAND/GAME)",
+			"💯 ANTENNA 400METER(ISLAND/GAME)",
+			"💓 MAGIC+HIGH DAMAGE(GAME)",
+			"⛔ ALL CAR SPEED(GAME)",
+			"⚜️ AIMBOT+AIMLOCK(LOBBY 1 TIME)",
+			"✂️ NO RECOIL(lobby 1time)",
+			"🦌 LESS RECOIL(LOBBY 1 TIME)",
+			"🦄 FLASH SPEED(ISLAND/GAME)",
+			"🐒 HIGH JUMP(GAME)",
+			"🦈 FAST LANDING (ISLAND)",
+			"📌ULTRA AIMBOT(GAME)",
+			"👽ANTENNA GHILLI(GAME)",
+			"❎ E X I T ❎",
+		},
+		nil,
+		"▄︻̷̿┻̿═━一ＯＳＡＭＡ\n●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📲YOUTUBE : NTR•尺卂乙\n📲:-9125103572\n ●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬●\n📅 DATE："
+			.. Time
+	)
+	if MN == nil then
+	else
+		if MN[1] == true then
+			A1()
+		end
+		if MN[2] == true then
+			A2()
+		end
+		if MN[3] == true then
+			A3()
+		end
+		if MN[4] == true then
+			A4()
+		end
+		if MN[5] == true then
+			A5()
+		end
+		if MN[6] == true then
+			A6()
+		end
+		if MN[7] == true then
+			A7()
+		end
+		if MN[8] == true then
+			A8()
+		end
+		if MN[9] == true then
+			A9()
+		end
+		if MN[10] == true then
+			A10()
+		end
+		if MN[11] == true then
+			A11()
+		end
+		if MN[12] == true then
+			A12()
+		end
+		if MN[13] == true then
+			EXIT()
+		end
+	end
+	PUBGMH = -1
+end --▄︻̷̿┻̿═━一 𡜯ＳＡＭＡ
+
+function A1()
+	gg.clearResults()
+	gg.setRanges(131072)
+	gg.searchNumber("-88.66608428955;26", 16, false, 536870912, 0, -1)
+	gg.searchNumber("26", 16, false, 536870912, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-466", 16)
+	gg.clearResults()
+	gg.searchNumber("-88.73961639404;28", 16, false, 536870912, 0, -1)
+	gg.searchNumber("28", 16, false, 536870912, 0, -1)
+	gg.getResults(2)
+	gg.editAll("-568", 16)
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("9.201618;30.5;25", 16, false, 536870912, 0, -1)
+	gg.searchNumber("30.5;25", 16, false, 536870912, 0, -1)
+	gg.getResults(10)
+	gg.editAll("280", 16)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end --Fᴜɴᴄᴛɪᴏɴ
+
+function A2()
+	gg.clearResults()
+	gg.setRanges(32)
+	gg.searchNumber("88.50576019287F;87.27782440186F;-100.91194152832F;1F::13", 16, false, 536870912, 0, -1) --NRCLan
+	gg.searchNumber("88.50576019287F;87.27782440186F;1F", 16, false, 536870912, 0, -1)
+	gg.getResults(90)
+	gg.editAll("1.96875;1.96875;999;1.96875;1.96875;999", 16)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResultsCount()
+	gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("16000", gg.TYPE_FLOAT)
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end --▄︻̷̿┻̿═━一 👑ＯＳＡＭＡ
+
+function A3()
+	gg.clearResults()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("370;375", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- NTR•尺卂乙🇮🇳")
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0000B040rA;0000803FrA;0000403FrA:9", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3)
+	gg.editAll("1,087,897,600;1,075,838,976;1,075,838,976", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end
+
+function A4()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.76000005007;0.96078431606;1;0.74509805441::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.74509805441", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(9999)
+	gg.editAll("100", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("50;5;0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.01", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(280)
+	gg.editAll("-0.23", gg.TYPE_FLOAT)
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end
+
+function A5()
+	gg.clearResults()
+	gg.setRanges(8)
+	gg.searchNumber("2015175168", 16, false, 536870912, 0, -1)
+	gg.getResults(6)
+	gg.editAll("0", 16)
+	gg.clearResults()
+	gg.setRanges(8)
+	gg.searchNumber("-299890176D;2046820354D;-494071768D:45", 4, false, 536870912, 0, -1)
+	gg.searchNumber("2046820354", 4, false, 536870912, 0, -1)
+	gg.getResults(200)
+	gg.editAll("2046820353", 4)
+	gg.clearResults()
+	gg.setRanges(8)
+	gg.searchNumber("-1,901,891,198,734,303,227", 32, false, 536870912, 0, -1)
+	gg.getResultsCount()
+	gg.toast("🇮🇳SBS MY YT:-- NTR•尺卂乙🇮🇳")
+	gg.getResults(1)
+	gg.editAll("-1,901,891,198,902,075,392", 32)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-ＯＳＡＭＡ🇮🇳")
+end --▄︻̷̿┻̿═━一 👑ＯＳＡＭＡ
+
+function A6()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1,084,227,584D;1D;0.64999997616F;1.2520827e-32F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.2520827e-32", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("1.4012985e-43", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("0.2~0.3;53;30;1::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("0.2~0.3;1::", gg.TYPE_FLOAT)
+	gg.getResults(200)
+	gg.editAll("1.4012985e-45", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳√")
+	gg.clearResults()
+end
+
+function A7()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"1,348,759,109;1,953,067,887;1,634,692,166;1,920,287,604:512",
+		gg.TYPE_DWORD,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	) --@LemonaHack
+	gg.searchNumber("1,634,692,166", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(10)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end
+
+function A8()
+	gg.alert("SCRIPT RUN HONE KE BAD\n PRONE HO JAYIYE AUR\n COBRA BANKAR SWIPE KIJIYE")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("1;1;1;0.0001;20;0.0005;0.4::50", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(300)
+	gg.editAll("1.06", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("Medium Speed activated!")
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0;7.0064923e-45;1;100;1;2,500,000,000.0;0.10000000149;88",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("9999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end
+
+function A9()
+	gg.alert("BYPASS LAGANE PAR GLITCH KARTA HI TO AAP\n 9125103572 PAR CONTACT KRE")
+	gg.clearResults()
+	gg.setRanges(131104)
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.setRanges(131104)
+	gg.searchNumber("1", gg.TYPE_AUTO, false, gg.SIGN_FUZZY_EQUAL, 0, -1)
+	gg.getResults(600)
+	gg.editAll("0", gg.TYPE_DWORD)
+	gg.searchNumber("1.2F;1.8F:9::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1F;1.4F:3::1", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1.1D;1.4D:2::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	gg.searchNumber("5001;1.1;1F::10", gg.TYPE_DOUBLE, false, gg.SIGN_EQUAL, 0, -1)
+	gg.clearResults()
+	os.remove("/mnt/shell/0/emulated/Android/data/com.pubg.krmobile/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.pubg.krmobile/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.pubg.krmobile/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.tmgp.pubgmhd/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.tmgp.pubgmhd/cache/GCloud.ini")
+	os.remove(
+		"/sdcard/Android/data/com.tencent.tmgp.pubgmhd/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.vng.pubgmobile/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.ig/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.igce/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.igce/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.igce/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.igce/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	os.remove("/mnt/shell/0/emulated/Android/data/com.tencent.iglite/cache/GCloud.ini")
+	os.remove(
+		"/mnt/shell/0/emulated/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs"
+	)
+	os.remove("/storage/emulated/0/Android/data/com.tencent.iglite/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.iglite/cache/GCloud.ini")
+	os.remove("/sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs")
+	gg.toast("🇲🇨BYPASS SUCESSFULLY 🇲🇨")
+end
+
+function A10()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_BSS)
+	gg.searchNumber("2048D;4D;1F;1F;1D:30", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResultsCount()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("3000;5000;1024;1000::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(3472849)
+	gg.editAll("999999", gg.TYPE_FLOAT)
+	gg.toast("🇮🇳SBS MY YT:-ＯＳＡＭＡ 🇮🇳")
+end
+
+function A11()
+	gg.clearResults()
+	gg.searchNumber("3.5;1;0.5;200;20::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.searchNumber("1", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("999", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber("-88.82363891602F;15.0F;1", gg.TYPE_FLOAT)
+	gg.searchNumber("1", gg.TYPE_FLOAT)
+	gg.getResults(1000)
+	gg.editAll("20000000000000", gg.TYPE_FLOAT)
+	gg.clearResults()
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end
+
+function A12()
+	gg.clearResults()
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.searchNumber(
+		"0.98900693655~0.98900723457;0.14786802232~0.14786840975;1.1920926e-7::9",
+		gg.TYPE_FLOAT,
+		false,
+		gg.SIGN_EQUAL,
+		0,
+		-1
+	)
+	gg.getResultCount()
+	gg.searchNumber("0.98900693655~0.98900723457", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+	gg.getResults(100)
+	gg.editAll("16000", gg.TYPE_FLOAT)
+	gg.toast("🇮🇳SBS MY YT:-- ＯＳＡＭＡ 🇮🇳")
+end --▄︻̷̿┻̿═━一 👑ＯＳＡＭＡ
+
+function EXIT()
+	print(
+		"⚠️ ▄︻̷̿┻̿═━一 👑ＯＳＡＭＡ 👑 \n  ▄︻̷̿┻̿═━一  ➭ SUBSCRIBE YT : 👑O-4-OSAMA👑\n➭   ⚠️"
+	)
+	print("HACK ONLY PUBG LITE")
+	gg.skipRestoreState()
+	gg.setVisible(true)
+	os.exit()
+end
+
+while true do
+	Time = os.date("%G-%m-%d | TIME: %H:%M:%S")
+	if gg.isVisible(true) then
+		PUBGMH = 1
+		gg.setVisible(false)
+	end --Iғ
+	gg.clearResults()
+	if PUBGMH == 1 then
+		HOME()
+	end --Iғ
+end --Wʜɪʟᴇ

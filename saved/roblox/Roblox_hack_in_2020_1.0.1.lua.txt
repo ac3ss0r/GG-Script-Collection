@@ -1,0 +1,1155 @@
+while(nil)do;local i={}
+if (i.i)then;i.i=(i.i(i))end;end
+function SHD () local NN = {} local N = {} N.N = {} N.NNN = NN.G () N.NNN = N.NNN: G () N.N [T] = N [G] end
+for x = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) _L = _L(_Lnil_Lnil)(_L) if _~= nil then  	_ = _ (-nil * nil)() 	_ = nil end _ = _,_(-nil*nil),_ if _L  ~= nil then _L = _ (_Lnil*nil*nil*-nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+--====Super Crash SSTool====--
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+for x = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil),(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) _L = _L(_Lnil_Lnil)(_L) if _~= nil then  	_ = _ (-nil * nil)() 	_ = nil end _ = _,_(-nil*nil),_ if _L  ~= nil then _L = _ (_Lnil*nil*nil*-nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+--====Super Crash SSTool====--
+while (nil)do;local o={}if (o.o)then if (o.o.o)then;o.o=(o.o(o)) o.o=(o.o(o.o.o(o.o(o))))end;end;end
+if nil ~= nil then
+	_T = (-nil)((-nil)[nil] | nil | nil)
+		_B = _T
+			_B = _B()
+				while (nil) do _B() end if _B ~= nil then do
+					for i = 0,1,0 do _C = _C() _C = _Cnil _C= _C():_C(_Cnil)(_Cnil*-1).._Cnil _C = _C(_Cnil)(_C) end 
+						
+							for p = 0,1,0 do if nil ~= nil then (-nil)((-nil)[nil] | nil | nil)(-nil)((-nil)[nil] | nil | nil) local _L = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)} _L = _L() _L = _Lnil _L= _L():_L(_Lnil)(_Lnil*-1).._Lnil _L = _L(_Lnil)(_L) if _L  ~= nil then _L = _ (_Lnil*nil) _L = nil end if _L == nil then   _L = {_L(_L*nil)(_L*nil)(nil * 1, 1  << nil), _L*nil} end end local _T = {} x[""] = T local K = (x)(x, x) K[1] = 1 end
+						local x = {} x[''] = x local t = (x)(x, x) t[1] = 1
+						end
+						_ = {_, _(-nil)(-nil)(nil * 1, 1  << nil), -nil}
+						_ = _ (nil)
+						_ = -nil
+						_ = _ (-nil * nil)()
+						_C = _C ( _)
+					_C = {(-nil)((-nil)[nil] | nil | nil),(nil*(-nil)),(-nil)((-nil)[nil] | nil | nil)*(-nil)((-nil)[nil] | nil | nil)/(-nil)((-nil)[nil] | nil | nil)%(-nil)((-nil)[nil] | nil | nil)}
+						_C = _C()
+							if _C == nil then 
+								_C = {_C(_C*nil)(_C*nil)(nil * 1, 1  << nil), _C*nil}
+								end
+						while _B ~= _C do if _T ~= _C then do
+							_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+								_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+									_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+										_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+											_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												_C() _C() _C() _C()_C() _C() _C() _C()_C() _C() _C() _C()
+												end end end
+											end end
+gg.setVisible(false)
+gg.toast("Enycript By Crazy")
+TG =
+gg.isPackageInstalled("com.gxlkj.tl")
+gg.isPackageInstalled("com.wtkc.gg")
+gg.isPackageInstalled("com.decrypt.revo6")
+gg.isPackageInstalled("serdadu.log.revo6")
+gg.isPackageInstalled("com.modeghaith.hd")
+gg.isPackageInstalled("catch_.me_.if_.you_.can")
+gg.isPackageInstalled("sstool.only.com.sstool")
+gg.isPackageInstalled("sstool.only.com.sstools")
+gg.isPackageInstalled("sstool.only.coms")
+gg.isPackageInstalled("sstool.only.com")
+gg.isPackageInstalled("com.gmail.heagoo.apkeditor")
+gg.isPackageInstalled("com.gmail.heagoo.apkeditor.pro")
+gg.isPackageInstalled("app.greyshirts.sslcapture")
+gg.isPackageInstalled("com.guoshi.httpcanary")
+gg.isPackageInstalled("com.guoshi.httpcanary.premium")
+gg.isPackageInstalled("com.minhui.networkcapture.pro")
+gg.isPackageInstalled("io.neoterm")
+gg.isPackageInstalled("com.termux")
+gg.isPackageInstalled("com.hehe.bvay")
+gg.isPackageInstalled("sstool.com.only.sstool")
+gg.isPackageInstalled("io.neoterm")
+gg.isPackageInstalled("sstool.com.only.sstool")
+gg.isPackageInstalled("gg.wtcs.log")
+if TG == true then
+gg.alert("┏━━━━━━━━━❪✇❫━━━━━━━━━┓                                                                 ⚕️         ❗ВНИМАНИЕ❗     ️  ️      ⚕️      ┗━━━━━━━━━❪✇❫━━━━━━━━━┛                🔴На вашем устройстве Была Обнаружена Программа Для Взлома Скриптов! Удалите Чтобы Загрузить Скрипт")
+print('❌ВХОД НЕ РАЗРЕШЕН❌')
+os.exit()
+else﻿
+gg.setVisible(false)
+if gg.isVisible(true) then gg.setVisible(false) end gg.clearResults(true) goto START ::START:: if gg.alert('Script  by 😈Crazy(DUVI)😈','Exit🚪','👑Ingect👑')~= 2 then os.exit() end
+
+menu = gg.choice({'Air Walking','Air Walking Off','Cross walls','Cross walls Off','Strange Camera','Strange Camera Off','Ghost Mode','Ghost Mode Off','No Legs','No Legs Off','Skating','Skating Off','Jump Down From The Earth','Jump Down From The Earth Off','Fish Mode','Fish Mode Off','Strange Letters And Walking In The Air','Strange Letters And Walking In The Air Off','Frozen Movement','Frozen Movement Off','New Animation','New Animation Off','Fast Movement','Fast Movement Off','Avatar Speed','Big Strange Head','Big Strange Head Off','Reach','Reach Off','FreezeKill','FreezeKill Off','Invisible Head','LagSwitch','LagSwitch Off','Super Jump Menu','Avatar Speed Off','DarkMap','DarkMap Off','TextureMap','TextureMap Off',' Black and White Map','Black and White Map Off',' Texture Map 2','Texture Map 2 Off','Small Shift Lock','Small Shift Lock Off','Faceless','Faceless Off','Dark World 2','Dark World 2 Off','Teleport','Teleport Off','Hack Eliminated Do not Touch','Rabbit Mode','Rabbit Mode Off','Lag Mode','Lag Mode Off','Strange World','Strange World Off','Light World','Light World Off','Rare Shield','Rare Shield Off','Fog Map','Fog Map Off','Detect Players','Detect Players Off','Big things','Big things Off','More Hacks','Credits','EXIT'},nil,'Made By Crazy(DUVI)')
+
+if menu == 1 then goto jump1 end
+if menu == 2 then goto jump2 end
+if menu == 3 then goto jump3 end
+if menu == 4 then goto jump4 end
+if menu == 5 then goto jump5 end
+if menu == 6 then goto jump6 end
+if menu == 7 then goto jump7 end
+if menu == 8 then goto jump8 end
+if menu == 9 then goto jump9 end
+if menu == 10 then goto jump10 end
+if menu == 11 then goto jump11 end
+if menu == 12 then goto jump12 end
+if menu == 13 then goto jump13 end
+if menu == 14 then goto jump14 end
+if menu == 15 then goto jump15 end
+if menu == 16 then goto jump16 end
+if menu == 17 then goto jump17 end
+if menu == 18 then goto jump18 end
+if menu == 19 then goto jump19 end
+if menu == 20 then goto jump20 end
+if menu == 21 then goto jump21 end
+if menu == 22 then goto jump22 end
+if menu == 23 then goto jump23 end
+if menu == 24 then goto jump24 end
+if menu == 25 then goto jump25 end
+if menu == 26 then goto jump26 end
+if menu == 27 then goto jump27 end
+if menu == 28 then goto jump28 end
+if menu == 29 then goto jump29 end
+if menu == 30 then goto jump30 end
+if menu == 31 then goto jump31 end
+if menu == 32 then goto jump32 end
+if menu == 33 then goto jump33 end
+if menu == 34 then goto jump34 end
+if menu == 35 then goto jump35 end
+if menu == 36 then goto jump36 end
+if menu == 37 then goto jump37 end
+if menu == 38 then goto jump38 end
+if menu == 39 then goto jump39 end
+if menu == 40 then goto jump40 end
+if menu == 41 then goto jump41 end
+if menu == 42 then goto jump42 end
+if menu == 43 then goto jump43 end
+if menu == 44 then goto jump44 end
+if menu == 66 then goto jump66 end
+if menu == 67 then goto jump67 end
+if menu == 68 then goto jump68 end
+if menu == 69 then goto jump69 end
+if menu == 70 then goto jump70 end
+if menu == 71 then goto jump71 end
+if menu == nil then print('error') end
+goto noselect
+
+::jump1::
+gg.searchNumber('1.1', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('101', gg.TYPE_FLOAT))
+goto sdone
+
+::jump2::
+gg.searchNumber('101', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1.1', gg.TYPE_FLOAT))
+goto sdone
+
+::jump3::
+gg.searchNumber('0.010', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-10.2', gg.TYPE_FLOAT))
+goto sdone
+
+::jump4::
+gg.searchNumber('-10.2', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.010', gg.TYPE_FLOAT))
+goto sdone
+
+::jump5::
+gg.searchNumber('5000', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1.9', gg.TYPE_FLOAT))
+goto sdone
+
+::jump6::
+gg.searchNumber('-1.9', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('5000', gg.TYPE_FLOAT))
+goto sdone
+
+::jump7::
+gg.alert('Sometimes this Hack works if it does not work Turn your camera only if you want to Fix This Hack you must exit or Off the menu and only sometimes you can close Roblox')
+gg.searchNumber('1.75', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('2.5', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump8::
+gg.searchNumber('2.5', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1.75', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump9::
+gg.searchNumber('0.1000', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-2.4', gg.TYPE_FLOAT))
+goto sdone
+
+::jump10::
+gg.searchNumber('-2.4', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.1000', gg.TYPE_FLOAT))
+goto sdone
+
+::jump11::
+gg.searchNumber('0.000001', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1005', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump12::
+gg.searchNumber('1005', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.000001', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump13::
+gg.alert('First you must activate the Noclip to jump below the Earth')
+gg.searchNumber('1.1', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1000', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump14::
+gg.searchNumber('-1000', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1.1', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump15::
+gg.searchNumber('4000', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-500', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump16::
+gg.searchNumber('-500', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('4000', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump17::
+gg.searchNumber('100', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('3.123', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump18::
+gg.searchNumber(3.123, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(100, gg.TYPE_FLOAT)
+gg.clearResults(9000)
+goto sdone
+
+::jump19::
+gg.alert('Can Only Use R15 If You Have R6 Does Not Work')
+gg.searchNumber(16, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(999999, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump20::
+gg.searchNumber(999999, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(16, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump21::
+gg.alert('Can Only Use R15 If You Have R6 Does Not Work')
+gg.searchNumber(16, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-20, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump22::
+gg.searchNumber(-20, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(16, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump23::
+gg.alert('Can Only Use R15 If You Have R6 Does Not Work')
+gg.searchNumber(16, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(1.789, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump24::
+gg.searchNumber(1.789, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(16, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump25::
+gg.alert('Only R15 has to have a game with normal speed and speed and you can use that hack')
+gg.searchNumber(16, gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(103, gg.TYPE_DOUBLE)
+gg.clearResults(9000)
+goto sdone
+
+::jump26::
+gg.searchNumber(0.8, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(-3, gg.TYPE_FLOAT)
+gg.clearResults(9000)
+goto sdone
+
+::jump27::
+gg.searchNumber(-3, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(0.8, gg.TYPE_FLOAT)
+gg.clearResults(9000)
+goto sdone
+
+::jump28::
+gg.searchNumber(0.9, gg.TYPE_FLOAT)
+gg.getResults(150)
+gg.editAll(1.0, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+
+::jump29::
+gg.searchNumber(1.0, gg.TYPE_FLOAT)
+gg.getResults(150)
+gg.editAll(0.9, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+
+::jump30::
+gg.searchNumber(0.13, gg.TYPE_FLOAT)
+gg.getResults(150)
+gg.editAll(58.0, gg.TYPE_FLOAT)
+goto sdone
+
+::jump31::
+gg.searchNumber(58.0, gg.TYPE_FLOAT)
+gg.getResults(150)
+gg.editAll(0.13, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+
+::jump32::
+gg.alert('You Can not Go Back To Normal But You Will Not Happen To The Avatar The Bad You Can not Choose The Most Scripts')
+gg.searchNumber(0.8, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(0, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::jump33::
+gg.setSpeed(3)
+goto sdone
+
+::jump34::
+gg.setSpeed(1)
+goto sdone
+
+
+::jump35::
+if gg.isVisible(true) then 
+   gg.setVisible(false) 
+      end 
+   
+::SuperJump::
+gg.clearResults()
+
+SuperJump = gg.choice({'Small','Medium','Big','Very Big','Very very big','Small Off','Medium Off','Big Off','Very Big Off','Very very big Off','Exit'})
+if SuperJump == 1 then goto ju1 end
+if SuperJump == 2 then goto ju2 end
+if SuperJump == 3 then goto ju3 end
+if SuperJump == 4 then goto ju4 end
+if SuperJump == 5 then goto ju5 end
+if SuperJump == 6 then goto ju6 end
+if SuperJump == 7 then goto ju7 end
+if SuperJump == 8 then goto ju8 end
+if SuperJump == 9 then goto ju9 end
+if SuperJump == 10 then goto ju10 end
+goto noselect
+::ju1::
+gg.searchNumber(500, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(800, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju2::
+gg.searchNumber(500, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(1500, gg.TYPE_FLOAT)
+gg.clearResults(1500)
+goto sdone
+::ju3::
+gg.searchNumber(500, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(3000, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju4::
+gg.searchNumber(500, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(5000, gg.TYPE_FLOAT)
+gg.clearResults(9000)
+goto sdone
+::ju5::
+gg.searchNumber(800, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(500, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju6::
+gg.searchNumber(800, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(500, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju7::
+gg.searchNumber(1500, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(500, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju8::
+gg.searchNumber(3000, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(500, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju9::
+gg.searchNumber(5000, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(500, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+::ju10::
+gg.searchNumber(10000, gg.TYPE_FLOAT)
+gg.getResults(9000)
+gg.editAll(500, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+
+::jump36::
+gg.searchNumber('103', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('16', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump37::
+gg.searchNumber('0.75', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1000', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump38::
+g.searchNumber('-1000', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('75.0', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump39::
+gg.searchNumber('0.25', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.011111', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump40::
+gg.searchNumber('0.011111', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.25', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump41::
+gg.searchNumber('0.010', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-999', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump42::
+gg.searchNumber('-999', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.010', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump43::
+gg.searchNumber('0.25', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('10.1', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump44::
+gg.searchNumber('10.1', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.25', gg.TYPE_FLOAT))
+goto sdone
+
+::jump45::
+gg.searchNumber('1.5', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-2.1549', gg.TYPE_FLOAT))
+goto sdone
+
+::jump46::
+gg.searchNumber('-2.1549', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1.5', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump47::
+gg.searchNumber('0.125', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('9999', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump48::
+gg.searchNumber('9999', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.125', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump49::
+gg.alert('To Do It You Should Put Another Application And Return To The Roblox Game Some Map Does Not Work')
+gg.searchNumber('0.9', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1.0920', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump50::
+gg.searchNumber('-1.0920', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.9', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump51::
+gg.alert('Warning If your Avatar teleports many times and you can be dropped, you want to do it','Continue')
+gg.searchNumber('1000', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-15', gg.TYPE_FLOAT))
+goto sdone
+
+::jump52::
+gg.searchNumber('-15', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1000', gg.TYPE_FLOAT))
+goto sdone
+
+::jump53::
+gg.alert('You Have Selected A Dangerous Hack You Can Be Banned Or Kicked From The Server Please Leave')
+gg.searchNumber('0.05', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1000', gg.TYPE_DOUBLE))
+goto sdone
+::jump54::
+gg.searchNumber('-0.1', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1.0712', gg.TYPE_FLOAT))
+goto sdone
+
+::jump55::
+gg.searchNumber('1.0712', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-0.1', gg.TYPE_FLOAT))
+goto sdone
+
+::jump56::
+gg.searchNumber('-0.3', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('2500', gg.TYPE_FLOAT))
+goto sdone
+
+::jump57::
+gg.searchNumber('2500', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.3', gg.TYPE_FLOAT))
+goto sdone
+
+::jump58::
+gg.searchNumber('-0.5', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1.067', gg.TYPE_FLOAT))
+goto sdone
+
+::jump59::
+gg.searchNumber('-1.067', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.3', gg.TYPE_FLOAT))
+goto sdone
+
+::jump60::
+gg.alert('Warning Some Games Can Be If It Is An Incorrect Game That Will Close Roblox')
+gg.searchNumber('0.5', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('5.123', gg.TYPE_FLOAT))
+goto sdone
+
+::jump61::
+gg.searchNumber('5.123', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.5', gg.TYPE_FLOAT))
+goto sdone
+
+::jump62::
+gg.searchNumber('0.1', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('15', gg.TYPE_FLOAT))
+goto sdone
+
+::jump63::
+gg.searchNumber('15', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.1', gg.TYPE_FLOAT))
+goto sdone
+
+::jump64::
+gg.searchNumber('0.75', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1200', gg.TYPE_FLOAT))
+goto sdone
+
+::jump65::
+gg.searchNumber('1200', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.75', gg.TYPE_FLOAT))
+goto sdone
+
+::jump66::
+gg.alert('The Heads Will Go Big For Seeing Away')
+gg.searchNumber('0.8', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('30', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump67::
+gg.searchNumber('30', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.8', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::jump68::
+gg.searchNumber('0.7', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-17', gg.TYPE_FLOAT))
+goto sdone
+
+::jump69::
+gg.searchNumber('-17', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.7', gg.TYPE_FLOAT))
+goto sdone
+
+
+
+::jump70::
+
+menu =
+gg.choice({'Hack Roblox Games','Avatar Glitch','Red Death','Red Death Off','World Virus','World Virus Off','Super Virus World','Super Virus World Off','Large Objects','Large Objects Off','Strange Avatar','Strange Avatar Off','Black Clothes','Black Clothes Off','Plants vs Zombies Battlegrounds HACK','Strange Screen','Strange Screen Off','Computer Mode','Computer Mode Off','Floor Texture','Floor Texture Off','Giant Things','Giant Things Off','Ghost Eliminated Mode','Chat Black Box','Chat Black Box Off','Chat Transparent Box','Chat Transparent Box Off','New R6 Animation','New R6 Animation Off','EXIT'},nil,'More Hacks')
+
+if menu == 1 then goto a1 end
+if menu == 2 then goto a2 end 
+if menu == 3 then goto a3 end
+if menu == 4 then goto a4 end
+if menu == 5 then goto a5 end
+if menu == 6 then goto a6 end
+if menu == 7 then goto a7 end
+if menu == 8 then goto a8 end
+if menu == 9 then goto a9 end
+if menu == 10 then goto a10 end
+if menu == 11 then goto a11 end
+if menu == 12 then goto a12 end
+if menu == 13 then goto a13 end
+if menu == 14 then goto a14 end
+if menu == 15 then goto a15 end
+if menu == 16 then goto a16 end
+if menu == 17 then goto a17 end
+if menu == 18 then goto a18 end
+if menu == 19 then goto a19 end
+if menu == 20 then goto a20 end
+if menu == 21 then goto a21 end
+if menu == 22 then goto a22 end
+if menu == 23 then goto a23 end
+if menu == 24 then goto a24 end
+if menu == 25 then goto a25 end
+if menu == 26 then goto a26 end
+if menu == 27 then goto a27 end
+if menu == 28 then goto a28 end
+if menu == 30 then goto a30 end
+if menu == nil then print('error') end
+goto START
+
+::a1::
+menu = gg.choice({'Battle Of Titans HACK','Flood Escape HACK','The Pizzeria Roleplay Remastered HACK','RoCitizens HACK','Broken Bones 3 HACK','SharkAttack! HACK','Boys And Girls Dance Club HACK','Granny Money Hack','Prison Life HACK','Jailbreak Infinite Ammo','Super Bomb Survival Crystal Wings Fast','Battle Of Titans HACK Damage','Ragdoll Sytem Test Hacks','Plants vs Zombies Battlegrounds HACK','EXIT'},nil,'select whatever you want')
+
+if menu == 1 then goto A end
+if menu == 2 then goto B end
+if menu == 3 then goto C end
+if menu == 4 then goto D end
+if menu == 5 then goto F end
+if menu == 6 then goto G end
+if menu == 7 then goto H end
+if menu == 8 then goto I end
+if menu == 9 then goto M end
+if menu == 10 then goto N end
+if menu == 11 then goto O end
+if menu == 12 then goto P end
+if menu == 13 then goto Q end
+if menu == 14 then goto R end
+if menu == nil then print('error') end
+goto noselect
+
+::A::
+gg.alert('Go To Any Store Look At The Price And Put The Price Here And You Will Be A Millionaire')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::B::
+gg.alert('You must expect that I loaded the script inside the store and free shopping without playing')
+gg.searchNumber(6, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+gg.searchNumber(20, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+gg.searchNumber(12, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+gg.searchNumber(65, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+goto sdone
+
+::C::
+gg.alert('Put Animatronic Choose Any Price Put The Price Here And You Will Be A Millionaire')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::D::
+gg.alert('Go to the hamburger shop. Put the price here on the menu')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::F::
+gg.alert('Go to Utilities and Show A Menu Put The Price Here And You Will Be A Millionaire')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-9999999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::G::
+gg.alert('Go to the store that is near Choose food Put the price here, but you will not have to Remove the menu of meals')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::H::
+gg.alert('Go To R$ And Choose The Price Any And Put It Here')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::I::
+gg.alert('Enter The Store Choose Any Price And Put The Price Here Next')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::M::
+gg.alert('Now You can go through walls')
+gg.searchNumber(15, gg.TYPE_FLOAT)
+gg.getResults(150)
+gg.editAll(1, gg.TYPE_FLOAT)
+gg.clearResults(150)
+goto sdone
+
+::N::
+gg.alert('Put The Number Of Any Should Be To Fill The Weapon Or Ammunition If It Increased Ammunition')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(9999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::O::
+gg.alert('Only Crystal Wings When The Round Starts The Script Then It Will Be Removed Upon Finishing The Round And You Can Put It In All The Rounds')
+gg.searchNumber('45.0', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('80', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::P::
+gg.alert('Attack A Monster with your Sword See The Damage What It Does And Put The Damage Next And You Will Kill The Monsters Just A Blow')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(9999999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::Q::
+if gg.isVisible(true) then 
+   gg.setVisible(false) 
+      end 
+   
+::RagdollHacks::
+gg.clearResults()
+
+RagdollHacks = gg.choice({'InfPunch','InfKick','InfUpperCut','InfHayMaker','InfBlock','Exit'})
+
+if RagdollHacks == 1 then goto q1 end
+if RagdollHacks == 2 then goto q2 end
+if RagdollHacks == 3 then goto q3 end
+if RagdollHacks == 4 then goto q4 end
+if RagdollHacks == 5 then goto q5 end
+goto sdone
+::q1::
+gg.searchNumber(1.5, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+goto sdone
+::q2::
+gg.searchNumber(12, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+goto sdone
+::q3::
+gg.searchNumber(15, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+goto sdone
+::q4::
+gg.searchNumber(10, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+goto sdone
+::q5::
+gg.searchNumber(15, gg.TYPE_DOUBLE)
+gg.getResults(150)
+gg.editAll(0, gg.TYPE_DOUBLE)
+gg.clearResults(150)
+goto sdone
+
+::R::
+gg.alert('Search The Price Of The Coins And Put The Price Here That You Wanted To Buy Notice If You Buy A Zombie Or A Cheap Plant Your Coins Will Be Spent')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::a2::
+gg.alert('The Avatar Can Be Glitched Will Not Return Normal')
+gg.searchNumber('100', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+
+::a3::
+gg.searchNumber('20', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('107', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::jump71::
+gg.alert('This Is The Ultimate Mod Menu I Upload')
+gg.toast('yt know for hacks')
+print("like subscribe")
+goto sdone
+::a4::
+gg.searchNumber('107', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('20', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a5::
+gg.searchNumber('3.75', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('18', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a6::
+gg.searchNumber('18', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('3.75', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a7::
+gg.searchNumber('3.75', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.123', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a8::
+gg.searchNumber('0.123', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('3.75', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a9::
+gg.searchNumber('1.25', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-99', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a10::
+gg.searchNumber('-99', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('1.75', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a11::
+gg.searchNumber('0.25', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-99', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a12::
+gg.searchNumber('-99', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.25', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a13::
+gg.searchNumber('0.75', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.124', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a14::
+gg.searchNumber('0.124', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.75', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a15::
+gg.alert('Search The Price Of The Coins And Put The Price Here That You Wanted To Buy Notice If You Buy A Zombie Or A Cheap Plant Your Coins Will Be Spent')
+p = gg.prompt({'Enter a valid value:'}, { [1] = 0 }, { [1] = 'number' })
+gg.searchNumber(p[1], gg.TYPE_DOUBLE)
+gg.getResults(9000)
+gg.editAll(-999999999, gg.TYPE_DOUBLE)
+gg.clearResults()
+gg.toast('Money Hacked', true)
+goto sdone
+
+::a16::
+gg.searchNumber('3', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1.345', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a17::
+gg.searchNumber('-1.345', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('3', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a18::
+gg.searchNumber('3', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('4.567', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a19::
+gg.searchNumber('4.567', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('3', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a20::
+gg.searchNumber('300', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-102', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a21::
+gg.searchNumber('-102', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('300', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a22::
+gg.searchNumber('2.5', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1002', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a23::
+gg.searchNumber('-1002', gg.TYPE_FLOAT)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('2.5', gg.TYPE_FLOAT))
+gg.clearResults()
+goto sdone
+
+::a24::
+gg.alert('I do not know how to return to normal and probably it will not work')
+gg.searchNumber('10', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a25::
+gg.searchNumber('0.6', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('-1600', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a26::
+gg.searchNumber('-1600', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.6', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a27::
+gg.searchNumber('0.6', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('9999', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a28::
+gg.searchNumber('9999', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.6', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a29::
+gg.alert('If you zoom in on the camera you can get close up and it will not be removed')
+gg.searchNumber('0.1', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('14', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+::a30::
+gg.searchNumber('14', gg.TYPE_DOUBLE)
+gg.getResults(9000)
+print('Replaced: ', gg.editAll('0.1', gg.TYPE_DOUBLE))
+gg.clearResults()
+goto sdone
+
+
+
+::sdone::
+os.exit()
+
+::noselect::
+print('you not select anything')
+end

@@ -1,0 +1,82 @@
+gg.setVisible(false)
+gg.clearResults()
+gg.alert("script has made by PG3DSTRIKER#1141 + RandomUser#1734")
+gg.toast("script by PG3DSTRIKER#1141 RandomUser#1734")
+gg.sleep(300)
+menu = gg.choice({
+	"infinite ammo (⚠️can be bannlable⚠️)",
+	" no Heath for player (only bot)",
+	"no mob damaged",
+	"speed reload weapon ",
+	"MaxAmmo (like 0/0 to 16/32)",
+	"mob can't see u",
+	"UpgradeTime speed",
+}, nil, "Thanks for RandomUser he help me")
+if menu == nil then
+else
+end
+if menu == 1 then
+	gg.setVisible(false)
+	gg.searchNumber("h 00 B0 41 39 C0 03 5F D6 00 38 40 F9 C0 03 5F D6 00 80 40 B9 C0 03 5F D6", gg.TYPE_BYTE)
+	gg.getResults(99999)
+	gg.editAll(" h h 20 00 80 D2 C0 03 5F D6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.clearList()
+	gg.toast("infinity ammo ✔️")
+end
+if menu == 2 then
+	gg.setVisible(false)
+	gg.searchNumber("E8 0F 1D FC F5 53 01 A9 F3 7B 02 A9 35 63 01 D0", gg.TYPE_BYTE)
+	gg.getResults(99999)
+	gg.editAll("20008052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.clearList()
+	gg.toast("no health ✔️")
+end
+if menu == 3 then
+	gg.setVisible(false)
+	gg.searchNumber("FE 0F 1F F8 5D FD FF 97 60 00 00 B4 00 28 40 BD", gg.TYPE_BYTE)
+	gg.getResults(99999)
+	gg.editAll("00008052C0035FD6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.clearList()
+	gg.toast("no damaged mob ✔️")
+end
+
+if menu == 4 then
+	gg.setVisible(false)
+	gg.searchNumber("F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 14 18 02 D0", gg.TYPE_BYTE)
+	gg.getResults(99999)
+	gg.editAll("A0 00 80 52 C0 03 5F D6", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.clearList()
+	gg.toast("speed reload weapon")
+end
+if menu == 5 then
+	gg.setVisible(false)
+	gg.searchNumber("h 65 7F 2C 97 E9 23 BC 6D F6 0B 00 F9 F5 53 02 A9", gg.TYPE_BYTE)
+	gg.getResults(99999)
+	gg.editAll("7A 04 04 E3 1E FF 2F E1")
+	gg.clearResults()
+	gg.clearList()
+	gg.toast("max ammo ✔️")
+
+	if menu == 6 then
+		gg.setVisible(false)
+		gg.searchNumber("h F4 0F 1E F8 F3 7B 01 A9 08 AC 40 F9 88 00 00 B4", gg.TYPE_BYTE)
+		gg.getResults(99999)
+		gg.editAll("00008052C0035FD6", gg.TYPE_BYTE)
+		gg.clearResults()
+		gg.clearList()
+		gg.toast(" ✔️")
+	end
+	if menu == 7 then
+		gg.setVisible(false)
+		gg.searchNumber("F4 0F 1E F8 F3 7B 01 A9", gg.TYPE_BYTE)
+		gg.getResults(99999)
+		gg.editAll("20008052C0035FD6", gg.TYPE_BYTE)
+		gg.clearResults()
+		gg.clearList()
+		gg.toast(" Upgrade time ✔️")
+	end
+end

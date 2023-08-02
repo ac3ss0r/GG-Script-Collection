@@ -1,0 +1,30 @@
+if gg.isVisible(true) then
+	gg.setVisible(false)
+	gg.clearResults()
+end
+
+gg.toast("Script Made By Blez")
+gg.sleep(2000)
+gg.toast("Check Current Money You Have")
+gg.sleep(3000)
+gg.toast("Enjoy")
+gg.sleep(500)
+
+menu = gg.prompt({
+	"Enter Current Money",
+}, { "0" }, { "number" })
+gg.searchNumber(menu[1], gg.TYPE_DWORD)
+gg.sleep("200")
+gg.prompt({
+	"Enter Current Money Again",
+}, { "0" }, { "number" })
+gg.refineNumber(menu[1], gg.TYPE_DWORD)
+gg.getResults(2)
+gg.editAll("100000000", gg.TYPE_DWORD)
+gg.clearResults()
+
+while true do
+	while gg.isVisible(true) do
+		gg.setVisible(false)
+	end
+end

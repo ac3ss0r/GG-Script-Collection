@@ -1,7 +1,0 @@
-gg.setRanges(gg.REGION_CODE_APP)
-gg.clearResults()
-gg.searchNumber("h B7 FF FF 17 01 00 00 14 F6 0F 1D F8 F5 53 01 A9 F3 7B 02 A9 F4 29 02 90", gg.TYPE_BYTE)
-gg.getResults(100000)
-gg.editAll("h 01 00 A0 E3 1E FF 2F E1", gg.TYPE_BYTE)
-gg.alert("Done")
-gg.clearResults()

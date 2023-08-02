@@ -1,0 +1,18 @@
+gg.clearResults()
+gg.alert("FPS UNLOCKER")
+menu = gg.choice({ "unlock fps" })
+
+if menu == 1 then
+	gg.setRanges(gg.REGION_ANONYMOUS)
+	gg.setVisible(false)
+	gg.searchNumber("h 46 00 70 00 73 00 20 00 36 00 30 00", gg.TYPE_BYTE)
+	gg.getResults(10000)
+	gg.editAll("h 46 00 70 00 73 00 33 00 36 00 30 00", gg.TYPE_BYTE)
+	gg.clearResults()
+	gg.setRanges(gg.REGION_C_DATA)
+	gg.setVisible(false)
+	gg.searchNumber("h 3C 00 00 00 00 00 00 00 D0", gg.TYPE_BYTE)
+	gg.getResults(10000)
+	gg.editAll("h 68 01 00 00 00 00 00 00 D0", gg.TYPE_BYTE)
+	gg.clearResults()
+end

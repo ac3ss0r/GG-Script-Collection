@@ -1,0 +1,1392 @@
+--[[
+
+SCRIPT MADE BY HEXCODEHK
+
+]]
+--
+
+local v0 = string.char
+local v1 = string.byte
+local v2 = string.sub
+local v3 = bit32 or bit
+local v4 = v3.bxor
+local v5 = table.concat
+local v6 = table.insert
+local function v7(v8, v9)
+	local v12 = {}
+	for v32 = 1 + 0, #v8 do
+		v6(
+			v12,
+			v0(
+				v4(
+					v1(v2(v8, v32, v32 + 1)),
+					v1(
+						v2(
+							v9,
+							((2 + 1) - (1 + 1)) + ((v32 - (23 - (4 + 18))) % #v9),
+							1 + ((v32 - (459 - (251 + 207))) % #v9) + ((3 - 1) - (1 + 0))
+						)
+					)
+				) % (251 + 5)
+			)
+		)
+	end
+	return v5(v12)
+end
+if
+	os.date(v7("\63\227\233\20\246\91", "\26\186\204\121\211\63\133"))
+	>= v7("\208\96\19\191\210\97\17\186", "\226\80\33\139")
+then
+	local v13 = (110 + 1283) - (632 + 761)
+	local v14
+	while true do
+		if v13 == (0 + 0 + 0) then
+			v14 = 0 - (0 - 0)
+			while true do
+				if 0 == v14 then
+					gg.alert("⚠️ This Script has expired!")
+					return
+				end
+			end
+			break
+		end
+	end
+end
+PW = gg.prompt(
+	{ v7("\158\215\197\6\169\153\225\2\168\202\198\12\169\221\139", "\219\185\177\99") },
+	{ [2 - 1] = "" },
+	{ [1] = v7("\153\86\240\206", "\237\51\136\186\85\165\154\115") }
+)
+if not PW then
+	return
+end
+if PW[1 + 0 + (0 - 0)] == "" then
+	local v15 = 0 + 0
+	while true do
+		if v15 == ((0 + 0) - (0 + 0)) then
+			gg.alert(v7("\201\93\169\3\254\19\141\7\255\64\170\9\254\87\252", "\140\51\221\102"))
+			os.exit()
+			break
+		end
+	end
+end
+if PW[167 - (152 + 14)] == v7("\213\196\34\46\252\48\216\201\49", "\157\129\122\109\179\116") then
+else
+	local v16 = 0
+	local v17
+	while true do
+		if v16 == (0 - (1384 - (57 + 1327))) then
+			v17 = 0
+			while true do
+				if v17 == (0 - 0) then
+					gg.alert(v7("\110\116\176\48\20\34\208\87\109", "\38\49\232\115\91\102\149\31"))
+					return
+				end
+			end
+			break
+		end
+	end
+end
+gg.setVisible(true)
+LuaLibraryTool = -(1 + 0 + 0)
+HOME = function()
+	local v18 = 694 - (27 + (1831 - (606 + 558)))
+	while true do
+		if (0 - 0) == v18 then
+			local v33 = 346 - (131 + 215)
+			while true do
+				if v33 == ((388 - (211 + 177)) - 0) then
+					MENU = gg.choice(
+						{
+							v7(
+								"\203\198\228\178\236\221\235\202\254\190\162\243\237\204\247",
+								"\130\168\146\219\130\190"
+							),
+							v7("\11\200\29\54\0\36\63\194", "\92\169\113\90\104\65"),
+							v7(
+								"\219\218\192\166\40\200\51\215\222\206\168\105\226\51\241\206",
+								"\159\187\173\195\73\175\86"
+							),
+							v7("\215\188\31\173\224\164\31\171\239\236\55\173\234\185", "\132\204\122\200"),
+							"NoRecoil/NoSpread",
+							v7("\197\235\197\42\159\255\234", "\132\133\177\67\221\158"),
+							v7(
+								"\145\133\126\148\194\147\162\135\96\152\215\163\177\214\33\207\151\249\246",
+								"\199\228\18\225\167\215"
+							),
+							v7("\249\217\39\252\186\204\154\113\195\221", "\170\176\75\153\212\184\186\48"),
+							v7("\240\172\58\196", "\181\212\83\176\140\169"),
+						},
+						nil,
+						v7(
+							"\72\3\35\174\152\111\64\28\166\140\126\64\19\190\200\83\37\9\132\167\95\37\25\140\200\51\5\41\183\129\105\5\53\231\129\117\64\99\247\218\47\64\97\246\200\43\81\120",
+							"\27\96\81\199\232"
+						)
+					)
+					if MENU == nil then
+					else
+						local v66 = 0 - (0 - 0)
+						local v67
+						while true do
+							if v66 == (0 + (1448 - (991 + 457))) then
+								v67 = 0
+								while true do
+									if v67 == (0 + 0) then
+										local v91 = (1331 - (615 + 716)) - (0 - 0)
+										while true do
+											if v91 == (1 + 0) then
+												v67 = 1 + 0
+												break
+											end
+											if v91 == 0 then
+												if MENU == 1 then
+													menu1()
+												end
+												if MENU == 2 then
+													MENU2()
+												end
+												v91 = 2 - 1
+											end
+										end
+									end
+									if v67 == (7 - (1371 - (550 + 816))) then
+										if MENU == 5 then
+											MENU5()
+										end
+										if MENU == ((1481 - 885) - (560 + (54 - 24))) then
+											MENU6()
+										end
+										v67 = 1 + 2
+									end
+									if v67 == 4 then
+										if MENU == (6 + 3) then
+											LOBBY()
+										end
+										break
+									end
+									if 3 == v67 then
+										local v92 = 0
+										local v93
+										while true do
+											if 0 == v92 then
+												v93 = 767 - (398 + 11 + 358)
+												while true do
+													if v93 == ((1629 - (204 + 433)) - (25 + 967)) then
+														if MENU == (7 + 0) then
+															MENU7()
+														end
+														if MENU == (13 - 5) then
+															MENU8()
+														end
+														v93 = 589 - (218 + 370)
+													end
+													if v93 == (1 + 0) then
+														v67 = 4
+														break
+													end
+												end
+												break
+											end
+										end
+									end
+									if v67 == ((643 + 65) - (251 + (2008 - (688 + 864)))) then
+										local v94 = 0
+										while true do
+											if v94 == 0 then
+												if MENU == (11 - 8) then
+													menu1()
+												end
+												if MENU == (3 + 1) then
+													MENU4()
+												end
+												v94 = 1
+											end
+											if v94 == 1 then
+												v67 = 2
+												break
+											end
+										end
+									end
+								end
+								break
+							end
+						end
+					end
+					v33 = (2 + 1) - (2 - 0)
+				end
+				if v33 == (1075 - (240 + 834)) then
+					v18 = (1379 - 761) - (32 + (2529 - 1944))
+					break
+				end
+			end
+		end
+		if v18 == (1 + 0) then
+			LuaLibraryTool = -(1 + 0)
+			break
+		end
+	end
+end
+menu1 = function()
+	local v19 = 0 + 0
+	while true do
+		if v19 == ((1369 - (406 + 665)) - ((880 - (542 + 252)) + 210)) then
+			local v34 = 0 - 0
+			while true do
+				if (1 - 0) == v34 then
+					gg.setVisible(false)
+					v19 = 3 + 0 + 0
+					break
+				end
+				if (354 - ((1233 - 938) + 59)) == v34 then
+					local v54 = 0
+					while true do
+						if v54 == 0 then
+							gg.setVisible(false)
+							gg.searchNumber(
+								v7(
+									"\86\174\65\96\183\36\87\76\165\90\127\184\35\66\87\165\95\99\163\36\74\73\177\92\98\184\64\64\86\170\85\107\163\34\74\78\177\92\96\184\85\64\74\177\85\97\183\61\66\73\165\65\103\182\36\63\65\167\84",
+									"\123\157\109\83\143\17\123"
+								),
+								gg.TYPE_AUTO,
+								false,
+								gg.SIGN_EQUAL,
+								1187 - (393 + 794),
+								-(1631 - (341 + 1289)),
+								0
+							)
+							v54 = 1
+						end
+						if v54 == 1 then
+							v34 = 961 - (26 + 763 + 171)
+							break
+						end
+					end
+				end
+			end
+		end
+		if v19 == (0 - 0) then
+			local v35 = 506 - (323 + 183)
+			while true do
+				if v35 == ((1493 + 450) - (956 + 1 + 986)) then
+					if
+						os.date(v7("\160\113\52\224\166\225", "\133\40\17\141\131"))
+						>= v7("\44\130\24\34\142\122\102\2", "\30\178\42\22\190\75\86\51")
+					then
+						local v68 = 0 + 0
+						while true do
+							if v68 == 0 then
+								gg.alert("⚠️ This Menu has expired!")
+								return
+							end
+						end
+					end
+					gg.alert(
+						v7(
+							"\35\248\178\15\172\36\254\178\0\168\36\229\247\6\233\40\254\230\66\186\43\253\247\66\160\44\171\231\17\160\36\236\178\3\167\62\226\240\3\167",
+							"\74\139\146\98\201"
+						)
+					)
+					v35 = (1519 - (595 + 921)) - 2
+				end
+				if v35 == ((436 + 324) - ((452 - 176) + 483)) then
+					gg.setVisible(false)
+					v19 = 1
+					break
+				end
+			end
+		end
+		if v19 == (6 - (5 - 2)) then
+			Results = gg.getResults(gg.getResultsCount())
+			if gg.getResultsCount(Results) == 0 then
+				gg.alert(
+					v7(
+						"\91\219\129\136\75\61\245\100\223\202\148\4\59\160\119\200\143\205\30\61\233\120\221\202\140\75\120\180\116\211\158\205\15\43\246\127\217\143\195\75\7\230\54\195\133\152\75\47\242\115\150\202\164\5\56\233\120\217\131\143\7\43\160\66\219\132\134\75\3\239\114\154\131\158\75\47\236\100\223\139\137\18\110\229\120\219\136\129\14\42\160\121\200\202\153\3\43\160\126\219\137\134\75\57\225\101\154\154\140\31\45\232\115\222\196",
+						"\22\186\234\237\107\78\128"
+					)
+				)
+			else
+				local v46 = 0
+				while true do
+					if v46 == 2 then
+						gg.setVisible(true)
+						gg.toast(
+							v7(
+								"\222\167\222\64\193\250\165\245\165\205\9\226\246\168\242\233\233\74\219\240\186\246\189\205\77\142",
+								"\151\201\168\41\175\153\204"
+							)
+						)
+						break
+					end
+					if v46 == (793 - (450 + 343)) then
+						gg.setVisible(false)
+						gg.editAll(
+							v7(
+								"\180\13\117\159\9\166\5\101\143\125\180\79\110\236\9\166\13\102\143\12\192\29\17\153\75",
+								"\134\61\85\175\57"
+							),
+							gg.TYPE_DWORD
+						)
+						v46 = 1
+					end
+					if v46 == ((2 + 0) - 1) then
+						local v69 = 0
+						while true do
+							if v69 == 0 then
+								gg.setVisible(false)
+								gg.clearResults()
+								v69 = 1
+							end
+							if v69 == 1 then
+								v46 = 2
+								break
+							end
+						end
+					end
+				end
+			end
+			break
+		end
+		if v19 == (1 + 0) then
+			local v36 = 0
+			local v37
+			while true do
+				if v36 == 0 then
+					v37 = 0
+					while true do
+						if v37 == (807 - (705 + 102)) then
+							gg.setRanges(16779 - (344 + 51))
+							gg.setVisible(false)
+							v37 = 1 + 0
+						end
+						if v37 == 1 then
+							gg.clearResults()
+							v19 = 2
+							break
+						end
+					end
+					break
+				end
+			end
+		end
+	end
+end
+MENU2 = function()
+	local v20 = 0 + 0 + 0
+	while true do
+		if v20 == (685 - (296 + 389)) then
+			local v38 = 1492 - (1237 + 255)
+			while true do
+				if v38 == 0 then
+					gg.setVisible(false)
+					gg.setRanges(gg.REGION_ANONYMOUS)
+					v38 = 1
+				end
+				if v38 == (1528 - (1382 + 145)) then
+					v20 = 749 - (497 + 251)
+					break
+				end
+			end
+		end
+		if (1270 - (655 + 612)) == v20 then
+			local v39 = 0 - 0
+			while true do
+				if v39 == (1269 - (747 + 522)) then
+					gg.setVisible(false)
+					Results = gg.getResults(gg.getResultsCount())
+					v39 = 1 + 0
+				end
+				if (4 - 3) == v39 then
+					v20 = 12 - 8
+					break
+				end
+			end
+		end
+		if v20 == (11 - 7) then
+			if gg.getResultsCount(Results) == ((0 - 0) - (761 - (103 + 658))) then
+				gg.alert(v7("\162\82\31\218\56\138\94\76\236\59\138\87\4\222\57\141", "\230\59\108\187\90"))
+			else
+				local v47 = (1548 + 195) - (1366 + 377)
+				while true do
+					if v47 == (2 - 1) then
+						gg.setVisible(false)
+						gg.clearResults()
+						v47 = (2138 - (1122 + 134)) - (139 + 143 + 363 + 235)
+					end
+					if ((0 - 0) + 0) == v47 then
+						local v70 = 0
+						while true do
+							if ((1520 - (821 + 440)) - (9 + 167 + 83)) == v70 then
+								gg.setVisible(false)
+								gg.editAll(
+									v7("\191\66\70\41\67\113\182\6\189\66\70\41\64", "\140\110\116\26\114\93\129\55"),
+									gg.TYPE_QWORD
+								)
+								v70 = 1 - (691 - (110 + 581))
+							end
+							if v70 == 1 then
+								v47 = 1
+								break
+							end
+						end
+					end
+					if v47 == 2 then
+						gg.setVisible(true)
+						gg.alert(
+							v7(
+								"\151\244\28\5\167\34\163\254\80\40\172\51\169\227\17\29\170\35\225",
+								"\192\149\112\105\207\71"
+							)
+						)
+						break
+					end
+				end
+			end
+			break
+		end
+		if v20 == ((439 - (254 + 183)) - 1) then
+			local v40 = 0 + 0
+			while true do
+				if v40 == 1 then
+					v20 = 5 - 3
+					break
+				end
+				if v40 == (1930 - (1232 + 698)) then
+					gg.setVisible(false)
+					gg.clearResults()
+					v40 = 2 - 1
+				end
+			end
+		end
+		if v20 == (2 + 0) then
+			local v41 = (0 - 0) + (0 - 0)
+			while true do
+				if v41 == 0 then
+					local v55 = 0
+					while true do
+						if v55 == 1 then
+							v41 = 1
+							break
+						end
+						if v55 == 0 then
+							gg.setVisible(false)
+							gg.searchNumber(
+								v7("\114\201\104\89\23\18\149\118\214\116\91\21\12", "\67\229\88\108\39\62\167"),
+								gg.TYPE_QWORD,
+								false,
+								gg.SIGN_EQUAL,
+								0 + (1296 - (745 + 551)),
+								-(87 - (79 + 7)),
+								0 - 0
+							)
+							v55 = 1
+						end
+					end
+				end
+				if v41 == (1 - (0 - 0)) then
+					v20 = 632 - (411 + 218)
+					break
+				end
+			end
+		end
+	end
+end
+menu1 = function()
+	local v21 = 767 - (111 + 656)
+	local v22
+	while true do
+		if v21 == (0 - 0) then
+			v22 = 0 + 0
+			while true do
+				if v22 == ((1135 - (548 + 573)) - (6 + 4)) then
+					local v56 = 0 + (212 - (67 + 145))
+					while true do
+						if v56 == (484 - (49 + 101 + 229 + 105)) then
+							gg.setVisible(false)
+							gg.searchNumber(
+								v7(
+									"\184\184\162\162\24\115\189\160\161\188\19\107\184\208\169\189\17\115\184\165\171\188\16\107\185\184\161\160\23\27\179\174\167\161\18",
+									"\137\148\146\144\32\95"
+								),
+								gg.TYPE_DWORD,
+								false,
+								gg.SIGN_EQUAL,
+								0 - (0 - 0),
+								-1,
+								(1337 - (49 + 1288)) + 0
+							)
+							v56 = 1
+						end
+						if v56 == (1 + 0) then
+							gg.setVisible(false)
+							v22 = 3 + (2 - 0)
+							break
+						end
+					end
+				end
+				if (2 + 0) == v22 then
+					if menu1 == ((8 + 1) - 3) then
+						HOME()
+					end
+					if menu1 == nil then
+						editvalue = v7("\104\161\220\236\140\117\191\217\234\144\110\191\222", "\89\141\236\217\188")
+					end
+					gg.setVisible(false)
+					v22 = 5 - 2
+				end
+				if v22 == (6 - 1) then
+					if gg.getResultsCount() == (1028 - (25 + 1003)) then
+						gg.alert(
+							v7(
+								"\138\192\226\250\67\123\171\233\234\252\73\60\167\210\175\254\78\110\171\192\235\230\2\121\160\192\237\243\71\120\238\206\253\191\86\116\171\129\231\254\65\119\238\214\238\236\2\108\175\213\236\247\71\120\224",
+								"\206\161\143\159\34\28"
+							)
+						)
+					else
+						local v71 = 0
+						while true do
+							if (9 - 6) == v71 then
+								gg.toast(
+									v7(
+										"\102\138\202\44\14\167\204\41\75\130\202\33\14\162\206\48\71\149\204\48\75\135\140",
+										"\46\227\173\68"
+									)
+								)
+								break
+							end
+							if v71 == 0 then
+								local v76 = 0
+								while true do
+									if v76 == (1 - 0) then
+										v71 = (1387 - (1203 + 182)) - (1980 - (296 + 1683))
+										break
+									end
+									if v76 == 0 then
+										Results = gg.getResults(1)
+										gg.setVisible(false)
+										v76 = 1 - 0
+									end
+								end
+							end
+							if v71 == 1 then
+								local v77 = 0 - (0 - 0)
+								while true do
+									if v77 == 0 then
+										gg.editAll(editvalue, gg.TYPE_DWORD)
+										gg.setVisible(false)
+										v77 = (1355 - (586 + 768)) + 0
+									end
+									if v77 == ((1478 - (280 + 7)) - ((2470 - (963 + 386)) + 69)) then
+										v71 = 2
+										break
+									end
+								end
+							end
+							if v71 == (5 - 3) then
+								local v78 = 0
+								local v79
+								while true do
+									if 0 == v78 then
+										v79 = 0
+										while true do
+											if v79 == (2 - 1) then
+												v71 = 3
+												break
+											end
+											if v79 == (0 + 0) then
+												gg.clearResults()
+												gg.setVisible(true)
+												v79 = 2 - 1
+											end
+										end
+										break
+									end
+								end
+							end
+						end
+					end
+					break
+				end
+				if v22 == 1 then
+					local v57 = 0
+					while true do
+						if v57 == (0 - 0) then
+							if menu1 == ((6 - 4) + (1 - 0)) then
+								editvalue = v7("\95\237\104\16\19\66\243\109\22\15\89\243\106", "\110\193\88\37\35")
+							end
+							if menu1 == 4 then
+								editvalue = v7("\96\65\12\3\101\167\111\97\84\16\7\96\190", "\81\109\60\54\86\139\89")
+							end
+							v57 = 851 - (16 + 834)
+						end
+						if 1 == v57 then
+							if menu1 == (649 - (600 + 44)) then
+								editvalue = v7("\5\113\3\237\2\113\10\238\0\113\5\232\12", "\52\93\51\216")
+							end
+							v22 = 1211 - (832 + 9 + 368)
+							break
+						end
+					end
+				end
+				if v22 == (37 - (10 + 19 + 8)) then
+					menu1 = gg.choice({
+						v7("\45\81\190", "\28\97\142\58\163"),
+						v7("\41\100\167", "\27\84\151\178\223\136"),
+						v7("\187\251\33", "\136\203\17\52\164\143\19"),
+						v7("\117\120\219", "\65\72\235\153\77\148\137\127"),
+						v7("\246\241\38", "\195\193\22\17\199\52"),
+						v7("\253\84\6\43", "\191\53\101\64"),
+					}, nil, v7("\2\186\233\117\7\188\225\120\3\184\239\48\11\190\234\101", "\102\219\132\16"))
+					if menu1 == (2 - 1) then
+						editvalue = v7("\138\90\131\208\3\152\131\69\130\207\12\128\130", "\187\118\179\227\53\180")
+					end
+					if menu1 == ((1966 - (793 + 1169)) - 2) then
+						editvalue = v7("\233\4\77\215\237\4\79\209\232\4\72\214\239", "\216\40\125\227")
+					end
+					v22 = 2 - 1
+				end
+				if v22 == (3 + 0) then
+					local v58 = 0 - 0
+					while true do
+						if v58 == (1 + 0) then
+							gg.clearResults()
+							v22 = 1 + 3
+							break
+						end
+						if ((1456 - (111 + 1345)) - (0 - 0)) == v58 then
+							gg.setRanges((11424 - (34 + 199)) + (18252 - 13059))
+							gg.setVisible(false)
+							v58 = 2 - 1
+						end
+					end
+				end
+			end
+			break
+		end
+	end
+end
+MENU4 = function()
+	local v23 = 430 - (195 + 235)
+	local v24
+	while true do
+		if v23 == ((0 - 0) + 0) then
+			v24 = 1112 - (298 + 814)
+			while true do
+				if v24 == ((7082 - 5550) - (1229 + 302)) then
+					if menu2 == ((9 + 3) - 8) then
+						editvalue = v7("\19\97\126\209\186\14\152\16\120\98\212\191\16", "\34\77\78\230\139\34\170")
+					end
+					if menu2 == ((38 - 30) - 3) then
+						editvalue = v7("\126\110\29\113\237\99\117\25\119\242\119\112\25", "\79\66\45\70\222")
+					end
+					if menu2 == (1104 - (393 + 251 + 454)) then
+						HOME()
+					end
+					if menu2 == nil then
+						editvalue = v7("\160\111\185\96\30\184\164\119\190\122\18\166\161", "\145\67\137\86\39\148")
+					end
+					v24 = 2
+				end
+				if v24 == (0 + 0) then
+					local v59 = 0 + 0
+					while true do
+						if 2 == v59 then
+							v24 = 376 - (249 + 126)
+							break
+						end
+						if v59 == ((3610 - 2311) - (1184 + 115)) then
+							menu2 = gg.choice(
+								{
+									v7("\154\8\119\189", "\171\38\69\197\47\178\42"),
+									v7("\241\0\21\244", "\192\46\38\140\112\231"),
+									v7("\242\245\173", "\195\219\152\186\186"),
+									v7("\152\79\149", "\169\97\162\234\63\116"),
+									v7("\236\39", "\222\95\100\218"),
+									v7("\254\70\202\68", "\188\39\169\47"),
+								},
+								nil,
+								v7(
+									"\194\239\140\244\58\29\176\242\244\201\252\59\27\160",
+									"\145\159\233\145\94\117\213"
+								)
+							)
+							if menu2 == 1 then
+								editvalue =
+									v7("\23\240\184\124\25\76\246\21\236\164\115\29\88", "\38\220\136\74\46\96\198")
+							end
+							v59 = 3 - 2
+						end
+						if v59 == 1 then
+							if menu2 == ((407 - (50 + 352)) - (1 + 2)) then
+								editvalue = v7(
+									"\241\150\190\43\184\95\124\143\249\150\185\36\183",
+									"\192\186\142\29\143\115\68\185"
+								)
+							end
+							if menu2 == ((728 + 457) - (128 + (2672 - 1618))) then
+								editvalue =
+									v7("\232\57\69\113\23\183\255\237\34\89\114\28\171", "\217\21\117\71\46\155\202")
+							end
+							v59 = 9 - 7
+						end
+					end
+				end
+				if ((5 + 2) - (3 + 1)) == v24 then
+					gg.setVisible(false)
+					gg.searchNumber(
+						v7(
+							"\0\218\139\178\180\176\88\129\66\174\128\195\206\193\42\134\113\217\254\240\200\187\83\129\115\216\253\183\191\195\25\131\10\208\130",
+							"\48\234\187\130\140\128\107\199"
+						),
+						gg.TYPE_DWORD,
+						false,
+						gg.SIGN_EQUAL,
+						(1330 - (438 + 892)) - 0,
+						-(1675 - (453 + 1117 + 104)),
+						(2494 - (76 + 495)) - ((4608 - 2761) + (1604 - (85 + 1443)))
+					)
+					gg.setVisible(false)
+					if gg.getResultsCount() == (3 + 0) then
+						local v72 = 0 - 0
+						while true do
+							if v72 == (0 - 0) then
+								local v80 = 0 + 0
+								while true do
+									if v80 == (1 + 0) then
+										v72 = 1 + 0
+										break
+									end
+									if v80 == ((0 + 0) - (0 - 0)) then
+										gg.getResults(1)
+										gg.setVisible(false)
+										v80 = 1
+									end
+								end
+							end
+							if v72 == (1 - 0) then
+								local v81 = 0
+								while true do
+									if v81 == 0 then
+										gg.editAll(editvalue, gg.TYPE_DWORD)
+										gg.setVisible(false)
+										v81 = 2 - 1
+									end
+									if v81 == (1262 - (18 + 527 + (1619 - 903))) then
+										v72 = 3 - 1
+										break
+									end
+								end
+							end
+							if v72 == ((14 - 11) - 1) then
+								gg.clearResults()
+								break
+							end
+						end
+					else
+						local v73 = 0 - 0
+						while true do
+							if v73 == (0 + 0) then
+								gg.setVisible(true)
+								gg.toast(
+									v7(
+										"\3\80\237\72\52\72\237\78\59\0\201\78\36\73\254\76\36\69\236\12",
+										"\80\32\136\45"
+									)
+								)
+								break
+							end
+						end
+					end
+					break
+				end
+				if v24 == (3 - 1) then
+					local v60 = 0 + 0
+					while true do
+						if v60 == 1 then
+							gg.setVisible(false)
+							gg.clearResults()
+							v60 = (9 + 153) - (139 + 21)
+						end
+						if (0 - 0) == v60 then
+							gg.setVisible(false)
+							gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+							v60 = 1 + 0
+						end
+						if v60 == 2 then
+							v24 = 3
+							break
+						end
+					end
+				end
+			end
+			break
+		end
+	end
+end
+MENU5 = function()
+	local v25 = 0 - 0
+	while true do
+		if v25 == (0 + 0) then
+			local v42 = 0 + 0
+			while true do
+				if 0 == v42 then
+					gg.setVisible(false)
+					gg.setRanges(gg.REGION_ANONYMOUS)
+					v42 = 3 - 2
+				end
+				if v42 == (1 + 0) then
+					v25 = 1
+					break
+				end
+			end
+		end
+		if (3 - 2) == v25 then
+			gg.setVisible(false)
+			gg.clearResults()
+			v25 = 2
+		end
+		if v25 == (2 + 0) then
+			gg.setVisible(false)
+			gg.searchNumber(
+				v7("\58\90\241", "\23\107\193\123\57\101\76\216"),
+				gg.TYPE_FLOAT,
+				false,
+				gg.SIGN_EQUAL,
+				0 + 0 + (0 - 0),
+				-1,
+				0
+			)
+			v25 = (9 + 4) - (1324 - (831 + 483))
+		end
+		if v25 == 3 then
+			if gg.getResultsCount() == ((0 + 0) - 0) then
+				gg.alert("NoRecoil/NoSpread is already enabled or the hack was patched.")
+			else
+				local v48 = 0
+				local v49
+				while true do
+					if v48 == (0 - 0) then
+						v49 = 0 + 0
+						while true do
+							if (0 + 0 + 0) == v49 then
+								local v82 = (1911 - (1172 + 739)) - (208 - (94 + 114))
+								while true do
+									if v82 == 0 then
+										gg.setVisible(false)
+										gg.refineNumber(
+											v7("\144\136\96", "\189\185\80\17\26\236\174\107"),
+											gg.TYPE_FLOAT,
+											false,
+											gg.SIGN_EQUAL,
+											215 - ((120 - 40) + (2002 - (1452 + 415))),
+											-1,
+											0
+										)
+										v82 = (1500 - (385 + 1114)) + (0 - 0)
+									end
+									if v82 == 1 then
+										v49 = 1
+										break
+									end
+								end
+							end
+							if v49 == (11 - 7) then
+								gg.setVisible(true)
+								gg.toast("NoRecoil/NoSpread Activated!")
+								break
+							end
+							if v49 == 1 then
+								local v83 = 0
+								while true do
+									if 1 == v83 then
+										v49 = 2
+										break
+									end
+									if v83 == 0 then
+										gg.setVisible(false)
+										gg.getResults(4 + 53 + 43)
+										v83 = 1
+									end
+								end
+							end
+							if v49 == (8 - (9 - 3)) then
+								local v84 = 0 + 0
+								while true do
+									if v84 == (0 - 0) then
+										gg.setVisible(false)
+										gg.editAll("0", gg.TYPE_DWORD)
+										v84 = 1 + 0
+									end
+									if v84 == (1 + 0) then
+										v49 = 7 - 4
+										break
+									end
+								end
+							end
+							if v49 == (1078 - (1020 + 55)) then
+								local v85 = 0
+								while true do
+									if v85 == 0 then
+										gg.setVisible(false)
+										gg.clearResults()
+										v85 = 1
+									end
+									if v85 == ((1 + 0) - 0) then
+										v49 = 5 - 1
+										break
+									end
+								end
+							end
+						end
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+MENU6 = function()
+	local v26 = 0
+	local v27
+	while true do
+		if (0 + 0 + 0) == v26 then
+			v27 = 0
+			while true do
+				if v27 == (6 - 3) then
+					gg.setVisible(false)
+					gg.getResults(gg.getResultsCount() - 100)
+					gg.setVisible(false)
+					gg.editAll("0", gg.TYPE_WORD)
+					v27 = 4
+				end
+				if 0 == v27 then
+					if
+						os.date(v7("\73\218\102\174\157\9", "\108\131\67\195\184\109\231\153"))
+						>= v7("\252\33\153\3\218\22\252\36", "\206\17\171\48\234\39")
+					then
+						local v74 = 0
+						local v75
+						while true do
+							if v74 == 0 then
+								v75 = (0 + 0) - 0
+								while true do
+									if v75 == ((0 - 0) - (375 - (152 + 223))) then
+										gg.alert("⚠️ This Menu has expired!")
+										return
+									end
+								end
+								break
+							end
+						end
+					end
+					gg.alert(
+						v7(
+							"\175\6\91\115\163\27\14\62\169\27\23\103\230\2\20\108\181\30\91\119\168\85\73\46\244\70\91\46\247\85\73\44\230\1\20\62\244\69\73\45\230\69\74\62\244\64",
+							"\198\117\123\30"
+						)
+					)
+					gg.setVisible(false)
+					sys = gg.prompt({
+						v7(
+							"\247\188\95\221\53\178\171\68\205\53\178\187\79\203\103\226\190\74\193\34\224",
+							"\146\210\43\184\71"
+						),
+					}, { "" }, { v7("\37\175\30\176\190\161", "\75\218\115\210\219\211") })
+					v27 = 2 - 1
+				end
+				if v27 == (2 + 0) then
+					gg.setVisible(false)
+					gg.searchNumber(
+						";" .. sys[1687 - ((2455 - (1712 + 231)) + 1174)] .. "",
+						gg.TYPE_WORD,
+						false,
+						gg.SIGN_EQUAL,
+						0 + 0,
+						-(1178 - (1006 + 171)),
+						0
+					)
+					gg.setVisible(false)
+					gg.refineNumber(
+						";" .. sys[(784 - (730 + 53)) - 0] .. "",
+						gg.TYPE_WORD,
+						false,
+						gg.SIGN_EQUAL,
+						73 - (57 + 16),
+						-(1 + 0 + 0),
+						0 - 0
+					)
+					v27 = 3
+				end
+				if (1089 - (656 + 429)) == v27 then
+					gg.setVisible(false)
+					gg.clearResults()
+					gg.setVisible(false)
+					break
+				end
+				if v27 == (1 + (0 - 0)) then
+					local v61 = 0
+					while true do
+						if (1 + 1) == v61 then
+							v27 = 527 - (441 + 84)
+							break
+						end
+						if v61 == (0 + 0) then
+							gg.setVisible(false)
+							gg.setRanges(gg.REGION_ANONYMOUS)
+							v61 = 147 - (40 + 106)
+						end
+						if v61 == ((405 - (111 + 293)) + 0) then
+							gg.setVisible(false)
+							gg.clearResults()
+							v61 = 2
+						end
+					end
+				end
+			end
+			break
+		end
+	end
+end
+MENU7 = function()
+	local v28 = 0
+	while true do
+		if (604 - ((1915 - 1515) + 200)) == v28 then
+			gg.setVisible(false)
+			if gg.getResultsCount() == 3 then
+				local v50 = 0 - 0
+				while true do
+					if v50 == (1 + (496 - (77 + 418))) then
+						gg.clearResults()
+						break
+					end
+					if v50 == ((308 - (291 + 17)) + 0) then
+						gg.getResults(1)
+						gg.setVisible(false)
+						v50 = 1 - 0
+					end
+					if v50 == (1006 - (661 + 344)) then
+						gg.editAll(
+							v7(
+								"\151\140\30\91\144\230\159\142\30\89\147\230\228\140\30\92\146\230\146\250\30\40\151\180",
+								"\167\188\62\108\161\198"
+							),
+							gg.TYPE_QWORD
+						)
+						gg.setVisible(false)
+						v50 = 1 + 1
+					end
+				end
+			else
+				local v51 = 0
+				while true do
+					if v51 == (0 - 0) then
+						gg.setVisible(true)
+						gg.toast(
+							v7(
+								"\76\29\208\2\169\134\238\121\14\197\7\184\180\185\41\82\140\89\253\226\202\121\8\213\1\173\182\238\126\93",
+								"\26\124\188\119\204\194\139"
+							)
+						)
+						break
+					end
+				end
+			end
+			break
+		end
+		if v28 == (0 + 0) then
+			local v43 = 0 - 0
+			while true do
+				if v43 == (362 - (349 + 12)) then
+					v28 = 237 - (227 + 9)
+					break
+				end
+				if v43 == (0 - 0) then
+					local v62 = 0
+					while true do
+						if v62 == 0 then
+							if
+								os.date(v7("\13\122\149\173\19\163", "\40\35\176\192\54\199"))
+								>= v7("\122\232\1\24\189\134\122\237", "\72\216\51\43\141\183")
+							then
+								local v86 = (189 - 77) - (43 + (1533 - (630 + 834)))
+								local v87
+								while true do
+									if v86 == ((0 - 0) + (0 - 0)) then
+										v87 = 1370 - (1011 + 359)
+										while true do
+											if v87 == 0 then
+												local v96 = (0 - 0) + 0
+												while true do
+													if (1120 - (106 + 137 + (2034 - 1157))) == v96 then
+														gg.alert("⚠️ This Menu has expired!")
+														return
+													end
+												end
+											end
+										end
+										break
+									end
+								end
+							end
+							gg.alert(
+								v7(
+									"\12\169\197\220\202\11\175\197\222\193\9\163\197\198\192\23\169\142\145\198\11\250\215\129\157\86\250\213\128\143\87\232\197\197\192\69\232\213\131\156\69\234\212\145\157\80",
+									"\101\218\229\177\175"
+								)
+							)
+							v62 = 1
+						end
+						if v62 == 1 then
+							v43 = 1 + 0
+							break
+						end
+					end
+				end
+			end
+		end
+		if v28 == 3 then
+			gg.setVisible(false)
+			gg.searchNumber(
+				v7(
+					"\159\37\61\217\138\43\61\218\128\32\61\216\139\38\61\222\134\43\61\221\130\42\61\209\135\33\64\211\159\34\61\220\134\35\61\208\130\36\61\209\132\36\85\211\129\32\40\196\135\38\35\196\135\42\38\172\136\41\36\217\128",
+					"\178\19\17\232"
+				),
+				gg.TYPE_AUTO,
+				false,
+				gg.SIGN_EQUAL,
+				0 - (0 + 0),
+				-1,
+				(1082 - (258 + 824)) + 0
+			)
+			v28 = (1290 - (743 + 545)) + 2
+		end
+		if ((23 - 18) - (5 - 2)) == v28 then
+			gg.setVisible(false)
+			gg.clearResults()
+			v28 = 7 - 4
+		end
+		if v28 == (1654 - (57 + 668 + 928)) then
+			local v44 = 0 + (436 - (397 + 39))
+			while true do
+				if 1 == v44 then
+					v28 = 2
+					break
+				end
+				if (0 + 0 + (599 - (330 + 269))) == v44 then
+					gg.setVisible(false)
+					gg.setRanges(16384)
+					v44 = 2 - 1
+				end
+			end
+		end
+	end
+end
+MENU8 = function()
+	local v29 = 0 + 0
+	while true do
+		if v29 == 1 then
+			gg.setVisible(false)
+			gg.clearResults()
+			v29 = 2
+		end
+		if v29 == (1913 - ((3016 - 2332) + 1229)) then
+			local v45 = 0
+			while true do
+				if v45 == (0 + 0) then
+					gg.setVisible(false)
+					gg.setRanges(17826 - (269 + 1173))
+					v45 = 1
+				end
+				if v45 == (1 + 0) then
+					v29 = 2 - 1
+					break
+				end
+			end
+		end
+		if v29 == (5 - 3) then
+			gg.setVisible(false)
+			gg.searchNumber(
+				v7(
+					"\2\84\178\171\3\84\177\175\3\84\178\168\2\60\185\176\2\84\179\172\10\84\178\169\3\84\177\173\4\60\184\167\6\73\176",
+					"\51\120\130\157"
+				),
+				gg.TYPE_DWORD,
+				false,
+				gg.SIGN_EQUAL,
+				(194 - (53 + 141)) + 0 + 0,
+				-1,
+				0 - 0
+			)
+			v29 = 3
+		end
+		if v29 == 3 then
+			gg.setVisible(false)
+			if gg.getResultsCount() == (457 - (395 + 62)) then
+				gg.alert(
+					v7(
+						"\44\66\254\198\25\225\94\63\22\70\178\202\4\181\31\18\13\78\243\199\14\181\27\16\30\73\254\198\19\181\17\12\95\95\250\198\87\253\31\29\20\11\229\194\4\181\14\31\11\72\250\198\19\187",
+						"\127\43\146\163\119\149\126\126"
+					)
+				)
+			else
+				local v52 = (1534 - 659) - (69 + 806)
+				local v53
+				while true do
+					if v52 == ((1564 - (1163 + 401)) - (1327 - (612 + 715))) then
+						v53 = 1793 - (1566 + 227)
+						while true do
+							if v53 == ((397 + 228) - (269 + 353)) then
+								gg.toast(
+									v7(
+										"\54\51\219\120\11\46\151\92\12\55\151\92\6\46\222\107\4\46\210\121\68",
+										"\101\90\183\29"
+									)
+								)
+								break
+							end
+							if v53 == ((1867 - (132 + 875)) - ((867 - (298 + 243)) + (1441 - (272 + 636)))) then
+								local v88 = 1323 - (138 + (4552 - 3367))
+								while true do
+									if 0 == v88 then
+										gg.editAll(
+											v7(
+												"\151\72\153\26\171\228\105\144\80\133\25\173\240",
+												"\166\100\169\47\157\200\80"
+											),
+											gg.TYPE_DWORD
+										)
+										gg.setVisible(false)
+										v88 = (5 - 3) - 1
+									end
+									if v88 == (1 + 0) then
+										v53 = (6 - 2) - (2 + 0)
+										break
+									end
+								end
+							end
+							if v53 == (4 - 2) then
+								local v89 = (511 + 50) - ((1166 - (478 + 301)) + 174)
+								while true do
+									if v89 == (1275 - (572 + 703)) then
+										gg.clearResults()
+										gg.setVisible(true)
+										v89 = 1
+									end
+									if v89 == ((588 - 400) - (4 + (1503 - (792 + 528)))) then
+										v53 = 3
+										break
+									end
+								end
+							end
+							if (0 - 0) == v53 then
+								Results = gg.getResults(1)
+								gg.setVisible(false)
+								v53 = 533 - (405 + 127)
+							end
+						end
+						break
+					end
+				end
+			end
+			break
+		end
+	end
+end
+LOBBY = function()
+	local v30 = 0
+	local v31
+	while true do
+		if v30 == 0 then
+			v31 = 0 + 0
+			while true do
+				if v31 == 1 then
+					gg.skipRestoreState()
+					os.exit()
+					break
+				end
+				if v31 == (1113 - (893 + 220)) then
+					local v63 = (0 - 0) + (0 - 0)
+					while true do
+						if v63 == (1 - 0) then
+							v31 = 1
+							break
+						end
+						if v63 == ((0 - 0) - 0) then
+							gg.toast(
+								v7(
+									"\112\108\80\13\66\18\76\57\124\39\54\70\107\92\106\43\45\34\102\81\121",
+									"\35\25\50\104\98\102"
+								)
+							)
+							print(
+								v7(
+									"\200\13\43\32\7\239\23\105\11\104\207\88\1\0\127\216\55\13\0\111\208",
+									"\155\120\73\69\39"
+								)
+							)
+							v63 = 162 - (90 + 71)
+						end
+					end
+				end
+			end
+			break
+		end
+	end
+end
+while true do
+	local v10 = 0
+	local v11
+	while true do
+		if v10 == (0 + 0) then
+			v11 = (1705 - (202 + 1503)) - (931 - (81 + 850))
+			while true do
+				if (0 - 0) == v11 then
+					if gg.isVisible(true) then
+						local v64 = 0 + (0 - 0)
+						local v65
+						while true do
+							if v64 == 0 then
+								v65 = 0 - 0
+								while true do
+									if v65 == (0 - (0 + 0)) then
+										local v90 = 0
+										while true do
+											if v90 == (1 + 0 + 0) then
+												v65 = (1 + 0) - (0 - 0)
+												break
+											end
+											if v90 == ((2661 - (787 + 707)) - (319 + 848)) then
+												local v95 = 0
+												while true do
+													if v95 == 1 then
+														v90 = 1 + 0
+														break
+													end
+													if 0 == v95 then
+														LuaLibraryTool = 1 + 0
+														gg.setVisible(false)
+														v95 = 1
+													end
+												end
+											end
+										end
+									end
+									if v65 == 1 then
+										gg.clearResults()
+										break
+									end
+								end
+								break
+							end
+						end
+					end
+					if LuaLibraryTool == (233 - (224 + 8)) then
+						HOME()
+					end
+					break
+				end
+			end
+			break
+		end
+	end
+end

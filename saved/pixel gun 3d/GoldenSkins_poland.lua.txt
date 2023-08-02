@@ -1,0 +1,28 @@
+if gg.isVisible(true) then
+	gg.setVisible(false)
+	gg.clearResults(true)
+	goto START
+	::START::
+
+	menu = gg.choice({ "Any Gold Skin ", "EXIT" }, nil, "created by Poland")
+
+	if menu == 1 then
+		goto f1
+	end
+end
+
+goto noselect
+
+::f1::
+gg.clearResults()
+gg.searchNumber(";Gold", gg.TYPE_WORD, false, gg.SIGN_EQUAL, 0, -1, 0)
+revert = gg.getResults(3000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.editAll("1", gg.TYPE_WORD)
+gg.clearResults()
+gg.alert("If you want your weapons to be functional, reset the game")
+
+::sdone::
+os.exit()
+
+::noselect::
+print("okay")
